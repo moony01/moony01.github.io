@@ -1,0 +1,7 @@
+title: Your awesome title
+email: your-email@example.com
+description: hello world!
+baseurl: ""
+url: "" 
+plugins:
+  - jekyll-feed
