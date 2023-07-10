@@ -1,10 +1,10 @@
-title: all
-description: My Personal Stack Problems
+title: moony01 IT Blog
+description: 프로그래밍, 알고리즘, 자료구조, 운영체제, 네트워크, 데이터베이스 등 IT 정보를 공유하는 블로그입니다.
 author: moony01
 github: https://github.com/moony01
-# about: 웹 개발자입니다.
-disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
+about: 프로그래밍, 알고리즘, 자료구조, 운영체제, 네트워크, 데이터베이스 등 IT 정보를 공유하는 블로그입니다.
+disqus_shortname: moony01 IT Blog
+google_analytics: UA-170624555-1
 avatar_url: /static/img/avatar.jpg
 
 enableTags: true
@@ -30,7 +30,7 @@ social:
       link: "https://codepen.io/hanmoonhee/"
 
 share:
-  twitter_username: github.io
+  twitter_username: moony01.github.io
   fb_appid: 1749788565247320
 
 urls:
@@ -40,8 +40,8 @@ urls:
     #  url: /projects/
     - text: Category
       url: /category/common
-    # - text: XML Feed
-    #   url: /feed.xml
+    - text: XML Feed
+      url: /feed.xml
 
 url: "https://moony01.github.io"
 baseurl: ""
