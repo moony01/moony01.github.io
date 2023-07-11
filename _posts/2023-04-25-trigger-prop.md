@@ -2,6 +2,8 @@
 layout: post
 title:  "제이쿼리 라이브러리에서 제공하는 trigger와 prop 함수의 사용법과 차이점을 알아보자"
 date:   2023-04-25 00:00:00 +0700
+redirect_from:
+  - /common/javascript/2023/04/24/trigger-prop.html
 categories: [javascript]
 ---
 

@@ -2,6 +2,8 @@
 layout: post
 title:  "미들웨어(middleware)란 무엇인가?"
 date:   2023-04-09 00:00:00 +0700
+redirect_from:
+  - /common/infra/2023/04/08/middleWare.html
 categories: [infra]
 ---
 
