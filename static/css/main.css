@@ -1,5 +1,5 @@
 body {
-  font-family: "NanumBarunGothic", Arial, sans-serif;
+  font-family: "Roboto Condensed", Arial, sans-serif;
   background: url("/static/img/subtle_dots.png");
   line-height: 1.5em;
   font-weight: 300;
@@ -17,6 +17,7 @@ span.time, span.categories {
   color: #ADADAD;
   margin-bottom: 5px;
   font-size: 11px;
+  text-transform: uppercase;
 }
 h1, h2, h3 {
   color: #696969;
@@ -65,9 +66,7 @@ div.content pre {
   font-size: 12px;
   border: none;
 }
-div.content .highlight {
-	background: #333333;
-}
+
 footer {
   border-top: 1px solid #F7F1F1;
   width: 100%;
@@ -79,6 +78,9 @@ footer {
   font-size: 11px;
   bottom: 0;
   padding-bottom: 10px;
+}
+div.post-content .btn-tags {
+  margin-bottom: 3px;
 }
 
 /* Left column */
@@ -96,20 +98,11 @@ div.col-sm-3 div.profile-about {
   margin-top: 10px;
   color: #8C8C8C;
 }
-div.col-sm-3 img.profile-avatar {
-  border-radius: 150px;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150px;
-  -ms-border-radius: 150px;
-  -o-border-radius: 150px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 /* Pagination */
 .PageNavigation {
   font-size: 14px;
-  display: none;
+  display: block;
   width: auto;
   overflow: hidden;
 }
@@ -162,7 +155,7 @@ div.col-sm-3 img.profile-avatar {
 @media (min-width: 1024px) {
   .fixed-condition {
     position: fixed;
-    max-width: 200px;
+    max-width: 255px;
   }
 }
 @media (max-width: 768px) {

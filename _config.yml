@@ -5,7 +5,6 @@ github: https://github.com/moony01
 about: 프로그래밍, 알고리즘, 자료구조, 운영체제, 네트워크, 데이터베이스 등 IT 정보를 공유하는 블로그입니다.
 disqus_shortname: moony01 IT Blog
 google_analytics: UA-170624555-1
-avatar_url: /static/img/avatar.jpg
 
 enableTags: true
 tagarray: []
@@ -26,34 +25,28 @@ social:
     #   link: "#"
     - icon: fa-github
       link: "https://github.com/moony01"
-    - icon: fa-codepen
-      link: "https://codepen.io/hanmoonhee/"
 
-share:
-  twitter_username: moony01.github.io
-  fb_appid: 1749788565247320
+# share:
+  # twitter_username: github.io
+  # fb_appid: 1749788565247320
 
 urls:
     - text: About Me
       url: /about/
-    #- text: My Projects
-    #  url: /projects/
-    - text: Category
-      url: /category/common
+    - text: My Projects
+      url: /projects/
     - text: XML Feed
       url: /feed.xml
 
 url: "https://moony01.github.io"
 baseurl: ""
-paginate: 10
+paginate: 20
 per_page: 20
-# paginator_path: "/category/page:num/"
 paginate_path: "/page/:num/"
 markdown: kramdown
 gems:
   - jekyll-paginate
   - jekyll-gist
-  - jekyll-redirect-from
 
 compress_html:
   clippings: all
@@ -61,6 +54,3 @@ compress_html:
   endings: all
   ignore:
     envs: ['development']
-
-plugins:
-  - jekyll-paginate
