@@ -2,7 +2,7 @@
 layout: post
 title:  "ORACLE SE(Standard Edition)과 EE(Enterprise Edition)의 차이 그리고 XE(Express Edition)은 뭘까?"
 date:   2023-05-01 00:00:00 +0700
-categories: [common, dataBase, infra]
+categories: [database]
 ---
 
 글을 본격적으로 작성하기 전에 나는 작업을 하든 공부를 하든 오라클 데이터베이스를 설치할때 인터넷에서 검색해서 그대로 따라서 설치하던가 회사에서는 가이드 대로 환경을 세팅했습니다. 이번에 오라클 데이터베이스를 다시 설치하려고 하는데 항상 설치할 때부터 햇갈리고 무엇을 설치해야 할지 몰랐던 오라클 데이터베이스 버전들을 정리하고 짚고 넘어가 볼까 합니다.

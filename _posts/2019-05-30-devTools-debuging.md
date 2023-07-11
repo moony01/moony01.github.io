@@ -2,9 +2,7 @@
 layout: post
 title:  "크롬개발자도구로 효율적으로 디버깅하는방법(basic편)"
 date:   2019-05-30 00:00:00 +0700
-redirect_from:
-  - /common/devtools/2019/05/29/devTools-debuging.html
-categories: [common, tools]
+categories: [browser]
 ---
 <br />
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "미들웨어(middleware)란 무엇인가?"
 date:   2023-04-09 00:00:00 +0700
-categories: [common, infra]
+categories: [infra]
 ---
 
 미들웨어(Middleware) 란?

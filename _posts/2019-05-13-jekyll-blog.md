@@ -5,7 +5,7 @@ title:  "윈도우에서 루비를 이용하여 지킬설치 및 블로그 생�
 date:   2019-05-13 00:00:00 +0700
 redirect_from:
   - /common/markdown/2019/05/20/markdown(1).html
-categories: [common, jekyll]
+categories: [jekyll]
 ---
 
 <br />
