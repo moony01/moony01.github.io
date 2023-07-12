@@ -2,6 +2,8 @@
 layout: post
 title:  "ORACLE SE(Standard Edition)과 EE(Enterprise Edition)의 차이 그리고 XE(Express Edition)은 뭘까?"
 date:   2023-05-01 00:00:00 +0700
+redirect_from:
+  - /common/database/infra/2023/04/30/oracle_databse_edition.html
 categories: [database]
 ---
 
