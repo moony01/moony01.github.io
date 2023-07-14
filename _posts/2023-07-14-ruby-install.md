@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Windows에서 프로그래밍 언어 Ruby 설치하고 Ruby의 출시 과정 대해 간략하게 알아보자"
+title: "Windows에서 프로그래밍 언어 Ruby 설치하고 Ruby의 역사에 대해 간략하게 알아보자"
 date: 2023-07-14 00:00:00 +0700
 categories: [ruby]
 ---
