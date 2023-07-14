@@ -27,7 +27,14 @@ h1 {
   margin-bottom: 10px;
   font-size: 25px;
 }
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 18px;
+}
 h2, h3 {
+  font-family: 'Noto Sans KR', sans-serif;
   margin-bottom: 5px;
 }
 a, a:link, a:active {
@@ -38,7 +45,10 @@ a:hover {
   color: #B3B3B3;
   text-decoration: underline;
 }
-
+blockquote {
+  background-color: #f7f7f7;
+  border-left: 5px solid #ebebeb;
+}
 /* Layout */
 .main-layout {
   background: #fff;
@@ -81,6 +91,9 @@ footer {
 }
 div.post-content .btn-tags {
   margin-bottom: 3px;
+}
+div.post p {
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 /* Left column */
@@ -145,10 +158,11 @@ div.col-sm-3 div.profile-about {
   padding: 10px 10px 5px;
   border-top: 1px solid #f0f0f0;
   border-bottom: 1px solid #f0f0f0;
-}
+}s
 .post-content img,
 .content img {
-  max-width: 100%
+  max-width: 100%;
+  border: 1px solid #ebebeb;
 }
 
 /* Responsive Conditional */
