@@ -165,6 +165,12 @@ div.col-sm-3 div.profile-about {
   border: 1px solid #ebebeb;
 }
 
+.author-name {
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 400;
+}
+
 /* Responsive Conditional */
 @media (min-width: 1024px) {
   .fixed-condition {
