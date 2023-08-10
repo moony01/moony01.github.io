@@ -23,6 +23,8 @@ $('#myButton').trigger('click');
 
 위 예제 코드에서는 #myButton이라는 ID를 가진 버튼 요소에 click 이벤트를 강제로 발생시키고 있습니다.
 
+{% include pre-version.html %}
+
 ## prop 함수
 
 jQuery의 prop 함수는 HTML 요소의 프로퍼티 값을 가져오거나 설정할 때 사용됩니다. 예를 들어, 체크박스 요소의 체크 상태를 가져오거나 설정할 때 사용됩니다. 

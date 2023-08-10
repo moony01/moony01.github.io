@@ -16,6 +16,8 @@ categories: [browser]
 
 ----
 
+{% include pre-version.html %}
+
 ## 1. 디버깅, 크롬 개발자도구란?
 ### 디버깅이란?
 ![debug_01](https://user-images.githubusercontent.com/36956285/58610034-fa990f00-82e4-11e9-95b0-fbeb223b0913.PNG)
@@ -39,6 +41,8 @@ categories: [browser]
 ### 1. Breakpoints(중단점 걸기)
 
 원하는 결과값으로 수정하기 위해서는 이벤트가 발생하는 시점에 **breakpoints**를 걸어 데이터가 코드로부터 어떻게 반응하고 데이터가 어디로 어떻게 전송되는지 확인해야합니다. 중단점을 특정 이벤트에 부여할수는 있지만 만약 코드가 복잡하거나 자신에게 익숙하지 않은 코드라면 직접 부여하기가 쉽지 않을것입니다.
+
+{% include pre-version.html %}
 
 하지만 크롬 개발자도구에는 글로벌한 이벤트에 대하여 중단점을 만들 수 있는 기능이 있습니다. 위 예제의 경우 `submit` 이벤트에 중단점을 생성해야합니다. 아래 이미지처럼 이벤트 중단점에 체크해줍니다.
 
@@ -91,6 +95,7 @@ categories: [browser]
 </blockquote>
 ```
 
+{% include pre-version.html %}
 
 3. 코드를 입력하여 `postHtml` 값의 코드를 수정해줍니다. 수정이 끝났으면 남은 `submit` 이벤트를 ![](https://subicura.com/assets/article_images/2018-02-14-javascript-debugging/resume-script-execution.png) 클릭하여 실행합니다.
 
