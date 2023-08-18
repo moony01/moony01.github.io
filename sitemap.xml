@@ -26,5 +26,12 @@ layout: null
         {% endfor %}
       </item>
     {% endfor %}
+      <item>
+        <title>케이팝 얼굴상 테스트</title>
+        <description>인공지능을 이용한 케이팝 소속사 얼굴상 테스트</description>
+        <pubDate>Fri, 18 Aug 2023 17:00:00 +0000</pubDate>
+        <link>https://moony01.com/kpopface/</link>
+        <guid isPermaLink="true">https://moony01.com/kpopface/</guid>
+      </item>
   </channel>
 </rss>
