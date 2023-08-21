@@ -4,7 +4,7 @@ title: 게시자 콘텐츠가 없는 화면에 Google 게재 광고 해결방법
 date: 2023-08-21 00:00:00 +0700 
 categories: [marketing]
 ---
-저는 약 한달 가량 [MBTI AI CHAT](https://mbtichat.info/){:target="_blank"} 이라는 웹 어플리케이션을 개발했습니다. 그런데 구글 애드센스 승인이 떨어지지 않아서 아직 마케팅도 못하고있는 대참사가 이루어지고 있습니다. 애드센스 승인 거절 메시지는 크게 두가지 메시지가 있네요. 첫번째 `게시자 콘텐츠가 없는 화면에 Google 게재 광고` 두번째 `가치가 별로 없는 콘텐츠` 이 대표 두개 메시지의 리스트중 첫번째 메시지 `게시자 콘텐츠가 없는 화면에 Google 게재 광고`의 리스트를 집중 분석해서 아주 간단하게 정리해보겠습니다.
+저는 약 한달 가량 [MBTI AI CHAT](https://mbtichat.info/){:target="_blank"} 이라는 웹 어플리케이션을 개발했습니다. 그런데 구글 애드센스 승인이 떨어지지 않아서 아직 마케팅도 못하고있는 대참사가 이루어지고 있습니다. 애드센스 승인 거절 메시지는 크게 두가지 메시지가 있네요. 첫번째 **게시자 콘텐츠가 없는 화면에 Google 게재 광고** 두번째 **가치가 별로 없는 콘텐츠** 이 대표 두개 메시지의 리스트중 첫번째 메시지 **게시자 콘텐츠가 없는 화면에 Google 게재 광고**ㄴ의 리스트를 집중 분석해서 아주 간단하게 정리해보겠습니다.
 
 <div>
 <ins class="adsbygoogle"
@@ -48,7 +48,7 @@ categories: [marketing]
 ## 아직 준비 중인 화면.
 이 메시지는 아직 미완성 상태인 화면이라고 만 공식 문서에 나와있습니다. 다른 추가 공식 문서의 내용들을 전체적으로 읽어보고 요약해 보겠습니다.
 
-![게시자 콘텐츠가 없는 화면에 Google 게재 광고](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/google-adsense-fail/google-adsense-fail-3.webp){: .wd100}
+![게시자 콘텐츠가 없는 화면에 Google 게재 광고](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/google-adsense-fail/google-adsense-fail-3.webp){: .wd80}
 
 1. 애드센스 구글 로봇은 우리들의 홈페이지를 검토할때 감사 인사 페이지, 로그인 페이지, 종료 페이지, 오류 페이지 등을 아직 준비 중이거나 미완성 상태인 화면으로 인식하는거 같습니다. 여러분들의 블로그나 홈페이지에 위와 같은 페이지에 광고 코드가 들어가있나요? 그렇다면 해당 페이지에는 광고 코드를 제거하는게 좋을거 같습니다.
 
@@ -59,7 +59,7 @@ categories: [marketing]
 ## 알림, 이동 또는 기타 행동 목적으로 사용되는 화면.
 이 메시지 또한 감사 인사 페이지, 로그인 페이지, 종료 페이지, 오류 페이지와 같은 맥락으로 볼수 있겠네요. 결론은 나만의 고유 고품질의 콘텐츠에만 광고를 달라는 뜻이라고 간단 요약할 수 있겠습니다.
 
-![게시자 콘텐츠가 없는 화면에 Google 게재 광고](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/google-adsense-fail/google-adsense-fail-2.webp){: .wd100}
+![게시자 콘텐츠가 없는 화면에 Google 게재 광고](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/google-adsense-fail/google-adsense-fail-2.webp){: .wd80}
 
 ## 자세한 내용은 다음 자료를 참고하세요.(자세한 문서 요약)
 자세하게 나와있는 문서가 있는데요 전체적인 내용을 아주 간략하게 요약해보겠습니다. 
