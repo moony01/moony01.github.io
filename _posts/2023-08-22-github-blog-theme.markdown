@@ -62,9 +62,9 @@ categories: [github]
 
 ![깃허브 블로그에 테마 적용하기](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/github-blog-theme/github-blog-theme-5.webp)
 
-1. Gemfile에 아래 코드를 추가하라는 말입니다.
-
 ![깃허브 블로그에 테마 적용하기](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/github-blog-theme/github-blog-theme-6.webp)
+
+1. Gemfile에 아래 코드를 추가하라는 말입니다.
 
 2. _config.yml에 아래 코드를 입력하라는건데 파일을 확인해보니 설치가 되어있습니다.
 
