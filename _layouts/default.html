@@ -111,6 +111,13 @@ layout: compress
         gtag('config', '{{ site.google_analytics }}');
       </script>
     {% endif %}
+    <script>
+      function bannerClick(name) {
+        if(name == "kpopface") {
+          location.href="/kpopface/"
+        }
+      }
+    </script>
   </head>
   <body>
     <div class="container">
@@ -133,6 +140,9 @@ layout: compress
           <div class="search" id="js-search">
             <input type="text" placeholder="(sitemap)~$ type to search" class="search__input form-control" id="js-search__input">
             <ul class="search__results" id="js-search__results"></ul>
+          </div>
+          <div class="banner" id="kpopface" onclick="bannerClick('kpopface')">
+            <img src="/static/img/banner-kpopface.jpg" alt="케이팝 얼굴상 테스트 바로가기">
           </div>
           <hr />
           <ul class="sidebar-nav">
