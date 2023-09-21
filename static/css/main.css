@@ -68,6 +68,9 @@ blockquote {
 .wd100 {
   width: 100%;
 }
+.wd70 {
+  width: 70%;
+}
 /* Content */
 div.content pre {
   background: #333333;
