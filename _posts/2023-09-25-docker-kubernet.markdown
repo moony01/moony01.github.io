@@ -13,7 +13,7 @@ categories: [news]
 2. Kubernet 은 무엇인가요?
 3. 왜 두가지 모두 알아야하나요?
 
-![ Docker와 Kubernet](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/docker-kubernet.webp)
+![Docker와 Kubernet](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/docker-kubernet.webp){: .wd70}
 
 ## Docker 란 무엇인가요?
 Docker 는 리눅스 기반의 오픈소스 플랫폼으로서 개발자에게 편리한 환경을 제공하며, 여러 대의 서버를 동시에 배포하거나 클라우드 서비스를 구축할 수 있도록 도와줍니다. 또한 다른 종류의 도커 엔진 중에서는 윈도우에서도 돌아가는 버전도 존재하므로 다양한 곳에서 활용되고 있습니다.
