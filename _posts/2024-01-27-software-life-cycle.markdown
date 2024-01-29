@@ -48,13 +48,13 @@ categories: [se]
 ![나선형 모형](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/SpiralModel.png){: .wd70}
 
 ## 애자일 모형(Agile Model)
-우선 애자일(Agile)의 뜻은 **민첩한**, **기만한** 이라는 의미이다. 고로 애자일 모형은 고객의 요구사항 변화에 유연하게 대응할수 있도록 일정한 주기를 반복하면서 개발과정을 진행한다. (쓰레기 같은 개발 모델이다. 대충 폭포수 모델과 정반대의 모델이라고 알고있음 될듯) 
+우선 애자일(Agile)의 뜻은 **민첩한**, **기만한** 이라는 의미이다. 고로 애자일 모형은 고객의 요구사항 변화에 유연하게 대응할수 있도록 일정한 주기를 반복하면서 개발과정을 진행한다. (대충 폭포수 모델과 정반대의 모델이라고 알고있음 될듯) 
 
 > 특징
 * 애자일 모형은 특정 개발 방법론이 아닌 그저 빠르고 낭비 없게 만들기 위해 고객과의 소통에 초점을 맞춘 방법론을 통칭한다.
 * 스프린트(Sprint) 또는 이터레이션(Iteration)이라고 불리는 짧은 개발 주기를 반복하며 만들어지는 결과물에 대한 고객의 평가와 요구를 적극 수용한다.
 * 소규모 프로젝트, 고도로 숙달된 개발자, 급변하는 요구사항에 적합하다.
-* 애자일 모형을 기반으로 하는 소프트웨어 개발 모형에는 `스크럼(Scrum)`, `XP(eXtreme Programming)`, 칸반(Kanban), Lean, 크리스탈(Crystal), ASD(Adaptive Software Development), FDD(Feature Driven Development), DSDM(Dynamic System Development Method), DAD(Disciplined Agile Delivery) 등이 있다는데 대충 넘어가자
+* 애자일 모형을 기반으로 하는 소프트웨어 개발 모형에는 `스크럼(Scrum)`, `XP(eXtreme Programming)`, 칸반(Kanban), Lean, 크리스탈(Crystal), ASD(Adaptive Software Development), FDD(Feature Driven Development), DSDM(Dynamic System Development Method), DAD(Disciplined Agile Delivery) 등이 있다는데 우선 넘어가자
 
 {% include pre-version.html %}
 
@@ -68,7 +68,7 @@ categories: [se]
 
 ### 애자일 개발 12가지 실행 지침
 1. 유용한 소프트웨어를 빠르고 지속적으로 제공하여 고객을 만족시킨다.
-2. 개발 막바지라도 요구사항 변경을 적극 수용한다.(?)
+2. 개발 막바지라도 요구사항 변경을 적극 수용한다.
 3. 몇 개월이 아닌 몇 주 단위로 실행되는 소프트웨어를 제공한다.
 4. 고객과 개발자가 프로젝트 기간에 함께 일한다.
 5. 개발에 대한 참여 의지가 확실한 사람들로 팀을 구성하고 필요한 개발 환경과 지원을 제공하며 일을 잘 끝낼 수 있도록 신뢰한다.
