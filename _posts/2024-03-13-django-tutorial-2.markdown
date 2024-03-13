@@ -29,6 +29,7 @@ py manage.py runserver
 ```shell
 py manage.py startapp polls
 ```
+{% include pre-version.html %}
 
 첫 번째 뷰 작성하기
 첫 번째 뷰를 작성해봅시다. “polls/view.py”를 열어 다음과 같은 파이썬 코드를 입력합니다
