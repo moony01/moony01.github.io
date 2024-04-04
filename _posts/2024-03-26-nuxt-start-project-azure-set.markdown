@@ -2,7 +2,7 @@
 layout: post
 title: 'Nuxt 프로젝트 생성 및 Azure 환경에 최적화'
 date: 2024-03-26 00:00:00 +0700 
-categories: [nuxt]
+categories: [vue]
 ---
 
 Nuxt.js는 Vue.js를 기반으로 한 프레임워크로서, 서버 사이드 렌더링(SSR), 정적 사이트 생성(SSG), 싱글 페이지 애플리케이션(SPA) 등 다양한 방식으로 웹 애플리케이션을 개발할 수 있도록 도와준다.
