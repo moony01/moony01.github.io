@@ -56,18 +56,6 @@ categories: [marketing]
 3. 콘텐츠 기반이 아닌 페이지에 광고를 개제하지 말아라
 4. SEO(검색 엔진 최적화)를 하여라
 
-<div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8955182453510440"
-     data-ad-slot="3812652964"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-</div>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ## 가치가 별로 없는 콘텐츠
 저의 승인 실패 메시지에는 추가적으로 `가치가 별로 없는 콘텐츠` 라고 되어있습니다. 이 또한 공식 문서들을 위에 없던 내용들만 추려서 정리해보면 
 1. 불법 콘텐츠를 생성하지말아라
@@ -87,5 +75,17 @@ categories: [marketing]
 6. SEO(검색 엔진 최적화)를 하여라
 7. 불법 콘텐츠를 생성하지말아라
 8. 고유한 콘텐츠를 충분히 제공해라(필자 포스팅 10개~15개 생성후 다시 승인 요청 예정)
+
+<div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8955182453510440"
+     data-ad-slot="3812652964"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+</div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 최종 정리를 해보니 제가 만든 [MBTI AI CHAT](https://mbtichat.info/){:target="_blank"} 의 경우 두가지가 걸렸습니다. 바로 4번, 8번 입니다. 처음에는 이 앱을 언어별로 페이지를 AI에게 번역해달라고하고 그대로 붙였었는데 거절 메시지를 받은 후 언어별 페이지를 다 제거하고 다시 승인신청을 넣었습니다. 그런데도 승인 거절을 당했고 그럼 이제 남은건 8번입니다 콘텐츠 충분히 제공하라는 조건을 만족시킨 후 다시 도전해볼 생각입니다.

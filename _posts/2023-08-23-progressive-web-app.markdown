@@ -14,9 +14,6 @@ categories: [browser]
 3. 내 홈페이지(프로젝트)에 구현해보기
 4. 마무리
 
-## PWA(Progressice Web App)이란 무엇인가?
-PWA(Progressice Web App)는 2016년에 구글이 발표한 기술이다. **PWA는 쉽게말해 내가 만든 웹사이트를 네이티브 앱 수준으로 사용자가 다운로드 받아서 사용할 수 있는 기술이다.** 웹 페이지를 모바일에도 사용 가능하게 반응형으로 디자인하고 PWA를 적용하면 웹, 앱 전부 사용자에게 재공이 가능하다. 그럼 PWA기술로 구글 플레이 스토어, 앱 스토어에 출시할 수 있을까?
-
 <!-- progressive-web-app -->
 <div>
 <ins class="adsbygoogle"
@@ -29,6 +26,9 @@ PWA(Progressice Web App)는 2016년에 구글이 발표한 기술이다. **PWA�
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+## PWA(Progressice Web App)이란 무엇인가?
+PWA(Progressice Web App)는 2016년에 구글이 발표한 기술이다. **PWA는 쉽게말해 내가 만든 웹사이트를 네이티브 앱 수준으로 사용자가 다운로드 받아서 사용할 수 있는 기술이다.** 웹 페이지를 모바일에도 사용 가능하게 반응형으로 디자인하고 PWA를 적용하면 웹, 앱 전부 사용자에게 재공이 가능하다. 그럼 PWA기술로 구글 플레이 스토어, 앱 스토어에 출시할 수 있을까?
 
 쌉가능인듯하다. 아직 구현해보진 않았지만 구글에 많은 자료들이 있는거보니 가능할듯하다. PWA는 웹개발자들에게 엄청난 이점을 가져다 줄 기술인듯하다. 이미 스포티파이, 스타벅스, 트위터 등이 이 기술을 적용시켰다. 웹개발자라면 트랜드를 빠르게 따라가보자.
 
@@ -48,19 +48,6 @@ Service Worker는 오프라인, 인터넷이 연결되어있지 않은 환경에
 
 ### Manifest(매니페스트)
 이녀석은 PWA기술로 앱을 설치할때 앱의 정보 즉 이름이나 앱 아이콘 이미지 등을 알려주는 JSON파일이다.
-
-<!-- progressive-web-app -->
-<div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8955182453510440"
-     data-ad-slot="3893232373"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-</div>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 ## 내 홈페이지(프로젝트)에 구현해보기
 우리는 실제로 PWA를 구현하기 위해 다음 단계를 거칠것이다.
@@ -137,18 +124,6 @@ self.addEventListener('fetch', (event) => {
   }
 });
 ```
-<!-- progressive-web-app -->
-<div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8955182453510440"
-     data-ad-slot="3893232373"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-</div>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 다음은 `offline.html` 파일을 생성해자 인터넷을 연결하지 않고 앱 접속 시 로드시킬 html파일이다. 그리고 코드 아래 이미지처럼 파일을 생성해주자
 ```html
@@ -238,7 +213,7 @@ Manifest.json 파일을 생성했으면 이제 head영역에서 파일을 로드
 
 ![PWA(Progressice Web App)](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/progressive-web-app/progressive-web-app-2.webp)
 
-여기까지 완료했으면 위 이미지처럼 앱 다운로드 버튼이 활성화 되고 버튼을 클릭하면 다운 받을수있는 팝업창이 뜬걸 확인할 수 있다. PWA를 구현했지만 위 이미지의 버튼의 존재를 알고있는 사용자가 얼마나있을까? 라는ㄴ앱을 다운로드 받을수 있게 사용자 인터페이스를 향상 시킬 수 있다.
+여기까지 완료했으면 위 이미지처럼 앱 다운로드 버튼이 활성화 되고 버튼을 클릭하면 다운 받을수있는 팝업창이 뜬걸 확인할 수 있다. PWA를 구현했지만 위 이미지의 버튼의 존재를 알고있는 사용자가 얼마나있을까?
 
 <!-- progressive-web-app -->
 <div>

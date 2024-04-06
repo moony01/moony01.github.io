@@ -45,19 +45,6 @@ categories: [github]
 ## 테마 세팅
 ![깃허브 블로그에 테마 적용하기](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/github-blog-theme/github-blog-theme-4.webp){: .wd100}
 
-<!-- github-blog-theme -->
-<div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8955182453510440"
-     data-ad-slot="8486981875"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-</div>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 다음은 페이지를 아래로 스크롤을 내려보시면 추가적으로 세팅 방법이 나와있는데요. 위에서부터 차례대로 Gemfile, _config.yml 에 세팅을 했는지 확인하시면 됩니다. 하나하나 알아볼까요?
 
 ![깃허브 블로그에 테마 적용하기](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/github-blog-theme/github-blog-theme-5.webp)
@@ -73,19 +60,6 @@ categories: [github]
 4. Configuration은 _config.yml 파일을 확인해보라는 뜻입니다.
 
 5. Additional Features은 Gemfile의 gem에대해 설명해주네요.
-
-<!-- github-blog-theme -->
-<div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8955182453510440"
-     data-ad-slot="8486981875"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-</div>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 여기까지 하고 명령프롬프트에 `bundle exec jekyll serve`를 입력 후 지킬 서버를 실행시키면되는데 역시 에러가 발생합니다.
 

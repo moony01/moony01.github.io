@@ -26,8 +26,6 @@ categories: [se]
 * 제품에 포함 될 메뉴얼 작성이 필수
 * 타당성 검토 - 계획 - 요구 분석 - 설계 - 구현(코딩) - 시험(검사) - 유지보수
 
-{% include pre-version.html %}
-
 ## 프로토타입 모형(Prototype Model)
 사용자의 요구사항을 정확히 파악하기 위해 견본(시제)품을 만들어 최종 결과물을 예측하는 모형이다.
 
@@ -55,8 +53,6 @@ categories: [se]
 * 스프린트(Sprint) 또는 이터레이션(Iteration)이라고 불리는 짧은 개발 주기를 반복하며 만들어지는 결과물에 대한 고객의 평가와 요구를 적극 수용한다.
 * 소규모 프로젝트, 고도로 숙달된 개발자, 급변하는 요구사항에 적합하다.
 * 애자일 모형을 기반으로 하는 소프트웨어 개발 모형에는 `스크럼(Scrum)`, `XP(eXtreme Programming)`, 칸반(Kanban), Lean, 크리스탈(Crystal), ASD(Adaptive Software Development), FDD(Feature Driven Development), DSDM(Dynamic System Development Method), DAD(Disciplined Agile Delivery) 등이 있다는데 우선 넘어가자
-
-{% include pre-version.html %}
 
 2001년 17명의 애자일 전문 개발자가 **애자일 SW 개발 선언문** 을 만들었다. 선언문에는 **애자일 개발 4가지 핵심 가치** 와 **애자일 개발 12가지 실행 지침** 이 있다.
 

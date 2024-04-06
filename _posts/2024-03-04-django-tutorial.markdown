@@ -65,8 +65,6 @@ Python 3.5.1 (default, May  6 2016, 10:59:36)
 deactivate
 ```
 
-{% include pre-version.html %}
-
 ## 가상환경에 Django(장고) 설치
 장고를 설치해야 프로젝트를 생성하고 개발을 할 수 있다. 그럼 가상환경에 장고를 설치해보자. 우선 가상환경의 Scripts 폴더에서 가상환경을 활성화 시키지 않은 상태에서 아래 명령어를 입력하여 Django를 설치한다.
 
