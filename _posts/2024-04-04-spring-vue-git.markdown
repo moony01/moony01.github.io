@@ -7,6 +7,8 @@ categories: [vue, git, spring]
 
 Vue 프로젝트가 스프링 프로젝트 안에 설치되어 있고, Git에서 이를 추적하지 못하는 문제에 직면했다면, 다음 단계를 따라 문제를 해결해 보자.
 
+{% include pre-version.html %}
+
 ## 목차
 
 1. **문제 이해하기**

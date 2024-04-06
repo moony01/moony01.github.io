@@ -33,8 +33,6 @@ npx nuxi init nuxt-app
 npm run generate
 ```
 
-{% include pre-version.html %}
-
 ### 3.Nuxt.js 앱을 Azure 환경에 최적화
 
 이 명령어는 환경 변수 NITRO_PRESET에 'azure' 값을 설정하고 있다. 여기서 yarn build는 실제 실행할 명령어가 아니라, 'azure' 설정이 Nuxt.js 빌드 프로세스에 사용될 것임을 나타내는 부분이다. 이 설정은 아마도 Nuxt.js 앱을 Azure 환경에 최적화하기 위해 사용되는 듯하다.
