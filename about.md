@@ -22,13 +22,14 @@ permalink: /about/
   - **퍼블리싱:** 반응형 웹 디자인과 적응형 레이아웃 구현
   - **데이터베이스 관리:** 기본적인 데이터베이스 운영 및 유지보수
 
+**프로젝트 문의:** 프로젝트와 관련된 모든 문의 사항은 [이메일: mun_1201@naver.com](mailto:mun_1201@naver.com)로 연락 주시기 바랍니다.
+
 ---
 
 ## **프로젝트 경험**
 
 ### 보험개발원 빅데이터 플랫폼
 - **기간:** 2023년 10월 - 2024년 2월
-- **회사:** 디와이즈
 - **역할:** 설계/개발
 - **기술 스택:** Windows, Java, JSP, Javascript, Oracle, HighChart, TCP/IP, Springboot
 - **상세 설명:** 
@@ -36,7 +37,6 @@ permalink: /about/
   
 ### KIS정보통신 선불/지역화폐 시스템 개발
 - **기간:** 2022년 12월 - 2023년 6월
-- **회사:** 디와이즈
 - **역할:** 설계/개발
 - **기술 스택:** Windows, Java, JSP, Javascript, Oracle, TCP/IP, Springboot
 - **상세 설명:** 
@@ -44,17 +44,14 @@ permalink: /about/
 
 ### SH공사 전사자산통합시스템 구축 1단계 사업
 - **기간:** 2021년 10월 - 2022년 9월
-- **회사:** 아이티키테크 / 아이티월드
 - **역할:** 설계/개발
 - **기술 스택:** Windows, Java, Javascript, Oracle, OZreport, TCP/IP, Springboot, Websquare
 - **상세 설명:** 
   - 알림톡 서식 및 발송, 발송 현황 및 비용 관리, 메뉴 및 공통 팝업 관리, 엑셀 서식 관리, 사용자 권한 메뉴 권한 설정, REST API 및 SSO, Batch 작업을 담당.
   - 데이터베이스 관련 업무로는 DBA와 협업하여 데이터 마이그레이션을 지원하고, 데이터베이스 프로시저 관리를 수행하였습니다.
-
   
 ### KCC WMS 창고 관리 시스템 구축
 - **기간:** 2021년 8월 - 2021년 10월
-- **회사:** 아이티키테크
 - **역할:** 설계/개발
 - **기술 스택:** Windows, Java, Javascript, Oracle, UBIreport, TCP/IP, Springboot, Nexacro17
 - **상세 설명:** 
@@ -62,7 +59,6 @@ permalink: /about/
 
 ### 시선인터네셔널 쇼핑몰 고도화 및 유지보수
 - **기간:** 2021년 2월 - 2021년 7월
-- **회사:** 아이티키테크
 - **역할:** 설계/개발
 - **기술 스택:** Windows, Java, JSP, Javascript, Oracle, TCP/IP, Springboot
 - **상세 설명:** 
@@ -70,7 +66,6 @@ permalink: /about/
 
 ### 국가기록관 기록관리 차세대 시스템 구축
 - **기간:** 2020년 11월 - 2021년 1월
-- **회사:** 아이티키테크
 - **역할:** 설계/개발
 - **기술 스택:** Windows, Java, JSP, Javascript, MariaDB, TCP/IP, Springboot
 - **상세 설명:** 
@@ -78,7 +73,6 @@ permalink: /about/
 
 ### KAC ERP 시스템 개발 및 고도화
 - **기간:** 2020년 7월 - 2020년 10월
-- **회사:** 아이티키테크
 - **역할:** 설계/개발
 - **기술 스택:** Windows, Java, Javascript, Oracle, TCP/IP, Springboot, Websquare
 - **상세 설명:** 
@@ -86,7 +80,6 @@ permalink: /about/
 
 ### 네이버 라인뱅크 대만 프로젝트
 - **기간:** 2020년 4월 - 2020년 6월
-- **회사:** 아이티키테크
 - **역할:** 테스트/개발
 - **기술 스택:** Windows, Java, JSP, Javascript, Oracle, TCP/IP, Springboot
 - **상세 설명:** 
@@ -94,7 +87,6 @@ permalink: /about/
 
 ### 삼성생명 FDP 프로젝트
 - **기간:** 2018년 10월 - 2019년 4월
-- **회사:** 스튜디오 헤이데이
 - **역할:** UX/UI 개발
 - **기술 스택:** Windows, Java, JSP, Javascript, Oracle, TCP/IP, Springboot
 - **상세 설명:** 
@@ -102,7 +94,6 @@ permalink: /about/
 
 ### 한샘 몰 홈페이지 개발 및 운영
 - **기간:** 2018년 3월 - 2018년 9월
-- **회사:** 스튜디오 헤이데이
 - **역할:** UX/UI 개발
 - **기술 스택:** Windows, Java, JSP, Javascript, Oracle, TCP/IP, Springboot
 - **상세 설명:** 
@@ -110,7 +101,6 @@ permalink: /about/
 
 ### 종로학원 홈페이지 개발 및 운영
 - **기간:** 2016년 11월 - 2017년 8월
-- **회사:** 모든세븐
 - **역할:** UX/UI 개발
 - **기술 스택:** Windows, Java, JSP, Javascript, Oracle, TCP/IP, Springboot
 - **상세 설명:** 
@@ -118,7 +108,6 @@ permalink: /about/
 
 ### 몬스트로 남성 및 단체복 쇼핑몰 개발 및 유지보수
 - **기간:** 2015년 4월 - 2016년 5월
-- **회사:** 몬스트로
 - **역할:** UX/UI개발
 - **기술 스택:** Windows, PHP, Javascript, MySQL, TCP/IP
 - **상세 설명:** 
@@ -128,7 +117,7 @@ permalink: /about/
 
 ## **토이프로젝트**
 
-### 케이팝 AI 얼굴상 테스트 (WEB / APP)
+### 케이팝 AI 얼굴상 테스트 ([WEB](https://moony01.com/kpopface/) / [APP](https://play.google.com/store/apps/details?id=com.mhhan01.kpopface))
 - **개발 기간:** 1.5개월
 - **참여 인원:** 1명
 - **기술 스택:** Javascript, Python, Ruby, Ruby on Rails, Node.js, Teachable Machine API, React Native Webview, PWA, GitHub pages, Jekyll, Analytics, Google Play Console, Google Search Console
@@ -138,7 +127,7 @@ permalink: /about/
   - Google SEO 최적화, 도메인 연결, 주요 포털 사이트 검색 엔진 등록.
   - Google Ads 및 AdSense 광고 적용, 성인 광고 노출 이슈 해결.
 
-### MBTI ChatGPT AI Chat (WEB / APP)
+### MBTI ChatGPT AI Chat ([WEB](https://mbtichat.info/) / APP(준비중))
 - **개발 기간:** 1.5개월
 - **참여 인원:** 1명
 - **기술 스택:** Ruby, Javascript, Markdown, Ruby on Rails, Node.js, React Native Webview, Serverless-http, OpenAI API, PWA, AdFit, Photoshop, Gabia domain
@@ -148,7 +137,7 @@ permalink: /about/
   - AWS Lambda를 활용한 ChatGPT API 통신.
   - 반응형 웹 구현, Google SEO 최적화, 도메인 연결 및 포털 사이트 검색 엔진 등록.
 
-### Github 개인 블로그 (WEB)
+### Github 개인 블로그 ([WEB](https://moony01.com/))
 - **개발 기간:** 1개월
 - **참여 인원:** 1명
 - **기술 스택:** Ruby, Javascript, Markdown, Ruby on Rails, Jekyll, GitHub pages, AdSense, Analytics, Google Search Console
@@ -156,7 +145,7 @@ permalink: /about/
   - Jekyll theme 적용 및 앱 개발.
   - Google SEO 최적화, 도메인 연결, 포털 사이트 검색 엔진 등록.
 
-### MINT 쇼핑몰 프로젝트 (Repo)
+### MINT 쇼핑몰 프로젝트 ([Repo](https://github.com/moony01/mint))
 - **개발 기간:** 1개월
 - **참여 인원:** 6명
 - **기술 스택:** Java, Javascript, Oracle, Jquery, Maven
@@ -165,7 +154,7 @@ permalink: /about/
   - 반응형 웹 구현, 상품 장바구니 및 결제 개발.
   - 공지사항 개발 및 포탈 어드민 관리.
 
-### 기능 개발 연습용 프로젝트 (Repo)
+### 기능 개발 연습용 프로젝트 ([Repo](https://github.com/moony01/featureLab))
 - **개발 기간:** 진행 중
 - **참여 인원:** 2명
 - **기술 스택:** Java, Javascript, Spring boot, Vue.js, Nuxt.js, PostgreSQL, AWS Cloud DB, Quasar, ChatGPTs, Gradle
