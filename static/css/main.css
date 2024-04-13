@@ -172,6 +172,7 @@ div.col-sm-3 div.profile-about {
 }
 
 .author-name {
+  margin-top: 10px;
   margin-bottom: 10px;
   font-size: 28px;
   font-weight: 400;

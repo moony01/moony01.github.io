@@ -28,21 +28,21 @@ permalink: /about/
 
 ## **프로젝트 경험**
 
-### 보험개발원 빅데이터 플랫폼
+### 보험XXX 빅데이터 플랫폼
 - **기간:** 2023년 10월 - 2024년 2월
 - **역할:** 설계/개발
 - **기술 스택:** Windows, Java, JSP, Javascript, Oracle, HighChart, TCP/IP, Springboot
 - **상세 설명:** 
   - 메뉴 관리, 권한 관리, 로그인 세션 관리, 파일 업로드, 레이아웃 분할 및 JSP 개발환경 구축, REST API 퍼블리싱 작업을 수행.
   
-### KIS정보통신 선불/지역화폐 시스템 개발
+### KIXXXXX 선불/지역화폐 시스템 개발
 - **기간:** 2022년 12월 - 2023년 6월
 - **역할:** 설계/개발
 - **기술 스택:** Windows, Java, JSP, Javascript, Oracle, TCP/IP, Springboot
 - **상세 설명:** 
   - 잔액조회 이관, 수당지급 환수, 수수료 관리 등의 기능을 개발하여 시스템의 안정성과 효율성을 향상시킴.
 
-### SH공사 전사자산통합시스템 구축 1단계 사업
+### SHXX 전사자산통합시스템 구축 1단계 사업
 - **기간:** 2021년 10월 - 2022년 9월
 - **역할:** 설계/개발
 - **기술 스택:** Windows, Java, Javascript, Oracle, OZreport, TCP/IP, Springboot, Websquare
@@ -50,63 +50,63 @@ permalink: /about/
   - 알림톡 서식 및 발송, 발송 현황 및 비용 관리, 메뉴 및 공통 팝업 관리, 엑셀 서식 관리, 사용자 권한 메뉴 권한 설정, REST API 및 SSO, Batch 작업을 담당.
   - 데이터베이스 관련 업무로는 DBA와 협업하여 데이터 마이그레이션을 지원하고, 데이터베이스 프로시저 관리를 수행하였습니다.
   
-### KCC WMS 창고 관리 시스템 구축
+### KXX WMS 창고 관리 시스템 구축
 - **기간:** 2021년 8월 - 2021년 10월
 - **역할:** 설계/개발
 - **기술 스택:** Windows, Java, Javascript, Oracle, UBIreport, TCP/IP, Springboot, Nexacro17
 - **상세 설명:** 
   - 창고적재 및 관리 시스템을 구축하여 창고 운영의 자동화와 최적화를 도모.
 
-### 시선인터네셔널 쇼핑몰 고도화 및 유지보수
+### 시XXXXXX 쇼핑몰 고도화 및 유지보수
 - **기간:** 2021년 2월 - 2021년 7월
 - **역할:** 설계/개발
 - **기술 스택:** Windows, Java, JSP, Javascript, Oracle, TCP/IP, Springboot
 - **상세 설명:** 
   - SMS 및 카카오톡 알림톡 발송 및 관리 시스템을 개발하고 Batch 퍼블리싱 작업을 수행하여 쇼핑몰의 통합 통
 
-### 국가기록관 기록관리 차세대 시스템 구축
+### 국XXXX 기록관리 차세대 시스템 구축
 - **기간:** 2020년 11월 - 2021년 1월
 - **역할:** 설계/개발
 - **기술 스택:** Windows, Java, JSP, Javascript, MariaDB, TCP/IP, Springboot
 - **상세 설명:** 
-  - 국가기록관의 기록 관리 시스템 개발을 담당하며 데이터 적재 및 관리 시스템의 설계와 구현을 수행.
+  - 국XXXX의 기록 관리 시스템 개발을 담당하며 데이터 적재 및 관리 시스템의 설계와 구현을 수행.
 
-### KAC ERP 시스템 개발 및 고도화
+### KXX ERP 시스템 개발 및 고도화
 - **기간:** 2020년 7월 - 2020년 10월
 - **역할:** 설계/개발
 - **기술 스택:** Windows, Java, Javascript, Oracle, TCP/IP, Springboot, Websquare
 - **상세 설명:** 
   - ERP 시스템의 공통 관리 시스템 개발과 시스템 고도화 작업을 수행하여 기업 자원 계획 및 관리 효율성을 향상.
 
-### 네이버 라인뱅크 대만 프로젝트
+### 네XX 라인뱅크 대만 프로젝트
 - **기간:** 2020년 4월 - 2020년 6월
 - **역할:** 테스트/개발
 - **기술 스택:** Windows, Java, JSP, Javascript, Oracle, TCP/IP, Springboot
 - **상세 설명:** 
-  - 네이버 라인뱅크 대만의 단위 및 통합 테스트를 수행하며 시스템의 안정성 및 성능 개선을 위한 개발 작업을 지원.
+  - 네XX XX뱅크 대만의 단위 및 통합 테스트를 수행하며 시스템의 안정성 및 성능 개선을 위한 개발 작업을 지원.
 
-### 삼성생명 FDP 프로젝트
+### 삼XXX FDP 프로젝트
 - **기간:** 2018년 10월 - 2019년 4월
 - **역할:** UX/UI 개발
 - **기술 스택:** Windows, Java, JSP, Javascript, Oracle, TCP/IP, Springboot
 - **상세 설명:** 
-  - 프런트엔드 개발 및 퍼블리싱을 담당하며 삼성생명의 금융 데이터 플랫폼 UX/UI 개선 프로젝트를 성공적으로 수행.
+  - 프런트엔드 개발 및 퍼블리싱을 담당하며 삼XXX의 금융 데이터 플랫폼 UX/UI 개선 프로젝트를 성공적으로 수행.
 
-### 한샘 몰 홈페이지 개발 및 운영
+### 한X 몰 홈페이지 개발 및 운영
 - **기간:** 2018년 3월 - 2018년 9월
 - **역할:** UX/UI 개발
 - **기술 스택:** Windows, Java, JSP, Javascript, Oracle, TCP/IP, Springboot
 - **상세 설명:** 
-  - 한샘 몰의 전체적인 웹사이트 개발과 유지보수를 담당하며 사용자 경험을 개선하는 프런트엔드 개발 작업을 수행.
+  - 한X 몰의 전체적인 웹사이트 개발과 유지보수를 담당하며 사용자 경험을 개선하는 프런트엔드 개발 작업을 수행.
 
-### 종로학원 홈페이지 개발 및 운영
+### 종XXX 홈페이지 개발 및 운영
 - **기간:** 2016년 11월 - 2017년 8월
 - **역할:** UX/UI 개발
 - **기술 스택:** Windows, Java, JSP, Javascript, Oracle, TCP/IP, Springboot
 - **상세 설명:** 
-  - 종로학원 홈페이지의 프런트엔드 개발 및 유지보수를 담당하며, 교육 콘텐츠와 사용자 인터페이스를 개선하는 작업을 수행.
+  - 종XXX 홈페이지의 프런트엔드 개발 및 유지보수를 담당하며, 교육 콘텐츠와 사용자 인터페이스를 개선하는 작업을 수행.
 
-### 몬스트로 남성 및 단체복 쇼핑몰 개발 및 유지보수
+### 몬XXX 남성 및 단체복 쇼핑몰 개발 및 유지보수
 - **기간:** 2015년 4월 - 2016년 5월
 - **역할:** UX/UI개발
 - **기술 스택:** Windows, PHP, Javascript, MySQL, TCP/IP
@@ -127,7 +127,7 @@ permalink: /about/
   - Google SEO 최적화, 도메인 연결, 주요 포털 사이트 검색 엔진 등록.
   - Google Ads 및 AdSense 광고 적용, 성인 광고 노출 이슈 해결.
 
-### MBTI ChatGPT AI Chat ([WEB](https://mbtichat.info/) / APP(준비중))
+### MBTI ChatGPT AI Chat ([WEB](https://mbtichat.info/) / APP(재출시중))
 - **개발 기간:** 1.5개월
 - **참여 인원:** 1명
 - **기술 스택:** Ruby, Javascript, Markdown, Ruby on Rails, Node.js, React Native Webview, Serverless-http, OpenAI API, PWA, AdFit, Photoshop, Gabia domain
