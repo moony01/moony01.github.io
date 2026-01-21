@@ -1,0 +1,11 @@
+{
+  "quality": 80,
+  "formats": ["webp"],
+  "sizes": {
+    "original": null,
+    "mobile": 800,
+    "thumbnail": 400
+  },
+  "inputDir": "static/img/_posts",
+  "outputDir": "static/img/_posts"
+}
