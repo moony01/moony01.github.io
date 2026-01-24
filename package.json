@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "optimize-images": "node scripts/optimize-images.js",
+    "convert-to-picture": "node scripts/convert-to-picture.js",
     "create-post": "node scripts/create-post.js",
-    "migrate-images": "node scripts/migrate-images.js"
+    "migrate-images": "node scripts/migrate-images.js",
+    "prebuild": "npm run optimize-images -- --all && npm run convert-to-picture"
   },
   "devDependencies": {
     "sharp": "^0.33.0",

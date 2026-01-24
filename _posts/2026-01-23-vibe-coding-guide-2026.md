@@ -10,7 +10,26 @@ tags: [vibe-coding, ai-coding, opencode, claude-code, cursor, oh-my-opencode]
 
 2025년 2월, 테슬라 AI 디렉터 출신이자 OpenAI 공동창업자 **Andrej Karpathy**가 트위터에 올린 한마디가 개발자 커뮤니티를 뒤흔들었습니다. 그가 명명한 **"Vibe Coding(바이브 코딩)"**은 이제 단순한 유행어를 넘어, 소프트웨어 개발의 새로운 패러다임으로 자리잡았습니다.
 
-![바이브 코딩 히어로 이미지](/static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-1.webp){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-1-400.webp 400w,
+            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-1-800.webp 800w,
+            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/webp"
+    srcset="/static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-1-400.webp 400w,
+            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-1-800.webp 800w,
+            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-1.webp" 
+    alt="바이브 코딩 히어로 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 이 글에서는 바이브 코딩의 개념부터 실전 도구 비교, 그리고 제가 직접 프로젝트에 적용한 경험까지 한국어로 제대로 정리해드리겠습니다.
 
@@ -102,7 +121,26 @@ claude
 | **MCP 통합** | 외부 도구/API 연동 (Supabase, GitHub 등) |
 | **자율 실행** | 파일 수정, 테스트, Git 커밋까지 |
 
-![도구 비교 다이어그램](/static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-2.webp){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-2-400.webp 400w,
+            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-2-800.webp 800w,
+            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/webp"
+    srcset="/static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-2-400.webp 400w,
+            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-2-800.webp 800w,
+            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-2.webp" 
+    alt="도구 비교 다이어그램" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 **실제 사용 경험:**
 
@@ -229,7 +267,26 @@ omo> /backend-max 분석 결과 바탕으로 구현 시작
 └─────────────────────────────────────────┘
 ```
 
-![하이브리드 워크플로우](/static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-3.webp){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-3-400.webp 400w,
+            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-3-800.webp 800w,
+            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-3.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/webp"
+    srcset="/static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-3-400.webp 400w,
+            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-3-800.webp 800w,
+            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-3.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-3.webp" 
+    alt="하이브리드 워크플로우" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 마치며: 바이브의 미래
 

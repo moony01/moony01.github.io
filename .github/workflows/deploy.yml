@@ -1,0 +1,75 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+name: Build & Deploy Blog
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # 수동 실행 허용
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. 저장소 체크아웃
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 2. Node.js 설정 (이미지 최적화용)
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      # 3. Node 의존성 설치
+      - name: Install Node Dependencies
+        run: npm ci
+
+      # 4. 이미지 최적화 (PNG/JPG → WebP + 다중 해상도)
+      - name: Optimize Images
+        run: npm run optimize-images -- --all
+        continue-on-error: true # 이미지 없어도 빌드 계속
+
+      # 5. 마크다운 이미지 → <picture> 태그 변환
+      - name: Convert to Picture Tags
+        run: npm run convert-to-picture
+
+      # 6. Ruby 설정 (Jekyll 빌드용)
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      # 7. Jekyll 빌드
+      - name: Build Jekyll Site
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      # 8. GitHub Pages 설정
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      # 9. 빌드 결과물 업로드
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
+
+      # 10. GitHub Pages 배포
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
