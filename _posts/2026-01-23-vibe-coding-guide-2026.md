@@ -13,18 +13,18 @@ tags: [vibe-coding, ai-coding, opencode, claude-code, cursor, oh-my-opencode]
 <picture>
   <source 
     type="image/webp"
-    srcset="/static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-1-400.webp 400w,
-            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-1-800.webp 800w,
-            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-1.webp 1200w"
+    srcset="/static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-1-400.webp 400w,
+            /static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-1-800.webp 800w,
+            /static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <source 
     type="image/webp"
-    srcset="/static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-1-400.webp 400w,
-            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-1-800.webp 800w,
-            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-1.webp 1200w"
+    srcset="/static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-1-400.webp 400w,
+            /static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-1-800.webp 800w,
+            /static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-1.webp" 
+    src="/static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-1.webp" 
     alt="바이브 코딩 히어로 이미지" 
     class="wd100"
     loading="lazy"
@@ -124,18 +124,18 @@ claude
 <picture>
   <source 
     type="image/webp"
-    srcset="/static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-2-400.webp 400w,
-            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-2-800.webp 800w,
-            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-2.webp 1200w"
+    srcset="/static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-2-400.webp 400w,
+            /static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-2-800.webp 800w,
+            /static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <source 
     type="image/webp"
-    srcset="/static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-2-400.webp 400w,
-            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-2-800.webp 800w,
-            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-2.webp 1200w"
+    srcset="/static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-2-400.webp 400w,
+            /static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-2-800.webp 800w,
+            /static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-2.webp" 
+    src="/static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-2.webp" 
     alt="도구 비교 다이어그램" 
     class="wd100"
     loading="lazy"
@@ -270,18 +270,18 @@ omo> /backend-max 분석 결과 바탕으로 구현 시작
 <picture>
   <source 
     type="image/webp"
-    srcset="/static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-3-400.webp 400w,
-            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-3-800.webp 800w,
-            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-3.webp 1200w"
+    srcset="/static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-3-400.webp 400w,
+            /static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-3-800.webp 800w,
+            /static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-3.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <source 
     type="image/webp"
-    srcset="/static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-3-400.webp 400w,
-            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-3-800.webp 800w,
-            /static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-3.webp 1200w"
+    srcset="/static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-3-400.webp 400w,
+            /static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-3-800.webp 800w,
+            /static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-3.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/post/vibe-coding-guide-2026/vibe-coding-guide-2026-3.webp" 
+    src="/static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-3.webp" 
     alt="하이브리드 워크플로우" 
     class="wd100"
     loading="lazy"

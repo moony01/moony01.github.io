@@ -23,11 +23,11 @@ categories: [iot]
 ## 스마트 시티의 핵심 기술: 사물인터넷(IoT) 소개 및 예시
 스마트 시티의 성공적 구현을 위해선 다양한 기술들이 필요하지만, 그 중에서도 사물인터넷(IoT)이 핵심 역할을 수행합니다. **사물인터넷은 물리적 객체에 장착된 센서와 연결되어 데이터를 수집하고, 클라우드에 전송하여 해석 및 활용하는 기술입니다.** 이러한 IoT 기술을 활용한 스마트 시티는 도시의 에너지 소비를 줄이고, 교통 체증을 완화하며, 생활 편의를 높이는 실질적인 혜택을 제공하기 위한 기반을 마련합니다. 
 
-![사물인터넷(IoT)](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/smart-iot-future-city/smart-iot-future-city-1.webp){: .wd100}
+![사물인터넷(IoT)](/static/img/posts/smart-iot-future-city/smart-iot-future-city-1.webp){: .wd100}
 
 예를 들어, IoT 기반 스마트 조명 시스템은 도로의 실제 상황에 맞춰 조명을 제어하여 에너지를 효율적으로 사용합니다. 또한 IoT 기반 스마트 주차는 공유 주차 정보를 활용하여 주차장을 찾기 쉽게 하여 시민들의 편의를 증진시킵니다. 스마트 웨어러블과 연계된 헬스케어 시스템은 건강 관리에도 큰 도움을 줍니다. 사물인터넷 기술의 발전은 스마트 시티와 인간의 삶을 혁신적으로 변화시킬 수 있는 힘이 될 것이며, 지속적인 성장과 발전을 꾀하는 미래 사회의 토대가 될 것입니다. 이를 통해 의사 결정 과정과 도시 인프라 관리가 더욱 개선되어 삶의 질이 대폭 향상될 것으로 기대할 수 있습니다.
 
-![자율주행 자동차](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/smart-iot-future-city/smart-iot-future-city-2.webp){: .wd100}
+![자율주행 자동차](/static/img/posts/smart-iot-future-city/smart-iot-future-city-2.webp){: .wd100}
 
 ## 자율주행 자동차의 현재 상황과 미래 전망: 자율주행 기술 소개 및 발전 과정
 
@@ -52,7 +52,7 @@ categories: [iot]
 
 결과적으로 자율주행 자동차의 현재 상황과 미래 전망에 관심을 가져 빠른 발전과 확산을 지켜보는 것이 중요할 것이며, 이에 따른 산업 환경 변화와 기술의 혜택 및 위험을 잘 파악할 필요가 있습니다.
 
-![IoT와 자율주행 자동차가 미래 도시에 미치는 영향](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/smart-iot-future-city/smart-iot-future-city-3.webp){: .wd100}
+![IoT와 자율주행 자동차가 미래 도시에 미치는 영향](/static/img/posts/smart-iot-future-city/smart-iot-future-city-3.webp){: .wd100}
 
 ## IoT와 자율주행 자동차가 미래 도시에 미치는 영향: 교통 시스템의 변화, 에너지 절약, 안전 강화 등
 
@@ -75,7 +75,7 @@ categories: [iot]
 
 **결국, IoT와 자율주행 자동차 활용에 따른 미래 도시의 변화는 교통 시스템 개선, 에너지 절약, 도로 안전 강화 등 실질적인 혜택을 제공할 것으로 판단됩니다.** 이를 통해 친환경적이고 지속 가능한 도시 발전이 가능하게 될 것입니다.
 
-![스마트 시티 구축](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/smart-iot-future-city/smart-iot-future-city-4.webp){: .wd100}
+![스마트 시티 구축](/static/img/posts/smart-iot-future-city/smart-iot-future-city-4.webp){: .wd100}
 
 ## 도전과 기회: 스마트 시티 구축을 위한 현재의 도전과 기회 소개
 

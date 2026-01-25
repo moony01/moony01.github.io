@@ -27,7 +27,7 @@ categories: [ai]
 
 그래서 프롬프트 엔지니어는 AI에게서 원하는 결과와 답 그리고 창작물들을 얻어내기 위해 프롬프트를 계속해서 작성하고 수정하는 작업을 반복합니다. 그리고 그 과정에서 프롬프트를 작성했을 때 어떠한 결과물들이 나온다는 것을 문서화하는 역할을 합니다. 그 외에도 역할에 대해 상상해보면 끝이 없을 정도로 무궁무진 합니다.
 
-![프롬프트 엔지니어 구인 현황](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/prompt-engineer/prompt-engineer-1.webp){: .wd100}
+![프롬프트 엔지니어 구인 현황](/static/img/posts/prompt-engineer/prompt-engineer-1.webp){: .wd100}
 
 벌써 위와 같이 이미 기업들은 프롬프트 엔지니어를 구인하기 위해 채용 공고를 올리고 있습니다.
 
@@ -64,7 +64,7 @@ categories: [ai]
 
 아직 프롬프트 엔지니어만을 위한 국비 지원 교육은 없습니다. 하지만 프롬프트 엔지니어가 되기 위해 필요한 강의를 찾을 수는 있겠죠. [직업훈련포털 HRD-NET](https://www.hrd.go.kr/){:target="_blank"} 에서 **상단 헤더에서 훈련과정 > 전체 훈련과정** 클릭 후 검색창에 `인공지능`으로 입력 후 자신에게 맞는 검색 조건을 입력 후 검색을 해보면 인공지능, AI 등의 관련 훈련 강의가 나올 것입니다. 강의의 커리큘럼이 맘에 든다면 국민내일배움카드 신청 후 자신에게 맞는 강의를 수강하면 되겠습니다.
 
-![프롬프트 엔지니어 국비 교육 현황](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/prompt-engineer/prompt-engineer-2.webp){: .wd100}
+![프롬프트 엔지니어 국비 교육 현황](/static/img/posts/prompt-engineer/prompt-engineer-2.webp){: .wd100}
 
 ## 실무 경험 및 프로젝트 참여의 중요성
 

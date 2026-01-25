@@ -33,7 +33,7 @@
 |------|------|
 | **생성 도구** | 외부 도구 (Antigravity 등) |
 | **포맷** | WebP (높이 400px) |
-| **위치** | `static/img/post/{slug}/` |
+| **위치** | `static/img/posts/{slug}/` |
 | **시점** | 포스트 작성 완료 후 별도 추가 |
 
 ---
@@ -213,7 +213,7 @@
 #### 4-1. 이미지 디렉토리 생성
 
 ```bash
-mkdir static/img/_posts/{slug}
+mkdir static/img/posts/{slug}
 ```
 
 #### 4-2. 마크다운 파일 생성
@@ -231,7 +231,7 @@ tags: [{태그1}, {태그2}]
 
 {도입부 - Hook 문장으로 시작}
 
-![히어로 이미지](/static/img/post/{slug}/{slug}-1.webp){: .wd100}
+![히어로 이미지](/static/img/posts/{slug}/{slug}-1.webp){: .wd100}
 
 ## {소제목 1}
 
@@ -243,7 +243,7 @@ tags: [{태그1}, {태그2}]
 
 {본문 2 내용}
 
-![본문 이미지 2](/static/img/post/{slug}/{slug}-2.webp){: .wd100}
+![본문 이미지 2](/static/img/posts/{slug}/{slug}-2.webp){: .wd100}
 
 ```코드블록```
 
@@ -257,7 +257,7 @@ tags: [{태그1}, {태그2}]
 
 {본문 4 내용}
 
-![본문 이미지 3](/static/img/post/{slug}/{slug}-3.webp){: .wd100}
+![본문 이미지 3](/static/img/posts/{slug}/{slug}-3.webp){: .wd100}
 
 ## 마치며
 
@@ -296,7 +296,7 @@ tags: [{태그1}, {태그2}]
 **생성할 파일 (PNG 형식):**
 
 ```
-static/img/post/{slug}/
+static/img/posts/{slug}/
 ├── {slug}-1.png    ← 상단 히어로 이미지
 ├── {slug}-2.png    ← 본문 중간 이미지 1
 └── {slug}-3.png    ← 본문 중간 이미지 2
@@ -306,13 +306,13 @@ static/img/post/{slug}/
 
 ```bash
 # 이미지 디렉토리 생성
-mkdir -p static/img/_posts/{slug}
+mkdir -p static/img/posts/{slug}
 
 # 임시 placeholder 이미지 생성 (1x1 투명 PNG)
 # 또는 간단한 placeholder 텍스트 파일로 위치 표시
-echo "PLACEHOLDER" > static/img/post/{slug}/{slug}-1.png
-echo "PLACEHOLDER" > static/img/post/{slug}/{slug}-2.png
-echo "PLACEHOLDER" > static/img/post/{slug}/{slug}-3.png
+echo "PLACEHOLDER" > static/img/posts/{slug}/{slug}-1.png
+echo "PLACEHOLDER" > static/img/posts/{slug}/{slug}-2.png
+echo "PLACEHOLDER" > static/img/posts/{slug}/{slug}-3.png
 ```
 
 #### 5-2. 본문에 이미지 태그 삽입
@@ -326,7 +326,7 @@ echo "PLACEHOLDER" > static/img/post/{slug}/{slug}-3.png
 
 {도입부 텍스트}
 
-![{slug} 대표 이미지](/static/img/post/{slug}/{slug}-1.png){: .wd100}
+![{slug} 대표 이미지](/static/img/posts/{slug}/{slug}-1.png){: .wd100}
 
 ## {섹션 1}
 {본문 내용}
@@ -334,12 +334,12 @@ echo "PLACEHOLDER" > static/img/post/{slug}/{slug}-3.png
 ## {섹션 2}
 {본문 내용}
 
-![{slug} 이미지 2](/static/img/post/{slug}/{slug}-2.png){: .wd100}
+![{slug} 이미지 2](/static/img/posts/{slug}/{slug}-2.png){: .wd100}
 
 ## {섹션 3}
 {본문 내용}
 
-![{slug} 이미지 3](/static/img/post/{slug}/{slug}-3.png){: .wd100}
+![{slug} 이미지 3](/static/img/posts/{slug}/{slug}-3.png){: .wd100}
 
 ## 마치며
 {결론}
@@ -362,7 +362,7 @@ echo "PLACEHOLDER" > static/img/post/{slug}/{slug}-3.png
 ### 📂 생성된 파일
 
 - `_posts/{date}-{slug}.md`
-- `static/img/post/{slug}/` (이미지 디렉토리)
+- `static/img/posts/{slug}/` (이미지 디렉토리)
   - `{slug}-1.png` (임시 - 상단 히어로)
   - `{slug}-2.png` (임시 - 본문 중간 1)
   - `{slug}-3.png` (임시 - 본문 중간 2)
@@ -404,13 +404,13 @@ echo "PLACEHOLDER" > static/img/post/{slug}/{slug}-3.png
 1. 위 프롬프트로 이미지 생성
 2. **같은 파일명**으로 덮어쓰기:
    ```
-   static/img/post/{slug}/{slug}-1.png  ← 덮어쓰기
-   static/img/post/{slug}/{slug}-2.png  ← 덮어쓰기
-   static/img/post/{slug}/{slug}-3.png  ← 덮어쓰기
+   static/img/posts/{slug}/{slug}-1.png  ← 덮어쓰기
+   static/img/posts/{slug}/{slug}-2.png  ← 덮어쓰기
+   static/img/posts/{slug}/{slug}-3.png  ← 덮어쓰기
    ```
 3. WebP 변환 실행:
    ```bash
-   node scripts/optimize-images.js --input static/img/_posts/{slug}
+   node scripts/optimize-images.js --input static/img/posts/{slug}
    ```
 4. 마크다운에서 `.png` → `.webp` 확장자 변경
 
@@ -419,10 +419,10 @@ echo "PLACEHOLDER" > static/img/post/{slug}/{slug}-3.png
 마크다운 파일에서 일괄 변경:
 ```markdown
 # 변환 전
-![이미지](/static/img/post/{slug}/{slug}-1.png){: .wd100}
+![이미지](/static/img/posts/{slug}/{slug}-1.png){: .wd100}
 
 # 변환 후
-![이미지](/static/img/post/{slug}/{slug}-1.webp){: .wd100}
+![이미지](/static/img/posts/{slug}/{slug}-1.webp){: .wd100}
 ```
 
 ---
@@ -461,7 +461,7 @@ echo "PLACEHOLDER" > static/img/post/{slug}/{slug}-3.png
 
 ```bash
 # 이미지를 디렉토리에 저장 후 WebP 변환
-node scripts/optimize-images.js --input static/img/_posts/{slug}
+node scripts/optimize-images.js --input static/img/posts/{slug}
 ```
 
 **출력**: 높이 400px, WebP 포맷
@@ -471,7 +471,7 @@ node scripts/optimize-images.js --input static/img/_posts/{slug}
 원하는 위치에 이미지 태그 추가:
 
 ```markdown
-![이미지 설명](/static/img/post/{slug}/{slug}-1.webp){: .wd100}
+![이미지 설명](/static/img/posts/{slug}/{slug}-1.webp){: .wd100}
 ```
 
 ---
@@ -484,7 +484,7 @@ moony01.github.io/
 │   └── {YYYY-MM-DD}-{slug}.md     # 포스트 마크다운
 ├── static/
 │   └── img/
-│       └── _posts/
+│       └── posts/
 │           └── {slug}/
 │               └── {slug}-1.webp   # 본문 이미지 (선택)
 └── scripts/
@@ -509,7 +509,7 @@ moony01.github.io/
 
 ### 이미지 (선택)
 - [ ] 외부 도구에서 이미지 생성
-- [ ] `static/img/post/{slug}/` 에 저장
+- [ ] `static/img/posts/{slug}/` 에 저장
 - [ ] WebP 변환 (`node scripts/optimize-images.js`)
 - [ ] 마크다운에 이미지 태그 삽입
 
