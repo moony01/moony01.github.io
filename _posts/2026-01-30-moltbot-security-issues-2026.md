@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Moltbot 보안 이슈 총정리: 편리함 뒤에 숨은 위험들"
-date: 2026-01-30 14:00:00 +0900
+date: 2026-01-30 11:00:00 +0900
 categories: [security]
 tags: [moltbot, clawdbot, ai-agent, security, github]
 ---
