@@ -4,3 +4,8 @@ _site*
 *backup/
 .DS_Store
 node_modules/
+
+# Local dev files
+.claude/settings.local.json
+.playwright-mcp/
+jekyll.log
