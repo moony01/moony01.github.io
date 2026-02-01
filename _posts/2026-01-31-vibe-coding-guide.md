@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vibe Coding이란? AI와 대화하며 코딩하는 새로운 패러다임"
-date: 2025-01-31 11:00:00 +0900
+date: 2026-01-31 11:00:00 +0900
 categories: [ai]
 tags: [vibe-coding, ai-coding, cursor, claude-code, copilot]
 image: vibe-coding-guide-1.webp

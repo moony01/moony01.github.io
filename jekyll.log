@@ -1,0 +1,373 @@
+Configuration file: C:/project/moony01.github.io/_config.yml
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+            Source: C:/project/moony01.github.io
+       Destination: C:/project/moony01.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 5.611 seconds.
+  Please add the following to your Gemfile to avoid polling for changes:
+    gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+ Auto-regeneration: enabled for 'C:/project/moony01.github.io'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+      Regenerating: 1 file(s) changed at 2026-01-30 11:17:40
+                    jekyll.log
+                    ...done in 2.8307654 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-01-30 11:17:43
+                    jekyll.log
+                    ...done in 3.8344528 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-01-30 11:17:47
+                    jekyll.log
+                    ...done in 4.9571911 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-01-30 11:17:52
+                    jekyll.log
+                    ...done in 3.6693827 seconds.
+                    
+      Regenerating: 290 file(s) changed at 2026-01-30 11:17:55
+                    jekyll.log
+                    static/img/posts/smart-iot-future-city/smart-iot-future-city-1.webp
+                    static/img/posts/smart-iot-future-city/smart-iot-future-city-2.webp
+                    static/img/posts/smart-iot-future-city/smart-iot-future-city-3.webp
+                    static/img/posts/smart-iot-future-city/smart-iot-future-city-4.webp
+                    static/img/posts/SpiralModel.png
+                    static/img/posts/spring-vue-git.webp
+                    static/img/posts/ssl1.png
+                    static/img/posts/ssl2.png
+                    static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-1-400.webp
+                    static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-1-800.webp
+                    static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-1.png
+                    static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-1.webp
+                    static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-2-400.webp
+                    static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-2-800.webp
+                    static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-2.png
+                    static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-2.webp
+                    static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-3-400.webp
+                    static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-3-800.webp
+                    static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-3.png
+                    static/img/posts/vibe-coding-guide-2026/vibe-coding-guide-2026-3.webp
+                    static/img/posts/vr-ar-edu-chg-1.webp
+                    static/img/posts/vr-ar-edu-chg-2.webp
+                    static/img/posts/vue-chunkvendor-app.webp
+                    static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-0.jpg
+                    static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-1.jpg
+                    static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-2.jpg
+                    static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-3.jpg
+                    static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-4.jpg
+                    static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-5.jpg
+                    static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-6.jpg
+                    static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-7.jpg
+                    static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-8.jpg
+                    static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-9.jpg
+                    static/img/posts/dev-arti-intel-mach-learn/dev-arti-intel-mach-learn-1.webp
+                    static/img/posts/dev-arti-intel-mach-learn/dev-arti-intel-mach-learn-2.webp
+                    static/img/posts/docker-container-optimization/docker-container-optimization-1-400.webp
+                    static/img/posts/docker-container-optimization/docker-container-optimization-1-800.webp
+                    static/img/posts/docker-container-optimization/docker-container-optimization-1.png
+                    static/img/posts/docker-container-optimization/docker-container-optimization-1.webp
+                    static/img/posts/generative-coding-guide-2026/generative-coding-guide-2026-1-400.webp
+                    static/img/posts/generative-coding-guide-2026/generative-coding-guide-2026-1-800.webp
+                    static/img/posts/generative-coding-guide-2026/generative-coding-guide-2026-1.png
+                    static/img/posts/generative-coding-guide-2026/generative-coding-guide-2026-1.webp
+                    static/img/posts/generative-coding-guide-2026/generative-coding-guide-2026-2-400.webp
+                    static/img/posts/generative-coding-guide-2026/generative-coding-guide-2026-2-800.webp
+                    static/img/posts/generative-coding-guide-2026/generative-coding-guide-2026-2.png
+                    static/img/posts/generative-coding-guide-2026/generative-coding-guide-2026-2.webp
+                    static/img/posts/generative-coding-guide-2026/generative-coding-guide-2026-3-400.webp
+                    static/img/posts/generative-coding-guide-2026/generative-coding-guide-2026-3-800.webp
+                    static/img/posts/generative-coding-guide-2026/generative-coding-guide-2026-3.png
+                    static/img/posts/generative-coding-guide-2026/generative-coding-guide-2026-3.webp
+                    static/img/posts/github-blog-theme/github-blog-theme-1.webp
+                    static/img/posts/github-blog-theme/github-blog-theme-2.webp
+                    static/img/posts/github-blog-theme/github-blog-theme-3.webp
+                    static/img/posts/github-blog-theme/github-blog-theme-4.webp
+                    static/img/posts/github-blog-theme/github-blog-theme-5.webp
+                    static/img/posts/github-blog-theme/github-blog-theme-6.webp
+                    static/img/posts/google-adsense-fail/google-adsense-fail-1.webp
+                    static/img/posts/google-adsense-fail/google-adsense-fail-2.webp
+                    static/img/posts/google-adsense-fail/google-adsense-fail-3.webp
+                    static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-1-400.webp
+                    static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-1-800.webp
+                    static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-1.png
+                    static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-1.webp
+                    static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-2-400.webp
+                    static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-2-800.webp
+                    static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-2.png
+                    static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-2.webp
+                    static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-3-400.webp
+                    static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-3-800.webp
+                    static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-3.png
+                    static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-3.webp
+                    static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-1-400.webp
+                    static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-1-800.webp
+                    static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-1.webp
+                    static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-2-400.webp
+                    static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-2-800.webp
+                    static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-2.webp
+                    static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-3-400.webp
+                    static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-3-800.webp
+                    static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-3.webp
+                    static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-1-400.webp
+                    static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-1-800.webp
+                    static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-1.png
+                    static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-1.webp
+                    static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-2-400.webp
+                    static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-2-800.webp
+                    static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-2.png
+                    static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-2.webp
+                    static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-3-400.webp
+                    static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-3-800.webp
+                    static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-3.png
+                    static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-3.webp
+                    static/img/posts/progressive-web-app/progressive-web-app-1.webp
+                    static/img/posts/progressive-web-app/progressive-web-app-2.webp
+                    static/img/posts/progressive-web-app/progressive-web-app-3.webp
+                    static/img/posts/prompt-engineer/prompt-engineer-1.webp
+                    static/img/posts/prompt-engineer/prompt-engineer-2.webp
+                    static/img/posts/ruby-install/ruby-install-0.jpg
+                    static/img/posts/ruby-install/ruby-install-1.jpg
+                    static/img/posts/ruby-install/ruby-install-10.jpg
+                    static/img/posts/ruby-install/ruby-install-2.jpg
+                    static/img/posts/ruby-install/ruby-install-3.jpg
+                    static/img/posts/ruby-install/ruby-install-4.jpg
+                    static/img/posts/ruby-install/ruby-install-5.jpg
+                    static/img/posts/ruby-install/ruby-install-6.jpg
+                    static/img/posts/ruby-install/ruby-install-7.jpg
+                    static/img/posts/ruby-install/ruby-install-8.jpg
+                    static/img/posts/ruby-install/ruby-install-9.jpg
+                    .github/workflows/deploy.yml
+                    .gitignore
+                    about.md
+                    ads.txt
+                    category/ai.md
+                    category/bash.md
+                    category/browser.md
+                    category/codefights.md
+                    category/database.md
+                    category/django.md
+                    category/git.md
+                    category/github.md
+                    category/infra.md
+                    category/iot.md
+                    category/javascript.md
+                    category/jekyll.md
+                    category/linux.md
+                    category/markdown.md
+                    category/marketing.md
+                    category/news.md
+                    category/nginx.md
+                    category/nuxt.md
+                    category/others.md
+                    category/python.md
+                    category/quasar.md
+                    category/ruby.md
+                    category/se.md
+                    category/security.md
+                    category/server.md
+                    category/spring.md
+                    category/ssl.md
+                    category/vue.md
+                    CNAME
+                    doc/cross-site-nav-design-spec.md
+                    feed.xml
+                    Gemfile
+                    Gemfile.lock
+                    index.html
+                    LICENSE
+                    projects.md
+                    README.md
+                    robots.txt
+                    sitemap.xml
+                    static/css/bootstrap.min.css
+                    static/css/font-awesome.css.map
+                    static/css/font-awesome.min.css
+                    static/css/fonts.css
+                    static/css/main.css
+                    static/css/projects.css
+                    static/css/super-search.css
+                    static/css/syntax.css
+                    static/css/thickbox.css
+                    static/fonts/fontawesome-webfont.eot
+                    static/fonts/fontawesome-webfont.svg
+                    static/fonts/fontawesome-webfont.ttf
+                    static/fonts/fontawesome-webfont.woff
+                    static/fonts/fontawesome-webfont.woff2
+                    static/fonts/FontAwesome.otf
+                    static/fonts/roboto-condensed-v16-latin-ext_latin-300.woff
+                    static/fonts/roboto-condensed-v16-latin-ext_latin-300.woff2
+                    static/fonts/roboto-condensed-v16-latin-ext_latin-300italic.woff
+                    static/fonts/roboto-condensed-v16-latin-ext_latin-300italic.woff2
+                    static/fonts/roboto-condensed-v16-latin-ext_latin-700.woff
+                    static/fonts/roboto-condensed-v16-latin-ext_latin-700.woff2
+                    static/fonts/roboto-condensed-v16-latin-ext_latin-italic.woff
+                    static/fonts/roboto-condensed-v16-latin-ext_latin-italic.woff2
+                    static/fonts/roboto-condensed-v16-latin-ext_latin-regular.woff
+                    static/fonts/roboto-condensed-v16-latin-ext_latin-regular.woff2
+                    static/img/avatar.jpg
+                    static/img/banner-kpopface.jpg
+                    static/img/blog-logo.svg
+                    static/img/kcl-logo.svg
+                    static/img/kft-logo.svg
+                    static/img/loadingAnimation.gif
+                    static/img/macFFBgHack.png
+                    static/img/og-default.jpg
+                    static/img/og-default.webp
+                    static/img/posts/5g-data-sec-1.webp
+                    static/img/posts/5g-data-sec-2.webp
+                    static/img/posts/ai-bigdata-health-future-1.webp
+                    static/img/posts/ai-bigdata-health-future-2.webp
+                    static/img/posts/ai-trend-gpt-after-1.webp
+                    static/img/posts/ai-trend-gpt-after-2.webp
+                    static/img/posts/amazon-rds1.png
+                    static/img/posts/amazon-rds2.png
+                    static/img/posts/amazon-rds3.png
+                    static/img/posts/amazon-rds4.png
+                    static/img/posts/amazon-rds5.png
+                    static/img/posts/block-chain-1.webp
+                    static/img/posts/block-chain-2.webp
+                    static/img/posts/Broadcast_Mail.png
+                    static/img/posts/clcoud-computer-comp.webp
+                    static/img/posts/cloud-computing-trend-1.webp
+                    static/img/posts/cloud-computing-trend-2.webp
+                    static/img/posts/csr.png
+                    static/img/posts/data-sc-python-lib-1.webp
+                    static/img/posts/data-sc-python-lib-2.webp
+                    static/img/posts/django-tutorial.webp
+                    static/img/posts/docker-kubernet.webp
+                    static/img/posts/machin-lean-base.webp
+                    static/img/posts/mo-dev-iss.webp
+                    static/img/posts/quantum-computing-undst.webp
+                    static/img/posts/serverless-computing.webp
+                    static/img/posts/siap-security-group.png
+                    static/img/screenshot-post-page.png
+                    static/img/sgt-logo.svg
+                    static/img/subtle_dots.png
+                    static/js/bootstrap.min.js
+                    static/js/jquery-1.11.0.min.js
+                    static/js/jquery-migrate-1.2.1.min.js
+                    static/js/projects.js
+                    static/js/super-search.js
+                    static/js/thickbox-compressed.js
+                    static/projects/kpopface.jpg
+                    static/projects/mbtichat.jpg
+                    static/projects/placeholder.jpg
+                    _data/projects.json
+                    _includes/blog-main.html
+                    _includes/cross-site-nav.html
+                    _includes/pre-version.html
+                    _includes/project_tags.html
+                    _includes/share-page.html
+                    _layouts/compress.html
+                    _layouts/default.html
+                    _layouts/page.html
+                    _layouts/post.html
+                    _layouts/posts_by_category.html
+                    _layouts/project.html
+                    _layouts/project_single.html
+                    _posts/2019-05-13-jekyll-blog.md
+                    _posts/2019-05-21-markdown.md
+                    _posts/2019-05-30-devTools-debuging.md
+                    _posts/2021-02-13-database_to_char_method.md
+                    _posts/2023-04-09-middleWare.md
+                    _posts/2023-04-16-ORA-01861.md
+                    _posts/2023-04-25-trigger-prop.md
+                    _posts/2023-05-01-oracle_databse_edition.md
+                    _posts/2023-07-14-ruby-install.md
+                    _posts/2023-07-14-web-app-dev-jekyll-enviroment.md
+                    _posts/2023-08-10-dev-arti-intel-mach-learn.md
+                    _posts/2023-08-10-smart-iot-future-city.md
+                    _posts/2023-08-11-prompt-engineer.md
+                    _posts/2023-08-21-google-adsense-fail.markdown
+                    _posts/2023-08-22-github-blog-theme.markdown
+                    _posts/2023-08-23-progressive-web-app.markdown
+                    _posts/2023-09-03-ai-trend-gpt-after.markdown
+                    _posts/2023-09-03-cloud-computing-trend.markdown
+                    _posts/2023-09-04-block-chain.markdown
+                    _posts/2023-09-05-data-sc-python-lib.markdown
+                    _posts/2023-09-08-5g-data-sec.markdown
+                    _posts/2023-09-08-ai-bigdata-health-future.markdown
+                    _posts/2023-09-14-serverless-computing.markdown
+                    _posts/2023-09-18-vr-ar-edu-chg.markdown
+                    _posts/2023-09-19-machin-lean-base.markdown
+                    _posts/2023-09-20-clcoud-computer-comp.markdown
+                    _posts/2023-09-21-mo-dev-iss.markdown
+                    _posts/2023-09-22-quantum-computing-undst.markdown
+                    _posts/2023-09-25-docker-kubernet.markdown
+                    _posts/2024-01-27-software-life-cycle.markdown
+                    _posts/2024-03-04-django-tutorial.markdown
+                    _posts/2024-03-13-django-tutorial-2.markdown
+                    _posts/2024-03-23-vue-build-chunkvendor-app-js.markdown
+                    _posts/2024-03-26-nuxt-start-project-azure-set.markdown
+                    _posts/2024-04-04-spring-vue-git.markdown
+                    _posts/2024-04-05-vue-create-project-setting.markdown
+                    _posts/2024-04-07-nuxt-quasar-project-setting.markdown
+                    _posts/2024-04-08-ecmascript-const-let.markdown
+                    _posts/2024-04-18-vue-nuxt.markdown
+                    _posts/2024-05-06-vue-github-pages-hosting.markdown
+                    _posts/2024-05-08-life-cycle-hook-vue.markdown
+                    _posts/2026-01-21-docker-container-optimization.md
+                    _posts/2026-01-23-vibe-coding-guide-2026.md
+                    _posts/2026-01-24-multimodal-ai-practical-guide.md
+                    _posts/2026-01-25-mcp-model-context-protocol-guide.md
+                    _posts/2026-01-26-generative-coding-guide-2026.md
+                    _posts/2026-01-30-moltbot-security-issues-2026.md
+                    _project/mbtichat.md
+                    _sass/_base.scss
+                    _sass/_layout.scss
+                    _sass/_syntax-highlighting.scss
+                    ...done in 7.3597311 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-01-30 11:18:03
+                    jekyll.log
+                    ...done in 4.8551804 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-01-30 11:18:08
+                    jekyll.log
+                    ...done in 4.7654937 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-01-30 11:18:12
+                    jekyll.log
+                    ...done in 4.9117743 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-01-30 11:18:17
+                    jekyll.log
+                    ...done in 2.8816855 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-01-30 11:18:20
+                    jekyll.log
+                    ...done in 5.4767502 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-01-30 11:18:26
+                    jekyll.log
+                    ...done in 5.6131285 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-01-30 11:18:32
+                    jekyll.log
+                    ...done in 4.679226 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-01-30 11:18:36
+                    jekyll.log
+                    ...done in 3.7815265 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-01-30 11:18:40
+                    jekyll.log
+[2026-01-30 11:18:40] ERROR `/security/2026/01/30/moltbot-security-issues-2026.html' not found.
+[2026-01-30 11:18:42] ERROR `/favicon.ico' not found.
+                    ...done in 4.183321 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-01-30 11:18:44
+                    jekyll.log
+                    ...done in 3.6400298 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-01-30 11:18:48
+                    jekyll.log
+                    ...done in 5.8712631 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-01-30 11:18:54
+                    jekyll.log
+                    ...done in 6.5413322 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-01-30 11:19:01
+                    jekyll.log
