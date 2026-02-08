@@ -4,7 +4,7 @@ title: "AI 에이전트 오케스트레이션 - 혼자 일하는 AI는 이제 �
 date: 2026-02-04 17:00:00 +0900
 categories: [ai]
 tags: [multi-agent, agent-orchestration, claude-flow, crewai, langgraph, ai-agent, agentic-ai, mcp]
-published: false
+published: true
 ---
 
 AI 에이전트 하나가 똑똑한 건 이미 증명됐습니다. Claude가 코드를 짜고, GPT가 문서를 요약하고, Gemini가 데이터를 분석하는 건 놀랍지 않은 세상이 됐죠. 그런데 실무에서 부딪히는 문제는 좀 다릅니다. "코드 짜고, 테스트 돌리고, 보안 점검하고, 문서 업데이트하고, 배포까지" 같은 작업을 하나의 에이전트에게 시키면? 컨텍스트가 길어지면서 정확도가 떨어지고, 한 단계에서 실수하면 전체가 무너집니다.
@@ -228,8 +228,6 @@ security_checker.context = shared_context
 **4. 점진적 확장**
 
 2-3개 에이전트로 핵심 워크플로우를 먼저 구현하고, 가치가 검증된 후에 확장하는 게 맞습니다. 처음부터 10개 에이전트를 배치하면 디버깅 지옥에 빠집니다.
-
-![멀티에이전트 실전 운영](/static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-3.png){: .wd100}
 
 ## 팀을 만드는 게 코딩의 미래다
 

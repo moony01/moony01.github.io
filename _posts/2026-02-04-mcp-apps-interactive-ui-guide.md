@@ -4,7 +4,7 @@ title: "MCP Apps - AI 채팅창 안에서 대시보드가 돌아간다고?"
 date: 2026-02-04 14:00:00 +0900
 categories: [ai]
 tags: [mcp, mcp-apps, model-context-protocol, claude, chatgpt, interactive-ui, ai-tools, agentic-ai]
-published: false
+published: true
 ---
 
 AI 챗봇에게 "매출 데이터 분석해줘"라고 물으면, 보통 마크다운 표나 텍스트 덩어리가 돌아옵니다. 운이 좋으면 코드 블록에 차트 라이브러리 코드가 딸려올 수도 있죠. 그런데 만약 채팅창 안에서 **인터랙티브 대시보드**가 바로 렌더링되고, 필터를 클릭하고, 드릴다운까지 가능하다면 어떨까요?
@@ -200,8 +200,6 @@ server.registerUIResource("ui://dashboard/main", {
 ```
 
 공식 `ext-apps` 저장소에 3D 시각화, 인터랙티브 맵, PDF 뷰어, 실시간 대시보드 등의 예제가 포함되어 있으니, 참고하면 빠르게 시작할 수 있습니다.
-
-![MCP Apps 개발 가이드](/static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-3.png){: .wd100}
 
 ## AI 인터페이스의 다음 장
 
