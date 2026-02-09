@@ -164,6 +164,61 @@ div.col-sm-3 div.profile-about {
   border-top: 1px solid #f0f0f0;
   border-bottom: 1px solid #f0f0f0;
 }
+/* Tables */
+div.content table,
+div.post-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  font-size: 14px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+div.content table th,
+div.post-content table th {
+  background-color: #2c2c2c;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 14px;
+  text-align: left;
+  border: 1px solid #444;
+}
+div.content table td,
+div.post-content table td {
+  padding: 9px 14px;
+  border: 1px solid #e0e0e0;
+  color: #555;
+}
+div.content table tbody tr:nth-child(even),
+div.post-content table tbody tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+div.content table tbody tr:hover,
+div.post-content table tbody tr:hover {
+  background-color: #f0f7f2;
+}
+div.content table td[align="center"],
+div.post-content table td[align="center"],
+div.content table th[align="center"],
+div.post-content table th[align="center"] {
+  text-align: center;
+}
+@media (max-width: 768px) {
+  div.content table,
+  div.post-content table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  div.content table th,
+  div.post-content table th,
+  div.content table td,
+  div.post-content table td {
+    white-space: nowrap;
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+}
+
 .post-content img,
 .content img {
   max-width: 100%;
