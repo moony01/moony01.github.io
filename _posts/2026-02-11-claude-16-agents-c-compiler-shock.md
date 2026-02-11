@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Claude 16마리가 C 컴파일러를 만들었다 — 10만 줄, 2주, 인간 개입 거의 없음"
+description: "16개의 Claude AI 에이전트가 2주 만에 10만 줄의 Rust 코드로 C 컴파일러를 만들었습니다. $20,000의 비용으로 리눅스 커널까지 컴파일하는 이 프로젝트가 개발자에게 의미하는 것은?"
 date: 2026-02-11 11:00:00 +0900
 categories: [ai]
 tags: [claude, ai-agent, compiler, rust, anthropic, agentic-coding, multi-agent]
+image: claude-16-agents-c-compiler-shock/claude-16-agents-c-compiler-shock-1.png
 published: true
 ---
 

@@ -2,18 +2,69 @@
   <span style="float: left;">Share this on &rarr;&nbsp;&nbsp;</span>
 
   <!-- Twitter -->
-  <a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ site.share.twitter_username }}">Tweet</a>
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url | url_encode }}" target="_blank" rel="noopener noreferrer" class="share-btn share-twitter" title="Share on X (Twitter)">
+    <i class="fa fa-twitter"></i>
+  </a>
 
   <!-- Facebook -->
-  <div class="fb-share-button" data-href="{{ site.url }}{{ page.url }}" data-layout="button_count" style="position: relative; top: -8px; left: 3px;"></div>
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url | url_encode }}" target="_blank" rel="noopener noreferrer" class="share-btn share-facebook" title="Share on Facebook">
+    <i class="fa fa-facebook"></i>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url | url_encode }}" target="_blank" rel="noopener noreferrer" class="share-btn share-linkedin" title="Share on LinkedIn">
+    <i class="fa fa-linkedin"></i>
+  </a>
+
+  <!-- Copy Link -->
+  <a href="javascript:void(0)" onclick="copyPageLink()" class="share-btn share-copy" title="Copy link">
+    <i class="fa fa-link"></i>
+  </a>
+  <span id="copy-toast" style="display:none; margin-left:8px; color:#28a745; font-size:12px;">Copied!</span>
 </div>
 
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId={{ site.share.fb_appid }}";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+<script>
+function copyPageLink() {
+  var url = '{{ site.url }}{{ page.url }}';
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(url).then(function() {
+      showCopyToast();
+    });
+  } else {
+    var temp = document.createElement('input');
+    document.body.appendChild(temp);
+    temp.value = url;
+    temp.select();
+    document.execCommand('copy');
+    document.body.removeChild(temp);
+    showCopyToast();
+  }
+}
+function showCopyToast() {
+  var toast = document.getElementById('copy-toast');
+  toast.style.display = 'inline';
+  setTimeout(function() { toast.style.display = 'none'; }, 2000);
+}
+</script>
+
+<style>
+.share-page { margin: 20px 0; }
+.share-btn {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 6px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: opacity 0.2s;
+}
+.share-btn:hover { opacity: 0.8; color: #fff; text-decoration: none; }
+.share-twitter { background: #1da1f2; }
+.share-facebook { background: #3b5998; }
+.share-linkedin { background: #0077b5; }
+.share-copy { background: #6c757d; cursor: pointer; }
+</style>
