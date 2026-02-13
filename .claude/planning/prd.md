@@ -1,4 +1,4 @@
-# PRD: Plozen Tech Blog 콘텐츠 자동화 시스템
+# PRD: Moony01 Studio 콘텐츠 자동화 시스템
 
 ## 1. 개요
 

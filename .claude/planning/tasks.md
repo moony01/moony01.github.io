@@ -1,4 +1,4 @@
-# TASKS: Plozen Tech Blog 콘텐츠 자동화 시스템
+# TASKS: Moony01 Studio 콘텐츠 자동화 시스템
 
 > **PRD 참조**: [prd.md](./prd.md)
 > **마지막 업데이트**: 2026-01-21

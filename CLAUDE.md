@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Jekyll-based technical blog (Plozen Tech Blog) hosted on GitHub Pages at https://moony01.com. Uses Node.js tooling for image optimization and content automation.
+Jekyll-based technical blog (Moony01 Studio) hosted on GitHub Pages at https://moony01.com. Uses Node.js tooling for image optimization and content automation.
 
 ## Development Commands
 

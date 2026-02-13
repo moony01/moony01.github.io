@@ -171,13 +171,6 @@
         gtag('config', '{{ site.google_analytics }}');
       </script>
     {% endif %}
-    <script>
-      function bannerClick(name) {
-        if(name == "kpopface") {
-          location.href="/kpopface/"
-        }
-      }
-    </script>
   </head>
   <body>
     {% include cross-site-nav.html %}
@@ -202,9 +195,18 @@
             <input type="text" placeholder="(sitemap)~$ type to search" class="search__input form-control" id="js-search__input">
             <ul class="search__results" id="js-search__results"></ul>
           </div>
-          <div class="banner" id="kpopface" onclick="bannerClick('kpopface')">
-            <img src="/static/img/banner-kpopface.jpg" alt="케이팝 얼굴상 테스트 바로가기">
-          </div>
+          <a href="/kpopface/" class="sidebar-banner" target="_blank" rel="noopener noreferrer">
+            <div class="sidebar-banner__inner">
+              <div class="sidebar-banner__icon">
+                <img src="/static/img/kft-logo.svg" alt="K-Pop Face Test" width="32" height="32" />
+              </div>
+              <div class="sidebar-banner__text">
+                <span class="sidebar-banner__badge">AI</span>
+                <strong>K-Pop Face Test</strong>
+                <span class="sidebar-banner__arrow">&rarr;</span>
+              </div>
+            </div>
+          </a>
           <hr />
           <ul class="sidebar-nav">
             <strong>Navigation</strong>
