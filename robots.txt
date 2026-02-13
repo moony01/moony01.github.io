@@ -3,3 +3,7 @@ Allow: /
 Disallow: /kpopface/doc/
 
 Sitemap: https://moony01.com/sitemap.xml
+Sitemap: https://moony01.com/braintype/sitemap.xml
+Sitemap: https://moony01.com/mentalage/sitemap.xml
+Sitemap: https://moony01.com/kpopface/sitemap.xml
+Sitemap: https://moony01.com/sanggyeonrye-test/sitemap.xml
