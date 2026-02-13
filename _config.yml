@@ -57,6 +57,7 @@ plugins:
 # 빌드에서 제외할 파일/디렉토리
 exclude:
   - nul
+  - CLAUDE.md
   - node_modules
   - package.json
   - package-lock.json
