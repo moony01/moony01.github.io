@@ -34,6 +34,9 @@
 **필수 검색 쿼리 (최소 5개 이상 병렬 실행)**:
 
 ```
+# 한국 개발자 큐레이션 (메인 소스)
+"site:news.hada.io" (GeekNews - 한국 개발자 핫 토픽 큐레이션)
+
 # 글로벌 핫 토픽
 "hottest developer news this week {현재년도}"
 "most discussed tech topic today"
@@ -52,6 +55,8 @@
 "AI breakthrough {현재월} {현재년도}"
 "new developer tool launch {현재년도}"
 ```
+
+> **GeekNews (news.hada.io)**: 한국어로 큐레이션된 글로벌 개발 뉴스 사이트. 이미 필터링된 핫 토픽이 올라오므로 가장 우선적으로 참고합니다. WebFetch로 `https://news.hada.io/` 메인 페이지를 직접 크롤링하여 현재 트렌딩 주제를 수집합니다.
 
 ### 1-2. 화제성 스코어링
 
