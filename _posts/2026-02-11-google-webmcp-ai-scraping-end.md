@@ -16,9 +16,6 @@ published: true
 한 줄로 요약하면 이렇습니다: **웹사이트가 AI 에이전트에게 "여기서 뭘 할 수 있는지" 직접 알려주는 표준**. 스크린샷 찍고, DOM 파싱하고, CSS 셀렉터 깨지면 멘붕하는 그 시대가 끝납니다.
 
 ![WebMCP 개념도 — 웹사이트가 AI 에이전트에게 구조화된 도구를 직접 노출하는 구조](/static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-1.png){: .wd100}
-
-{% include pre-version.html %}
-
 ## 지금 스크래핑이 얼마나 비효율적인지 아시나요
 
 AI 에이전트가 웹사이트에서 작업을 수행하려면 현재 이런 과정을 거칩니다:
@@ -49,6 +46,8 @@ WebMCP는 웹사이트와 AI 에이전트 사이에 **세 가지 명시적 계�
 현재 페이지의 상태를 에이전트와 공유합니다. 장바구니에 3개 상품이 담겨 있는지, 로그인 상태인지 등의 컨텍스트를 구조화된 형태로 전달합니다.
 
 이 세 가지가 합쳐지면, AI 에이전트는 더 이상 화면을 "보는" 게 아니라 웹사이트와 **대화**하게 됩니다.
+
+
 
 {% include pre-version.html %}
 
@@ -110,6 +109,11 @@ navigator.webMCP.registerTool({
 핵심은 이겁니다 — **사이트 소유자가 직접 정의한 도구**이기 때문에, DOM이 바뀌어도 깨지지 않습니다. API 계약이 유지되는 한 에이전트는 안정적으로 동작합니다. REST API가 프론트엔드 UI 변경에 영향받지 않는 것과 같은 원리죠.
 
 ![WebMCP 아키텍처 다이어그램 — 브라우저 내 AI 에이전트와 웹사이트 간 구조화된 통신](/static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-2.png){: .wd100}
+
+
+
+
+{% include pre-version.html %}
 
 ## 지금 당장 움직여야 하는 이유
 

@@ -75,23 +75,3 @@ layout: default
   </script>
 </div>
 
-<script>
-(function() {
-  var postEl = document.querySelector('div.post');
-  if (!postEl) return;
-  // pre-version 인라인 광고가 이미 있으면 중간 삽입 스킵
-  if (postEl.querySelector('.ad-inline')) return;
-  var headings = postEl.querySelectorAll('h2');
-  if (headings.length < 3) return;
-  var midIndex = Math.floor(headings.length / 2);
-  var target = headings[midIndex];
-  var adHtml = '<div class="ad-container ad-post-mid">'
-    + '<ins class="adsbygoogle" style="display:block" '
-    + 'data-ad-client="ca-pub-8955182453510440" '
-    + 'data-ad-slot="9755650560" '
-    + 'data-ad-format="auto" '
-    + 'data-full-width-responsive="true"></ins></div>';
-  target.insertAdjacentHTML('beforebegin', adHtml);
-  try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {}
-})();
-</script>

@@ -15,9 +15,6 @@ SELECT TO_CHAR(SYSDATE, 'YYYYMMDD')              --20200723
 FROM dual
 ```
 > YYYY: 년, MM: 월, DD: 일, HH24: 24시간, HH: 12시간, MI: 분, SS:초
-
-{% include pre-version.html %}
-
 ## 소수점 변경
 ```sql
 SELECT TO_CHAR(123.456, 'FM990.999') --123.456
@@ -39,15 +36,17 @@ SELECT TO_CHAR(123467, 'FM999,999')        --123,467
 FROM dual
 ```
 
+
+
+
+{% include pre-version.html %}
+
 ## 날짜의 "0" 없애기
 ```sql
 SELECT TO_CHAR(SYSDATE, 'MM/DD')   --07/03
      , TO_CHAR(SYSDATE, 'FMMM/DD') --7/3
 FROM dual
 ```
-
-{% include pre-version.html %}
-
 ## 임의의 구분자로 날짜 형식 만들기
 ```sql
 SELECT TO_CHAR(SYSDATE, '""YYYY"년 "MM"월 "DD"일"') --2020년 07월 23일
@@ -63,6 +62,11 @@ SELECT TO_CHAR(SYSDATE, 'AM')                    --오전
 FROM dual
 ```
 
+
+
+
+{% include pre-version.html %}
+
 ## 날짜의 요일 반환
 ```sql
 SELECT TO_CHAR(SYSDATE, 'D')   --5 : 1(일)~7(토)
@@ -70,7 +74,6 @@ SELECT TO_CHAR(SYSDATE, 'D')   --5 : 1(일)~7(토)
      , TO_CHAR(SYSDATE, 'DAY') --목요일
 FROM dual
 ```
-{% include pre-version.html %}
 
 ## 1년기준 몇일, 몇주, 분기 반환
 ```sql

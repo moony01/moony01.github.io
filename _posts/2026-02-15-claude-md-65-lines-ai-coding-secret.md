@@ -16,9 +16,6 @@ GitHub에서 하루 만에 400개의 스타가 찍힌 파일이 있다. 수천 �
 ![65줄 CLAUDE.md 파일이 AI 코딩을 혁신하다](/static/img/posts/claude-md-65-lines-ai-coding-secret/claude-md-65-lines-ai-coding-secret-1.png){: .wd100}
 
 이 글에서는 이 파일이 왜 바이럴을 탔는지, 4가지 핵심 원칙이 실제로 무엇을 바꾸는지, 그리고 카파시가 경고한 "슬로파칼립스"와 어떤 관계가 있는지 낱낱이 파헤친다.
-
-{% include pre-version.html %}
-
 ## 카파시가 선언했다 — "바이브 코딩은 끝났다"
 
 이 모든 건 Andrej Karpathy의 한마디에서 시작됐다.
@@ -56,6 +53,8 @@ After:  "로그인 기능 만들어줘" → 요청한 범위만 정확히. 불�
 핵심은 **AI의 과잉 창의성을 억제**하는 거다. LLM은 기본적으로 "도움이 되고 싶어서" 요청 이상의 일을 한다. 그게 문제다. 버그를 고치라고 했는데 주변 코드까지 리팩토링하고, 함수 하나 만들라고 했는데 디자인 패턴부터 적용하고.
 
 65줄 텍스트는 이 본능에 정밀한 제동을 건다.
+
+
 
 {% include pre-version.html %}
 
@@ -155,6 +154,11 @@ MIT Technology Review는 **생성형 코딩(Generative Coding)**을 2026년 10�
 65줄 CLAUDE.md는 이 재앙에 대한 **개인 수준의 방어선**이다. AI에게 "생각하라, 단순하게 하라, 범위를 지켜라, 목표에 집중하라"고 매 세션 주입하는 것. 거창한 해결책이 아니라 지극히 실용적인 대응이다.
 
 ![AI 코딩 슬로파칼립스와 CLAUDE.md 방어 전략](/static/img/posts/claude-md-65-lines-ai-coding-secret/claude-md-65-lines-ai-coding-secret-2.png){: .wd100}
+
+
+
+
+{% include pre-version.html %}
 
 ## 직접 써본 후기 — 한계도 말한다
 

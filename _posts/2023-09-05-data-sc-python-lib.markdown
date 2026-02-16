@@ -5,9 +5,6 @@ date: 2023-09-05 00:00:00 +0700
 categories: [news]
 ---
 데이터 과학을 위한 Python 라이브러리는 매우 다양합니다. 그 중에서도 뛰어난 기능과 성능을 제공하는 라이브러리를 선택하는 것이 중요합니다. 이번에는 데이터 과학을 위한 최고의 Python 라이브러리에 대해 알아보도록 하겠습니다.
-
-{% include pre-version.html %}
-
 ## 목차
 1. 데이터 과학을 위한 Python 라이브러리에서 가장 많이 사용되는 라이브러리는 무엇인가요?
 2. 데이터 과학을 위한 Python 라이브러리에서 시각화에 가장 유용한 라이브러리는 무엇인가요?
@@ -15,8 +12,18 @@ categories: [news]
 
 ![데이터 과학](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/data-sc-python-lib-1.webp)
 
+
+
+
+{% include pre-version.html %}
+
 ## 데이터 과학을 위한 Python 라이브러리에서 가장 많이 사용되는 라이브러리는 무엇인가요?
 가장 많이 사용되는 데이터 과학용 Python 라이브러리는 `Pandas`입니다. Pandas는 데이터 분석과 관련된 다양한 기능을 제공하며 대용량 데이터 처리에도 뛰어난 성능을 보여줍니다. 또한 데이터 시각화에도 유용한 기능을 제공합니다.
+
+
+
+
+{% include pre-version.html %}
 
 ## 데이터 과학을 위한 Python 라이브러리에서 시각화에 가장 유용한 라이브러리는 무엇인가요?
 시각화를 위한 가장 유용한 라이브러리는 `Matplotlib`입니다. Matplotlib는 다양한 차트와 플롯을 그리는 기능을 제공하며, 사용자가 직접 커스터마이징 할 수 있는 다양한 옵션도 제공합니다. 또한 다른 라이브러리와의 호환성도 뛰어납니다.

@@ -18,6 +18,8 @@ Moltbot은 원래 Clawdbot이라는 이름이었습니다. 오스트리아 개�
 
 Andrej Karpathy가 추천하고, David Sacks가 트윗하고, MacStories에서 "개인 AI 비서의 미래"라고 칭찬하니까 순식간에 퍼진 거죠. 1월 24일 하루 만에 GitHub 포크가 50개에서 3000개 이상으로 뛰었고, 몇 주 만에 85,000 스타를 찍었습니다. GitHub 역사상 가장 빠른 성장이라고 합니다.
 
+
+
 {% include pre-version.html %}
 
 ## 10초 만에 벌어진 일
@@ -31,9 +33,6 @@ Andrej Karpathy가 추천하고, David Sacks가 트윗하고, MacStories에서 "
 ![계정 탈취 사건](/static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-2.webp){: .wd100}
 
 솔직히 이건 Moltbot 자체의 보안 문제는 아닙니다. 근데 이 사건이 보여주는 게 있습니다. 이렇게 핫한 프로젝트 주변에는 항상 노리는 눈들이 있다는 거죠.
-
-{% include pre-version.html %}
-
 ## 진짜 문제는 따로 있습니다
 
 GitGuardian이라는 보안 회사가 Moltbot 관련 레포지토리들을 분석했는데, 결과가 좀 충격적입니다.
@@ -50,6 +49,11 @@ OPENAI_API_KEY=sk-xxxxx
 보안 연구원 Jamieson O'Reilly가 조사한 바에 따르면, 수백 명의 사용자가 Moltbot 컨트롤 서버를 인터넷에 아무 보호 없이 열어놓고 있었습니다. SlowMist라는 보안 회사는 게이트웨이 시스템에 인증 우회 취약점이 있어서 수백 개의 API 키와 개인 대화 기록이 공개적으로 접근 가능하다고 발표했습니다.
 
 Moltbot은 기본적으로 여러분의 컴퓨터에 거의 모든 권한을 가집니다. 셸 접근, 파일 시스템 접근, 브라우저 제어. 편리하죠. 근데 그 권한이 잘못된 손에 들어가면 어떻게 될까요?
+
+
+
+
+{% include pre-version.html %}
 
 ## 그래서 쓰면 안 되는 건가요?
 

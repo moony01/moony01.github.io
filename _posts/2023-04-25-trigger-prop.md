@@ -23,6 +23,8 @@ $('#myButton').trigger('click');
 
 위 예제 코드에서는 #myButton이라는 ID를 가진 버튼 요소에 click 이벤트를 강제로 발생시키고 있습니다.
 
+
+
 {% include pre-version.html %}
 
 ## prop 함수

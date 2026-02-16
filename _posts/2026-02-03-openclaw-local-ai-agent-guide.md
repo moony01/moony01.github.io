@@ -18,9 +18,6 @@ OpenClaw는 **내 컴퓨터에서 로컬로 실행되는 오픈소스 AI 개인 
 재미있는 건 이름의 역사입니다. 원래 2025년 11월에 **Clawdbot**이라는 이름으로 출시됐습니다. Claude Code 로딩 화면에 나오는 귀여운 몬스터에서 영감을 받은 이름이었는데, Anthropic에서 상표권 문제를 제기했습니다. 그래서 **Moltbot**으로 바꿨다가, 2026년 초에 결국 **OpenClaw**로 정착했습니다. 랍스터(🦞)가 마스코트가 된 이유도 여기에 있습니다.
 
 오스트리아 개발자 Peter Steinberger가 만들었는데, 아이러니하게도 그는 "Claude Opus가 최고의 범용 에이전트"라고 공개적으로 말하면서도 OpenClaw 전체를 OpenAI Codex로 개발했습니다. 실용주의의 극치죠.
-
-{% include pre-version.html %}
-
 ## 왜 이렇게 핫한가?
 
 GitHub 스타 145,000개가 그냥 얻어진 게 아닙니다. OpenClaw가 기존 AI 도구들과 차별화되는 핵심 포인트를 정리해봤습니다.
@@ -42,6 +39,11 @@ GitHub 스타 145,000개가 그냥 얻어진 게 아닙니다. OpenClaw가 기�
 단순히 답변만 주는 게 아닙니다. 파일을 생성하고, 코드를 실행하고, API를 호출하고, 이메일을 보내는 등 실제 작업을 자동화할 수 있습니다.
 
 ![OpenClaw 아키텍처](/static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-2.webp){: .wd100}
+
+
+
+
+{% include pre-version.html %}
 
 ## 설치 및 설정 방법
 
@@ -94,9 +96,6 @@ openclaw connect telegram --token "YOUR_BOT_TOKEN"
 # 연결 테스트
 openclaw test telegram
 ```
-
-{% include pre-version.html %}
-
 ## 실전 활용 예시
 
 설치가 끝났으면 이제 실제로 활용해봅시다.
@@ -154,6 +153,11 @@ pipeline:
 ```
 
 ![OpenClaw 워크플로우](/static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-3.webp){: .wd100}
+
+
+
+
+{% include pre-version.html %}
 
 ## 보안, 진지하게 생각해야 합니다
 

@@ -6,9 +6,6 @@ categories: [javascript]
 ---
 
 자바스크립트는 웹 개발에서 빼놓을 수 없는 핵심 언어입니다. ECMAScript 2015(ES6)는 자바스크립트에 많은 새로운 기능을 도입했는데, 그중 `const`와 `let` 키워드는 변수 선언 방식을 혁신적으로 바꿔 놓았습니다. 이 글에서는 `const`와 `let`의 정의와 그들 사이의 차이점에 대해 자세히 살펴보겠습니다.
-
-{% include pre-version.html %}
-
 ### 목차
 
 1. `const`와 `let`의 정의
@@ -37,6 +34,11 @@ categories: [javascript]
 #### 호이스팅
 
 - `const`와 `let` 모두 호이스팅되지만, `var`와 달리 초기화되지 않은 상태에서는 접근할 수 없습니다. 이러한 특성은 "일시적 사각지대(Temporal Dead Zone, TDZ)"로 알려져 있습니다.
+
+
+
+
+{% include pre-version.html %}
 
 ## 결론
 

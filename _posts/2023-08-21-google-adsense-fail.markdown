@@ -33,6 +33,11 @@ categories: [marketing]
 
 필러 텍스트 또는 ipsum lorem 텍스트는 보통 상품 상세 디자인이나 문서 등을 작성할때 글이 채워졌을 때의 문서나 레이아웃 등 디자인을 확인하기 위해 채워넣는 의미 없는 텍스트입니다. 이 또한 우리는 의미없는 글이나 정보성이 전혀 없는 글을 작성하지 않았을테니 통과입니다. 
 
+
+
+
+{% include pre-version.html %}
+
 ## 아직 준비 중인 화면.
 이 메시지는 아직 미완성 상태인 화면이라고 만 공식 문서에 나와있습니다. 다른 추가 공식 문서의 내용들을 전체적으로 읽어보고 요약해 보겠습니다.
 
@@ -48,6 +53,11 @@ categories: [marketing]
 이 메시지 또한 감사 인사 페이지, 로그인 페이지, 종료 페이지, 오류 페이지와 같은 맥락으로 볼수 있겠네요. 결론은 나만의 고유 고품질의 콘텐츠에만 광고를 달라는 뜻이라고 간단 요약할 수 있겠습니다.
 
 ![게시자 콘텐츠가 없는 화면에 Google 게재 광고](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/google-adsense-fail/google-adsense-fail-2.webp){: .wd80}
+
+
+
+
+{% include pre-version.html %}
 
 ## 자세한 내용은 다음 자료를 참고하세요.(자세한 문서 요약)
 자세하게 나와있는 문서가 있는데요 전체적인 내용을 아주 간략하게 요약해보겠습니다. 

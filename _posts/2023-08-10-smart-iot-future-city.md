@@ -29,6 +29,11 @@ categories: [iot]
 
 ![자율주행 자동차](/static/img/posts/smart-iot-future-city/smart-iot-future-city-2.webp){: .wd100}
 
+
+
+
+{% include pre-version.html %}
+
 ## 자율주행 자동차의 현재 상황과 미래 전망: 자율주행 기술 소개 및 발전 과정
 
 자율주행 자동차는 운전자 개입 없이 스스로 주행하는 혁신적인 기술로, 교통 사고 감소, 교통 체증 완화 등의 다양한 긍정적 영향을 기대하게 합니다. 현재 상황에서는 자율주행 자동차 기술이 상업화 단계에 접어들며 거대한 시장 성장이 예상됩니다. 
@@ -76,6 +81,11 @@ categories: [iot]
 **결국, IoT와 자율주행 자동차 활용에 따른 미래 도시의 변화는 교통 시스템 개선, 에너지 절약, 도로 안전 강화 등 실질적인 혜택을 제공할 것으로 판단됩니다.** 이를 통해 친환경적이고 지속 가능한 도시 발전이 가능하게 될 것입니다.
 
 ![스마트 시티 구축](/static/img/posts/smart-iot-future-city/smart-iot-future-city-4.webp){: .wd100}
+
+
+
+
+{% include pre-version.html %}
 
 ## 도전과 기회: 스마트 시티 구축을 위한 현재의 도전과 기회 소개
 

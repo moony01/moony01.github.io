@@ -27,6 +27,11 @@ categories: [browser]
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+
+
+
+{% include pre-version.html %}
+
 ## PWA(Progressice Web App)이란 무엇인가?
 PWA(Progressice Web App)는 2016년에 구글이 발표한 기술이다. **PWA는 쉽게말해 내가 만든 웹사이트를 네이티브 앱 수준으로 사용자가 다운로드 받아서 사용할 수 있는 기술이다.** 웹 페이지를 모바일에도 사용 가능하게 반응형으로 디자인하고 PWA를 적용하면 웹, 앱 전부 사용자에게 재공이 가능하다. 그럼 PWA기술로 구글 플레이 스토어, 앱 스토어에 출시할 수 있을까?
 
@@ -48,6 +53,11 @@ Service Worker는 오프라인, 인터넷이 연결되어있지 않은 환경에
 
 ### Manifest(매니페스트)
 이녀석은 PWA기술로 앱을 설치할때 앱의 정보 즉 이름이나 앱 아이콘 이미지 등을 알려주는 JSON파일이다.
+
+
+
+
+{% include pre-version.html %}
 
 ## 내 홈페이지(프로젝트)에 구현해보기
 우리는 실제로 PWA를 구현하기 위해 다음 단계를 거칠것이다.

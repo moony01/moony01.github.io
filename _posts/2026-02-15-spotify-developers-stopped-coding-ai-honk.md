@@ -18,9 +18,6 @@ Spotify의 공동 CEO Gustav Söderström이 4분기 실적 발표에서 직접 
 ![Spotify AI 코딩 시스템 Honk — 개발자가 코드를 쓰지 않는 시대](/static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-1.png){: .wd100}
 
 대체 무슨 일이 벌어진 건지, 그리고 이게 **우리 개발자에게 어떤 의미인지** 파헤쳐보겠다.
-
-{% include pre-version.html %}
-
 ## 슬랙에서 "버그 고쳐" 치면 앱이 나온다 — 이게 실화라고?
 
 Söderström이 실적 발표에서 공개한 워크플로우를 들으면 정신이 멍해진다.
@@ -48,6 +45,11 @@ Söderström이 실적 발표에서 공개한 워크플로우를 들으면 정�
 ⏱️ 출근길에 완료
 ```
 
+
+
+
+{% include pre-version.html %}
+
 ## 2025년에 AI로 50개 이상의 기능을 출시했다 — 숫자가 증명한다
 
 말만 거창한 게 아니다. 실제 결과물이 있다. Spotify는 2025년 한 해 동안 **50개 이상의 기능과 업데이트**를 AI 주도 개발로 출시했다.
@@ -69,9 +71,6 @@ Söderström은 여기서 멈추지 않았다. 진짜 무서운 건 그다음 �
 이건 단순한 기술 우위가 아니라 **구조적 경쟁우위**다. AI 시대의 해자(moat)가 이런 모습이다.
 
 ![Spotify AI 개발 워크플로우 — Before vs After](/static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-2.png){: .wd100}
-
-{% include pre-version.html %}
-
 ## 개발자는 정말 필요 없어지는 걸까 — 불편한 진실
 
 여기서 솔직한 이야기를 하겠다. 이 뉴스를 접한 개발자 커뮤니티의 반응은 크게 두 갈래다.
@@ -91,6 +90,11 @@ Honk 같은 내부 AI 시스템이 회사의 코드베이스를 완벽하게 학
 역설적인 상황이 벌어진다. **코드를 쓰는 경험 없이는 AI가 쓴 코드를 리뷰할 수 없는데, 코드를 쓸 기회 자체가 사라지고 있다.** 주니어는 어디서 경험을 쌓아야 하는가?
 
 이건 아직 답이 없는 질문이다. Spotify도, Anthropic도, 아무도 이 질문에 제대로 대답하지 못하고 있다.
+
+
+
+
+{% include pre-version.html %}
 
 ## 지금 당장 우리가 해야 할 3가지
 

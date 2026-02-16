@@ -69,6 +69,8 @@ response = client.chat.completions.create(
 )
 ```
 
+
+
 {% include pre-version.html %}
 
 ## 주요 멀티모달 모델 비교: GPT-4V vs Gemini vs Claude
@@ -254,6 +256,8 @@ code = analyze_with_claude(
 )
 print(code)
 ```
+
+
 
 {% include pre-version.html %}
 

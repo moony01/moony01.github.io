@@ -14,9 +14,6 @@ S&P 500 소프트웨어 지수에서 **1조 달러(약 1,450조 원)**가 증발
 ![OpenAI Frontier 플랫폼 히어로 이미지](/static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-1.png){: .wd100}
 
 지금까지 AI 뉴스를 "또 마케팅이겠지"하고 넘겼다면, 이번만큼은 진지하게 읽어주세요. 저도 처음에는 반신반의했는데, 파고들수록 이건 진짜 게임 체인저였습니다.
-
-{% include pre-version.html %}
-
 ## Frontier가 대체 뭔데 — 30초 요약
 
 Frontier는 한 마디로 **"AI 에이전트를 위한 운영체제"**입니다.
@@ -31,6 +28,11 @@ Frontier는 한 마디로 **"AI 에이전트를 위한 운영체제"**입니다.
 Sam Altman은 이걸 **"AI coworkers"**라고 불렀습니다. AI가 도구가 아니라 **동료**라는 겁니다. Uber, State Farm, Intuit, Thermo Fisher Scientific이 이미 초기 사용자로 참여하고 있고, 수개월 내 대규모 공개를 예고했습니다.
 
 충격적인 건 멀티벤더 전략입니다. OpenAI 플랫폼에서 경쟁사인 Anthropic의 Claude 에이전트를 돌릴 수 있다? 이건 기존 SaaS 벤더들이 상상조차 못한 개방성입니다.
+
+
+
+
+{% include pre-version.html %}
 
 ## SaaS 업계가 진짜로 떨고 있는 3가지 이유
 
@@ -51,9 +53,6 @@ Salesforce를 7년 쓴 기업이 다른 CRM으로 이전하는 건 악몽 같은
 그 결과가 숫자로 나타났습니다. Salesforce 주가는 일주일 사이 12% 이상 하락했고, ServiceNow, Workday 같은 전통 SaaS 기업들이 줄줄이 빠졌습니다. 반면 AI 인프라 기업들은 폭등 — Nvidia는 하루 만에 7.8% 올랐습니다.
 
 ![OpenAI Frontier 아키텍처 다이어그램](/static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-2.png){: .wd100}
-
-{% include pre-version.html %}
-
 ## 개발자에게 이게 왜 중요한가
 
 "나는 엔터프라이즈 SaaS 안 만드니까 상관없는 거 아닌가?"
@@ -96,6 +95,11 @@ class SalesAgent:
 ### API 설계의 중요성이 폭발한다
 
 AI 에이전트는 UI를 보지 않습니다. **API를 호출합니다.** 에이전트가 잘 사용할 수 있는 API — 명확한 스키마, 일관된 에러 처리, 좋은 문서 — 를 만드는 개발자의 가치가 급상승합니다. MCP(Model Context Protocol)나 OpenAPI 스펙에 대한 깊은 이해가 차별화 무기가 됩니다.
+
+
+
+
+{% include pre-version.html %}
 
 ## Salesforce는 진짜로 죽을까?
 

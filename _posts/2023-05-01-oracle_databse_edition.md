@@ -23,9 +23,6 @@ Enterprise Edition (also includes Standard Edition 2)으로 함께 제공되고 
 * ORACLE EE(Enterprise Edition)은 **대규모 기업에서 사용하기에 적합한 라이선스**로, SE와 달리 클러스터링과 데이터 가드 기능을 지원하며, 프로세서 제한이 없어서 더 큰 하드웨어 환경에서 실행될 수 있습니다. 또한, EE는 추가 기능을 포함하고 있습니다.
 
 * ORACLE XE(Express Edition)은 무료로 사용할 수 있는 ORACLE Datㄴabase 버전입니다. 이 버전은 **개발자나 작은 규모의 비즈니스에서 사용하기에 적합**하며, 데이터베이스 크기, CPU, 메모리 등에 대한 제한이 있습니다. 또한, 기능 제한도 있으며, 클러스터링과 데이터 가드 기능을 지원하지 않습니다.
-
-{% include pre-version.html %}
-
 > ##### 클러스터링(Clustering)은 여러 대의 컴퓨터를 하나의 시스템처럼 동작하도록 연결하는 기술
 
 그럼 학습용으로 사용하려면 무슨 버전을 선택해야 할까요? ORACLE Database를 학습용으로 사용하기 위해서는 ORACLE Database Express Edition (XE)를 사용하는 것이 좋습니다.

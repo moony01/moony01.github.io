@@ -28,9 +28,6 @@ Reddit에서 한 개발자가 공유한 사례가 있습니다. Claude Code 에�
 | 역할 전환 시 성능 저하 | 전문화된 프롬프트로 정밀도 유지 |
 | 병렬 처리 불가 | 독립 작업 동시 실행 (60-80% 시간 단축) |
 | 디버깅 어려움 | 에이전트별 로그 추적 가능 |
-
-{% include pre-version.html %}
-
 ## 4가지 핵심 오케스트레이션 패턴
 
 Google, Microsoft, Confluent 등이 제시하는 멀티에이전트 디자인 패턴을 실전 관점에서 정리했습니다.
@@ -131,6 +128,11 @@ crew = Crew(
 
 ![멀티에이전트 오케스트레이션 아키텍처 패턴](/static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-2.png){: .wd100}
 
+
+
+
+{% include pre-version.html %}
+
 ## 에이전트 간 통신 - 이게 진짜 어려운 부분
 
 패턴을 정했으면, 다음 문제는 에이전트들이 **어떻게 정보를 주고받느냐**입니다. 이 부분을 제대로 설계하지 않으면 "각자 열심히 일했는데 결과물이 안 맞는" 상황이 발생합니다.
@@ -179,9 +181,6 @@ code_reviewer.context = shared_context
 test_writer.context = shared_context
 security_checker.context = shared_context
 ```
-
-{% include pre-version.html %}
-
 ## 실전 도구 비교 - 뭘 써야 할까
 
 2026년 현재, 프로덕션에서 쓸 만한 멀티에이전트 프레임워크를 비교해봤습니다:
@@ -198,6 +197,11 @@ security_checker.context = shared_context
 - **처음 시작한다면** → CrewAI. API가 직관적이고 문서가 잘 되어 있습니다.
 - **상태 관리가 복잡하다면** → LangGraph. 그래프 기반이라 분기, 순환, 조건부 로직을 명시적으로 표현할 수 있습니다.
 - **Claude Code를 이미 쓰고 있다면** → claude-flow. `npx claude-flow` 한 줄이면 멀티에이전트 환경이 세팅됩니다.
+
+
+
+
+{% include pre-version.html %}
 
 ## 프로덕션 운영 시 주의할 점
 

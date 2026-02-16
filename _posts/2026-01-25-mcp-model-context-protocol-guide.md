@@ -46,6 +46,8 @@ USB-C가 하나의 포트로 충전, 데이터 전송, 영상 출력을 모두 �
 | 인증/데이터 형식 제각각 | 일관된 인터페이스 |
 | 유지보수 비용 증가 | 재사용 가능한 MCP 서버 |
 
+
+
 {% include pre-version.html %}
 
 ## MCP 아키텍처 이해하기
@@ -156,6 +158,8 @@ if __name__ == "__main__":
 ```
 
 코드가 놀라울 정도로 간단하죠? `@mcp.tool()`, `@mcp.resource()`, `@mcp.prompt()` 데코레이터만 붙이면 자동으로 MCP 프로토콜을 따르는 서버가 완성됩니다.
+
+
 
 {% include pre-version.html %}
 

@@ -38,6 +38,8 @@ CMD ["node", "dist/main.js"]
 
 이 방식을 적용하면 개발 의존성, 소스 코드, 빌드 도구가 모두 제외되어 이미지 크기가 **50-70% 감소**하는 것이 일반적입니다. 또한 `alpine` 기반 이미지를 사용하면 기본 OS 레이어만으로도 수백 MB를 절약할 수 있습니다.
 
+
+
 {% include pre-version.html %}
 
 ## 레이어 캐싱 전략과 Dockerfile 작성법
@@ -92,6 +94,8 @@ services:
 ```
 
 리소스 사용량은 `docker stats` 명령어로 실시간 모니터링할 수 있으며, Prometheus + Grafana 조합으로 장기적인 추이를 분석하는 것을 권장합니다.
+
+
 
 {% include pre-version.html %}
 

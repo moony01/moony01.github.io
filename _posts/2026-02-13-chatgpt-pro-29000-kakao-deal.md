@@ -16,9 +16,6 @@ published: true
 결론부터 말하면, **실화입니다.** 저도 질렀고, 실제로 작동합니다. 하지만 알아야 할 게 몇 가지 있습니다.
 
 ![카카오톡 선물하기 ChatGPT Pro 29,000원 이용권](/static/img/posts/chatgpt-pro-29000-kakao-deal/chatgpt-pro-29000-kakao-deal-1.png){: .wd100}
-
-{% include pre-version.html %}
-
 ## ChatGPT Pro가 뭔데 — Plus와 뭐가 다른 건지부터
 
 먼저 이걸 짚고 넘어가야 합니다. 많은 사람들이 ChatGPT Plus(월 20달러)와 Pro(월 200달러)를 헷갈려합니다. 가격이 **10배** 차이 나는 데는 이유가 있습니다.
@@ -47,6 +44,11 @@ ChatGPT Pro ($200/월):
 
 개발자 입장에서 **Deep Research**도 결정적입니다. 기술 문서를 파고들어 수십 개 소스를 종합한 리포트를 뽑아주는 기능인데, Plus에서는 횟수 제한이 빡빡하고 Pro에서는 사실상 무제한입니다.
 
+
+
+
+{% include pre-version.html %}
+
 ## 29,000원 딜의 실체 — 카카오는 왜 이러는 건가
 
 자, 그러면 29만 원짜리를 29,000원에 파는 카카오는 손해를 보는 걸까요? 이걸 이해하려면 카카오의 전략을 봐야 합니다.
@@ -60,9 +62,6 @@ ChatGPT Pro ($200/월):
 - **사용자**: 29만 원짜리를 29,000원에 체험
 
 세 쪽 모두 윈인 구조입니다. 다만, 이 가격이 영원히 유지될 리는 없습니다.
-
-{% include pre-version.html %}
-
 ## 구매 방법과 반드시 알아야 할 주의사항
 
 구매 자체는 간단합니다. 카카오톡 > 선물하기 > "ChatGPT Pro" 검색 > 29,000원 결제. 끝입니다.
@@ -104,6 +103,11 @@ print(f"할인율:             {(1 - kakao_5months/web_5months_krw)*100:.1f}%")
 ```
 
 ![ChatGPT Pro 가격 비교 및 카카오 딜 구조](/static/img/posts/chatgpt-pro-29000-kakao-deal/chatgpt-pro-29000-kakao-deal-2.png){: .wd100}
+
+
+
+
+{% include pre-version.html %}
 
 ## 개발자가 Pro로 뭘 할 수 있는가 — Plus와의 체감 차이
 

@@ -5,13 +5,15 @@ date: 2024-03-23 00:00:00 +0700
 categories: [vue]
 ---
 Vue.js 프로젝트를 개발하면서, 빌드 과정이 완료된 후 생성되는 다양한 파일들을 보신 적이 있으신가요? 특히 `chunk-vendor.js`와 `app.js` 파일은 많은 개발자들이 궁금해하는 부분 중 하나입니다. 이 글에서는 이러한 파일들이 왜 생성되고, 그들의 역할은 무엇인지, 그리고 어떻게 빌드되는지에 대해 알아보겠습니다.
-
-{% include pre-version.html %}
-
 ## 목차
 1. chunk-vendor.js: 프로젝트의 외부 의존성 관리자
 2. app.js: 애플리케이션의 심장
 3. 빌드 설정: 최적화의 열쇠
+
+
+
+
+{% include pre-version.html %}
 
 ## chunk-vendor.js: 프로젝트의 외부 의존성 관리자
 
@@ -19,6 +21,11 @@ Vue.js 프로젝트를 개발하면서, 빌드 과정이 완료된 후 생성되
 
 <!-- vue-chunkvendor-app -->
 ![chunk-vendor.js와 app.js의 이해](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/vue-chunkvendor-app.webp)
+
+
+
+
+{% include pre-version.html %}
 
 ## app.js: 애플리케이션의 심장
 

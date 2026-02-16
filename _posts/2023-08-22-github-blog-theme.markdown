@@ -24,6 +24,11 @@ categories: [github]
 2. 테마 설치
 3. 테마 세팅
 
+
+
+
+{% include pre-version.html %}
+
 ## 깃허브 지킬 블로그 테마 사이트 소개
 1. [http://jekyllthemes.org/](http://jekyllthemes.org/){:target="_blank"}
 2. [https://jekyll-themes.com/free](https://jekyll-themes.com/free){:target="_blank"}
@@ -34,6 +39,11 @@ categories: [github]
 ![깃허브 블로그에 테마 적용하기](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/github-blog-theme/github-blog-theme-1.webp){: .wd100}
 
 개인적으로는 3번 [http://themes.jekyllrc.org/](http://themes.jekyllrc.org/){:target="_blank"} 이 맘에 드니 이 링크로 넘어가보겠습니다. 이 테마 사이트에서 맘에드는 테마를 발견했는데요 dash 테마를 고르겠습니다. 상당히 개발자스러운 디자인인게 열받네요. 마음에 듭니다. 테마 설치하러 ㄱㄱ
+
+
+
+
+{% include pre-version.html %}
 
 ## 테마 설치
 ![깃허브 블로그에 테마 적용하기](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/github-blog-theme/github-blog-theme-2.webp){: .wd100}

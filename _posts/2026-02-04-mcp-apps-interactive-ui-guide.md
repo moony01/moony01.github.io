@@ -30,9 +30,6 @@ AI 챗봇에게 "매출 데이터 분석해줘"라고 물으면, 보통 마크�
 | PDF 문서 인라인 검토 | 불가능 |
 
 MCP Apps는 도구가 **HTML/JavaScript 번들**을 반환할 수 있게 합니다. 호스트(Claude, ChatGPT 등)가 이걸 샌드박스 iframe에서 렌더링하면, 사용자는 채팅 안에서 직접 UI와 상호작용합니다.
-
-{% include pre-version.html %}
-
 ## 아키텍처 - 어떻게 돌아가는 건가
 
 MCP Apps의 기술 구조는 생각보다 깔끔합니다. 핵심은 두 가지 개념입니다.
@@ -117,6 +114,11 @@ chart.onClick = async (item) => {
 
 ![MCP Apps 아키텍처 다이어그램](/static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-2.png){: .wd100}
 
+
+
+
+{% include pre-version.html %}
+
 ## 보안 모델 - 채팅창에서 HTML을 렌더링한다고?
 
 솔직히 이 부분이 가장 궁금했습니다. 임의의 HTML/JS를 렌더링하면 XSS 공격 벡터가 되지 않을까? MCP Apps 스펙이 제시하는 보안 레이어는 네 겹입니다:
@@ -138,9 +140,6 @@ UI와 호스트 사이의 모든 통신은 JSON-RPC 프로토콜을 따르기 �
 UI를 시작하는 도구 호출 자체에 사용자 명시적 승인을 요구할 수 있습니다.
 
 개인적으로 이 정도면 합리적인 수준이라고 봅니다. 완벽한 보안은 없지만, 웹 기반 확장 프로그램이 사용하는 보안 모델과 유사한 접근입니다.
-
-{% include pre-version.html %}
-
 ## 실전 사용 사례와 지원 플랫폼
 
 현재 MCP Apps를 지원하는 클라이언트:
@@ -167,6 +166,11 @@ Goose에서 Asana 타임라인을 표시하고, 태스크를 드래그해서 재
 
 **4. 인시던트 대응**
 보안 이슈 발생 시, Slack 메시지를 구성하고 서식을 미리보고 채널에 전송하는 과정이 전부 채팅 안에서 완결됩니다.
+
+
+
+
+{% include pre-version.html %}
 
 ## 개발자를 위한 시작 가이드
 

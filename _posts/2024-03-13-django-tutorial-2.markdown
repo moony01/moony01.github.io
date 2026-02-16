@@ -4,9 +4,6 @@ title: '[장고 튜토리얼 2편] 장고 프로젝트 생성 후 간단한 앱�
 date: 2024-03-13 00:00:00 +0700 
 categories: [django]
 ---
-
-{% include pre-version.html %}
-
 우선 우리가 설치한 경로의 activate파일을 실행시켜 가상환경을 활성화 한다
 ```shell
 C:\Users\사용자이름\django-tutorial\Scripts\activate
