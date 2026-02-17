@@ -5,6 +5,8 @@ date: 2026-01-31 11:00:00 +0900
 categories: [ai]
 tags: [vibe-coding, ai-coding, cursor, claude-code, copilot]
 image: vibe-coding-guide-1.webp
+redirect_from:
+  - /ai/2025/01/31/vibe-coding-guide.html
 ---
 
 "그냥 분위기 타면서 코딩해."
