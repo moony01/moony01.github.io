@@ -86,6 +86,8 @@ GitHub Next와 Microsoft Research가 공동으로 설계한 보안 모델의 핵
 
 Eddie Aftandilian(GitHub 수석 연구원)의 표현을 빌리면: **"Continuous AI — 기존 CI/CD의 에이전트 진화"**라고 부른다.
 
+![GitHub Agentic Workflows 보안 아키텍처 — 샌드박스 컨테이너와 Secure Output 검증 레이어](/static/img/posts/github-agentic-workflows/github-agentic-workflows-2.png){: .wd100}
+
 ## 실전에서 쓸 수 있나
 
 ### 아직은 "Technical Preview"
