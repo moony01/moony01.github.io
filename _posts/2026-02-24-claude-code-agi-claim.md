@@ -5,13 +5,13 @@ description: "클로드 코드 AGI 논란이 커진 이유를 원문 발언 중�
 date: 2026-02-24 11:00:00 +0900
 categories: [ai]
 tags: [claude-code, anthropic, agi논란, coding-is-solved, ai개발]
-image: claude-code-agi-claim/claude-code-agi-claim-1.png
+image: claude-code-agi-claim/claude-code-agi-claim-1-gemini.png
 published: true
 ---
 
 클로드 코드 AGI 논란은 지금 개발자 커뮤니티에서 가장 뜨거운 키워드다. 2월 인터뷰 이후 "코딩은 사실상 끝났다"는 문장이 빠르게 퍼지면서, "이거 진짜 AGI 체감 고백 아니냐"는 반응과 "과장된 헤드라인"이라는 반박이 동시에 폭발했다. 문제는 대부분이 2차 요약을 인용하면서, 정작 원문 맥락은 잘라 먹었다는 점이다.
 
-![클로드 코드 AGI 논란 원문 검증 흐름도](/static/img/posts/claude-code-agi-claim/claude-code-agi-claim-1.png){: .wd100}
+![클로드 코드 AGI 논란 원문 검증 흐름도](/static/img/posts/claude-code-agi-claim/claude-code-agi-claim-1-gemini.png){: .wd100}
 
 오늘 글은 결론을 먼저 정해놓고 몰아가지 않는다. 확인 가능한 사실, 해석 가능한 주장, 그리고 현재 시점에서 단정하면 위험한 부분을 분리해서 본다. 이 구분이 안 되면, 팀의 AI 도입 전략은 기사 제목에 흔들리는 순간 망한다.
 
@@ -47,7 +47,7 @@ published: true
 
 이 지점은 [Claude Code Security 이슈](/security/2026/02/22/claude-code-security-stock-crash.html)와도 닿는다. 능력이 커질수록 시장의 기대와 공포가 동시에 과열되고, 결국 정확한 검증 문장이 더 중요해진다.
 
-![클로드 코드 AGI 주장 해석 분리 다이어그램](/static/img/posts/claude-code-agi-claim/claude-code-agi-claim-2.png){: .wd100}
+![클로드 코드 AGI 주장 해석 분리 다이어그램](/static/img/posts/claude-code-agi-claim/claude-code-agi-claim-2-gemini.png){: .wd100}
 
 {% include pre-version.html %}
 
