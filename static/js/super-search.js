@@ -1,139 +1,266 @@
-/*  Super Search
-    Author: Kushagra Gour (http://kushagragour.in)
-    MIT Licensed
-*/
+/* Super Search (safe, feed-first parser) */
 
 (function () {
-    var isSearchOpen = false,
-        searchEl = document.querySelector('#js-search'),
-        searchInputEl = document.querySelector('#js-search__input'),
-        searchResultsEl = document.querySelector('#js-search__results'),
-        currentInputValue = '',
-        lastSearchResultHash,
-        posts = [];
+  var ROOT_SELECTOR = "#js-super-search, .super-search, #js-search, .search, .subpage-hero__search";
+  var searchInputEl = document.querySelector("#js-super-search__input") ||
+      document.querySelector(".super-search__input") ||
+      document.querySelector("#js-search__input") ||
+      document.querySelector("#search-input-subpage");
+  var searchResultsEl = document.querySelector("#js-super-search__results") ||
+      document.querySelector(".super-search__results") ||
+      document.querySelector(".search__results") ||
+      document.querySelector("#js-search__results") ||
+      document.querySelector("#results-container-subpage");
+  var searchEl = (searchInputEl && searchInputEl.closest(ROOT_SELECTOR)) ||
+      (searchResultsEl && searchResultsEl.closest(ROOT_SELECTOR)) ||
+      document.querySelector("#js-super-search") ||
+      document.querySelector(".super-search") ||
+      document.querySelector("#js-search") ||
+      document.querySelector(".subpage-hero__search") ||
+      document.querySelector(".search");
+  var lastSearchResultHash = "";
+  var posts = [];
 
-    // Changes XML to JSON
-    // Modified version from here: http://davidwalsh.name/convert-xml-json
-    function xmlToJson(xml) {
+  function getText(parent, tagName) {
+    if (!parent) return "";
+    var node = parent.getElementsByTagName(tagName)[0];
+    return node && node.textContent ? node.textContent.trim() : "";
+  }
 
-        // Create the return object
-        var obj = {};
+  function parseFeed(xmlDoc) {
+    var items = xmlDoc.getElementsByTagName("item");
+    var result = [];
 
-        if (xml.nodeType == 1) { // element
-            // do attributes
-            if (xml.attributes.length > 0) {
-            obj["@attributes"] = {};
-                for (var j = 0; j < xml.attributes.length; j++) {
-                    var attribute = xml.attributes.item(j);
-                    obj["@attributes"][attribute.nodeName] = attribute.nodeValue;
-                }
-            }
-        } else if (xml.nodeType == 3) { // text
-            obj = xml.nodeValue;
-        }
+    for (var i = 0; i < items.length; i += 1) {
+      var item = items[i];
+      var title = getText(item, "title");
+      var link = getText(item, "link");
 
-        // do children
-        // If all text nodes inside, get concatenated text from them.
-        var textNodes = [].slice.call(xml.childNodes).filter(function (node) { return node.nodeType === 3; });
-        if (xml.hasChildNodes() && xml.childNodes.length === textNodes.length) {
-            obj = [].slice.call(xml.childNodes).reduce(function (text, node) { return text + node.nodeValue; }, '');
-        }
-        else if (xml.hasChildNodes()) {
-            for(var i = 0; i < xml.childNodes.length; i++) {
-                var item = xml.childNodes.item(i);
-                var nodeName = item.nodeName;
-                if (typeof(obj[nodeName]) == "undefined") {
-                    obj[nodeName] = xmlToJson(item);
-                } else {
-                    if (typeof(obj[nodeName].push) == "undefined") {
-                        var old = obj[nodeName];
-                        obj[nodeName] = [];
-                        obj[nodeName].push(old);
-                    }
-                    obj[nodeName].push(xmlToJson(item));
-                }
-            }
-        }
-        return obj;
+      if (!title || !link) continue;
+
+      result.push({
+        title: title,
+        description: getText(item, "description"),
+        link: link,
+        pubDate: getText(item, "pubDate")
+      });
     }
 
-    function getPostsFromXml(xml) {
-        var json = xmlToJson(xml);
-        return json.channel.item;
+    return result;
+  }
+
+  function parseSitemap(xmlDoc) {
+    var urls = xmlDoc.getElementsByTagName("url");
+    var result = [];
+
+    for (var i = 0; i < urls.length; i += 1) {
+      var url = urls[i];
+      var link = getText(url, "loc");
+      if (!link) continue;
+
+      var pathname = "";
+      try {
+        pathname = new URL(link, window.location.origin).pathname;
+      } catch (error) {
+        pathname = link;
+      }
+
+      var slug = pathname.split("/").filter(Boolean).pop() || pathname;
+      var title = decodeURIComponent(slug)
+        .replace(/\.html$/i, "")
+        .replace(/[-_]/g, " ")
+        .trim();
+
+      if (!title) continue;
+
+      result.push({
+        title: title,
+        description: "",
+        link: link,
+        pubDate: getText(url, "lastmod")
+      });
     }
 
-    var xmlhttp=new XMLHttpRequest();
-    xmlhttp.open("GET","/sitemap.xml");
-    xmlhttp.onreadystatechange = function () {
-        if (xmlhttp.readyState != 4) return;
-        if (xmlhttp.status != 200 && xmlhttp.status != 304) { return; }
-        var node = (new DOMParser).parseFromString(xmlhttp.responseText, 'text/xml');
-        node = node.children[0];
-        posts = getPostsFromXml(node);
-    }
-    xmlhttp.send();
+    return result;
+  }
 
-    window.toggleSearch = function toggleSearch() {
-        _gaq.push(['_trackEvent', 'supersearch', searchEl.classList.contains('is-active')]);
-        searchEl.classList.toggle('is-active');
-        if (searchEl.classList.contains('is-active')) {
-            // while opening
-            searchInputEl.value = '';
-        } else {
-            // while closing
-            searchResultsEl.classList.add('is-hidden');
-        }
-        setTimeout(function () {
-            searchInputEl.focus();
-        }, 210);
+  function loadPosts(url, onSuccess, onFailure) {
+    var request = new XMLHttpRequest();
+
+    request.open("GET", url);
+    request.onreadystatechange = function () {
+      if (request.readyState !== 4) return;
+      if (request.status !== 200 && request.status !== 304) {
+        if (onFailure) onFailure();
+        return;
+      }
+
+      var xmlDoc = new DOMParser().parseFromString(request.responseText, "text/xml");
+      if (!xmlDoc || !xmlDoc.documentElement) {
+        if (onFailure) onFailure();
+        return;
+      }
+
+      var parsed = parseFeed(xmlDoc);
+      if (!parsed.length) {
+        parsed = parseSitemap(xmlDoc);
+      }
+
+      onSuccess(parsed);
+    };
+
+    request.send();
+  }
+
+  function hideResults() {
+    if (!searchResultsEl) return;
+    searchResultsEl.classList.add("is-hidden");
+    searchResultsEl.style.display = "none";
+  }
+
+  function setActive(isActive) {
+    if (!searchEl || !searchEl.classList) return;
+    searchEl.classList.toggle("is-active", !!isActive);
+  }
+
+  function formatDate(value) {
+    if (!value) return "";
+    var date = new Date(value);
+    if (isNaN(date.getTime())) return "";
+    return date.toUTCString().replace(/.*(\d{2})\s+(\w{3})\s+(\d{4}).*/, "$2 $1, $3");
+  }
+
+  function applyCompatibilityClasses() {
+    if (searchEl && searchEl.classList) {
+      if (!searchEl.classList.contains("search") && !searchEl.classList.contains("super-search") &&
+          !searchEl.classList.contains("subpage-hero__search")) {
+        searchEl.classList.add("search");
+      }
     }
 
-    window.addEventListener('keyup', function onKeyPress(e) {
-        if (e.which === 27) {
-            toggleSearch();
-        }
+    if (searchInputEl && searchInputEl.classList) {
+      if (!searchInputEl.classList.contains("super-search__input")) {
+        searchInputEl.classList.add("super-search__input");
+      }
+    }
+
+    if (searchResultsEl && searchResultsEl.classList) {
+      if (!searchResultsEl.classList.contains("super-search__results") &&
+          !searchResultsEl.classList.contains("search__results")) {
+        searchResultsEl.classList.add("super-search__results");
+      }
+    }
+  }
+
+  function renderResults(matchingPosts) {
+    if (!searchResultsEl) return;
+
+    if (!matchingPosts.length) {
+      hideResults();
+      return;
+    }
+
+    var currentResultHash = matchingPosts.reduce(function (hash, post) {
+      return hash + post.title;
+    }, "");
+
+    if (currentResultHash === lastSearchResultHash) return;
+
+    setActive(true);
+    searchResultsEl.classList.remove("is-hidden");
+    searchResultsEl.style.display = "block";
+    searchResultsEl.innerHTML = matchingPosts.map(function (post) {
+      var dateLabel = formatDate(post.pubDate);
+      var dateHtml = dateLabel ? '<span class="search__result-date super-search__result-date">' + dateLabel + "</span>" : "";
+      return '<li><a href="' + post.link + '">' + post.title + dateHtml + "</a></li>";
+    }).join("");
+
+    lastSearchResultHash = currentResultHash;
+  }
+
+  function onInputChange() {
+    var currentInputValue = (searchInputEl.value + "").toLowerCase().trim();
+
+    if (!currentInputValue || currentInputValue.length < 3) {
+      lastSearchResultHash = "";
+      hideResults();
+      return;
+    }
+
+    var matchingPosts = posts.filter(function (post) {
+      var title = (post.title || "").toLowerCase();
+      var description = (post.description || "").toLowerCase();
+      return title.indexOf(currentInputValue) !== -1 || description.indexOf(currentInputValue) !== -1;
     });
-    window.addEventListener('keypress', function onKeyPress(e) {
-        if (e.which === 47 && !searchEl.classList.contains('is-active')) {
-            toggleSearch();
-        }
+
+    renderResults(matchingPosts);
+  }
+
+  window.toggleSearch = function toggleSearch() {
+    if (!searchInputEl) return;
+
+    var nextActive = !(searchEl && searchEl.classList && searchEl.classList.contains("is-active"));
+    setActive(nextActive);
+
+    if (nextActive) {
+      searchInputEl.focus();
+    } else {
+      hideResults();
+      searchInputEl.blur();
+    }
+  };
+
+  function onGlobalKeyDown(event) {
+    var target = event.target;
+    var tagName = target && target.tagName ? target.tagName.toLowerCase() : "";
+    var isTypingContext = tagName === "input" || tagName === "textarea" || target.isContentEditable;
+
+    if (event.which === 27) {
+      event.preventDefault();
+      hideResults();
+      setActive(false);
+      if (searchInputEl) searchInputEl.blur();
+      return;
+    }
+
+    if (!isTypingContext && event.which === 47) {
+      event.preventDefault();
+      setActive(true);
+      searchInputEl.focus();
+    }
+  }
+
+  function init() {
+    if (!searchInputEl || !searchResultsEl) {
+      return;
+    }
+
+    applyCompatibilityClasses();
+    hideResults();
+    searchInputEl.addEventListener("input", onInputChange);
+    searchInputEl.addEventListener("click", function () {
+      setActive(true);
     });
-
-    searchInputEl.addEventListener('input', function onInputChange() {
-        var currentResultHash, d;
-
-        currentInputValue = (searchInputEl.value + '').toLowerCase();
-        if (!currentInputValue || currentInputValue.length < 3) {
-            lastSearchResultHash = '';
-            searchResultsEl.classList.add('is-hidden');
-            return;
-        }
-        searchResultsEl.style.offsetWidth;
-
-        var matchingPosts;
-        // check the `posts` object is single or many objects.
-        // if posts.title === undefined, so posts is many objects.
-        if(posts.title === undefined) {
-          matchingPosts = posts.filter(function (post) {
-              if ((post.title + '').toLowerCase().indexOf(currentInputValue) !== -1 || (post.description + '').toLowerCase().indexOf(currentInputValue) !== -1) {
-                  return true;
-              }
-          });
-        }else {
-          matchingPosts = [posts]; // assign single object to Array
-        }
-        if (!matchingPosts.length) {
-            searchResultsEl.classList.add('is-hidden');
-        }
-        currentResultHash = matchingPosts.reduce(function(hash, post) { return post.title + hash; }, '');
-        if (matchingPosts.length && currentResultHash !== lastSearchResultHash) {
-            searchResultsEl.classList.remove('is-hidden');
-            searchResultsEl.innerHTML = matchingPosts.map(function (post) {
-                d = new Date(post.pubDate);
-                return '<li><a href="' + post.link + '">' + post.title + '<span class="search__result-date">' + d.toUTCString().replace(/.*(\d{2})\s+(\w{3})\s+(\d{4}).*/,'$2 $1, $3') + '</span></a></li>';
-            }).join('');
-        }
-        lastSearchResultHash = currentResultHash;
+    searchInputEl.addEventListener("focus", function () {
+      setActive(true);
     });
+    document.addEventListener("click", function (event) {
+      var root = searchEl || (searchInputEl && searchInputEl.closest(ROOT_SELECTOR));
+      if (!root || !root.contains || root.contains(event.target)) return;
+      hideResults();
+      setActive(false);
+    });
+    window.addEventListener("keyup", onGlobalKeyDown);
+    window.addEventListener("keypress", onGlobalKeyDown);
 
+    loadPosts("/feed.xml", function (loadedPosts) {
+      posts = loadedPosts;
+    }, function () {
+      loadPosts("/sitemap.xml", function (loadedPosts) {
+        posts = loadedPosts;
+      });
+    });
+  }
+
+  init();
 })();

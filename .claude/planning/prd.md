@@ -21,6 +21,7 @@ plolux/kcl 프로젝트에서 성공적으로 운영 중인 뉴스 콘텐츠 자
 1. **콘텐츠 생성 자동화**: AI 기반 고품질 기술 블로그 포스트 작성
 2. **이미지 최적화 자동화**: WebP 변환 및 다중 해상도 생성
 3. **일관된 품질 유지**: 스킬 기반 워크플로우로 품질 표준화
+4. **콘텐츠 범위 확장**: IT 중심에서 IT + 주식/경제 분석까지 확장
 
 ### 1.3 성공 지표
 
@@ -167,6 +168,21 @@ image: {slug}/{thumbnail}.webp
 | javascript | `clean code visualization, modern web development, abstract patterns` |
 | database | `data structure, server room, organized information flow` |
 | infra | `cloud architecture, server infrastructure, network diagram` |
+| economy | `financial dashboard, semiconductor supply chain, macro trend chart style` |
+
+### 3.5 IT + 주식/경제 콘텐츠 가드레일 (P1 - 중요)
+
+#### FR-5.1: 비투자자문 원칙
+
+- 포스트는 정보 제공 및 학습 목적임을 명시
+- 매수/매도 추천, 수익 보장 표현 금지
+- 본문 말미에 고정 면책 문구 삽입
+
+#### FR-5.2: 근거 기반 분석
+
+- 기업/섹터 분석 시 최소 2개 이상 신뢰 가능한 출처 인용
+- 개발자 관점의 구조적 프레임 사용 (기술 -> 비용구조 -> 수익모델 -> 밸류 영향)
+- 단기 가격 예측보다 실적/제품/공급망 변화 중심으로 해석
 
 ### 3.4 메타데이터 자동화 (P2 - 선택)
 

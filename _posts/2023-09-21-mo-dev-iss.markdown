@@ -3,6 +3,7 @@ layout: post
 title: '모바일 앱 개발 트렌드 2023: 반드시 알아야 할 주요 이슈'
 date: 2023-09-21 00:00:00 +0700 
 categories: [news]
+image: mo-dev-iss.webp
 ---
 모바일 앱 개발은 끊임없이 발전하고 있습니다. 2023년에는 어떤 트렌드가 주를 이룰지, 그리고 반드시 알아야 할 주요 이슈가 무엇인지 알아보겠습니다.
 ## 목차
@@ -12,7 +13,7 @@ categories: [news]
 4. 새로운 하드웨어 기술의 도입
 5. 클라우드 기술의 활용
 
-![알고리즘 선택에서 모델 훈련까지](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/mo-dev-iss.webp){: .wd70}
+![알고리즘 선택에서 모델 훈련까지](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/posts/mo-dev-iss.webp){: .wd70}
 
 ## 인공지능과 머신러닝의 활용
 2023년에는 인공지능과 머신러닝이 모바일 앱 개발에서 더욱 중요한 역할을 할 것입니다. 이를 통해 사용자 맞춤형 서비스를 제공하고, 앱의 기능을 개선하는 등 다양한 분야에서 활용될 것입니다.

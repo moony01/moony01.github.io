@@ -4,6 +4,7 @@ title: "MCP Apps - AI 채팅창 안에서 대시보드가 돌아간다고?"
 date: 2026-02-04 14:00:00 +0900
 categories: [ai]
 tags: [mcp, mcp-apps, model-context-protocol, claude, chatgpt, interactive-ui, ai-tools, agentic-ai]
+image: mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-1.png
 published: true
 ---
 

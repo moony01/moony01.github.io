@@ -4,7 +4,7 @@ title: "OpenClaw: 2026년 최고의 로컬 AI 에이전트 완벽 가이드"
 date: 2026-02-03 11:00:00 +0900
 categories: [ai]
 tags: [OpenClaw, AI에이전트, 로컬AI, Moltbot, 자동화]
-image: openclaw-local-ai-agent-guide-1.webp
+image: openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-1.webp
 ---
 
 72시간 만에 GitHub 스타 60,000개. 개발자들 사이에서 "진짜 JARVIS가 나왔다"는 말이 돌기 시작했습니다. 2026년 2월 현재, OpenClaw는 AI 에이전트 분야에서 가장 뜨거운 이름이 되었습니다. 솔직히 처음 들었을 때는 "또 하나의 AI 래퍼겠지"라고 생각했는데, 직접 써보니 이건 좀 다릅니다.

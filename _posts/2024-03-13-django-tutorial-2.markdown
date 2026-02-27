@@ -3,6 +3,7 @@ layout: post
 title: '[장고 튜토리얼 2편] 장고 프로젝트 생성 후 간단한 앱을 개발해보자'
 date: 2024-03-13 00:00:00 +0700 
 categories: [django]
+image: og-default.jpg
 ---
 우선 우리가 설치한 경로의 activate파일을 실행시켜 가상환경을 활성화 한다
 ```shell

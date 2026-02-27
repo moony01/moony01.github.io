@@ -3,6 +3,7 @@ layout: post
 title: '소프트웨어 생명 주기(Software Life Cycle)와 생명 주기 모형의 종류 그리고 어지러운 애자일 개발 모델'
 date: 2024-01-27 00:00:00 +0700 
 categories: [se]
+image: og-default.jpg
 ---
 소프트웨어 생명 주기란 소프트웨어를 개발하기 위해 개발, 운용, 유지보수 등의 과정을 생명 주기 모형을 이용하여 각 단계별로 나눈것이다. 소프트웨어 생명 주기는 소프트웨어 개발 방법론의 바탕이 된다.
 
@@ -50,7 +51,7 @@ categories: [se]
 * 소프트웨어를 개발하면서 발생할 수 있는 위험을 관리하고 최소화하는 것을 목적으로 한다.
 * 점진적으로 개발 과정을 반복하기 때문에 누락되거나 추가된 요구사항을 첨가할 수 있다.
 
-![나선형 모형](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/SpiralModel.png){: .wd70}
+![나선형 모형](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/posts/SpiralModel.png){: .wd70}
 
 ## 애자일 모형(Agile Model)
 우선 애자일(Agile)의 뜻은 **민첩한**, **기만한** 이라는 의미이다. 고로 애자일 모형은 고객의 요구사항 변화에 유연하게 대응할수 있도록 일정한 주기를 반복하면서 개발과정을 진행한다. (대충 폭포수 모델과 정반대의 모델이라고 알고있음 될듯) 

@@ -4,6 +4,7 @@ title: "GPT-4 10배 비싸게 쓰던 개발자들 경악 — DeepSeek V4가 전�
 date: 2026-02-16 11:00:00 +0900
 categories: [ai]
 tags: [deepseek, deepseek-v4, engram, ai-coding, gpt-4, claude]
+image: deepseek-v4-engram-gpt4-coding-killer/deepseek-v4-engram-gpt4-coding-killer-1.png
 published: true
 ---
 

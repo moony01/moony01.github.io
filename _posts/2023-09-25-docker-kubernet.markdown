@@ -3,6 +3,7 @@ layout: post
 title: '컨테이너 기술 이해하기: Docker와 Kubernet'
 date: 2023-09-25 00:00:00 +0700 
 categories: [news]
+image: docker-kubernet.webp
 ---
 컨테이너란 쉽게 말해서 애플리케이션과 데이터를 저장 및 처리하는 공간입니다. 이 개념을 처음 접하시는 분들을 위해 설명하자면, 우리가 PC나 노트북 등 컴퓨터를 이용해서 인터넷 서핑을 하거나 문서 작업을 하는 경우 대부분 운영체제 위에서 동작하게 됩니다. 하지만 이러한 운영체제(OS)라는 것은 실제로는 가상공간인 OS 이미지 파일 안에 들어있는 소프트웨어이기 때문에 항상 켜져 있지 않고 전원이 꺼지면 다시 부팅해야 합니다. **따라서 실제로 실행되는 프로그램은 따로 있고, 해당 프로그램들이 구동될 때에만 잠시 OS 이미지파일이 켜지는 방식이죠. 이렇게 되면 마치 사람이 잠잘 때 옷을 벗고 자는 것처럼 시스템 자원 낭비가 발생하는데 이를 해결하기 위해서 등장한 것이 바로 ‘컨테이너’입니다.**
 ## 목차
@@ -10,7 +11,7 @@ categories: [news]
 2. Kubernet 은 무엇인가요?
 3. 왜 두가지 모두 알아야하나요?
 
-![Docker와 Kubernet](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/docker-kubernet.webp){: .wd70}
+![Docker와 Kubernet](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/posts/docker-kubernet.webp){: .wd70}
 
 
 

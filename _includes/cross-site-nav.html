@@ -154,9 +154,14 @@
     opacity: 0;
     transform: translateY(-10px);
     pointer-events: none;
+    width: 0;
     max-height: 0;
     gap: 0;
     overflow: hidden;
+  }
+
+  .cross-site-header.collapsed {
+    width: 48px;
   }
 
   .cross-site-header:not(.collapsed) .cross-site-links {

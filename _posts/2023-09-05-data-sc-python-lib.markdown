@@ -3,6 +3,7 @@ layout: post
 title: '데이터 과학을 위한 최고의 Python 라이브러리'
 date: 2023-09-05 00:00:00 +0700 
 categories: [news]
+image: data-sc-python-lib-1.webp
 ---
 데이터 과학을 위한 Python 라이브러리는 매우 다양합니다. 그 중에서도 뛰어난 기능과 성능을 제공하는 라이브러리를 선택하는 것이 중요합니다. 이번에는 데이터 과학을 위한 최고의 Python 라이브러리에 대해 알아보도록 하겠습니다.
 ## 목차
@@ -10,7 +11,7 @@ categories: [news]
 2. 데이터 과학을 위한 Python 라이브러리에서 시각화에 가장 유용한 라이브러리는 무엇인가요?
 3. 데이터 과학을 위한 Python 라이브러리에서 머신러닝에 가장 유용한 라이브러리는 무엇인가요?
 
-![데이터 과학](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/data-sc-python-lib-1.webp)
+![데이터 과학](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/posts/data-sc-python-lib-1.webp)
 
 
 

@@ -63,6 +63,7 @@
       <span class="post-card__badge post-card__badge--{{ card_category_lower }}">{{ card_category_lower }}</span>
       <h3 class="post-card__title">{{ include.post.title }}</h3>
       <time class="post-card__date" datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date_to_string }}</time>
+      <p class="post-card__excerpt post-card__excerpt--grid">{{ include.post.excerpt | strip_html | strip_newlines | truncatewords: 20 }}</p>
     </div>
   </a>
 </article>

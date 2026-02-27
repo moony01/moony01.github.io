@@ -2,7 +2,7 @@
  * 기존 이미지 마이그레이션 스크립트
  * 
  * 기능:
- * 1. static/img/_posts/ 내 모든 JPG/PNG 이미지 스캔
+ * 1. static/img/posts/ 내 모든 JPG/PNG 이미지 스캔
  * 2. WebP로 변환 (원본 보존 옵션)
  * 3. _posts/*.md 파일 내 이미지 경로 자동 업데이트
  * 
@@ -25,7 +25,7 @@ const rootDir = path.join(__dirname, '..');
 // 설정
 const CONFIG = {
   quality: 80,
-  imageDir: 'static/img/_posts',
+  imageDir: 'static/img/posts',
   postsDir: '_posts',
   extensions: ['jpg', 'jpeg', 'png', 'gif'],
   // GitHub raw URL 패턴 (moony01 레포지토리)
@@ -62,7 +62,7 @@ async function convertToWebP(imagePath, keepOriginal = false) {
  * 
  * 처리하는 이미지 참조 패턴:
  * 1. ![alt](https://raw.githubusercontent.com/.../image.jpg)
- * 2. ![alt](static/img/_posts/image.jpg)
+ * 2. ![alt](static/img/posts/image.jpg)
  * 3. image: image.jpg (frontmatter)
  * 
  * @param {string} mdPath - 마크다운 파일 경로
@@ -84,7 +84,7 @@ async function updateMarkdownPaths(mdPath, replacements) {
       'g'
     );
     
-    // 패턴 2: 로컬 경로 - ![alt](static/img/_posts/image.ext) 또는 상대 경로
+    // 패턴 2: 로컬 경로 - ![alt](static/img/posts/image.ext) 또는 상대 경로
     const localPathPattern = new RegExp(
       `(\\]\\([^)]*/)${escapeRegExp(originalBasename)}(\\))`,
       'g'
@@ -387,7 +387,7 @@ if (args.length === 0 || args.includes('--help') || args.includes('-h')) {
 
   이미지 경로 패턴:
     - GitHub raw URL: https://raw.githubusercontent.com/.../image.jpg
-    - 로컬 상대경로: static/img/_posts/image.jpg
+- 로컬 상대경로: static/img/posts/image.jpg
     - Frontmatter: image: image.jpg
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

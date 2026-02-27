@@ -3,6 +3,7 @@ layout: post
 title: '가상현실(VR)과 증강현실(AR)이 변화시키는 교육 방식'
 date: 2023-09-18 00:00:00 +0700 
 categories: [news]
+image: vr-ar-edu-chg-1.webp
 ---
 가상현실(VR)과 증강현실(AR)은 최근 교육 분야에서도 큰 주목을 받고 있습니다. 이제는 교과서나 노트북만으로는 제공할 수 없는 체험과 시각화를 통해 학생들의 학습 능률을 높이는 새로운 교육 방식으로 자리 잡고 있기 때문입니다. 오늘은 가상현실(VR)과 증강현실(AR)이 변화시키는 교육 방식에 대해 알아보겠습니다.
 ## 목차
@@ -10,7 +11,7 @@ categories: [news]
 2. 가상현실(VR)과 증강현실(AR)이 교육에 어떤 영향을 미치나요?
 3. 가상현실(VR)과 증강현실(AR)을 도입하는데 필요한 비용은 어느정도인가요?
 
-![가상현실(VR)](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/vr-ar-edu-chg-1.webp)
+![가상현실(VR)](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/posts/vr-ar-edu-chg-1.webp)
 
 
 
@@ -28,7 +29,7 @@ categories: [news]
 ## 가상현실(VR)과 증강현실(AR)이 교육에 어떤 영향을 미치나요?
 가상현실(VR)과 증강현실(AR)은 공간적 제약을 받지 않는다는 장점이 있습니다. 학생들은 실제로 경험할 수 없는 상황에서도 가상 공간을 통해 체험하며, 이를 통해 더욱 흥미롭게 수업에 참여할 수 있습니다. 또한, 학생들은 시각적인 자극을 받아 기억에 더욱 오래 남게 되고, 논리적 사고 능력을 향상시킬 수 있습니다.
 
-![가상현실(VR)](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/vr-ar-edu-chg-2.webp)
+![가상현실(VR)](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/posts/vr-ar-edu-chg-2.webp)
 
 ## 가상현실(VR)과 증강현실(AR)을 도입하는데 필요한 비용은 어느정도인가요?
 가상현실(VR)과 증강현실(AR)을 도입하는 비용은 디바이스와 소프트웨어, 그리고 교육 내용을 제작하는데 필요한 비용 등으로 구성됩니다. 디바이스의 경우, 저렴한 스마트폰의 경우 몇만원부터 가격이 형성되며, 고가의 VR/AR 기기의 경우 수백만원에 이를 수 있습니다. 소프트웨어의 경우, 교육 분야에 특화된 제품이 있어 이를 활용하는 것이 좋습니다. 내용 제작 비용은 교육 내용의 종류와 규모에 따라 크게 달라질 수 있으며, 이 부분에 대해서는 전문 업체의 도움을 받는 것이 좋습니다.

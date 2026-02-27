@@ -1,0 +1,38 @@
+<!-- Subpage Hero Section -->
+<aside class="subpage-hero">
+  <div class="subpage-hero__inner">
+    <!-- Profile -->
+    <a href="/" class="subpage-hero__logo">
+      <img src="{{ site.avatar_url }}" alt="{{ site.title }}" width="48" height="48" />
+    </a>
+    <a href="/" class="subpage-hero__title">{{ site.title }}</a>
+    <p class="subpage-hero__desc">{{ site.description }}</p>
+
+    <!-- Social Links -->
+    <ul class="subpage-hero__social">
+      {% for social in site.social %}
+        <li><a href="{{ social.link }}" target="_blank" rel="noopener noreferrer" aria-label="{{ social.icon }}"><i class="fa {{ social.icon }}"></i></a></li>
+      {% endfor %}
+    </ul>
+
+    <!-- Search -->
+    <div class="subpage-hero__search">
+      <input type="text" id="search-input-subpage" class="search__input" placeholder="(sitemap)~$ type to search" />
+      <ul id="results-container-subpage" class="search__results is-hidden"></ul>
+    </div>
+
+    <!-- K-Pop Face Test Banner -->
+    <a href="/kpopface/" class="subpage-hero__banner" target="_blank" rel="noopener noreferrer">
+      <div class="subpage-hero__banner-icon">
+        <img src="/static/img/kft-logo.svg" alt="K-Pop Face Test" width="32" height="32" />
+      </div>
+      <div class="subpage-hero__banner-text">
+        <span class="subpage-hero__banner-badge">AI</span>
+        <strong class="subpage-hero__banner-title">K-Pop Face Test</strong>
+        <span class="subpage-hero__banner-arrow">&rarr;</span>
+      </div>
+    </a>
+
+    <hr class="subpage-hero__divider" />
+  </div>
+</aside>

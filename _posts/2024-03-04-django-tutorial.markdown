@@ -3,6 +3,7 @@ layout: post
 title: '[장고 튜토리얼 1편] 파이썬 설치 후 가상환경에 장고 설치'
 date: 2024-03-04 00:00:00 +0700 
 categories: [django]
+image: django-tutorial.webp
 ---
 일단 무작정 Django(장고)를 시작하기 위해 공식 사이트의 문서를 들어갔다. [https://docs.djangoproject.com/ko/5.0/intro/install/](https://docs.djangoproject.com/ko/5.0/intro/install/) 인터넷 강의를 결제할까 했는데 유튜브나 공식 문서에 워낙 잘 되어있어서 튜토리얼 먼저 하고 필요하면 결제하자 생각함
 ## 목차
@@ -32,7 +33,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 ## 가상환경 세팅
 파이썬을 설치했으면 장고를 설치해야되는데 왜 가상환경을 세팅하는가 의문이들 수 있다. 가상환경을 구축해서 그 안에 프로젝트를 세팅하면 외부환경에 영향을 받지 않기 때문에 프로젝트를 효과적으로 관리할수있다는 장점이 있다. 파이썬을 설치하면 우리 로컬에 pip를 이용해서 장고를 설치할 수 있겠지만 역시 나는 가상환경을 구축해보겠다. git과 연동하는데 문제는 없을까 생각이 들긴 하지만 우선 가상환경으로 연습하자.
 
-![Django 가상환경 세팅 문서 링크](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/django-tutorial.webp)
+![Django 가상환경 세팅 문서 링크](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/posts/django-tutorial.webp)
 장고 공식문서의 장고 설치하기 공식 릴리즈를 확인해보자 [장고 공식 릴리즈 바로가기](https://docs.djangoproject.com/ko/5.0/topics/install/#installing-official-release) 링크에 들어가면 ***Django 코드 설치*** 섹션이 있다. 이곳에 장고를 설치할 수 있는 명령어를 확인할 수 있지만 그 전에 위 이미지의 venv 링크를 클릭해서 가상환경 세팅을 그대로 따라하면 된다. [가상환경 세팅 문서 바로가기](https://docs.python.org/3/tutorial/venv.html)
 
 위 문서를 요약해보자면 우선 가상환경을 생성 할 폴더에서 아래 명령어를 입력한다. 

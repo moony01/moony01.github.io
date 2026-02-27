@@ -3,6 +3,7 @@ layout: post
 title: 'Quantum Computing의 이해와 현재 상황'
 date: 2023-09-22 00:00:00 +0700 
 categories: [news]
+image: quantum-computing-undst.webp
 ---
 **Quantum Computing이란 양자역학(Quantum Mechanics)과 컴퓨터 공학(Computer Science) 두 분야의 합성어**로, 기존의 디지털 방식으로는 구현하기 어려운 계산 문제들을 해결하기 위해 등장했습니다. 예를 들어 원자 단위의 미시세계에서는 입자들이 서로 충돌하며 에너지를 전달하는데, 이 과정에서 정보 손실이 발생하게 됩니다. 이를 극복하기 위해서는 매우 빠른 속도로 연산을 수행해야 하는데, 이것이 불가능하다는 한계점이 있었습니다. 하지만 최근 이러한 문제점을 해결하고자 하는 연구가 활발히 진행되고 있으며, 특히 IBM사의 슈퍼컴퓨터 `‘왓슨’`이 인공지능 기술을 이용하여 의료 및 금융 등 다양한 산업분야에서 활용되고 있습니다.
 ## 목차
@@ -10,7 +11,7 @@ categories: [news]
 2. 기존의 컴퓨터와는 어떻게 다른가요?
 3. 현재 상용화 단계에 있나요?
 
-![알고리즘 선택에서 모델 훈련까지](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/quantum-computing-undst.webp)
+![알고리즘 선택에서 모델 훈련까지](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/posts/quantum-computing-undst.webp)
 
 
 

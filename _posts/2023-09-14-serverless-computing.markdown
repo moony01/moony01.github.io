@@ -3,6 +3,7 @@ layout: post
 title: '서버리스 컴퓨팅: 혁신적인 개념과 장점을 알아보자'
 date: 2023-09-14 00:00:00 +0700 
 categories: [news]
+image: serverless-computing.webp
 ---
 서버리스 컴퓨팅은 최근 클라우드 컴퓨팅 기술의 발전으로 떠오르는 혁신적인 개념입니다. 서버리스 컴퓨팅은 기존의 서버 기반 컴퓨팅과 달리 서버를 관리할 필요 없이 코드 실행에 필요한 인프라를 제공하는 방식입니다. 이번에는 서버리스 컴퓨팅의 개념과 장점에 대해 자세히 살펴보도록 하겠습니다.
 ## 목차
@@ -10,7 +11,7 @@ categories: [news]
 2. 서버리스 컴퓨팅을 사용하면 어떤 장점이 있나요?
 3. 어떤 서비스에서 서버리스 컴퓨팅을 활용할 수 있나요?
 
-![서버리스 컴퓨팅](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/serverless-computing.webp)
+![서버리스 컴퓨팅](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/posts/serverless-computing.webp)
 
 
 

@@ -3,6 +3,7 @@ layout: post
 title: 'AWS, Google Cloud, Azure 비교 분석: 각각의 장단점과 특징'
 date: 2023-09-20 00:00:00 +0700 
 categories: [news]
+image: clcoud-computer-comp.webp
 ---
 클라우드 컴퓨팅은 현재 IT 산업에서 가장 빠르게 성장하고 있는 분야 중 하나입니다. 클라우드 서비스를 제공하는 대표적인 기업으로는 AWS, Google Cloud, Azure 등이 있습니다. 이번 글에서는 이 세 가지 클라우드 서비스를 비교 분석하여 각각의 장단점과 특징을 살펴보겠습니다.
 ## 목차
@@ -10,7 +11,7 @@ categories: [news]
 2. Google Cloud
 3. Azure
 
-![알고리즘 선택에서 모델 훈련까지](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/clcoud-computer-comp.webp)
+![알고리즘 선택에서 모델 훈련까지](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/posts/clcoud-computer-comp.webp)
 
 
 

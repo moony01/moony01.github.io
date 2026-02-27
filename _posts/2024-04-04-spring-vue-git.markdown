@@ -3,6 +3,7 @@ layout: post
 title: '스프링 프로젝트 안의 Vue 프론트엔드 폴더 형상관리 추적 문제 해결하기'
 date: 2024-04-04 00:00:00 +0700 
 categories: [vue, git, spring]
+image: spring-vue-git.webp
 ---
 
 Vue 프로젝트가 스프링 프로젝트 안에 설치되어 있고, Git에서 이를 추적하지 못하는 문제에 직면했다면, 다음 단계를 따라 문제를 해결해 보자.
@@ -18,7 +19,7 @@ Vue 프로젝트가 스프링 프로젝트 안에 설치되어 있고, Git에서
 
 ### 1. 문제 이해하기
 
-![chunk-vendor.js와 app.js의 이해](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/spring-vue-git.webp)
+![chunk-vendor.js와 app.js의 이해](/static/img/posts/spring-vue-git.webp)
 
 스크린샷을 통해 `frontend` 폴더가 'Unversioned Files' 섹션에 위치한 것을 확인했습니다. 이는 해당 폴더가 아직 버전 관리 시스템에 의해 관리되지 않고 있다는 것을 의미합니다.
 

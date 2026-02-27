@@ -3,7 +3,7 @@
  * JPG/PNG → WebP 변환 및 다중 해상도 생성
  * 
  * 사용법:
- * node scripts/optimize-images.js --input ./static/img/_posts/slug
+ * node scripts/optimize-images.js --input ./static/img/posts/slug
  * node scripts/optimize-images.js --all (전체 이미지)
  */
 
@@ -92,7 +92,7 @@ if (allFlag) {
   node scripts/optimize-images.js --all
   
 예시:
-  node scripts/optimize-images.js --input ./static/img/_posts/my-post
+  node scripts/optimize-images.js --input ./static/img/posts/my-post
   node scripts/optimize-images.js --all
 `);
 }
