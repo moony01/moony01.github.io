@@ -20,8 +20,31 @@ layout: default
 
   <!-- Featured Image -->
   {% if page.image %}
+  {% assign img_ext = page.image | split: '.' | last %}
+  {% assign img_base = page.image | replace: '.png', '' | replace: '.jpg', '' | replace: '.jpeg', '' | replace: '.gif', '' %}
+  {% assign img_mime = img_ext %}
+  {% if img_ext == 'jpg' %}{% assign img_mime = 'jpeg' %}{% endif %}
   <div class="post-article__featured-image">
-    <img src="/static/img/posts/{{ page.image }}" alt="{{ page.title }}" loading="lazy" onerror="this.parentElement.style.display='none'" />
+    <picture>
+      <source
+        type="image/webp"
+        srcset="/static/img/posts/{{ img_base }}-400.webp 400w,
+               /static/img/posts/{{ img_base }}-800.webp 800w,
+               /static/img/posts/{{ img_base }}.webp 1200w"
+        sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+      <source
+        type="image/{{ img_mime }}"
+        srcset="/static/img/posts/{{ img_base }}-400.{{ img_ext }} 400w,
+               /static/img/posts/{{ img_base }}-800.{{ img_ext }} 800w,
+               /static/img/posts/{{ page.image }} 1200w"
+        sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+      <img
+        src="/static/img/posts/{{ page.image }}"
+        alt="{{ page.title }}"
+        loading="lazy"
+        decoding="async"
+        onerror="this.parentElement.parentElement.style.display='none'">
+    </picture>
   </div>
   {% endif %}
 
