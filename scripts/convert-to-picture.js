@@ -45,8 +45,8 @@ function convertImageToPicture(match, alt, src, attributes = '') {
     return match;
   }
   
-  // static/img/post 경로가 아니면 변환하지 않음
-  if (!src.includes('/static/img/post/')) {
+  // static/img/posts 경로가 아니면 변환하지 않음
+  if (!src.includes('/static/img/posts/')) {
     return match;
   }
   
