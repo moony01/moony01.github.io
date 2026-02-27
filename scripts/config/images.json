@@ -6,6 +6,6 @@
     "mobile": 800,
     "thumbnail": 400
   },
-  "inputDir": "static/img/post",
-  "outputDir": "static/img/post"
+  "inputDir": "static/img/posts",
+  "outputDir": "static/img/posts"
 }

@@ -3,6 +3,7 @@ layout: post
 title: '블록체인과 암호화폐의 혁명: 기술이 경제와 사회를 어떻게 바꾸는가?'
 date: 2023-09-04 00:00:00 +0700 
 categories: [news]
+image: block-chain-1.webp
 ---
 블록체인과 암호화폐는 현재 가장 핫한 기술과 경제적 트렌드 중 하나입니다. 이 기술과 경제적 트렌드가 우리 사회에 미칠 영향에 대해 알아보겠습니다.
 ## 목차
@@ -10,7 +11,7 @@ categories: [news]
 2. 암호화폐란 무엇인가요?
 3. 블록체인과 암호화폐가 사회에 미칠 영향은 무엇인가요?
 
-![블록체인과 암호화폐](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/block-chain-1.webp)
+![블록체인과 암호화폐](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/posts/block-chain-1.webp)
 
 
 
@@ -28,7 +29,7 @@ categories: [news]
 ## 암호화폐란 무엇인가요?
 암호화폐는 디지털 자산의 일종으로, 블록체인 기술을 이용하여 생성되고, 거래되며, 보관됩니다. 암호화폐는 중앙 관리자 없이 거래가 이루어지며, 블록체인 기술로 거래의 투명성과 신뢰성을 보장합니다. 대표적인 암호화폐로는 비트코인, 이더리움 등이 있습니다.
 
-![기술이 경제와 사회를 어떻게 바꾸는가?](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/block-chain-2.webp)
+![기술이 경제와 사회를 어떻게 바꾸는가?](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/posts/block-chain-2.webp)
 
 ## 블록체인과 암호화폐가 사회에 미칠 영향은 무엇인가요?
 블록체인과 암호화폐는 현재 많은 분야에서 활용되고 있습니다. 예를 들어, 은행, 증권사, 보험회사 등 금융업계에서는 거래의 투명성과 신뢰성을 높이기 위해 블록체인 기술을 적용하고 있습니다. 또한, 블록체인 기술은 지적 재산권 보호, 투표 시스템 등 다양한 분야에서 활용될 수 있습니다.

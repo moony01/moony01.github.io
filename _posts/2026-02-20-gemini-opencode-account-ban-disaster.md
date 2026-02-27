@@ -5,7 +5,7 @@ date: 2026-02-20 14:00:00 +0900
 categories: [ai]
 tags: [gemini, opencode, openclaw, 차단, google, ai]
 published: true
-image: gemini-opencode-account-ban-disaster-1.png
+image: gemini-opencode-account-ban-disaster/gemini-opencode-account-ban-disaster-1.png
 ---
 
 어제까지만 해도 잘 쓰고 있었다. OpenCode에서 Gemini 3.1 Pro Preview 모델을 에이전트에 연결해서 코드 리뷰도 돌리고, 문서도 정리하고. 근데 오늘 아침, 갑자기 이런 에러가 떴다.
@@ -59,7 +59,7 @@ Reddit `r/google_antigravity`에는 "Google is permanently banning Antigravity u
 
 일부는 계정 인증을 다시 하면 풀렸지만, 다수는 **완전한 계정 레벨 차단**을 당했다. 유료 AI Pro 구독자도 예외 없이 당했다는 점이 충격적이었다.
 
-![OAuth 토큰 흐름과 Google 보안 시스템의 차단 다이어그램](/static/img/_posts/gemini-opencode-account-ban-disaster/gemini-opencode-account-ban-disaster-2.png)
+![OAuth 토큰 흐름과 Google 보안 시스템의 차단 다이어그램](/static/img/posts/gemini-opencode-account-ban-disaster/gemini-opencode-account-ban-disaster-2.png)
 
 ## 왜 차단당했나 — Google의 탐지 메커니즘
 

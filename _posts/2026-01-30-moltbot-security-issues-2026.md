@@ -4,6 +4,7 @@ title: "Moltbot 보안 이슈 총정리: 편리함 뒤에 숨은 위험들"
 date: 2026-01-30 11:00:00 +0900
 categories: [security]
 tags: [moltbot, clawdbot, ai-agent, security, github]
+image: moltbot-security-issues-2026/moltbot-security-issues-2026-1.webp
 ---
 
 지난주에 트위터를 열었다가 타임라인이 온통 Moltbot 얘기로 도배된 걸 보고 "이게 뭐지?" 싶었습니다. GitHub 스타가 하루 만에 17,000개가 넘게 찍혔다고 하니, 뭔가 대단한 게 나왔구나 싶어서 저도 설치해볼까 했습니다. 근데 조금만 파보니까 좀 찜찜한 부분들이 보이더군요. 오늘은 그 얘기를 해보려고 합니다.

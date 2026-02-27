@@ -5,6 +5,7 @@ date:   2023-04-25 00:00:00 +0700
 redirect_from:
   - /common/javascript/2023/04/24/trigger-prop.html
 categories: [javascript]
+image: og-default.jpg
 ---
 ## trigger 함수
 trigger 함수는 jQuery 라이브러리에서 제공하는 함수 중 하나이고 이 함수는 특정 DOM 요소에 이벤트를 강제로 발생시킬 수 있습니다. 아래는 함수 사용 예시이다.

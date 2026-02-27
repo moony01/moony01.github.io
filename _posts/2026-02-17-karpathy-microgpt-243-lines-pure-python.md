@@ -4,6 +4,7 @@ title: "PyTorch 없이 GPT를 만들었다 — Karpathy 243줄의 충격적 실�
 date: 2026-02-17 09:00:00 +0900
 categories: [ai]
 tags: [gpt, python, 딥러닝, karpathy, 트랜스포머]
+image: karpathy-microgpt-243-lines-pure-python/karpathy-microgpt-243-lines-pure-python-1.png
 published: true
 ---
 

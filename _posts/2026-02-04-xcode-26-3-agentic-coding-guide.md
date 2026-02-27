@@ -4,6 +4,7 @@ title: "Xcode 26.3 에이전틱 코딩 - Apple이 Claude와 Codex를 품은 진�
 date: 2026-02-04 11:00:00 +0900
 categories: [ai]
 tags: [xcode, apple, agentic-coding, claude-agent, codex, mcp, model-context-protocol, ios-development, swift]
+image: xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-1.webp
 ---
 
 2월 3일, Apple이 Xcode 26.3 Release Candidate를 공개했습니다. 보통 Xcode 마이너 업데이트라면 "버그 수정, 안정성 향상" 같은 지루한 릴리스 노트가 전부인데, 이번엔 상황이 다릅니다. Anthropic의 **Claude Agent**와 OpenAI의 **Codex**가 Xcode 안에 들어왔습니다. 그것도 단순 자동완성이 아니라, 프로젝트를 분석하고 코드를 작성하고 빌드까지 반복하는 **에이전틱 코딩(Agentic Coding)** 형태로요.

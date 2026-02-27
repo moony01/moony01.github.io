@@ -3,6 +3,7 @@ layout: post
 title: 클라우드 컴퓨팅의 최신 트렌드 2023년 업데이트
 date: 2023-09-03 00:00:00 +0700 
 categories: [news]
+image: cloud-computing-trend-1.webp
 ---
 클라우드 컴퓨팅은 지난 몇 년간 기업과 개인 모두에게 매우 중요한 역할을 하고 있습니다. 이번에는 2023년에 업데이트된 클라우드 컴퓨팅의 최신 트렌드를 알아보도록 하겠습니다.
 ## 목차
@@ -10,7 +11,7 @@ categories: [news]
 2. 클라우드 컴퓨팅에서 주목할 만한 기술은 무엇인가요?
 3. 클라우드 컴퓨팅에서 보안성은 어떻게 보장되나요?
 
-![클라우드 컴퓨팅의 최신 트렌드](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/cloud-computing-trend-1.webp)
+![클라우드 컴퓨팅의 최신 트렌드](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/posts/cloud-computing-trend-1.webp)
 
 
 
@@ -31,6 +32,6 @@ categories: [news]
 ## 클라우드 컴퓨팅에서 보안성은 어떻게 보장되나요?
 클라우드 컴퓨팅에서 보안성은 매우 중요한 이슈입니다. **2023년에는 보안성 강화를 위해 AI와 머신러닝 기술이 적용될 것으로 예상됩니다.** 이를 통해 기존의 방식보다 더욱 빠르고 정확한 보안성 강화가 이루어질 것입니다.
 
-![클라우드 컴퓨팅의 최신 트렌드](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/cloud-computing-trend-2.webp)
+![클라우드 컴퓨팅의 최신 트렌드](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/posts/cloud-computing-trend-2.webp)
 
 2023년의 클라우드 컴퓨팅은 멀티 클라우드, 5G와 클라우드 컴퓨팅의 결합, 그리고 AI와 머신러닝 기술의 보안성 강화가 주목할 만한 트렌드입니다. 이에 대한 이해와 준비가 기업과 개인의 미래를 위해 매우 중요합니다.

@@ -3,10 +3,11 @@ layout: post
 title: PWA로 앱 개발 안하고 나의 웹사이트를 앱으로 만드는 방법
 date: 2023-08-23 00:00:00 +0700 
 categories: [browser]
+image: progressive-web-app/progressive-web-app-1.webp
 ---
 나는 이전에 웹앱 개발을 하면서 앱으로도 출시하고자 웹뷰를 선택했다. 그런데 어느날 자료를 찾기 위해 구글링을 하다가 PWA(Progressive Web App)라는 기술을 이용해서 블로그를 앱으로 다운로드 받는 기술이 있는게 아닌가, 그래서 다른 자료들을 보고 적용하긴 했지만 크롬이 아닌 다른 브라우저에서는 동작을 안한다거나 하는 등 문제가 많았다. 그래서 이번 기회에 제대로 알아보기로했다.
 
-![PWA(Progressice Web App)](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/progressive-web-app/progressive-web-app-3.webp)
+![PWA(Progressice Web App)](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/posts/progressive-web-app/progressive-web-app-3.webp)
 
 ## 목차
 1. PWA(Progressice Web App)이란 무엇인가?
@@ -150,7 +151,7 @@ self.addEventListener('fetch', (event) => {
 </body>
 </html>
 ```
-![PWA(Progressice Web App)](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/progressive-web-app/progressive-web-app-1.webp)
+![PWA(Progressice Web App)](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/posts/progressive-web-app/progressive-web-app-1.webp)
 
 ### Manifest(매니페스트) 등록
 다음은 실제 앱의 정보를 나타내는 Manifest 파일을 등록하고 똑같이 head 영역에서 로드해보자 `offline.html` 파일과 같은 최상단 path에 Manifest.json 파일을 등록하자 아래 코드의 자세한 내용은 공식문서 [https://web.dev/add-manifest/](https://web.dev/add-manifest/){:target="_blank"} 에서 확인해보자.
@@ -221,7 +222,7 @@ Manifest.json 파일을 생성했으면 이제 head영역에서 파일을 로드
 <link rel="manifest" href="manifest.json" />
 ```
 
-![PWA(Progressice Web App)](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/progressive-web-app/progressive-web-app-2.webp)
+![PWA(Progressice Web App)](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/posts/progressive-web-app/progressive-web-app-2.webp)
 
 여기까지 완료했으면 위 이미지처럼 앱 다운로드 버튼이 활성화 되고 버튼을 클릭하면 다운 받을수있는 팝업창이 뜬걸 확인할 수 있다. PWA를 구현했지만 위 이미지의 버튼의 존재를 알고있는 사용자가 얼마나있을까?
 

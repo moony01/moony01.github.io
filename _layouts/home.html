@@ -13,7 +13,7 @@
     <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncatewords: 30 }}{% else %}{{ site.description }}{% endif %}" />
     <meta name="keywords" content="{% if page.title %}{{ page.title }}, {{ site.title }}, {% for categ in page.categories %}{{ categ }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% else %}{{ site.title }}, {% for category in site.categories %}{% capture categories_slug %}{{ category | first }}{% endcapture %}{% for categ in categories_slug %}{{ categ }}{% endfor %}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %}" />
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
-    <meta content="{{ site.share.fb_appid }}" property="fb:app_id">
+    {% if site.share.fb_appid %}<meta content="{{ site.share.fb_appid }}" property="fb:app_id">{% endif %}
     <meta content="{{ site.title }}" property="og:site_name">
     <meta name="google-site-verification" content="08KOKdWTRS1kBEk3bd9icBokhdkv6QmDOZGpCUNWhwQ" />
     <meta name="naver-site-verification" content="53d262816bb8217eb889bc41631b32aabf09f2dd" />
@@ -124,7 +124,7 @@
         }
       },
       "datePublished": "{{ page.date | date_to_xmlschema }}",
-      "dateModified": "{{ page.date | date_to_xmlschema }}",
+      "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ site.url }}{{ page.url }}"
@@ -167,7 +167,7 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8955182453510440" crossorigin="anonymous"></script>
     {% if jekyll.environment == "production" %}
       <!-- Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id='{{ site.google_analytics }}'"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -188,6 +188,7 @@
     <script src="/static/js/super-search.js"></script>
     <script src="/static/js/thickbox-compressed.js"></script>
     <script src="/static/js/projects.js"></script>
+    <script src="/static/js/hero-bg-vanta.js"></script>
     <!-- Category filter -->
     <script src="/static/js/category-filter.js"></script>
   </body>

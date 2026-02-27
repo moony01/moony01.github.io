@@ -4,6 +4,7 @@ title: "AI 에이전트 오케스트레이션 - 혼자 일하는 AI는 이제 �
 date: 2026-02-04 17:00:00 +0900
 categories: [ai]
 tags: [multi-agent, agent-orchestration, claude-flow, crewai, langgraph, ai-agent, agentic-ai, mcp]
+image: multi-agent-orchestration-guide/multi-agent-orchestration-guide-1.png
 published: true
 ---
 

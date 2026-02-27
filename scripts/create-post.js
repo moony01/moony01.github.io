@@ -61,7 +61,7 @@ async function createPost(options) {
   const dateStr = date.toISOString().split('T')[0];
   const filename = `${dateStr}-${slug}.md`;
   const postPath = path.join(rootDir, '_posts', filename);
-  const imageDirPath = path.join(rootDir, 'static/img/_posts', slug);
+  const imageDirPath = path.join(rootDir, 'static/img/posts', slug);
   
   // 이미지 디렉토리 생성
   await fs.mkdir(imageDirPath, { recursive: true });
@@ -83,7 +83,7 @@ tags: []
 
 <!-- 본문 1 -->
 
-![이미지 설명](/static/img/_posts/${slug}/${slug}-1.webp){: .wd100}
+![이미지 설명](/static/img/posts/${slug}/${slug}-1.webp){: .wd100}
 
 ## 소제목 2
 
@@ -97,7 +97,7 @@ tags: []
 
 <!-- 본문 3 -->
 
-![이미지 설명](/static/img/_posts/${slug}/${slug}-2.webp){: .wd100}
+![이미지 설명](/static/img/posts/${slug}/${slug}-2.webp){: .wd100}
 
 ## 마치며
 
@@ -111,11 +111,11 @@ tags: []
 ✅ 포스트 생성 완료!
 
 📝 파일: ${filename}
-📂 이미지 디렉토리: static/img/_posts/${slug}/
+📂 이미지 디렉토리: static/img/posts/${slug}/
 
 다음 단계:
-1. 이미지를 static/img/_posts/${slug}/ 에 추가
-2. node scripts/optimize-images.js --input static/img/_posts/${slug}
+1. 이미지를 static/img/posts/${slug}/ 에 추가
+2. node scripts/optimize-images.js --input static/img/posts/${slug}
 3. _posts/${filename} 편집
 `);
 }

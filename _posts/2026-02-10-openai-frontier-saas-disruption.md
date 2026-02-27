@@ -4,6 +4,7 @@ title: "OpenAI가 SaaS를 삼킨다 — Frontier 발표에 업계 멘붕"
 date: 2026-02-10 11:00:00 +0900
 categories: [ai]
 tags: [openai, frontier, ai-agent, saas, enterprise, salesforce, workday]
+image: openai-frontier-saas-disruption/openai-frontier-saas-disruption-1.png
 published: true
 ---
 

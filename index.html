@@ -4,6 +4,9 @@ layout: home
 
 <!-- ===== 1. HERO SECTION ===== -->
 <section class="hero-section">
+  <div class="hero-section__code-bg" aria-hidden="true">
+    <pre id="hero-code-output" class="hero-code"></pre>
+  </div>
   <div class="hero-section__inner">
     <div class="hero-section__content">
       <span class="hero-section__badge">Product Studio & Tech Blog</span>
@@ -15,6 +18,7 @@ layout: home
       </div>
     </div>
   </div>
+  <span class="hero-section__scroll-cue" aria-hidden="true"></span>
 </section>
 
 <!-- ===== 2. PRODUCTS SECTION ===== -->
@@ -81,6 +85,12 @@ layout: home
   </div>
 </section>
 
+
+<!-- ===== ADSENSE ===== -->
+<div class="home-adsense">
+  {% include blog-main.html %}
+</div>
+
 <!-- ===== 3. BLOG SECTION ===== -->
 <section class="blog-section" id="blog">
   <div class="blog-section__inner">
@@ -100,14 +110,23 @@ layout: home
     {% assign all_posts = paginator.posts %}
 
     {% if all_posts.size > 0 %}
-      <!-- Featured Post (latest) -->
-      {% assign featured = all_posts | first %}
-      {% include post-card.html post=featured featured=true %}
+      {% if paginator.page == 1 %}
+        <!-- Featured Post (first page only) -->
+        {% assign featured = all_posts | first %}
+        {% include post-card.html post=featured featured=true %}
 
-      <!-- Post Grid (remaining posts) -->
-      {% if all_posts.size > 1 %}
+        <!-- Post Grid (remaining posts) -->
+        {% if all_posts.size > 1 %}
+          <div class="post-grid">
+            {% for post in all_posts offset:1 %}
+              {% include post-card.html post=post %}
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% else %}
+        <!-- Page 2+: no featured card, show full grid -->
         <div class="post-grid">
-          {% for post in all_posts offset:1 %}
+          {% for post in all_posts %}
             {% include post-card.html post=post %}
           {% endfor %}
         </div>
@@ -115,18 +134,69 @@ layout: home
     {% endif %}
 
     <!-- Pagination -->
-    {% if paginator.next_page %}
+    {% if paginator.total_pages > 1 %}
       <div class="blog-pagination">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="blog-pagination__link">더 보기 &rarr;</a>
+        <div class="blog-pagination__row">
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}#blog" class="blog-pagination__link blog-pagination__link--compact blog-pagination__link--prev">&larr; 이전</a>
+          {% else %}
+            <span class="blog-pagination__link blog-pagination__link--compact is-disabled" aria-disabled="true">&larr; 이전</span>
+          {% endif %}
+
+          <div class="blog-pagination__numbers" aria-label="페이지 번호">
+          {% assign total_pages = paginator.total_pages %}
+          {% assign current_page = paginator.page %}
+          {% assign left_bound = current_page | minus: 1 %}
+          {% assign right_bound = current_page | plus: 1 %}
+          {% assign near_end_cutoff = total_pages | minus: 2 %}
+          {% assign start_tail = total_pages | minus: 4 %}
+          {% assign last_shown = 0 %}
+
+          {% for page_num in (1..total_pages) %}
+            {% assign show_page = false %}
+
+            {% if total_pages <= 7 %}
+              {% assign show_page = true %}
+            {% elsif page_num == 1 or page_num == total_pages %}
+              {% assign show_page = true %}
+            {% elsif current_page <= 3 and page_num <= 5 %}
+              {% assign show_page = true %}
+            {% elsif current_page >= near_end_cutoff and page_num >= start_tail %}
+              {% assign show_page = true %}
+            {% elsif page_num >= left_bound and page_num <= right_bound %}
+              {% assign show_page = true %}
+            {% endif %}
+
+            {% if show_page %}
+              {% assign expected_next = last_shown | plus: 1 %}
+              {% if last_shown != 0 and page_num > expected_next %}
+                <span class="blog-pagination__dots" aria-hidden="true">...</span>
+              {% endif %}
+
+              {% if page_num == 1 %}
+                {% assign page_url = '/' | prepend: site.baseurl | replace: '//', '/' %}
+              {% else %}
+                {% assign page_url = site.paginate_path | replace: ':num', page_num | prepend: site.baseurl | replace: '//', '/' %}
+              {% endif %}
+
+              <a href="{{ page_url }}#blog" class="blog-pagination__number{% if page_num == current_page %} is-active{% endif %}">{{ page_num }}</a>
+              {% assign last_shown = page_num %}
+            {% endif %}
+          {% endfor %}
+          </div>
+
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}#blog" class="blog-pagination__link blog-pagination__link--compact blog-pagination__link--next">다음 &rarr;</a>
+          {% else %}
+            <span class="blog-pagination__link blog-pagination__link--compact is-disabled" aria-disabled="true">다음 &rarr;</span>
+          {% endif %}
+        </div>
       </div>
     {% endif %}
   </div>
 </section>
 
-<!-- ===== 4. ADSENSE ===== -->
-<div class="home-adsense">
-  {% include blog-main.html %}
-</div>
+
 
 <!-- ===== 5. FOOTER ===== -->
 {% include footer-enhanced.html %}

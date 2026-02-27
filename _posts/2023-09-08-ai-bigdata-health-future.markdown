@@ -3,6 +3,7 @@ layout: post
 title: '인공지능(AI)과 빅데이터가 바꾸는 헬스케어 산업의 미래'
 date: 2023-09-08 00:00:00 +0700 
 categories: [news]
+image: ai-bigdata-health-future-1.webp
 ---
 인공지능(AI)과 빅데이터(Big Data)는 우리의 삶 속에서 점점 빠질 수 없는 이슈들이 되고 있다. 이 두 가지 기술들이 서로 융합됨으로써 기존의 일상생활과는 달리 새로운 세계를 열어줄 것이라고 기대한다. 특히나 AI기술과 빅데이터 기술이 활용되고 있는 분야 가운데 하나로는 헬스케어 산업이 있다. 본 보고서에서는 AI와 빅데이터가 현재 어떻게 활용되고 있으며 앞으로 어떻게 변화할지 분석하고자 한다.
 ## 목차
@@ -11,7 +12,7 @@ categories: [news]
 3. 헬스케어 산업에서의 AI 및 빅데이터의 활용 현황은 어떻게 되나요?
 4. 헬스케어 산업에서의 AI 및 빅데이터의 활용 방안은 무엇인가요?
 
-![빅데이터란](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/ai-bigdata-health-future-1.webp)
+![빅데이터란](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/posts/ai-bigdata-health-future-1.webp)
 
 
 
@@ -32,7 +33,7 @@ categories: [news]
 ## 헬스케어 산업에서의 AI 및 빅데이터의 활용 현황은 어떻게 되나요?
 헬스케어 산업에서의 AI 및 빅데이터의 활용 현황은 크게 두 가지로 나눌 수 있다. 첫 번째로는 의료진의 의사결정을 보조하는 역할이다. 예를 들어, 의료진은 환자의 증상을 분석하고 진단을 내리는 과정에서 다양한 정보를 참고한다. 이러한 정보는 과거의 환자 데이터나 기존의 연구 성과 등이다. 또한, 의료진은 환자의 특성에 따라 최적화된 치료 방법을 선택한다. 이러한 과정에서 AI 및 빅데이터 기술은 큰 도움이 된다.
 
-![AI 및 빅데이터의 활용 방안](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/ai-bigdata-health-future-2.webp)
+![AI 및 빅데이터의 활용 방안](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/posts/ai-bigdata-health-future-2.webp)
 
 ## 헬스케어 산업에서의 AI 및 빅데이터의 활용 방안은 무엇인가요?
 헬스케어 산업에서의 AI 및 빅데이터의 활용 방안은 크게 두 가지로 나눌 수 있다.**첫 번째로는 예방 의료 분야이다.** 예방 의료는 질병 발생 전에 미리 예방하는 것을 말한다. 이러한 예방 의료는 개인의 유전 정보, 생활 습관, 식습관 등을 고려하여 개인에게 맞는 건강 관리 방법을 제안한다. **두 번째로는 치료 분야이다.** 치료는 이미 발병한 질병을 치료하는 것을 말한다. 이러한 치료는 개인의 유전 정보, 생활 습관, 식습관 등을 고려하여 개인에게 맞는 치료 방법을 제안한다.

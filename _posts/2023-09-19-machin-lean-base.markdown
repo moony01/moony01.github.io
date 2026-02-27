@@ -3,6 +3,7 @@ layout: post
 title: '머신러닝의 기초: 알고리즘 선택에서 모델 훈련까지'
 date: 2023-09-19 00:00:00 +0700 
 categories: [news]
+image: machin-lean-base.webp
 ---
 요즘 머신러닝에 대한 수요가 증가하고 있습니다. 하지만 머신러닝에 대한 지식이 부족하여 쉽게 시작하지 못하는 분들이 많아요. 오늘은 머신러닝의 기초인 알고리즘 선택부터 모델 훈련까지에 대해 알아보도록 하겠습니다.
 ## 목차
@@ -10,7 +11,7 @@ categories: [news]
 2. 데이터 전처리는 왜 중요한가?
 3. 모델 훈련은 어떻게 이루어지나?
 
-![알고리즘 선택에서 모델 훈련까지](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/_posts/machin-lean-base.webp)
+![알고리즘 선택에서 모델 훈련까지](https://raw.githubusercontent.com/moony01/moony01.github.io/master/static/img/posts/machin-lean-base.webp)
 
 
 
