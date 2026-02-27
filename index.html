@@ -1,111 +1,132 @@
 ---
-layout: default
+layout: home
 ---
 
-<div id="home">
-  <h1>{{ site.title }}</h1>
-  <hr />
-
-  <!-- Products Section -->
-  <section class="products-section">
-    <h2 class="products-title">Our Products</h2>
-
-    <!-- K-Pop Face Test Featured Banner -->
-    <a href="/kpopface/" class="kft-banner" target="_blank" rel="noopener noreferrer">
-      <div class="kft-banner__glow"></div>
-      <div class="kft-banner__content">
-        <div class="kft-banner__logo">
-          <img src="/static/img/kft-logo.svg" alt="K-Pop Face Test" width="56" height="56" />
-        </div>
-        <div class="kft-banner__text">
-          <span class="kft-banner__badge">AI Powered</span>
-          <h3 class="kft-banner__title">K-Pop Face Test</h3>
-          <p class="kft-banner__desc">AI가 분석하는 나의 케이팝 얼굴상</p>
-        </div>
-        <div class="kft-banner__cta">
-          <span class="kft-banner__cta-btn">테스트 하기 <span class="kft-banner__arrow">&rarr;</span></span>
-        </div>
+<!-- ===== 1. HERO SECTION ===== -->
+<section class="hero-section">
+  <div class="hero-section__inner">
+    <div class="hero-section__content">
+      <span class="hero-section__badge">Product Studio & Tech Blog</span>
+      <h1 class="hero-section__title">Build &amp; Share,<br>Moony01 Studio</h1>
+      <p class="hero-section__subtitle">소프트웨어 개발과 IT 혁신을 위한 기술 지식을 공유합니다. AI, 보안, 인프라, 그리고 재밌는 프로덕트까지.</p>
+      <div class="hero-section__cta-group">
+        <a href="#blog" class="hero-cta hero-cta--primary">블로그 보기 &darr;</a>
+        <a href="#products" class="hero-cta hero-cta--secondary">프로덕트 보기 &darr;</a>
       </div>
-      <div class="kft-banner__sparkles">
-        <span class="kft-sparkle kft-sparkle--1"></span>
-        <span class="kft-sparkle kft-sparkle--2"></span>
-        <span class="kft-sparkle kft-sparkle--3"></span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 2. PRODUCTS SECTION ===== -->
+<section class="home-products-section" id="products">
+  <span class="home-section-label">Products</span>
+  <h2 class="home-section-title">Our Products</h2>
+
+  <!-- K-Pop Face Test Featured Banner -->
+  <a href="/kpopface/" class="kft-banner" target="_blank" rel="noopener noreferrer">
+    <div class="kft-banner__glow"></div>
+    <div class="kft-banner__content">
+      <div class="kft-banner__logo">
+        <img src="/static/img/kft-logo.svg" alt="K-Pop Face Test" width="56" height="56" />
+      </div>
+      <div class="kft-banner__text">
+        <span class="kft-banner__badge">AI Powered</span>
+        <h3 class="kft-banner__title">K-Pop Face Test</h3>
+        <p class="kft-banner__desc">AI가 분석하는 나의 케이팝 얼굴상</p>
+      </div>
+      <div class="kft-banner__cta">
+        <span class="kft-banner__cta-btn">테스트 하기 <span class="kft-banner__arrow">&rarr;</span></span>
+      </div>
+    </div>
+    <div class="kft-banner__sparkles">
+      <span class="kft-sparkle kft-sparkle--1"></span>
+      <span class="kft-sparkle kft-sparkle--2"></span>
+      <span class="kft-sparkle kft-sparkle--3"></span>
+    </div>
+  </a>
+
+  <div class="products-grid">
+    <a href="/mentalage/" class="product-card" target="_blank" rel="noopener noreferrer">
+      <div class="product-icon product-icon--emoji">🧠</div>
+      <div class="product-info">
+        <h3>Mental Age Test</h3>
+        <p>나의 정신 연령은 몇 살일까?</p>
       </div>
     </a>
+    <a href="https://kclhq.com/" class="product-card" target="_blank" rel="noopener noreferrer">
+      <div class="product-icon">
+        <img src="/static/img/kcl-logo.svg" alt="K-Pop Company League" width="48" height="48" />
+      </div>
+      <div class="product-info">
+        <h3>K-Pop Company League</h3>
+        <p>케이팝 기획사 랭킹 리그</p>
+      </div>
+    </a>
+    <a href="/sanggyeonrye-test/" class="product-card" target="_blank" rel="noopener noreferrer">
+      <div class="product-icon">
+        <img src="/static/img/sgt-logo.svg" alt="상견례 얼굴상 테스트" width="48" height="48" />
+      </div>
+      <div class="product-info">
+        <h3>상견례 얼굴상 테스트</h3>
+        <p>상견례에서 나는 어떤 인상일까?</p>
+      </div>
+    </a>
+    <a href="/braintype/" class="product-card" target="_blank" rel="noopener noreferrer">
+      <div class="product-icon product-icon--emoji">🧬</div>
+      <div class="product-info">
+        <h3>Brain Type Test</h3>
+        <p>나의 두뇌 성향은 어떤 유형일까?</p>
+      </div>
+    </a>
+  </div>
+</section>
 
-    <div class="products-grid">
-      <a href="/mentalage/" class="product-card" target="_blank" rel="noopener noreferrer">
-        <div class="product-icon product-icon--emoji">🧠</div>
-        <div class="product-info">
-          <h3>Mental Age Test</h3>
-          <p>나의 정신 연령은 몇 살일까?</p>
-        </div>
-      </a>
-      <a href="https://kclhq.com/" class="product-card" target="_blank" rel="noopener noreferrer">
-        <div class="product-icon">
-          <img src="/static/img/kcl-logo.svg" alt="K-Pop Company League" width="48" height="48" />
-        </div>
-        <div class="product-info">
-          <h3>K-Pop Company League</h3>
-          <p>케이팝 기획사 랭킹 리그</p>
-        </div>
-      </a>
-      <a href="/sanggyeonrye-test/" class="product-card" target="_blank" rel="noopener noreferrer">
-        <div class="product-icon">
-          <img src="/static/img/sgt-logo.svg" alt="상견례 얼굴상 테스트" width="48" height="48" />
-        </div>
-        <div class="product-info">
-          <h3>상견례 얼굴상 테스트</h3>
-          <p>상견례에서 나는 어떤 인상일까?</p>
-        </div>
-      </a>
-      <a href="/braintype/" class="product-card" target="_blank" rel="noopener noreferrer">
-        <div class="product-icon product-icon--emoji">🧬</div>
-        <div class="product-info">
-          <h3>Brain Type Test</h3>
-          <p>나의 두뇌 성향은 어떤 유형일까?</p>
-        </div>
-      </a>
+<!-- ===== 3. BLOG SECTION ===== -->
+<section class="blog-section" id="blog">
+  <div class="blog-section__inner">
+    <span class="home-section-label">Blog</span>
+    <h2 class="home-section-title">Latest Posts</h2>
+
+    <!-- Category Filter Tabs -->
+    <div class="category-filter">
+      <button type="button" class="category-filter__btn category-filter__btn--active" data-filter="all">전체</button>
+      <button type="button" class="category-filter__btn" data-filter="ai">AI</button>
+      <button type="button" class="category-filter__btn" data-filter="security">Security</button>
+      <button type="button" class="category-filter__btn" data-filter="infra">Infra</button>
+      <button type="button" class="category-filter__btn" data-filter="javascript">JavaScript</button>
+      <button type="button" class="category-filter__btn" data-filter="others">기타</button>
     </div>
-  </section>
 
-  <h2 class="posts-title">Blog Posts</h2>
+    {% assign all_posts = paginator.posts %}
 
-  <ol class="posts">
-    {% for post in paginator.posts %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
-    {% endfor %}
-  </ol>
+    {% if all_posts.size > 0 %}
+      <!-- Featured Post (latest) -->
+      {% assign featured = all_posts | first %}
+      {% include post-card.html post=featured featured=true %}
 
-  <!-- Pagination links -->
-  {% if paginator.total_pages > 1 %}
-    <ul class="pagination pagination-sm">
-      {% if paginator.previous_page %}
-        <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
-      {% else %}
-        <li class="disabled"><span aria-hidden="true">&laquo;</span></li>
+      <!-- Post Grid (remaining posts) -->
+      {% if all_posts.size > 1 %}
+        <div class="post-grid">
+          {% for post in all_posts offset:1 %}
+            {% include post-card.html post=post %}
+          {% endfor %}
+        </div>
       {% endif %}
+    {% endif %}
 
-      <li><a href="/">First</a></li>
+    <!-- Pagination -->
+    {% if paginator.next_page %}
+      <div class="blog-pagination">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="blog-pagination__link">더 보기 &rarr;</a>
+      </div>
+    {% endif %}
+  </div>
+</section>
 
-      {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-          <li class="active"><a>{{ page }}<span class="sr-only">(current)</span></a></li>
-        {% elsif page == 1 %}
-          <li><a href="/">{{ page }}</a></li>
-        {% else %}
-          <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-        {% endif %}
-      {% endfor %}
-
-      <li><a href="/page/{{ paginator.total_pages }}/">Last</a></li>
-
-      {% if paginator.next_page %}
-        <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
-      {% else %}
-        <li class="disabled"><span>&raquo;</span></li>
-      {% endif %}
-    </ul>
-  {% endif %}
+<!-- ===== 4. ADSENSE ===== -->
+<div class="home-adsense">
   {% include blog-main.html %}
-</div><!-- end #home -->
+</div>
+
+<!-- ===== 5. FOOTER ===== -->
+{% include footer-enhanced.html %}
