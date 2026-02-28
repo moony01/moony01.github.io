@@ -31,7 +31,26 @@ GitHub Copilot은 Codespace 안에서 단순한 코드 보조 이상의 역할�
 
 Issue의 내용 전체가 Copilot의 컨텍스트 창으로 들어간다면, Issue 안에 숨겨진 지시 역시 모델이 처리하게 된다. RoguePilot은 바로 이 동작을 이용했다.
 
-![GitHub Copilot RoguePilot 취약점 공격 경로 다이어그램](/static/img/posts/copilot-roguepilot-prompt-injection/copilot-roguepilot-prompt-injection-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/copilot-roguepilot-prompt-injection/copilot-roguepilot-prompt-injection-2-400.webp 400w,
+            /static/img/posts/copilot-roguepilot-prompt-injection/copilot-roguepilot-prompt-injection-2-800.webp 800w,
+            /static/img/posts/copilot-roguepilot-prompt-injection/copilot-roguepilot-prompt-injection-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/copilot-roguepilot-prompt-injection/copilot-roguepilot-prompt-injection-2-400.png 400w,
+            /static/img/posts/copilot-roguepilot-prompt-injection/copilot-roguepilot-prompt-injection-2-800.png 800w,
+            /static/img/posts/copilot-roguepilot-prompt-injection/copilot-roguepilot-prompt-injection-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/copilot-roguepilot-prompt-injection/copilot-roguepilot-prompt-injection-2.png" 
+    alt="GitHub Copilot RoguePilot 취약점 공격 경로 다이어그램" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 공격 체인 단계별 해부
 

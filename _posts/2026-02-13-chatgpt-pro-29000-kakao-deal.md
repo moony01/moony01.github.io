@@ -15,7 +15,26 @@ published: true
 
 결론부터 말하면, **실화입니다.** 저도 질렀고, 실제로 작동합니다. 하지만 알아야 할 게 몇 가지 있습니다.
 
-![카카오톡 선물하기 ChatGPT Pro 29,000원 이용권](/static/img/posts/chatgpt-pro-29000-kakao-deal/chatgpt-pro-29000-kakao-deal-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/chatgpt-pro-29000-kakao-deal/chatgpt-pro-29000-kakao-deal-1-400.webp 400w,
+            /static/img/posts/chatgpt-pro-29000-kakao-deal/chatgpt-pro-29000-kakao-deal-1-800.webp 800w,
+            /static/img/posts/chatgpt-pro-29000-kakao-deal/chatgpt-pro-29000-kakao-deal-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/chatgpt-pro-29000-kakao-deal/chatgpt-pro-29000-kakao-deal-1-400.png 400w,
+            /static/img/posts/chatgpt-pro-29000-kakao-deal/chatgpt-pro-29000-kakao-deal-1-800.png 800w,
+            /static/img/posts/chatgpt-pro-29000-kakao-deal/chatgpt-pro-29000-kakao-deal-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/chatgpt-pro-29000-kakao-deal/chatgpt-pro-29000-kakao-deal-1.png" 
+    alt="카카오톡 선물하기 ChatGPT Pro 29,000원 이용권" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 ## ChatGPT Pro가 뭔데 — Plus와 뭐가 다른 건지부터
 
 먼저 이걸 짚고 넘어가야 합니다. 많은 사람들이 ChatGPT Plus(월 20달러)와 Pro(월 200달러)를 헷갈려합니다. 가격이 **10배** 차이 나는 데는 이유가 있습니다.
@@ -102,7 +121,26 @@ print(f"할인율:             {(1 - kakao_5months/web_5months_krw)*100:.1f}%")
 # 할인율:             90.0%
 ```
 
-![ChatGPT Pro 가격 비교 및 카카오 딜 구조](/static/img/posts/chatgpt-pro-29000-kakao-deal/chatgpt-pro-29000-kakao-deal-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/chatgpt-pro-29000-kakao-deal/chatgpt-pro-29000-kakao-deal-2-400.webp 400w,
+            /static/img/posts/chatgpt-pro-29000-kakao-deal/chatgpt-pro-29000-kakao-deal-2-800.webp 800w,
+            /static/img/posts/chatgpt-pro-29000-kakao-deal/chatgpt-pro-29000-kakao-deal-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/chatgpt-pro-29000-kakao-deal/chatgpt-pro-29000-kakao-deal-2-400.png 400w,
+            /static/img/posts/chatgpt-pro-29000-kakao-deal/chatgpt-pro-29000-kakao-deal-2-800.png 800w,
+            /static/img/posts/chatgpt-pro-29000-kakao-deal/chatgpt-pro-29000-kakao-deal-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/chatgpt-pro-29000-kakao-deal/chatgpt-pro-29000-kakao-deal-2.png" 
+    alt="ChatGPT Pro 가격 비교 및 카카오 딜 구조" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 
 

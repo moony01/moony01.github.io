@@ -16,7 +16,26 @@ Spotify의 공동 CEO Gustav Söderström이 4분기 실적 발표에서 직접 
 
 처음엔 나도 "과장이겠지" 했다. 그런데 구체적인 시스템까지 공개됐고, TechCrunch, Slashdot, Business Today 등 주요 매체가 동시에 보도했다. GeekNews에서도 즉시 화제가 됐다. 이건 진짜다.
 
-![Spotify AI 코딩 시스템 Honk — 개발자가 코드를 쓰지 않는 시대](/static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-1-400.webp 400w,
+            /static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-1-800.webp 800w,
+            /static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-1-400.png 400w,
+            /static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-1-800.png 800w,
+            /static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-1.png" 
+    alt="Spotify AI 코딩 시스템 Honk — 개발자가 코드를 쓰지 않는 시대" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 대체 무슨 일이 벌어진 건지, 그리고 이게 **우리 개발자에게 어떤 의미인지** 파헤쳐보겠다.
 ## 슬랙에서 "버그 고쳐" 치면 앱이 나온다 — 이게 실화라고?
@@ -71,7 +90,26 @@ Söderström은 여기서 멈추지 않았다. 진짜 무서운 건 그다음 �
 
 이건 단순한 기술 우위가 아니라 **구조적 경쟁우위**다. AI 시대의 해자(moat)가 이런 모습이다.
 
-![Spotify AI 개발 워크플로우 — Before vs After](/static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-2-400.webp 400w,
+            /static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-2-800.webp 800w,
+            /static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-2-400.png 400w,
+            /static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-2-800.png 800w,
+            /static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-2.png" 
+    alt="Spotify AI 개발 워크플로우 — Before vs After" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 ## 개발자는 정말 필요 없어지는 걸까 — 불편한 진실
 
 여기서 솔직한 이야기를 하겠다. 이 뉴스를 접한 개발자 커뮤니티의 반응은 크게 두 갈래다.

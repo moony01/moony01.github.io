@@ -15,7 +15,26 @@ published: true
 
 2월 26일, Karpathy는 X에 올린 글에서 한 발 더 나아갔다. 에이전트 AI 코딩이 세상을 바꿔놓았다고. 12월 이전에는 기본적으로 작동하지 않았고, 12월 이후에는 기본적으로 작동한다고. Bloomberg는 같은 날 "생산성 패닉"이 테크 기업 전반에 퍼지고 있다고 보도했다. 주니어 개발자 채용 공고는 16% 감소했다.
 
-![에이전트 코딩 시대 개발자의 역할 변화를 표현한 히어로 이미지](/static/img/posts/karpathy-agentic-coding-unrecognizable/karpathy-agentic-coding-unrecognizable-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/karpathy-agentic-coding-unrecognizable/karpathy-agentic-coding-unrecognizable-1-400.webp 400w,
+            /static/img/posts/karpathy-agentic-coding-unrecognizable/karpathy-agentic-coding-unrecognizable-1-800.webp 800w,
+            /static/img/posts/karpathy-agentic-coding-unrecognizable/karpathy-agentic-coding-unrecognizable-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/karpathy-agentic-coding-unrecognizable/karpathy-agentic-coding-unrecognizable-1-400.png 400w,
+            /static/img/posts/karpathy-agentic-coding-unrecognizable/karpathy-agentic-coding-unrecognizable-1-800.png 800w,
+            /static/img/posts/karpathy-agentic-coding-unrecognizable/karpathy-agentic-coding-unrecognizable-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/karpathy-agentic-coding-unrecognizable/karpathy-agentic-coding-unrecognizable-1.png" 
+    alt="에이전트 코딩 시대 개발자의 역할 변화를 표현한 히어로 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -56,7 +75,26 @@ Karpathy의 발언과 같은 날, Bloomberg는 테크 업계에 "생산성 패�
 
 하지만 현장 엔지니어들의 반응은 더 복잡하다. AI가 생성한 코드를 디버깅하는 데 3배 더 오래 걸린다는 보고가 나온다. 거버넌스 프레임워크는 거의 존재하지 않는다. 주니어 개발자의 40%가 자신이 완전히 이해하지 못한 AI 생성 코드를 배포하고 있다는 조사 결과도 있다.
 
-![에이전트 코딩 워크플로우와 개발자 역할 변화 다이어그램](/static/img/posts/karpathy-agentic-coding-unrecognizable/karpathy-agentic-coding-unrecognizable-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/karpathy-agentic-coding-unrecognizable/karpathy-agentic-coding-unrecognizable-2-400.webp 400w,
+            /static/img/posts/karpathy-agentic-coding-unrecognizable/karpathy-agentic-coding-unrecognizable-2-800.webp 800w,
+            /static/img/posts/karpathy-agentic-coding-unrecognizable/karpathy-agentic-coding-unrecognizable-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/karpathy-agentic-coding-unrecognizable/karpathy-agentic-coding-unrecognizable-2-400.png 400w,
+            /static/img/posts/karpathy-agentic-coding-unrecognizable/karpathy-agentic-coding-unrecognizable-2-800.png 800w,
+            /static/img/posts/karpathy-agentic-coding-unrecognizable/karpathy-agentic-coding-unrecognizable-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/karpathy-agentic-coding-unrecognizable/karpathy-agentic-coding-unrecognizable-2.png" 
+    alt="에이전트 코딩 워크플로우와 개발자 역할 변화 다이어그램" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 *이미지: Gemini AI 생성*
 

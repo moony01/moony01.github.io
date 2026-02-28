@@ -14,7 +14,26 @@ published: true
 
 SWE-bench에서 79.6%. Opus 4.6이 80.8%다. **차이가 1.2%밖에 안 난다.** 컴퓨터 사용 능력은 72.5% vs 72.7%로 사실상 동일하다. 근데 가격은? Opus의 1/5이다. 이게 실화냐.
 
-![Claude Sonnet 4.6 히어로 이미지](/static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-1-400.webp 400w,
+            /static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-1-800.webp 800w,
+            /static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-1-400.png 400w,
+            /static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-1-800.png 800w,
+            /static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-1.png" 
+    alt="Claude Sonnet 4.6 히어로 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -71,7 +90,26 @@ Anthropic이 12일 만에 두 번째 모델을 쏟아낸 건 우연이 아니다
 
 그 사이 무슨 일이 있었나? OpenAI의 GPT-5.2가 시장을 흔들고 있었다. Google도 Gemini 2.5를 밀고 있고, DeepSeek V4도 나왔다. AI 시장이 매주 전쟁터다.
 
-![Claude Sonnet 4.6 성능 비교 다이어그램](/static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-2-400.webp 400w,
+            /static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-2-800.webp 800w,
+            /static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-2-400.png 400w,
+            /static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-2-800.png 800w,
+            /static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-2.png" 
+    alt="Claude Sonnet 4.6 성능 비교 다이어그램" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 Anthropic의 전략은 명확하다. **"같은 성능, 더 싼 가격."** 이건 개발자를 붙잡는 가장 확실한 방법이다.
 

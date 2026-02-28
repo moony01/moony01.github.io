@@ -9,7 +9,26 @@ image: xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-1.webp
 
 2월 3일, Apple이 Xcode 26.3 Release Candidate를 공개했습니다. 보통 Xcode 마이너 업데이트라면 "버그 수정, 안정성 향상" 같은 지루한 릴리스 노트가 전부인데, 이번엔 상황이 다릅니다. Anthropic의 **Claude Agent**와 OpenAI의 **Codex**가 Xcode 안에 들어왔습니다. 그것도 단순 자동완성이 아니라, 프로젝트를 분석하고 코드를 작성하고 빌드까지 반복하는 **에이전틱 코딩(Agentic Coding)** 형태로요.
 
-![Xcode 26.3 에이전틱 코딩 대표 이미지](/static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-1.webp){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-1-400.webp 400w,
+            /static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-1-800.webp 800w,
+            /static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-1-400.webp 400w,
+            /static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-1-800.webp 800w,
+            /static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-1.webp" 
+    alt="Xcode 26.3 에이전틱 코딩 대표 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 솔직히 말하면, Apple이 이 타이밍에 이렇게 공격적으로 AI를 도입할 줄은 몰랐습니다. WWDC 2025에서 Apple Intelligence를 발표할 때만 해도 "Apple은 역시 AI에 보수적이구나"라는 평가가 지배적이었으니까요. 그런데 1년 만에 서드파티 AI 에이전트를 IDE에 직접 통합한다? 이건 Apple이 게임의 룰 자체를 바꾸겠다는 선언에 가깝습니다.
 
@@ -63,7 +82,26 @@ Xcode가 **MCP 클라이언트** 역할을 합니다. 에이전트 서비스로 
 
 개인적으로 이게 Apple다운 전략이라고 봅니다. USB-C를 강제 도입했던 것처럼, AI 에이전트 연결에도 하나의 표준을 밀어붙이는 거죠.
 
-![MCP 프로토콜 아키텍처](/static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-2.webp){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-2-400.webp 400w,
+            /static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-2-800.webp 800w,
+            /static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-2-400.webp 400w,
+            /static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-2-800.webp 800w,
+            /static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-2.webp" 
+    alt="MCP 프로토콜 아키텍처" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## Claude Agent vs Codex - 실전에서 뭘 써야 할까
 
@@ -156,7 +194,26 @@ MCP 프로토콜 자체에 보안 경계가 설정되어 있어, 에이전트가
 □ 에이전트가 생성한 코드의 라이선스 이슈 확인
 ```
 
-![에이전틱 코딩 보안 체크리스트](/static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-3.webp){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-3-400.webp 400w,
+            /static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-3-800.webp 800w,
+            /static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-3.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-3-400.webp 400w,
+            /static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-3-800.webp 800w,
+            /static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-3.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/xcode-26-3-agentic-coding-guide/xcode-26-3-agentic-coding-guide-3.webp" 
+    alt="에이전틱 코딩 보안 체크리스트" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## IDE의 미래가 바뀌고 있다
 

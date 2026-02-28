@@ -12,7 +12,26 @@ published: true
 
 OpenAI 공식 블로그에 올라온 이 한 문장을 처음 읽었을 때, 솔직히 마케팅 문구라고 생각했습니다. AI가 자기 코드를 고친다고? 그런 건 SF 영화에서나 나오는 이야기 아닌가. 그런데 2월 5일 공개된 GPT-5.3-Codex의 System Card를 직접 읽어보니, 이건 과장이 아니었습니다. 그리고 더 충격적인 건 — OpenAI 스스로가 이 모델의 사이버보안 위험도를 **"High"**로 분류했다는 사실입니다.
 
-![GPT-5.3 Codex 히어로 이미지](/static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-1-400.webp 400w,
+            /static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-1-800.webp 800w,
+            /static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-1-400.png 400w,
+            /static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-1-800.png 800w,
+            /static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-1.png" 
+    alt="GPT-5.3 Codex 히어로 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 2026년 2월 첫째 주, AI 코딩 도구 시장에 두 개의 폭탄이 동시에 터졌습니다. 2월 2일 OpenAI가 Codex macOS 앱을, 2월 5일에는 GPT-5.3-Codex 모델을 발표했죠. 같은 주에 Anthropic은 Claude Opus 4.6을 출시했고, Apple은 Xcode 26.3에 에이전틱 코딩을 탑재했습니다. 그야말로 AI 코딩 전쟁의 서막입니다. 그중에서도 GPT-5.3-Codex가 유독 논란의 중심에 선 이유를 파헤쳐 봅니다.
 ## "자기 자신을 만든 AI" — 셀프 디버깅의 실체
@@ -42,7 +61,26 @@ GPT-5.3-Codex에서 가장 소름 돋는 부분은 바로 **자기 참조적 개
 
 참고로 같은 주에 발표된 Anthropic의 Claude Opus 4.6은 SWE-bench Verified에서 79.4%를 기록했습니다. 다만 SWE-bench Verified와 SWE-bench Pro Public은 서로 다른 벤치마크이기 때문에 직접 비교는 의미가 없습니다. 마치 수능 수학과 SAT Math를 비교하는 것과 같은 거죠.
 
-![GPT-5.3 Codex 벤치마크 비교](/static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-2-400.webp 400w,
+            /static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-2-800.webp 800w,
+            /static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-2-400.png 400w,
+            /static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-2-800.png 800w,
+            /static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-2.png" 
+    alt="GPT-5.3 Codex 벤치마크 비교" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 
 

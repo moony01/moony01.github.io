@@ -59,7 +59,26 @@ Reddit `r/google_antigravity`에는 "Google is permanently banning Antigravity u
 
 일부는 계정 인증을 다시 하면 풀렸지만, 다수는 **완전한 계정 레벨 차단**을 당했다. 유료 AI Pro 구독자도 예외 없이 당했다는 점이 충격적이었다.
 
-![OAuth 토큰 흐름과 Google 보안 시스템의 차단 다이어그램](/static/img/posts/gemini-opencode-account-ban-disaster/gemini-opencode-account-ban-disaster-2.png)
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/gemini-opencode-account-ban-disaster/gemini-opencode-account-ban-disaster-2-400.webp 400w,
+            /static/img/posts/gemini-opencode-account-ban-disaster/gemini-opencode-account-ban-disaster-2-800.webp 800w,
+            /static/img/posts/gemini-opencode-account-ban-disaster/gemini-opencode-account-ban-disaster-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/gemini-opencode-account-ban-disaster/gemini-opencode-account-ban-disaster-2-400.png 400w,
+            /static/img/posts/gemini-opencode-account-ban-disaster/gemini-opencode-account-ban-disaster-2-800.png 800w,
+            /static/img/posts/gemini-opencode-account-ban-disaster/gemini-opencode-account-ban-disaster-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/gemini-opencode-account-ban-disaster/gemini-opencode-account-ban-disaster-2.png" 
+    alt="OAuth 토큰 흐름과 Google 보안 시스템의 차단 다이어그램" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 왜 차단당했나 — Google의 탐지 메커니즘
 

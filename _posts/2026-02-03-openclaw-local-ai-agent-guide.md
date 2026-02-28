@@ -9,7 +9,26 @@ image: openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-1.webp
 
 72시간 만에 GitHub 스타 60,000개. 개발자들 사이에서 "진짜 JARVIS가 나왔다"는 말이 돌기 시작했습니다. 2026년 2월 현재, OpenClaw는 AI 에이전트 분야에서 가장 뜨거운 이름이 되었습니다. 솔직히 처음 들었을 때는 "또 하나의 AI 래퍼겠지"라고 생각했는데, 직접 써보니 이건 좀 다릅니다.
 
-![OpenClaw 대표 이미지](/static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-1.webp){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-1-400.webp 400w,
+            /static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-1-800.webp 800w,
+            /static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-1-400.webp 400w,
+            /static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-1-800.webp 800w,
+            /static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-1.webp" 
+    alt="OpenClaw 대표 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## OpenClaw란 무엇인가?
 
@@ -38,7 +57,26 @@ GitHub 스타 145,000개가 그냥 얻어진 게 아닙니다. OpenClaw가 기�
 
 단순히 답변만 주는 게 아닙니다. 파일을 생성하고, 코드를 실행하고, API를 호출하고, 이메일을 보내는 등 실제 작업을 자동화할 수 있습니다.
 
-![OpenClaw 아키텍처](/static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-2.webp){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-2-400.webp 400w,
+            /static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-2-800.webp 800w,
+            /static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-2-400.webp 400w,
+            /static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-2-800.webp 800w,
+            /static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-2.webp" 
+    alt="OpenClaw 아키텍처" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 
 
@@ -152,7 +190,26 @@ pipeline:
   - reviewer: "기술적 정확성 검토 후 피드백"
 ```
 
-![OpenClaw 워크플로우](/static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-3.webp){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-3-400.webp 400w,
+            /static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-3-800.webp 800w,
+            /static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-3.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-3-400.webp 400w,
+            /static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-3-800.webp 800w,
+            /static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-3.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/openclaw-local-ai-agent-guide/openclaw-local-ai-agent-guide-3.webp" 
+    alt="OpenClaw 워크플로우" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 
 

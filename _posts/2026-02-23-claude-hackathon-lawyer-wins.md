@@ -13,7 +13,26 @@ published: true
 
 농담이 아니다. 2월 21일, Anthropic이 "Built with Opus 4.6" Claude Code 해커톤 결과를 발표했다. 500명이 1주일 동안 Opus 4.6으로 뭐든 만들어보는 대회였다. 그런데 **우승자 5명 중 4명이 개발자가 아니었다.**
 
-![Claude Code 해커톤 우승자 5명 — 변호사, 심장전문의, 뮤지션, 도로 인프라 담당자, 소프트웨어 엔지니어](/static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-1-400.webp 400w,
+            /static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-1-800.webp 800w,
+            /static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-1-400.png 400w,
+            /static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-1-800.png 800w,
+            /static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-1.png" 
+    alt="Claude Code 해커톤 우승자 5명 — 변호사, 심장전문의, 뮤지션, 도로 인프라 담당자, 소프트웨어 엔지니어" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 개인상해 전문 변호사. 인터벤션 심장전문의. 일렉트로닉 뮤지션. 도로·인프라 공무원. 그리고 **딱 1명**의 소프트웨어 엔지니어. 이 다섯 명이 전 세계 개발자들 사이에서 벌어진 코딩 대회의 최종 승자다. 개발자 커뮤니티는 지금 난리다.
 
@@ -45,7 +64,26 @@ LinkedIn에서 이 결과를 공유한 David Hyman의 글은 하루 만에 수�
 
 패턴이 선명하다. **자기 도메인의 문제를 가장 깊이 이해하는 사람이 이겼다.** 심장전문의가 의료 영상을 다루는 게 당연하고, 변호사가 법률 문서를 자동화하는 게 당연하다. 코드를 "잘 짜는 능력"은 더 이상 승패를 가르지 못했다.
 
-![도메인 전문가에서 AI를 거쳐 소프트웨어로 — 패러다임 전환 다이어그램](/static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-2-400.webp 400w,
+            /static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-2-800.webp 800w,
+            /static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-2-400.png 400w,
+            /static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-2-800.png 800w,
+            /static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-2.png" 
+    alt="도메인 전문가에서 AI를 거쳐 소프트웨어로 — 패러다임 전환 다이어그램" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 
 ### 유일한 개발자는 5위였다

@@ -25,7 +25,26 @@ image: dev-arti-intel-mach-learn/dev-arti-intel-mach-learn-1.webp
 
 **반면 증가할 확률이 높은 직업으로는 ‘컴퓨터 보안전문가’가 꼽혔습니다.** 이렇게 전망이 엇갈리는 상황에서 살아남기 위해서는 자신만의 경쟁력을 갖추는 것이 매우 중요합니다. 특히 4차 산업혁명시대인 만큼 창의성과 문제해결능력 등 고차원적인 사고역량을 갖춘 인재가 되어야 한다고 강조하는데요. 이를 위해 다양한 경험을 쌓고 역량을 개발해야 한다는 의견이 많습니다.
 
-![컴퓨터 보안전문가](/static/img/posts/dev-arti-intel-mach-learn/dev-arti-intel-mach-learn-1.webp){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/dev-arti-intel-mach-learn/dev-arti-intel-mach-learn-1-400.webp 400w,
+            /static/img/posts/dev-arti-intel-mach-learn/dev-arti-intel-mach-learn-1-800.webp 800w,
+            /static/img/posts/dev-arti-intel-mach-learn/dev-arti-intel-mach-learn-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/dev-arti-intel-mach-learn/dev-arti-intel-mach-learn-1-400.webp 400w,
+            /static/img/posts/dev-arti-intel-mach-learn/dev-arti-intel-mach-learn-1-800.webp 800w,
+            /static/img/posts/dev-arti-intel-mach-learn/dev-arti-intel-mach-learn-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/dev-arti-intel-mach-learn/dev-arti-intel-mach-learn-1.webp" 
+    alt="컴퓨터 보안전문가" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 
 
@@ -51,6 +70,25 @@ image: dev-arti-intel-mach-learn/dev-arti-intel-mach-learn-1.webp
 ## 융합적 사고란 무엇인가요?
 **융합적 사고란 서로 다른 두 가지 이상의 영역을 연결시켜 새로운 가치를 창출하는 사고방식을 말합니다.** 예를 들어 음악가와 과학자 간의 협업을 통해 소리를 시각화하거나, 예술가와 공학자 간의 협업을 통해 스마트폰 앱을 만드는 것처럼 말이죠. 이렇듯 모든 학문분야 사이의 경계가 허물어지고 있으며, 이로 인해 각 전공지식을 두루 갖춘 융합형 인재가 각광받고 있습니다. 따라서 학생들은 학교 교육과정 안에서 배운 내용을 토대로 인문학적 소양과 자연과학적 소양을 기르고, 나아가 타 교과목과의 연계활동을 통해 통합적 사고력을 키워야 합니다.
 
-![융합적 사고](/static/img/posts/dev-arti-intel-mach-learn/dev-arti-intel-mach-learn-2.webp){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/dev-arti-intel-mach-learn/dev-arti-intel-mach-learn-2-400.webp 400w,
+            /static/img/posts/dev-arti-intel-mach-learn/dev-arti-intel-mach-learn-2-800.webp 800w,
+            /static/img/posts/dev-arti-intel-mach-learn/dev-arti-intel-mach-learn-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/dev-arti-intel-mach-learn/dev-arti-intel-mach-learn-2-400.webp 400w,
+            /static/img/posts/dev-arti-intel-mach-learn/dev-arti-intel-mach-learn-2-800.webp 800w,
+            /static/img/posts/dev-arti-intel-mach-learn/dev-arti-intel-mach-learn-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/dev-arti-intel-mach-learn/dev-arti-intel-mach-learn-2.webp" 
+    alt="융합적 사고" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 4차 산업혁명시대라는 거대한 흐름 속에서 빠르게 변화하는 환경에 적응하려면 끊임없는 노력이 필요합니다. 그러기 위해서는 항상 열린 마음으로 주변을 살피고, 호기심을 가지고 탐구하려는 자세를 가져야 합니다. 아울러 나 혼자서는 부족하다는 인식을 갖고 타인과 협력함으로써 시너지 효과를 발휘한다면 급변하는 세계 속에서도 충분히 살아남을 수 있을 것입니다.

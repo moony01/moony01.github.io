@@ -4,12 +4,32 @@ title: "SEO 드디어 죽었다 - AI 에이전트가 대신 고르는 시대가 
 date: 2026-02-28 14:00:00 +0900
 categories: [ai]
 tags: [AAO, SEO, AI에이전트, 검색최적화, 웹개발]
+image: seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-1.png
 published: true
 ---
 
 솔직히 말하자. "SEO 죽었다"는 말, 지난 10년간 매년 나왔다. 그런데 이번엔 진짜 다르다. 사람이 검색 결과를 훑어보고 클릭하는 행위 자체가 사라지고 있기 때문이다.
 
-![SEO에서 AAO로의 진화](/static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-1-400.webp 400w,
+            /static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-1-800.webp 800w,
+            /static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-1-400.png 400w,
+            /static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-1-800.png 800w,
+            /static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-1.png" 
+    alt="SEO에서 AAO로의 진화" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 2026년 2월, Search Engine Land에서 Jason Barnard가 발표한 **AAO(Assistive Agent Optimization)** 개념이 개발자 커뮤니티를 뜨겁게 달구고 있다. GeekNews 프론트페이지에 올라가자마자 논쟁이 벌어졌고, 핵심은 이거다. **AI 에이전트가 사용자 대신 검색하고, 비교하고, 결정까지 내리는 세상에서 당신의 웹사이트는 "선택"받을 수 있는가?**
 
@@ -81,7 +101,26 @@ AI 에이전트는 title 태그를 스캔하지 않는다. 대신 **"이 브랜�
 }
 ```
 
-![AAO 알고리즘 트리니티](/static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-2-400.webp 400w,
+            /static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-2-800.webp 800w,
+            /static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-2-400.png 400w,
+            /static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-2-800.png 800w,
+            /static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-2.png" 
+    alt="AAO 알고리즘 트리니티" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ### 3. Push 기반으로 전환하라 - IndexNow와 MCP
 

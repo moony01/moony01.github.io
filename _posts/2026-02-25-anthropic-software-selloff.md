@@ -13,7 +13,26 @@ published: true
 
 내가 이 이슈를 흥미롭게 본 이유는 한 가지입니다. 개발자로 일할 때는 "좋은 도구가 하나 더 나왔다"로 끝날 수 있는 이벤트가, 자본시장에서는 "누가 마진을 잃고 누가 이익을 가져갈지"의 문제로 즉시 번역되기 때문입니다.
 
-![엔트로픽 발표 후 섹터 하락 흐름](/static/img/posts/anthropic-software-selloff/anthropic-software-selloff-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/anthropic-software-selloff/anthropic-software-selloff-1-400.webp 400w,
+            /static/img/posts/anthropic-software-selloff/anthropic-software-selloff-1-800.webp 800w,
+            /static/img/posts/anthropic-software-selloff/anthropic-software-selloff-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/anthropic-software-selloff/anthropic-software-selloff-1-400.png 400w,
+            /static/img/posts/anthropic-software-selloff/anthropic-software-selloff-1-800.png 800w,
+            /static/img/posts/anthropic-software-selloff/anthropic-software-selloff-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/anthropic-software-selloff/anthropic-software-selloff-1.png" 
+    alt="엔트로픽 발표 후 섹터 하락 흐름" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -47,7 +66,26 @@ Anthropic 발표 직후 시장 반응을 보면, 핵심은 "새 기능이 나왔
 
 Reuters는 2026년 빅테크 AI 투자 규모를 약 6500억 달러 수준으로 언급했습니다. 투자 규모가 커질수록 모델 사용 비용, 클라우드 비용, 인프라 조달 비용이 함께 움직이고, 이는 소프트웨어 기업의 자유현금흐름 가시성에 바로 영향을 줍니다.
 
-![AI 투자 충격의 밸류 체인 지도](/static/img/posts/anthropic-software-selloff/anthropic-software-selloff-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/anthropic-software-selloff/anthropic-software-selloff-2-400.webp 400w,
+            /static/img/posts/anthropic-software-selloff/anthropic-software-selloff-2-800.webp 800w,
+            /static/img/posts/anthropic-software-selloff/anthropic-software-selloff-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/anthropic-software-selloff/anthropic-software-selloff-2-400.png 400w,
+            /static/img/posts/anthropic-software-selloff/anthropic-software-selloff-2-800.png 800w,
+            /static/img/posts/anthropic-software-selloff/anthropic-software-selloff-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/anthropic-software-selloff/anthropic-software-selloff-2.png" 
+    alt="AI 투자 충격의 밸류 체인 지도" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 결국 시장이 본 것은 두 줄입니다. "매출 성장률은 유지될 수 있는가"와 "그 성장을 사기 위해 필요한 비용이 얼마나 늘어나는가". 엔트로픽 이슈는 그 질문을 더 날카롭게 만들었습니다.
 

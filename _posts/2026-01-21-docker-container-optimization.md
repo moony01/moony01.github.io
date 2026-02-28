@@ -9,7 +9,26 @@ image: docker-container-optimization/docker-container-optimization-1.webp
 
 컨테이너 하나가 500MB를 넘어가는 순간, 배포 파이프라인은 느려지고 클라우드 비용은 치솟습니다. 많은 개발팀이 "일단 돌아가니까"라는 이유로 비대한 컨테이너를 방치하지만, 이는 기술 부채로 쌓여 결국 운영 효율성을 떨어뜨립니다. 이 글에서는 Docker 컨테이너를 최적화하는 실무 전략을 단계별로 살펴봅니다.
 
-![Docker Container Optimization](/static/img/posts/docker-container-optimization/docker-container-optimization-1.webp){: .hero-img}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/docker-container-optimization/docker-container-optimization-1-400.webp 400w,
+            /static/img/posts/docker-container-optimization/docker-container-optimization-1-800.webp 800w,
+            /static/img/posts/docker-container-optimization/docker-container-optimization-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/docker-container-optimization/docker-container-optimization-1-400.webp 400w,
+            /static/img/posts/docker-container-optimization/docker-container-optimization-1-800.webp 800w,
+            /static/img/posts/docker-container-optimization/docker-container-optimization-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/docker-container-optimization/docker-container-optimization-1.webp" 
+    alt="Docker Container Optimization" 
+    class="hero"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 이미지 크기 최적화: Multi-stage Build
 

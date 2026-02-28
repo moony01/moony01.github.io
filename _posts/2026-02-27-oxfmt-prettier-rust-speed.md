@@ -11,7 +11,26 @@ published: true
 
 포매터는 늘 "느리면 불편한 도구" 정도로 취급됐는데, 이번에는 얘기가 조금 다릅니다. Oxfmt 베타가 공개되면서 "Prettier와 같은 결과를 유지하면서도 훨씬 빠르다"는 메시지가 정면으로 나왔고, 실제로 한국 개발자 커뮤니티에서도 바로 비교 글이 붙기 시작했습니다. 팀 개발에서 포매터는 저장 시점, pre-commit, CI까지 연쇄적으로 걸리기 때문에 체감 성능 차이가 곧 생산성 차이로 이어집니다.
 
-![Rust 기반 포매터가 JS CI 시간을 줄이는 흐름도](/static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-1-400.webp 400w,
+            /static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-1-800.webp 800w,
+            /static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-1-400.png 400w,
+            /static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-1-800.png 800w,
+            /static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-1.png" 
+    alt="Rust 기반 포매터가 JS CI 시간을 줄이는 흐름도" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -47,7 +66,26 @@ published: true
 - 문제 발생 시 Prettier로 즉시 복귀 가능한지
 - 포맷 전환 커밋을 분리해 blame 노이즈를 줄였는지
 
-![포매터 전환 시 검증 단계와 롤백 경로를 보여주는 다이어그램](/static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-2-400.webp 400w,
+            /static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-2-800.webp 800w,
+            /static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-2-400.png 400w,
+            /static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-2-800.png 800w,
+            /static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-2.png" 
+    alt="포매터 전환 시 검증 단계와 롤백 경로를 보여주는 다이어그램" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 

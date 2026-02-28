@@ -9,7 +9,26 @@ image: moltbot-security-issues-2026/moltbot-security-issues-2026-1.webp
 
 지난주에 트위터를 열었다가 타임라인이 온통 Moltbot 얘기로 도배된 걸 보고 "이게 뭐지?" 싶었습니다. GitHub 스타가 하루 만에 17,000개가 넘게 찍혔다고 하니, 뭔가 대단한 게 나왔구나 싶어서 저도 설치해볼까 했습니다. 근데 조금만 파보니까 좀 찜찜한 부분들이 보이더군요. 오늘은 그 얘기를 해보려고 합니다.
 
-![Moltbot 보안 이슈](/static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-1.webp){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-1-400.webp 400w,
+            /static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-1-800.webp 800w,
+            /static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-1-400.webp 400w,
+            /static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-1-800.webp 800w,
+            /static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-1.webp" 
+    alt="Moltbot 보안 이슈" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## Moltbot이 뭔데 이렇게 난리일까
 
@@ -31,7 +50,26 @@ Andrej Karpathy가 추천하고, David Sacks가 트윗하고, MacStories에서 "
 
 크립토 스캐머들이 그 10초 만에 clawdbot 계정을 낚아챘습니다. 그리고 바로 가짜 토큰 홍보를 시작했습니다. 수만 명의 팔로워가 있는 계정이었으니까요. 가짜 토큰은 잠깐 동안 시총이 수백만 달러까지 갔다가, Steinberger가 사기라고 경고한 뒤에 폭락했습니다.
 
-![계정 탈취 사건](/static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-2.webp){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-2-400.webp 400w,
+            /static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-2-800.webp 800w,
+            /static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-2-400.webp 400w,
+            /static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-2-800.webp 800w,
+            /static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-2.webp" 
+    alt="계정 탈취 사건" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 솔직히 이건 Moltbot 자체의 보안 문제는 아닙니다. 근데 이 사건이 보여주는 게 있습니다. 이렇게 핫한 프로젝트 주변에는 항상 노리는 눈들이 있다는 거죠.
 ## 진짜 문제는 따로 있습니다
@@ -83,7 +121,26 @@ Moltbot이 할 수 있는 모든 걸 다 켜놓을 필요 없습니다. 파일 �
 
 돈이 오가는 작업, 파일 삭제 같은 건 한 번 더 물어보게 설정하는 게 좋습니다.
 
-![보안 체크리스트](/static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-3.webp){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-3-400.webp 400w,
+            /static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-3-800.webp 800w,
+            /static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-3.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-3-400.webp 400w,
+            /static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-3-800.webp 800w,
+            /static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-3.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/moltbot-security-issues-2026/moltbot-security-issues-2026-3.webp" 
+    alt="보안 체크리스트" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 마치며
 

@@ -11,7 +11,26 @@ published: true
 
 2월 20일 장 마감 후, 사이버보안 섹터 트레이더들은 꽤 불편한 밤을 보냈을 거다. CrowdStrike -6.5%, Cloudflare -6%+, Zscaler -5.3%, Palo Alto Networks -4.8%. 하루 만에 섹터 전체에서 약 $10B(약 14조 원)이 증발했다. 원인은 단 하나, Anthropic이 **Claude Code Security**를 발표했다는 소식이었다.
 
-![Claude Code Security 출시 후 사이버보안 주식 하락 차트](/static/img/posts/claude-code-security-stock-crash/claude-code-security-stock-crash-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-code-security-stock-crash/claude-code-security-stock-crash-1-400.webp 400w,
+            /static/img/posts/claude-code-security-stock-crash/claude-code-security-stock-crash-1-800.webp 800w,
+            /static/img/posts/claude-code-security-stock-crash/claude-code-security-stock-crash-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-code-security-stock-crash/claude-code-security-stock-crash-1-400.png 400w,
+            /static/img/posts/claude-code-security-stock-crash/claude-code-security-stock-crash-1-800.png 800w,
+            /static/img/posts/claude-code-security-stock-crash/claude-code-security-stock-crash-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-code-security-stock-crash/claude-code-security-stock-crash-1.png" 
+    alt="Claude Code Security 출시 후 사이버보안 주식 하락 차트" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 보안 스타트업도 아니고, 방산 기업도 아닌 AI 회사 하나가 기존 사이버보안 대기업들의 시총을 하루 만에 14조 원 날려버렸다. 이게 과잉 반응인지, 아니면 시장이 뭔가를 먼저 읽은 건지, 직접 파봤다.
 

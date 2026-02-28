@@ -15,7 +15,26 @@ published: true
 
 한 줄로 요약하면 이렇습니다: **웹사이트가 AI 에이전트에게 "여기서 뭘 할 수 있는지" 직접 알려주는 표준**. 스크린샷 찍고, DOM 파싱하고, CSS 셀렉터 깨지면 멘붕하는 그 시대가 끝납니다.
 
-![WebMCP 개념도 — 웹사이트가 AI 에이전트에게 구조화된 도구를 직접 노출하는 구조](/static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-1-400.webp 400w,
+            /static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-1-800.webp 800w,
+            /static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-1-400.png 400w,
+            /static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-1-800.png 800w,
+            /static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-1.png" 
+    alt="WebMCP 개념도 — 웹사이트가 AI 에이전트에게 구조화된 도구를 직접 노출하는 구조" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 ## 지금 스크래핑이 얼마나 비효율적인지 아시나요
 
 AI 에이전트가 웹사이트에서 작업을 수행하려면 현재 이런 과정을 거칩니다:
@@ -108,7 +127,26 @@ navigator.webMCP.registerTool({
 
 핵심은 이겁니다 — **사이트 소유자가 직접 정의한 도구**이기 때문에, DOM이 바뀌어도 깨지지 않습니다. API 계약이 유지되는 한 에이전트는 안정적으로 동작합니다. REST API가 프론트엔드 UI 변경에 영향받지 않는 것과 같은 원리죠.
 
-![WebMCP 아키텍처 다이어그램 — 브라우저 내 AI 에이전트와 웹사이트 간 구조화된 통신](/static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-2-400.webp 400w,
+            /static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-2-800.webp 800w,
+            /static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-2-400.png 400w,
+            /static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-2-800.png 800w,
+            /static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-2.png" 
+    alt="WebMCP 아키텍처 다이어그램 — 브라우저 내 AI 에이전트와 웹사이트 간 구조화된 통신" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 
 

@@ -10,7 +10,26 @@ published: true
 
 AI 챗봇에게 "매출 데이터 분석해줘"라고 물으면, 보통 마크다운 표나 텍스트 덩어리가 돌아옵니다. 운이 좋으면 코드 블록에 차트 라이브러리 코드가 딸려올 수도 있죠. 그런데 만약 채팅창 안에서 **인터랙티브 대시보드**가 바로 렌더링되고, 필터를 클릭하고, 드릴다운까지 가능하다면 어떨까요?
 
-![MCP Apps 대표 이미지](/static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-1-400.webp 400w,
+            /static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-1-800.webp 800w,
+            /static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-1-400.png 400w,
+            /static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-1-800.png 800w,
+            /static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-1.png" 
+    alt="MCP Apps 대표 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 1월 26일, MCP(Model Context Protocol)의 첫 번째 공식 확장인 **MCP Apps**가 발표되었습니다. 도구가 텍스트 대신 **대화형 UI 컴포넌트**를 반환할 수 있게 된 겁니다. 대시보드, 폼, 시각화, 멀티스텝 워크플로우까지. 이 블로그에서 [MCP 기본 개념](/2026/01/25/mcp-model-context-protocol-guide/)을 다룬 적 있는데, MCP Apps는 그 위에 올라가는 UI 레이어라고 보면 됩니다.
 
@@ -113,7 +132,26 @@ chart.onClick = async (item) => {
 
 이 구조 덕분에 "사용자가 UI에서 뭘 했는지"를 AI가 인지하고, 다음 대화에서 그 맥락을 반영할 수 있습니다.
 
-![MCP Apps 아키텍처 다이어그램](/static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-2-400.webp 400w,
+            /static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-2-800.webp 800w,
+            /static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-2-400.png 400w,
+            /static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-2-800.png 800w,
+            /static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-2.png" 
+    alt="MCP Apps 아키텍처 다이어그램" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 
 

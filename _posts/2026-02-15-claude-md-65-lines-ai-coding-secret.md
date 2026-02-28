@@ -14,7 +14,26 @@ GitHub에서 하루 만에 400개의 스타가 찍힌 파일이 있다. 수천 �
 
 "65줄 텍스트 하나로 뭐가 달라지겠어?" 나도 처음엔 그렇게 생각했다. 그런데 직접 넣어보고 나서 생각이 바뀌었다.
 
-![65줄 CLAUDE.md 파일이 AI 코딩을 혁신하다](/static/img/posts/claude-md-65-lines-ai-coding-secret/claude-md-65-lines-ai-coding-secret-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-md-65-lines-ai-coding-secret/claude-md-65-lines-ai-coding-secret-1-400.webp 400w,
+            /static/img/posts/claude-md-65-lines-ai-coding-secret/claude-md-65-lines-ai-coding-secret-1-800.webp 800w,
+            /static/img/posts/claude-md-65-lines-ai-coding-secret/claude-md-65-lines-ai-coding-secret-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-md-65-lines-ai-coding-secret/claude-md-65-lines-ai-coding-secret-1-400.png 400w,
+            /static/img/posts/claude-md-65-lines-ai-coding-secret/claude-md-65-lines-ai-coding-secret-1-800.png 800w,
+            /static/img/posts/claude-md-65-lines-ai-coding-secret/claude-md-65-lines-ai-coding-secret-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-md-65-lines-ai-coding-secret/claude-md-65-lines-ai-coding-secret-1.png" 
+    alt="65줄 CLAUDE.md 파일이 AI 코딩을 혁신하다" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 이 글에서는 이 파일이 왜 바이럴을 탔는지, 4가지 핵심 원칙이 실제로 무엇을 바꾸는지, 그리고 카파시가 경고한 "슬로파칼립스"와 어떤 관계가 있는지 낱낱이 파헤친다.
 ## 카파시가 선언했다 — "바이브 코딩은 끝났다"
@@ -154,7 +173,26 @@ MIT Technology Review는 **생성형 코딩(Generative Coding)**을 2026년 10�
 
 65줄 CLAUDE.md는 이 재앙에 대한 **개인 수준의 방어선**이다. AI에게 "생각하라, 단순하게 하라, 범위를 지켜라, 목표에 집중하라"고 매 세션 주입하는 것. 거창한 해결책이 아니라 지극히 실용적인 대응이다.
 
-![AI 코딩 슬로파칼립스와 CLAUDE.md 방어 전략](/static/img/posts/claude-md-65-lines-ai-coding-secret/claude-md-65-lines-ai-coding-secret-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-md-65-lines-ai-coding-secret/claude-md-65-lines-ai-coding-secret-2-400.webp 400w,
+            /static/img/posts/claude-md-65-lines-ai-coding-secret/claude-md-65-lines-ai-coding-secret-2-800.webp 800w,
+            /static/img/posts/claude-md-65-lines-ai-coding-secret/claude-md-65-lines-ai-coding-secret-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-md-65-lines-ai-coding-secret/claude-md-65-lines-ai-coding-secret-2-400.png 400w,
+            /static/img/posts/claude-md-65-lines-ai-coding-secret/claude-md-65-lines-ai-coding-secret-2-800.png 800w,
+            /static/img/posts/claude-md-65-lines-ai-coding-secret/claude-md-65-lines-ai-coding-secret-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-md-65-lines-ai-coding-secret/claude-md-65-lines-ai-coding-secret-2.png" 
+    alt="AI 코딩 슬로파칼립스와 CLAUDE.md 방어 전략" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 
 

@@ -13,7 +13,26 @@ redirect_from:
 
 처음 이 말을 들었을 때 농담인 줄 알았습니다. 그런데 테슬라 AI 디렉터 출신 Andrej Karpathy가 진지하게 이 용어를 꺼냈을 때, 개발자 커뮤니티가 술렁였습니다. Vibe Coding. 직역하면 '분위기 코딩'인데, 이게 대체 뭘까요?
 
-![Vibe Coding 대표 이미지](/static/img/posts/vibe-coding-guide/vibe-coding-guide-1.webp){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/vibe-coding-guide/vibe-coding-guide-1-400.webp 400w,
+            /static/img/posts/vibe-coding-guide/vibe-coding-guide-1-800.webp 800w,
+            /static/img/posts/vibe-coding-guide/vibe-coding-guide-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/vibe-coding-guide/vibe-coding-guide-1-400.webp 400w,
+            /static/img/posts/vibe-coding-guide/vibe-coding-guide-1-800.webp 800w,
+            /static/img/posts/vibe-coding-guide/vibe-coding-guide-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/vibe-coding-guide/vibe-coding-guide-1.webp" 
+    alt="Vibe Coding 대표 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## Vibe Coding, 정확히 뭔가요?
 
@@ -37,7 +56,26 @@ Vibe Coding을 제대로 하려면 AI 코딩 도구가 필수입니다. 현재 �
 
 **GitHub Copilot**은 가장 대중화된 도구입니다. VS Code, JetBrains 등 대부분의 IDE에서 사용 가능하고, 코드 자동완성에 특화되어 있습니다. Vibe Coding보다는 전통적인 코딩을 보조하는 느낌이 강하지만, Copilot Chat을 활용하면 비슷한 경험을 할 수 있습니다.
 
-![AI 코딩 도구 비교](/static/img/posts/vibe-coding-guide/vibe-coding-guide-2.webp){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/vibe-coding-guide/vibe-coding-guide-2-400.webp 400w,
+            /static/img/posts/vibe-coding-guide/vibe-coding-guide-2-800.webp 800w,
+            /static/img/posts/vibe-coding-guide/vibe-coding-guide-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/vibe-coding-guide/vibe-coding-guide-2-400.webp 400w,
+            /static/img/posts/vibe-coding-guide/vibe-coding-guide-2-800.webp 800w,
+            /static/img/posts/vibe-coding-guide/vibe-coding-guide-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/vibe-coding-guide/vibe-coding-guide-2.webp" 
+    alt="AI 코딩 도구 비교" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 실전 Vibe Coding: 10분 만에 Todo 앱 만들기
 
@@ -80,7 +118,26 @@ npm run dev
 
 그래서 저는 Vibe Coding을 "프로토타이핑"과 "반복 작업"에만 사용합니다. 빠르게 아이디어를 검증할 때, 보일러플레이트 코드를 생성할 때는 최고입니다. 하지만 핵심 비즈니스 로직은 여전히 직접 작성하고, 모든 코드를 이해하려고 노력합니다.
 
-![Vibe Coding 주의사항](/static/img/posts/vibe-coding-guide/vibe-coding-guide-3.webp){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/vibe-coding-guide/vibe-coding-guide-3-400.webp 400w,
+            /static/img/posts/vibe-coding-guide/vibe-coding-guide-3-800.webp 800w,
+            /static/img/posts/vibe-coding-guide/vibe-coding-guide-3.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/vibe-coding-guide/vibe-coding-guide-3-400.webp 400w,
+            /static/img/posts/vibe-coding-guide/vibe-coding-guide-3-800.webp 800w,
+            /static/img/posts/vibe-coding-guide/vibe-coding-guide-3.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/vibe-coding-guide/vibe-coding-guide-3.webp" 
+    alt="Vibe Coding 주의사항" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 마치며: 개발자의 역할은 변하고 있다
 

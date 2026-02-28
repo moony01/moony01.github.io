@@ -14,7 +14,26 @@ published: true
 
 읽어보고 솔직히 충격받았다. 내가 Claude Code의 기능 중 **10%도 제대로 안 쓰고 있었다**는 걸 깨달았기 때문이다.
 
-![Claude Code 해커톤 우승자의 70가지 비밀](/static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-1-400.webp 400w,
+            /static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-1-800.webp 800w,
+            /static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-1-400.png 400w,
+            /static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-1-800.png 800w,
+            /static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-1.png" 
+    alt="Claude Code 해커톤 우승자의 70가지 비밀" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 오늘은 이 70가지 팁 중에서 **현업 개발자가 당장 적용할 수 있는 핵심만** 추려서 공유한다. 전부 직접 테스트해본 것들이다.
 
@@ -88,7 +107,26 @@ Level 6: Hooks (이벤트 기반 자동화)
 Level 7: Agents (전문 서브에이전트 위임)
 ```
 
-![Claude Code 자동화 7단계 레벨링 시스템](/static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-2-400.webp 400w,
+            /static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-2-800.webp 800w,
+            /static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-2-400.png 400w,
+            /static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-2-800.png 800w,
+            /static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-2.png" 
+    alt="Claude Code 자동화 7단계 레벨링 시스템" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 솔직히 대부분의 개발자는 Level 0~1에 머물러 있다. ChatGPT 웹에서 코드 복붙하거나, 기껏해야 터미널에서 직접 실행하는 정도. 우승자는 **Level 7**에서 작업했다. 기획 에이전트, 아키텍처 에이전트, TDD 에이전트, 보안 검토 에이전트까지 13개의 전문 서브에이전트를 운영하면서 개발했다.
 

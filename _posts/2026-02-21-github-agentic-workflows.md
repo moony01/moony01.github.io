@@ -11,7 +11,26 @@ published: true
 
 2월 16일 오후, GitHub Next 팀의 블로그에 조용히 하나가 올라왔다. "Agentic Workflows — Technical Preview." 제목만 보면 평범한 기능 업데이트 같았다. 그런데 The Register, InfoQ, InfoWorld, TechCrunch가 같은 주에 동시에 다뤘다. 뭔가 심상치 않다 싶어서 직접 파봤다.
 
-![GitHub Agentic Workflows 아키텍처 — AI 에이전트가 GitHub Actions 파이프라인 안에서 동작하는 구조](/static/img/posts/github-agentic-workflows/github-agentic-workflows-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/github-agentic-workflows/github-agentic-workflows-1-400.webp 400w,
+            /static/img/posts/github-agentic-workflows/github-agentic-workflows-1-800.webp 800w,
+            /static/img/posts/github-agentic-workflows/github-agentic-workflows-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/github-agentic-workflows/github-agentic-workflows-1-400.png 400w,
+            /static/img/posts/github-agentic-workflows/github-agentic-workflows-1-800.png 800w,
+            /static/img/posts/github-agentic-workflows/github-agentic-workflows-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/github-agentic-workflows/github-agentic-workflows-1.png" 
+    alt="GitHub Agentic Workflows 아키텍처 — AI 에이전트가 GitHub Actions 파이프라인 안에서 동작하는 구조" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 결론부터 말하면, 이건 단순한 CI/CD 플러그인이 아니다. **코딩 에이전트가 GitHub Actions 러너 안에서 살면서, 레포를 스스로 관리하는 구조**다.
 
@@ -86,7 +105,26 @@ GitHub Next와 Microsoft Research가 공동으로 설계한 보안 모델의 핵
 
 Eddie Aftandilian(GitHub 수석 연구원)의 표현을 빌리면: **"Continuous AI — 기존 CI/CD의 에이전트 진화"**라고 부른다.
 
-![GitHub Agentic Workflows 보안 아키텍처 — 샌드박스 컨테이너와 Secure Output 검증 레이어](/static/img/posts/github-agentic-workflows/github-agentic-workflows-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/github-agentic-workflows/github-agentic-workflows-2-400.webp 400w,
+            /static/img/posts/github-agentic-workflows/github-agentic-workflows-2-800.webp 800w,
+            /static/img/posts/github-agentic-workflows/github-agentic-workflows-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/github-agentic-workflows/github-agentic-workflows-2-400.png 400w,
+            /static/img/posts/github-agentic-workflows/github-agentic-workflows-2-800.png 800w,
+            /static/img/posts/github-agentic-workflows/github-agentic-workflows-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/github-agentic-workflows/github-agentic-workflows-2.png" 
+    alt="GitHub Agentic Workflows 보안 아키텍처 — 샌드박스 컨테이너와 Secure Output 검증 레이어" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 실전에서 쓸 수 있나
 

@@ -15,7 +15,26 @@ published: true
 
 그런데 이건 실화입니다. Anthropic 연구원 Nicholas Carlini가 Claude Opus 4.6을 사용해서 실제로 해냈고, Ars Technica, The Register, Anthropic 공식 블로그까지 앞다퉈 보도했습니다. 2,000번의 Claude Code 세션, **$20,000(약 2,900만 원)**의 API 비용, 그리고 2주라는 시간. 결과물은 **10만 줄의 Rust 코드**로 작성된, 리눅스 6.9를 x86·ARM·RISC-V에서 빌드할 수 있는 완전한 C 컴파일러였습니다.
 
-![16개의 Claude AI 에이전트가 협력해 C 컴파일러를 만드는 모습](/static/img/posts/claude-16-agents-c-compiler-shock/claude-16-agents-c-compiler-shock-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-16-agents-c-compiler-shock/claude-16-agents-c-compiler-shock-1-400.webp 400w,
+            /static/img/posts/claude-16-agents-c-compiler-shock/claude-16-agents-c-compiler-shock-1-800.webp 800w,
+            /static/img/posts/claude-16-agents-c-compiler-shock/claude-16-agents-c-compiler-shock-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-16-agents-c-compiler-shock/claude-16-agents-c-compiler-shock-1-400.png 400w,
+            /static/img/posts/claude-16-agents-c-compiler-shock/claude-16-agents-c-compiler-shock-1-800.png 800w,
+            /static/img/posts/claude-16-agents-c-compiler-shock/claude-16-agents-c-compiler-shock-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-16-agents-c-compiler-shock/claude-16-agents-c-compiler-shock-1.png" 
+    alt="16개의 Claude AI 에이전트가 협력해 C 컴파일러를 만드는 모습" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 개발자로서 이 소식을 듣고 느낀 감정은 복잡했습니다. "대단하다"와 "무섭다" 사이 어딘가. 오늘은 이 프로젝트가 어떻게 가능했는지, 그리고 이것이 우리 개발자에게 의미하는 바를 깊이 파헤쳐 보겠습니다.
 ## 어떻게 가능했나 — 16마리의 역할 분담
@@ -52,7 +71,26 @@ Nicholas Carlini의 접근법은 단순하지만 기발했습니다. 하나의 A
 - GCC와의 호환성 테스트 통과
 - 10만 줄의 **Rust** 코드 (C가 아닌 Rust로 작성된 것도 주목)
 
-![컴파일러 아키텍처와 멀티 에이전트 워크플로우](/static/img/posts/claude-16-agents-c-compiler-shock/claude-16-agents-c-compiler-shock-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-16-agents-c-compiler-shock/claude-16-agents-c-compiler-shock-2-400.webp 400w,
+            /static/img/posts/claude-16-agents-c-compiler-shock/claude-16-agents-c-compiler-shock-2-800.webp 800w,
+            /static/img/posts/claude-16-agents-c-compiler-shock/claude-16-agents-c-compiler-shock-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-16-agents-c-compiler-shock/claude-16-agents-c-compiler-shock-2-400.png 400w,
+            /static/img/posts/claude-16-agents-c-compiler-shock/claude-16-agents-c-compiler-shock-2-800.png 800w,
+            /static/img/posts/claude-16-agents-c-compiler-shock/claude-16-agents-c-compiler-shock-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-16-agents-c-compiler-shock/claude-16-agents-c-compiler-shock-2.png" 
+    alt="컴파일러 아키텍처와 멀티 에이전트 워크플로우" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 The Register에 따르면 총 API 비용은 약 $20,000이었습니다. 한국 돈으로 약 2,900만 원. 시니어 컴파일러 엔지니어를 2주간 고용하는 비용보다 훨씬 저렴하고, 그 엔지니어 혼자서는 2주에 10만 줄을 작성하는 건 물리적으로 불가능합니다.
 

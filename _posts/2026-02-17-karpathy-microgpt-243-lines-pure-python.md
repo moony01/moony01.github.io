@@ -16,7 +16,26 @@ published: true
 
 PyTorch 없다. TensorFlow 없다. NumPy조차 없다. 순수 파이썬 243줄로 GPT를 학습시키고 텍스트를 생성한다. 이 말을 처음 들었을 때 솔직히 "장난하나?" 싶었다. 근데 진짜였다.
 
-![microgpt 히어로 이미지](/static/img/posts/karpathy-microgpt-243-lines-pure-python/karpathy-microgpt-243-lines-pure-python-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/karpathy-microgpt-243-lines-pure-python/karpathy-microgpt-243-lines-pure-python-1-400.webp 400w,
+            /static/img/posts/karpathy-microgpt-243-lines-pure-python/karpathy-microgpt-243-lines-pure-python-1-800.webp 800w,
+            /static/img/posts/karpathy-microgpt-243-lines-pure-python/karpathy-microgpt-243-lines-pure-python-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/karpathy-microgpt-243-lines-pure-python/karpathy-microgpt-243-lines-pure-python-1-400.png 400w,
+            /static/img/posts/karpathy-microgpt-243-lines-pure-python/karpathy-microgpt-243-lines-pure-python-1-800.png 800w,
+            /static/img/posts/karpathy-microgpt-243-lines-pure-python/karpathy-microgpt-243-lines-pure-python-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/karpathy-microgpt-243-lines-pure-python/karpathy-microgpt-243-lines-pure-python-1.png" 
+    alt="microgpt 히어로 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -85,7 +104,26 @@ def gpt(token_id, pos_id, keys, values):
 
 4,192개 파라미터. 1개 레이어, 16차원 임베딩, 4개 어텐션 헤드. ChatGPT의 1,750억 파라미터와 비교하면 미세먼지 같은 크기지만, **알고리즘은 완전히 동일하다.**
 
-![microgpt 아키텍처 다이어그램](/static/img/posts/karpathy-microgpt-243-lines-pure-python/karpathy-microgpt-243-lines-pure-python-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/karpathy-microgpt-243-lines-pure-python/karpathy-microgpt-243-lines-pure-python-2-400.webp 400w,
+            /static/img/posts/karpathy-microgpt-243-lines-pure-python/karpathy-microgpt-243-lines-pure-python-2-800.webp 800w,
+            /static/img/posts/karpathy-microgpt-243-lines-pure-python/karpathy-microgpt-243-lines-pure-python-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/karpathy-microgpt-243-lines-pure-python/karpathy-microgpt-243-lines-pure-python-2-400.png 400w,
+            /static/img/posts/karpathy-microgpt-243-lines-pure-python/karpathy-microgpt-243-lines-pure-python-2-800.png 800w,
+            /static/img/posts/karpathy-microgpt-243-lines-pure-python/karpathy-microgpt-243-lines-pure-python-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/karpathy-microgpt-243-lines-pure-python/karpathy-microgpt-243-lines-pure-python-2.png" 
+    alt="microgpt 아키텍처 다이어그램" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 

@@ -14,7 +14,26 @@ published: true
 
 16개 주요 벤치마크 중 **13개에서 1위**. Claude Opus 4.6도, GPT-5.2도 동시에 눌렸다. 이게 실화냐고? 숫자로 보여주겠다.
 
-![Gemini 3.1 Pro 벤치마크](/static/img/posts/gemini-31-pro-benchmark-shock/gemini-31-pro-benchmark-shock-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/gemini-31-pro-benchmark-shock/gemini-31-pro-benchmark-shock-1-400.webp 400w,
+            /static/img/posts/gemini-31-pro-benchmark-shock/gemini-31-pro-benchmark-shock-1-800.webp 800w,
+            /static/img/posts/gemini-31-pro-benchmark-shock/gemini-31-pro-benchmark-shock-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/gemini-31-pro-benchmark-shock/gemini-31-pro-benchmark-shock-1-400.png 400w,
+            /static/img/posts/gemini-31-pro-benchmark-shock/gemini-31-pro-benchmark-shock-1-800.png 800w,
+            /static/img/posts/gemini-31-pro-benchmark-shock/gemini-31-pro-benchmark-shock-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/gemini-31-pro-benchmark-shock/gemini-31-pro-benchmark-shock-1.png" 
+    alt="Gemini 3.1 Pro 벤치마크" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -87,7 +106,26 @@ SWE-Bench Verified에서 **80.6%**는 특히 개발자들이 주목할 만하다
 
 API 모델 ID는 `gemini-3.1-pro-preview`와 `gemini-3.1-pro-preview-customtools` 두 가지가 있다. 후자는 도구 호출 성능이 더 최적화된 버전이라고 한다.
 
-![Gemini 3.1 Pro 가성비](/static/img/posts/gemini-31-pro-benchmark-shock/gemini-31-pro-benchmark-shock-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/gemini-31-pro-benchmark-shock/gemini-31-pro-benchmark-shock-2-400.webp 400w,
+            /static/img/posts/gemini-31-pro-benchmark-shock/gemini-31-pro-benchmark-shock-2-800.webp 800w,
+            /static/img/posts/gemini-31-pro-benchmark-shock/gemini-31-pro-benchmark-shock-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/gemini-31-pro-benchmark-shock/gemini-31-pro-benchmark-shock-2-400.png 400w,
+            /static/img/posts/gemini-31-pro-benchmark-shock/gemini-31-pro-benchmark-shock-2-800.png 800w,
+            /static/img/posts/gemini-31-pro-benchmark-shock/gemini-31-pro-benchmark-shock-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/gemini-31-pro-benchmark-shock/gemini-31-pro-benchmark-shock-2.png" 
+    alt="Gemini 3.1 Pro 가성비" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## SVG 애니메이션 생성 — 은근 킬러 피쳐
 

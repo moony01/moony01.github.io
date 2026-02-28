@@ -18,7 +18,26 @@ image: web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-0.jpg
 {% include pre-version.html %}
 
 ## Jekyll은 무엇일까?
-![Yukihiro Matsumoto의 사진](/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-0.jpg)
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-0-400.webp 400w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-0-800.webp 800w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-0.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/jpeg"
+    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-0-400.jpg 400w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-0-800.jpg 800w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-0.jpg 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-0.jpg" 
+    alt="Yukihiro Matsumoto의 사진" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 Jekyll은 간단하고 빠르며 안전한 웹사이트를 구축할 수 있는 인기 있는 `정적 사이트 생성기`입니다. 쉽게 말해 우리가 정적 사이트를 개발할 때 사이트의 규모가 조금이라도 커지면 공통으로 들어가는 요소들 중 하나인 header 부분을 하나하나 전부 페이지에 코드를 입력해야 되는데 **Jekyll은 이 복잡해진 디렉토리 구조를 쉽게 개발할 수 있게 디렉토리 구조와 환경을 제공하고 빌드하여 Jekyll의 디렉토리 구조를 참고하여 정적 사이트 페이지를 하나하나 생성해준다고 생각하면 됩니다.**
 
@@ -27,12 +46,50 @@ GitHub의 공동 창립자인 Tom Preston-Werner가 만들었으며 웹 개발 �
 Jekyll은 GitHub에서 지원하기 때문에 프로젝트 버전 관리 시스템은 Git으로 관리하는 게 유리합니다. Jekyll의 역할은 정적 사이트 생성기이기 때문에 우선 저장소에 프로젝트를 생성해야겠죠? 우선 Jekyll을 설치하기 전에 GitHub에서 프로젝트를 생성하고 무료로 웹 호스팅하는 방법까지 설명되어 있는 링크를 남기겠습니다. [(Github로 무료 웹호스팅해서 사이트 무한으로 만들고 쉽게 관리하기)](https://mbtichat.info/2023/07/01/create-web-hosting-repo-free-github.html){:target="_blank"}
 
 ### 첫번째
-![Yukihiro Matsumoto의 사진](/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-1.jpg)
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-1-400.webp 400w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-1-800.webp 800w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/jpeg"
+    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-1-400.jpg 400w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-1-800.jpg 800w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-1.jpg 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-1.jpg" 
+    alt="Yukihiro Matsumoto의 사진" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 위 링크를 보고 우리의 GitHub 저장소를 생성하고 나의 로컬에 저장소를 Clone 후 개발 환경 세팅을 완료하고 코드 편집기(Visual Studio Code)를 실행시킨 후 Ctrl+Alt+T를 눌러 TERMINAL을 활성화해줍니다. 우리는 TERMINAL을 통해 Jekyll과 Bundler를 설치할 것입니다.
 
 ### 두번째
-![Jekyll과 Bundler 설치 후 Jekyll 기본 테마 설치](/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-2.jpg)
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-2-400.webp 400w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-2-800.webp 800w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/jpeg"
+    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-2-400.jpg 400w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-2-800.jpg 800w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-2.jpg 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-2.jpg" 
+    alt="Jekyll과 Bundler 설치 후 Jekyll 기본 테마 설치" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 이제 [Jekyll 홈페이지](https://jekyllrb-ko.github.io/){:target="_blank"}에 접속하면 메인 페이지에 바로 `빠른 시작 방법`이 나와있습니다. 위 명령어를 우리의 TERMINAL에 입력하면 사실상 끝입니다. 입력하기 전에 명령어들을 간단하게 알아볼까요?
 
@@ -60,27 +117,141 @@ my-awesome-site로 경로를 이동합니다.
 그룹화된 bundle을 설치하고 jekyll 서버를 실행합니다.
 
 ### 세번째
-![gem install bundler jekyll](/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-3.jpg)
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-3-400.webp 400w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-3-800.webp 800w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-3.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/jpeg"
+    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-3-400.jpg 400w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-3-800.jpg 800w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-3.jpg 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-3.jpg" 
+    alt="gem install bundler jekyll" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 명령 프롬프트에서 `gem install bundler jekyll`을 입력하여 bundler와 jekyll을 설치합니다.
 
 ### 네번째
-![jekyll new my-awesome-site](/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-4.jpg)
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-4-400.webp 400w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-4-800.webp 800w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-4.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/jpeg"
+    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-4-400.jpg 400w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-4-800.jpg 800w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-4.jpg 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-4.jpg" 
+    alt="jekyll new my-awesome-site" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 다음은 프로젝트 안에 새로운 jekyll 프로젝트를 생성해줍니다.
 ### 다섯번째
-![jekyll 프로젝트 파일 상위폴더로 이동](/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-5.jpg)
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-5-400.webp 400w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-5-800.webp 800w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-5.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/jpeg"
+    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-5-400.jpg 400w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-5-800.jpg 800w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-5.jpg 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-5.jpg" 
+    alt="jekyll 프로젝트 파일 상위폴더로 이동" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
-![jekyll 프로젝트 파일 상위폴더로 이동 알림창](/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-6.jpg)
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-6-400.webp 400w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-6-800.webp 800w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-6.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/jpeg"
+    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-6-400.jpg 400w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-6-800.jpg 800w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-6.jpg 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-6.jpg" 
+    alt="jekyll 프로젝트 파일 상위폴더로 이동 알림창" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 jekyll에서 제공한 빠른 시작 방법과 다르게 우리는 이미 디렉토리를 만든 상태이기 때문에 우리가 생성한 jekyll 프로젝트(my-awesome-site)의 파일들을 마우스 드래그를 이용하여 전부 상위 폴더(MOONY1201.GITHUB.IO)로 이동시켜주겠습니다.
 
-![jekyll 프로젝트 파일 상위폴더로 이동 완료상태](/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-7.jpg)
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-7-400.webp 400w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-7-800.webp 800w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-7.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/jpeg"
+    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-7-400.jpg 400w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-7-800.jpg 800w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-7.jpg 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-7.jpg" 
+    alt="jekyll 프로젝트 파일 상위폴더로 이동 완료상태" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 이제 우리는 `index.markdown` 파일을 메인 페이지로 사용할 거기 때문에 위에 표시된 `index.html` 파일은 삭제해줍니다.
 
 ### 여섯번째
-![bundle exec jekyll serve](/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-8.jpg)
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-8-400.webp 400w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-8-800.webp 800w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-8.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/jpeg"
+    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-8-400.jpg 400w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-8-800.jpg 800w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-8.jpg 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-8.jpg" 
+    alt="bundle exec jekyll serve" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 이제 `bundle exec jekyll serve` 명령어를 입력하여 우리가 설치한 jekyll 기본 테마 그대로의 프로젝트를 가지고 서버를 실행시킨 후 명령 프롬프트 하단에 `http://127.0.0.1:4000/`에 마우스 커서를 올린 후 Ctrl + 마우스 클릭을 해서 브라우저 창을 띄워줍니다.
 
@@ -94,7 +265,26 @@ More info and automated migrator: https://sass-lang.com/d/slash-div
 
 위 경고 문구는 bundle에서 관리하고 Ruby에서 제공하는 패키지인 Dart Sass에서 제공하는 기능인 `/` 연산자를 `calc()` 함수 밖에서 사용하여 나눗셈을 수행하는 것이 잘못되었으며, 추후 버전에서는 지원되지 않을 것이라고 알려주고 있습니다. 지금 당장은 문제가 없지만 `Dart Sass` 패키지를 설치하여 Sass 기능을 사용하고 있다면 나중을 위해 코드를 수정하던지 다른 Sass 패키지를 사용할 것을 권장합니다. 하지만 지금 당장은 문제가 없으니 일단 넘어가겠습니다.
 ### 마지막
-![기본 Jekyll 테마 적용 확인](/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-9.jpg)
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-9-400.webp 400w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-9-800.webp 800w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-9.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/jpeg"
+    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-9-400.jpg 400w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-9-800.jpg 800w,
+            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-9.jpg 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-9.jpg" 
+    alt="기본 Jekyll 테마 적용 확인" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 서버를 실행시킨 후 명령 프롬프트 하단에 `http://127.0.0.1:4000/` URL을 클릭하여 브라우저 창을 띄워 확인해본 결과 정상적으로 jekyll 기본 테마가 설치되고 잘 빌드된 것을 확인할 수 있습니다.
 

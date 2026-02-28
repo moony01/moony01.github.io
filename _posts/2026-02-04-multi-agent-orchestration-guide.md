@@ -10,7 +10,26 @@ published: true
 
 AI 에이전트 하나가 똑똑한 건 이미 증명됐습니다. Claude가 코드를 짜고, GPT가 문서를 요약하고, Gemini가 데이터를 분석하는 건 놀랍지 않은 세상이 됐죠. 그런데 실무에서 부딪히는 문제는 좀 다릅니다. "코드 짜고, 테스트 돌리고, 보안 점검하고, 문서 업데이트하고, 배포까지" 같은 작업을 하나의 에이전트에게 시키면? 컨텍스트가 길어지면서 정확도가 떨어지고, 한 단계에서 실수하면 전체가 무너집니다.
 
-![멀티 에이전트 오케스트레이션 대표 이미지](/static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-1-400.webp 400w,
+            /static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-1-800.webp 800w,
+            /static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-1-400.png 400w,
+            /static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-1-800.png 800w,
+            /static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-1.png" 
+    alt="멀티 에이전트 오케스트레이션 대표 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 그래서 2026년 AI 개발의 핵심 키워드가 **멀티 에이전트 오케스트레이션**이 된 겁니다. 여러 에이전트를 팀으로 구성하고, 각자 전문 영역을 담당하게 하며, 이들의 작업을 조율하는 시스템. Google이 8가지 멀티에이전트 디자인 패턴을 공식 가이드로 발표했고, Microsoft Azure는 오케스트레이션 아키텍처 패턴을 레퍼런스로 제공하고 있습니다. 이건 실험실 단계를 넘어서 프로덕션 영역으로 들어온 기술입니다.
 
@@ -127,7 +146,26 @@ crew = Crew(
 )
 ```
 
-![멀티에이전트 오케스트레이션 아키텍처 패턴](/static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-2-400.webp 400w,
+            /static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-2-800.webp 800w,
+            /static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-2-400.png 400w,
+            /static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-2-800.png 800w,
+            /static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-2.png" 
+    alt="멀티에이전트 오케스트레이션 아키텍처 패턴" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 
 

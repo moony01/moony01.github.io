@@ -16,7 +16,26 @@ Google이 그 상상을 현실로 만들었다. **Stitch MCP 서버** — IDE �
 
 직접 연동해봤다. 결론부터 말하면, 프론트엔드 개발 워크플로우가 근본적으로 뒤집힐 수 있겠다는 생각이 들었다.
 
-![Google Stitch MCP 히어로 이미지](/static/img/posts/google-stitch-mcp-ai-ui-design-shock/google-stitch-mcp-ai-ui-design-shock-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/google-stitch-mcp-ai-ui-design-shock/google-stitch-mcp-ai-ui-design-shock-1-400.webp 400w,
+            /static/img/posts/google-stitch-mcp-ai-ui-design-shock/google-stitch-mcp-ai-ui-design-shock-1-800.webp 800w,
+            /static/img/posts/google-stitch-mcp-ai-ui-design-shock/google-stitch-mcp-ai-ui-design-shock-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/google-stitch-mcp-ai-ui-design-shock/google-stitch-mcp-ai-ui-design-shock-1-400.png 400w,
+            /static/img/posts/google-stitch-mcp-ai-ui-design-shock/google-stitch-mcp-ai-ui-design-shock-1-800.png 800w,
+            /static/img/posts/google-stitch-mcp-ai-ui-design-shock/google-stitch-mcp-ai-ui-design-shock-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/google-stitch-mcp-ai-ui-design-shock/google-stitch-mcp-ai-ui-design-shock-1.png" 
+    alt="Google Stitch MCP 히어로 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -112,7 +131,26 @@ npx @_davideast/stitch-mcp site -p <project-id>
 
 `serve` 명령어를 치면 Vite 개발 서버가 뜨면서 Stitch 프로젝트의 모든 화면을 로컬에서 미리볼 수 있다. `site` 명령어를 쓰면 화면들을 라우트에 매핑해서 배포 가능한 Astro 프로젝트를 뚝딱 만들어낸다.
 
-![Stitch MCP 워크플로우 다이어그램](/static/img/posts/google-stitch-mcp-ai-ui-design-shock/google-stitch-mcp-ai-ui-design-shock-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/google-stitch-mcp-ai-ui-design-shock/google-stitch-mcp-ai-ui-design-shock-2-400.webp 400w,
+            /static/img/posts/google-stitch-mcp-ai-ui-design-shock/google-stitch-mcp-ai-ui-design-shock-2-800.webp 800w,
+            /static/img/posts/google-stitch-mcp-ai-ui-design-shock/google-stitch-mcp-ai-ui-design-shock-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/google-stitch-mcp-ai-ui-design-shock/google-stitch-mcp-ai-ui-design-shock-2-400.png 400w,
+            /static/img/posts/google-stitch-mcp-ai-ui-design-shock/google-stitch-mcp-ai-ui-design-shock-2-800.png 800w,
+            /static/img/posts/google-stitch-mcp-ai-ui-design-shock/google-stitch-mcp-ai-ui-design-shock-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/google-stitch-mcp-ai-ui-design-shock/google-stitch-mcp-ai-ui-design-shock-2.png" 
+    alt="Stitch MCP 워크플로우 다이어그램" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 기존 도구 비교 — Figma AI, v0와 뭐가 다른가
 

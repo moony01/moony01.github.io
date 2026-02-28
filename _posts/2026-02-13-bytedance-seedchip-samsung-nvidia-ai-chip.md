@@ -15,7 +15,26 @@ TikTok 모회사 바이트댄스가 자체 AI 칩을 만들고 있고, 그 제�
 
 칩의 코드명은 **SeedChip**. 3월 말까지 엔지니어링 샘플을 받고, 2026년 내 최소 10만 개, 최대 35만 개를 생산하겠다는 로드맵까지 구체적으로 잡혀 있습니다. 이건 구상 단계가 아닙니다. 이미 돌아가고 있는 프로젝트입니다.
 
-![바이트댄스 SeedChip과 삼성 파운드리 협업을 상징하는 이미지](/static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-1-400.webp 400w,
+            /static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-1-800.webp 800w,
+            /static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-1-400.png 400w,
+            /static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-1-800.png 800w,
+            /static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-1.png" 
+    alt="바이트댄스 SeedChip과 삼성 파운드리 협업을 상징하는 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 왜 이게 개발자에게 중요한지, 엔비디아 독점 구도에 어떤 균열이 생기는지, 그리고 삼성이 이 판에서 무엇을 노리는지 하나씩 뜯어보겠습니다.
 ## SeedChip — 바이트댄스가 직접 만드는 AI 추론 칩의 정체
@@ -70,7 +89,26 @@ AI 칩은 크게 두 종류로 나뉩니다. 모델을 훈련시키는 학습용
 
 더 중요한 건 **시그널**입니다. 중국 최대 테크 기업이 자체 칩으로 돌아서면, 다른 중국 기업들도 따라갈 가능성이 높습니다. 알리바바, 텐센트, 바이두 모두 이미 자체 칩 개발을 진행 중입니다. 엔비디아 입장에서는 중국이라는 거대 시장이 통째로 빠져나가는 시나리오가 현실화되고 있는 겁니다.
 
-![AI 칩 시장 경쟁 구도 변화를 보여주는 다이어그램](/static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-2-400.webp 400w,
+            /static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-2-800.webp 800w,
+            /static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-2-400.png 400w,
+            /static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-2-800.png 800w,
+            /static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-2.png" 
+    alt="AI 칩 시장 경쟁 구도 변화를 보여주는 다이어그램" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 
 

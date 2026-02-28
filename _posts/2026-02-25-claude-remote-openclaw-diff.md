@@ -13,7 +13,26 @@ OpenClaw를 써본 사람이라면 Claude Code Remote Control 소식을 듣자�
 
 그런데 실제로 문서를 읽고 워크플로를 대입해보면, 기술의 본질은 비슷해도 운영 단위는 꽤 다르다. 이번 글은 "누가 더 좋다"보다 "우리 팀에서 어떤 상황에 무엇을 쓰는 게 맞는가"를 기준으로 정리한다.
 
-![클로드 원격제어 비교 흐름도](/static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-1-400.webp 400w,
+            /static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-1-800.webp 800w,
+            /static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-1-400.png 400w,
+            /static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-1-800.png 800w,
+            /static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-1.png" 
+    alt="클로드 원격제어 비교 흐름도" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -39,7 +58,26 @@ Anthropic 공식 문서 기준으로 Remote Control은 Pro/Max 플랜의 리서�
 
 Remote Control 문서에서 강조하는 포인트는 "로컬 실행 유지"와 "인바운드 포트 미개방"이다. 즉, 로컬 환경을 유지하면서 아웃바운드 HTTPS 기반으로 연결한다는 운영 모델을 명확히 제시한다. 반대로 오픈소스 계열은 조합 가능한 방식이 많아서, 보안 수준은 결국 운영자가 어떻게 구성하느냐에 더 크게 좌우된다.
 
-![OpenClaw 대비 운영 차이표](/static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-2-400.webp 400w,
+            /static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-2-800.webp 800w,
+            /static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-2-400.png 400w,
+            /static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-2-800.png 800w,
+            /static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-2.png" 
+    alt="OpenClaw 대비 운영 차이표" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 | 구분 | Claude Code Remote Control | OpenClaw 계열 |
 |------|----------------------------|---------------|

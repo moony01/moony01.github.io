@@ -12,7 +12,26 @@ S&P 500 소프트웨어 지수에서 **1조 달러(약 1,450조 원)**가 증발
 
 "AI가 기존 소프트웨어를 대체한다"는 말은 수년간 들어왔지만, 이번에는 분위기가 완전히 다릅니다. 2월 5일 OpenAI가 발표한 **Frontier**는 기업용 AI 에이전트 플랫폼입니다. 그런데 이 플랫폼이 하겠다는 것이 — Salesforce, Workday, ServiceNow 같은 기존 SaaS를 AI 에이전트로 **통째로 대체**하겠다는 겁니다. Fortune지는 "could it eventually replace them?"이라는 헤드라인을 달았고, 월스트리트는 그 질문에 **매도**로 답했습니다.
 
-![OpenAI Frontier 플랫폼 히어로 이미지](/static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-1-400.webp 400w,
+            /static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-1-800.webp 800w,
+            /static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-1-400.png 400w,
+            /static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-1-800.png 800w,
+            /static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-1.png" 
+    alt="OpenAI Frontier 플랫폼 히어로 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 지금까지 AI 뉴스를 "또 마케팅이겠지"하고 넘겼다면, 이번만큼은 진지하게 읽어주세요. 저도 처음에는 반신반의했는데, 파고들수록 이건 진짜 게임 체인저였습니다.
 ## Frontier가 대체 뭔데 — 30초 요약
@@ -53,7 +72,26 @@ Salesforce를 7년 쓴 기업이 다른 CRM으로 이전하는 건 악몽 같은
 
 그 결과가 숫자로 나타났습니다. Salesforce 주가는 일주일 사이 12% 이상 하락했고, ServiceNow, Workday 같은 전통 SaaS 기업들이 줄줄이 빠졌습니다. 반면 AI 인프라 기업들은 폭등 — Nvidia는 하루 만에 7.8% 올랐습니다.
 
-![OpenAI Frontier 아키텍처 다이어그램](/static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-2-400.webp 400w,
+            /static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-2-800.webp 800w,
+            /static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-2-400.png 400w,
+            /static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-2-800.png 800w,
+            /static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-2.png" 
+    alt="OpenAI Frontier 아키텍처 다이어그램" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 ## 개발자에게 이게 왜 중요한가
 
 "나는 엔터프라이즈 SaaS 안 만드니까 상관없는 거 아닌가?"
