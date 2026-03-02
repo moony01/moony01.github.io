@@ -22,8 +22,8 @@
 
 ## 프로젝트 경로
 
-- **블로그 루트**: `C:/project/moony01.github.io`
-- **이미지 리소스 (Gemini 다운로드)**: `C:/project/.resource/`
+- **블로그 루트**: `C:/Users/mun01/workspace/moony01.github.io`
+- **이미지 리소스 (Gemini 다운로드)**: `C:/Users/mun01/workspace/.resource/`
 
 ---
 
@@ -95,7 +95,7 @@
 
 **카테고리 옵션**: `ai`, `javascript`, `database`, `infra`, `iot`, `security`, `economy`, `others`
 
-> 카테고리는 `C:/project/moony01.github.io/category/` 디렉토리에 해당 파일이 존재해야 합니다.
+> 카테고리는 `C:/Users/mun01/workspace/moony01.github.io/category/` 디렉토리에 해당 파일이 존재해야 합니다.
 
 **→ 사용자 답변 대기** (번호 선택 또는 직접 입력)
 
@@ -198,12 +198,12 @@
 ### 4-1. 이미지 디렉토리 생성
 
 ```bash
-mkdir -p C:/project/moony01.github.io/static/img/posts/{slug}
+mkdir -p C:/Users/mun01/workspace/moony01.github.io/static/img/posts/{slug}
 ```
 
 ### 4-2. 마크다운 파일 생성
 
-**경로**: `C:/project/moony01.github.io/_posts/{YYYY-MM-DD}-{slug}.md`
+**경로**: `C:/Users/mun01/workspace/moony01.github.io/_posts/{YYYY-MM-DD}-{slug}.md`
 
 ```markdown
 ---
@@ -212,6 +212,7 @@ title: "{제목}"
 date: {YYYY-MM-DD HH:MM:SS +0900}
 categories: [{카테고리}]
 tags: [{태그1}, {태그2}]
+image: {slug}/{slug}-1.png
 published: false
 ---
 
@@ -273,9 +274,9 @@ browser_navigate → https://gemini.google.com
 3. **다운로드**: "원본 크기 이미지 다운로드" 버튼 클릭
 4. **대기**: `browser_wait_for` time: 10 (다운로드 완료 대기)
 5. **Events 확인**: 다운로드 이벤트에서 파일명 확인
-6. **파일 복사**: 다운로드된 파일을 `C:/project/.resource/` 로 복사
+6. **파일 복사**: 다운로드된 파일을 `C:/Users/mun01/workspace/.resource/` 로 복사
    ```bash
-   cp ".playwright-mcp/Gemini_Generated_Image_xxxxx.png" "C:/project/.resource/{slug}-N.png"
+   cp ".playwright-mcp/Gemini_Generated_Image_xxxxx.png" "C:/Users/mun01/workspace/.resource/{slug}-N.png"
    ```
 
 ### 5-3. 이미지 프롬프트 템플릿
@@ -292,14 +293,37 @@ Generate a technical diagram style image (16:9, 1200x675px). Scene: [주제의 �
 
 ### 5-4. 이미지 파일 이동 (리소스 → 프로젝트)
 
-`C:/project/.resource/` 에서 블로그 프로젝트로 이미지 복사:
+`C:/Users/mun01/workspace/.resource/` 에서 블로그 프로젝트로 이미지 복사:
 
 ```bash
-cp "C:/project/.resource/{slug}-1.png" "C:/project/moony01.github.io/static/img/posts/{slug}/{slug}-1.png"
-cp "C:/project/.resource/{slug}-2.png" "C:/project/moony01.github.io/static/img/posts/{slug}/{slug}-2.png"
+cp "C:/Users/mun01/workspace/.resource/{slug}-1.png" "C:/Users/mun01/workspace/moony01.github.io/static/img/posts/{slug}/{slug}-1.png"
+cp "C:/Users/mun01/workspace/.resource/{slug}-2.png" "C:/Users/mun01/workspace/moony01.github.io/static/img/posts/{slug}/{slug}-2.png"
 ```
 
-### 5-5. 활성화
+### 5-5. WebP 변환 (필수)
+
+**포스트 상세 페이지는 WebP + 리사이즈본을 사용한다. PNG만 있으면 히어로 이미지가 표시되지 않는다.**
+
+PNG 복사 후 반드시 WebP 변환 실행:
+
+```bash
+FFMPEG="C:/Users/mun01/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.0.1-full_build/bin/ffmpeg.exe"
+IMG_DIR="C:/Users/mun01/workspace/moony01.github.io/static/img/posts/{slug}"
+
+for n in 1 2; do
+  SRC="$IMG_DIR/{slug}-$n.png"
+  BASE="$IMG_DIR/{slug}-$n"
+  "$FFMPEG" -y -i "$SRC" -vf "scale=1200:-1" "${BASE}.webp"
+  "$FFMPEG" -y -i "$SRC" -vf "scale=800:-1"  "${BASE}-800.webp"
+  "$FFMPEG" -y -i "$SRC" -vf "scale=400:-1"  "${BASE}-400.webp"
+done
+```
+
+변환 완료 후 각 이미지 디렉토리에 총 8개 파일이 있어야 한다:
+- `{slug}-1.png`, `{slug}-1.webp`, `{slug}-1-800.webp`, `{slug}-1-400.webp`
+- `{slug}-2.png`, `{slug}-2.webp`, `{slug}-2-800.webp`, `{slug}-2-400.webp`
+
+### 5-6. 활성화
 
 이미지 복사 완료 후:
 - `published: false` → `published: true` 변경
@@ -309,7 +333,7 @@ cp "C:/project/.resource/{slug}-2.png" "C:/project/moony01.github.io/static/img/
 ## Step 6: Git 커밋 & 푸시
 
 ```bash
-cd C:/project/moony01.github.io
+cd C:/Users/mun01/workspace/moony01.github.io
 git add _posts/{YYYY-MM-DD}-{slug}.md static/img/posts/{slug}/
 git commit -m "$(cat <<'EOF'
 feat: 새 블로그 포스트 추가 - {제목}
@@ -398,6 +422,7 @@ browser_navigate → https://search.google.com/search-console
 - [ ] 본문 1,500자 이상, 섹션 4개+
 - [ ] 이미지 2개 생성 (Gemini)
 - [ ] .resource → 프로젝트 이미지 복사
+- [ ] WebP 변환 (ffmpeg, 원본+800+400 각 2장 = 6개)
 - [ ] published: true 변경
 - [ ] Git 커밋 & 푸시
 - [ ] 브라우저 테스트 (이미지 렌더링 확인)
