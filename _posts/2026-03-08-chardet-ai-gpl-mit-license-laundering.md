@@ -50,6 +50,8 @@ Simon Willison은 이 사건에 대해 [이렇게 정리했다](https://simonwil
 
 {% include pre-version.html %}
 
+![Clean Room vs AI Rewrite 비교](/static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-2.png){: .wd100}
+
 ## 업계 반응 — "오픈소스의 사회적 계약이 무너지고 있다"
 
 이 사건에 대한 반응은 빠르고 강렬했다.
