@@ -88,6 +88,8 @@ claude --allowedTools "Edit,Bash" # 권한 제한
 
 Claude Code의 성장은 이 두 패러다임 중 어느 쪽이 이기고 있는지를 보여준다.
 
+![AI 코딩 패러다임 전환](/static/img/posts/claude-code-63-percent-dominance-2026/claude-code-63-percent-dominance-2026-2.png){: .wd100}
+
 ## 앞으로 어떻게 될까
 
 Claude Code가 63%까지 올라왔다고 해서 게임이 끝난 건 아니다. GitHub Copilot은 여전히 강력하고, Microsoft라는 배경이 있다. Cursor는 IDE 통합에서 독특한 포지션을 가지고 있다.
