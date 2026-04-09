@@ -1,0 +1,14 @@
+{
+  "workflow": "blog-post-autopilot",
+  "slug": "claude-managed-agents-launch",
+  "lastPassedStep": "Image",
+  "currentStep": "LocalRender",
+  "stepResults": {
+    "Research": "PASS",
+    "Content": "PASS",
+    "Image": "PASS",
+    "LocalRender": "PENDING",
+    "Deploy": "PENDING",
+    "GSC": "PENDING"
+  }
+}
