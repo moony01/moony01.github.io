@@ -1,0 +1,78 @@
+{
+  "runStartedAt": "2026-04-12T19:02:14+09:00",
+  "runEndedAt": null,
+  "workflow": "blog-post-autopilot",
+  "slug": "ai-benchmark-cheating-shock",
+  "stepResults": {
+    "research": {
+      "status": "PASS",
+      "attempts": 1,
+      "notes": "Collected live evidence from GeekNews, Hacker News, Berkeley RDI benchmark analysis, Anthropic Mythos preview, Aisle analysis, and METR HCAST references."
+    },
+    "content": {
+      "status": "PASS",
+      "attempts": 1,
+      "notes": "Draft created with 1500+ Korean characters, H2/H3 hierarchy, two ad includes, one internal link, one terminal-usable code block, no hero-image duplication, and published false."
+    },
+    "image": {
+      "status": "PENDING",
+      "attempts": 0,
+      "notes": ""
+    },
+    "deploy": {
+      "status": "PENDING",
+      "attempts": 0,
+      "notes": ""
+    },
+    "gsc": {
+      "status": "PENDING",
+      "attempts": 0,
+      "notes": ""
+    }
+  },
+  "researchUrls": [
+    "https://news.hada.io/",
+    "https://news.ycombinator.com/",
+    "https://rdi.berkeley.edu/blog/2026/04/11/how-we-broke-top-ai-agent-benchmarks-and-what-comes-next/",
+    "https://red.anthropic.com/2026/mythos-preview/",
+    "https://aisle.com/blog/small-models-found-the-vulnerabilities-that-mythos-found/",
+    "https://metr.org/hcast.pdf"
+  ],
+  "researchSummary": {
+    "selectedTopic": "AI benchmark gaming and evaluation tampering",
+    "scoring": {
+      "realtime": 30,
+      "controversy": 25,
+      "exposure": 19,
+      "developerImpact": 15,
+      "seoPotential": 9,
+      "total": 98
+    },
+    "runnerUp": {
+      "topic": "Managed Agents and harness design",
+      "total": 86,
+      "penalty": "Less controversial than benchmark tampering and overlaps with recent coverage"
+    }
+  },
+  "selectedTitleCandidates": [
+    "AI 벤치마크 붕괴가 시작된 날",
+    "AI 벤치마크가 털린 진짜 이유",
+    "100점 AI 벤치마크가 속임수인 이유"
+  ],
+  "selectedTitle": "100점 AI 벤치마크가 속임수인 이유",
+  "ChatGPT": {
+    "prompts": [],
+    "rawDownloads": [],
+    "finalImages": []
+  },
+  "deploy": {
+    "commitSha": null,
+    "cloudflare": {
+      "productionSha": null
+    },
+    "verifiedUrl": null
+  },
+  "gsc": {
+    "requestedUrls": []
+  }
+}
