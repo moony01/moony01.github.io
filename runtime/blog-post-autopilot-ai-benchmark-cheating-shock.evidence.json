@@ -1,6 +1,6 @@
 {
   "runStartedAt": "2026-04-12T19:02:14+09:00",
-  "runEndedAt": null,
+  "runEndedAt": "2026-04-12T19:18:51+09:00",
   "workflow": "blog-post-autopilot",
   "slug": "ai-benchmark-cheating-shock",
   "stepResults": {
@@ -15,19 +15,24 @@
       "notes": "Draft created with 1500+ Korean characters, H2/H3 hierarchy, two ad includes, one internal link, one terminal-usable code block, no hero-image duplication, and published false."
     },
     "image": {
-      "status": "PENDING",
-      "attempts": 0,
-      "notes": ""
+      "status": "PASS",
+      "attempts": 2,
+      "notes": "Generated two fresh ChatGPT images in a logged-in session via Playwright. The browser saved raw downloads under .playwright-mcp, then the same raw files were copied into Downloads, .resource, and static image paths with matching hashes."
+    },
+    "localRender": {
+      "status": "BLOCKED",
+      "attempts": 2,
+      "notes": "Attempted local Jekyll build, but the environment lacks ruby, gem, and bundle, and apt installation was blocked by permission errors. Live deployed page and image URLs were verified instead."
     },
     "deploy": {
-      "status": "PENDING",
-      "attempts": 0,
-      "notes": ""
+      "status": "PASS",
+      "attempts": 4,
+      "notes": "Committed and pushed 2fdb31e to main. GitHub Actions run 24304261660 completed successfully, the deployed page title matched, and both live image URLs returned HTTP 200."
     },
     "gsc": {
-      "status": "PENDING",
-      "attempts": 0,
-      "notes": ""
+      "status": "PASS",
+      "attempts": 1,
+      "notes": "Opened Search Console property sc-domain:moony01.com, inspected the final URL, clicked 색인 생성 요청, and observed the 색인 생성 요청됨 confirmation dialog."
     }
   },
   "researchUrls": [
@@ -61,18 +66,60 @@
   ],
   "selectedTitle": "100점 AI 벤치마크가 속임수인 이유",
   "ChatGPT": {
-    "prompts": [],
-    "rawDownloads": [],
-    "finalImages": []
+    "prompts": [
+      "Generate a modern tech blog hero image with 16:9 aspect ratio, 1200x675px. Scene: an AI agent dashboard showing benchmark scoreboards cracking apart while a secure evaluation harness and isolated test containers remain bright and intact in the background. Colors: bright and vibrant palette with white or light gray background and vivid electric blue, coral, and vivid green accents. Style: modern tech illustration, clean and professional, high contrast, visually energetic, suitable for a tech blog header. No text, no watermarks.",
+      "Generate a technical illustration with 16:9 aspect ratio, 1200x675px. Scene: a developer evaluation lab with isolated containers, benchmark harnesses, prompt injection warnings, and a scoreboard being tampered with by hidden hooks, shown in a bright visual diagram. Colors: light or white background with bright saturated electric blue, vivid green, coral, and soft violet accents. Avoid dark backgrounds entirely. Style: clean flat design, modern tech illustration, high brightness, professional. No text labels, no watermarks."
+    ],
+    "rawDownloads": [
+      {
+        "path": "/home/mhhan/Downloads/ChatGPT_Generated_Image_ai-benchmark-cheating-shock_1.png",
+        "downloadedAt": "2026-04-12T19:11:25+09:00",
+        "size": 2342298,
+        "sha256": "7e203448e06ee96bcd814f46482bb58239e1856ce068e0c54924527e7031e43e",
+        "sourcePath": ".playwright-mcp/ChatGPT-Image-2026년-4월-12일-오후-07-09-18.png"
+      },
+      {
+        "path": "/home/mhhan/Downloads/ChatGPT_Generated_Image_ai-benchmark-cheating-shock_2.png",
+        "downloadedAt": "2026-04-12T19:11:25+09:00",
+        "size": 2217952,
+        "sha256": "3feac49d0cb9014d34a971f4fc0c4f7e3b9a329a0f439f2d4cfc59ad0bc89b71",
+        "sourcePath": ".playwright-mcp/ChatGPT-Image-2026년-4월-12일-오후-07-10-55.png"
+      }
+    ],
+    "finalImages": [
+      {
+        "path": "/home/mhhan/workspace/.resource/ai-benchmark-cheating-shock-1.png",
+        "copiedAt": "2026-04-12T19:11:25+09:00",
+        "sha256": "7e203448e06ee96bcd814f46482bb58239e1856ce068e0c54924527e7031e43e"
+      },
+      {
+        "path": "/home/mhhan/workspace/.resource/ai-benchmark-cheating-shock-2.png",
+        "copiedAt": "2026-04-12T19:11:25+09:00",
+        "sha256": "3feac49d0cb9014d34a971f4fc0c4f7e3b9a329a0f439f2d4cfc59ad0bc89b71"
+      },
+      {
+        "path": "/home/mhhan/workspace/moony01.github.io/static/img/posts/ai-benchmark-cheating-shock/ai-benchmark-cheating-shock-1.png",
+        "copiedAt": "2026-04-12T19:11:25+09:00",
+        "sha256": "7e203448e06ee96bcd814f46482bb58239e1856ce068e0c54924527e7031e43e"
+      },
+      {
+        "path": "/home/mhhan/workspace/moony01.github.io/static/img/posts/ai-benchmark-cheating-shock/ai-benchmark-cheating-shock-2.png",
+        "copiedAt": "2026-04-12T19:11:25+09:00",
+        "sha256": "3feac49d0cb9014d34a971f4fc0c4f7e3b9a329a0f439f2d4cfc59ad0bc89b71"
+      }
+    ]
   },
   "deploy": {
-    "commitSha": null,
+    "commitSha": "2fdb31ec5fc3096777d2244ab180a0286a411b82",
     "cloudflare": {
-      "productionSha": null
+      "productionSha": "2fdb31ec5fc3096777d2244ab180a0286a411b82"
     },
-    "verifiedUrl": null
+    "verifiedUrl": "https://moony01.com/security/2026/04/12/ai-benchmark-cheating-shock.html",
+    "workflowRunUrl": "https://github.com/moony01/moony01.github.io/actions/runs/24304261660"
   },
   "gsc": {
-    "requestedUrls": []
+    "requestedUrls": [
+      "https://moony01.com/security/2026/04/12/ai-benchmark-cheating-shock.html"
+    ]
   }
 }
