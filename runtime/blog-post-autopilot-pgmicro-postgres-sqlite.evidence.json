@@ -1,6 +1,6 @@
 {
   "runStartedAt": "2026-04-13T12:04:26+09:00",
-  "runEndedAt": null,
+  "runEndedAt": "2026-04-13T12:20:52+09:00",
   "workflow": "blog-post-autopilot",
   "slug": "pgmicro-postgres-sqlite",
   "stepResults": {
@@ -25,14 +25,14 @@
       "notes": "Attempted local render precheck, but ruby, bundle, and jekyll are not installed in the environment. Live deployed page and image URLs will be verified after push."
     },
     "deploy": {
-      "status": "PENDING",
-      "attempts": 0,
-      "notes": ""
+      "status": "PASS",
+      "attempts": 2,
+      "notes": "Committed and pushed 412d964 to main. GitHub Actions run 24323883078 completed successfully, the deployed page title matched, and live HTML plus PNG/WebP image URLs all returned HTTP 200."
     },
     "gsc": {
-      "status": "PENDING",
-      "attempts": 0,
-      "notes": ""
+      "status": "PASS",
+      "attempts": 1,
+      "notes": "Opened Search Console property sc-domain:moony01.com, inspected the live URL, ran the live URL test, clicked indexing request, and observed the 색인 생성 요청됨 confirmation."
     }
   },
   "researchUrls": [
@@ -111,14 +111,16 @@
     ]
   },
   "deploy": {
-    "commitSha": null,
+    "commitSha": "412d964f8179dffd6ebc397e4e3a2e21db7f4172",
     "cloudflare": {
-      "productionSha": null
+      "productionSha": "412d964f8179dffd6ebc397e4e3a2e21db7f4172"
     },
-    "verifiedUrl": null,
-    "workflowRunUrl": null
+    "verifiedUrl": "https://moony01.com/database/2026/04/13/pgmicro-postgres-sqlite.html",
+    "workflowRunUrl": "https://github.com/moony01/moony01.github.io/actions/runs/24323883078"
   },
   "gsc": {
-    "requestedUrls": []
+    "requestedUrls": [
+      "https://moony01.com/database/2026/04/13/pgmicro-postgres-sqlite.html"
+    ]
   }
 }
