@@ -1,0 +1,124 @@
+{
+  "runStartedAt": "2026-04-13T12:04:26+09:00",
+  "runEndedAt": null,
+  "workflow": "blog-post-autopilot",
+  "slug": "pgmicro-postgres-sqlite",
+  "stepResults": {
+    "research": {
+      "status": "PASS",
+      "attempts": 1,
+      "notes": "Collected live evidence from GeekNews, pgmicro GitHub README, Turso README, SQLite documentation, PostgreSQL documentation, and Hacker News front page for trend comparison."
+    },
+    "content": {
+      "status": "PASS",
+      "attempts": 1,
+      "notes": "Draft created with Korean body over 1500 characters, H2/H3 hierarchy, one internal link, two ad includes, one terminal-usable code block, no hero-image duplication, and published false."
+    },
+    "image": {
+      "status": "PASS",
+      "attempts": 2,
+      "notes": "Generated two fresh ChatGPT images in a logged-in Playwright session. The browser saved raw downloads under .playwright-mcp, then the raw files were copied into Downloads, .resource, and static image paths with recorded hashes."
+    },
+    "localRender": {
+      "status": "BLOCKED",
+      "attempts": 1,
+      "notes": "Attempted local render precheck, but ruby, bundle, and jekyll are not installed in the environment. Live deployed page and image URLs will be verified after push."
+    },
+    "deploy": {
+      "status": "PENDING",
+      "attempts": 0,
+      "notes": ""
+    },
+    "gsc": {
+      "status": "PENDING",
+      "attempts": 0,
+      "notes": ""
+    }
+  },
+  "researchUrls": [
+    "https://news.hada.io/",
+    "https://github.com/glommer/pgmicro",
+    "https://raw.githubusercontent.com/glommer/pgmicro/master/README.md",
+    "https://github.com/tursodatabase/turso",
+    "https://www.sqlite.org/whentouse.html",
+    "https://www.postgresql.org/docs/current/tutorial-start.html",
+    "https://news.ycombinator.com/"
+  ],
+  "researchSummary": {
+    "selectedTopic": "pgmicro in-process PostgreSQL built on SQLite",
+    "scoring": {
+      "realtime": 29,
+      "controversy": 18,
+      "exposure": 16,
+      "developerImpact": 15,
+      "seoPotential": 9,
+      "total": 87
+    },
+    "runnerUp": {
+      "topic": "Meta HyperAgents self-improving harnesses",
+      "total": 79,
+      "penalty": "Too close to recent AI agent coverage and category diversity rules"
+    }
+  },
+  "selectedTitleCandidates": [
+    "SQLite가 PostgreSQL을 삼킨 날",
+    "pgmicro가 서버형 DB 상식을 깨는 이유",
+    "AI 에이전트 시대에 DB가 작아지는 이유"
+  ],
+  "selectedTitle": "SQLite가 PostgreSQL을 삼킨 날",
+  "ChatGPT": {
+    "prompts": [
+      "Generate a modern tech blog hero image with 16:9 aspect ratio, 1200x675px. Scene: a bright developer workstation where a PostgreSQL elephant is being reimagined as a lightweight in process database engine inside a laptop, with SQLite file icons, AI agent task windows, and ephemeral sandbox databases around it. Colors: bright and vibrant palette with white or light gray background and vivid electric blue, coral, vivid green, and soft orange accents. Avoid dark or moody tones. Style: modern tech illustration, clean and professional, high contrast, visually energetic, suitable for a tech blog header. No text, no watermarks.",
+      "Generate a technical illustration with 16:9 aspect ratio, 1200x675px. Scene: a clean architectural diagram showing PostgreSQL SQL being parsed into SQLite bytecode inside an in process engine, with AI agent sandboxes, memory database nodes, and transient task databases around a bright laptop workspace. Colors: light or white background with bright saturated electric blue, vivid green, coral, and soft orange accents. Avoid dark backgrounds entirely. Style: clean flat design, modern tech illustration, high brightness, professional, suitable for a developer blog article body image. No text labels, no watermarks."
+    ],
+    "rawDownloads": [
+      {
+        "path": "/home/mhhan/Downloads/ChatGPT_Generated_Image_pgmicro-postgres-sqlite_1.png",
+        "downloadedAt": "2026-04-13T12:10:55+09:00",
+        "size": 2161419,
+        "sha256": "ba656408f53b5f111df7206f2762534d45bd8d4b9ce698a92adb8b73e2852182",
+        "sourcePath": ".playwright-mcp/ChatGPT-Image-2026년-4월-13일-오후-12-08-50.png"
+      },
+      {
+        "path": "/home/mhhan/Downloads/ChatGPT_Generated_Image_pgmicro-postgres-sqlite_2.png",
+        "downloadedAt": "2026-04-13T12:10:55+09:00",
+        "size": 454428,
+        "sha256": "0e48b91e03a7b9d5260f3b097fed60c094842346ade4a0448718c44bcaa2df47",
+        "sourcePath": ".playwright-mcp/ChatGPT-Image-2026년-4월-13일-오후-12-10-25.png"
+      }
+    ],
+    "finalImages": [
+      {
+        "path": "/home/mhhan/workspace/.resource/pgmicro-postgres-sqlite-1.png",
+        "copiedAt": "2026-04-13T12:10:55+09:00",
+        "sha256": "ba656408f53b5f111df7206f2762534d45bd8d4b9ce698a92adb8b73e2852182"
+      },
+      {
+        "path": "/home/mhhan/workspace/.resource/pgmicro-postgres-sqlite-2.png",
+        "copiedAt": "2026-04-13T12:10:55+09:00",
+        "sha256": "0e48b91e03a7b9d5260f3b097fed60c094842346ade4a0448718c44bcaa2df47"
+      },
+      {
+        "path": "/home/mhhan/workspace/moony01.github.io/static/img/posts/pgmicro-postgres-sqlite/pgmicro-postgres-sqlite-1.png",
+        "copiedAt": "2026-04-13T12:10:55+09:00",
+        "sha256": "ba656408f53b5f111df7206f2762534d45bd8d4b9ce698a92adb8b73e2852182"
+      },
+      {
+        "path": "/home/mhhan/workspace/moony01.github.io/static/img/posts/pgmicro-postgres-sqlite/pgmicro-postgres-sqlite-2.png",
+        "copiedAt": "2026-04-13T12:10:55+09:00",
+        "sha256": "0e48b91e03a7b9d5260f3b097fed60c094842346ade4a0448718c44bcaa2df47"
+      }
+    ]
+  },
+  "deploy": {
+    "commitSha": null,
+    "cloudflare": {
+      "productionSha": null
+    },
+    "verifiedUrl": null,
+    "workflowRunUrl": null
+  },
+  "gsc": {
+    "requestedUrls": []
+  }
+}
