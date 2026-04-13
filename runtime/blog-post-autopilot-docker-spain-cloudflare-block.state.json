@@ -1,0 +1,8 @@
+{
+  "workflow": "blog-post-autopilot",
+  "slug": "docker-spain-cloudflare-block",
+  "currentStep": "deploy",
+  "lastPassedStep": "localRender",
+  "updatedAt": "2026-04-13T19:27:10+09:00",
+  "postUrl": "https://moony01.com/infra/2026/04/13/docker-spain-cloudflare-block.html"
+}

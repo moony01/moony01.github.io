@@ -1,0 +1,156 @@
+{
+  "workflow": "blog-post-autopilot",
+  "runStartedAt": "2026-04-13T19:04:48+09:00",
+  "runEndedAt": null,
+  "slug": "docker-spain-cloudflare-block",
+  "title": "스페인 축구 차단이 Docker pull을 멈춘 날",
+  "topic": "스페인 LaLiga의 Cloudflare IP 차단이 Docker pull과 개발 파이프라인에 끼친 영향",
+  "category": "infra",
+  "postPath": "_posts/2026-04-13-docker-spain-cloudflare-block.md",
+  "postUrl": "https://moony01.com/infra/2026/04/13/docker-spain-cloudflare-block.html",
+  "researchQueries": [
+    "site:news.hada.io 2026 4 개발자 화제",
+    "hottest developer news this week 2026 April",
+    "most discussed tech topic today developers April 2026",
+    "viral programming trend April 2026",
+    "Docker Spain Cloudflare block April 2026",
+    "Reddit Spain Cloudflare Docker football block"
+  ],
+  "researchUrls": [
+    "https://news.ycombinator.com/item?id=47738883",
+    "https://www.laliga.com/noticias/nota-informativa-en-relacion-con-el-bloqueo-de-ips-durante-las-ultimas-jornadas-de-laliga-ea-sports-vinculadas-a-las-practicas-ilegales-de-cloudflare",
+    "https://apnews.com/article/ae520f11b6926476e79fbb9954463f05",
+    "https://www.techradar.com/vpn/vpn-privacy-security/la-ligas-war-on-piracy-is-breaking-the-internet-in-spain-and-your-vpn-could-be-the-next-target",
+    "https://www.techradar.com/vpn/vpn-privacy-security/cloudflare-wants-to-fix-spains-blocking-of-illegal-football-streams-ahead-of-next-laliga-season",
+    "https://www.reddit.com/r/CloudFlare/comments/1sd5sfb/vodafone_spain_is_blocking_cloudflare_ips_during/"
+  ],
+  "scoring": {
+    "selectedReason": "2026-04-13 기준 HN 906점 335댓글로 실시간 화제성이 가장 높고, LaLiga 공식 입장과 AP/TechRadar 보도로 공신력과 SEO 지속성이 모두 강하며, 최근 3개 카테고리와도 겹치지 않는다.",
+    "candidates": [
+      {
+        "topic": "스페인 축구 차단이 Docker pull까지 멈춘 사건",
+        "score": 92,
+        "category": "infra"
+      },
+      {
+        "topic": "Google Pixel Baseband Rust 도입",
+        "score": 76,
+        "category": "security"
+      },
+      {
+        "topic": "GitButler Series A와 AI 시대 Git 재설계",
+        "score": 68,
+        "category": "git"
+      }
+    ]
+  },
+  "titleCandidates": [
+    "스페인 축구 차단이 Docker pull을 멈춘 날",
+    "라리가 차단이 개발 파이프라인을 끊은 이유",
+    "Cloudflare 공유 IP가 도커를 잡아버린 이유"
+  ],
+  "stepResults": {
+    "research": {
+      "status": "PASS",
+      "attempts": 1,
+      "completedAt": "2026-04-13T19:04:48+09:00",
+      "lastError": null
+    },
+    "content": {
+      "status": "PASS",
+      "attempts": 1,
+      "completedAt": "2026-04-13T19:14:30+09:00",
+      "lastError": null
+    },
+    "image": {
+      "status": "PASS",
+      "attempts": 1,
+      "completedAt": "2026-04-13T19:20:30+09:00",
+      "lastError": null
+    },
+    "localRender": {
+      "status": "PASS",
+      "attempts": 1,
+      "completedAt": "2026-04-13T19:27:10+09:00",
+      "lastError": null
+    },
+    "deploy": {
+      "status": "PENDING",
+      "attempts": 0,
+      "completedAt": null,
+      "lastError": null
+    },
+    "gsc": {
+      "status": "PENDING",
+      "attempts": 0,
+      "completedAt": null,
+      "lastError": null
+    }
+  },
+  "ChatGPT": {
+    "prompts": {
+      "hero": "Generate a modern tech blog hero image (16:9 aspect ratio, 1200x675px). Scene: a bright software deployment control room where a Docker container pipeline is suddenly interrupted by a football broadcast block on a shared cloud network map over Spain. Colors: bright and vibrant palette with light background, vivid blue, coral, and electric cyan accents. Style: modern tech illustration, clean and professional, high contrast, visually energetic, suitable for a tech blog header. No text, no watermarks.",
+      "body": "Generate a technical illustration (16:9, 1200x675px). Scene: a clean diagram style visual showing Docker image layers, a Cloudflare style edge network, and a blocked route over Spain affecting CI runners during a football match. Colors: white background with bright saturated blue, green, and orange accents. Avoid dark backgrounds entirely. Style: clean flat design, modern tech illustration, high brightness, professional. No text labels, no watermarks."
+    },
+    "rawDownloads": [
+      {
+        "path": ".playwright-mcp/ChatGPT-Image-2026년-4월-13일-오후-07-17-53.png",
+        "copiedTo": "/home/mhhan/Downloads/ChatGPT_Generated_Image_docker-spain-cloudflare-block_1.png",
+        "sha256": "bb48a826626137a814e2da6bf5614a980f723a5f7296f24c493055511bc51bff",
+        "size": 2120768,
+        "modifiedAt": "2026-04-13T19:17:53+09:00"
+      },
+      {
+        "path": ".playwright-mcp/ChatGPT-Image-2026년-4월-13일-오후-07-19-43.png",
+        "copiedTo": "/home/mhhan/Downloads/ChatGPT_Generated_Image_docker-spain-cloudflare-block_2.png",
+        "sha256": "ade6100b768b619d75a614a871494d1c3e846134bc455a871c751a7f49a53eed",
+        "size": 1889885,
+        "modifiedAt": "2026-04-13T19:19:43+09:00"
+      }
+    ],
+    "finalImages": [
+      {
+        "path": "static/img/posts/docker-spain-cloudflare-block/docker-spain-cloudflare-block-1.png",
+        "sha256": "bb48a826626137a814e2da6bf5614a980f723a5f7296f24c493055511bc51bff",
+        "size": 2120768,
+        "modifiedAt": "2026-04-13T19:20:19+09:00"
+      },
+      {
+        "path": "static/img/posts/docker-spain-cloudflare-block/docker-spain-cloudflare-block-2.png",
+        "sha256": "ade6100b768b619d75a614a871494d1c3e846134bc455a871c751a7f49a53eed",
+        "size": 1889885,
+        "modifiedAt": "2026-04-13T19:20:19+09:00"
+      }
+    ]
+  },
+  "localRender": {
+    "buildCommand": "docker run --rm -v $PWD:/srv/jekyll -w /srv/jekyll ruby:3.2 bash -lc \"gem install bundler -N && bundle install && bundle exec jekyll build --future\"",
+    "server": "python3 -m http.server 4000 -d _site",
+    "pageStatus": 200,
+    "imageStatuses": [
+      {
+        "url": "http://127.0.0.1:4000/static/img/posts/docker-spain-cloudflare-block/docker-spain-cloudflare-block-1.png",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4000/static/img/posts/docker-spain-cloudflare-block/docker-spain-cloudflare-block-2.png",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4000/static/img/posts/docker-spain-cloudflare-block/docker-spain-cloudflare-block-1.webp",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4000/static/img/posts/docker-spain-cloudflare-block/docker-spain-cloudflare-block-2.webp",
+        "status": 200
+      }
+    ]
+  },
+  "deploy": {
+    "commitSha": null,
+    "productionSha": null
+  },
+  "gsc": {
+    "requestedUrls": []
+  }
+}
