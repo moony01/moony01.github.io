@@ -1,7 +1,7 @@
 {
   "workflow": "blog-post-autopilot",
   "runStartedAt": "2026-04-14T19:05:45+09:00",
-  "runEndedAt": null,
+  "runEndedAt": "2026-04-14T19:29:43+09:00",
   "slug": "kt-sla-auto-claim",
   "title": "KT가 속도를 못 지키면 자동 환급받는 방법",
   "topic": "damn my slow kt 도구와 KT 인터넷 SLA 자동 감면 신청 흐름",
@@ -75,15 +75,15 @@
       "lastError": null
     },
     "deploy": {
-      "status": "PENDING",
-      "attempts": 0,
-      "completedAt": null,
+      "status": "PASS",
+      "attempts": 3,
+      "completedAt": "2026-04-14T19:20:40+09:00",
       "lastError": null
     },
     "gsc": {
-      "status": "PENDING",
-      "attempts": 0,
-      "completedAt": null,
+      "status": "PASS",
+      "attempts": 1,
+      "completedAt": "2026-04-14T19:29:43+09:00",
       "lastError": null
     }
   },
@@ -147,6 +147,45 @@
       }
     ]
   },
-  "deploy": {},
-  "gsc": {}
+  "deploy": {
+    "commitSha": "740f07a",
+    "productionSha": "740f07a",
+    "actionsRun": null,
+    "liveUrl": "https://moony01.com/others/2026/04/14/kt-sla-auto-claim.html",
+    "verification": {
+      "title": "KT가 속도를 못 지키면 자동 환급받는 방법 - Moony01 Studio",
+      "live": true,
+      "pageStatus": 200,
+      "imageStatuses": [
+        {
+          "url": "https://moony01.com/static/img/posts/kt-sla-auto-claim/kt-sla-auto-claim-1.png",
+          "status": 200
+        },
+        {
+          "url": "https://moony01.com/static/img/posts/kt-sla-auto-claim/kt-sla-auto-claim-2.png",
+          "status": 200
+        },
+        {
+          "url": "https://moony01.com/static/img/posts/kt-sla-auto-claim/kt-sla-auto-claim-1.webp",
+          "status": 200
+        },
+        {
+          "url": "https://moony01.com/static/img/posts/kt-sla-auto-claim/kt-sla-auto-claim-2.webp",
+          "status": 200
+        }
+      ],
+      "screenshots": [
+        "runtime/deploy-verify-top-kt-sla-auto-claim.png",
+        "runtime/deploy-verify-body-kt-sla-auto-claim.png"
+      ]
+    }
+  },
+  "gsc": {
+    "requestedUrls": [
+      "https://moony01.com/others/2026/04/14/kt-sla-auto-claim.html"
+    ],
+    "status": "색인 생성 요청됨",
+    "property": "sc-domain:moony01.com",
+    "screenshot": "runtime/gsc-kt-sla-auto-claim-final.png"
+  }
 }
