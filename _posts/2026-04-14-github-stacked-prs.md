@@ -5,7 +5,7 @@ description: "GitHub Stacked PRs가 왜 2026년 4월 14일 개발자 커뮤니�
 date: 2026-04-14 12:10:00 +0900
 categories: [github]
 tags: [GitHub, StackedPRs, CodeReview, PullRequest, DevWorkflow]
-image: github-stacked-prs/github-stacked-prs-hero.png
+image: github-stacked-prs/github-stacked-prs-hero.webp
 published: true
 ---
 
