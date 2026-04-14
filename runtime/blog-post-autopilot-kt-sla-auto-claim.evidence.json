@@ -1,0 +1,152 @@
+{
+  "workflow": "blog-post-autopilot",
+  "runStartedAt": "2026-04-14T19:05:45+09:00",
+  "runEndedAt": null,
+  "slug": "kt-sla-auto-claim",
+  "title": "KT가 속도를 못 지키면 자동 환급받는 방법",
+  "topic": "damn my slow kt 도구와 KT 인터넷 SLA 자동 감면 신청 흐름",
+  "category": "others",
+  "postPath": "_posts/2026-04-14-kt-sla-auto-claim.md",
+  "postUrl": "https://moony01.com/others/2026/04/14/kt-sla-auto-claim.html",
+  "researchQueries": [
+    "site:news.hada.io 2026 4 개발자 화제",
+    "hottest developer news this week 2026 April",
+    "most discussed tech topic today developers April 2026",
+    "viral programming trend April 2026",
+    "KT 인터넷 SLA 자동 측정 도구",
+    "damn my slow kt GitHub"
+  ],
+  "researchUrls": [
+    "https://news.hada.io/",
+    "https://github.com/kargnas/damn-my-slow-kt",
+    "https://speed.kt.com/",
+    "https://ermsweb.kt.com/pc/terms/required/popup/term-popp-require-terms.do?termArticleSeq=1164",
+    "https://m.product.kt.com/static/prodetail/1505/mobile/m_htmlUploadType_20260311150913.html",
+    "https://m.corp.kt.com/attach/board/BS00000005/70/%28%EC%9D%B4%EC%9A%A9%EC%95%BD%EA%B4%80%EC%A0%84%EB%AC%B8%29%EC%9D%B8%ED%84%B0%EB%84%B7%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9D%B4%EC%9A%A9%EC%95%BD%EA%B4%80_220114.pdf"
+  ],
+  "scoring": {
+    "selectedReason": "2026-04-14 19시 기준 GeekNews 메인 1위로 실시간성이 가장 높고, KT 공식 약관과 공식 측정 서버로 검증 가능한 주제이며, 직전 포스트와 카테고리 중복 부담이 상대적으로 작다.",
+    "candidates": [
+      {
+        "topic": "KT 인터넷 SLA 자동 측정 도구 damn my slow kt",
+        "score": 91,
+        "category": "others"
+      },
+      {
+        "topic": "GitHub Stacked PRs private preview",
+        "score": 78,
+        "category": "github"
+      },
+      {
+        "topic": "Axios 헤더 주입 클라우드 권한 탈취 취약점",
+        "score": 76,
+        "category": "security"
+      }
+    ]
+  },
+  "titleCandidates": [
+    "KT가 속도를 못 지키면 자동 환급받는 방법",
+    "KT 인터넷 느리면 자동 감면까지 가는 흐름",
+    "KT SLA 도구가 느린 인터넷을 돈으로 바꾸는 법"
+  ],
+  "stepResults": {
+    "research": {
+      "status": "PASS",
+      "attempts": 1,
+      "completedAt": "2026-04-14T19:05:45+09:00",
+      "lastError": null
+    },
+    "content": {
+      "status": "PASS",
+      "attempts": 1,
+      "completedAt": "2026-04-14T19:06:30+09:00",
+      "lastError": null
+    },
+    "image": {
+      "status": "PASS",
+      "attempts": 1,
+      "completedAt": "2026-04-14T19:14:10+09:00",
+      "lastError": null
+    },
+    "localRender": {
+      "status": "PASS",
+      "attempts": 1,
+      "completedAt": "2026-04-14T19:16:05+09:00",
+      "lastError": null
+    },
+    "deploy": {
+      "status": "PENDING",
+      "attempts": 0,
+      "completedAt": null,
+      "lastError": null
+    },
+    "gsc": {
+      "status": "PENDING",
+      "attempts": 0,
+      "completedAt": null,
+      "lastError": null
+    }
+  },
+  "ChatGPT": {
+    "prompts": {
+      "hero": "Generate a modern tech blog hero image (16:9 aspect ratio, 1200x675px). Scene: a bright home internet control dashboard where a KT broadband speed gauge drops below the guaranteed threshold while an automated refund workflow lights up on a laptop screen. Colors: bright and vibrant palette with white and soft gray background, vivid red, electric blue, and mint accents. Style: modern tech illustration, clean and professional, high contrast, visually energetic, suitable for a tech blog header. No text, no watermarks.",
+      "body": "Generate a technical illustration (16:9, 1200x675px). Scene: a clean step by step visual of wired LAN speed testing, repeated SLA checks, and an automated compensation request flowing from a router to a dashboard and billing system. Colors: white background with bright saturated blue, green, coral, and cyan accents. Avoid dark backgrounds entirely. Style: clean flat design, modern tech illustration, high brightness, professional. No text labels, no watermarks."
+    },
+    "rawDownloads": [],
+    "rawDownloads": [
+      {
+        "path": ".playwright-mcp/ChatGPT-Image-2026년-4월-14일-오후-07-11-18.png",
+        "copiedTo": "/home/mhhan/Downloads/ChatGPT_Generated_Image_kt-sla-auto-claim_1.png",
+        "sha256": "eba55c215a519a6682ee0e4e94a8dc5a632642301f763b3de3712a07cd094b13",
+        "size": 1841004,
+        "modifiedAt": "2026-04-14T19:11:31+09:00"
+      },
+      {
+        "path": ".playwright-mcp/ChatGPT-Image-2026년-4월-14일-오후-07-13-26.png",
+        "copiedTo": "/home/mhhan/Downloads/ChatGPT_Generated_Image_kt-sla-auto-claim_2.png",
+        "sha256": "918fbafe48c2df473cdb34a1e5ac2934cf0d1a4efde25d9e93db4751dcf55fa5",
+        "size": 970131,
+        "modifiedAt": "2026-04-14T19:13:35+09:00"
+      }
+    ],
+    "finalImages": [
+      {
+        "path": "static/img/posts/kt-sla-auto-claim/kt-sla-auto-claim-1.png",
+        "sha256": "eba55c215a519a6682ee0e4e94a8dc5a632642301f763b3de3712a07cd094b13",
+        "size": 1841004,
+        "modifiedAt": "2026-04-14T19:13:53+09:00"
+      },
+      {
+        "path": "static/img/posts/kt-sla-auto-claim/kt-sla-auto-claim-2.png",
+        "sha256": "918fbafe48c2df473cdb34a1e5ac2934cf0d1a4efde25d9e93db4751dcf55fa5",
+        "size": 970131,
+        "modifiedAt": "2026-04-14T19:13:53+09:00"
+      }
+    ]
+  },
+  "localRender": {
+    "buildCommand": "docker run --rm -v $PWD:/srv/jekyll -w /srv/jekyll ruby:3.2 bash -lc \"gem install bundler -N >/tmp/bundler.log 2>&1 && bundle install >/tmp/bundle.log 2>&1 && bundle exec jekyll build --future >/tmp/jekyll.log 2>&1\"",
+    "server": "python3 -m http.server 4000 -d _site",
+    "pageStatus": 200,
+    "imageStatuses": [
+      {
+        "url": "http://127.0.0.1:4000/static/img/posts/kt-sla-auto-claim/kt-sla-auto-claim-1.png",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4000/static/img/posts/kt-sla-auto-claim/kt-sla-auto-claim-2.png",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4000/static/img/posts/kt-sla-auto-claim/kt-sla-auto-claim-1.webp",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4000/static/img/posts/kt-sla-auto-claim/kt-sla-auto-claim-2.webp",
+        "status": 200
+      }
+    ]
+  },
+  "deploy": {},
+  "gsc": {}
+}
