@@ -1,0 +1,136 @@
+{
+  "runStartedAt": "2026-04-16T12:04:21+09:00",
+  "runEndedAt": null,
+  "workflow": "blog-post-autopilot",
+  "slug": "calcom-closed-source-shift",
+  "stepResults": {
+    "research": {
+      "status": "PASS",
+      "attempts": 1,
+      "notes": "Collected live signals from GeekNews, Hacker News, Cal.com official posts, the public Cal.diy repository, HN discussion, Reddit selfhosted discussion, and a counterpoint security essay."
+    },
+    "content": {
+      "status": "PASS",
+      "attempts": 1,
+      "notes": "Draft created in Korean with 5089 body characters, 4 H2 sections, 8 H3 sections, 2 ad includes, 2 internal links, no replacement characters, and no hero-image duplication."
+    },
+    "image": {
+      "status": "PASS",
+      "attempts": 1,
+      "notes": "Generated two fresh ChatGPT images in a logged-in Playwright session, downloaded raw originals into .playwright-mcp, copied them into Downloads and .resource, placed the final PNG assets under static/img/posts/calcom-closed-source-shift, and generated WebP variants."
+    },
+    "localRender": {
+      "status": "PENDING",
+      "attempts": 0,
+      "notes": ""
+    },
+    "deploy": {
+      "status": "PENDING",
+      "attempts": 0,
+      "notes": ""
+    },
+    "gsc": {
+      "status": "PENDING",
+      "attempts": 0,
+      "notes": ""
+    }
+  },
+  "researchUrls": [
+    "https://news.hada.io/",
+    "https://news.ycombinator.com/",
+    "https://news.ycombinator.com/item?id=47780456",
+    "https://cal.com/pt/blog/cal-com-goes-closed-source-why",
+    "https://cal.com/pt/blog/cal-diy-open-source-to-closed-source",
+    "https://github.com/calcom/cal.diy",
+    "https://www.reddit.com/r/selfhosted/comments/1smangt/calcom_uses_fears_of_ai_against_security_as_an/",
+    "https://www.dbreunig.com/2026/04/14/cybersecurity-is-proof-of-work-now.html"
+  ],
+  "researchSummary": {
+    "selectedTopic": "Cal.com closed-source transition and Cal.diy split",
+    "scoring": {
+      "realtime": 27,
+      "controversy": 23,
+      "exposure": 18,
+      "developerImpact": 14,
+      "seoPotential": 5,
+      "total": 87
+    },
+    "runnerUp": {
+      "topic": "BOJ service shutdown",
+      "total": 78,
+      "penalty": "Higher Korean nostalgia score, but lower global developer exposure and weaker long-tail search intent than the Cal.com licensing and security debate."
+    }
+  },
+  "selectedTitleCandidates": [
+    "Calcom 폐쇄 전환이 남긴 배신감",
+    "Calcom 오픈소스 종료가 터진 이유",
+    "Calcom 비공개 전환이 남긴 질문"
+  ],
+  "selectedTitle": "Calcom 폐쇄 전환이 남긴 배신감",
+  "ChatGPT": {
+    "prompts": [
+      "Generate a modern tech blog hero image with 16:9 aspect ratio, 1200x675px. Scene: a bright software startup workspace where an open source scheduling app repository visually splits into a locked private product and a community fork, with code windows, calendar panels, branching paths, and shield icons floating above a clean white desk. Colors: bright and vibrant palette with a white or very light gray background and vivid electric blue, teal, coral, and soft green accents. Avoid dark or moody tones. Style: modern tech illustration, clean and professional, high contrast, visually energetic, suitable for a tech blog header. No text, no watermarks.",
+      "Generate a technical illustration with 16:9 aspect ratio, 1200x675px. Scene: a clean product architecture board that shows an open source scheduling platform splitting into a community fork and a private commercial stack, with calendar components, workflow blocks, enterprise modules, branching arrows, and security review cards arranged on a bright white workspace. Colors: light or white background with bright saturated electric blue, teal, coral, and vivid green accents. Avoid dark backgrounds entirely. Style: clean flat design, modern tech illustration, high brightness, professional, suitable for a developer blog article body image. No text labels, no watermarks."
+    ],
+    "rawDownloads": [
+      {
+        "path": "/home/mhhan/Downloads/ChatGPT_Generated_Image_calcom-closed-source-shift_1.png",
+        "downloadedAt": "2026-04-16T12:12:21+09:00",
+        "size": 1340724,
+        "sha256": "0a67c81e25bc9f2e5be1225d16f42269471f6b6c8f07cce75ae37e136f6fbee2",
+        "sourcePath": ".playwright-mcp/ChatGPT-Image-2026년-4월-16일-오후-12-12-21.png"
+      },
+      {
+        "path": "/home/mhhan/Downloads/ChatGPT_Generated_Image_calcom-closed-source-shift_2.png",
+        "downloadedAt": "2026-04-16T12:14:38+09:00",
+        "size": 482813,
+        "sha256": "170a884ac05992afe53d9980c6efc6198275a9a75c0704e1fd71b8d1320fc6a5",
+        "sourcePath": ".playwright-mcp/ChatGPT-Image-2026년-4월-16일-오후-12-14-38.png"
+      }
+    ],
+    "finalImages": [
+      {
+        "path": "/home/mhhan/workspace/.resource/calcom-closed-source-shift-1.png",
+        "copiedAt": "2026-04-16T12:15:01+09:00",
+        "sha256": "0a67c81e25bc9f2e5be1225d16f42269471f6b6c8f07cce75ae37e136f6fbee2"
+      },
+      {
+        "path": "/home/mhhan/workspace/.resource/calcom-closed-source-shift-2.png",
+        "copiedAt": "2026-04-16T12:15:01+09:00",
+        "sha256": "170a884ac05992afe53d9980c6efc6198275a9a75c0704e1fd71b8d1320fc6a5"
+      },
+      {
+        "path": "/home/mhhan/workspace/moony01.github.io/static/img/posts/calcom-closed-source-shift/calcom-closed-source-shift-1.png",
+        "copiedAt": "2026-04-16T12:15:01+09:00",
+        "sha256": "0a67c81e25bc9f2e5be1225d16f42269471f6b6c8f07cce75ae37e136f6fbee2"
+      },
+      {
+        "path": "/home/mhhan/workspace/moony01.github.io/static/img/posts/calcom-closed-source-shift/calcom-closed-source-shift-2.png",
+        "copiedAt": "2026-04-16T12:15:01+09:00",
+        "sha256": "170a884ac05992afe53d9980c6efc6198275a9a75c0704e1fd71b8d1320fc6a5"
+      },
+      {
+        "path": "/home/mhhan/workspace/moony01.github.io/static/img/posts/calcom-closed-source-shift/calcom-closed-source-shift-1.webp",
+        "copiedAt": "2026-04-16T12:15:09+09:00",
+        "sha256": "2bc18933e955da90c357ffd7fe278d946ade79b377ffa0c267fc2c5c93ad5b30"
+      },
+      {
+        "path": "/home/mhhan/workspace/moony01.github.io/static/img/posts/calcom-closed-source-shift/calcom-closed-source-shift-2.webp",
+        "copiedAt": "2026-04-16T12:15:09+09:00",
+        "sha256": "aea957af4b5462c28465b4e96efe052cccc9d8e646aa36a2de8eeab97897037a"
+      }
+    ]
+  },
+  "deploy": {
+    "commitSha": null,
+    "cloudflare": {
+      "productionSha": null
+    },
+    "verifiedUrl": "https://moony01.com/security/2026/04/16/calcom-closed-source-shift.html",
+    "workflowRunUrl": null,
+    "assetChecks": []
+  },
+  "gsc": {
+    "requestedUrls": []
+  }
+}
