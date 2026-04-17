@@ -14,7 +14,26 @@ published: true
 
 그렇다면 개발자에게 2026년 AI 대전환은 무엇을 의미하는가? 숫자를 직접 들여다봤다.
 
-![모건스탠리 AI 대전환 2026](/static/img/posts/morgan-stanley-ai-developer-career-2026/morgan-stanley-ai-developer-career-2026-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/morgan-stanley-ai-developer-career-2026/morgan-stanley-ai-developer-career-2026-1-400.webp 400w,
+            /static/img/posts/morgan-stanley-ai-developer-career-2026/morgan-stanley-ai-developer-career-2026-1-800.webp 800w,
+            /static/img/posts/morgan-stanley-ai-developer-career-2026/morgan-stanley-ai-developer-career-2026-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/morgan-stanley-ai-developer-career-2026/morgan-stanley-ai-developer-career-2026-1-400.png 400w,
+            /static/img/posts/morgan-stanley-ai-developer-career-2026/morgan-stanley-ai-developer-career-2026-1-800.png 800w,
+            /static/img/posts/morgan-stanley-ai-developer-career-2026/morgan-stanley-ai-developer-career-2026-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/morgan-stanley-ai-developer-career-2026/morgan-stanley-ai-developer-career-2026-1.png" 
+    alt="모건스탠리 AI 대전환 2026" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 1,000명의 임원이 말한 숫자들
 
@@ -52,7 +71,26 @@ Snowflake는 AI 효율화로 약 200명을 줄이면서도 순 증가 인원은 
 
 이 투자가 의미하는 건 단순한 AI 붐이 아니다. 컴퓨트 공급이 늘어날수록 AI 모델 호출 비용은 계속 내려가고, 자동화 가능한 코딩 작업의 범위는 더 빠르게 넓어진다.
 
-![AI 인프라 투자와 개발자 시장 변화](/static/img/posts/morgan-stanley-ai-developer-career-2026/morgan-stanley-ai-developer-career-2026-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/morgan-stanley-ai-developer-career-2026/morgan-stanley-ai-developer-career-2026-2-400.webp 400w,
+            /static/img/posts/morgan-stanley-ai-developer-career-2026/morgan-stanley-ai-developer-career-2026-2-800.webp 800w,
+            /static/img/posts/morgan-stanley-ai-developer-career-2026/morgan-stanley-ai-developer-career-2026-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/morgan-stanley-ai-developer-career-2026/morgan-stanley-ai-developer-career-2026-2-400.png 400w,
+            /static/img/posts/morgan-stanley-ai-developer-career-2026/morgan-stanley-ai-developer-career-2026-2-800.png 800w,
+            /static/img/posts/morgan-stanley-ai-developer-career-2026/morgan-stanley-ai-developer-career-2026-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/morgan-stanley-ai-developer-career-2026/morgan-stanley-ai-developer-career-2026-2.png" 
+    alt="AI 인프라 투자와 개발자 시장 변화" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 사라지는 역할, 폭발적으로 생겨나는 역할
 

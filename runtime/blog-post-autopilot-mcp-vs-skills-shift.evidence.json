@@ -1,0 +1,118 @@
+{
+  "runStartedAt": "2026-04-10T18:10:00+09:00",
+  "runEndedAt": "2026-04-10T19:34:00+09:00",
+  "workflow": "blog-post-autopilot",
+  "slug": "mcp-vs-skills-shift",
+  "stepResults": {
+    "research": {
+      "status": "PASS",
+      "attempts": 1,
+      "notes": "Collected live evidence across HN, GeekNews, official MCP docs, Anthropic skills docs, and the original essay."
+    },
+    "content": {
+      "status": "PASS",
+      "attempts": 1,
+      "notes": "Draft created with H2/H3 structure, internal link, ads, second-image placement only, and published false gate."
+    },
+    "image": {
+      "status": "PASS",
+      "attempts": 6,
+      "notes": "Playwright MCP browser failed three times due missing X server. Recovered by attaching Playwright over CDP to a manually launched Chrome session and generating two fresh ChatGPT images."
+    },
+    "deploy": {
+      "status": "PASS",
+      "attempts": 2,
+      "notes": "Git push succeeded for 9e3d21a272a4481bba1838e9f570fb82b1930524. GitHub Actions build-deploy job completed successfully and deployed page plus both images returned HTTP 200."
+    },
+    "gsc": {
+      "status": "PASS",
+      "attempts": 1,
+      "notes": "Connected to Search Console property sc-domain:moony01.com, inspected the target URL, clicked 색인 생성 요청, and observed the follow-up testing state."
+    }
+  },
+  "researchUrls": [
+    "https://news.hada.io/",
+    "https://news.ycombinator.com/",
+    "https://david.coffee/i-still-prefer-mcp-over-skills/",
+    "https://modelcontextprotocol.io/docs/getting-started/intro",
+    "https://docs.anthropic.com/en/docs/claude-code/skills",
+    "https://news.hada.io/topic?id=28294",
+    "https://news.hada.io/topic?id=28372"
+  ],
+  "researchSummary": {
+    "selectedTopic": "MCP vs Skills",
+    "scoring": {
+      "realtime": 29,
+      "controversy": 24,
+      "exposure": 18,
+      "developerImpact": 14,
+      "seoPotential": 8,
+      "total": 93
+    },
+    "runnerUp": {
+      "topic": "Claude Advisor strategy",
+      "total": 87,
+      "penalty": "Recent same-category coverage and same-day draft already exists"
+    }
+  },
+  "selectedTitleCandidates": [
+    "MCP가 Skills를 밀어내는 이유",
+    "에이전트 전쟁 승자는 왜 MCP인가",
+    "지금 스킬보다 MCP가 더 무서운 이유"
+  ],
+  "selectedTitle": "지금 스킬보다 MCP가 더 무서운 이유",
+  "ChatGPT": {
+    "prompts": [
+      "Generate a modern tech blog hero image with 16:9 aspect ratio. Scene: a bright comparison between a local SKILL markdown file on one side and remote MCP connectors and API nodes on the other, with an AI agent routing between them. Colors: light background with vivid blue, green, coral accents. Clean modern tech illustration. No text, no watermarks.",
+      "Generate a technical illustration with 16:9 aspect ratio. Scene: a bright workflow diagram style composition where remote MCP servers connect to SaaS apps outside a code repository while local skills stay inside the repository as markdown files and review checklists. Colors: white or light gray background with vivid blue, vivid green, coral, and soft violet accents. Clean flat design, modern tech illustration, high brightness, professional. No text, no watermarks."
+    ],
+    "rawDownloads": [
+      {
+        "path": "/home/mhhan/Downloads/ChatGPT_Generated_Image_mcp_vs_skills_shift_1.png",
+        "downloadedAt": "2026-04-10T19:23:39+09:00",
+        "size": 1401588,
+        "sha256": "ed8458adee7b8794f8498632992d51bb953af63e8d477bf244359229867ff940"
+      },
+      {
+        "path": "/home/mhhan/Downloads/ChatGPT_Generated_Image_mcp_vs_skills_shift_2.png",
+        "downloadedAt": "2026-04-10T19:24:45+09:00",
+        "size": 550012,
+        "sha256": "1501eea0d94fda808dc6cb886635ea0a145abbe56ebb7071e1bcac3dfe1be8da"
+      }
+    ],
+    "finalImages": [
+      {
+        "path": "/home/mhhan/workspace/.resource/mcp-vs-skills-shift-1.png",
+        "copiedAt": "2026-04-10T19:24:59+09:00",
+        "sha256": "ed8458adee7b8794f8498632992d51bb953af63e8d477bf244359229867ff940"
+      },
+      {
+        "path": "/home/mhhan/workspace/.resource/mcp-vs-skills-shift-2.png",
+        "copiedAt": "2026-04-10T19:24:59+09:00",
+        "sha256": "1501eea0d94fda808dc6cb886635ea0a145abbe56ebb7071e1bcac3dfe1be8da"
+      },
+      {
+        "path": "/home/mhhan/workspace/moony01.github.io/static/img/posts/mcp-vs-skills-shift/mcp-vs-skills-shift-1.png",
+        "copiedAt": "2026-04-10T19:24:59+09:00",
+        "sha256": "ed8458adee7b8794f8498632992d51bb953af63e8d477bf244359229867ff940"
+      },
+      {
+        "path": "/home/mhhan/workspace/moony01.github.io/static/img/posts/mcp-vs-skills-shift/mcp-vs-skills-shift-2.png",
+        "copiedAt": "2026-04-10T19:24:59+09:00",
+        "sha256": "1501eea0d94fda808dc6cb886635ea0a145abbe56ebb7071e1bcac3dfe1be8da"
+      }
+    ]
+  },
+  "deploy": {
+    "commitSha": "9e3d21a272a4481bba1838e9f570fb82b1930524",
+    "cloudflare": {
+      "productionSha": "9e3d21a272a4481bba1838e9f570fb82b1930524"
+    },
+    "verifiedUrl": "https://moony01.com/others/2026/04/10/mcp-vs-skills-shift.html"
+  },
+  "gsc": {
+    "requestedUrls": [
+      "https://moony01.com/others/2026/04/10/mcp-vs-skills-shift.html"
+    ]
+  }
+}

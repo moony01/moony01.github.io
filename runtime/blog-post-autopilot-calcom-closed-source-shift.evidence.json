@@ -1,6 +1,6 @@
 {
   "runStartedAt": "2026-04-16T12:04:21+09:00",
-  "runEndedAt": null,
+  "runEndedAt": "2026-04-16T12:24:09+09:00",
   "workflow": "blog-post-autopilot",
   "slug": "calcom-closed-source-shift",
   "stepResults": {
@@ -16,23 +16,23 @@
     },
     "image": {
       "status": "PASS",
-      "attempts": 1,
-      "notes": "Generated two fresh ChatGPT images in a logged-in Playwright session, downloaded raw originals into .playwright-mcp, copied them into Downloads and .resource, placed the final PNG assets under static/img/posts/calcom-closed-source-shift, and generated WebP variants."
+      "attempts": 3,
+      "notes": "Recovered Playwright after two X-server launch failures by running Xvfb on :99, then generated two fresh ChatGPT images in a logged-in session, downloaded raw originals into .playwright-mcp, copied them into Downloads and .resource, placed the final PNG assets under static/img/posts/calcom-closed-source-shift, and generated WebP variants."
     },
     "localRender": {
-      "status": "PENDING",
-      "attempts": 0,
-      "notes": ""
+      "status": "BLOCKED",
+      "attempts": 1,
+      "notes": "Local Jekyll render could not run because ruby, bundle, and jekyll are not installed in the environment. Live deployment and browser rendering were verified instead."
     },
     "deploy": {
-      "status": "PENDING",
-      "attempts": 0,
-      "notes": ""
+      "status": "PASS",
+      "attempts": 1,
+      "notes": "Committed and pushed scoped post, image, and runtime evidence updates to origin/main at b7edfbf. GitHub Actions run 24490113289 completed successfully in the browser, showed commit b7edfbf on the run page, and the live post plus both image assets returned HTTP 200."
     },
     "gsc": {
-      "status": "PENDING",
-      "attempts": 0,
-      "notes": ""
+      "status": "PASS",
+      "attempts": 1,
+      "notes": "Opened Search Console property sc-domain:moony01.com, ran URL inspection for the live permalink, clicked indexing request, waited through the live test, and observed the 색인 생성 요청됨 confirmation dialog."
     }
   },
   "researchUrls": [
@@ -122,15 +122,26 @@
     ]
   },
   "deploy": {
-    "commitSha": null,
+    "commitSha": "b7edfbf2bc3bb8ef9127f3634ef472ced113f4ba",
     "cloudflare": {
-      "productionSha": null
+      "productionSha": "b7edfbf2bc3bb8ef9127f3634ef472ced113f4ba"
     },
     "verifiedUrl": "https://moony01.com/security/2026/04/16/calcom-closed-source-shift.html",
-    "workflowRunUrl": null,
-    "assetChecks": []
+    "workflowRunUrl": "https://github.com/moony01/moony01.github.io/actions/runs/24490113289",
+    "assetChecks": [
+      "https://moony01.com/security/2026/04/16/calcom-closed-source-shift.html",
+      "https://moony01.com/static/img/posts/calcom-closed-source-shift/calcom-closed-source-shift-1.webp",
+      "https://moony01.com/static/img/posts/calcom-closed-source-shift/calcom-closed-source-shift-2.png"
+    ],
+    "screenshots": [
+      "runtime/deploy-verify-top-calcom-closed-source-shift.png",
+      "runtime/deploy-verify-body-calcom-closed-source-shift.png"
+    ]
   },
   "gsc": {
-    "requestedUrls": []
+    "requestedUrls": [
+      "https://moony01.com/security/2026/04/16/calcom-closed-source-shift.html"
+    ],
+    "screenshot": "runtime/gsc-calcom-closed-source-shift-final.png"
   }
 }

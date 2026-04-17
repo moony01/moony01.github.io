@@ -14,7 +14,26 @@ published: true
 
 이건 단순한 라이브러리 업데이트 논란이 아니다. **AI를 이용한 오픈소스 라이선스 세탁이 가능한가?** 이 질문에 대한 첫 번째 대규모 실전 테스트다.
 
-![AI로 GPL 코드를 MIT로 세탁하는 chardet 사태](/static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-1-400.webp 400w,
+            /static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-1-800.webp 800w,
+            /static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-1-400.png 400w,
+            /static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-1-800.png 800w,
+            /static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-1.png" 
+    alt="AI로 GPL 코드를 MIT로 세탁하는 chardet 사태" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -50,7 +69,26 @@ Simon Willison은 이 사건에 대해 [이렇게 정리했다](https://simonwil
 
 {% include pre-version.html %}
 
-![Clean Room vs AI Rewrite 비교](/static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-2-400.webp 400w,
+            /static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-2-800.webp 800w,
+            /static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-2-400.png 400w,
+            /static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-2-800.png 800w,
+            /static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-2.png" 
+    alt="Clean Room vs AI Rewrite 비교" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 업계 반응 — "오픈소스의 사회적 계약이 무너지고 있다"
 

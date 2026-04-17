@@ -12,7 +12,26 @@ published: true
 
 여기서 아이러니가 발생한다. 오라클이 AI 인프라에 투자하는 이유는 AI가 더 많은 일을 처리하게 하기 위해서다. 그런데 그 돈을 마련하기 위해 지금 당장 사람을 먼저 자른다. AI가 사람을 대체하는 미래를 만들려고, AI가 사람을 해고하고 있다. 이보다 더 직접적인 역설이 또 있을까.
 
-![히어로 이미지](/static/img/posts/oracle-30000-layoffs-ai-datacenter-developer-paradox/oracle-30000-layoffs-ai-datacenter-developer-paradox-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/oracle-30000-layoffs-ai-datacenter-developer-paradox/oracle-30000-layoffs-ai-datacenter-developer-paradox-1-400.webp 400w,
+            /static/img/posts/oracle-30000-layoffs-ai-datacenter-developer-paradox/oracle-30000-layoffs-ai-datacenter-developer-paradox-1-800.webp 800w,
+            /static/img/posts/oracle-30000-layoffs-ai-datacenter-developer-paradox/oracle-30000-layoffs-ai-datacenter-developer-paradox-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/oracle-30000-layoffs-ai-datacenter-developer-paradox/oracle-30000-layoffs-ai-datacenter-developer-paradox-1-400.png 400w,
+            /static/img/posts/oracle-30000-layoffs-ai-datacenter-developer-paradox/oracle-30000-layoffs-ai-datacenter-developer-paradox-1-800.png 800w,
+            /static/img/posts/oracle-30000-layoffs-ai-datacenter-developer-paradox/oracle-30000-layoffs-ai-datacenter-developer-paradox-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/oracle-30000-layoffs-ai-datacenter-developer-paradox/oracle-30000-layoffs-ai-datacenter-developer-paradox-1.png" 
+    alt="히어로 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -47,7 +66,26 @@ published: true
 
 **셋째**, 이 구조는 오라클만의 문제가 아니다. AI 데이터센터 경쟁은 "누가 더 빨리, 더 많이 GPU를 확보하느냐"의 게임이 됐고, 이 게임에서 인건비는 가장 빠르게 줄일 수 있는 비용 항목이다. 오라클이 먼저 이 카드를 꺼냈을 뿐, 다른 빅테크도 같은 압박을 받고 있다.
 
-![본문 이미지](/static/img/posts/oracle-30000-layoffs-ai-datacenter-developer-paradox/oracle-30000-layoffs-ai-datacenter-developer-paradox-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/oracle-30000-layoffs-ai-datacenter-developer-paradox/oracle-30000-layoffs-ai-datacenter-developer-paradox-2-400.webp 400w,
+            /static/img/posts/oracle-30000-layoffs-ai-datacenter-developer-paradox/oracle-30000-layoffs-ai-datacenter-developer-paradox-2-800.webp 800w,
+            /static/img/posts/oracle-30000-layoffs-ai-datacenter-developer-paradox/oracle-30000-layoffs-ai-datacenter-developer-paradox-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/oracle-30000-layoffs-ai-datacenter-developer-paradox/oracle-30000-layoffs-ai-datacenter-developer-paradox-2-400.png 400w,
+            /static/img/posts/oracle-30000-layoffs-ai-datacenter-developer-paradox/oracle-30000-layoffs-ai-datacenter-developer-paradox-2-800.png 800w,
+            /static/img/posts/oracle-30000-layoffs-ai-datacenter-developer-paradox/oracle-30000-layoffs-ai-datacenter-developer-paradox-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/oracle-30000-layoffs-ai-datacenter-developer-paradox/oracle-30000-layoffs-ai-datacenter-developer-paradox-2.png" 
+    alt="본문 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 개발자에게 무엇이 달라지나
 

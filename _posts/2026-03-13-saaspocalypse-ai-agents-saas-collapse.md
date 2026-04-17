@@ -14,7 +14,26 @@ published: true
 
 {% include pre-version.html %}
 
-![SaaSpocalypse — AI 에이전트가 SaaS 생태계를 무너뜨리는 시대](/static/img/posts/saaspocalypse-ai-agents-saas-collapse/saaspocalypse-ai-agents-saas-collapse-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/saaspocalypse-ai-agents-saas-collapse/saaspocalypse-ai-agents-saas-collapse-1-400.webp 400w,
+            /static/img/posts/saaspocalypse-ai-agents-saas-collapse/saaspocalypse-ai-agents-saas-collapse-1-800.webp 800w,
+            /static/img/posts/saaspocalypse-ai-agents-saas-collapse/saaspocalypse-ai-agents-saas-collapse-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/saaspocalypse-ai-agents-saas-collapse/saaspocalypse-ai-agents-saas-collapse-1-400.png 400w,
+            /static/img/posts/saaspocalypse-ai-agents-saas-collapse/saaspocalypse-ai-agents-saas-collapse-1-800.png 800w,
+            /static/img/posts/saaspocalypse-ai-agents-saas-collapse/saaspocalypse-ai-agents-saas-collapse-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/saaspocalypse-ai-agents-saas-collapse/saaspocalypse-ai-agents-saas-collapse-1.png" 
+    alt="SaaSpocalypse — AI 에이전트가 SaaS 생태계를 무너뜨리는 시대" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## SaaSpocalypse: 숫자가 말하는 것
 
@@ -61,7 +80,26 @@ Deloitte 보고서는 "AI 에이전트 도입으로 인해 'Build vs. Buy' 의�
 
 {% include pre-version.html %}
 
-![AI 에이전트가 여러 SaaS를 오케스트레이션하는 구조](/static/img/posts/saaspocalypse-ai-agents-saas-collapse/saaspocalypse-ai-agents-saas-collapse-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/saaspocalypse-ai-agents-saas-collapse/saaspocalypse-ai-agents-saas-collapse-2-400.webp 400w,
+            /static/img/posts/saaspocalypse-ai-agents-saas-collapse/saaspocalypse-ai-agents-saas-collapse-2-800.webp 800w,
+            /static/img/posts/saaspocalypse-ai-agents-saas-collapse/saaspocalypse-ai-agents-saas-collapse-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/saaspocalypse-ai-agents-saas-collapse/saaspocalypse-ai-agents-saas-collapse-2-400.png 400w,
+            /static/img/posts/saaspocalypse-ai-agents-saas-collapse/saaspocalypse-ai-agents-saas-collapse-2-800.png 800w,
+            /static/img/posts/saaspocalypse-ai-agents-saas-collapse/saaspocalypse-ai-agents-saas-collapse-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/saaspocalypse-ai-agents-saas-collapse/saaspocalypse-ai-agents-saas-collapse-2.png" 
+    alt="AI 에이전트가 여러 SaaS를 오케스트레이션하는 구조" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 개발자에게 오는 두 가지 파도
 

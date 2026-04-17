@@ -44,7 +44,26 @@ Qwen3.5 팀이 공개한 아키텍처의 또 다른 특징은 **Gated DeltaNet +
 
 그래서 이 수치가 의미하는 게 무엇인지 솔직하게 해석하자면 — "Claude를 완전히 대체할 수 있다"가 아니라, "특정 작업에서는 동급이고, 무료라는 점이 변수다"입니다. 벤치마크는 합성 데이터 기반이고, 실제 프로덕션 프롬프트에서의 체감은 다를 수 있습니다.
 
-![Qwen3.5 MoE 아키텍처 구조와 전문가 레이어 활성화 방식](/static/img/posts/qwen35-medium-opensource-local/qwen35-medium-opensource-local-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/qwen35-medium-opensource-local/qwen35-medium-opensource-local-2-400.webp 400w,
+            /static/img/posts/qwen35-medium-opensource-local/qwen35-medium-opensource-local-2-800.webp 800w,
+            /static/img/posts/qwen35-medium-opensource-local/qwen35-medium-opensource-local-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/qwen35-medium-opensource-local/qwen35-medium-opensource-local-2-400.png 400w,
+            /static/img/posts/qwen35-medium-opensource-local/qwen35-medium-opensource-local-2-800.png 800w,
+            /static/img/posts/qwen35-medium-opensource-local/qwen35-medium-opensource-local-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/qwen35-medium-opensource-local/qwen35-medium-opensource-local-2.png" 
+    alt="Qwen3.5 MoE 아키텍처 구조와 전문가 레이어 활성화 방식" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## Ollama로 5분 안에 로컬 실행하기
 

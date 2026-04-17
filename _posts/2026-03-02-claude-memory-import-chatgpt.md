@@ -17,7 +17,26 @@ AI 도구를 오래 쓸수록 쌓이는 게 있다. 내 프로그래밍 언어 �
 
 {% include pre-version.html %}
 
-![Claude 메모리 가져오기 기능으로 ChatGPT에서 Claude로 컨텍스트 이식 과정 개요](/static/img/posts/claude-memory-import-chatgpt/claude-memory-import-chatgpt-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-memory-import-chatgpt/claude-memory-import-chatgpt-2-400.webp 400w,
+            /static/img/posts/claude-memory-import-chatgpt/claude-memory-import-chatgpt-2-800.webp 800w,
+            /static/img/posts/claude-memory-import-chatgpt/claude-memory-import-chatgpt-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-memory-import-chatgpt/claude-memory-import-chatgpt-2-400.png 400w,
+            /static/img/posts/claude-memory-import-chatgpt/claude-memory-import-chatgpt-2-800.png 800w,
+            /static/img/posts/claude-memory-import-chatgpt/claude-memory-import-chatgpt-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-memory-import-chatgpt/claude-memory-import-chatgpt-2.png" 
+    alt="Claude 메모리 가져오기 기능으로 ChatGPT에서 Claude로 컨텍스트 이식 과정 개요" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## AI 메모리 전환 문제의 실체
 

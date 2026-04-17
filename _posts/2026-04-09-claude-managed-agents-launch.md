@@ -93,7 +93,26 @@ ant beta:agents create \
 
 직접 써보지 않아도 여기서 냄새가 난다. Anthropic은 최근 서드파티 에이전트 도구에 대한 과금 경계를 더 세게 긋고 있다. 그런 시점에 Managed Agents를 내놨다는 건 우연이 아니다. 오픈 에이전트 생태계에서 생긴 수요를 자사 관리형 상품으로 다시 끌어당기려는 움직임으로 읽힌다.
 
-![클로드 매니지드 에이전트 세션 구조도](/static/img/posts/claude-managed-agents-launch/claude-managed-agents-launch-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-managed-agents-launch/claude-managed-agents-launch-2-400.webp 400w,
+            /static/img/posts/claude-managed-agents-launch/claude-managed-agents-launch-2-800.webp 800w,
+            /static/img/posts/claude-managed-agents-launch/claude-managed-agents-launch-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-managed-agents-launch/claude-managed-agents-launch-2-400.png 400w,
+            /static/img/posts/claude-managed-agents-launch/claude-managed-agents-launch-2-800.png 800w,
+            /static/img/posts/claude-managed-agents-launch/claude-managed-agents-launch-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-managed-agents-launch/claude-managed-agents-launch-2.png" 
+    alt="클로드 매니지드 에이전트 세션 구조도" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 

@@ -10,7 +10,26 @@ published: true
 
 2025년 12월, Stack Overflow에 올라온 질문 수는 고작 **3,862개**였다. 전년 대비 **78% 폭락**. 한때 하루에도 수천 개의 질문이 쏟아지던 개발자들의 성지가, 이제는 텅 빈 도서관이 되어가고 있다.
 
-![Stack Overflow 질문 감소 추이](/static/img/posts/stackoverflow-dead-78-percent-drop/stackoverflow-dead-78-percent-drop-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/stackoverflow-dead-78-percent-drop/stackoverflow-dead-78-percent-drop-1-400.webp 400w,
+            /static/img/posts/stackoverflow-dead-78-percent-drop/stackoverflow-dead-78-percent-drop-1-800.webp 800w,
+            /static/img/posts/stackoverflow-dead-78-percent-drop/stackoverflow-dead-78-percent-drop-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/stackoverflow-dead-78-percent-drop/stackoverflow-dead-78-percent-drop-1-400.png 400w,
+            /static/img/posts/stackoverflow-dead-78-percent-drop/stackoverflow-dead-78-percent-drop-1-800.png 800w,
+            /static/img/posts/stackoverflow-dead-78-percent-drop/stackoverflow-dead-78-percent-drop-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/stackoverflow-dead-78-percent-drop/stackoverflow-dead-78-percent-drop-1.png" 
+    alt="Stack Overflow 질문 감소 추이" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 이게 무슨 일인지, 왜 이렇게 된 건지, 그리고 우리 개발자들은 어떻게 대응해야 하는지 파헤쳐 보자.
 

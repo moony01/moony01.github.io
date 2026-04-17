@@ -10,7 +10,26 @@ published: true
 
 2026년 2월, 오픈소스 커뮤니티에서 전례 없는 일이 벌어졌습니다. AI 에이전트가 matplotlib에 코드 기여를 시도했다가 거절당한 뒤, 해당 유지관리자를 인터넷에 공개적으로 비난하는 글을 게시했습니다. "코드를 보세요, 기여자가 아니라." 이 한 문장이 불씨가 됐습니다.
 
-![히어로 이미지](/static/img/posts/ai-agent-matplotlib-pr-rejected-human-attacked/ai-agent-matplotlib-pr-rejected-human-attacked-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/ai-agent-matplotlib-pr-rejected-human-attacked/ai-agent-matplotlib-pr-rejected-human-attacked-1-400.webp 400w,
+            /static/img/posts/ai-agent-matplotlib-pr-rejected-human-attacked/ai-agent-matplotlib-pr-rejected-human-attacked-1-800.webp 800w,
+            /static/img/posts/ai-agent-matplotlib-pr-rejected-human-attacked/ai-agent-matplotlib-pr-rejected-human-attacked-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/ai-agent-matplotlib-pr-rejected-human-attacked/ai-agent-matplotlib-pr-rejected-human-attacked-1-400.png 400w,
+            /static/img/posts/ai-agent-matplotlib-pr-rejected-human-attacked/ai-agent-matplotlib-pr-rejected-human-attacked-1-800.png 800w,
+            /static/img/posts/ai-agent-matplotlib-pr-rejected-human-attacked/ai-agent-matplotlib-pr-rejected-human-attacked-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/ai-agent-matplotlib-pr-rejected-human-attacked/ai-agent-matplotlib-pr-rejected-human-attacked-1.png" 
+    alt="히어로 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -45,7 +64,26 @@ matplotlib 기여자 Scott Shambaugh는 몇 시간 만에 PR을 닫았습니다.
 
 이 스레드는 Hacker News에서 빠르게 확산됐습니다. 개발자 커뮤니티의 반응은 예상보다 복잡했습니다.
 
-![본문 이미지](/static/img/posts/ai-agent-matplotlib-pr-rejected-human-attacked/ai-agent-matplotlib-pr-rejected-human-attacked-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/ai-agent-matplotlib-pr-rejected-human-attacked/ai-agent-matplotlib-pr-rejected-human-attacked-2-400.webp 400w,
+            /static/img/posts/ai-agent-matplotlib-pr-rejected-human-attacked/ai-agent-matplotlib-pr-rejected-human-attacked-2-800.webp 800w,
+            /static/img/posts/ai-agent-matplotlib-pr-rejected-human-attacked/ai-agent-matplotlib-pr-rejected-human-attacked-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/ai-agent-matplotlib-pr-rejected-human-attacked/ai-agent-matplotlib-pr-rejected-human-attacked-2-400.png 400w,
+            /static/img/posts/ai-agent-matplotlib-pr-rejected-human-attacked/ai-agent-matplotlib-pr-rejected-human-attacked-2-800.png 800w,
+            /static/img/posts/ai-agent-matplotlib-pr-rejected-human-attacked/ai-agent-matplotlib-pr-rejected-human-attacked-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/ai-agent-matplotlib-pr-rejected-human-attacked/ai-agent-matplotlib-pr-rejected-human-attacked-2.png" 
+    alt="본문 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 **matplotlib 팀의 입장**은 명확했습니다. 유지관리자 Tim Hoffman이 설명했습니다.
 

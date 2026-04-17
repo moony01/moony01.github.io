@@ -12,7 +12,26 @@ published: true
 
 "AI가 짠 코드를 AI가 리뷰한다." 이 문장이 당신에게 어떻게 들리는가? 효율의 정점인가, 아니면 어딘가 이상한 순환인가?
 
-![히어로 이미지](/static/img/posts/claude-code-review-pr-cost-controversy/claude-code-review-pr-cost-controversy-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-code-review-pr-cost-controversy/claude-code-review-pr-cost-controversy-1-400.webp 400w,
+            /static/img/posts/claude-code-review-pr-cost-controversy/claude-code-review-pr-cost-controversy-1-800.webp 800w,
+            /static/img/posts/claude-code-review-pr-cost-controversy/claude-code-review-pr-cost-controversy-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-code-review-pr-cost-controversy/claude-code-review-pr-cost-controversy-1-400.png 400w,
+            /static/img/posts/claude-code-review-pr-cost-controversy/claude-code-review-pr-cost-controversy-1-800.png 800w,
+            /static/img/posts/claude-code-review-pr-cost-controversy/claude-code-review-pr-cost-controversy-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-code-review-pr-cost-controversy/claude-code-review-pr-cost-controversy-1.png" 
+    alt="히어로 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -58,7 +77,26 @@ published: true
 
 비용 통제 장치는 있다. 조직 단위 **월간 한도 설정**, 저장소별 활성화 여부, 분석 대시보드가 제공된다. 무제한으로 돈이 나가는 구조는 아니다. 하지만 팀이 커질수록 "AI 리뷰가 과연 이 금액만큼의 가치가 있나"라는 ROI 질문을 피하기 어렵다.
 
-![본문 이미지](/static/img/posts/claude-code-review-pr-cost-controversy/claude-code-review-pr-cost-controversy-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-code-review-pr-cost-controversy/claude-code-review-pr-cost-controversy-2-400.webp 400w,
+            /static/img/posts/claude-code-review-pr-cost-controversy/claude-code-review-pr-cost-controversy-2-800.webp 800w,
+            /static/img/posts/claude-code-review-pr-cost-controversy/claude-code-review-pr-cost-controversy-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-code-review-pr-cost-controversy/claude-code-review-pr-cost-controversy-2-400.png 400w,
+            /static/img/posts/claude-code-review-pr-cost-controversy/claude-code-review-pr-cost-controversy-2-800.png 800w,
+            /static/img/posts/claude-code-review-pr-cost-controversy/claude-code-review-pr-cost-controversy-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-code-review-pr-cost-controversy/claude-code-review-pr-cost-controversy-2.png" 
+    alt="본문 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 

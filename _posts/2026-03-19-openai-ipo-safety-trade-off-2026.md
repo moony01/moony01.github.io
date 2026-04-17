@@ -12,7 +12,26 @@ published: true
 
 댓글창에는 냉소와 분노, 그리고 체념이 뒤섞였습니다. "예상했다", "이게 진짜 AI 위험이다", "안전팀이 다 떠난 이유가 있었다"... 이날 HN 댓글창은 평소보다 훨씬 뜨거웠습니다. 오늘은 이 논쟁의 핵심을 개발자 관점에서 뜯어보겠습니다.
 
-![히어로 이미지](/static/img/posts/openai-ipo-safety-trade-off-2026/openai-ipo-safety-trade-off-2026-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/openai-ipo-safety-trade-off-2026/openai-ipo-safety-trade-off-2026-1-400.webp 400w,
+            /static/img/posts/openai-ipo-safety-trade-off-2026/openai-ipo-safety-trade-off-2026-1-800.webp 800w,
+            /static/img/posts/openai-ipo-safety-trade-off-2026/openai-ipo-safety-trade-off-2026-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/openai-ipo-safety-trade-off-2026/openai-ipo-safety-trade-off-2026-1-400.png 400w,
+            /static/img/posts/openai-ipo-safety-trade-off-2026/openai-ipo-safety-trade-off-2026-1-800.png 800w,
+            /static/img/posts/openai-ipo-safety-trade-off-2026/openai-ipo-safety-trade-off-2026-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/openai-ipo-safety-trade-off-2026/openai-ipo-safety-trade-off-2026-1.png" 
+    alt="히어로 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -48,7 +67,26 @@ Jan Leike는 퇴사 글에서 이렇게 썼습니다: "OpenAI의 문화와 방�
 
 ## IPO를 향한 경주: 개발자 생태계에 미치는 파장
 
-![본문 이미지](/static/img/posts/openai-ipo-safety-trade-off-2026/openai-ipo-safety-trade-off-2026-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/openai-ipo-safety-trade-off-2026/openai-ipo-safety-trade-off-2026-2-400.webp 400w,
+            /static/img/posts/openai-ipo-safety-trade-off-2026/openai-ipo-safety-trade-off-2026-2-800.webp 800w,
+            /static/img/posts/openai-ipo-safety-trade-off-2026/openai-ipo-safety-trade-off-2026-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/openai-ipo-safety-trade-off-2026/openai-ipo-safety-trade-off-2026-2-400.png 400w,
+            /static/img/posts/openai-ipo-safety-trade-off-2026/openai-ipo-safety-trade-off-2026-2-800.png 800w,
+            /static/img/posts/openai-ipo-safety-trade-off-2026/openai-ipo-safety-trade-off-2026-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/openai-ipo-safety-trade-off-2026/openai-ipo-safety-trade-off-2026-2.png" 
+    alt="본문 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 IPO는 단순히 "OpenAI가 돈 벌 기회"로 끝나지 않습니다. 개발자 생태계 전체에 파급 효과가 있습니다.
 

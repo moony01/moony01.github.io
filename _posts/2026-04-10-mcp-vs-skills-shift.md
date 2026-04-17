@@ -85,7 +85,26 @@ printf '\\npossible mcp config\\n'; rg -n 'mcpServers|transport|url' . ~/.claude
 
 {% include pre-version.html %}
 
-![MCP와 스킬 운영 차이](/static/img/posts/mcp-vs-skills-shift/mcp-vs-skills-shift-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/mcp-vs-skills-shift/mcp-vs-skills-shift-2-400.webp 400w,
+            /static/img/posts/mcp-vs-skills-shift/mcp-vs-skills-shift-2-800.webp 800w,
+            /static/img/posts/mcp-vs-skills-shift/mcp-vs-skills-shift-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/mcp-vs-skills-shift/mcp-vs-skills-shift-2-400.png 400w,
+            /static/img/posts/mcp-vs-skills-shift/mcp-vs-skills-shift-2-800.png 800w,
+            /static/img/posts/mcp-vs-skills-shift/mcp-vs-skills-shift-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/mcp-vs-skills-shift/mcp-vs-skills-shift-2.png" 
+    alt="MCP와 스킬 운영 차이" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 내 팀이라면 둘을 이렇게 나눈다
 

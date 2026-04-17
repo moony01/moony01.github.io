@@ -14,7 +14,26 @@ published: true
 
 이 정책이 업계에 던지는 신호는 생각보다 훨씬 묵직하다.
 
-![히어로 이미지](/static/img/posts/amazon-ai-code-review-outage-mandatory/amazon-ai-code-review-outage-mandatory-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/amazon-ai-code-review-outage-mandatory/amazon-ai-code-review-outage-mandatory-1-400.webp 400w,
+            /static/img/posts/amazon-ai-code-review-outage-mandatory/amazon-ai-code-review-outage-mandatory-1-800.webp 800w,
+            /static/img/posts/amazon-ai-code-review-outage-mandatory/amazon-ai-code-review-outage-mandatory-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/amazon-ai-code-review-outage-mandatory/amazon-ai-code-review-outage-mandatory-1-400.png 400w,
+            /static/img/posts/amazon-ai-code-review-outage-mandatory/amazon-ai-code-review-outage-mandatory-1-800.png 800w,
+            /static/img/posts/amazon-ai-code-review-outage-mandatory/amazon-ai-code-review-outage-mandatory-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/amazon-ai-code-review-outage-mandatory/amazon-ai-code-review-outage-mandatory-1.png" 
+    alt="히어로 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -44,7 +63,26 @@ AI 코딩 도구는 사람보다 수십 배 빠르게 코드를 생성한다. �
 
 솔직히 말하면, **아직 아무도 정답을 모른다.** LLM이 작성한 코드는 사람이 작성한 코드와 겉보기에 비슷하지만, 엣지 케이스 처리나 동시성 문제, 환경 가정 등에서 미묘한 차이를 보이는 경우가 있다. 문제는 이런 버그가 "평소에는 드러나지 않다가 특정 조건에서 폭발"한다는 것이다. 아마존의 장애도 이런 형태였다.
 
-![본문 이미지](/static/img/posts/amazon-ai-code-review-outage-mandatory/amazon-ai-code-review-outage-mandatory-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/amazon-ai-code-review-outage-mandatory/amazon-ai-code-review-outage-mandatory-2-400.webp 400w,
+            /static/img/posts/amazon-ai-code-review-outage-mandatory/amazon-ai-code-review-outage-mandatory-2-800.webp 800w,
+            /static/img/posts/amazon-ai-code-review-outage-mandatory/amazon-ai-code-review-outage-mandatory-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/amazon-ai-code-review-outage-mandatory/amazon-ai-code-review-outage-mandatory-2-400.png 400w,
+            /static/img/posts/amazon-ai-code-review-outage-mandatory/amazon-ai-code-review-outage-mandatory-2-800.png 800w,
+            /static/img/posts/amazon-ai-code-review-outage-mandatory/amazon-ai-code-review-outage-mandatory-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/amazon-ai-code-review-outage-mandatory/amazon-ai-code-review-outage-mandatory-2.png" 
+    alt="본문 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 

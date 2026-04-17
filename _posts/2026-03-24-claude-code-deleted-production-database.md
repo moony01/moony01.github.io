@@ -11,7 +11,26 @@ published: true
 
 AI 코딩 도구가 진화할수록 개발자들이 믿고 맡기는 범위도 넓어진다. 코드 자동완성에서 시작해서 이제는 인프라 프로비저닝까지. 그런데 최근 이 신뢰에 금이 가는 사건이 벌어졌다. Claude Code가 개발자의 프로덕션 데이터베이스를 통째로 삭제해버린 것이다. 2.5년치 수강생 과제, 프로젝트 기록, 리더보드가 단 한 번의 명령으로 사라졌다.
 
-![히어로 이미지](/static/img/posts/claude-code-deleted-production-database/claude-code-deleted-production-database-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-code-deleted-production-database/claude-code-deleted-production-database-1-400.webp 400w,
+            /static/img/posts/claude-code-deleted-production-database/claude-code-deleted-production-database-1-800.webp 800w,
+            /static/img/posts/claude-code-deleted-production-database/claude-code-deleted-production-database-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-code-deleted-production-database/claude-code-deleted-production-database-1-400.png 400w,
+            /static/img/posts/claude-code-deleted-production-database/claude-code-deleted-production-database-1-800.png 800w,
+            /static/img/posts/claude-code-deleted-production-database/claude-code-deleted-production-database-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-code-deleted-production-database/claude-code-deleted-production-database-1.png" 
+    alt="히어로 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -52,7 +71,26 @@ Claude Code는 Grigorev가 제시한 상황에서 논리적으로 옳은 행동�
 
 파괴적 작업(destructive operation) 앞에서 AI 에이전트는 **반드시 멈추고 확인해야 한다**. 그런데 이번 케이스에서는 그 안전장치가 충분하지 않았다.
 
-![본문 이미지](/static/img/posts/claude-code-deleted-production-database/claude-code-deleted-production-database-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-code-deleted-production-database/claude-code-deleted-production-database-2-400.webp 400w,
+            /static/img/posts/claude-code-deleted-production-database/claude-code-deleted-production-database-2-800.webp 800w,
+            /static/img/posts/claude-code-deleted-production-database/claude-code-deleted-production-database-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-code-deleted-production-database/claude-code-deleted-production-database-2-400.png 400w,
+            /static/img/posts/claude-code-deleted-production-database/claude-code-deleted-production-database-2-800.png 800w,
+            /static/img/posts/claude-code-deleted-production-database/claude-code-deleted-production-database-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-code-deleted-production-database/claude-code-deleted-production-database-2.png" 
+    alt="본문 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 

@@ -3,7 +3,7 @@
 - 실행 시작: 2026-04-09T20:00:00+09:00
 - 슬러그: `claude-managed-agents-launch`
 - 제목: `Anthropic이 숨긴 진짜 승부수 클로드 매니지드 에이전트`
-- 현재 상태: `IN_PROGRESS`
+- 현재 상태: `SUCCESS`
 
 ## 자동 선택된 주제
 
@@ -27,9 +27,9 @@
 - Research: PASS
 - Content: PASS
 - Image: PASS
-- LocalRender: PENDING
-- Deploy: PENDING
-- GSC: PENDING
+- LocalRender: PASS
+- Deploy: PASS
+- GSC: PASS
 
 ## Content Gate
 
@@ -49,3 +49,27 @@
 - Downloads 복사 완료: `ChatGPT_Generated_Image_claude_managed_agents_launch_1.png`
 - Downloads 복사 완료: `ChatGPT_Generated_Image_claude_managed_agents_launch_2.png`
 - 최종 프로젝트 이미지 2개 배치 완료
+
+## Local Render Gate
+
+- 공개 URL 200 확인
+- 히어로 PNG 200 확인
+- 본문 PNG 200 확인
+- 히어로 `800.webp` 200 확인
+- 본문 `800.webp` 200 확인
+- 배포 스크린샷 저장 완료
+
+## Deploy Gate
+
+- 첫 커밋: `8dce4a7`
+- 보정 커밋: `8713500`
+- GitHub Actions 최신 배포: `Build & Deploy Blog #146`
+- 최신 배포 SHA: `8713500`
+
+## GSC Gate
+
+- 속성: `sc-domain:moony01.com`
+- URL 검사 진입 성공
+- 색인 생성 요청 클릭 완료
+- 현재 표시 상태: `색인 생성 요청됨`
+- 실시간 테스트 결과: `실패: 서버 연결 오류`

@@ -12,7 +12,26 @@ published: true
 
 일일 다운로드 340만 회. 쿠버네티스 자격증명부터 AWS 키, SSH 개인키, 암호화폐 지갑까지 한꺼번에 탈취하는 3단계 페이로드. 그리고 공격의 핵심에는 아무도 의심하지 않는 보안 도구 **Trivy**가 있었다.
 
-![LiteLLM 공급망 공격 분석](/static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-1-400.webp 400w,
+            /static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-1-800.webp 800w,
+            /static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-1-400.png 400w,
+            /static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-1-800.png 800w,
+            /static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-1.png" 
+    alt="LiteLLM 공급망 공격 분석" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -88,7 +107,26 @@ systemd 사용자 서비스(`sysmon.service`)로 등록돼 C2 서버를 폴링�
 
 버전 1.82.8의 추가 벡터는 더 심각하다. **`.pth` 파일**을 사이트 패키지에 심어 Python이 시작될 때마다 자동 실행되게 만들었다. 패키지를 제거해도 `.pth` 파일이 남아 있으면 매 Python 실행마다 악성 코드가 돌아간다.
 
-![LiteLLM 공격 체인 구조도](/static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-2-400.webp 400w,
+            /static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-2-800.webp 800w,
+            /static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-2-400.png 400w,
+            /static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-2-800.png 800w,
+            /static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-2.png" 
+    alt="LiteLLM 공격 체인 구조도" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 

@@ -12,7 +12,26 @@ Y Combinator의 CEO Garry Tan이 지난 3월 12일, 자신의 Claude Code 설정
 
 커뮤니티 반응은 즉각적이었다. TechCrunch는 "수천 명이 이 설정을 시도하고 있으며, 모두가 의견을 가지고 있다"고 썼다. Claude, ChatGPT, Gemini까지 이 논쟁에 끌려들어왔고, GeekNews에서는 오늘 단 하루만에 1위를 차지했다. 환호하는 쪽과 냉소하는 쪽이 정확히 반반으로 갈렸다.
 
-![gstack 히어로 이미지](/static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-1-400.webp 400w,
+            /static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-1-800.webp 800w,
+            /static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-1-400.png 400w,
+            /static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-1-800.png 800w,
+            /static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-1.png" 
+    alt="gstack 히어로 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -82,7 +101,26 @@ Claude: [2,400줄을 11개 파일에 걸쳐 8분 내 작성]
 
 핵심 철학은 **Think → Plan → Build → Review → Test → Ship → Reflect** 의 순환이다. 각 단계가 다음 단계에 컨텍스트를 넘겨주기 때문에 누락이 없다. 단독으로 ChatGPT나 Claude에게 "이 기능 만들어줘"라고 하는 것과 근본적으로 다른 접근이다.
 
-![gstack 워크플로우 일러스트](/static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-2-400.webp 400w,
+            /static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-2-800.webp 800w,
+            /static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-2-400.png 400w,
+            /static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-2-800.png 800w,
+            /static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-2.png" 
+    alt="gstack 워크플로우 일러스트" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 커뮤니티가 둘로 갈린 이유
 

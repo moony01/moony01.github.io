@@ -2,12 +2,17 @@
   "workflow": "blog-post-autopilot",
   "slug": "calcom-closed-source-shift",
   "startedAt": "2026-04-16T12:04:21+09:00",
-  "currentStep": "deploy",
-  "finalStatus": "IN_PROGRESS",
+  "completedAt": "2026-04-16T12:24:09+09:00",
+  "currentStep": "complete",
+  "finalStatus": "SUCCESS",
   "passedSteps": [
     "research",
     "content",
-    "image"
+    "image",
+    "deploy",
+    "gsc"
   ],
-  "blockedSteps": []
+  "blockedSteps": [
+    "localRender"
+  ]
 }

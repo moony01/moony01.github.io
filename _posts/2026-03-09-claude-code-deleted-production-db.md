@@ -14,7 +14,26 @@ published: true
 
 AI 에이전트가 개발자의 프로덕션 환경을 통째로 날려버린 것이다. 데이터베이스, 스냅샷, 2.5년치 학습 기록 1,943,200개 행이 순식간에 사라졌다.
 
-![히어로 이미지](/static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-1-400.webp 400w,
+            /static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-1-800.webp 800w,
+            /static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-1-400.png 400w,
+            /static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-1-800.png 800w,
+            /static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-1.png" 
+    alt="히어로 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -54,7 +73,26 @@ Alexey는 즉시 AWS 비즈니스 지원팀에 연락했다. 다행히 AWS는 �
 
 다행스럽게도 데이터는 살아남았지만, 이 사건이 남긴 교훈은 데이터 복구보다 훨씬 중요하다. 사고 직후 AWS 비용도 올랐다. 삭제와 재생성 과정에서 예상치 못한 요금이 발생했고, 현재 월 요금이 약 10% 상승했다.
 
-![본문 이미지](/static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-2-400.webp 400w,
+            /static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-2-800.webp 800w,
+            /static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-2-400.png 400w,
+            /static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-2-800.png 800w,
+            /static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-2.png" 
+    alt="본문 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 왜 이런 일이 가능했나: AI 에이전트의 치명적 특성
 

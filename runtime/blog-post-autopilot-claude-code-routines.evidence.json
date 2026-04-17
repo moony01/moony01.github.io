@@ -1,0 +1,126 @@
+{
+  "runStartedAt": "2026-04-15T19:02:50+09:00",
+  "runEndedAt": "2026-04-15T19:17:45+09:00",
+  "workflow": "blog-post-autopilot",
+  "slug": "claude-code-routines",
+  "stepResults": {
+    "research": "PASS",
+    "content": "PASS",
+    "image": "PASS",
+    "localRender": "UNAVAILABLE_NO_RUBY",
+    "deploy": "PASS",
+    "gsc": "PASS"
+  },
+  "attemptCounts": {
+    "research": 1,
+    "content": 1,
+    "image": 1,
+    "deploy": 1,
+    "gsc": 1
+  },
+  "retryCounts": {
+    "imageGeneration": 0,
+    "deployVerification": 0,
+    "gsc": 0
+  },
+  "researchUrls": [
+    "https://news.hada.io/",
+    "https://news.ycombinator.com/",
+    "https://claude.com/blog/introducing-routines-in-claude-code",
+    "https://code.claude.com/docs/en/routines",
+    "https://platform.claude.com/docs/en/api/claude-code/routines-fire",
+    "https://9to5mac.com/2026/04/14/anthropic-adds-repeatable-routines-feature-to-claude-code-heres-how-it-works/"
+  ],
+  "selectedTopic": {
+    "topic": "Claude Code Routines",
+    "category": "ai",
+    "titleCandidates": [
+      "클로드 코드 루틴이 크론잡을 밀어내는 순간",
+      "클로드 코드 루틴이 야간 자동화를 집어삼킨다",
+      "클로드 코드 루틴이 개발팀 운영을 바꾸는 이유"
+    ],
+    "title": "클로드 코드 루틴이 크론잡을 밀어내는 순간",
+    "slug": "claude-code-routines",
+    "reason": "GeekNews와 Hacker News에서 동시에 주목받았고 Anthropic 공식 발표와 문서, API 레퍼런스가 같은 날 공개돼 실시간성과 개발자 체감도가 가장 높았다."
+  },
+  "contentChecks": {
+    "charCount": 5174,
+    "heroImageDuplicatedInBody": false,
+    "internalLinks": [
+      "/ai/2026/04/09/claude-managed-agents-launch.html",
+      "/ai/2026/04/10/claude-advisor-strategy.html"
+    ],
+    "targetKeywords": [
+      "Claude Code Routines",
+      "클로드 코드 루틴"
+    ],
+    "h2Count": 5,
+    "h3Count": 8,
+    "encodingReplacementCharCount": 0
+  },
+  "ChatGPT": {
+    "prompts": [
+      "Generate a modern tech blog hero image 16:9 aspect ratio 1200x675. Scene: a bright cloud operations control room where scheduled AI coding agents monitor GitHub pull requests, webhook events, and deployment dashboards, symbolizing Claude Code Routines replacing cron jobs. Colors: bright and vibrant palette, white and light gray background with vivid electric blue, teal, coral, and amber accents. Avoid dark or moody tones. Style: modern tech illustration, clean and professional, high contrast, visually energetic, suitable for a tech blog header. No text, no watermarks.",
+      "Generate a technical illustration 16:9 aspect ratio 1200x675. Scene: a clean white architecture board showing a Claude Code routine triggered by a deploy webhook, flowing through GitHub pull request checks, log analysis, and release approval cards, with a scheduled cron icon fading into the background to show the shift from cron jobs to cloud routines. Colors: light or white background with bright electric blue, vivid green, coral, and violet accents. Avoid dark backgrounds entirely. Style: clean flat design, modern tech illustration, high brightness, professional. No text labels, no watermarks."
+    ],
+    "rawDownloads": [
+      {
+        "path": "/home/mhhan/Downloads/ChatGPT Image 2026년 4월 15일 오후 07_07_08.png",
+        "downloadedAt": "2026-04-15 19:07:09.002593893 +0900",
+        "size": 2082555,
+        "sha256": "8a24dad3dd42e31484e9f87523cf6a30e9208357a280cf36d12e5d96b9ddef2c"
+      },
+      {
+        "path": "/home/mhhan/Downloads/ChatGPT Image 2026년 4월 15일 오후 07_08_38.png",
+        "downloadedAt": "2026-04-15 19:08:39.200169387 +0900",
+        "size": 2122283,
+        "sha256": "42ad026e5e43a167eab989e1b2f06be09244029bf90b1d6af510e95e7c69939d"
+      }
+    ],
+    "finalImages": [
+      {
+        "resourcePath": "/home/mhhan/workspace/.resource/claude-code-routines-1.png",
+        "projectPath": "/home/mhhan/workspace/moony01.github.io/static/img/posts/claude-code-routines/claude-code-routines-1.png",
+        "size": 2082555,
+        "sha256": "8a24dad3dd42e31484e9f87523cf6a30e9208357a280cf36d12e5d96b9ddef2c",
+        "copiedAt": "2026-04-15 19:09:04.670324554 +0900"
+      },
+      {
+        "resourcePath": "/home/mhhan/workspace/.resource/claude-code-routines-2.png",
+        "projectPath": "/home/mhhan/workspace/moony01.github.io/static/img/posts/claude-code-routines/claude-code-routines-2.png",
+        "size": 2122283,
+        "sha256": "42ad026e5e43a167eab989e1b2f06be09244029bf90b1d6af510e95e7c69939d",
+        "copiedAt": "2026-04-15 19:09:04.673324572 +0900"
+      }
+    ]
+  },
+  "deploy": {
+    "commitSha": "3e7f4b83e0d8c1e2835eaae132eca00b7e0283f5",
+    "productionSha": "3e7f4b83e0d8c1e2835eaae132eca00b7e0283f5",
+    "runUrl": "https://github.com/moony01/moony01.github.io/actions/runs/24448770199",
+    "deploymentApiUrl": "https://api.github.com/repos/moony01/moony01.github.io/deployments/4374845268",
+    "productionStatus": "success",
+    "liveUrl": "https://moony01.com/ai/2026/04/15/claude-code-routines.html",
+    "verifiedAssets": [
+      "https://moony01.com/static/img/posts/claude-code-routines/claude-code-routines-1.webp",
+      "https://moony01.com/static/img/posts/claude-code-routines/claude-code-routines-2.webp"
+    ]
+  },
+  "gsc": {
+    "property": "sc-domain:moony01.com",
+    "requestedUrls": [
+      "https://moony01.com/ai/2026/04/15/claude-code-routines.html"
+    ],
+    "status": "색인 생성 요청됨"
+  },
+  "artifacts": {
+    "topScreenshot": "/home/mhhan/workspace/moony01.github.io/runtime/deploy-verify-top-claude-code-routines.png",
+    "bodyScreenshot": "/home/mhhan/workspace/moony01.github.io/runtime/deploy-verify-body-claude-code-routines.png",
+    "gscScreenshot": "/home/mhhan/workspace/moony01.github.io/runtime/gsc-claude-code-routines-final.png"
+  },
+  "lastError": null,
+  "notes": [
+    "Local Render Gate는 현재 작업 머신에 Ruby/Bundler가 없어 실행하지 못했다.",
+    "대신 실제 배포 URL과 두 이미지 웹프 자산을 공개 사이트에서 200 응답과 렌더링으로 검증했다."
+  ]
+}

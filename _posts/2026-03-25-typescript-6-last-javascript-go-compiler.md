@@ -14,7 +14,26 @@ published: true
 
 **JavaScript로 만든 마지막 TypeScript.** 다음 버전 TypeScript 7.0은 Go로 완전히 재작성됩니다. 10년 넘게 JavaScript 위에서 돌아가던 TypeScript 컴파일러가 이제 다른 언어로 갈아탑니다. 개발자 커뮤니티에서는 즉시 "이게 무슨 말이야?"라는 반응이 쏟아졌고, Hacker News와 Reddit은 하루 종일 이 이야기로 뜨거웠습니다.
 
-![TypeScript 6.0 히어로 이미지](/static/img/posts/typescript-6-last-javascript-go-compiler/typescript-6-last-javascript-go-compiler-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/typescript-6-last-javascript-go-compiler/typescript-6-last-javascript-go-compiler-1-400.webp 400w,
+            /static/img/posts/typescript-6-last-javascript-go-compiler/typescript-6-last-javascript-go-compiler-1-800.webp 800w,
+            /static/img/posts/typescript-6-last-javascript-go-compiler/typescript-6-last-javascript-go-compiler-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/typescript-6-last-javascript-go-compiler/typescript-6-last-javascript-go-compiler-1-400.png 400w,
+            /static/img/posts/typescript-6-last-javascript-go-compiler/typescript-6-last-javascript-go-compiler-1-800.png 800w,
+            /static/img/posts/typescript-6-last-javascript-go-compiler/typescript-6-last-javascript-go-compiler-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/typescript-6-last-javascript-go-compiler/typescript-6-last-javascript-go-compiler-1.png" 
+    alt="TypeScript 6.0 히어로 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -56,7 +75,26 @@ const value = map.upsert(key, () => defaultValue);
 
 메모리 사용량도 기존 대비 약 **50% 감소**합니다. 대형 프로젝트에서 TypeScript 언어 서버가 메모리를 수 GB씩 잡아먹는 문제가 실질적으로 해소될 가능성이 있습니다.
 
-![TypeScript Go 컴파일러 성능 비교](/static/img/posts/typescript-6-last-javascript-go-compiler/typescript-6-last-javascript-go-compiler-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/typescript-6-last-javascript-go-compiler/typescript-6-last-javascript-go-compiler-2-400.webp 400w,
+            /static/img/posts/typescript-6-last-javascript-go-compiler/typescript-6-last-javascript-go-compiler-2-800.webp 800w,
+            /static/img/posts/typescript-6-last-javascript-go-compiler/typescript-6-last-javascript-go-compiler-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/typescript-6-last-javascript-go-compiler/typescript-6-last-javascript-go-compiler-2-400.png 400w,
+            /static/img/posts/typescript-6-last-javascript-go-compiler/typescript-6-last-javascript-go-compiler-2-800.png 800w,
+            /static/img/posts/typescript-6-last-javascript-go-compiler/typescript-6-last-javascript-go-compiler-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/typescript-6-last-javascript-go-compiler/typescript-6-last-javascript-go-compiler-2.png" 
+    alt="TypeScript Go 컴파일러 성능 비교" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 

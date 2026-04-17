@@ -19,7 +19,26 @@ Karpathy는 단 한 줄도 직접 쓰지 않았다.
 
 {% include pre-version.html %}
 
-![Karpathy LLM 지식베이스 — RAG 없이 40만 단어 마크다운 위키를 AI가 자동 구축하는 워크플로우](/static/img/posts/karpathy-llm-wiki-rag-free/karpathy-llm-wiki-rag-free-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/karpathy-llm-wiki-rag-free/karpathy-llm-wiki-rag-free-1-400.webp 400w,
+            /static/img/posts/karpathy-llm-wiki-rag-free/karpathy-llm-wiki-rag-free-1-800.webp 800w,
+            /static/img/posts/karpathy-llm-wiki-rag-free/karpathy-llm-wiki-rag-free-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/karpathy-llm-wiki-rag-free/karpathy-llm-wiki-rag-free-1-400.png 400w,
+            /static/img/posts/karpathy-llm-wiki-rag-free/karpathy-llm-wiki-rag-free-1-800.png 800w,
+            /static/img/posts/karpathy-llm-wiki-rag-free/karpathy-llm-wiki-rag-free-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/karpathy-llm-wiki-rag-free/karpathy-llm-wiki-rag-free-1.png" 
+    alt="Karpathy LLM 지식베이스 — RAG 없이 40만 단어 마크다운 위키를 AI가 자동 구축하는 워크플로우" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## LLM 위키의 구조 — raw/에 넣으면 AI가 씁니다
 
@@ -100,7 +119,26 @@ raw/에 새 파일이 추가됐어. wiki/index.md와 기존 기사들을 참고�
 
 [이전에 다뤘던 OpenAI의 Python 생태계 인수](/ai/2026/03/26/openai-astral-python-tools-acquisition.html)처럼, AI 도구가 개발자 워크플로우를 재편하는 속도가 갈수록 빨라지고 있다. 이 시스템은 단 30분 안에 구축할 수 있고, 운영 비용은 LLM API 호출비가 전부다.
 
-![LLM 지식베이스 컴파일 구조 — raw 디렉토리에서 구조화된 마크다운 위키로 변환되는 과정](/static/img/posts/karpathy-llm-wiki-rag-free/karpathy-llm-wiki-rag-free-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/karpathy-llm-wiki-rag-free/karpathy-llm-wiki-rag-free-2-400.webp 400w,
+            /static/img/posts/karpathy-llm-wiki-rag-free/karpathy-llm-wiki-rag-free-2-800.webp 800w,
+            /static/img/posts/karpathy-llm-wiki-rag-free/karpathy-llm-wiki-rag-free-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/karpathy-llm-wiki-rag-free/karpathy-llm-wiki-rag-free-2-400.png 400w,
+            /static/img/posts/karpathy-llm-wiki-rag-free/karpathy-llm-wiki-rag-free-2-800.png 800w,
+            /static/img/posts/karpathy-llm-wiki-rag-free/karpathy-llm-wiki-rag-free-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/karpathy-llm-wiki-rag-free/karpathy-llm-wiki-rag-free-2.png" 
+    alt="LLM 지식베이스 컴파일 구조 — raw 디렉토리에서 구조화된 마크다운 위키로 변환되는 과정" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 

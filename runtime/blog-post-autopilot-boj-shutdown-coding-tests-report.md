@@ -1,0 +1,23 @@
+## blog-post-autopilot
+
+- 최종 상태: FAILED
+- runStartedAt: 2026-04-16T19:07:31+09:00
+- runEndedAt: 2026-04-16T19:10:10+09:00
+- 선택 주제: BOJ 서비스 종료
+- 선택 제목: 백준 종료 이후 코딩테스트 판은 어떻게 바뀌나
+- slug: boj-shutdown-coding-tests
+- PASS 단계: Research Gate, Content Gate
+- FAIL 단계: Image Gate
+- 스킵 단계: Local Render Gate, Deploy Gate, GSC Gate
+- 재시도 횟수:
+  - Image Gate: 8
+- 마지막 오류:
+  - Playwright browser failed to launch Chrome in headed mode: Missing X server or $DISPLAY.
+  - Xvfb를 별도로 올린 뒤에도 `mcp__playwright__browser_*`는 같은 오류로 종료됨.
+- 산출물:
+  - `_posts/2026-04-16-boj-shutdown-coding-tests.md`
+  - `runtime/blog-post-autopilot-boj-shutdown-coding-tests.state.json`
+  - `runtime/blog-post-autopilot-boj-shutdown-coding-tests-evidence.json`
+- 남은 수동 조치:
+  - Playwright MCP가 headless 또는 유효한 DISPLAY 환경에서 실행되도록 고친 뒤 이미지 게이트부터 재개
+  - ChatGPT 원본 이미지 2개 생성 완료 전까지 게시 금지

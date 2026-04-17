@@ -14,7 +14,26 @@ PR을 올리면 며칠이 지나도 아무도 안 보고, 누군가 드디어 �
 
 사실 저도 처음엔 "코드 리뷰가 죽었다"는 말을 과장이라 생각했습니다. 그런데 숫자를 보고 나서 생각이 완전히 바뀌었어요.
 
-![히어로 이미지](/static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-1-400.webp 400w,
+            /static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-1-800.webp 800w,
+            /static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-1-400.png 400w,
+            /static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-1-800.png 800w,
+            /static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-1.png" 
+    alt="히어로 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -51,7 +70,26 @@ AI 에이전트는 한 번에 수백, 수천 줄을 생성합니다. 생성 과�
 
 그럼 코드 리뷰를 없애고 그냥 배포하면 되는 걸까요? 당연히 아닙니다. 중요한 건 **검증의 위치를 옮기는 것**입니다.
 
-![본문 이미지](/static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-2-400.webp 400w,
+            /static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-2-800.webp 800w,
+            /static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-2-400.png 400w,
+            /static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-2-800.png 800w,
+            /static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-2.png" 
+    alt="본문 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 

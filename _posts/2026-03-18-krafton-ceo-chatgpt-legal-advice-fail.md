@@ -14,7 +14,26 @@ published: true
 
 사건의 주인공은 한국 최대 게임사 크래프톤(Krafton)의 CEO 김창한. 그리고 그가 막으려 했던 건 **약 2억 5천만 달러(한화 약 2,750억 원)의 개발자 보너스**였습니다.
 
-![히어로 이미지](/static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-1-400.webp 400w,
+            /static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-1-800.webp 800w,
+            /static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-1-400.png 400w,
+            /static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-1-800.png 800w,
+            /static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-1.png" 
+    alt="히어로 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -42,7 +61,26 @@ published: true
 
 자신의 법무팀이 "이건 계약 위반"이라고 경고했음에도 불구하고.
 
-![본문 이미지](/static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-2-400.webp 400w,
+            /static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-2-800.webp 800w,
+            /static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-2-400.png 400w,
+            /static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-2-800.png 800w,
+            /static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-2.png" 
+    alt="본문 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 

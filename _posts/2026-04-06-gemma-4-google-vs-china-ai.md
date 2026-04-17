@@ -65,7 +65,26 @@ E4B 모델은 8GB VRAM이면 충분히 돌아간다. 개인 노트북에서 무�
 
 ## 벤치마크 현실: 3위의 의미
 
-![Gemma 4와 중국 오픈소스 AI 모델 벤치마크 비교표](/static/img/posts/gemma-4-google-vs-china-ai/gemma-4-google-vs-china-ai-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/gemma-4-google-vs-china-ai/gemma-4-google-vs-china-ai-2-400.webp 400w,
+            /static/img/posts/gemma-4-google-vs-china-ai/gemma-4-google-vs-china-ai-2-800.webp 800w,
+            /static/img/posts/gemma-4-google-vs-china-ai/gemma-4-google-vs-china-ai-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/gemma-4-google-vs-china-ai/gemma-4-google-vs-china-ai-2-400.png 400w,
+            /static/img/posts/gemma-4-google-vs-china-ai/gemma-4-google-vs-china-ai-2-800.png 800w,
+            /static/img/posts/gemma-4-google-vs-china-ai/gemma-4-google-vs-china-ai-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/gemma-4-google-vs-china-ai/gemma-4-google-vs-china-ai-2.png" 
+    alt="Gemma 4와 중국 오픈소스 AI 모델 벤치마크 비교표" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 Arena AI 리더보드는 사용자들이 직접 두 모델을 비교하고 더 나은 쪽을 선택하는 방식으로 점수를 산출한다. 단순히 정해진 테스트셋 점수가 아니라 실제 사용 맥락에서의 선호도를 반영한다는 점에서 다른 벤치마크보다 신뢰도가 높다고 평가받는다.
 

@@ -14,7 +14,26 @@ published: true
 
 그의 핵심 주장은 단순합니다. "배워야 한다. 그런데 방법이 바뀌어야 한다." 그리고 AI를 가장 위험하게 쓰는 사람은 경험 많은 시니어가 아니라 **이제 막 시작한 주니어 개발자**라고 경고합니다.
 
-![htmx 창시자의 AI 시대 프로그래밍 논쟁](/static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-1-400.webp 400w,
+            /static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-1-800.webp 800w,
+            /static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-1-400.png 400w,
+            /static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-1-800.png 800w,
+            /static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-1.png" 
+    alt="htmx 창시자의 AI 시대 프로그래밍 논쟁" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -42,7 +61,26 @@ Gross의 주장은 이렇습니다.
 
 문제는 이겁니다. 기업들이 "주니어 업무는 AI가 대체한다"며 신입 채용을 줄이고 있습니다. 그 결과, 신입 자리가 사실상 시니어 아키텍트 수준의 역할을 요구하는 모순적 상황이 발생했습니다. 코딩을 해본 경험 없이 어떻게 아키텍처를 설계합니까?
 
-![AI 시대 프로그래밍 학습 딜레마](/static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-2-400.webp 400w,
+            /static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-2-800.webp 800w,
+            /static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-2-400.png 400w,
+            /static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-2-800.png 800w,
+            /static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-2.png" 
+    alt="AI 시대 프로그래밍 학습 딜레마" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 

@@ -12,7 +12,26 @@ published: true
 
 보안 업계가 수십 년간 의존해 온 인간 중심의 코드 리뷰와 퍼징(fuzzing)이 AI에게 자리를 내줘야 하는 시대가 온 것일까요?
 
-![AI 보안 감사](/static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-1-400.webp 400w,
+            /static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-1-800.webp 800w,
+            /static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-1-400.png 400w,
+            /static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-1-800.png 800w,
+            /static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-1.png" 
+    alt="AI 보안 감사" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -77,7 +96,26 @@ Anthropic 팀은 발견된 취약점에 대한 PoC(Proof of Concept) 익스플�
 
 Mozilla가 이 접근법을 공식적으로 채택했다는 것은, 오픈소스 보안의 미래가 바뀌고 있음을 의미합니다. Chrome, Linux 커널, OpenSSL 같은 대형 오픈소스 프로젝트에서도 유사한 AI 보안 감사가 진행될 가능성이 높습니다.
 
-![AI와 인간의 보안 협업](/static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-2-400.webp 400w,
+            /static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-2-800.webp 800w,
+            /static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-2-400.png 400w,
+            /static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-2-800.png 800w,
+            /static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-2.png" 
+    alt="AI와 인간의 보안 협업" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 개발자가 지금 당장 주목해야 할 3가지
 

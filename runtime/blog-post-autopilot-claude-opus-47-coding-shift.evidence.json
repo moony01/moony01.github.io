@@ -1,0 +1,87 @@
+{
+  "runStartedAt": "2026-04-17T12:03:07+09:00",
+  "runEndedAt": "2026-04-17T12:10:02+09:00",
+  "workflow": "blog-post-autopilot",
+  "slug": "claude-opus-47-coding-shift",
+  "stepResults": {
+    "research": {
+      "status": "PASS",
+      "attempts": 1,
+      "notes": "Collected live signals from GeekNews, Hacker News, Anthropic official announcement, Claude platform release notes, and comparative search queries for Codex and Qwen."
+    },
+    "content": {
+      "status": "PASS",
+      "attempts": 1,
+      "notes": "Draft created in Korean with H2 and H3 hierarchy, 2 ad includes, 3 internal links, 1 executable code block, and published=false pending fresh ChatGPT images."
+    },
+    "image": {
+      "status": "FAIL",
+      "attempts": 8,
+      "notes": "Playwright browser recovery loop exhausted. Direct mcp__playwright__browser_navigate, browser_snapshot, browser_tabs, and a nested Codex smoke test all failed with the same launch error: Missing X server or $DISPLAY. Because fresh ChatGPT images could not be generated and downloaded, publish, git commit, push, deployment verification, and GSC registration were all blocked."
+    },
+    "localRender": {
+      "status": "SKIPPED",
+      "attempts": 0,
+      "notes": "Not attempted because the image gate failed first."
+    },
+    "deploy": {
+      "status": "SKIPPED",
+      "attempts": 0,
+      "notes": "Blocked by the failed image gate. The draft remains unpublished and no git commit or push was executed."
+    },
+    "gsc": {
+      "status": "SKIPPED",
+      "attempts": 0,
+      "notes": "Blocked by the failed image gate and skipped deploy step."
+    }
+  },
+  "researchUrls": [
+    "https://news.hada.io/",
+    "https://news.ycombinator.com/",
+    "https://www.anthropic.com/news/claude-opus-4-7",
+    "https://platform.claude.com/docs/en/release-notes/overview",
+    "https://openai.com/index/codex-for-almost-everything/",
+    "https://qwen.ai/"
+  ],
+  "researchSummary": {
+    "selectedTopic": "Claude Opus 4.7 release and the shift from supervised coding to self-verifying coding agents",
+    "scoring": {
+      "realtime": 30,
+      "controversy": 22,
+      "exposure": 21,
+      "developerImpact": 15,
+      "seoPotential": 9,
+      "total": 97
+    },
+    "runnerUp": {
+      "topic": "Codex for almost everything",
+      "total": 94,
+      "penalty": "Strong OpenAI visibility, but slightly lower cross-community urgency than the same-day Claude Opus 4.7 launch that took the top HN slot."
+    }
+  },
+  "selectedTitleCandidates": [
+    "클로드 오푸스 47이 코딩 감시자를 지운 날",
+    "클로드 오푸스 47이 사람 검수를 밀어내는 순간",
+    "클로드 오푸스 47이 코딩판을 다시 갈아엎었다"
+  ],
+  "selectedTitle": "클로드 오푸스 47이 코딩 감시자를 지운 날",
+  "ChatGPT": {
+    "prompts": [],
+    "rawDownloads": [],
+    "finalImages": []
+  },
+  "deploy": {
+    "commitSha": null,
+    "cloudflare": {
+      "productionSha": null
+    },
+    "verifiedUrl": null,
+    "workflowRunUrl": null,
+    "assetChecks": [],
+    "screenshots": []
+  },
+  "gsc": {
+    "requestedUrls": []
+  },
+  "lastError": "Error: server: Failed to launch the browser process. Missing X server or $DISPLAY."
+}

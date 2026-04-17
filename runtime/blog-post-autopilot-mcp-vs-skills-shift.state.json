@@ -1,0 +1,21 @@
+{
+  "workflow": "blog-post-autopilot",
+  "slug": "mcp-vs-skills-shift",
+  "status": "success",
+  "lastCompletedStep": "gsc_gate_passed",
+  "runStartedAt": "2026-04-10T18:10:00+09:00",
+  "updatedAt": "2026-04-10T19:34:00+09:00",
+  "selectedTopic": {
+    "topic": "MCP vs Skills debate and live MCP adoption",
+    "category": "others",
+    "title": "지금 스킬보다 MCP가 더 무서운 이유",
+    "slug": "mcp-vs-skills-shift"
+  },
+  "stepResults": {
+    "research": "PASS",
+    "content": "PASS",
+    "image": "PASS",
+    "deploy": "PASS",
+    "gsc": "PASS"
+  }
+}

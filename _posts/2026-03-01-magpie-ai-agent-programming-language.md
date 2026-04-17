@@ -10,7 +10,26 @@ published: true
 
 솔직히 제목을 보고 "또 AI 마케팅이겠지"라고 생각하셨을 겁니다. 저도 처음엔 그랬습니다. 그런데 Magpie라는 프로그래밍 언어의 공식 문서를 열어본 순간, 등에 소름이 돋았습니다. 이 언어는 **인간이 읽기 편한 코드를 포기**하는 대신, AI 에이전트가 **단 한 번에 완벽한 코드를 생성**하는 데 올인한 언어입니다.
 
-![Magpie - AI 에이전트 전용 프로그래밍 언어](/static/img/posts/magpie-ai-agent-programming-language/magpie-ai-agent-programming-language-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/magpie-ai-agent-programming-language/magpie-ai-agent-programming-language-1-400.webp 400w,
+            /static/img/posts/magpie-ai-agent-programming-language/magpie-ai-agent-programming-language-1-800.webp 800w,
+            /static/img/posts/magpie-ai-agent-programming-language/magpie-ai-agent-programming-language-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/magpie-ai-agent-programming-language/magpie-ai-agent-programming-language-1-400.png 400w,
+            /static/img/posts/magpie-ai-agent-programming-language/magpie-ai-agent-programming-language-1-800.png 800w,
+            /static/img/posts/magpie-ai-agent-programming-language/magpie-ai-agent-programming-language-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/magpie-ai-agent-programming-language/magpie-ai-agent-programming-language-1.png" 
+    alt="Magpie - AI 에이전트 전용 프로그래밍 언어" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 지금까지 프로그래밍 언어는 인간의 타이핑 효율을 위해 설계되었습니다. Python의 간결함, JavaScript의 유연함, Rust의 안전성 — 모두 **인간 개발자의 생산성**을 기준으로 만들어졌죠. 그런데 2026년, 코드를 작성하는 주체가 바뀌고 있습니다. Claude, GPT, Gemini 같은 LLM이 직접 코드를 쓰는 시대에, "인간에게 최적화된 문법"이 과연 맞는 방향일까요?
 
@@ -47,7 +66,26 @@ Magpie 코드가 훨씬 길죠? 인간에게는 비효율적입니다. 하지만
 
 맞습니다. **Rust와 동일한 실행 속도**에, 컴파일은 오히려 더 빠릅니다. LLVM 백엔드를 사용해서 네이티브 머신 코드로 컴파일되기 때문입니다. 그리고 가장 중요한 수치 — **어휘 복잡도 0.107**. Rust(0.225)의 절반도 안 됩니다. 어휘 복잡도가 낮다는 건 AI가 예측해야 할 토큰의 다양성이 적다는 뜻이고, 곧 **첫 번째 시도에서 완벽한 코드를 생성할 확률이 높아진다**는 의미입니다.
 
-![Magpie 성능 벤치마크 비교](/static/img/posts/magpie-ai-agent-programming-language/magpie-ai-agent-programming-language-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/magpie-ai-agent-programming-language/magpie-ai-agent-programming-language-2-400.webp 400w,
+            /static/img/posts/magpie-ai-agent-programming-language/magpie-ai-agent-programming-language-2-800.webp 800w,
+            /static/img/posts/magpie-ai-agent-programming-language/magpie-ai-agent-programming-language-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/magpie-ai-agent-programming-language/magpie-ai-agent-programming-language-2-400.png 400w,
+            /static/img/posts/magpie-ai-agent-programming-language/magpie-ai-agent-programming-language-2-800.png 800w,
+            /static/img/posts/magpie-ai-agent-programming-language/magpie-ai-agent-programming-language-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/magpie-ai-agent-programming-language/magpie-ai-agent-programming-language-2.png" 
+    alt="Magpie 성능 벤치마크 비교" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 메모리 관리 - Rust의 장점만 가져왔다
 

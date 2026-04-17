@@ -1,0 +1,14 @@
+{
+  "workflow": "blog-post-autopilot",
+  "slug": "claude-advisor-strategy",
+  "topic": "Advisor 전략: Opus를 조언자로 활용해 Sonnet의 지능을 끌어올리기",
+  "currentStep": "image_failed",
+  "steps": {
+    "research": "passed",
+    "content": "passed",
+    "image": "failed",
+    "deploy": "pending",
+    "gsc": "pending"
+  },
+  "updatedAt": "2026-04-10T12:07:30+09:00"
+}

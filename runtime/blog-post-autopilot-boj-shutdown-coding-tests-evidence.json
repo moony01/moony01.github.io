@@ -1,0 +1,99 @@
+{
+  "runStartedAt": "2026-04-16T19:07:31+09:00",
+  "runEndedAt": "2026-04-16T19:10:10+09:00",
+  "selectedTopic": {
+    "topic": "BOJ 서비스 종료",
+    "category": "others",
+    "slug": "boj-shutdown-coding-tests",
+    "titleCandidates": [
+      "백준 종료 이후 코딩테스트 판은 어떻게 바뀌나",
+      "백준 서비스 종료가 남긴 세 가지 공백",
+      "백준 종료 공지가 개발자 채용에 던진 질문"
+    ],
+    "selectedTitle": "백준 종료 이후 코딩테스트 판은 어떻게 바뀌나"
+  },
+  "stepResults": {
+    "Research Gate": "PASS",
+    "Content Gate": "PASS",
+    "Image Gate": "FAIL",
+    "Local Render Gate": "SKIPPED",
+    "Deploy Gate": "SKIPPED",
+    "GSC Gate": "SKIPPED"
+  },
+  "queries": [
+    "site:news.hada.io 2026 4월 개발자 화제",
+    "hottest developer news this week April 2026",
+    "most discussed tech topic today developers April 2026",
+    "GitHub trending repositories this week April 2026",
+    "백준 서비스 종료 2026 4월",
+    "site:news.hada.io BOJ 서비스 종료"
+  ],
+  "researchUrls": [
+    "https://news.hada.io/",
+    "https://news.hada.io/topic?id=28550",
+    "https://www.acmicpc.net/board/view/165799",
+    "https://help.solved.ac/ko/updates/260415",
+    "https://okky.kr/articles/1555418",
+    "https://www.acmicpc.net/board/view/165846"
+  ],
+  "researchScoring": [
+    {
+      "topic": "BOJ 서비스 종료",
+      "category": "others",
+      "realtime": 29,
+      "controversy": 22,
+      "exposure": 18,
+      "developerImpact": 15,
+      "seoPotential": 8,
+      "total": 92
+    },
+    {
+      "topic": "Claude Code vs Codex 비교",
+      "category": "ai",
+      "realtime": 25,
+      "controversy": 17,
+      "exposure": 16,
+      "developerImpact": 13,
+      "seoPotential": 7,
+      "total": 78
+    },
+    {
+      "topic": "KT SLA 자동 환급 도구",
+      "category": "others",
+      "realtime": 23,
+      "controversy": 15,
+      "exposure": 17,
+      "developerImpact": 12,
+      "seoPotential": 8,
+      "total": 75
+    }
+  ],
+  "ChatGPT": {
+    "prompts": [
+      "Generate a modern tech blog hero image (16:9 aspect ratio, 1200x675px). Scene: a bright coding contest dashboard dissolving into branching study paths on multiple laptop screens, symbolizing a major online judge shutting down and developers searching for new routes. Colors: bright and vibrant palette with white and light gray background, vivid blue, coral, and green accents. Avoid dark or moody tones. Style: modern tech illustration, clean and professional, high contrast, visually energetic, suitable for a tech blog header. No text, no watermarks.",
+      "Generate a technical illustration (16:9, 1200x675px). Scene: developers moving algorithm notebooks, Git repositories, and study cards from one central problem solving hub to several new platforms, showing a coding test workflow migration. Colors: light or white background with bright, saturated accent colors such as electric blue, vivid green, and coral. Avoid dark backgrounds entirely. Style: clean flat design, modern tech illustration, high brightness, professional. No text labels, no watermarks."
+    ],
+    "rawDownloads": [],
+    "finalImages": [],
+    "retryCount": 8,
+    "lastError": "Playwright browser failed to launch Chrome in headed mode: Missing X server or $DISPLAY."
+  },
+  "retryCounts": {
+    "Image Gate": 8,
+    "Local Render Gate": 0,
+    "Deploy Gate": 0,
+    "GSC Gate": 0
+  },
+  "deploy": {
+    "commitSha": null,
+    "productionSha": null
+  },
+  "cloudflare": {
+    "productionSha": null
+  },
+  "gsc": {
+    "requestedUrls": []
+  },
+  "finalStatus": "FAILED",
+  "failureReason": "Image Gate failed because mcp__playwright__browser_* could not launch a browser session even after 8 recovery attempts, including an Xvfb bootstrap attempt. Publishing was halted by workflow rules."
+}

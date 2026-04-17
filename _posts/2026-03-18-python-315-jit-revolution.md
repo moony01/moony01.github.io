@@ -14,7 +14,26 @@ published: true
 
 374점, 195개 댓글. 이 정도 반응이면 Python 커뮤니티가 얼마나 오래 이 순간을 기다려왔는지 알 수 있습니다. 단순한 성능 업데이트가 아닙니다. Python이 언어로서의 한계라고 여겨졌던 경계 하나가 무너지는 장면입니다.
 
-![히어로 이미지](/static/img/posts/python-315-jit-revolution/python-315-jit-revolution-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/python-315-jit-revolution/python-315-jit-revolution-1-400.webp 400w,
+            /static/img/posts/python-315-jit-revolution/python-315-jit-revolution-1-800.webp 800w,
+            /static/img/posts/python-315-jit-revolution/python-315-jit-revolution-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/python-315-jit-revolution/python-315-jit-revolution-1-400.png 400w,
+            /static/img/posts/python-315-jit-revolution/python-315-jit-revolution-1-800.png 800w,
+            /static/img/posts/python-315-jit-revolution/python-315-jit-revolution-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/python-315-jit-revolution/python-315-jit-revolution-1.png" 
+    alt="히어로 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -84,7 +103,26 @@ def calculate(n):
 
 그리고 LLVM은 **빌드 타임에만 필요**합니다. 배포된 Python 바이너리를 사용하는 일반 개발자는 아무것도 설치할 필요 없이 JIT 혜택을 받습니다.
 
-![본문 이미지](/static/img/posts/python-315-jit-revolution/python-315-jit-revolution-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/python-315-jit-revolution/python-315-jit-revolution-2-400.webp 400w,
+            /static/img/posts/python-315-jit-revolution/python-315-jit-revolution-2-800.webp 800w,
+            /static/img/posts/python-315-jit-revolution/python-315-jit-revolution-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/python-315-jit-revolution/python-315-jit-revolution-2-400.png 400w,
+            /static/img/posts/python-315-jit-revolution/python-315-jit-revolution-2-800.png 800w,
+            /static/img/posts/python-315-jit-revolution/python-315-jit-revolution-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/python-315-jit-revolution/python-315-jit-revolution-2.png" 
+    alt="본문 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 

@@ -10,7 +10,26 @@ published: true
 
 "코드를 직접 쓰지 않는다"는 말이 이제 허언이 아니다. OpenAI 팀이 실제로 5개월간 수동으로 코드를 한 줄도 쓰지 않고 소프트웨어 제품을 만들었다. 그 결과물? 100만 줄이 넘는 코드베이스. 이 실험이 불편한 이유는, 그게 딱 당신이 하는 일이기 때문이다.
 
-![히어로 이미지](/static/img/posts/harness-engineering-agent-first-coding/harness-engineering-agent-first-coding-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/harness-engineering-agent-first-coding/harness-engineering-agent-first-coding-1-400.webp 400w,
+            /static/img/posts/harness-engineering-agent-first-coding/harness-engineering-agent-first-coding-1-800.webp 800w,
+            /static/img/posts/harness-engineering-agent-first-coding/harness-engineering-agent-first-coding-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/harness-engineering-agent-first-coding/harness-engineering-agent-first-coding-1-400.png 400w,
+            /static/img/posts/harness-engineering-agent-first-coding/harness-engineering-agent-first-coding-1-800.png 800w,
+            /static/img/posts/harness-engineering-agent-first-coding/harness-engineering-agent-first-coding-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/harness-engineering-agent-first-coding/harness-engineering-agent-first-coding-1.png" 
+    alt="히어로 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -57,7 +76,26 @@ OpenAI가 새롭게 정의한 개념인 **하네스 엔지니어링(Harness Engi
 반복 x 1,500 = 100만 줄 코드베이스
 ```
 
-![본문 이미지](/static/img/posts/harness-engineering-agent-first-coding/harness-engineering-agent-first-coding-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/harness-engineering-agent-first-coding/harness-engineering-agent-first-coding-2-400.webp 400w,
+            /static/img/posts/harness-engineering-agent-first-coding/harness-engineering-agent-first-coding-2-800.webp 800w,
+            /static/img/posts/harness-engineering-agent-first-coding/harness-engineering-agent-first-coding-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/harness-engineering-agent-first-coding/harness-engineering-agent-first-coding-2-400.png 400w,
+            /static/img/posts/harness-engineering-agent-first-coding/harness-engineering-agent-first-coding-2-800.png 800w,
+            /static/img/posts/harness-engineering-agent-first-coding/harness-engineering-agent-first-coding-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/harness-engineering-agent-first-coding/harness-engineering-agent-first-coding-2.png" 
+    alt="본문 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 

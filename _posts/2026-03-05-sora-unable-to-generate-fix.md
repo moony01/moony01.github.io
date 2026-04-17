@@ -15,7 +15,26 @@ Sora로 영상을 만들려는데 갑자기 이런 메시지가 뜬다.
 
 프롬프트를 바꿔봐도, 새로고침을 해봐도 똑같은 화면. Plus나 Pro 구독자도 예외가 없다. 원인은 하나가 아니다. 이 오류가 뜨는 경우는 최소 일곱 가지 시나리오가 있고, 시나리오마다 해결 방법이 다르다.
 
-![Sora 영상 생성 실패 오류 화면과 원인별 해결 흐름도](/static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-1-400.webp 400w,
+            /static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-1-800.webp 800w,
+            /static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-1-400.png 400w,
+            /static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-1-800.png 800w,
+            /static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-1.png" 
+    alt="Sora 영상 생성 실패 오류 화면과 원인별 해결 흐름도" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -66,7 +85,26 @@ Sora는 구독 플랜별로 월간 크레딧이 정해져 있다. 크레딧이 0
 - 개인 IP(가정용 IP)로 접속하면 대부분 해결됨
 - OpenAI API를 직접 호출하면 클라이언트 IP 제한을 우회할 수 있다
 
-![Sora 오류 유형별 진단 플로우 — IP 차단, 크레딧 소진, 콘텐츠 필터 분기점](/static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-2-400.webp 400w,
+            /static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-2-800.webp 800w,
+            /static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-2-400.png 400w,
+            /static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-2-800.png 800w,
+            /static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-2.png" 
+    alt="Sora 오류 유형별 진단 플로우 — IP 차단, 크레딧 소진, 콘텐츠 필터 분기점" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 원인 5: 지역 제한
 

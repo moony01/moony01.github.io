@@ -1,0 +1,114 @@
+{
+  "runStartedAt": "2026-04-17T19:06:04+09:00",
+  "runEndedAt": "2026-04-17T19:11:00+09:00",
+  "workflow": "blog-post-autopilot",
+  "slug": "codex-computer-use-shift",
+  "topic": "OpenAI Codex April 16, 2026 workspace expansion update",
+  "title": "코덱스가 IDE를 넘어 컴퓨터를 먹는 순간",
+  "category": "ai",
+  "stepResults": {
+    "Research": {
+      "status": "PASS",
+      "attempts": 1,
+      "lastError": null
+    },
+    "Content": {
+      "status": "PASS",
+      "attempts": 1,
+      "lastError": null
+    },
+    "Image": {
+      "status": "FAIL",
+      "attempts": 8,
+      "lastError": "Playwright browser launch failed without X server, then Playwright MCP transport closed during recovery attempts."
+    },
+    "LocalRender": {
+      "status": "BLOCKED",
+      "attempts": 0,
+      "lastError": "Blocked by Image gate failure."
+    },
+    "Deploy": {
+      "status": "BLOCKED",
+      "attempts": 0,
+      "lastError": "Blocked by Image gate failure."
+    },
+    "GSC": {
+      "status": "BLOCKED",
+      "attempts": 0,
+      "lastError": "Blocked by Image gate failure."
+    }
+  },
+  "researchQueries": [
+    "site:news.hada.io 2026 4 개발자 화제",
+    "hottest developer news this week April 2026",
+    "most discussed tech topic today April 2026 developers",
+    "OpenAI Codex app update April 2026 official",
+    "site:news.ycombinator.com Codex April 2026",
+    "site:developers.openai.com codex cli install"
+  ],
+  "researchUrls": [
+    "https://news.hada.io/",
+    "https://openai.com/index/codex-for-almost-everything/",
+    "https://openai.com/index/introducing-the-codex-app/",
+    "https://openai.com/index/codex-flexible-pricing-for-teams/",
+    "https://fortune.com/2026/03/04/openai-codex-growth-enterprise-ai-agents/",
+    "https://www.wired.com/story/openai-codex-race-claude-code/",
+    "https://help.openai.com/en/articles/6825453-chatgpt-plus-plan/",
+    "https://developers.openai.com/codex/cli"
+  ],
+  "selection": {
+    "topTopic": "OpenAI Codex major update",
+    "reason": "2026-04-16 official release, same-day Korean developer community pickup, sustained usage and pricing controversy from April 2 to April 9, and strong developer workflow impact."
+  },
+  "contentFile": "/home/mhhan/workspace/moony01.github.io/_posts/2026-04-17-codex-computer-use-shift.md",
+  "contentGate": {
+    "chars": 3165,
+    "descriptionChars": 96,
+    "h2Count": 5,
+    "h3Count": 8,
+    "internalLinkCount": 1,
+    "adIncludeCount": 2,
+    "replacementCharCount": 0,
+    "heroDuplicateInBody": false
+  },
+  "ChatGPT": {
+    "prompts": [
+      "Generate a modern tech blog hero image, 16:9 aspect ratio, 1200x675. Scene: a bright developer desk where one AI agent controls a browser window, another agent manipulates terminal panes, and a floating dashboard shows plugins and memory cards, symbolizing Codex expanding from IDE work into the entire desktop workflow. Colors: bright and vibrant palette, white and light gray background with electric blue, coral, mint, and warm yellow accents. Style: modern tech illustration, clean and professional, high contrast, visually energetic, suitable for a tech blog header. No text, no watermarks.",
+      "Generate a technical illustration, 16:9 aspect ratio, 1200x675. Scene: a bright workflow diagram showing code review comments, browser preview, image generation, automations, and memory linked into one agentic workspace around a laptop and remote devbox. Colors: light background with bright saturated accent colors including vivid blue, green, orange, and coral. Avoid dark backgrounds entirely. Style: clean flat design, modern tech illustration, high brightness, professional. No text labels, no watermarks."
+    ],
+    "rawDownloads": [],
+    "finalImages": []
+  },
+  "deploy": {
+    "commitSha": null,
+    "cloudflareProductionSha": null
+  },
+  "gsc": {
+    "requestedUrls": [],
+    "lastKnownStatus": null,
+    "liveTestStatus": null
+  },
+  "localRender": {
+    "pageUrl": "https://moony01.com/ai/2026/04/17/codex-computer-use-shift.html",
+    "pageHttpCode": null,
+    "imageHttpCodes": {},
+    "screenshots": []
+  },
+  "playwrightRecovery": {
+    "attempts": [
+      "Attempt 1: browser_navigate https://chatgpt.com -> headed Chrome launch failed: Missing X server or DISPLAY.",
+      "Attempt 2: inspected Playwright MCP binary, patched launcher to inject --headless by default, killed playwright-mcp process, retried browser_navigate -> Transport closed.",
+      "Attempt 3: browser_tabs list -> Transport closed.",
+      "Attempt 4: browser_snapshot -> Transport closed.",
+      "Attempt 5: browser_navigate about:blank -> Transport closed.",
+      "Attempt 6: browser_close -> Transport closed.",
+      "Attempt 7: browser_tabs list -> Transport closed.",
+      "Attempt 8: browser_navigate https://search.google.com/search-console -> Transport closed."
+    ],
+    "preflightDownloadsScan": [
+      "/home/mhhan/Downloads/ChatGPT_Generated_Image_jennie-time100-shift-thumbnail.png",
+      "/home/mhhan/Downloads/ChatGPT_Generated_Image_jennie-time100-shift-1.png"
+    ],
+    "playwrightMcpProcessPatched": "/home/mhhan/.npm/_npx/9833c18b2d85bc59/node_modules/.bin/playwright-mcp"
+  }
+}

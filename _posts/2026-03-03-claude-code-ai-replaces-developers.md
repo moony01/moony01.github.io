@@ -70,7 +70,26 @@ claude "사용자 인증 미들웨어를 JWT 기반으로 구현해줘.
 
 이 표에서 오른쪽 열을 수행하려면 코드를 읽고 이해하는 능력이 여전히 필수다. "코딩을 배울 필요가 없다"는 말이 떠돌지만, 생성은 AI가 해도 판단은 사람이 한다. 판단력 없이 AI 결과물만 통과시키는 개발자는 이미 병목이 되고 있다.
 
-![AI와 협업하는 개발자의 역할 변화를 나타낸 구조 다이어그램](/static/img/posts/claude-code-ai-replaces-developers/claude-code-ai-replaces-developers-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-code-ai-replaces-developers/claude-code-ai-replaces-developers-2-400.webp 400w,
+            /static/img/posts/claude-code-ai-replaces-developers/claude-code-ai-replaces-developers-2-800.webp 800w,
+            /static/img/posts/claude-code-ai-replaces-developers/claude-code-ai-replaces-developers-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-code-ai-replaces-developers/claude-code-ai-replaces-developers-2-400.png 400w,
+            /static/img/posts/claude-code-ai-replaces-developers/claude-code-ai-replaces-developers-2-800.png 800w,
+            /static/img/posts/claude-code-ai-replaces-developers/claude-code-ai-replaces-developers-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-code-ai-replaces-developers/claude-code-ai-replaces-developers-2.png" 
+    alt="AI와 협업하는 개발자의 역할 변화를 나타낸 구조 다이어그램" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 

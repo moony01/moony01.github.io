@@ -12,7 +12,26 @@ published: true
 
 이건 단순한 기능 추가가 아닙니다. Copilot이 그동안 "자동완성 도구"였다면, 이제는 **목표를 주면 스스로 계획하고 실행하는 에이전트 플랫폼**으로 탈바꿈하겠다는 선언입니다. 그리고 그 에이전트로 Anthropic의 Claude를 품었다는 사실 자체가, AI 코딩 도구 전쟁에서 판도가 달라졌음을 의미합니다.
 
-![GitHub Copilot × Claude 에이전틱 코딩 히어로 이미지](/static/img/posts/github-copilot-claude-codex-agentic/github-copilot-claude-codex-agentic-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/github-copilot-claude-codex-agentic/github-copilot-claude-codex-agentic-1-400.webp 400w,
+            /static/img/posts/github-copilot-claude-codex-agentic/github-copilot-claude-codex-agentic-1-800.webp 800w,
+            /static/img/posts/github-copilot-claude-codex-agentic/github-copilot-claude-codex-agentic-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/github-copilot-claude-codex-agentic/github-copilot-claude-codex-agentic-1-400.png 400w,
+            /static/img/posts/github-copilot-claude-codex-agentic/github-copilot-claude-codex-agentic-1-800.png 800w,
+            /static/img/posts/github-copilot-claude-codex-agentic/github-copilot-claude-codex-agentic-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/github-copilot-claude-codex-agentic/github-copilot-claude-codex-agentic-1.png" 
+    alt="GitHub Copilot × Claude 에이전틱 코딩 히어로 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 직접 써봤습니다. 그리고 꽤 놀랐습니다. 기대 반 의심 반으로 시작했는데, 결론부터 말하면 **지금 당장 설정해야 합니다**.
 
@@ -55,7 +74,26 @@ Claude Code나 이번에 Copilot에 통합된 Claude Agent는 다릅니다. 이�
 
 이 차이는 단순한 생산성 차이가 아닙니다. **일하는 방식 자체의 변화**입니다.
 
-![에이전틱 코딩 워크플로우 비교 다이어그램](/static/img/posts/github-copilot-claude-codex-agentic/github-copilot-claude-codex-agentic-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/github-copilot-claude-codex-agentic/github-copilot-claude-codex-agentic-2-400.webp 400w,
+            /static/img/posts/github-copilot-claude-codex-agentic/github-copilot-claude-codex-agentic-2-800.webp 800w,
+            /static/img/posts/github-copilot-claude-codex-agentic/github-copilot-claude-codex-agentic-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/github-copilot-claude-codex-agentic/github-copilot-claude-codex-agentic-2-400.png 400w,
+            /static/img/posts/github-copilot-claude-codex-agentic/github-copilot-claude-codex-agentic-2-800.png 800w,
+            /static/img/posts/github-copilot-claude-codex-agentic/github-copilot-claude-codex-agentic-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/github-copilot-claude-codex-agentic/github-copilot-claude-codex-agentic-2.png" 
+    alt="에이전틱 코딩 워크플로우 비교 다이어그램" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 

@@ -12,7 +12,26 @@ published: true
 
 그로부터 정확히 1년이 지났다. 지금 현실은 어떻게 됐을까.
 
-![히어로 이미지](/static/img/posts/amodei-ai-90-code-prediction-one-year-later/amodei-ai-90-code-prediction-one-year-later-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/amodei-ai-90-code-prediction-one-year-later/amodei-ai-90-code-prediction-one-year-later-1-400.webp 400w,
+            /static/img/posts/amodei-ai-90-code-prediction-one-year-later/amodei-ai-90-code-prediction-one-year-later-1-800.webp 800w,
+            /static/img/posts/amodei-ai-90-code-prediction-one-year-later/amodei-ai-90-code-prediction-one-year-later-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/amodei-ai-90-code-prediction-one-year-later/amodei-ai-90-code-prediction-one-year-later-1-400.png 400w,
+            /static/img/posts/amodei-ai-90-code-prediction-one-year-later/amodei-ai-90-code-prediction-one-year-later-1-800.png 800w,
+            /static/img/posts/amodei-ai-90-code-prediction-one-year-later/amodei-ai-90-code-prediction-one-year-later-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/amodei-ai-90-code-prediction-one-year-later/amodei-ai-90-code-prediction-one-year-later-1.png" 
+    alt="히어로 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -50,7 +69,26 @@ published: true
 
 IT Pro의 분석에 따르면 아모데이의 예측은 "아직 현실이 되지 않았다(nowhere nearly becoming a reality)"고 평가됐다. 하지만 이 평가도 반은 맞고 반은 틀리다. 숫자상 90%는 아니지만, 변화의 방향성은 그가 말한 쪽으로 분명히 가고 있다.
 
-![본문 이미지](/static/img/posts/amodei-ai-90-code-prediction-one-year-later/amodei-ai-90-code-prediction-one-year-later-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/amodei-ai-90-code-prediction-one-year-later/amodei-ai-90-code-prediction-one-year-later-2-400.webp 400w,
+            /static/img/posts/amodei-ai-90-code-prediction-one-year-later/amodei-ai-90-code-prediction-one-year-later-2-800.webp 800w,
+            /static/img/posts/amodei-ai-90-code-prediction-one-year-later/amodei-ai-90-code-prediction-one-year-later-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/amodei-ai-90-code-prediction-one-year-later/amodei-ai-90-code-prediction-one-year-later-2-400.png 400w,
+            /static/img/posts/amodei-ai-90-code-prediction-one-year-later/amodei-ai-90-code-prediction-one-year-later-2-800.png 800w,
+            /static/img/posts/amodei-ai-90-code-prediction-one-year-later/amodei-ai-90-code-prediction-one-year-later-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/amodei-ai-90-code-prediction-one-year-later/amodei-ai-90-code-prediction-one-year-later-2.png" 
+    alt="본문 이미지" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## AI 코딩이 실제로 바꾼 것들
 

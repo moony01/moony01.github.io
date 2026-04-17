@@ -1,0 +1,54 @@
+{
+  "runStartedAt": "2026-04-12T12:01:53+09:00",
+  "runEndedAt": "2026-04-12T12:05:30+09:00",
+  "stepResults": {
+    "research": "pass",
+    "content": "pass",
+    "image": "fail",
+    "deploy": "blocked",
+    "gsc": "blocked"
+  },
+  "selection": {
+    "topic": "에이전트 스킬 보안과 공급망 리스크",
+    "category": "security",
+    "titleCandidates": [
+      "에이전트 스킬 보안이 갑자기 중요해진 이유",
+      "에이전트 스킬 마켓이 보안 구멍이 되는 이유",
+      "에이전트 스킬 공급망이 위험해지는 순간"
+    ],
+    "selectedTitle": "에이전트 스킬 마켓이 보안 구멍이 되는 이유"
+  },
+  "researchUrls": [
+    "https://news.hada.io/",
+    "https://github.com/addyosmani/agent-skills",
+    "https://pypi.org/project/skillfortify/",
+    "https://github.com/varun369/skillfortify",
+    "https://arxiv.org/abs/2603.00195",
+    "https://www.linkedin.com/posts/wickett_if-youre-using-an-ai-coding-agent-odds-activity-7437509063753695232-MpjM"
+  ],
+  "ChatGPT": {
+    "prompts": [
+      "Generate a modern tech blog hero image (16:9 aspect ratio, 1200x675px). Scene: an AI coding agent browsing a crowded skills marketplace while hidden security warning paths branch under the surface. Colors: bright and vibrant palette with white and light gray background, vivid cyan, coral, and electric blue accents. Avoid dark or moody tones. Style: modern tech illustration, clean and professional, high contrast, visually energetic, suitable for a tech blog header. No text, no watermarks.",
+      "Generate a technical illustration (16:9, 1200x675px). Scene: a security checklist auditing AI agent skill files, command hooks, and secrets patterns on a bright engineering dashboard. Colors: light background with bright saturated cyan, green, and coral accents. Avoid dark backgrounds entirely. Style: clean flat design, modern tech illustration, high brightness, professional. No text labels, no watermarks."
+    ],
+    "rawDownloads": [],
+    "finalImages": []
+  },
+  "attemptCounts": {
+    "playwrightImageStage": 8
+  },
+  "lastErrors": {
+    "playwrightImageStage": "Failed to launch the browser process. Missing X server or $DISPLAY in mcp__playwright__browser_* calls even after starting Xvfb :99."
+  },
+  "deploy": {
+    "commitSha": null,
+    "productionSha": null
+  },
+  "gsc": {
+    "requestedUrls": []
+  },
+  "artifacts": {
+    "draftPost": "/home/mhhan/workspace/moony01.github.io/_posts/2026-04-12-agent-skills-security-gap.md",
+    "xvfbLog": "/tmp/blog-post-autopilot-xvfb.log"
+  }
+}

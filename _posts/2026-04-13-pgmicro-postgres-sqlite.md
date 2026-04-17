@@ -55,7 +55,26 @@ README에서 가장 눈에 들어오는 대목은 `pgmicro does not embed or com
 
 여기서 과장하면 글이 망가진다. 이 프로젝트가 프로덕션 핵심 DB를 바로 대체한다는 뜻은 아니다. PostgreSQL이 강한 이유는 동시성, 중앙 집중 운영, 장기 저장, 확장성 같은 서버형 장점에 있다. SQLite 공식 문서도 분명히 말하듯, SQLite 계열은 애초에 다른 문제를 푼다. `pgmicro`의 진짜 파괴력은 메인 DB 교체가 아니라, "원래 SQLite를 쓰던 자리"를 PostgreSQL 취향으로 바꾸는 데 있다.
 
-![pgmicro 아키텍처와 에이전트용 임시 데이터베이스 흐름](/static/img/posts/pgmicro-postgres-sqlite/pgmicro-postgres-sqlite-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/pgmicro-postgres-sqlite/pgmicro-postgres-sqlite-2-400.webp 400w,
+            /static/img/posts/pgmicro-postgres-sqlite/pgmicro-postgres-sqlite-2-800.webp 800w,
+            /static/img/posts/pgmicro-postgres-sqlite/pgmicro-postgres-sqlite-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/pgmicro-postgres-sqlite/pgmicro-postgres-sqlite-2-400.png 400w,
+            /static/img/posts/pgmicro-postgres-sqlite/pgmicro-postgres-sqlite-2-800.png 800w,
+            /static/img/posts/pgmicro-postgres-sqlite/pgmicro-postgres-sqlite-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/pgmicro-postgres-sqlite/pgmicro-postgres-sqlite-2.png" 
+    alt="pgmicro 아키텍처와 에이전트용 임시 데이터베이스 흐름" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 지금 직접 확인해볼 만한 지점
 

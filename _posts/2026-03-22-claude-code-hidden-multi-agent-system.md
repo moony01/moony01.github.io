@@ -10,7 +10,26 @@ published: true
 
 Claude Code를 그냥 "AI 코딩 도우미"라고 생각하고 있었다면, 지금 이 글을 끝까지 읽어야 합니다. 누군가 Claude Code의 바이너리를 직접 뜯어봤더니, Anthropic이 공식 문서에도 제대로 소개하지 않은 멀티 에이전트 인프라가 통째로 숨겨져 있었습니다. 이름도 `TeammateTool`. 그리고 2026년 2월 5일, Anthropic은 조용히 스위치를 눌렀습니다.
 
-![Claude Code 멀티 에이전트 시스템 개요](/static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-1-400.webp 400w,
+            /static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-1-800.webp 800w,
+            /static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-1-400.png 400w,
+            /static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-1-800.png 800w,
+            /static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-1.png" 
+    alt="Claude Code 멀티 에이전트 시스템 개요" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 게임이 바뀌었습니다. 당신이 모르는 사이에.
 
@@ -37,7 +56,26 @@ Claude Code를 그냥 "AI 코딩 도우미"라고 생각하고 있었다면, 지
 **세 번째: Agent Teams**
 여러 독립적인 Claude Code 세션이 서로 메시지를 주고받으며 협업하는 구조입니다. 각 에이전트가 자신만의 완전한 컨텍스트를 유지하면서 작업을 병렬로 처리합니다. 단일 서브에이전트로는 처리하기 어려운 대규모 작업에 적합합니다.
 
-![Claude Code 서브에이전트 작동 방식](/static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-2-400.webp 400w,
+            /static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-2-800.webp 800w,
+            /static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-2-400.png 400w,
+            /static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-2-800.png 800w,
+            /static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-2.png" 
+    alt="Claude Code 서브에이전트 작동 방식" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 내장 서브에이전트: Anthropic이 이미 설계해둔 것들
 

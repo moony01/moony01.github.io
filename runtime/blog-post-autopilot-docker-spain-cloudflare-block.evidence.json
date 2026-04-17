@@ -1,7 +1,7 @@
 {
   "workflow": "blog-post-autopilot",
   "runStartedAt": "2026-04-13T19:04:48+09:00",
-  "runEndedAt": null,
+  "runEndedAt": "2026-04-13T19:36:10+09:00",
   "slug": "docker-spain-cloudflare-block",
   "title": "스페인 축구 차단이 Docker pull을 멈춘 날",
   "topic": "스페인 LaLiga의 Cloudflare IP 차단이 Docker pull과 개발 파이프라인에 끼친 영향",
@@ -75,15 +75,15 @@
       "lastError": null
     },
     "deploy": {
-      "status": "PENDING",
-      "attempts": 0,
-      "completedAt": null,
+      "status": "PASS",
+      "attempts": 1,
+      "completedAt": "2026-04-13T19:31:55+09:00",
       "lastError": null
     },
     "gsc": {
-      "status": "PENDING",
-      "attempts": 0,
-      "completedAt": null,
+      "status": "PASS",
+      "attempts": 1,
+      "completedAt": "2026-04-13T19:36:10+09:00",
       "lastError": null
     }
   },
@@ -147,10 +147,20 @@
     ]
   },
   "deploy": {
-    "commitSha": null,
-    "productionSha": null
+    "commitSha": "d0e34d3",
+    "productionSha": "d0e34d3",
+    "actionsRun": "Build & Deploy Blog #152",
+    "liveUrl": "https://moony01.com/infra/2026/04/13/docker-spain-cloudflare-block.html",
+    "verification": {
+      "title": "스페인 축구 차단이 Docker pull을 멈춘 날 - Moony01 Studio",
+      "live": true
+    }
   },
   "gsc": {
-    "requestedUrls": []
+    "requestedUrls": [
+      "https://moony01.com/infra/2026/04/13/docker-spain-cloudflare-block.html"
+    ],
+    "status": "색인 생성 요청됨",
+    "property": "sc-domain:moony01.com"
   }
 }

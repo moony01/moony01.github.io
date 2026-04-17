@@ -12,7 +12,26 @@ published: true
 
 연간 1조 달러 이상의 결제를 처리하는 핀테크 공룡이, 자사 코드베이스의 상당 부분을 AI에게 맡기고 있다는 뜻이다. 이건 단순한 실험이 아니다. 프로덕션이다.
 
-![Stripe Minions AI 코딩 에이전트](/static/img/posts/stripe-minions-ai-coding-1300-pr/stripe-minions-ai-coding-1300-pr-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/stripe-minions-ai-coding-1300-pr/stripe-minions-ai-coding-1300-pr-1-400.webp 400w,
+            /static/img/posts/stripe-minions-ai-coding-1300-pr/stripe-minions-ai-coding-1300-pr-1-800.webp 800w,
+            /static/img/posts/stripe-minions-ai-coding-1300-pr/stripe-minions-ai-coding-1300-pr-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/stripe-minions-ai-coding-1300-pr/stripe-minions-ai-coding-1300-pr-1-400.png 400w,
+            /static/img/posts/stripe-minions-ai-coding-1300-pr/stripe-minions-ai-coding-1300-pr-1-800.png 800w,
+            /static/img/posts/stripe-minions-ai-coding-1300-pr/stripe-minions-ai-coding-1300-pr-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/stripe-minions-ai-coding-1300-pr/stripe-minions-ai-coding-1300-pr-1.png" 
+    alt="Stripe Minions AI 코딩 에이전트" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -94,7 +113,26 @@ const blueprint = {
 
 ## Agentic Engineering - 코딩을 멈춘 엔지니어가 승리하는 시대
 
-![Agentic Engineering 패러다임 전환](/static/img/posts/stripe-minions-ai-coding-1300-pr/stripe-minions-ai-coding-1300-pr-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/stripe-minions-ai-coding-1300-pr/stripe-minions-ai-coding-1300-pr-2-400.webp 400w,
+            /static/img/posts/stripe-minions-ai-coding-1300-pr/stripe-minions-ai-coding-1300-pr-2-800.webp 800w,
+            /static/img/posts/stripe-minions-ai-coding-1300-pr/stripe-minions-ai-coding-1300-pr-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/stripe-minions-ai-coding-1300-pr/stripe-minions-ai-coding-1300-pr-2-400.png 400w,
+            /static/img/posts/stripe-minions-ai-coding-1300-pr/stripe-minions-ai-coding-1300-pr-2-800.png 800w,
+            /static/img/posts/stripe-minions-ai-coding-1300-pr/stripe-minions-ai-coding-1300-pr-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/stripe-minions-ai-coding-1300-pr/stripe-minions-ai-coding-1300-pr-2.png" 
+    alt="Agentic Engineering 패러다임 전환" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 Stripe의 사례는 단독 현상이 아니다. 2026년 초, 업계 전체에서 **"Agentic Engineering"**이라는 새로운 패러다임이 부상하고 있다.
 

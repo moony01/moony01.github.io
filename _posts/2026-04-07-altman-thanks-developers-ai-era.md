@@ -29,7 +29,26 @@ published: true
 
 그 시점에 OpenAI CEO가 개발자에게 "감사합니다"라고 트윗을 올렸다.
 
-![올트먼 트윗 논란 속 AI 코딩 도구가 개발자를 대체하는 흐름을 표현한 그림](/static/img/posts/altman-thanks-developers-ai-era/altman-thanks-developers-ai-era-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/altman-thanks-developers-ai-era/altman-thanks-developers-ai-era-2-400.webp 400w,
+            /static/img/posts/altman-thanks-developers-ai-era/altman-thanks-developers-ai-era-2-800.webp 800w,
+            /static/img/posts/altman-thanks-developers-ai-era/altman-thanks-developers-ai-era-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/altman-thanks-developers-ai-era/altman-thanks-developers-ai-era-2-400.png 400w,
+            /static/img/posts/altman-thanks-developers-ai-era/altman-thanks-developers-ai-era-2-800.png 800w,
+            /static/img/posts/altman-thanks-developers-ai-era/altman-thanks-developers-ai-era-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/altman-thanks-developers-ai-era/altman-thanks-developers-ai-era-2.png" 
+    alt="올트먼 트윗 논란 속 AI 코딩 도구가 개발자를 대체하는 흐름을 표현한 그림" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ### 트윗에서 눈에 띄는 표현
 

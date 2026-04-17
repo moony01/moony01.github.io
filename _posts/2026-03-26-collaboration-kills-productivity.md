@@ -54,7 +54,26 @@ git log --since="6 months ago" --no-merges --format='%aN' --numstat \
 
 Frederick Brooks는 1975년 《맨먼스 미신(The Mythical Man-Month)》에서 "늦어지는 프로젝트에 인력을 투입하면 더 늦어진다"고 경고했다. 50년이 지났지만 이 법칙을 무시하는 조직은 여전히 넘친다. 이유는 간단하다. 커뮤니케이션 오버헤드는 n(n-1)/2로 증가한다. 5명일 때 10개이던 소통 경로가 10명이면 45개, 20명이면 190개가 된다.
 
-![개발팀 규모별 커뮤니케이션 오버헤드와 순 생산성 변화 그래프](/static/img/posts/collaboration-kills-productivity/collaboration-kills-productivity-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/collaboration-kills-productivity/collaboration-kills-productivity-2-400.webp 400w,
+            /static/img/posts/collaboration-kills-productivity/collaboration-kills-productivity-2-800.webp 800w,
+            /static/img/posts/collaboration-kills-productivity/collaboration-kills-productivity-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/collaboration-kills-productivity/collaboration-kills-productivity-2-400.png 400w,
+            /static/img/posts/collaboration-kills-productivity/collaboration-kills-productivity-2-800.png 800w,
+            /static/img/posts/collaboration-kills-productivity/collaboration-kills-productivity-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/collaboration-kills-productivity/collaboration-kills-productivity-2.png" 
+    alt="개발팀 규모별 커뮤니케이션 오버헤드와 순 생산성 변화 그래프" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 

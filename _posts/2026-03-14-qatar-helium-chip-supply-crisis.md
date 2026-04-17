@@ -12,7 +12,26 @@ published: true
 
 반도체 업계가 조용히 흔들리기 시작했다. 삼성전자, SK하이닉스 주가에는 즉각적인 반응이 없었지만, 실무 레벨에서는 비상이 걸렸다. 문제는 헬륨이다.
 
-![카타르 헬륨 위기와 반도체 공급망](/static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-1-400.webp 400w,
+            /static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-1-800.webp 800w,
+            /static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-1-400.png 400w,
+            /static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-1-800.png 800w,
+            /static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-1.png" 
+    alt="카타르 헬륨 위기와 반도체 공급망" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -55,7 +74,26 @@ published: true
 
 Gasworld는 이번 위기로 헬륨 현물 가격이 **최대 50% 상승**할 수 있다고 분석했다.
 
-![반도체 공급망 헬륨 의존도 구조](/static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-2-400.webp 400w,
+            /static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-2-800.webp 800w,
+            /static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-2-400.png 400w,
+            /static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-2-800.png 800w,
+            /static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-2.png" 
+    alt="반도체 공급망 헬륨 의존도 구조" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 

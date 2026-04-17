@@ -23,7 +23,26 @@ CTO는 청구서를 다시 봤다. $4,200. 63분의 1이면 $66이다.
 
 {% include pre-version.html %}
 
-![MiniMax M2.5와 Claude Opus 4.6 가격 성능 비교 분석 차트](/static/img/posts/minimax-m25-claude-price-war/minimax-m25-claude-price-war-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/minimax-m25-claude-price-war/minimax-m25-claude-price-war-1-400.webp 400w,
+            /static/img/posts/minimax-m25-claude-price-war/minimax-m25-claude-price-war-1-800.webp 800w,
+            /static/img/posts/minimax-m25-claude-price-war/minimax-m25-claude-price-war-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/minimax-m25-claude-price-war/minimax-m25-claude-price-war-1-400.png 400w,
+            /static/img/posts/minimax-m25-claude-price-war/minimax-m25-claude-price-war-1-800.png 800w,
+            /static/img/posts/minimax-m25-claude-price-war/minimax-m25-claude-price-war-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/minimax-m25-claude-price-war/minimax-m25-claude-price-war-1.png" 
+    alt="MiniMax M2.5와 Claude Opus 4.6 가격 성능 비교 분석 차트" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## MiniMax M2.5가 등장한 맥락
 
@@ -54,7 +73,26 @@ BrowseComp(웹 브라우징 기반 문제 해결)에서 76.3%를 기록했다는
 
 {% include pre-version.html %}
 
-![오픈소스 AI 모델 API 비용 구조와 MiniMax M2.5 추론 아키텍처 비교 일러스트](/static/img/posts/minimax-m25-claude-price-war/minimax-m25-claude-price-war-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/minimax-m25-claude-price-war/minimax-m25-claude-price-war-2-400.webp 400w,
+            /static/img/posts/minimax-m25-claude-price-war/minimax-m25-claude-price-war-2-800.webp 800w,
+            /static/img/posts/minimax-m25-claude-price-war/minimax-m25-claude-price-war-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/minimax-m25-claude-price-war/minimax-m25-claude-price-war-2-400.png 400w,
+            /static/img/posts/minimax-m25-claude-price-war/minimax-m25-claude-price-war-2-800.png 800w,
+            /static/img/posts/minimax-m25-claude-price-war/minimax-m25-claude-price-war-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/minimax-m25-claude-price-war/minimax-m25-claude-price-war-2.png" 
+    alt="오픈소스 AI 모델 API 비용 구조와 MiniMax M2.5 추론 아키텍처 비교 일러스트" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 진짜 충격은 가격이다
 

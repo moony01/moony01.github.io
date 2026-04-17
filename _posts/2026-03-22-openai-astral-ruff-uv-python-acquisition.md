@@ -12,7 +12,26 @@ published: true
 
 Astral이 낯선 분들을 위해 설명하자면, 이 회사는 파이썬 개발자들이 매일 사용하는 두 가지 핵심 도구를 만든 곳입니다. `ruff`(파이썬 린터)와 `uv`(패키지 매니저)입니다. 이 두 도구는 기존 도구 대비 10~100배 빠른 성능으로 파이썬 생태계를 빠르게 잠식하고 있었습니다. 그런데 그 회사를 OpenAI가 가져갔습니다.
 
-![OpenAI의 Astral 인수 — 파이썬 개발 도구 생태계의 새로운 지각변동](/static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-1-400.webp 400w,
+            /static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-1-800.webp 800w,
+            /static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-1-400.png 400w,
+            /static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-1-800.png 800w,
+            /static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-1.png" 
+    alt="OpenAI의 Astral 인수 — 파이썬 개발 도구 생태계의 새로운 지각변동" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -62,7 +81,26 @@ ruff와 uv는 MIT 라이선스 오픈소스입니다. 누구나 자유롭게 사
 
 물론 반론도 있습니다. OpenAI가 Astral을 인수한 것은 팀과 역량을 확보하기 위함이고, 도구 자체는 오픈소스로 계속 유지될 것이라는 주장입니다. 실제로 많은 기업들이 오픈소스 프로젝트를 인수하고도 라이선스를 유지하고 있습니다.
 
-![Python 패키지 생태계와 OpenAI 통합 — 개발자 워크플로우의 변화](/static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-2-400.webp 400w,
+            /static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-2-800.webp 800w,
+            /static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-2-400.png 400w,
+            /static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-2-800.png 800w,
+            /static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-2.png" 
+    alt="Python 패키지 생태계와 OpenAI 통합 — 개발자 워크플로우의 변화" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 

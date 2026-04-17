@@ -13,7 +13,26 @@ published: true
 
 업계에서는 이 현상을 **SaaSpocalypse**라고 부르기 시작했다. SaaS + Apocalypse의 합성어다. 허황된 미래 예측이 아니다. 지금 이 순간 벌어지고 있는 현실이다.
 
-![SaaSpocalypse 개요](/static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-1-400.webp 400w,
+            /static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-1-800.webp 800w,
+            /static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-1-400.png 400w,
+            /static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-1-800.png 800w,
+            /static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-1.png" 
+    alt="SaaSpocalypse 개요" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -48,7 +67,26 @@ Atlassian의 Q3 실적 발표에서 특히 충격적인 데이터가 나왔다. 
 
 한 Fortune 50 기업은 내부 문서에서 **Salesforce와 ServiceNow 라이선스 지출을 연내 60% 삭감**하겠다는 계획을 공개했다. 대안은 파운데이션 모델 API 크레딧이다.
 
-![AI 에이전트 vs SaaS 비교](/static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-2-400.webp 400w,
+            /static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-2-800.webp 800w,
+            /static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-2-400.png 400w,
+            /static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-2-800.png 800w,
+            /static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-2.png" 
+    alt="AI 에이전트 vs SaaS 비교" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 

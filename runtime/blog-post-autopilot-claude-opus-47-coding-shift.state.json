@@ -1,0 +1,18 @@
+{
+  "workflow": "blog-post-autopilot",
+  "slug": "claude-opus-47-coding-shift",
+  "startedAt": "2026-04-17T12:03:07+09:00",
+  "completedAt": "2026-04-17T12:10:02+09:00",
+  "currentStep": "complete",
+  "finalStatus": "FAILED",
+  "passedSteps": [
+    "research",
+    "content"
+  ],
+  "blockedSteps": [
+    "image",
+    "localRender",
+    "deploy",
+    "gsc"
+  ]
+}

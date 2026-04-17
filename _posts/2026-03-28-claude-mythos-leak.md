@@ -58,7 +58,26 @@ Fortune의 단독 보도 이후 24시간 만에 CoinDesk, Seeking Alpha, Futuris
 
 구체적인 벤치마크 수치는 초안에도 포함되지 않았다. 내 생각엔 이건 의도적이다. 숫자를 넣으면 경쟁사가 즉시 비교 분석에 들어간다. 초안이니 최종 수치가 확정되지 않았을 수도 있고, 아니면 숫자 자체가 너무 파격적이라 내부 검증이 더 필요했을 수도 있다. 어느 쪽이든, Anthropic 대변인이 Fortune에 직접 확인한 "step change"라는 단어가 모든 걸 말해준다.
 
-![Anthropic Claude 모델 계층 구조와 Mythos Capybara 포지셔닝 비교](/static/img/posts/claude-mythos-leak/claude-mythos-leak-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/claude-mythos-leak/claude-mythos-leak-2-400.webp 400w,
+            /static/img/posts/claude-mythos-leak/claude-mythos-leak-2-800.webp 800w,
+            /static/img/posts/claude-mythos-leak/claude-mythos-leak-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/claude-mythos-leak/claude-mythos-leak-2-400.png 400w,
+            /static/img/posts/claude-mythos-leak/claude-mythos-leak-2-800.png 800w,
+            /static/img/posts/claude-mythos-leak/claude-mythos-leak-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/claude-mythos-leak/claude-mythos-leak-2.png" 
+    alt="Anthropic Claude 모델 계층 구조와 Mythos Capybara 포지셔닝 비교" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ### 가격과 출시 타이밍
 

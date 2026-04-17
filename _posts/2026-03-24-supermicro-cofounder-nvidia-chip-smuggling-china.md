@@ -12,7 +12,26 @@ published: true
 
 AI 칩이 이제 석유나 핵 기술과 같은 **지정학적 전략 자산**으로 취급되고 있다는 것을 이보다 명확하게 보여주는 사례는 없을 것입니다.
 
-![슈퍼마이크로 창업자 체포 — 엔비디아 AI 칩 밀수 사건](/static/img/posts/supermicro-cofounder-nvidia-chip-smuggling-china/supermicro-cofounder-nvidia-chip-smuggling-china-1.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/supermicro-cofounder-nvidia-chip-smuggling-china/supermicro-cofounder-nvidia-chip-smuggling-china-1-400.webp 400w,
+            /static/img/posts/supermicro-cofounder-nvidia-chip-smuggling-china/supermicro-cofounder-nvidia-chip-smuggling-china-1-800.webp 800w,
+            /static/img/posts/supermicro-cofounder-nvidia-chip-smuggling-china/supermicro-cofounder-nvidia-chip-smuggling-china-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/supermicro-cofounder-nvidia-chip-smuggling-china/supermicro-cofounder-nvidia-chip-smuggling-china-1-400.png 400w,
+            /static/img/posts/supermicro-cofounder-nvidia-chip-smuggling-china/supermicro-cofounder-nvidia-chip-smuggling-china-1-800.png 800w,
+            /static/img/posts/supermicro-cofounder-nvidia-chip-smuggling-china/supermicro-cofounder-nvidia-chip-smuggling-china-1.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/supermicro-cofounder-nvidia-chip-smuggling-china/supermicro-cofounder-nvidia-chip-smuggling-china-1.png" 
+    alt="슈퍼마이크로 창업자 체포 — 엔비디아 AI 칩 밀수 사건" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -50,7 +69,26 @@ BIS(상무부 산업안보국) 검사관이 현장 검증을 시도했을 때, S
 
 수출 규제가 더 조여들기 전에 최대한 빨리 더 많은 칩을 보내겠다는 뜻이었습니다. 같은 시기에 다른 동료가 "중국에 Nvidia 칩을 밀수한 사람들이 또 체포됐다는 기사"를 공유하며 "매우 걱정된다"고 했을 때, Liaw는 그를 안심시키며 주문 확대 계획을 계속 진행했습니다.
 
-![슈퍼마이크로 SMCI 주가 폭락 — AI 칩 수출규제 지정학](/static/img/posts/supermicro-cofounder-nvidia-chip-smuggling-china/supermicro-cofounder-nvidia-chip-smuggling-china-2.png){: .wd100}
+<picture>
+  <source 
+    type="image/webp"
+    srcset="/static/img/posts/supermicro-cofounder-nvidia-chip-smuggling-china/supermicro-cofounder-nvidia-chip-smuggling-china-2-400.webp 400w,
+            /static/img/posts/supermicro-cofounder-nvidia-chip-smuggling-china/supermicro-cofounder-nvidia-chip-smuggling-china-2-800.webp 800w,
+            /static/img/posts/supermicro-cofounder-nvidia-chip-smuggling-china/supermicro-cofounder-nvidia-chip-smuggling-china-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <source 
+    type="image/png"
+    srcset="/static/img/posts/supermicro-cofounder-nvidia-chip-smuggling-china/supermicro-cofounder-nvidia-chip-smuggling-china-2-400.png 400w,
+            /static/img/posts/supermicro-cofounder-nvidia-chip-smuggling-china/supermicro-cofounder-nvidia-chip-smuggling-china-2-800.png 800w,
+            /static/img/posts/supermicro-cofounder-nvidia-chip-smuggling-china/supermicro-cofounder-nvidia-chip-smuggling-china-2.png 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img 
+    src="/static/img/posts/supermicro-cofounder-nvidia-chip-smuggling-china/supermicro-cofounder-nvidia-chip-smuggling-china-2.png" 
+    alt="슈퍼마이크로 SMCI 주가 폭락 — AI 칩 수출규제 지정학" 
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
