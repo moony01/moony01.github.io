@@ -1,6 +1,7 @@
 /**
  * 이미지 최적화 스크립트
- * JPG/PNG → WebP 변환 및 다중 해상도 생성
+ * JPG/PNG/GIF → WebP 변환 및 다중 해상도 생성
+ * 변환 완료 또는 기존 WebP 존재 시 원본 삭제
  * 
  * 사용법:
  * node scripts/optimize-images.js --input ./static/img/posts/slug
@@ -21,6 +22,20 @@ const config = JSON.parse(
   await fs.readFile(path.join(__dirname, 'config/images.json'), 'utf-8')
 );
 
+async function fileExists(filePath) {
+  try {
+    await fs.access(filePath);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function deleteOriginal(inputPath, reason) {
+  await fs.unlink(inputPath);
+  console.log(`    → ${path.basename(inputPath)} 삭제 (${reason})`);
+}
+
 /**
  * 이미지를 WebP로 변환하고 다중 해상도 생성
  * @param {string} inputPath - 입력 이미지 경로
@@ -28,19 +43,26 @@ const config = JSON.parse(
  */
 async function optimizeImage(inputPath, outputDir) {
   const filename = path.basename(inputPath, path.extname(inputPath));
-  const image = sharp(inputPath);
-  const metadata = await image.metadata();
+  const webpPath = path.join(outputDir, `${filename}.webp`);
+
+  if (await fileExists(webpPath)) {
+    console.log(`  [스킵] ${path.basename(inputPath)} (기존 WebP 발견)`);
+    await deleteOriginal(inputPath, '기존 WebP 있음');
+    return { optimized: false, skipped: true, deleted: true };
+  }
+
+  const metadata = await sharp(inputPath).metadata();
   
   console.log(`  [처리] ${path.basename(inputPath)} (${metadata.width}x${metadata.height})`);
   
   // 원본 크기 WebP
-  await image
+  await sharp(inputPath)
     .webp({ quality: config.quality })
-    .toFile(path.join(outputDir, `${filename}.webp`));
+    .toFile(webpPath);
   
   // 다중 해상도 생성
-  for (const [sizeName, width] of Object.entries(config.sizes)) {
-    if (width && metadata.width > width) {
+  for (const width of config.sizes) {
+    if (metadata.width > width) {
       await sharp(inputPath)
         .resize(width)
         .webp({ quality: config.quality })
@@ -48,8 +70,11 @@ async function optimizeImage(inputPath, outputDir) {
       console.log(`    → ${filename}-${width}.webp`);
     }
   }
+
+  await deleteOriginal(inputPath, 'WebP 변환 완료');
   
   console.log(`    → ${filename}.webp ✅`);
+  return { optimized: true, skipped: false, deleted: true };
 }
 
 /**
@@ -67,13 +92,29 @@ async function processDirectory(inputDir) {
   }
   
   console.log(`\n🖼️ ${images.length}개 이미지 발견\n`);
+
+  let optimizedCount = 0;
+  let skippedCount = 0;
+  let deletedCount = 0;
   
   for (const imagePath of images) {
     const outputDir = path.dirname(imagePath);
-    await optimizeImage(imagePath, outputDir);
+    const result = await optimizeImage(imagePath, outputDir);
+
+    if (result.optimized) {
+      optimizedCount++;
+    }
+
+    if (result.skipped) {
+      skippedCount++;
+    }
+
+    if (result.deleted) {
+      deletedCount++;
+    }
   }
   
-  console.log(`\n✅ 완료! ${images.length}개 이미지 최적화됨\n`);
+  console.log(`\n✅ 완료! 변환 ${optimizedCount}개, 스킵 ${skippedCount}개, 원본 삭제 ${deletedCount}개\n`);
 }
 
 // CLI 처리
