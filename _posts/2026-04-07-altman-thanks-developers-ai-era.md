@@ -36,14 +36,8 @@ published: true
             /static/img/posts/altman-thanks-developers-ai-era/altman-thanks-developers-ai-era-2-800.webp 800w,
             /static/img/posts/altman-thanks-developers-ai-era/altman-thanks-developers-ai-era-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/altman-thanks-developers-ai-era/altman-thanks-developers-ai-era-2-400.png 400w,
-            /static/img/posts/altman-thanks-developers-ai-era/altman-thanks-developers-ai-era-2-800.png 800w,
-            /static/img/posts/altman-thanks-developers-ai-era/altman-thanks-developers-ai-era-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/altman-thanks-developers-ai-era/altman-thanks-developers-ai-era-2.png" 
+    src="/static/img/posts/altman-thanks-developers-ai-era/altman-thanks-developers-ai-era-2.webp" 
     alt="올트먼 트윗 논란 속 AI 코딩 도구가 개발자를 대체하는 흐름을 표현한 그림" 
     class="wd100"
     loading="lazy"

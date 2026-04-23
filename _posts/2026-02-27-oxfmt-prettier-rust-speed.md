@@ -18,14 +18,8 @@ published: true
             /static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-1-800.webp 800w,
             /static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-1-400.png 400w,
-            /static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-1-800.png 800w,
-            /static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-1.png" 
+    src="/static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-1.webp" 
     alt="Rust 기반 포매터가 JS CI 시간을 줄이는 흐름도" 
     class="wd100"
     loading="lazy"
@@ -73,14 +67,8 @@ published: true
             /static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-2-800.webp 800w,
             /static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-2-400.png 400w,
-            /static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-2-800.png 800w,
-            /static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-2.png" 
+    src="/static/img/posts/oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-2.webp" 
     alt="포매터 전환 시 검증 단계와 롤백 경로를 보여주는 다이어그램" 
     class="wd100"
     loading="lazy"

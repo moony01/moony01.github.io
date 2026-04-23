@@ -20,14 +20,8 @@ published: true
             /static/img/posts/anthropic-software-selloff/anthropic-software-selloff-1-800.webp 800w,
             /static/img/posts/anthropic-software-selloff/anthropic-software-selloff-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/anthropic-software-selloff/anthropic-software-selloff-1-400.png 400w,
-            /static/img/posts/anthropic-software-selloff/anthropic-software-selloff-1-800.png 800w,
-            /static/img/posts/anthropic-software-selloff/anthropic-software-selloff-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/anthropic-software-selloff/anthropic-software-selloff-1.png" 
+    src="/static/img/posts/anthropic-software-selloff/anthropic-software-selloff-1.webp" 
     alt="엔트로픽 발표 후 섹터 하락 흐름" 
     class="wd100"
     loading="lazy"
@@ -73,14 +67,8 @@ Reuters는 2026년 빅테크 AI 투자 규모를 약 6500억 달러 수준으로
             /static/img/posts/anthropic-software-selloff/anthropic-software-selloff-2-800.webp 800w,
             /static/img/posts/anthropic-software-selloff/anthropic-software-selloff-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/anthropic-software-selloff/anthropic-software-selloff-2-400.png 400w,
-            /static/img/posts/anthropic-software-selloff/anthropic-software-selloff-2-800.png 800w,
-            /static/img/posts/anthropic-software-selloff/anthropic-software-selloff-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/anthropic-software-selloff/anthropic-software-selloff-2.png" 
+    src="/static/img/posts/anthropic-software-selloff/anthropic-software-selloff-2.webp" 
     alt="AI 투자 충격의 밸류 체인 지도" 
     class="wd100"
     loading="lazy"

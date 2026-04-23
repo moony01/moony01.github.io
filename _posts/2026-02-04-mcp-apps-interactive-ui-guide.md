@@ -17,14 +17,8 @@ AI 챗봇에게 "매출 데이터 분석해줘"라고 물으면, 보통 마크�
             /static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-1-800.webp 800w,
             /static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-1-400.png 400w,
-            /static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-1-800.png 800w,
-            /static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-1.png" 
+    src="/static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-1.webp" 
     alt="MCP Apps 대표 이미지" 
     class="wd100"
     loading="lazy"
@@ -139,14 +133,8 @@ chart.onClick = async (item) => {
             /static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-2-800.webp 800w,
             /static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-2-400.png 400w,
-            /static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-2-800.png 800w,
-            /static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-2.png" 
+    src="/static/img/posts/mcp-apps-interactive-ui-guide/mcp-apps-interactive-ui-guide-2.webp" 
     alt="MCP Apps 아키텍처 다이어그램" 
     class="wd100"
     loading="lazy"

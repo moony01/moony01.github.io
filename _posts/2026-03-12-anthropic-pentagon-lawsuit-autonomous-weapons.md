@@ -21,14 +21,8 @@ published: true
             /static/img/posts/anthropic-pentagon-lawsuit-autonomous-weapons/anthropic-pentagon-lawsuit-autonomous-weapons-1-800.webp 800w,
             /static/img/posts/anthropic-pentagon-lawsuit-autonomous-weapons/anthropic-pentagon-lawsuit-autonomous-weapons-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/anthropic-pentagon-lawsuit-autonomous-weapons/anthropic-pentagon-lawsuit-autonomous-weapons-1-400.png 400w,
-            /static/img/posts/anthropic-pentagon-lawsuit-autonomous-weapons/anthropic-pentagon-lawsuit-autonomous-weapons-1-800.png 800w,
-            /static/img/posts/anthropic-pentagon-lawsuit-autonomous-weapons/anthropic-pentagon-lawsuit-autonomous-weapons-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/anthropic-pentagon-lawsuit-autonomous-weapons/anthropic-pentagon-lawsuit-autonomous-weapons-1.png" 
+    src="/static/img/posts/anthropic-pentagon-lawsuit-autonomous-weapons/anthropic-pentagon-lawsuit-autonomous-weapons-1.webp" 
     alt="앤트로픽 미 국방부 소송 — 자율 무기 AI 안전 딜레마" 
     class="wd100"
     loading="lazy"
@@ -83,14 +77,8 @@ published: true
             /static/img/posts/anthropic-pentagon-lawsuit-autonomous-weapons/anthropic-pentagon-lawsuit-autonomous-weapons-2-800.webp 800w,
             /static/img/posts/anthropic-pentagon-lawsuit-autonomous-weapons/anthropic-pentagon-lawsuit-autonomous-weapons-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/anthropic-pentagon-lawsuit-autonomous-weapons/anthropic-pentagon-lawsuit-autonomous-weapons-2-400.png 400w,
-            /static/img/posts/anthropic-pentagon-lawsuit-autonomous-weapons/anthropic-pentagon-lawsuit-autonomous-weapons-2-800.png 800w,
-            /static/img/posts/anthropic-pentagon-lawsuit-autonomous-weapons/anthropic-pentagon-lawsuit-autonomous-weapons-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/anthropic-pentagon-lawsuit-autonomous-weapons/anthropic-pentagon-lawsuit-autonomous-weapons-2.png" 
+    src="/static/img/posts/anthropic-pentagon-lawsuit-autonomous-weapons/anthropic-pentagon-lawsuit-autonomous-weapons-2.webp" 
     alt="앤트로픽 vs OpenAI AI 군사 활용 정책 비교" 
     class="wd100"
     loading="lazy"

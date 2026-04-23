@@ -19,14 +19,8 @@ published: true
             /static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-1-800.webp 800w,
             /static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-1-400.png 400w,
-            /static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-1-800.png 800w,
-            /static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-1.png" 
+    src="/static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-1.webp" 
     alt="카타르 헬륨 위기와 반도체 공급망" 
     class="wd100"
     loading="lazy"
@@ -81,14 +75,8 @@ Gasworld는 이번 위기로 헬륨 현물 가격이 **최대 50% 상승**할 �
             /static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-2-800.webp 800w,
             /static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-2-400.png 400w,
-            /static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-2-800.png 800w,
-            /static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-2.png" 
+    src="/static/img/posts/qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-2.webp" 
     alt="반도체 공급망 헬륨 의존도 구조" 
     class="wd100"
     loading="lazy"

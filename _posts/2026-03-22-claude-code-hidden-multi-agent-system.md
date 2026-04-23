@@ -17,14 +17,8 @@ Claude Code를 그냥 "AI 코딩 도우미"라고 생각하고 있었다면, 지
             /static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-1-800.webp 800w,
             /static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-1-400.png 400w,
-            /static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-1-800.png 800w,
-            /static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-1.png" 
+    src="/static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-1.webp" 
     alt="Claude Code 멀티 에이전트 시스템 개요" 
     class="wd100"
     loading="lazy"
@@ -63,14 +57,8 @@ Claude Code를 그냥 "AI 코딩 도우미"라고 생각하고 있었다면, 지
             /static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-2-800.webp 800w,
             /static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-2-400.png 400w,
-            /static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-2-800.png 800w,
-            /static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-2.png" 
+    src="/static/img/posts/claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-2.webp" 
     alt="Claude Code 서브에이전트 작동 방식" 
     class="wd100"
     loading="lazy"

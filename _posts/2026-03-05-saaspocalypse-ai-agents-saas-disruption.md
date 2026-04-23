@@ -20,14 +20,8 @@ published: true
             /static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-1-800.webp 800w,
             /static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-1-400.png 400w,
-            /static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-1-800.png 800w,
-            /static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-1.png" 
+    src="/static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-1.webp" 
     alt="SaaSpocalypse 개요" 
     class="wd100"
     loading="lazy"
@@ -74,14 +68,8 @@ Atlassian의 Q3 실적 발표에서 특히 충격적인 데이터가 나왔다. 
             /static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-2-800.webp 800w,
             /static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-2-400.png 400w,
-            /static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-2-800.png 800w,
-            /static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-2.png" 
+    src="/static/img/posts/saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-2.webp" 
     alt="AI 에이전트 vs SaaS 비교" 
     class="wd100"
     loading="lazy"

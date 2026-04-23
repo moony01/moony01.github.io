@@ -22,14 +22,8 @@ Python 개발자라면 지금 커뮤니티에서 무슨 이야기가 오가는�
             /static/img/posts/openai-astral-python-tools-acquisition/openai-astral-python-tools-acquisition-1-800.webp 800w,
             /static/img/posts/openai-astral-python-tools-acquisition/openai-astral-python-tools-acquisition-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/openai-astral-python-tools-acquisition/openai-astral-python-tools-acquisition-1-400.png 400w,
-            /static/img/posts/openai-astral-python-tools-acquisition/openai-astral-python-tools-acquisition-1-800.png 800w,
-            /static/img/posts/openai-astral-python-tools-acquisition/openai-astral-python-tools-acquisition-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/openai-astral-python-tools-acquisition/openai-astral-python-tools-acquisition-1.png" 
+    src="/static/img/posts/openai-astral-python-tools-acquisition/openai-astral-python-tools-acquisition-1.webp" 
     alt="OpenAI Astral 인수 — uv·Ruff·ty Python 생태계 충격" 
     class="wd100"
     loading="lazy"
@@ -113,14 +107,8 @@ quote-style = "double"
             /static/img/posts/openai-astral-python-tools-acquisition/openai-astral-python-tools-acquisition-2-800.webp 800w,
             /static/img/posts/openai-astral-python-tools-acquisition/openai-astral-python-tools-acquisition-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/openai-astral-python-tools-acquisition/openai-astral-python-tools-acquisition-2-400.png 400w,
-            /static/img/posts/openai-astral-python-tools-acquisition/openai-astral-python-tools-acquisition-2-800.png 800w,
-            /static/img/posts/openai-astral-python-tools-acquisition/openai-astral-python-tools-acquisition-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/openai-astral-python-tools-acquisition/openai-astral-python-tools-acquisition-2.png" 
+    src="/static/img/posts/openai-astral-python-tools-acquisition/openai-astral-python-tools-acquisition-2.webp" 
     alt="Python 개발자 툴체인 — uv·Ruff·ty 생태계 지도" 
     class="wd100"
     loading="lazy"

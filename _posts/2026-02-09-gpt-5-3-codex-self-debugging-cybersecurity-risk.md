@@ -19,14 +19,8 @@ OpenAI 공식 블로그에 올라온 이 한 문장을 처음 읽었을 때, 솔
             /static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-1-800.webp 800w,
             /static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-1-400.png 400w,
-            /static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-1-800.png 800w,
-            /static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-1.png" 
+    src="/static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-1.webp" 
     alt="GPT-5.3 Codex 히어로 이미지" 
     class="wd100"
     loading="lazy"
@@ -68,14 +62,8 @@ GPT-5.3-Codex에서 가장 소름 돋는 부분은 바로 **자기 참조적 개
             /static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-2-800.webp 800w,
             /static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-2-400.png 400w,
-            /static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-2-800.png 800w,
-            /static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-2.png" 
+    src="/static/img/posts/gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-2.webp" 
     alt="GPT-5.3 Codex 벤치마크 비교" 
     class="wd100"
     loading="lazy"

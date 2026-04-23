@@ -102,6 +102,19 @@ PY
 
 실무에서 더 중요한 건 블로그 공지문보다 제거 목록이다. 이번에도 공식 설명은 "보안"이 전면에 있었지만, 실제 제품 영향은 워크플로, 팀 관리, API 경계, 엔터프라이즈 관리 기능 삭제에서 발생했다. 그러니 다음에 비슷한 발표를 보면 가장 먼저 볼 것은 감정적인 이유 설명이 아니라 diff와 기능 제거 범위다.
 
-![Calcom 폐쇄 전환과 Cal diy 분리 구조](/static/img/posts/calcom-closed-source-shift/calcom-closed-source-shift-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/calcom-closed-source-shift/calcom-closed-source-shift-2-400.webp 400w,
+            /static/img/posts/calcom-closed-source-shift/calcom-closed-source-shift-2-800.webp 800w,
+            /static/img/posts/calcom-closed-source-shift/calcom-closed-source-shift-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/calcom-closed-source-shift/calcom-closed-source-shift-2.webp"
+    alt="Calcom 폐쇄 전환과 Cal diy 분리 구조"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 결국 이번 사건이 남긴 진짜 질문은 이것이다. AI가 오픈소스를 죽이느냐가 아니다. 오픈소스로 신뢰를 모은 SaaS가 어느 시점부터 그 신뢰를 유료 통제권으로 되돌리는가, 그리고 우리는 그 신호를 얼마나 빨리 읽어낼 수 있는가. 다음 폐쇄 전환 공지가 올라왔을 때 먼저 봐야 할 건 보안이라는 단어가 아니라, 무엇이 빠졌고 누가 그 비용을 떠안게 되는지다.

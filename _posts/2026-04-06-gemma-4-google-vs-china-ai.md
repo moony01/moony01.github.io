@@ -72,14 +72,8 @@ E4B 모델은 8GB VRAM이면 충분히 돌아간다. 개인 노트북에서 무�
             /static/img/posts/gemma-4-google-vs-china-ai/gemma-4-google-vs-china-ai-2-800.webp 800w,
             /static/img/posts/gemma-4-google-vs-china-ai/gemma-4-google-vs-china-ai-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/gemma-4-google-vs-china-ai/gemma-4-google-vs-china-ai-2-400.png 400w,
-            /static/img/posts/gemma-4-google-vs-china-ai/gemma-4-google-vs-china-ai-2-800.png 800w,
-            /static/img/posts/gemma-4-google-vs-china-ai/gemma-4-google-vs-china-ai-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/gemma-4-google-vs-china-ai/gemma-4-google-vs-china-ai-2.png" 
+    src="/static/img/posts/gemma-4-google-vs-china-ai/gemma-4-google-vs-china-ai-2.webp" 
     alt="Gemma 4와 중국 오픈소스 AI 모델 벤치마크 비교표" 
     class="wd100"
     loading="lazy"

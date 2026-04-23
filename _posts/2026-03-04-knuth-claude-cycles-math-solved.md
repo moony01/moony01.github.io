@@ -22,14 +22,8 @@ published: true
             /static/img/posts/knuth-claude-cycles-math-solved/knuth-claude-cycles-math-solved-1-800.webp 800w,
             /static/img/posts/knuth-claude-cycles-math-solved/knuth-claude-cycles-math-solved-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/knuth-claude-cycles-math-solved/knuth-claude-cycles-math-solved-1-400.png 400w,
-            /static/img/posts/knuth-claude-cycles-math-solved/knuth-claude-cycles-math-solved-1-800.png 800w,
-            /static/img/posts/knuth-claude-cycles-math-solved/knuth-claude-cycles-math-solved-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/knuth-claude-cycles-math-solved/knuth-claude-cycles-math-solved-1.png" 
+    src="/static/img/posts/knuth-claude-cycles-math-solved/knuth-claude-cycles-math-solved-1.webp" 
     alt="Claude Opus 4.6이 도날드 크누스의 수학 문제를 1시간에 해결한 탐색 과정 시각화" 
     class="wd100"
     loading="lazy"
@@ -119,14 +113,8 @@ print(f"첫 10개 꼭짓점: {vertices[:10]}")
             /static/img/posts/knuth-claude-cycles-math-solved/knuth-claude-cycles-math-solved-2-800.webp 800w,
             /static/img/posts/knuth-claude-cycles-math-solved/knuth-claude-cycles-math-solved-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/knuth-claude-cycles-math-solved/knuth-claude-cycles-math-solved-2-400.png 400w,
-            /static/img/posts/knuth-claude-cycles-math-solved/knuth-claude-cycles-math-solved-2-800.png 800w,
-            /static/img/posts/knuth-claude-cycles-math-solved/knuth-claude-cycles-math-solved-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/knuth-claude-cycles-math-solved/knuth-claude-cycles-math-solved-2.png" 
+    src="/static/img/posts/knuth-claude-cycles-math-solved/knuth-claude-cycles-math-solved-2.webp" 
     alt="해밀턴 사이클 분해 serpentine 패턴 구성 그래프 시각화" 
     class="wd100"
     loading="lazy"

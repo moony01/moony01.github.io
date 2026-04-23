@@ -77,14 +77,8 @@ rg -n 'API_KEY|TOKEN|SECRET|AWS_|GITHUB_' .claude . 2>/dev/null
             /static/img/posts/agent-skills-security-gap/agent-skills-security-gap-2-800.webp 800w,
             /static/img/posts/agent-skills-security-gap/agent-skills-security-gap-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/agent-skills-security-gap/agent-skills-security-gap-2-400.png 400w,
-            /static/img/posts/agent-skills-security-gap/agent-skills-security-gap-2-800.png 800w,
-            /static/img/posts/agent-skills-security-gap/agent-skills-security-gap-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/agent-skills-security-gap/agent-skills-security-gap-2.png" 
+    src="/static/img/posts/agent-skills-security-gap/agent-skills-security-gap-2.webp" 
     alt="에이전트 스킬 검증 체크리스트" 
     class="wd100"
     loading="lazy"

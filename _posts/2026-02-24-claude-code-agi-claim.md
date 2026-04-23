@@ -18,14 +18,8 @@ published: true
             /static/img/posts/claude-code-agi-claim/claude-code-agi-claim-1-gemini-800.webp 800w,
             /static/img/posts/claude-code-agi-claim/claude-code-agi-claim-1-gemini.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-code-agi-claim/claude-code-agi-claim-1-gemini-400.png 400w,
-            /static/img/posts/claude-code-agi-claim/claude-code-agi-claim-1-gemini-800.png 800w,
-            /static/img/posts/claude-code-agi-claim/claude-code-agi-claim-1-gemini.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-code-agi-claim/claude-code-agi-claim-1-gemini.png" 
+    src="/static/img/posts/claude-code-agi-claim/claude-code-agi-claim-1-gemini.webp" 
     alt="클로드 코드 AGI 논란 원문 검증 흐름도" 
     class="wd100"
     loading="lazy"
@@ -73,14 +67,8 @@ published: true
             /static/img/posts/claude-code-agi-claim/claude-code-agi-claim-2-gemini-800.webp 800w,
             /static/img/posts/claude-code-agi-claim/claude-code-agi-claim-2-gemini.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-code-agi-claim/claude-code-agi-claim-2-gemini-400.png 400w,
-            /static/img/posts/claude-code-agi-claim/claude-code-agi-claim-2-gemini-800.png 800w,
-            /static/img/posts/claude-code-agi-claim/claude-code-agi-claim-2-gemini.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-code-agi-claim/claude-code-agi-claim-2-gemini.png" 
+    src="/static/img/posts/claude-code-agi-claim/claude-code-agi-claim-2-gemini.webp" 
     alt="클로드 코드 AGI 주장 해석 분리 다이어그램" 
     class="wd100"
     loading="lazy"

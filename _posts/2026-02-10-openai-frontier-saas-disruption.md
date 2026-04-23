@@ -19,14 +19,8 @@ S&P 500 소프트웨어 지수에서 **1조 달러(약 1,450조 원)**가 증발
             /static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-1-800.webp 800w,
             /static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-1-400.png 400w,
-            /static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-1-800.png 800w,
-            /static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-1.png" 
+    src="/static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-1.webp" 
     alt="OpenAI Frontier 플랫폼 히어로 이미지" 
     class="wd100"
     loading="lazy"
@@ -79,14 +73,8 @@ Salesforce를 7년 쓴 기업이 다른 CRM으로 이전하는 건 악몽 같은
             /static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-2-800.webp 800w,
             /static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-2-400.png 400w,
-            /static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-2-800.png 800w,
-            /static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-2.png" 
+    src="/static/img/posts/openai-frontier-saas-disruption/openai-frontier-saas-disruption-2.webp" 
     alt="OpenAI Frontier 아키텍처 다이어그램" 
     class="wd100"
     loading="lazy"

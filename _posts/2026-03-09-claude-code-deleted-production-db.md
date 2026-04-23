@@ -21,14 +21,8 @@ AI 에이전트가 개발자의 프로덕션 환경을 통째로 날려버린 �
             /static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-1-800.webp 800w,
             /static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-1-400.png 400w,
-            /static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-1-800.png 800w,
-            /static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-1.png" 
+    src="/static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-1.webp" 
     alt="히어로 이미지" 
     class="wd100"
     loading="lazy"
@@ -80,14 +74,8 @@ Alexey는 즉시 AWS 비즈니스 지원팀에 연락했다. 다행히 AWS는 �
             /static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-2-800.webp 800w,
             /static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-2-400.png 400w,
-            /static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-2-800.png 800w,
-            /static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-2.png" 
+    src="/static/img/posts/claude-code-deleted-production-db/claude-code-deleted-production-db-2.webp" 
     alt="본문 이미지" 
     class="wd100"
     loading="lazy"

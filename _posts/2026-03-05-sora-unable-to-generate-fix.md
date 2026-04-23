@@ -22,14 +22,8 @@ Sora로 영상을 만들려는데 갑자기 이런 메시지가 뜬다.
             /static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-1-800.webp 800w,
             /static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-1-400.png 400w,
-            /static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-1-800.png 800w,
-            /static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-1.png" 
+    src="/static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-1.webp" 
     alt="Sora 영상 생성 실패 오류 화면과 원인별 해결 흐름도" 
     class="wd100"
     loading="lazy"
@@ -92,14 +86,8 @@ Sora는 구독 플랜별로 월간 크레딧이 정해져 있다. 크레딧이 0
             /static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-2-800.webp 800w,
             /static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-2-400.png 400w,
-            /static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-2-800.png 800w,
-            /static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-2.png" 
+    src="/static/img/posts/sora-unable-to-generate-fix/sora-unable-to-generate-fix-2.webp" 
     alt="Sora 오류 유형별 진단 플로우 — IP 차단, 크레딧 소진, 콘텐츠 필터 분기점" 
     class="wd100"
     loading="lazy"

@@ -21,6 +21,9 @@ const config = JSON.parse(
   await fs.readFile(path.join(__dirname, 'config/images.json'), 'utf-8')
 );
 
+// --keep-originals 플래그: 원본 파일 유지 (로컬 개발 시 사용)
+const keepOriginals = process.argv.includes('--keep-originals');
+
 /**
  * 이미지를 WebP로 변환하고 다중 해상도 생성
  * @param {string} inputPath - 입력 이미지 경로
@@ -50,6 +53,18 @@ async function optimizeImage(inputPath, outputDir) {
   }
   
   console.log(`    → ${filename}.webp ✅`);
+
+  // WebP 변환 성공 후 원본 파일 삭제 (--keep-originals 미지정 시)
+  if (!keepOriginals) {
+    const webpPath = path.join(outputDir, `${filename}.webp`);
+    try {
+      await fs.access(webpPath);
+      await fs.unlink(inputPath);
+      console.log(`    🗑️ 원본 삭제: ${path.basename(inputPath)}`);
+    } catch (err) {
+      console.warn(`    ⚠️ 원본 유지 (WebP 미확인): ${path.basename(inputPath)}`);
+    }
+  }
 }
 
 /**
@@ -90,9 +105,14 @@ if (allFlag) {
 사용법:
   node scripts/optimize-images.js --input <디렉토리>
   node scripts/optimize-images.js --all
-  
+  node scripts/optimize-images.js --all --keep-originals
+
+옵션:
+  --keep-originals  WebP 변환 후 원본 PNG/JPG/GIF 유지 (로컬 개발용)
+
 예시:
   node scripts/optimize-images.js --input ./static/img/posts/my-post
   node scripts/optimize-images.js --all
+  node scripts/optimize-images.js --all --keep-originals
 `);
 }

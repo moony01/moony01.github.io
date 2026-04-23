@@ -21,14 +21,8 @@ published: true
             /static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-1-800.webp 800w,
             /static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-1-400.png 400w,
-            /static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-1-800.png 800w,
-            /static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-1.png" 
+    src="/static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-1.webp" 
     alt="htmx 창시자의 AI 시대 프로그래밍 논쟁" 
     class="wd100"
     loading="lazy"
@@ -68,14 +62,8 @@ Gross의 주장은 이렇습니다.
             /static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-2-800.webp 800w,
             /static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-2-400.png 400w,
-            /static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-2-800.png 800w,
-            /static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-2.png" 
+    src="/static/img/posts/htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-2.webp" 
     alt="AI 시대 프로그래밍 학습 딜레마" 
     class="wd100"
     loading="lazy"

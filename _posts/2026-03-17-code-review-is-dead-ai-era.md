@@ -21,14 +21,8 @@ PR을 올리면 며칠이 지나도 아무도 안 보고, 누군가 드디어 �
             /static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-1-800.webp 800w,
             /static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-1-400.png 400w,
-            /static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-1-800.png 800w,
-            /static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-1.png" 
+    src="/static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-1.webp" 
     alt="히어로 이미지" 
     class="wd100"
     loading="lazy"
@@ -77,14 +71,8 @@ AI 에이전트는 한 번에 수백, 수천 줄을 생성합니다. 생성 과�
             /static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-2-800.webp 800w,
             /static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-2-400.png 400w,
-            /static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-2-800.png 800w,
-            /static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-2.png" 
+    src="/static/img/posts/code-review-is-dead-ai-era/code-review-is-dead-ai-era-2.webp" 
     alt="본문 이미지" 
     class="wd100"
     loading="lazy"

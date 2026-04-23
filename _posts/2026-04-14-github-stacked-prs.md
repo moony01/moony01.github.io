@@ -68,7 +68,20 @@ gs submit
 
 반대로 작은 팀은 무조건 좋다고 보긴 어렵다. 리뷰어 한두 명이 모든 맥락을 이미 알고 있고, 하루 안에 큰 PR도 충분히 소화하는 팀이라면 스택 관리 비용이 더 크게 느껴질 수 있다. 내 생각엔 이 기능의 진짜 타깃은 코드가 복잡한 팀이라기보다, 리뷰 대기열과 머지 순서 때문에 계속 충돌이 나는 팀이다.
 
-![Stacked PRs 리뷰 흐름 구조도](/static/img/posts/github-stacked-prs/github-stacked-prs-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/github-stacked-prs/github-stacked-prs-2-400.webp 400w,
+            /static/img/posts/github-stacked-prs/github-stacked-prs-2-800.webp 800w,
+            /static/img/posts/github-stacked-prs/github-stacked-prs-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/github-stacked-prs/github-stacked-prs-2.webp"
+    alt="Stacked PRs 리뷰 흐름 구조도"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ### 아직은 프리뷰라는 점도 잊으면 안 된다
 

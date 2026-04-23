@@ -18,14 +18,8 @@ ChatGPT에 Slack을 연결하고, Claude에 GitHub를 붙이고, 사내 LLM에 �
             /static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-1-800.webp 800w,
             /static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-1-400.png 400w,
-            /static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-1-800.png 800w,
-            /static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-1.png" 
+    src="/static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-1.webp" 
     alt="MCP Model Context Protocol 개념도" 
     class="wd100"
     loading="lazy"
@@ -87,14 +81,8 @@ MCP 서버는 세 가지 핵심 요소를 제공합니다:
             /static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-2-800.webp 800w,
             /static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-2-400.png 400w,
-            /static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-2-800.png 800w,
-            /static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-2.png" 
+    src="/static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-2.webp" 
     alt="MCP 3대 핵심 요소 다이어그램" 
     class="wd100"
     loading="lazy"
@@ -204,14 +192,8 @@ if __name__ == "__main__":
             /static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-3-800.webp 800w,
             /static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-3.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-3-400.png 400w,
-            /static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-3-800.png 800w,
-            /static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-3.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-3.png" 
+    src="/static/img/posts/mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-3.webp" 
     alt="Claude Desktop MCP 연결 화면" 
     class="wd100"
     loading="lazy"

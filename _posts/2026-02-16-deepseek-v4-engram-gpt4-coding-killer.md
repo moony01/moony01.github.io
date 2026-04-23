@@ -19,14 +19,8 @@ HumanEval 90%, SWE-bench 80% 이상. GPT-4의 82%를 가볍게 넘겼고, Claude
             /static/img/posts/deepseek-v4-engram-gpt4-coding-killer/deepseek-v4-engram-gpt4-coding-killer-1-800.webp 800w,
             /static/img/posts/deepseek-v4-engram-gpt4-coding-killer/deepseek-v4-engram-gpt4-coding-killer-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/deepseek-v4-engram-gpt4-coding-killer/deepseek-v4-engram-gpt4-coding-killer-1-400.png 400w,
-            /static/img/posts/deepseek-v4-engram-gpt4-coding-killer/deepseek-v4-engram-gpt4-coding-killer-1-800.png 800w,
-            /static/img/posts/deepseek-v4-engram-gpt4-coding-killer/deepseek-v4-engram-gpt4-coding-killer-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/deepseek-v4-engram-gpt4-coding-killer/deepseek-v4-engram-gpt4-coding-killer-1.png" 
+    src="/static/img/posts/deepseek-v4-engram-gpt4-coding-killer/deepseek-v4-engram-gpt4-coding-killer-1.webp" 
     alt="DeepSeek V4 Engram 아키텍처가 AI 코딩 시장을 뒤흔든다" 
     class="wd100"
     loading="lazy"
@@ -150,14 +144,8 @@ DeepSeek V4가 약속한 성능의 70%만 달성해도, "비싼 API 비용을 �
             /static/img/posts/deepseek-v4-engram-gpt4-coding-killer/deepseek-v4-engram-gpt4-coding-killer-2-800.webp 800w,
             /static/img/posts/deepseek-v4-engram-gpt4-coding-killer/deepseek-v4-engram-gpt4-coding-killer-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/deepseek-v4-engram-gpt4-coding-killer/deepseek-v4-engram-gpt4-coding-killer-2-400.png 400w,
-            /static/img/posts/deepseek-v4-engram-gpt4-coding-killer/deepseek-v4-engram-gpt4-coding-killer-2-800.png 800w,
-            /static/img/posts/deepseek-v4-engram-gpt4-coding-killer/deepseek-v4-engram-gpt4-coding-killer-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/deepseek-v4-engram-gpt4-coding-killer/deepseek-v4-engram-gpt4-coding-killer-2.png" 
+    src="/static/img/posts/deepseek-v4-engram-gpt4-coding-killer/deepseek-v4-engram-gpt4-coding-killer-2.webp" 
     alt="DeepSeek V4와 기존 모델 성능 비교" 
     class="wd100"
     loading="lazy"

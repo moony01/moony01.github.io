@@ -19,14 +19,8 @@ Hacker News에서 1,000점을 넘긴 소식이 있었다. "1M context is now gen
             /static/img/posts/claude-1m-context-codebase/claude-1m-context-codebase-1-800.webp 800w,
             /static/img/posts/claude-1m-context-codebase/claude-1m-context-codebase-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-1m-context-codebase/claude-1m-context-codebase-1-400.png 400w,
-            /static/img/posts/claude-1m-context-codebase/claude-1m-context-codebase-1-800.png 800w,
-            /static/img/posts/claude-1m-context-codebase/claude-1m-context-codebase-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-1m-context-codebase/claude-1m-context-codebase-1.png" 
+    src="/static/img/posts/claude-1m-context-codebase/claude-1m-context-codebase-1.webp" 
     alt="Claude 100만 토큰 컨텍스트 히어로 이미지" 
     class="wd100"
     loading="lazy"
@@ -82,14 +76,8 @@ wc -c full_codebase.txt  # 파일 크기 확인
             /static/img/posts/claude-1m-context-codebase/claude-1m-context-codebase-2-800.webp 800w,
             /static/img/posts/claude-1m-context-codebase/claude-1m-context-codebase-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-1m-context-codebase/claude-1m-context-codebase-2-400.png 400w,
-            /static/img/posts/claude-1m-context-codebase/claude-1m-context-codebase-2-800.png 800w,
-            /static/img/posts/claude-1m-context-codebase/claude-1m-context-codebase-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-1m-context-codebase/claude-1m-context-codebase-2.png" 
+    src="/static/img/posts/claude-1m-context-codebase/claude-1m-context-codebase-2.webp" 
     alt="Claude 1M 컨텍스트 실제 활용 다이어그램" 
     class="wd100"
     loading="lazy"

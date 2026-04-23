@@ -22,14 +22,8 @@ published: true
             /static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-1-800.webp 800w,
             /static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-1-400.png 400w,
-            /static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-1-800.png 800w,
-            /static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-1.png" 
+    src="/static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-1.webp" 
     alt="WebMCP 개념도 — 웹사이트가 AI 에이전트에게 구조화된 도구를 직접 노출하는 구조" 
     class="wd100"
     loading="lazy"
@@ -134,14 +128,8 @@ navigator.webMCP.registerTool({
             /static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-2-800.webp 800w,
             /static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-2-400.png 400w,
-            /static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-2-800.png 800w,
-            /static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-2.png" 
+    src="/static/img/posts/google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-2.webp" 
     alt="WebMCP 아키텍처 다이어그램 — 브라우저 내 AI 에이전트와 웹사이트 간 구조화된 통신" 
     class="wd100"
     loading="lazy"

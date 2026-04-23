@@ -66,14 +66,8 @@ Reddit `r/google_antigravity`에는 "Google is permanently banning Antigravity u
             /static/img/posts/gemini-opencode-account-ban-disaster/gemini-opencode-account-ban-disaster-2-800.webp 800w,
             /static/img/posts/gemini-opencode-account-ban-disaster/gemini-opencode-account-ban-disaster-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/gemini-opencode-account-ban-disaster/gemini-opencode-account-ban-disaster-2-400.png 400w,
-            /static/img/posts/gemini-opencode-account-ban-disaster/gemini-opencode-account-ban-disaster-2-800.png 800w,
-            /static/img/posts/gemini-opencode-account-ban-disaster/gemini-opencode-account-ban-disaster-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/gemini-opencode-account-ban-disaster/gemini-opencode-account-ban-disaster-2.png" 
+    src="/static/img/posts/gemini-opencode-account-ban-disaster/gemini-opencode-account-ban-disaster-2.webp" 
     alt="OAuth 토큰 흐름과 Google 보안 시스템의 차단 다이어그램" 
     class="wd100"
     loading="lazy"

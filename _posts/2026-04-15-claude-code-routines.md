@@ -70,7 +70,20 @@ Anthropic이 예시로 든 사용처를 보면 백로그 triage, 문서 드리�
 
 내가 더 주목하는 건 배포 검증 시나리오다. 문서 예시처럼 CD 파이프라인이 루틴에 신호를 보내고, Claude가 새 빌드를 열어 스모크 테스트를 돌리고, 에러 로그를 훑고, 릴리스 채널에 go no go 요약을 남기는 구조는 꽤 현실적이다. 그동안 이런 자동화는 Datadog, GitHub Actions, Slack, 사내 스크립트가 각자 맡고 있었다. 루틴은 그 접합면을 하나의 세션으로 묶는다.
 
-![클로드 코드 루틴 GitHub 자동화 흐름](/static/img/posts/claude-code-routines/claude-code-routines-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/claude-code-routines/claude-code-routines-2-400.webp 400w,
+            /static/img/posts/claude-code-routines/claude-code-routines-2-800.webp 800w,
+            /static/img/posts/claude-code-routines/claude-code-routines-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/claude-code-routines/claude-code-routines-2.webp"
+    alt="클로드 코드 루틴 GitHub 자동화 흐름"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 그래서 중요하다. 단순히 자동화를 더 붙이는 문제가 아니라, 누가 실패를 발견하고 누가 첫 대응 문장을 쓰는지까지 바뀔 수 있기 때문이다. 온콜 엔지니어 입장에서는 새벽 2시에 로그 30개를 뒤지는 대신, 요약과 첫 대응 초안을 먼저 받는 구조가 된다.
 

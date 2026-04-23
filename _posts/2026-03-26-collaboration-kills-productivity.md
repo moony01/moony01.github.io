@@ -61,14 +61,8 @@ Frederick Brooks는 1975년 《맨먼스 미신(The Mythical Man-Month)》에서
             /static/img/posts/collaboration-kills-productivity/collaboration-kills-productivity-2-800.webp 800w,
             /static/img/posts/collaboration-kills-productivity/collaboration-kills-productivity-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/collaboration-kills-productivity/collaboration-kills-productivity-2-400.png 400w,
-            /static/img/posts/collaboration-kills-productivity/collaboration-kills-productivity-2-800.png 800w,
-            /static/img/posts/collaboration-kills-productivity/collaboration-kills-productivity-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/collaboration-kills-productivity/collaboration-kills-productivity-2.png" 
+    src="/static/img/posts/collaboration-kills-productivity/collaboration-kills-productivity-2.webp" 
     alt="개발팀 규모별 커뮤니케이션 오버헤드와 순 생산성 변화 그래프" 
     class="wd100"
     loading="lazy"

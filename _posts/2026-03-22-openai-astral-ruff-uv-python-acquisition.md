@@ -19,14 +19,8 @@ Astral이 낯선 분들을 위해 설명하자면, 이 회사는 파이썬 개�
             /static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-1-800.webp 800w,
             /static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-1-400.png 400w,
-            /static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-1-800.png 800w,
-            /static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-1.png" 
+    src="/static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-1.webp" 
     alt="OpenAI의 Astral 인수 — 파이썬 개발 도구 생태계의 새로운 지각변동" 
     class="wd100"
     loading="lazy"
@@ -88,14 +82,8 @@ ruff와 uv는 MIT 라이선스 오픈소스입니다. 누구나 자유롭게 사
             /static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-2-800.webp 800w,
             /static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-2-400.png 400w,
-            /static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-2-800.png 800w,
-            /static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-2.png" 
+    src="/static/img/posts/openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-2.webp" 
     alt="Python 패키지 생태계와 OpenAI 통합 — 개발자 워크플로우의 변화" 
     class="wd100"
     loading="lazy"

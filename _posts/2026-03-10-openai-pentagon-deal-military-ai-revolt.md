@@ -19,14 +19,8 @@ published: true
             /static/img/posts/openai-pentagon-deal-military-ai-revolt/openai-pentagon-deal-military-ai-revolt-1-800.webp 800w,
             /static/img/posts/openai-pentagon-deal-military-ai-revolt/openai-pentagon-deal-military-ai-revolt-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/openai-pentagon-deal-military-ai-revolt/openai-pentagon-deal-military-ai-revolt-1-400.png 400w,
-            /static/img/posts/openai-pentagon-deal-military-ai-revolt/openai-pentagon-deal-military-ai-revolt-1-800.png 800w,
-            /static/img/posts/openai-pentagon-deal-military-ai-revolt/openai-pentagon-deal-military-ai-revolt-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/openai-pentagon-deal-military-ai-revolt/openai-pentagon-deal-military-ai-revolt-1.png" 
+    src="/static/img/posts/openai-pentagon-deal-military-ai-revolt/openai-pentagon-deal-military-ai-revolt-1.webp" 
     alt="히어로 이미지" 
     class="wd100"
     loading="lazy"
@@ -63,14 +57,8 @@ Kalinowski는 NPR과의 인터뷰에서 이렇게 말했다.
             /static/img/posts/openai-pentagon-deal-military-ai-revolt/openai-pentagon-deal-military-ai-revolt-2-800.webp 800w,
             /static/img/posts/openai-pentagon-deal-military-ai-revolt/openai-pentagon-deal-military-ai-revolt-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/openai-pentagon-deal-military-ai-revolt/openai-pentagon-deal-military-ai-revolt-2-400.png 400w,
-            /static/img/posts/openai-pentagon-deal-military-ai-revolt/openai-pentagon-deal-military-ai-revolt-2-800.png 800w,
-            /static/img/posts/openai-pentagon-deal-military-ai-revolt/openai-pentagon-deal-military-ai-revolt-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/openai-pentagon-deal-military-ai-revolt/openai-pentagon-deal-military-ai-revolt-2.png" 
+    src="/static/img/posts/openai-pentagon-deal-military-ai-revolt/openai-pentagon-deal-military-ai-revolt-2.webp" 
     alt="본문 이미지" 
     class="wd100"
     loading="lazy"

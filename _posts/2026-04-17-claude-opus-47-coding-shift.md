@@ -90,7 +90,20 @@ curl https://api.anthropic.com/v1/messages \
 
 이번 발표를 더 크게 봐야 하는 이유는 주변 제품이 이미 깔려 있기 때문이다. `Claude Code Routines`, 관리형 에이전트, 각종 브라우저 자동화 도구는 이미 나와 있다. 그동안 병목은 프롬프트가 아니라 긴 작업에서 흔들리지 않는 모델이었다. Opus 4.7은 바로 그 빈칸을 메우겠다는 식으로 등장했다.
 
-![클로드 오푸스 47 셀프 검증 흐름도](/static/img/posts/claude-opus-47-coding-shift/claude-opus-47-coding-shift-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/claude-opus-47-coding-shift/claude-opus-47-coding-shift-2-400.webp 400w,
+            /static/img/posts/claude-opus-47-coding-shift/claude-opus-47-coding-shift-2-800.webp 800w,
+            /static/img/posts/claude-opus-47-coding-shift/claude-opus-47-coding-shift-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/claude-opus-47-coding-shift/claude-opus-47-coding-shift-2.webp"
+    alt="클로드 오푸스 47 셀프 검증 흐름도"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 이 장면에서 제일 먼저 바뀌는 팀은 아마 PR 리뷰와 운영 자동화 팀일 것이다. 사람이 파일을 훑는 시간, 에러를 재현하는 시간, 툴 실패 후 다시 명령하는 시간을 조금씩 줄일 수 있기 때문이다. 반대로 기준 없이 "알아서 해"만 외치는 팀은 모델이 좋아져도 체감이 작다. 모델은 더 똑똑해졌지만, 책임 경계를 설계해 주지는 않기 때문이다.
 

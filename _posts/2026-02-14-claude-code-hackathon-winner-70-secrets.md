@@ -21,14 +21,8 @@ published: true
             /static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-1-800.webp 800w,
             /static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-1-400.png 400w,
-            /static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-1-800.png 800w,
-            /static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-1.png" 
+    src="/static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-1.webp" 
     alt="Claude Code 해커톤 우승자의 70가지 비밀" 
     class="wd100"
     loading="lazy"
@@ -114,14 +108,8 @@ Level 7: Agents (전문 서브에이전트 위임)
             /static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-2-800.webp 800w,
             /static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-2-400.png 400w,
-            /static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-2-800.png 800w,
-            /static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-2.png" 
+    src="/static/img/posts/claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-2.webp" 
     alt="Claude Code 자동화 7단계 레벨링 시스템" 
     class="wd100"
     loading="lazy"

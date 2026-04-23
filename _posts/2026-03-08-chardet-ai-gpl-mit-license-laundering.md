@@ -21,14 +21,8 @@ published: true
             /static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-1-800.webp 800w,
             /static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-1-400.png 400w,
-            /static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-1-800.png 800w,
-            /static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-1.png" 
+    src="/static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-1.webp" 
     alt="AI로 GPL 코드를 MIT로 세탁하는 chardet 사태" 
     class="wd100"
     loading="lazy"
@@ -76,14 +70,8 @@ Simon Willison은 이 사건에 대해 [이렇게 정리했다](https://simonwil
             /static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-2-800.webp 800w,
             /static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-2-400.png 400w,
-            /static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-2-800.png 800w,
-            /static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-2.png" 
+    src="/static/img/posts/chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-2.webp" 
     alt="Clean Room vs AI Rewrite 비교" 
     class="wd100"
     loading="lazy"

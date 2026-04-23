@@ -19,14 +19,8 @@ published: true
             /static/img/posts/ram-price-surge-ai-steals-your-memory/ram-price-surge-ai-steals-your-memory-1-800.webp 800w,
             /static/img/posts/ram-price-surge-ai-steals-your-memory/ram-price-surge-ai-steals-your-memory-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/ram-price-surge-ai-steals-your-memory/ram-price-surge-ai-steals-your-memory-1-400.png 400w,
-            /static/img/posts/ram-price-surge-ai-steals-your-memory/ram-price-surge-ai-steals-your-memory-1-800.png 800w,
-            /static/img/posts/ram-price-surge-ai-steals-your-memory/ram-price-surge-ai-steals-your-memory-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/ram-price-surge-ai-steals-your-memory/ram-price-surge-ai-steals-your-memory-1.png" 
+    src="/static/img/posts/ram-price-surge-ai-steals-your-memory/ram-price-surge-ai-steals-your-memory-1.webp" 
     alt="2026 RAM 가격 폭등과 AI 메모리 위기" 
     class="wd100"
     loading="lazy"

@@ -29,14 +29,8 @@ Ruby는 1990년대 중반 `Yukihiro Matsumoto`가 만든 동적 객체 지향 �
             /static/img/posts/ruby-install/ruby-install-0-800.webp 800w,
             /static/img/posts/ruby-install/ruby-install-0.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/jpeg"
-    srcset="/static/img/posts/ruby-install/ruby-install-0-400.jpg 400w,
-            /static/img/posts/ruby-install/ruby-install-0-800.jpg 800w,
-            /static/img/posts/ruby-install/ruby-install-0.jpg 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/ruby-install/ruby-install-0.jpg" 
+    src="/static/img/posts/ruby-install/ruby-install-0.webp" 
     alt="Yukihiro Matsumoto의 사진" 
     class="wd100"
     loading="lazy"
@@ -59,14 +53,8 @@ Ruby는 1990년대 중반 `Yukihiro Matsumoto`가 만든 동적 객체 지향 �
             /static/img/posts/ruby-install/ruby-install-1-800.webp 800w,
             /static/img/posts/ruby-install/ruby-install-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/jpeg"
-    srcset="/static/img/posts/ruby-install/ruby-install-1-400.jpg 400w,
-            /static/img/posts/ruby-install/ruby-install-1-800.jpg 800w,
-            /static/img/posts/ruby-install/ruby-install-1.jpg 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/ruby-install/ruby-install-1.jpg" 
+    src="/static/img/posts/ruby-install/ruby-install-1.webp" 
     alt="Ruby 홈페이지 접속 후 Ruby 다운로드 버튼 클릭" 
     class="wd100"
     loading="lazy"
@@ -83,14 +71,8 @@ Ruby는 1990년대 중반 `Yukihiro Matsumoto`가 만든 동적 객체 지향 �
             /static/img/posts/ruby-install/ruby-install-2-800.webp 800w,
             /static/img/posts/ruby-install/ruby-install-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/jpeg"
-    srcset="/static/img/posts/ruby-install/ruby-install-2-400.jpg 400w,
-            /static/img/posts/ruby-install/ruby-install-2-800.jpg 800w,
-            /static/img/posts/ruby-install/ruby-install-2.jpg 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/ruby-install/ruby-install-2.jpg" 
+    src="/static/img/posts/ruby-install/ruby-install-2.webp" 
     alt="Ruby 다운로드 페이지로 이동하기 위해 RubyInstaller 링크 클릭" 
     class="wd100"
     loading="lazy"
@@ -107,14 +89,8 @@ Ruby는 1990년대 중반 `Yukihiro Matsumoto`가 만든 동적 객체 지향 �
             /static/img/posts/ruby-install/ruby-install-3-800.webp 800w,
             /static/img/posts/ruby-install/ruby-install-3.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/jpeg"
-    srcset="/static/img/posts/ruby-install/ruby-install-3-400.jpg 400w,
-            /static/img/posts/ruby-install/ruby-install-3-800.jpg 800w,
-            /static/img/posts/ruby-install/ruby-install-3.jpg 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/ruby-install/ruby-install-3.jpg" 
+    src="/static/img/posts/ruby-install/ruby-install-3.webp" 
     alt="다운로드 페이지에서 download 버튼 클릭" 
     class="wd100"
     loading="lazy"
@@ -128,14 +104,8 @@ Ruby는 1990년대 중반 `Yukihiro Matsumoto`가 만든 동적 객체 지향 �
             /static/img/posts/ruby-install/ruby-install-4-800.webp 800w,
             /static/img/posts/ruby-install/ruby-install-4.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/jpeg"
-    srcset="/static/img/posts/ruby-install/ruby-install-4-400.jpg 400w,
-            /static/img/posts/ruby-install/ruby-install-4-800.jpg 800w,
-            /static/img/posts/ruby-install/ruby-install-4.jpg 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/ruby-install/ruby-install-4.jpg" 
+    src="/static/img/posts/ruby-install/ruby-install-4.webp" 
     alt="installer with devkit 다운로드" 
     class="wd100"
     loading="lazy"
@@ -151,14 +121,8 @@ Ruby는 1990년대 중반 `Yukihiro Matsumoto`가 만든 동적 객체 지향 �
             /static/img/posts/ruby-install/ruby-install-5-800.webp 800w,
             /static/img/posts/ruby-install/ruby-install-5.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/jpeg"
-    srcset="/static/img/posts/ruby-install/ruby-install-5-400.jpg 400w,
-            /static/img/posts/ruby-install/ruby-install-5-800.jpg 800w,
-            /static/img/posts/ruby-install/ruby-install-5.jpg 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/ruby-install/ruby-install-5.jpg" 
+    src="/static/img/posts/ruby-install/ruby-install-5.webp" 
     alt="installer 파일 다운로드 확인" 
     class="wd100"
     loading="lazy"
@@ -175,14 +139,8 @@ installer 다운로드를 완료했다면 컴퓨터에 설치하겠습니다.
             /static/img/posts/ruby-install/ruby-install-6-800.webp 800w,
             /static/img/posts/ruby-install/ruby-install-6.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/jpeg"
-    srcset="/static/img/posts/ruby-install/ruby-install-6-400.jpg 400w,
-            /static/img/posts/ruby-install/ruby-install-6-800.jpg 800w,
-            /static/img/posts/ruby-install/ruby-install-6.jpg 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/ruby-install/ruby-install-6.jpg" 
+    src="/static/img/posts/ruby-install/ruby-install-6.webp" 
     alt="Setup 라이선스 동의" 
     class="wd100"
     loading="lazy"
@@ -199,14 +157,8 @@ installer 다운로드를 완료했다면 컴퓨터에 설치하겠습니다.
             /static/img/posts/ruby-install/ruby-install-7-800.webp 800w,
             /static/img/posts/ruby-install/ruby-install-7.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/jpeg"
-    srcset="/static/img/posts/ruby-install/ruby-install-7-400.jpg 400w,
-            /static/img/posts/ruby-install/ruby-install-7-800.jpg 800w,
-            /static/img/posts/ruby-install/ruby-install-7.jpg 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/ruby-install/ruby-install-7.jpg" 
+    src="/static/img/posts/ruby-install/ruby-install-7.webp" 
     alt="Installation Destination and optional Tasks" 
     class="wd100"
     loading="lazy"
@@ -223,14 +175,8 @@ installer 다운로드를 완료했다면 컴퓨터에 설치하겠습니다.
             /static/img/posts/ruby-install/ruby-install-8-800.webp 800w,
             /static/img/posts/ruby-install/ruby-install-8.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/jpeg"
-    srcset="/static/img/posts/ruby-install/ruby-install-8-400.jpg 400w,
-            /static/img/posts/ruby-install/ruby-install-8-800.jpg 800w,
-            /static/img/posts/ruby-install/ruby-install-8.jpg 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/ruby-install/ruby-install-8.jpg" 
+    src="/static/img/posts/ruby-install/ruby-install-8.webp" 
     alt="컴포넌트 선택" 
     class="wd100"
     loading="lazy"
@@ -247,14 +193,8 @@ installer 다운로드를 완료했다면 컴퓨터에 설치하겠습니다.
             /static/img/posts/ruby-install/ruby-install-9-800.webp 800w,
             /static/img/posts/ruby-install/ruby-install-9.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/jpeg"
-    srcset="/static/img/posts/ruby-install/ruby-install-9-400.jpg 400w,
-            /static/img/posts/ruby-install/ruby-install-9-800.jpg 800w,
-            /static/img/posts/ruby-install/ruby-install-9.jpg 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/ruby-install/ruby-install-9.jpg" 
+    src="/static/img/posts/ruby-install/ruby-install-9.webp" 
     alt="컴포넌트 선택" 
     class="wd100"
     loading="lazy"
@@ -271,14 +211,8 @@ installer 다운로드를 완료했다면 컴퓨터에 설치하겠습니다.
             /static/img/posts/ruby-install/ruby-install-10-800.webp 800w,
             /static/img/posts/ruby-install/ruby-install-10.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/jpeg"
-    srcset="/static/img/posts/ruby-install/ruby-install-10-400.jpg 400w,
-            /static/img/posts/ruby-install/ruby-install-10-800.jpg 800w,
-            /static/img/posts/ruby-install/ruby-install-10.jpg 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/ruby-install/ruby-install-10.jpg" 
+    src="/static/img/posts/ruby-install/ruby-install-10.webp" 
     alt="컴포넌트 선택" 
     class="wd100"
     loading="lazy"

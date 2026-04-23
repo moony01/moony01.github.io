@@ -49,6 +49,19 @@ jobs:
       - name: Convert to Picture Tags
         run: npm run convert-to-picture
 
+      # 5.5. 변환 결과 커밋 (원본 삭제 + picture 태그 정리)
+      - name: Commit optimized images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A static/img/posts/ _posts/
+          if git diff --staged --quiet; then
+            echo "No image changes to commit"
+          else
+            git commit -m "chore: WebP 변환 및 원본 이미지 정리 [skip ci]"
+            git push
+          fi
+
       # 6. Ruby 설정 (Jekyll 빌드용)
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1

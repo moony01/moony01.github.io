@@ -3,9 +3,10 @@
  * 
  * 기능:
  * - Jekyll 빌드 전 _posts/*.md 파일의 이미지 태그를 <picture>로 변환
- * - WebP + PNG/JPG 폴백 지원
+ * - WebP only (PNG/JPG fallback 제거)
  * - 다중 해상도 srcset 생성
  * - lazy loading 자동 적용
+ * - 기존 <picture> 태그 내 PNG/JPG <source> 일괄 정리
  * 
  * 사용법:
  * node scripts/convert-to-picture.js
@@ -62,26 +63,19 @@ function convertImageToPicture(match, alt, src, attributes = '') {
     ...CONFIG.sizes.map(size => `${dirPath}/${filename}-${size}.webp ${size}w`),
     `${dirPath}/${filename}.webp 1200w`
   ].join(',\n            ');
-  
-  // 원본 포맷 srcset 생성
-  const origSrcset = [
-    ...CONFIG.sizes.map(size => `${dirPath}/${filename}-${size}${ext} ${size}w`),
-    `${src} 1200w`
-  ].join(',\n            ');
-  
-  // <picture> 태그 생성
+
+  // WebP src (fallback도 WebP)
+  const webpSrc = `${dirPath}/${filename}.webp`;
+
+  // <picture> 태그 생성 (WebP only — PNG/JPG srcset 제거)
   const picture = `<picture>
-  <source 
+  <source
     type="image/webp"
     srcset="${webpSrcset}"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/${ext.slice(1) === 'jpg' ? 'jpeg' : ext.slice(1)}"
-    srcset="${origSrcset}"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <img 
-    src="${src}" 
-    alt="${alt}" 
+  <img
+    src="${webpSrc}"
+    alt="${alt}"
     class="${classes}"
     loading="lazy"
     decoding="async">
@@ -111,7 +105,21 @@ async function processMarkdownFile(filePath) {
     }
     return convertImageToPicture(match, alt, src, attrs || '');
   });
-  
+
+  // 기존 <picture> 태그에서 PNG/JPG/JPEG/GIF <source> 제거 (B방식 마이그레이션)
+  content = content.replace(
+    /  <source\s*\n\s*type="image\/(?:png|jpeg|jpg|gif)"\s*\n\s*srcset="[^"]*"\s*\n\s*sizes="[^"]*">\n/g,
+    ''
+  );
+
+  // 기존 <picture> 태그 내 <img src>를 .webp로 변경
+  content = content.replace(
+    /(<picture>[\s\S]*?<img\s*\n\s*src=")([^"]+)\.(png|jpe?g|gif)(")/g,
+    (match, prefix, basePath, ext, suffix) => {
+      return `${prefix}${basePath}.webp${suffix}`;
+    }
+  );
+
   // 변경된 경우에만 저장
   if (content !== originalContent) {
     await fs.writeFile(filePath, content, 'utf-8');

@@ -17,14 +17,8 @@ published: true
             /static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-1-800.webp 800w,
             /static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-1-400.png 400w,
-            /static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-1-800.png 800w,
-            /static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-1.png" 
+    src="/static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-1.webp" 
     alt="SEO에서 AAO로의 진화" 
     class="wd100"
     loading="lazy"
@@ -108,14 +102,8 @@ AI 에이전트는 title 태그를 스캔하지 않는다. 대신 **"이 브랜�
             /static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-2-800.webp 800w,
             /static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-2-400.png 400w,
-            /static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-2-800.png 800w,
-            /static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-2.png" 
+    src="/static/img/posts/seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-2.webp" 
     alt="AAO 알고리즘 트리니티" 
     class="wd100"
     loading="lazy"

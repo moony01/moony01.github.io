@@ -18,14 +18,8 @@ image: multimodal-ai-practical-guide/multimodal-ai-practical-guide-1.png
             /static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-1-800.webp 800w,
             /static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-1-400.png 400w,
-            /static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-1-800.png 800w,
-            /static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-1.png" 
+    src="/static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-1.webp" 
     alt="멀티모달 AI 개념도" 
     class="wd100"
     loading="lazy"
@@ -106,14 +100,8 @@ Anthropic의 Claude는 **코드 이해와 생성**에서 두각을 나타냅니�
             /static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-2-800.webp 800w,
             /static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-2-400.png 400w,
-            /static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-2-800.png 800w,
-            /static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-2.png" 
+    src="/static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-2.webp" 
     alt="멀티모달 모델 비교 차트" 
     class="wd100"
     loading="lazy"
@@ -395,14 +383,8 @@ def cached_vision_call(image_path: str, prompt: str):
             /static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-3-800.webp 800w,
             /static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-3.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-3-400.png 400w,
-            /static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-3-800.png 800w,
-            /static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-3.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-3.png" 
+    src="/static/img/posts/multimodal-ai-practical-guide/multimodal-ai-practical-guide-3.webp" 
     alt="멀티모달 AI 워크플로우" 
     class="wd100"
     loading="lazy"

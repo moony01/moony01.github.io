@@ -65,14 +65,8 @@ Fortune의 단독 보도 이후 24시간 만에 CoinDesk, Seeking Alpha, Futuris
             /static/img/posts/claude-mythos-leak/claude-mythos-leak-2-800.webp 800w,
             /static/img/posts/claude-mythos-leak/claude-mythos-leak-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-mythos-leak/claude-mythos-leak-2-400.png 400w,
-            /static/img/posts/claude-mythos-leak/claude-mythos-leak-2-800.png 800w,
-            /static/img/posts/claude-mythos-leak/claude-mythos-leak-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-mythos-leak/claude-mythos-leak-2.png" 
+    src="/static/img/posts/claude-mythos-leak/claude-mythos-leak-2.webp" 
     alt="Anthropic Claude 모델 계층 구조와 Mythos Capybara 포지셔닝 비교" 
     class="wd100"
     loading="lazy"

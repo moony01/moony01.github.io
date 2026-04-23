@@ -21,14 +21,8 @@ published: true
             /static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-1-800.webp 800w,
             /static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-1-400.png 400w,
-            /static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-1-800.png 800w,
-            /static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-1.png" 
+    src="/static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-1.webp" 
     alt="히어로 이미지" 
     class="wd100"
     loading="lazy"
@@ -68,14 +62,8 @@ published: true
             /static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-2-800.webp 800w,
             /static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-2-400.png 400w,
-            /static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-2-800.png 800w,
-            /static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-2.png" 
+    src="/static/img/posts/krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-2.webp" 
     alt="본문 이미지" 
     class="wd100"
     loading="lazy"

@@ -77,14 +77,8 @@ claude "사용자 인증 미들웨어를 JWT 기반으로 구현해줘.
             /static/img/posts/claude-code-ai-replaces-developers/claude-code-ai-replaces-developers-2-800.webp 800w,
             /static/img/posts/claude-code-ai-replaces-developers/claude-code-ai-replaces-developers-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-code-ai-replaces-developers/claude-code-ai-replaces-developers-2-400.png 400w,
-            /static/img/posts/claude-code-ai-replaces-developers/claude-code-ai-replaces-developers-2-800.png 800w,
-            /static/img/posts/claude-code-ai-replaces-developers/claude-code-ai-replaces-developers-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-code-ai-replaces-developers/claude-code-ai-replaces-developers-2.png" 
+    src="/static/img/posts/claude-code-ai-replaces-developers/claude-code-ai-replaces-developers-2.webp" 
     alt="AI와 협업하는 개발자의 역할 변화를 나타낸 구조 다이어그램" 
     class="wd100"
     loading="lazy"

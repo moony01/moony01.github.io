@@ -21,14 +21,8 @@ published: true
             /static/img/posts/opencode-free-cursor-killer/opencode-free-cursor-killer-1-800.webp 800w,
             /static/img/posts/opencode-free-cursor-killer/opencode-free-cursor-killer-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/opencode-free-cursor-killer/opencode-free-cursor-killer-1-400.png 400w,
-            /static/img/posts/opencode-free-cursor-killer/opencode-free-cursor-killer-1-800.png 800w,
-            /static/img/posts/opencode-free-cursor-killer/opencode-free-cursor-killer-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/opencode-free-cursor-killer/opencode-free-cursor-killer-1.png" 
+    src="/static/img/posts/opencode-free-cursor-killer/opencode-free-cursor-killer-1.webp" 
     alt="OpenCode vs Cursor 비교 히어로 이미지" 
     class="wd100"
     loading="lazy"
@@ -99,14 +93,8 @@ opencode "로그인 API에 rate limiting 추가해줘"
             /static/img/posts/opencode-free-cursor-killer/opencode-free-cursor-killer-2-800.webp 800w,
             /static/img/posts/opencode-free-cursor-killer/opencode-free-cursor-killer-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/opencode-free-cursor-killer/opencode-free-cursor-killer-2-400.png 400w,
-            /static/img/posts/opencode-free-cursor-killer/opencode-free-cursor-killer-2-800.png 800w,
-            /static/img/posts/opencode-free-cursor-killer/opencode-free-cursor-killer-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/opencode-free-cursor-killer/opencode-free-cursor-killer-2.png" 
+    src="/static/img/posts/opencode-free-cursor-killer/opencode-free-cursor-killer-2.webp" 
     alt="OpenCode 기능 비교 본문 이미지" 
     class="wd100"
     loading="lazy"

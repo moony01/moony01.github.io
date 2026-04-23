@@ -63,7 +63,20 @@ OpenAI는 이번 글에서 GitHub 리뷰 코멘트 처리, 여러 터미널 탭,
 
 이 변화는 화려한 데모보다 더 중요하다. 예산 항목으로 분리되는 순간, 코덱스는 장난감이 아니라 운영 도구가 된다.
 
-![코덱스 작업 흐름과 브라우저 통합](/static/img/posts/codex-computer-use-shift/codex-computer-use-shift-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/codex-computer-use-shift/codex-computer-use-shift-2-400.webp 400w,
+            /static/img/posts/codex-computer-use-shift/codex-computer-use-shift-2-800.webp 800w,
+            /static/img/posts/codex-computer-use-shift/codex-computer-use-shift-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/codex-computer-use-shift/codex-computer-use-shift-2.webp"
+    alt="코덱스 작업 흐름과 브라우저 통합"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 

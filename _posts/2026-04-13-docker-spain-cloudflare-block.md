@@ -71,14 +71,8 @@ curl -Iv https://docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudfla
             /static/img/posts/docker-spain-cloudflare-block/docker-spain-cloudflare-block-2-800.webp 800w,
             /static/img/posts/docker-spain-cloudflare-block/docker-spain-cloudflare-block-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/docker-spain-cloudflare-block/docker-spain-cloudflare-block-2-400.png 400w,
-            /static/img/posts/docker-spain-cloudflare-block/docker-spain-cloudflare-block-2-800.png 800w,
-            /static/img/posts/docker-spain-cloudflare-block/docker-spain-cloudflare-block-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/docker-spain-cloudflare-block/docker-spain-cloudflare-block-2.png" 
+    src="/static/img/posts/docker-spain-cloudflare-block/docker-spain-cloudflare-block-2.webp" 
     alt="스페인 차단이 Docker pull에 번진 구조" 
     class="wd100"
     loading="lazy"

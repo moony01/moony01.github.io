@@ -19,14 +19,8 @@ published: true
             /static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-1-800.webp 800w,
             /static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-1-400.png 400w,
-            /static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-1-800.png 800w,
-            /static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-1.png" 
+    src="/static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-1.webp" 
     alt="AI 보안 감사" 
     class="wd100"
     loading="lazy"
@@ -103,14 +97,8 @@ Mozilla가 이 접근법을 공식적으로 채택했다는 것은, 오픈소스
             /static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-2-800.webp 800w,
             /static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-2-400.png 400w,
-            /static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-2-800.png 800w,
-            /static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-2.png" 
+    src="/static/img/posts/claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-2.webp" 
     alt="AI와 인간의 보안 협업" 
     class="wd100"
     loading="lazy"

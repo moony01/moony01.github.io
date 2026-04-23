@@ -20,14 +20,8 @@ published: true
             /static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-1-800.webp 800w,
             /static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-1-400.png 400w,
-            /static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-1-800.png 800w,
-            /static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-1.png" 
+    src="/static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-1.webp" 
     alt="Claude Code 해커톤 우승자 5명 — 변호사, 심장전문의, 뮤지션, 도로 인프라 담당자, 소프트웨어 엔지니어" 
     class="wd100"
     loading="lazy"
@@ -71,14 +65,8 @@ LinkedIn에서 이 결과를 공유한 David Hyman의 글은 하루 만에 수�
             /static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-2-800.webp 800w,
             /static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-2-400.png 400w,
-            /static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-2-800.png 800w,
-            /static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-2.png" 
+    src="/static/img/posts/claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-2.webp" 
     alt="도메인 전문가에서 AI를 거쳐 소프트웨어로 — 패러다임 전환 다이어그램" 
     class="wd100"
     loading="lazy"

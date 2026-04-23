@@ -63,7 +63,20 @@ published: false
 
 대학 수업, 코딩 테스트 스터디, 사내 알고리즘 그룹은 지금부터 운영 단위를 다시 짜야 한다. 문제 출처를 여러 군데로 분산하고, 풀이 저장소를 개인 소유 공간으로 옮기고, 스터디 관리 기능을 특정 서비스에만 묶지 않는 식이다. 이걸 늦추면 4월 28일 이후에 남는 건 문제 목록이 아니라 운영 공백이다.
 
-![백준 종료 이후 코딩테스트 이동 경로](/static/img/posts/boj-shutdown-coding-tests/boj-shutdown-coding-tests-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/boj-shutdown-coding-tests/boj-shutdown-coding-tests-2-400.webp 400w,
+            /static/img/posts/boj-shutdown-coding-tests/boj-shutdown-coding-tests-2-800.webp 800w,
+            /static/img/posts/boj-shutdown-coding-tests/boj-shutdown-coding-tests-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/boj-shutdown-coding-tests/boj-shutdown-coding-tests-2.webp"
+    alt="백준 종료 이후 코딩테스트 이동 경로"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 그리고 이건 학생만의 문제가 아니다. 기업 코딩테스트 설계도 바뀔 수밖에 없다. 채점 플랫폼을 어디에 두느냐보다, 지원자의 사고 과정을 어떤 형식으로 수집할지부터 다시 설계해야 한다. 링크 하나로 끝나는 시대보다 검증은 번거로워지겠지만, 대신 보여줄 수 있는 실력의 폭은 넓어진다.
 

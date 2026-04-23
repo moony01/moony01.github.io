@@ -36,14 +36,8 @@ METR이 발표한 연구에 따르면 AI 도구를 사용한 **숙련 개발자�
             /static/img/posts/claude-code-63-percent-dominance-2026/claude-code-63-percent-dominance-2026-1-800.webp 800w,
             /static/img/posts/claude-code-63-percent-dominance-2026/claude-code-63-percent-dominance-2026-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-code-63-percent-dominance-2026/claude-code-63-percent-dominance-2026-1-400.png 400w,
-            /static/img/posts/claude-code-63-percent-dominance-2026/claude-code-63-percent-dominance-2026-1-800.png 800w,
-            /static/img/posts/claude-code-63-percent-dominance-2026/claude-code-63-percent-dominance-2026-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-code-63-percent-dominance-2026/claude-code-63-percent-dominance-2026-1.png" 
+    src="/static/img/posts/claude-code-63-percent-dominance-2026/claude-code-63-percent-dominance-2026-1.webp" 
     alt="Claude Code 성장 차트" 
     class="wd100"
     loading="lazy"
@@ -114,14 +108,8 @@ Claude Code의 성장은 이 두 패러다임 중 어느 쪽이 이기고 있는
             /static/img/posts/claude-code-63-percent-dominance-2026/claude-code-63-percent-dominance-2026-2-800.webp 800w,
             /static/img/posts/claude-code-63-percent-dominance-2026/claude-code-63-percent-dominance-2026-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-code-63-percent-dominance-2026/claude-code-63-percent-dominance-2026-2-400.png 400w,
-            /static/img/posts/claude-code-63-percent-dominance-2026/claude-code-63-percent-dominance-2026-2-800.png 800w,
-            /static/img/posts/claude-code-63-percent-dominance-2026/claude-code-63-percent-dominance-2026-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-code-63-percent-dominance-2026/claude-code-63-percent-dominance-2026-2.png" 
+    src="/static/img/posts/claude-code-63-percent-dominance-2026/claude-code-63-percent-dominance-2026-2.webp" 
     alt="AI 코딩 패러다임 전환" 
     class="wd100"
     loading="lazy"

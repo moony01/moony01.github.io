@@ -18,14 +18,8 @@ published: true
             /static/img/posts/github-agentic-workflows/github-agentic-workflows-1-800.webp 800w,
             /static/img/posts/github-agentic-workflows/github-agentic-workflows-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/github-agentic-workflows/github-agentic-workflows-1-400.png 400w,
-            /static/img/posts/github-agentic-workflows/github-agentic-workflows-1-800.png 800w,
-            /static/img/posts/github-agentic-workflows/github-agentic-workflows-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/github-agentic-workflows/github-agentic-workflows-1.png" 
+    src="/static/img/posts/github-agentic-workflows/github-agentic-workflows-1.webp" 
     alt="GitHub Agentic Workflows 아키텍처 — AI 에이전트가 GitHub Actions 파이프라인 안에서 동작하는 구조" 
     class="wd100"
     loading="lazy"
@@ -112,14 +106,8 @@ Eddie Aftandilian(GitHub 수석 연구원)의 표현을 빌리면: **"Continuous
             /static/img/posts/github-agentic-workflows/github-agentic-workflows-2-800.webp 800w,
             /static/img/posts/github-agentic-workflows/github-agentic-workflows-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/github-agentic-workflows/github-agentic-workflows-2-400.png 400w,
-            /static/img/posts/github-agentic-workflows/github-agentic-workflows-2-800.png 800w,
-            /static/img/posts/github-agentic-workflows/github-agentic-workflows-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/github-agentic-workflows/github-agentic-workflows-2.png" 
+    src="/static/img/posts/github-agentic-workflows/github-agentic-workflows-2.webp" 
     alt="GitHub Agentic Workflows 보안 아키텍처 — 샌드박스 컨테이너와 Secure Output 검증 레이어" 
     class="wd100"
     loading="lazy"

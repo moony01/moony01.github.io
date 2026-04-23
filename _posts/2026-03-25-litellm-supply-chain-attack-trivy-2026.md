@@ -19,14 +19,8 @@ published: true
             /static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-1-800.webp 800w,
             /static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-1-400.png 400w,
-            /static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-1-800.png 800w,
-            /static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-1.png" 
+    src="/static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-1.webp" 
     alt="LiteLLM 공급망 공격 분석" 
     class="wd100"
     loading="lazy"
@@ -114,14 +108,8 @@ systemd 사용자 서비스(`sysmon.service`)로 등록돼 C2 서버를 폴링�
             /static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-2-800.webp 800w,
             /static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-2-400.png 400w,
-            /static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-2-800.png 800w,
-            /static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-2.png" 
+    src="/static/img/posts/litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-2.webp" 
     alt="LiteLLM 공격 체인 구조도" 
     class="wd100"
     loading="lazy"

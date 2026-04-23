@@ -25,14 +25,8 @@ image: web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-0.jpg
             /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-0-800.webp 800w,
             /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-0.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/jpeg"
-    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-0-400.jpg 400w,
-            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-0-800.jpg 800w,
-            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-0.jpg 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-0.jpg" 
+    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-0.webp" 
     alt="Yukihiro Matsumoto의 사진" 
     class="wd100"
     loading="lazy"
@@ -53,14 +47,8 @@ Jekyll은 GitHub에서 지원하기 때문에 프로젝트 버전 관리 시스�
             /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-1-800.webp 800w,
             /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/jpeg"
-    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-1-400.jpg 400w,
-            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-1-800.jpg 800w,
-            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-1.jpg 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-1.jpg" 
+    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-1.webp" 
     alt="Yukihiro Matsumoto의 사진" 
     class="wd100"
     loading="lazy"
@@ -77,14 +65,8 @@ Jekyll은 GitHub에서 지원하기 때문에 프로젝트 버전 관리 시스�
             /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-2-800.webp 800w,
             /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/jpeg"
-    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-2-400.jpg 400w,
-            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-2-800.jpg 800w,
-            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-2.jpg 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-2.jpg" 
+    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-2.webp" 
     alt="Jekyll과 Bundler 설치 후 Jekyll 기본 테마 설치" 
     class="wd100"
     loading="lazy"
@@ -124,14 +106,8 @@ my-awesome-site로 경로를 이동합니다.
             /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-3-800.webp 800w,
             /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-3.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/jpeg"
-    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-3-400.jpg 400w,
-            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-3-800.jpg 800w,
-            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-3.jpg 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-3.jpg" 
+    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-3.webp" 
     alt="gem install bundler jekyll" 
     class="wd100"
     loading="lazy"
@@ -148,14 +124,8 @@ my-awesome-site로 경로를 이동합니다.
             /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-4-800.webp 800w,
             /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-4.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/jpeg"
-    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-4-400.jpg 400w,
-            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-4-800.jpg 800w,
-            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-4.jpg 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-4.jpg" 
+    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-4.webp" 
     alt="jekyll new my-awesome-site" 
     class="wd100"
     loading="lazy"
@@ -171,14 +141,8 @@ my-awesome-site로 경로를 이동합니다.
             /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-5-800.webp 800w,
             /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-5.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/jpeg"
-    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-5-400.jpg 400w,
-            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-5-800.jpg 800w,
-            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-5.jpg 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-5.jpg" 
+    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-5.webp" 
     alt="jekyll 프로젝트 파일 상위폴더로 이동" 
     class="wd100"
     loading="lazy"
@@ -192,14 +156,8 @@ my-awesome-site로 경로를 이동합니다.
             /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-6-800.webp 800w,
             /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-6.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/jpeg"
-    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-6-400.jpg 400w,
-            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-6-800.jpg 800w,
-            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-6.jpg 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-6.jpg" 
+    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-6.webp" 
     alt="jekyll 프로젝트 파일 상위폴더로 이동 알림창" 
     class="wd100"
     loading="lazy"
@@ -215,14 +173,8 @@ jekyll에서 제공한 빠른 시작 방법과 다르게 우리는 이미 디렉
             /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-7-800.webp 800w,
             /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-7.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/jpeg"
-    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-7-400.jpg 400w,
-            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-7-800.jpg 800w,
-            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-7.jpg 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-7.jpg" 
+    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-7.webp" 
     alt="jekyll 프로젝트 파일 상위폴더로 이동 완료상태" 
     class="wd100"
     loading="lazy"
@@ -239,14 +191,8 @@ jekyll에서 제공한 빠른 시작 방법과 다르게 우리는 이미 디렉
             /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-8-800.webp 800w,
             /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-8.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/jpeg"
-    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-8-400.jpg 400w,
-            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-8-800.jpg 800w,
-            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-8.jpg 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-8.jpg" 
+    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-8.webp" 
     alt="bundle exec jekyll serve" 
     class="wd100"
     loading="lazy"
@@ -272,14 +218,8 @@ More info and automated migrator: https://sass-lang.com/d/slash-div
             /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-9-800.webp 800w,
             /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-9.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/jpeg"
-    srcset="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-9-400.jpg 400w,
-            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-9-800.jpg 800w,
-            /static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-9.jpg 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-9.jpg" 
+    src="/static/img/posts/web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-9.webp" 
     alt="기본 Jekyll 테마 적용 확인" 
     class="wd100"
     loading="lazy"

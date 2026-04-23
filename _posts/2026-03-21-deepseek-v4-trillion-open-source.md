@@ -23,14 +23,8 @@ Hacker News 상단을 DeepSeek 관련 스레드가 점령했고, GitHub에서는
             /static/img/posts/deepseek-v4-trillion-open-source/deepseek-v4-trillion-open-source-1-800.webp 800w,
             /static/img/posts/deepseek-v4-trillion-open-source/deepseek-v4-trillion-open-source-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/deepseek-v4-trillion-open-source/deepseek-v4-trillion-open-source-1-400.png 400w,
-            /static/img/posts/deepseek-v4-trillion-open-source/deepseek-v4-trillion-open-source-1-800.png 800w,
-            /static/img/posts/deepseek-v4-trillion-open-source/deepseek-v4-trillion-open-source-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/deepseek-v4-trillion-open-source/deepseek-v4-trillion-open-source-1.png" 
+    src="/static/img/posts/deepseek-v4-trillion-open-source/deepseek-v4-trillion-open-source-1.webp" 
     alt="DeepSeek V4 — 1조 파라미터 오픈소스 AI 모델" 
     class="wd100"
     loading="lazy"
@@ -88,14 +82,8 @@ answer = deepseek_v4.ask(entire_codebase, "이 인증 로직의 버그를 찾아
             /static/img/posts/deepseek-v4-trillion-open-source/deepseek-v4-trillion-open-source-2-800.webp 800w,
             /static/img/posts/deepseek-v4-trillion-open-source/deepseek-v4-trillion-open-source-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/deepseek-v4-trillion-open-source/deepseek-v4-trillion-open-source-2-400.png 400w,
-            /static/img/posts/deepseek-v4-trillion-open-source/deepseek-v4-trillion-open-source-2-800.png 800w,
-            /static/img/posts/deepseek-v4-trillion-open-source/deepseek-v4-trillion-open-source-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/deepseek-v4-trillion-open-source/deepseek-v4-trillion-open-source-2.png" 
+    src="/static/img/posts/deepseek-v4-trillion-open-source/deepseek-v4-trillion-open-source-2.webp" 
     alt="DeepSeek V4 아키텍처 — MoE 구조와 멀티모달 통합 개념도" 
     class="wd100"
     loading="lazy"

@@ -19,14 +19,8 @@ Y Combinator의 CEO Garry Tan이 지난 3월 12일, 자신의 Claude Code 설정
             /static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-1-800.webp 800w,
             /static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-1-400.png 400w,
-            /static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-1-800.png 800w,
-            /static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-1.png" 
+    src="/static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-1.webp" 
     alt="gstack 히어로 이미지" 
     class="wd100"
     loading="lazy"
@@ -108,14 +102,8 @@ Claude: [2,400줄을 11개 파일에 걸쳐 8분 내 작성]
             /static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-2-800.webp 800w,
             /static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-2-400.png 400w,
-            /static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-2-800.png 800w,
-            /static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-2.png" 
+    src="/static/img/posts/garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-2.webp" 
     alt="gstack 워크플로우 일러스트" 
     class="wd100"
     loading="lazy"

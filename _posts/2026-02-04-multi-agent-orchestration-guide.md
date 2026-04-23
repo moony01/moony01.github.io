@@ -17,14 +17,8 @@ AI 에이전트 하나가 똑똑한 건 이미 증명됐습니다. Claude가 코
             /static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-1-800.webp 800w,
             /static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-1-400.png 400w,
-            /static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-1-800.png 800w,
-            /static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-1.png" 
+    src="/static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-1.webp" 
     alt="멀티 에이전트 오케스트레이션 대표 이미지" 
     class="wd100"
     loading="lazy"
@@ -153,14 +147,8 @@ crew = Crew(
             /static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-2-800.webp 800w,
             /static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-2-400.png 400w,
-            /static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-2-800.png 800w,
-            /static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-2.png" 
+    src="/static/img/posts/multi-agent-orchestration-guide/multi-agent-orchestration-guide-2.webp" 
     alt="멀티에이전트 오케스트레이션 아키텍처 패턴" 
     class="wd100"
     loading="lazy"

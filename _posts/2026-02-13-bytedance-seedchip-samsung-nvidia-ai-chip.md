@@ -22,14 +22,8 @@ TikTok 모회사 바이트댄스가 자체 AI 칩을 만들고 있고, 그 제�
             /static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-1-800.webp 800w,
             /static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-1-400.png 400w,
-            /static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-1-800.png 800w,
-            /static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-1.png" 
+    src="/static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-1.webp" 
     alt="바이트댄스 SeedChip과 삼성 파운드리 협업을 상징하는 이미지" 
     class="wd100"
     loading="lazy"
@@ -96,14 +90,8 @@ AI 칩은 크게 두 종류로 나뉩니다. 모델을 훈련시키는 학습용
             /static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-2-800.webp 800w,
             /static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-2-400.png 400w,
-            /static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-2-800.png 800w,
-            /static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-2.png" 
+    src="/static/img/posts/bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-2.webp" 
     alt="AI 칩 시장 경쟁 구도 변화를 보여주는 다이어그램" 
     class="wd100"
     loading="lazy"

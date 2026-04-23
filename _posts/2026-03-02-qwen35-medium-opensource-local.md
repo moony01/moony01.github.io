@@ -51,14 +51,8 @@ Qwen3.5 팀이 공개한 아키텍처의 또 다른 특징은 **Gated DeltaNet +
             /static/img/posts/qwen35-medium-opensource-local/qwen35-medium-opensource-local-2-800.webp 800w,
             /static/img/posts/qwen35-medium-opensource-local/qwen35-medium-opensource-local-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/qwen35-medium-opensource-local/qwen35-medium-opensource-local-2-400.png 400w,
-            /static/img/posts/qwen35-medium-opensource-local/qwen35-medium-opensource-local-2-800.png 800w,
-            /static/img/posts/qwen35-medium-opensource-local/qwen35-medium-opensource-local-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/qwen35-medium-opensource-local/qwen35-medium-opensource-local-2.png" 
+    src="/static/img/posts/qwen35-medium-opensource-local/qwen35-medium-opensource-local-2.webp" 
     alt="Qwen3.5 MoE 아키텍처 구조와 전문가 레이어 활성화 방식" 
     class="wd100"
     loading="lazy"

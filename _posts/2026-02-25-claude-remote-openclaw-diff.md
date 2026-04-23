@@ -20,14 +20,8 @@ OpenClaw를 써본 사람이라면 Claude Code Remote Control 소식을 듣자�
             /static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-1-800.webp 800w,
             /static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-1-400.png 400w,
-            /static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-1-800.png 800w,
-            /static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-1.png" 
+    src="/static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-1.webp" 
     alt="클로드 원격제어 비교 흐름도" 
     class="wd100"
     loading="lazy"
@@ -65,14 +59,8 @@ Remote Control 문서에서 강조하는 포인트는 "로컬 실행 유지"와 
             /static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-2-800.webp 800w,
             /static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-2-400.png 400w,
-            /static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-2-800.png 800w,
-            /static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-2.png" 
+    src="/static/img/posts/claude-remote-openclaw-diff/claude-remote-openclaw-diff-2.webp" 
     alt="OpenClaw 대비 운영 차이표" 
     class="wd100"
     loading="lazy"

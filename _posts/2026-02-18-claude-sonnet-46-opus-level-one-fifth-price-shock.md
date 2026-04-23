@@ -21,14 +21,8 @@ SWE-bench에서 79.6%. Opus 4.6이 80.8%다. **차이가 1.2%밖에 안 난다.*
             /static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-1-800.webp 800w,
             /static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-1-400.png 400w,
-            /static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-1-800.png 800w,
-            /static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-1.png" 
+    src="/static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-1.webp" 
     alt="Claude Sonnet 4.6 히어로 이미지" 
     class="wd100"
     loading="lazy"
@@ -97,14 +91,8 @@ Anthropic이 12일 만에 두 번째 모델을 쏟아낸 건 우연이 아니다
             /static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-2-800.webp 800w,
             /static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-2-400.png 400w,
-            /static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-2-800.png 800w,
-            /static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-2.png" 
+    src="/static/img/posts/claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-2.webp" 
     alt="Claude Sonnet 4.6 성능 비교 다이어그램" 
     class="wd100"
     loading="lazy"

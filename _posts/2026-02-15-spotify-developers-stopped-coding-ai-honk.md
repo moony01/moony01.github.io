@@ -23,14 +23,8 @@ Spotify의 공동 CEO Gustav Söderström이 4분기 실적 발표에서 직접 
             /static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-1-800.webp 800w,
             /static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-1.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-1-400.png 400w,
-            /static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-1-800.png 800w,
-            /static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-1.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-1.png" 
+    src="/static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-1.webp" 
     alt="Spotify AI 코딩 시스템 Honk — 개발자가 코드를 쓰지 않는 시대" 
     class="wd100"
     loading="lazy"
@@ -97,14 +91,8 @@ Söderström은 여기서 멈추지 않았다. 진짜 무서운 건 그다음 �
             /static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-2-800.webp 800w,
             /static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-2-400.png 400w,
-            /static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-2-800.png 800w,
-            /static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-2.png" 
+    src="/static/img/posts/spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-2.webp" 
     alt="Spotify AI 개발 워크플로우 — Before vs After" 
     class="wd100"
     loading="lazy"

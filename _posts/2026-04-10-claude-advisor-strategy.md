@@ -77,14 +77,8 @@ agent-skills 같은 저장소가 빠르게 주목받는 흐름도 같은 맥락�
             /static/img/posts/claude-advisor-strategy/claude-advisor-strategy-2-800.webp 800w,
             /static/img/posts/claude-advisor-strategy/claude-advisor-strategy-2.webp 1200w"
     sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
-  <source 
-    type="image/png"
-    srcset="/static/img/posts/claude-advisor-strategy/claude-advisor-strategy-2-400.png 400w,
-            /static/img/posts/claude-advisor-strategy/claude-advisor-strategy-2-800.png 800w,
-            /static/img/posts/claude-advisor-strategy/claude-advisor-strategy-2.png 1200w"
-    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
   <img 
-    src="/static/img/posts/claude-advisor-strategy/claude-advisor-strategy-2.png" 
+    src="/static/img/posts/claude-advisor-strategy/claude-advisor-strategy-2.webp" 
     alt="Claude Advisor 분업 구조도" 
     class="wd100"
     loading="lazy"
