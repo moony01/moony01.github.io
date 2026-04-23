@@ -5,7 +5,7 @@ description: "Android CLI가 에이전트 기반 앱 개발에서 왜 중요한�
 date: 2026-04-23 21:44:21 +0900
 categories: [ai]
 tags: [AndroidCLI, AIAgents, Google, Android, DeveloperTools]
-image: android-cli-agent-workflow/android-cli-agent-workflow-1.png
+image: android-cli-agent-workflow/android-cli-agent-workflow-1.webp
 published: true
 ---
 
