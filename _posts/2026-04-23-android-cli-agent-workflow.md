@@ -17,7 +17,20 @@ Google이 2026년 4월 16일에 Android CLI를 공개하면서 꽤 센 숫자를
 
 {% include pre-version.html %}
 
-![Android CLI가 에이전트 개발 흐름을 정리하는 화면](/static/img/posts/android-cli-agent-workflow/android-cli-agent-workflow-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/android-cli-agent-workflow/android-cli-agent-workflow-1-400.webp 400w,
+            /static/img/posts/android-cli-agent-workflow/android-cli-agent-workflow-1-800.webp 800w,
+            /static/img/posts/android-cli-agent-workflow/android-cli-agent-workflow-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/android-cli-agent-workflow/android-cli-agent-workflow-1.webp"
+    alt="Android CLI가 에이전트 개발 흐름을 정리하는 화면"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 왜 Android CLI가 갑자기 중요해졌나
 
@@ -61,7 +74,20 @@ android docs
 
 이 구도가 마음에 든다. 개발자는 IDE에서 품질을 올리고, 에이전트는 터미널에서 반복 작업을 줄인다. 둘이 같은 프로젝트 구조와 공식 문서 위에서 만나면 삽질이 줄어든다. 반대로 CLI가 없으면 에이전트는 IDE를 흉내 내거나 Gradle 파일을 감으로 만지는 쪽으로 흐른다. 그게 제일 불안하다.
 
-![Android CLI와 공식 스킬이 앱 빌드 단계를 연결하는 구조](/static/img/posts/android-cli-agent-workflow/android-cli-agent-workflow-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/android-cli-agent-workflow/android-cli-agent-workflow-2-400.webp 400w,
+            /static/img/posts/android-cli-agent-workflow/android-cli-agent-workflow-2-800.webp 800w,
+            /static/img/posts/android-cli-agent-workflow/android-cli-agent-workflow-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/android-cli-agent-workflow/android-cli-agent-workflow-2.webp"
+    alt="Android CLI와 공식 스킬이 앱 빌드 단계를 연결하는 구조"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 스킬 생태계까지 같이 보면 그림이 달라진다
 
