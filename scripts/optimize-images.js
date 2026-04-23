@@ -89,6 +89,33 @@ async function processDirectory(inputDir) {
   }
   
   console.log(`\n✅ 완료! ${images.length}개 이미지 최적화됨\n`);
+
+  // 원본 삭제 모드일 때만 frontmatter 업데이트 (--keep-originals 시 PNG 참조가 맞으므로 스킵)
+  if (!keepOriginals) {
+    await updateFrontmatterImages(path.join(__dirname, '..', '_posts'));
+  }
+}
+
+/**
+ * _posts/ 디렉토리의 frontmatter image 필드를 .webp로 업데이트
+ * @param {string} postsDir - _posts 디렉토리 경로
+ */
+async function updateFrontmatterImages(postsDir) {
+  const posts = await glob(`${postsDir}/*.{md,markdown}`);
+  let count = 0;
+  for (const post of posts) {
+    let content = await fs.readFile(post, 'utf-8');
+    const updated = content.replace(
+      /^(image:\s+.+)\.(png|jpg|jpeg)$/m,
+      '$1.webp'
+    );
+    if (updated !== content) {
+      await fs.writeFile(post, updated, 'utf-8');
+      count++;
+      console.log(`  [frontmatter] ${path.basename(post)} → .webp`);
+    }
+  }
+  if (count > 0) console.log(`\n📝 ${count}개 포스트 frontmatter image 필드 업데이트\n`);
 }
 
 // CLI 처리
