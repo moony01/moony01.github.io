@@ -5,7 +5,7 @@ description: "백준 서비스 종료 공지가 왜 커뮤니티를 흔들었는
 date: 2026-04-16 19:07:31 +0900
 categories: [others]
 tags: [BOJ, 백준, CodingTest, solvedac, DeveloperCommunity]
-image: boj-shutdown-coding-tests/boj-shutdown-coding-tests-1.png
+image: boj-shutdown-coding-tests/boj-shutdown-coding-tests-1.webp
 published: false
 ---
 

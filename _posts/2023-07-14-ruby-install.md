@@ -3,7 +3,7 @@ layout: post
 title: "Windows에서 프로그래밍 언어 Ruby 설치하고 Ruby의 역사에 대해 간략하게 알아보자"
 date: 2023-07-14 00:00:00 +0700
 categories: [ruby]
-image: ruby-install/ruby-install-0.jpg
+image: ruby-install/ruby-install-0.webp
 ---
 
 Jekyll 블로그나 웹 앱을 개발하기 위해서는 Jekyll의 기반이 되는 언어인 Ruby 설치가 필수입니다. 차례대로 차근차근 설치를 진행하겠습니다. 그 전에 우리가 쓰는 Ruby라는 프로그래밍 언어가 누가 만들었는지, 어떤 역사를 가지고 있는지 간단하게 알아보고 설치 방법에 대해 설명하겠습니다. 차근차근 따라와주세요. **(Ruby 설치만 보고 싶으신 방문자분들께서는 목차 2번으로 바로 넘어가세요.)**

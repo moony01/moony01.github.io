@@ -4,7 +4,7 @@ title: "PR 한 개에 2만원 — Claude Code 코드 리뷰가 논란인 진짜 
 date: 2026-03-11 10:00:00 +0900
 categories: [ai]
 tags: [claude, anthropic, code-review, ai-agent, developer-tools]
-image: claude-code-review-pr-cost-controversy/claude-code-review-pr-cost-controversy-1.png
+image: claude-code-review-pr-cost-controversy/claude-code-review-pr-cost-controversy-1.webp
 published: true
 ---
 

@@ -4,7 +4,7 @@ title: "코드 리뷰는 이미 죽었습니다 - 2026년 시니어 개발자들
 date: 2026-03-17 11:00:00 +0900
 categories: [ai]
 tags: [코드리뷰, AI에이전트, 소프트웨어엔지니어링, 개발프로세스, 생산성]
-image: code-review-is-dead-ai-era/code-review-is-dead-ai-era-1.png
+image: code-review-is-dead-ai-era/code-review-is-dead-ai-era-1.webp
 published: true
 ---
 

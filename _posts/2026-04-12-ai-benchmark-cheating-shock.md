@@ -5,7 +5,7 @@ description: "AI 벤치마크 조작 논란이 왜 커졌는지, Berkeley 실험
 date: 2026-04-12 19:02:14 +0900
 categories: [security]
 tags: [AIBenchmarks, SWEbench, RewardHacking, Mythos, AgentEval]
-image: ai-benchmark-cheating-shock/ai-benchmark-cheating-shock-1.png
+image: ai-benchmark-cheating-shock/ai-benchmark-cheating-shock-1.webp
 published: true
 ---
 

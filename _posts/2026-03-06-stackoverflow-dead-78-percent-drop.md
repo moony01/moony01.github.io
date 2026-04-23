@@ -4,7 +4,7 @@ title: "Stack Overflow는 이미 죽었다 - 질문 78% 증발, 개발자들이 
 date: 2026-03-06 15:00:00 +0900
 categories: [ai]
 tags: [stack-overflow, ai, developer-community, chatgpt, copilot, 개발자]
-image: stackoverflow-dead-78-percent-drop/stackoverflow-dead-78-percent-drop-1.png
+image: stackoverflow-dead-78-percent-drop/stackoverflow-dead-78-percent-drop-1.webp
 published: true
 ---
 

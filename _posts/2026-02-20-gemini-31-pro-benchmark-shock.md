@@ -4,7 +4,7 @@ title: "Gemini 3.1 Pro 추론 성능에 경악 — 벤치마크 13관왕 달성 
 date: 2026-02-20 11:00:00 +0900
 categories: [ai]
 tags: [gemini, google, ai, 벤치마크, 추론]
-image: gemini-31-pro-benchmark-shock/gemini-31-pro-benchmark-shock-1.png
+image: gemini-31-pro-benchmark-shock/gemini-31-pro-benchmark-shock-1.webp
 published: true
 ---
 

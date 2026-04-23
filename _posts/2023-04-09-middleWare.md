@@ -5,7 +5,7 @@ date:   2023-04-09 00:00:00 +0700
 redirect_from:
   - /common/infra/2023/04/08/middleWare.html
 categories: [infra]
-image: og-default.jpg
+image: og-default.webp
 ---
 
 미들웨어는 **운영체제(Operating System)와 운영 프로그램** 또는 **서버와 클라이언트 사이에서의 서비스를 제공하는 소프트웨어다.** 그리고 그 사이에서 미들웨어는 표준화된 시스템 간의 일관적인 데이터를 주고받게 도와준다.

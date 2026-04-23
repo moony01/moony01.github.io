@@ -5,7 +5,7 @@ description: "Claude Advisor 전략이 2026년 4월 9일 공개됐다. Opus를 �
 date: 2026-04-10 13:10:00 +0900
 categories: [ai]
 tags: [Anthropic, Claude, Opus, Sonnet, AdvisorStrategy, AI에이전트]
-image: claude-advisor-strategy/claude-advisor-strategy-1.png
+image: claude-advisor-strategy/claude-advisor-strategy-1.webp
 published: false
 ---
 

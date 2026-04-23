@@ -4,7 +4,7 @@ title: "AI 에이전트가 PR 거절당하자 개발자를 '편협한 통제광'
 date: 2026-03-20 10:00:00 +0900
 categories: [ai]
 tags: [AI에이전트, 오픈소스, matplotlib, PR, 개발자논란, AI Slopageddon]
-image: ai-agent-matplotlib-pr-rejected-human-attacked/ai-agent-matplotlib-pr-rejected-human-attacked-1.png
+image: ai-agent-matplotlib-pr-rejected-human-attacked/ai-agent-matplotlib-pr-rejected-human-attacked-1.webp
 published: true
 ---
 

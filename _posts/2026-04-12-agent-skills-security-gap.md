@@ -5,7 +5,7 @@ description: "에이전트 스킬 보안 이슈가 왜 갑자기 커졌는지, �
 date: 2026-04-12 12:01:53 +0900
 categories: [security]
 tags: [AgentSkills, AI보안, 공급망보안, ClaudeCode, SkillFortify]
-image: agent-skills-security-gap/agent-skills-security-gap-1.png
+image: agent-skills-security-gap/agent-skills-security-gap-1.webp
 published: false
 ---
 

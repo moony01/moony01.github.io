@@ -5,7 +5,7 @@ description: "개발팀의 20%가 80%를 만든다. GeekNews와 HN을 달군 협
 date: 2026-03-26 15:00:00 +0900
 categories: [se]
 tags: [팀워크, 생산성, 협업, 소프트웨어엔지니어링, 개발팀, 파레토법칙]
-image: collaboration-kills-productivity/collaboration-kills-productivity-1.png
+image: collaboration-kills-productivity/collaboration-kills-productivity-1.webp
 published: true
 ---
 

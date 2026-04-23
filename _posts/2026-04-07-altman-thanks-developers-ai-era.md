@@ -5,7 +5,7 @@ description: "2026년 3월 올트먼이 개발자에게 감사 트윗을 올렸�
 date: 2026-04-07 10:00:00 +0900
 categories: [others]
 tags: [AI, 개발자, 커리어, OpenAI, 샘올트먼]
-image: altman-thanks-developers-ai-era/altman-thanks-developers-ai-era-1.png
+image: altman-thanks-developers-ai-era/altman-thanks-developers-ai-era-1.webp
 published: true
 ---
 

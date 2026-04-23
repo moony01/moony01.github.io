@@ -4,7 +4,7 @@ title: "파이썬 개발자 필수 도구 ruff·uv를 OpenAI가 인수했습니�
 date: 2026-03-22 10:00:00 +0900
 categories: [ai]
 tags: [python, openai, ruff, uv, astral, 오픈소스, 인수합병]
-image: openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-1.png
+image: openai-astral-ruff-uv-python-acquisition/openai-astral-ruff-uv-python-acquisition-1.webp
 published: true
 ---
 

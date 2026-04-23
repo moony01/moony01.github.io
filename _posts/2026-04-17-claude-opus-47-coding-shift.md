@@ -5,7 +5,7 @@ description: "Claude Opus 4.7이 왜 하루 만에 개발자 커뮤니티 1위�
 date: 2026-04-17 12:03:07 +0900
 categories: [ai]
 tags: [ClaudeOpus47, Anthropic, CodingAgents, SelfVerification, DeveloperWorkflow]
-image: claude-opus-47-coding-shift/claude-opus-47-coding-shift-1.png
+image: claude-opus-47-coding-shift/claude-opus-47-coding-shift-1.webp
 published: false
 ---
 

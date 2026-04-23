@@ -4,7 +4,7 @@ title: "인간은 읽지 마세요 - AI 에이전트만 쓰는 프로그래밍 �
 date: 2026-03-01 18:00:00 +0900
 categories: [ai]
 tags: [Magpie, AI에이전트, 프로그래밍언어, LLM, LLVM, Rust, 코드생성]
-image: magpie-ai-agent-programming-language/magpie-ai-agent-programming-language-1.png
+image: magpie-ai-agent-programming-language/magpie-ai-agent-programming-language-1.webp
 published: true
 ---
 

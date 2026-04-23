@@ -4,7 +4,7 @@ title: "Claude Code 해커톤 우승자가 결국 다 털었다 — 충격의 70
 date: 2026-02-14 11:00:00 +0900
 categories: [ai]
 tags: [claude-code, ai-coding, productivity, hackathon]
-image: claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-1.png
+image: claude-code-hackathon-winner-70-secrets/claude-code-hackathon-winner-70-secrets-1.webp
 published: true
 ---
 

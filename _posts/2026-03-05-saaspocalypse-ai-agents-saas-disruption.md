@@ -5,7 +5,7 @@ description: "2026년 초 소프트웨어 섹터에서 $1~2조 달러 시총이 
 date: 2026-03-05 11:00:00 +0900
 categories: [economy]
 tags: [AI에이전트, SaaS, 소프트웨어주식, SaaSpocalypse, 클라우드투자]
-image: saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-1.png
+image: saaspocalypse-ai-agents-saas-disruption/saaspocalypse-ai-agents-saas-disruption-1.webp
 published: true
 ---
 

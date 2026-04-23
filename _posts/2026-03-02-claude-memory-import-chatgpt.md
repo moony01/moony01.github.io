@@ -5,7 +5,7 @@ description: "Anthropic이 출시한 Claude 메모리 가져오기 기능은 Cha
 date: 2026-03-02 18:00:00 +0900
 categories: [ai]
 tags: [claude, chatgpt, memory, ai-tools, anthropic]
-image: claude-memory-import-chatgpt/claude-memory-import-chatgpt-1.png
+image: claude-memory-import-chatgpt/claude-memory-import-chatgpt-1.webp
 published: true
 ---
 

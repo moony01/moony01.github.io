@@ -4,7 +4,7 @@ title: "GPT-5.3이 자기 코드를 직접 디버깅했다 — OpenAI도 멘붕�
 date: 2026-02-09 11:00:00 +0900
 categories: [ai]
 tags: [openai, gpt-5-3, codex, agentic-coding, cybersecurity, ai-coding, claude-code, self-debugging]
-image: gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-1.png
+image: gpt-5-3-codex-self-debugging-cybersecurity-risk/gpt-5-3-codex-self-debugging-cybersecurity-risk-1.webp
 published: true
 ---
 

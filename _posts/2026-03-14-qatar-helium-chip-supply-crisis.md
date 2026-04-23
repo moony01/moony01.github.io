@@ -4,7 +4,7 @@ title: "이란 드론 1대가 반도체 2주 카운트다운 걸었다 — 카�
 date: 2026-03-14 10:00:00 +0900
 categories: [economy]
 tags: [반도체, 공급망, 카타르, 헬륨, 삼성, SK하이닉스, 지정학]
-image: qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-1.png
+image: qatar-helium-chip-supply-crisis/qatar-helium-chip-supply-crisis-1.webp
 published: true
 ---
 

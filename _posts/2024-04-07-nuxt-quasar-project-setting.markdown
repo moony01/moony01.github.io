@@ -3,7 +3,7 @@ layout: post
 title: 'Nuxt.js 프로젝트에 Quasar 모듈 추가하기: 단계별 가이드와 실용 팁'
 date: 2024-04-07 00:00:00 +0700
 categories: [vue, nuxt, quasar]
-image: og-default.jpg
+image: og-default.webp
 ---
 Vue.js 기반 프로젝트에 독특한 UI를 빠르게 구현하고자 할 때, Quasar 모듈을 Nuxt.js 프로젝트에 통합하는 것은 매우 효과적인 방법입니다. 이 글에서는 Nuxt.js 프로젝트를 생성하고, Quasar 모듈을 추가하여 프로젝트에 독창성을 부여하는 방법을 단계별로 알아보겠습니다.
 ### 목차

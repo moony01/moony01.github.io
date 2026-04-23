@@ -3,7 +3,7 @@ layout: post
 title: 'ECMAScript의 `const`와 `let`: 정의와 차이점'
 date: 2024-04-08 00:00:00 +0700
 categories: [javascript]
-image: og-default.jpg
+image: og-default.webp
 ---
 
 자바스크립트는 웹 개발에서 빼놓을 수 없는 핵심 언어입니다. ECMAScript 2015(ES6)는 자바스크립트에 많은 새로운 기능을 도입했는데, 그중 `const`와 `let` 키워드는 변수 선언 방식을 혁신적으로 바꿔 놓았습니다. 이 글에서는 `const`와 `let`의 정의와 그들 사이의 차이점에 대해 자세히 살펴보겠습니다.

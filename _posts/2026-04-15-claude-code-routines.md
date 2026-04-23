@@ -5,7 +5,7 @@ description: "Claude Code Routines가 2026년 4월 14일 공개됐다. 스케줄
 date: 2026-04-15 12:25:00 +0900
 categories: [ai]
 tags: [Anthropic, ClaudeCode, Routines, Automation, GitHub]
-image: claude-code-routines/claude-code-routines-1.png
+image: claude-code-routines/claude-code-routines-1.webp
 published: true
 ---
 

@@ -5,7 +5,7 @@ description: "Cal.com 폐쇄 전환이 왜 하루 만에 논란이 됐는지, Ca
 date: 2026-04-16 12:04:21 +0900
 categories: [security]
 tags: [Calcom, CalDIY, OpenSource, AISecurity, SaaS]
-image: calcom-closed-source-shift/calcom-closed-source-shift-1.png
+image: calcom-closed-source-shift/calcom-closed-source-shift-1.webp
 published: true
 ---
 

@@ -5,7 +5,7 @@ description: "AI 에이전트가 terraform destroy 명령 하나로 2.5년치 �
 date: 2026-03-24 10:00:00 +0900
 categories: [ai]
 tags: [Claude Code, Terraform, AWS, AI에이전트, 클라우드인프라, 데이터손실]
-image: claude-code-deleted-production-database/claude-code-deleted-production-database-1.png
+image: claude-code-deleted-production-database/claude-code-deleted-production-database-1.webp
 published: true
 ---
 

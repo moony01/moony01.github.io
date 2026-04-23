@@ -4,7 +4,7 @@ title: "2026 바이브 코딩 완벽 가이드: OpenCode vs Claude Code vs Curso
 date: 2026-01-23 14:30:00 +0900
 categories: [ai]
 tags: [vibe-coding, ai-coding, opencode, claude-code, cursor, oh-my-opencode]
-image: vibe-coding-guide-2026/vibe-coding-guide-2026-1.png
+image: vibe-coding-guide-2026/vibe-coding-guide-2026-1.webp
 ---
 
 "코드를 잊어버려라. 그냥 바이브를 따라가라."

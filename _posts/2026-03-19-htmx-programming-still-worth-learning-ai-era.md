@@ -4,7 +4,7 @@ title: '"AI한테 코딩 시키면 되지, 왜 배워요?" — 이 말이 주니
 date: 2026-03-19 11:00:00 +0900
 categories: [ai]
 tags: [ai, programming, career, htmx, junior-developer]
-image: htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-1.png
+image: htmx-programming-still-worth-learning-ai-era/htmx-programming-still-worth-learning-ai-era-1.webp
 published: true
 ---
 

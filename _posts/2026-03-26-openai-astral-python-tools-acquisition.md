@@ -5,7 +5,7 @@ description: "3월 19일 OpenAI가 Astral을 인수했다. 매일 쓰던 uv, Ruf
 date: 2026-03-26 10:00:00 +0900
 categories: [ai]
 tags: [openai, python, astral, uv, ruff, opensource, codex]
-image: openai-astral-python-tools-acquisition/openai-astral-python-tools-acquisition-1.png
+image: openai-astral-python-tools-acquisition/openai-astral-python-tools-acquisition-1.webp
 published: true
 ---
 

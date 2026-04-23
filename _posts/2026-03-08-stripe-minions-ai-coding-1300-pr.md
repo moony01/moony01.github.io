@@ -4,7 +4,7 @@ title: "Stripe 개발자는 코드를 안 짠다 - AI가 주 1,300개 PR을 머�
 date: 2026-03-08 11:00:00 +0900
 categories: [ai]
 tags: [AI, coding-agents, Stripe, agentic-engineering, developer-productivity, Minions]
-image: stripe-minions-ai-coding-1300-pr/stripe-minions-ai-coding-1300-pr-1.png
+image: stripe-minions-ai-coding-1300-pr/stripe-minions-ai-coding-1300-pr-1.webp
 published: true
 ---
 

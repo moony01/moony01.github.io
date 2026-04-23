@@ -5,7 +5,7 @@ description: "Anthropic CEO가 직접 밝힌 수치, 자사 코드의 90%를 Cla
 date: 2026-03-03 10:00:00 +0900
 categories: [ai]
 tags: [claude-code, AI개발, 개발자대체, Anthropic, 소프트웨어엔지니어링]
-image: claude-code-ai-replaces-developers/claude-code-ai-replaces-developers-1.png
+image: claude-code-ai-replaces-developers/claude-code-ai-replaces-developers-1.webp
 published: true
 ---
 

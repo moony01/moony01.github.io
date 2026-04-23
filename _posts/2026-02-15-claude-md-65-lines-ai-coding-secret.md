@@ -4,7 +4,7 @@ title: "65줄 마크다운이 AI 코딩을 뒤집었다 — 하루 400스타 폭
 date: 2026-02-15 11:00:00 +0900
 categories: [ai]
 tags: [claude-code, ai-coding, CLAUDE.md, vibe-coding, agentic-engineering]
-image: claude-md-65-lines-ai-coding-secret/claude-md-65-lines-ai-coding-secret-1.png
+image: claude-md-65-lines-ai-coding-secret/claude-md-65-lines-ai-coding-secret-1.webp
 published: true
 ---
 

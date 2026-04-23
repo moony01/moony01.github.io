@@ -5,7 +5,7 @@ description: "엔트로픽 발표 이후 사이버보안과 소프트웨어 주�
 date: 2026-02-25 11:00:00 +0900
 categories: [economy]
 tags: [anthropic, claude-code-security, software-stocks, ai-capex, developer-analysis]
-image: anthropic-software-selloff/anthropic-software-selloff-1.png
+image: anthropic-software-selloff/anthropic-software-selloff-1.webp
 published: true
 ---
 

@@ -4,7 +4,7 @@ title: "모건스탠리가 경고한 AI 대전환 — 2026년 개발자 커리�
 date: 2026-03-16 11:00:00 +0900
 categories: [ai]
 tags: [ai, developer, career, morgan-stanley, 2026, capex]
-image: morgan-stanley-ai-developer-career-2026/morgan-stanley-ai-developer-career-2026-1.png
+image: morgan-stanley-ai-developer-career-2026/morgan-stanley-ai-developer-career-2026-1.webp
 published: true
 ---
 

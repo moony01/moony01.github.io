@@ -4,7 +4,7 @@ title: "YC CEO가 공개한 AI 개발팀 gstack — 혼자 60만 줄 짰다는 �
 date: 2026-03-23 10:00:00 +0900
 categories: [ai]
 tags: [ai, claude-code, gstack, YC, 개발자, 에이전트, 오픈소스]
-image: garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-1.png
+image: garry-tan-gstack-claude-code-engineering-team/garry-tan-gstack-claude-code-engineering-team-1.webp
 published: true
 ---
 

@@ -5,7 +5,7 @@ description: "GitHub Copilot RoguePilot 취약점 전체 공격 체인 분석. I
 date: 2026-02-28 15:00:00 +0900
 categories: [security]
 tags: [github, copilot, security, prompt-injection, roguepilot]
-image: copilot-roguepilot-prompt-injection/copilot-roguepilot-prompt-injection-1.png
+image: copilot-roguepilot-prompt-injection/copilot-roguepilot-prompt-injection-1.webp
 published: true
 ---
 

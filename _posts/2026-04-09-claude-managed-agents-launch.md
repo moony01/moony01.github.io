@@ -5,7 +5,7 @@ description: "Claude Managed Agents가 2026년 4월 8일 공개됐다. 에이전
 date: 2026-04-09 20:00:00 +0900
 categories: [ai]
 tags: [Anthropic, ClaudeManagedAgents, 에이전트, Claude, AI인프라, 개발자워크플로우]
-image: claude-managed-agents-launch/claude-managed-agents-launch-1.png
+image: claude-managed-agents-launch/claude-managed-agents-launch-1.webp
 published: true
 ---
 

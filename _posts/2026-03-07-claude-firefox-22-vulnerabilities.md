@@ -4,7 +4,7 @@ title: "AI가 해커를 이겼다 - Firefox 취약점 22개를 2주 만에 찾�
 date: 2026-03-07 11:00:00 +0900
 categories: [security]
 tags: [AI, Claude, Firefox, 보안, Anthropic, Mozilla, 취약점, 사이버보안]
-image: claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-1.png
+image: claude-firefox-22-vulnerabilities/claude-firefox-22-vulnerabilities-1.webp
 published: true
 ---
 

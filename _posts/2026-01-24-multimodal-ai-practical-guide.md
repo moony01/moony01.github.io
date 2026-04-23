@@ -4,7 +4,7 @@ title: "멀티모달 AI 실전 활용법: 텍스트+이미지+음성을 하나�
 date: 2026-01-24 10:00:00 +0900
 categories: [ai]
 tags: [multimodal-ai, gpt-4v, gemini, claude, vision-api, ai-integration]
-image: multimodal-ai-practical-guide/multimodal-ai-practical-guide-1.png
+image: multimodal-ai-practical-guide/multimodal-ai-practical-guide-1.webp
 ---
 
 "텍스트만으로는 부족해." 

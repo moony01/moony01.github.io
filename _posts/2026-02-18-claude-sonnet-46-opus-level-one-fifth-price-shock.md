@@ -4,7 +4,7 @@ title: "Claude Sonnet 4.6 직접 써봤더니 경악했다 — Opus 가격의 1/
 date: 2026-02-18 10:00:00 +0900
 categories: [ai]
 tags: [claude, anthropic, sonnet, ai모델, 코딩AI]
-image: claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-1.png
+image: claude-sonnet-46-opus-level-one-fifth-price-shock/claude-sonnet-46-opus-level-one-fifth-price-shock-1.webp
 published: true
 ---
 

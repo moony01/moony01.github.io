@@ -5,7 +5,7 @@ description: "Claude Code 해커톤 우승자 5명 중 4명이 비개발자. 변
 date: 2026-02-23 11:00:00 +0900
 categories: [others]
 tags: [claude-code, hackathon, 비개발자, ai-coding, anthropic, vibe-coding]
-image: claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-1.png
+image: claude-hackathon-lawyer-wins/claude-hackathon-lawyer-wins-1.webp
 published: true
 ---
 

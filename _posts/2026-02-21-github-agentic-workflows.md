@@ -5,7 +5,7 @@ description: "GitHub Agentic Workflows 테크니컬 프리뷰 분석. AI 코딩 
 date: 2026-02-21 10:00:00 +0900
 categories: [infra]
 tags: [github, agentic-workflows, ci-cd, ai-agent, devops]
-image: github-agentic-workflows/github-agentic-workflows-1.png
+image: github-agentic-workflows/github-agentic-workflows-1.webp
 published: true
 ---
 

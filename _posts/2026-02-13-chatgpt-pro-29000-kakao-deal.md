@@ -5,7 +5,7 @@ description: "카카오톡 선물하기에서 ChatGPT Pro 1개월 이용권이 2
 date: 2026-02-13 15:00:00 +0900
 categories: [ai]
 tags: [AI, ChatGPT, ChatGPT Pro, OpenAI, 카카오, 핫딜]
-image: chatgpt-pro-29000-kakao-deal/chatgpt-pro-29000-kakao-deal-1.png
+image: chatgpt-pro-29000-kakao-deal/chatgpt-pro-29000-kakao-deal-1.webp
 published: true
 ---
 

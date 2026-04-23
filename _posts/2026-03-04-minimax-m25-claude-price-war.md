@@ -5,7 +5,7 @@ description: "오픈소스 MiniMax M2.5가 SWE-bench 80.2%로 Claude Opus 4.6에
 date: 2026-03-04 11:00:00 +0900
 categories: [economy]
 tags: [MiniMax, Claude, AI비용, 오픈소스AI, API가격]
-image: minimax-m25-claude-price-war/minimax-m25-claude-price-war-1.png
+image: minimax-m25-claude-price-war/minimax-m25-claude-price-war-1.webp
 published: true
 ---
 

@@ -5,7 +5,7 @@ description: "2025년 5월 4%였던 Claude Code 사용률이 2026년 2월 63%로
 date: 2026-03-16 10:00:00 +0900
 categories: [ai]
 tags: [claude-code, ai코딩, github-copilot, 개발자도구, anthropic]
-image: claude-code-63-percent-dominance-2026/claude-code-63-percent-dominance-2026-1.png
+image: claude-code-63-percent-dominance-2026/claude-code-63-percent-dominance-2026-1.webp
 published: true
 ---
 

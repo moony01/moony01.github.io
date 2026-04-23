@@ -3,7 +3,7 @@ layout: post
 title: 'Vue.js 프로젝트를 GitHub Pages를 이용해 호스팅하는 방법'
 date: 2024-05-06 00:00:00 +0900
 categories: [github, vue]
-image: og-default.jpg
+image: og-default.webp
 ---
 
 이 글에서는 Vue.js 프로젝트를 GitHub Pages에 호스팅하는 과정을 단계별로 설명하겠습니다. 이 방법을 통해 개발한 웹사이트를 쉽게 배포하고 관리할 수 있습니다.

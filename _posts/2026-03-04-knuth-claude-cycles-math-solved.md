@@ -5,7 +5,7 @@ description: "도날드 크누스가 못 푼 해밀턴 사이클 문제를 Claud
 date: 2026-03-04 10:00:00 +0900
 categories: [ai]
 tags: [claude, AI, 수학, 크누스, 알고리즘, 그래프이론]
-image: knuth-claude-cycles-math-solved/knuth-claude-cycles-math-solved-1.png
+image: knuth-claude-cycles-math-solved/knuth-claude-cycles-math-solved-1.webp
 published: true
 ---
 

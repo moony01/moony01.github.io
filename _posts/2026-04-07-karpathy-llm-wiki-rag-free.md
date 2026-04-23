@@ -5,7 +5,7 @@ description: "Andrej Karpathy가 4월 3일 공개한 LLM 지식베이스 — RAG
 date: 2026-04-07 11:00:00 +0900
 categories: [ai]
 tags: [LLM, Karpathy, 지식베이스, RAG, AI위키, ClaudeCode, 개발자워크플로우]
-image: karpathy-llm-wiki-rag-free/karpathy-llm-wiki-rag-free-1.png
+image: karpathy-llm-wiki-rag-free/karpathy-llm-wiki-rag-free-1.webp
 published: true
 ---
 

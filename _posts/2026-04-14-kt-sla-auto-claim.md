@@ -5,7 +5,7 @@ description: "KT 인터넷 SLA와 damn my slow kt 도구가 왜 오늘 화제가
 date: 2026-04-14 19:05:45 +0900
 categories: [others]
 tags: [KT, SLA, InternetSpeed, Automation, Network]
-image: kt-sla-auto-claim/kt-sla-auto-claim-1.png
+image: kt-sla-auto-claim/kt-sla-auto-claim-1.webp
 published: true
 ---
 

@@ -5,7 +5,7 @@ description: "pgmicro가 왜 화제인지, SQLite 엔진 위에서 PostgreSQL �
 date: 2026-04-13 12:04:26 +0900
 categories: [database]
 tags: [pgmicro, PostgreSQL, SQLite, AIAgents, EmbeddedDB]
-image: pgmicro-postgres-sqlite/pgmicro-postgres-sqlite-1.png
+image: pgmicro-postgres-sqlite/pgmicro-postgres-sqlite-1.webp
 published: true
 ---
 

@@ -4,7 +4,7 @@ title: "Claude 100만 토큰 컨텍스트 정식 공개 — 코드베이스 전�
 date: 2026-03-15 10:00:00 +0900
 categories: [ai]
 tags: [claude, anthropic, context-window, ai, llm, developer-tools]
-image: claude-1m-context-codebase/claude-1m-context-codebase-1.png
+image: claude-1m-context-codebase/claude-1m-context-codebase-1.webp
 published: true
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: 'Vue.js 빌드 과정: chunk-vendor.js와 app.js의 이해'
 date: 2024-03-23 00:00:00 +0700 
 categories: [vue]
-image: og-default.jpg
+image: og-default.webp
 ---
 Vue.js 프로젝트를 개발하면서, 빌드 과정이 완료된 후 생성되는 다양한 파일들을 보신 적이 있으신가요? 특히 `chunk-vendor.js`와 `app.js` 파일은 많은 개발자들이 궁금해하는 부분 중 하나입니다. 이 글에서는 이러한 파일들이 왜 생성되고, 그들의 역할은 무엇인지, 그리고 어떻게 빌드되는지에 대해 알아보겠습니다.
 ## 목차

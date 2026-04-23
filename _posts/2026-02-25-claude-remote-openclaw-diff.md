@@ -5,7 +5,7 @@ description: "클로드 코드 원격제어와 OpenClaw를 개발자 실무 기�
 date: 2026-02-25 16:10:00 +0900
 categories: [ai]
 tags: [claude-code, remote-control, openclaw, local-first, developer-workflow]
-image: claude-remote-openclaw-diff/claude-remote-openclaw-diff-1.png
+image: claude-remote-openclaw-diff/claude-remote-openclaw-diff-1.webp
 published: true
 ---
 

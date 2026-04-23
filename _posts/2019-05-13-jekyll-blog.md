@@ -6,7 +6,7 @@ date:   2019-05-13 00:00:00 +0700
 redirect_from:
   - /common/jekyll/2019/05/12/jekyll-blog.html
 categories: [jekyll]
-image: og-default.jpg
+image: og-default.webp
 ---
 필자는 지킬 기반 블로그를 생성후 깃허브 상에서 바로 수정하며 작업을 진행했다. 이 과정에서 많은 불편함을 느꼈고 로컬에서 먼저 적용하고 미리보기를 수행하면 편리하겠다는 생각을했다. 당연히 로컬작업을 거치고 서버로 push하는 작업환경을 구축했어야했다.  
 ## 이 글의 순서입니다.

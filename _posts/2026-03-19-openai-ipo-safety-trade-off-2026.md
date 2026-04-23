@@ -4,7 +4,7 @@ title: "OpenAI, 결국 돈을 선택했습니다 — 안전 AI 포기하고 IPO 
 date: 2026-03-19 10:00:00 +0900
 categories: [ai]
 tags: [OpenAI, IPO, AI안전, Sam Altman, AI거버넌스, 생성AI, AI규제]
-image: openai-ipo-safety-trade-off-2026/openai-ipo-safety-trade-off-2026-1.png
+image: openai-ipo-safety-trade-off-2026/openai-ipo-safety-trade-off-2026-1.webp
 published: true
 ---
 

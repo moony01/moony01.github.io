@@ -5,7 +5,7 @@ description: "Karpathy가 2월 26일 선언한 에이전트 코딩 혁명의 실
 date: 2026-02-27 10:00:00 +0900
 categories: [ai]
 tags: [karpathy, 에이전트코딩, agentic-engineering, claude-code, cursor, ai코딩]
-image: karpathy-agentic-coding-unrecognizable/karpathy-agentic-coding-unrecognizable-1.png
+image: karpathy-agentic-coding-unrecognizable/karpathy-agentic-coding-unrecognizable-1.webp
 published: true
 ---
 

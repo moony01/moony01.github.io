@@ -5,7 +5,7 @@ description: "Claude Code Security 출시 하루 만에 사이버보안 주식 �
 date: 2026-02-22 11:00:00 +0900
 categories: [security]
 tags: [claude, anthropic, claude-code-security, 사이버보안, crowdstrike, ai보안]
-image: claude-code-security-stock-crash/claude-code-security-stock-crash-1.png
+image: claude-code-security-stock-crash/claude-code-security-stock-crash-1.webp
 published: true
 ---
 

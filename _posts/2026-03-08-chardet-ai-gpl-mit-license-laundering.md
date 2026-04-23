@@ -4,7 +4,7 @@ title: "AI로 GPL 코드를 MIT로 세탁했다 - 1.3억 다운로드 chardet �
 date: 2026-03-08 14:00:00 +0900
 categories: [ai]
 tags: [AI, 오픈소스, chardet, Python, 라이선스, GPL, MIT, Claude]
-image: chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-1.png
+image: chardet-ai-gpl-mit-license-laundering/chardet-ai-gpl-mit-license-laundering-1.webp
 published: true
 ---
 

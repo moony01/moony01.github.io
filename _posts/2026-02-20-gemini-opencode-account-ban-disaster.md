@@ -5,7 +5,7 @@ date: 2026-02-20 14:00:00 +0900
 categories: [ai]
 tags: [gemini, opencode, openclaw, 차단, google, ai]
 published: true
-image: gemini-opencode-account-ban-disaster/gemini-opencode-account-ban-disaster-1.png
+image: gemini-opencode-account-ban-disaster/gemini-opencode-account-ban-disaster-1.webp
 ---
 
 어제까지만 해도 잘 쓰고 있었다. OpenCode에서 Gemini 3.1 Pro Preview 모델을 에이전트에 연결해서 코드 리뷰도 돌리고, 문서도 정리하고. 근데 오늘 아침, 갑자기 이런 에러가 떴다.

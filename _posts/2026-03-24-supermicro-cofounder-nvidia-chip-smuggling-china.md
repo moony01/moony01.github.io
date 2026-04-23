@@ -4,7 +4,7 @@ title: "슈퍼마이크로 창업자 체포 — 엔비디아 AI 칩 25억 달러
 date: 2026-03-24 10:00:00 +0900
 categories: [economy]
 tags: [SMCI, Supermicro, 엔비디아, Nvidia, AI칩, 반도체, 수출규제, 밀수, 주가폭락]
-image: supermicro-cofounder-nvidia-chip-smuggling-china/supermicro-cofounder-nvidia-chip-smuggling-china-1.png
+image: supermicro-cofounder-nvidia-chip-smuggling-china/supermicro-cofounder-nvidia-chip-smuggling-china-1.webp
 published: true
 ---
 

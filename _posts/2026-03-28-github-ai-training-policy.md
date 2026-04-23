@@ -5,7 +5,7 @@ description: "2026년 4월 24일부터 GitHub Copilot Free, Pro, Pro+ 사용자�
 date: 2026-03-28 11:00:00 +0900
 categories: [security]
 tags: [GitHub, Copilot, AI학습, 데이터프라이버시, 옵트아웃]
-image: github-ai-training-policy/github-ai-training-policy-1.png
+image: github-ai-training-policy/github-ai-training-policy-1.webp
 published: true
 ---
 

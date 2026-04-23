@@ -5,7 +5,7 @@ description: "Sora 영상 생성 시 'Hmmm something didn't look right' 오류�
 date: 2026-03-05 12:00:00 +0900
 categories: [ai]
 tags: [Sora, OpenAI, 영상생성오류, AITools]
-image: sora-unable-to-generate-fix/sora-unable-to-generate-fix-1.png
+image: sora-unable-to-generate-fix/sora-unable-to-generate-fix-1.webp
 published: true
 ---
 

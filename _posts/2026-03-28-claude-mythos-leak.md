@@ -5,7 +5,7 @@ description: "Anthropic CMS 설정 오류로 3000건의 내부 문서가 유출�
 date: 2026-03-28 15:00:00 +0900
 categories: [security]
 tags: [Claude Mythos, Anthropic, 데이터유출, Capybara, 사이버보안, AI보안]
-image: claude-mythos-leak/claude-mythos-leak-1.png
+image: claude-mythos-leak/claude-mythos-leak-1.webp
 published: true
 ---
 

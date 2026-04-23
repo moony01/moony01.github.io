@@ -5,7 +5,7 @@ description: "오픈AI Codex가 2026년 4월 16일 업데이트로 브라우저�
 date: 2026-04-17 19:06:00 +0900
 categories: [ai]
 tags: [Codex, OpenAI, AgenticCoding, ComputerUse, Plugins]
-image: codex-computer-use-shift/codex-computer-use-shift-1.png
+image: codex-computer-use-shift/codex-computer-use-shift-1.webp
 published: false
 ---
 

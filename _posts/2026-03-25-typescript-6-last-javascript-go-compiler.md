@@ -4,7 +4,7 @@ title: "TypeScript가 JavaScript를 버렸습니다 — Go로 다시 짠 컴파�
 date: 2026-03-25 09:00:00 +0900
 categories: [javascript]
 tags: [TypeScript, JavaScript, Go, 컴파일러, TypeScript7, 마이크로소프트]
-image: typescript-6-last-javascript-go-compiler/typescript-6-last-javascript-go-compiler-1.png
+image: typescript-6-last-javascript-go-compiler/typescript-6-last-javascript-go-compiler-1.webp
 published: true
 ---
 

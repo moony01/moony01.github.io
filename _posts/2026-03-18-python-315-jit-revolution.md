@@ -4,7 +4,7 @@ title: "Python 느리다는 말, 이제 못 합니다 - 3.15 JIT가 바꾼 진�
 date: 2026-03-18 11:00:00 +0900
 categories: [python]
 tags: [Python, JIT, 성능최적화, 컴파일러, CPython]
-image: python-315-jit-revolution/python-315-jit-revolution-1.png
+image: python-315-jit-revolution/python-315-jit-revolution-1.webp
 published: true
 ---
 

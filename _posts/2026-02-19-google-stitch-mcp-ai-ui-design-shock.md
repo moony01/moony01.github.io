@@ -4,7 +4,7 @@ title: "'UI 그려줘' 한마디에 진짜 나왔다 — Google Stitch MCP 경�
 date: 2026-02-19 11:00:00 +0900
 categories: [ai]
 tags: [google, stitch, mcp, ai디자인, 프론트엔드]
-image: google-stitch-mcp-ai-ui-design-shock/google-stitch-mcp-ai-ui-design-shock-1.png
+image: google-stitch-mcp-ai-ui-design-shock/google-stitch-mcp-ai-ui-design-shock-1.webp
 published: true
 ---
 

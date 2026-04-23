@@ -4,7 +4,7 @@ title: "'AI 무기 못 만든다'고 했더니 미국이 적국 취급했다 —
 date: 2026-03-12 11:00:00 +0900
 categories: [ai]
 tags: [anthropic, claude, pentagon, 자율무기, ai-safety, 미국방부, ai-ethics]
-image: anthropic-pentagon-lawsuit-autonomous-weapons/anthropic-pentagon-lawsuit-autonomous-weapons-1.png
+image: anthropic-pentagon-lawsuit-autonomous-weapons/anthropic-pentagon-lawsuit-autonomous-weapons-1.webp
 published: true
 ---
 

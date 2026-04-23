@@ -5,7 +5,7 @@ description: "Oxfmt 베타가 Prettier 호환을 유지하며 대폭 빠른 포�
 date: 2026-02-27 23:25:00 +0900
 categories: [javascript]
 tags: [oxfmt, prettier, biome, rust, formatter, javascript]
-image: oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-1.png
+image: oxfmt-prettier-rust-speed/oxfmt-prettier-rust-speed-1.webp
 published: true
 ---
 

@@ -4,7 +4,7 @@ title: "GPT도 Claude도 아닙니다 — 개발자들이 DeepSeek V4로 몰리�
 date: 2026-03-21 11:00:00 +0900
 categories: [ai]
 tags: [deepseek, llm, open-source, ai, 개발자도구]
-image: deepseek-v4-trillion-open-source/deepseek-v4-trillion-open-source-1.png
+image: deepseek-v4-trillion-open-source/deepseek-v4-trillion-open-source-1.webp
 published: true
 ---
 

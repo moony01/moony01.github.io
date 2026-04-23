@@ -4,7 +4,7 @@ title: "ChatGPT 법률 자문 믿었다가 법정에서 박살난 CEO - 크래�
 date: 2026-03-18 10:00:00 +0900
 categories: [ai]
 tags: [ChatGPT, AI, 크래프톤, Krafton, 게임, 법률, Subnautica]
-image: krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-1.png
+image: krafton-ceo-chatgpt-legal-advice-fail/krafton-ceo-chatgpt-legal-advice-fail-1.webp
 published: true
 ---
 

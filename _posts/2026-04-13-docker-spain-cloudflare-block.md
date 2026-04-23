@@ -5,7 +5,7 @@ description: "스페인 LaLiga 차단이 왜 Docker pull과 CI 파이프라인�
 date: 2026-04-13 19:12:00 +0900
 categories: [infra]
 tags: [Docker, Cloudflare, LaLiga, Spain, CICD]
-image: docker-spain-cloudflare-block/docker-spain-cloudflare-block-1.png
+image: docker-spain-cloudflare-block/docker-spain-cloudflare-block-1.webp
 published: true
 ---
 

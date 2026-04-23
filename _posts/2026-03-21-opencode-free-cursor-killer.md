@@ -4,7 +4,7 @@ title: "Cursor 구독 당장 끊으세요 — 무료 오픈소스 OpenCode가 �
 date: 2026-03-21 10:00:00 +0900
 categories: [ai]
 tags: [opencode, cursor, ai코딩, 오픈소스, 개발도구, copilot]
-image: opencode-free-cursor-killer/opencode-free-cursor-killer-1.png
+image: opencode-free-cursor-killer/opencode-free-cursor-killer-1.webp
 published: true
 ---
 

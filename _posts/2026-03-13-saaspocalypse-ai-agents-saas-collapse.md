@@ -4,7 +4,7 @@ title: "AI 에이전트 1개가 SaaS 5개를 대체한다 — 2850억 달러 증
 date: 2026-03-13 09:00:00 +0900
 categories: [economy]
 tags: [ai-agents, saas, economy, software, developer, disruption]
-image: saaspocalypse-ai-agents-saas-collapse/saaspocalypse-ai-agents-saas-collapse-1.png
+image: saaspocalypse-ai-agents-saas-collapse/saaspocalypse-ai-agents-saas-collapse-1.webp
 published: true
 ---
 

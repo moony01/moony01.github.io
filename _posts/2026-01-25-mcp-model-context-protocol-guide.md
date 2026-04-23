@@ -4,7 +4,7 @@ title: "MCP(Model Context Protocol) 실전 활용법: AI 에이전트의 USB-C �
 date: 2026-01-25 10:00:00 +0900
 categories: [ai]
 tags: [mcp, model-context-protocol, anthropic, claude, ai-agent, agentic-ai, fastmcp, python]
-image: mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-1.png
+image: mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-1.webp
 ---
 
 "왜 AI 도구마다 매번 새로운 연동 코드를 작성해야 할까?"

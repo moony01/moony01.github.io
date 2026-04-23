@@ -4,7 +4,7 @@ title: "SEO 드디어 죽었다 - AI 에이전트가 대신 고르는 시대가 
 date: 2026-02-28 14:00:00 +0900
 categories: [ai]
 tags: [AAO, SEO, AI에이전트, 검색최적화, 웹개발]
-image: seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-1.png
+image: seo-dead-aao-ai-agent-optimization/seo-dead-aao-ai-agent-optimization-1.webp
 published: true
 ---
 

@@ -5,7 +5,7 @@ description: "Google이 Apache 2.0 오픈소스 모델 Gemma 4를 출시했다. 
 date: 2026-04-06 11:00:00 +0900
 categories: [ai]
 tags: [Gemma4, Google, 오픈소스AI, Qwen, 중국AI, LLM벤치마크]
-image: gemma-4-google-vs-china-ai/gemma-4-google-vs-china-ai-1.png
+image: gemma-4-google-vs-china-ai/gemma-4-google-vs-china-ai-1.webp
 published: true
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  "[dataBase] TO_CHAR() 함수 사용법"
 date:   2021-02-13 00:00:00 +0700
 categories: [dataBase]
-image: og-default.jpg
+image: og-default.webp
 ---
 TO_CHAR() 함수는 날짜, 숫자 등의 값을 문자열로 반환하는 함수이다.
 

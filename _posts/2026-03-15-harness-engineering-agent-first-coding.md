@@ -4,7 +4,7 @@ title: "코드 0줄로 100만 줄 짰다 — OpenAI의 5개월 실험이 개발�
 date: 2026-03-15 10:00:00 +0900
 categories: [ai]
 tags: [AI, 에이전트, OpenAI, Codex, 하네스엔지니어링, 개발자미래, vibe-coding]
-image: harness-engineering-agent-first-coding/harness-engineering-agent-first-coding-1.png
+image: harness-engineering-agent-first-coding/harness-engineering-agent-first-coding-1.webp
 published: true
 ---
 

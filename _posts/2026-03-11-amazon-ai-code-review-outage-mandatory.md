@@ -4,7 +4,7 @@ title: "아마존이 AI 코드를 막았다 — 6시간 장애 이후 시니어 
 date: 2026-03-11 10:00:00 +0900
 categories: [ai]
 tags: [amazon, AI코딩, 코드리뷰, 장애, 시니어엔지니어, 생성AI, 소프트웨어품질]
-image: amazon-ai-code-review-outage-mandatory/amazon-ai-code-review-outage-mandatory-1.png
+image: amazon-ai-code-review-outage-mandatory/amazon-ai-code-review-outage-mandatory-1.webp
 published: true
 ---
 

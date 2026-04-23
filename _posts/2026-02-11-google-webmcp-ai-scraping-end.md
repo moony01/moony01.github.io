@@ -5,7 +5,7 @@ description: "구글 크롬 팀이 공개한 WebMCP는 웹사이트가 AI 에이
 date: 2026-02-11 18:00:00 +0900
 categories: [ai]
 tags: [WebMCP, AI Agent, Google Chrome, MCP, Web Scraping, Browser]
-image: google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-1.png
+image: google-webmcp-ai-scraping-end/google-webmcp-ai-scraping-end-1.webp
 published: true
 ---
 

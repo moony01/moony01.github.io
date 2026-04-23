@@ -5,7 +5,7 @@ description: "16개의 Claude AI 에이전트가 2주 만에 10만 줄의 Rust �
 date: 2026-02-11 11:00:00 +0900
 categories: [ai]
 tags: [claude, ai-agent, compiler, rust, anthropic, agentic-coding, multi-agent]
-image: claude-16-agents-c-compiler-shock/claude-16-agents-c-compiler-shock-1.png
+image: claude-16-agents-c-compiler-shock/claude-16-agents-c-compiler-shock-1.webp
 published: true
 ---
 

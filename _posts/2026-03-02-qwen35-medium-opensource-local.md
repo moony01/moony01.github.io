@@ -5,7 +5,7 @@ description: "알리바바 Qwen3.5-35B-A3B는 Apache 2.0 오픈소스로 Claude 
 date: 2026-03-02 10:00:00 +0900
 categories: [ai]
 tags: [Qwen3.5, Alibaba, 오픈소스LLM, MoE, Ollama, 로컬AI, LLM벤치마크]
-image: qwen35-medium-opensource-local/qwen35-medium-opensource-local-1.png
+image: qwen35-medium-opensource-local/qwen35-medium-opensource-local-1.webp
 published: true
 ---
 

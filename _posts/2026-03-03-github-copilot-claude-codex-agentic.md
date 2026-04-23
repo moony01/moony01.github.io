@@ -4,7 +4,7 @@ title: "GitHub Copilot에 Claude가 들어왔다 - 에이전틱 코딩 판이 �
 date: 2026-03-03 10:00:00 +0900
 categories: [ai]
 tags: [GitHub Copilot, Claude, Codex, 에이전틱 AI, AI 코딩, 개발 도구]
-image: github-copilot-claude-codex-agentic/github-copilot-claude-codex-agentic-1.png
+image: github-copilot-claude-codex-agentic/github-copilot-claude-codex-agentic-1.webp
 published: true
 ---
 

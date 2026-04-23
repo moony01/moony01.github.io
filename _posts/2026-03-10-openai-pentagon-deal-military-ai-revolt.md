@@ -4,7 +4,7 @@ title: "OpenAI가 미 국방부에 AI를 팔았다 - 직원이 사직서를 던�
 date: 2026-03-10 10:00:00 +0900
 categories: [ai]
 tags: [OpenAI, AI, 군사, Pentagon, AI윤리, 자율무기, Sam Altman]
-image: openai-pentagon-deal-military-ai-revolt/openai-pentagon-deal-military-ai-revolt-1.png
+image: openai-pentagon-deal-military-ai-revolt/openai-pentagon-deal-military-ai-revolt-1.webp
 published: true
 ---
 

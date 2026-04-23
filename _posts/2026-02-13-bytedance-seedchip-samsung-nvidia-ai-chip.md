@@ -5,7 +5,7 @@ description: "바이트댄스가 자체 AI 추론 칩 'SeedChip'을 개발하고
 date: 2026-02-13 11:00:00 +0900
 categories: [ai]
 tags: [AI, ByteDance, Samsung, NVIDIA, SeedChip, AI칩, 반도체]
-image: bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-1.png
+image: bytedance-seedchip-samsung-nvidia-ai-chip/bytedance-seedchip-samsung-nvidia-ai-chip-1.webp
 published: true
 ---
 

@@ -4,7 +4,7 @@ title: "오라클, AI에 돈 쏟아붓다 직원 3만 명 잘랐다 — 개발�
 date: 2026-03-12 11:00:00 +0900
 categories: [economy]
 tags: [oracle, 해고, AI, 데이터센터, 개발자, 빅테크, 반도체]
-image: oracle-30000-layoffs-ai-datacenter-developer-paradox/oracle-30000-layoffs-ai-datacenter-developer-paradox-1.png
+image: oracle-30000-layoffs-ai-datacenter-developer-paradox/oracle-30000-layoffs-ai-datacenter-developer-paradox-1.webp
 published: true
 ---
 

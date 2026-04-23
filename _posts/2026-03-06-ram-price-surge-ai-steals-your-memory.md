@@ -4,7 +4,7 @@ title: "RAM 가격 90% 폭등 - AI가 당신의 메모리를 훔치고 있다"
 date: 2026-03-06 11:00:00 +0900
 categories: [economy]
 tags: [RAM, DRAM, AI, 반도체, 메모리, HBM, 데이터센터, 하이퍼스케일러]
-image: ram-price-surge-ai-steals-your-memory/ram-price-surge-ai-steals-your-memory-1.png
+image: ram-price-surge-ai-steals-your-memory/ram-price-surge-ai-steals-your-memory-1.webp
 published: true
 ---
 

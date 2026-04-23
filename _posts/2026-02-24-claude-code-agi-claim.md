@@ -5,7 +5,7 @@ description: "클로드 코드 AGI 논란이 커진 이유를 원문 발언 중�
 date: 2026-02-24 11:00:00 +0900
 categories: [ai]
 tags: [claude-code, anthropic, agi논란, coding-is-solved, ai개발]
-image: claude-code-agi-claim/claude-code-agi-claim-1-gemini.png
+image: claude-code-agi-claim/claude-code-agi-claim-1-gemini.webp
 published: true
 ---
 

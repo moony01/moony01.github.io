@@ -3,7 +3,7 @@ layout: post
 title: '소프트웨어 생명 주기(Software Life Cycle)와 생명 주기 모형의 종류 그리고 어지러운 애자일 개발 모델'
 date: 2024-01-27 00:00:00 +0700 
 categories: [se]
-image: og-default.jpg
+image: og-default.webp
 ---
 소프트웨어 생명 주기란 소프트웨어를 개발하기 위해 개발, 운용, 유지보수 등의 과정을 생명 주기 모형을 이용하여 각 단계별로 나눈것이다. 소프트웨어 생명 주기는 소프트웨어 개발 방법론의 바탕이 된다.
 

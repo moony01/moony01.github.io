@@ -5,7 +5,7 @@ description: "HN에서 오늘 화제가 된 MCP vs Skills 논쟁을 정리했다
 date: 2026-04-10 18:20:00 +0900
 categories: [others]
 tags: [MCP, Skills, ClaudeCode, AI에이전트, 개발자도구]
-image: mcp-vs-skills-shift/mcp-vs-skills-shift-1.png
+image: mcp-vs-skills-shift/mcp-vs-skills-shift-1.webp
 published: true
 ---
 

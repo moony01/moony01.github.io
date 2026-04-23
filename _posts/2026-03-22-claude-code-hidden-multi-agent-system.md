@@ -4,7 +4,7 @@ title: "누군가 Claude Code 바이너리를 뜯었습니다 — Anthropic이 �
 date: 2026-03-22 10:00:00 +0900
 categories: [ai]
 tags: [Claude Code, AI 에이전트, 서브에이전트, Skills, Anthropic, 멀티에이전트]
-image: claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-1.png
+image: claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-1.webp
 published: true
 ---
 

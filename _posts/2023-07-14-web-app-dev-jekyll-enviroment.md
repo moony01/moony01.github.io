@@ -3,7 +3,7 @@ layout: post
 title: "수익형 웹사이트 (웹앱)를 개발하거나 GitHub Jekyll 블로그를 만들기 위한 Jekyll 기본 환경 세팅하기"
 date: 2023-07-15 00:00:00 +0700 
 categories: [jekyll]
-image: web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-0.jpg
+image: web-app-dev-jekyll-enviroment/web-app-dev-jekyll-enviroment-0.webp
 ---
 한달이 조금 넘는 기간 동안 저는 수익형 웹사이트를 개발했고 GitHub 블로그를 몇 년 동안 유지해왔습니다. 수익형 웹사이트에서는 gpt-3.5 API를 사용했고 AI와 채팅하는 웹앱을 개발했습니다. 제가 개발한 웹사이트 링크를 남기겠습니다. [(mbtichat 바로가기)](https://mbtichat.info/){:target="_blank"} 저는 이 웹앱과 GitHub 블로그를 만들면서 느낀 점은 결국 우리는 수익을 창출하기 위해서는 광고를 넣어야 되는데 결국 광고는 구글 애드센스 광고를 넣어야 합니다. 애드센스 광고를 넣기 위해서는 Jekyll을 사용해야 하는데 그 이유 또한 링크를 남기겠습니다. [(수익형 웹 유틸리티 사이트를 만들기 위해 Jekyll을 사용해야 하는 이유)](https://mbtichat.info/2023/06/28/creating-jekyll-utility-website.html){:target="_blank"}
 수익형 웹앱이나 수익형 블로그를 만드는 데 있어 여러 가지 방법이 있겠지만 특히 수익형 웹앱의 경우 Jekyll을 사용하는 게 유리하다고 생각합니다. 또한 Jekyll은 블로그를 만들고 운영하기에도 매우 적합한 도구입니다. **이제 우리는 수익형 웹사이트나 GitHub 블로그를 만들기 위한 기본이 되는 Jekyll 환경 세팅을 해보겠습니다.** 이 글을 읽고 똑같이 실습을 한다면 우리는 이 스킬로 수익형 웹사이트나 블로그를 만드는 데 중요한 밑바탕이 되고 정적 웹사이트를 이해하는 데 있어 매우 도움이 될 것입니다.

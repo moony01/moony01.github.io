@@ -4,7 +4,7 @@ title: "텔레그램으로 AI 코딩합니다 — Anthropic이 오늘 공개한 
 date: 2026-03-20 11:00:00 +0900
 categories: [ai]
 tags: [claude-code, telegram, discord, ai-coding, anthropic, mcp]
-image: claude-code-channels-telegram-discord-2026/claude-code-channels-telegram-discord-2026-1.png
+image: claude-code-channels-telegram-discord-2026/claude-code-channels-telegram-discord-2026-1.webp
 published: true
 ---
 

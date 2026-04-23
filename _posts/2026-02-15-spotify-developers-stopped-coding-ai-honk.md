@@ -4,7 +4,7 @@ title: "Spotify 최고 개발자, 12월 이후 코드 한 줄 안 썼다 — 멘
 date: 2026-02-15 15:00:00 +0900
 categories: [ai]
 tags: [spotify, ai-coding, claude-code, honk, developer-productivity]
-image: spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-1.png
+image: spotify-developers-stopped-coding-ai-honk/spotify-developers-stopped-coding-ai-honk-1.webp
 published: true
 ---
 

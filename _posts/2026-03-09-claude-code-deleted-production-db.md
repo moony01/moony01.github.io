@@ -4,7 +4,7 @@ title: "Claude Code가 DB를 날렸다 - AI 에이전트를 믿었다가 2.5년�
 date: 2026-03-09 10:00:00 +0900
 categories: [ai]
 tags: [Claude Code, AI 에이전트, Terraform, AWS, 프로덕션 장애, AI 사고]
-image: claude-code-deleted-production-db/claude-code-deleted-production-db-1.png
+image: claude-code-deleted-production-db/claude-code-deleted-production-db-1.webp
 published: true
 ---
 

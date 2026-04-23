@@ -4,7 +4,7 @@ title: "보안 스캐너가 백도어로 변했다 — LiteLLM 공급망 해킹,
 date: 2026-03-25 10:00:00 +0900
 categories: [security]
 tags: [security, litellm, supply-chain, pypi, trivy, backdoor, ai, python]
-image: litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-1.png
+image: litellm-supply-chain-attack-trivy-2026/litellm-supply-chain-attack-trivy-2026-1.webp
 published: true
 ---
 

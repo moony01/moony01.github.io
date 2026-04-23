@@ -4,7 +4,7 @@ title: "'6개월 안에 코드 90%가 AI로' — 1년 뒤 현실에서 개발자
 date: 2026-03-13 11:00:00 +0900
 categories: [ai]
 tags: [AI, anthropic, 개발자, 코딩자동화, 다리오아모데이, 미래직업, Claude]
-image: amodei-ai-90-code-prediction-one-year-later/amodei-ai-90-code-prediction-one-year-later-1.png
+image: amodei-ai-90-code-prediction-one-year-later/amodei-ai-90-code-prediction-one-year-later-1.webp
 published: true
 ---
 
