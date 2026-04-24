@@ -428,6 +428,11 @@ browser_navigate → https://search.google.com/search-console
 - [ ] 브라우저 테스트 (이미지 렌더링 확인)
 - [ ] Google Search Console 색인 요청
 
+## 로컬 서버 종료 필수
+- Jekyll 로컬 서버를 띄운 경우, 작업 완료 후 **반드시 종료**할 것
+- 프로세스가 남아있으면 포트 충돌 및 리소스 낭비 발생
+- 작업 종료 전 `lsof -i :4000`으로 확인하고 남아있으면 kill
+
 ## 금지사항
 
 - 1,500자 미만 짧은 콘텐츠 생성 금지

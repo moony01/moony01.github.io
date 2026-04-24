@@ -2,7 +2,7 @@
   "workflow": "blog-post-autopilot",
   "slug": "gpt55-codex-api-delay",
   "runStartedAt": "2026-04-24T12:04:04+09:00",
-  "runEndedAt": null,
+  "runEndedAt": "2026-04-24T12:27:10+09:00",
   "selectedTopic": {
     "topic": "GPT 5 5 출시와 API 지연",
     "category": "ai",
@@ -56,13 +56,13 @@
       "lastError": null
     },
     "deploy": {
-      "status": "PENDING",
-      "attempts": 0,
-      "lastError": null
+      "status": "PASS",
+      "attempts": 3,
+      "lastError": "초기 배포 검증에서 Playwright 캐시 때문에 대표 이미지에 이전 .webp.webp 요청이 남아 다시 배포를 확인함"
     },
     "gsc": {
-      "status": "PENDING",
-      "attempts": 0,
+      "status": "PASS",
+      "attempts": 1,
       "lastError": null
     }
   },
@@ -127,11 +127,28 @@
     ]
   },
   "deploy": {
-    "commitSha": null,
-    "productionSha": null,
-    "url": "https://moony01.com/ai/2026/04/24/gpt55-codex-api-delay.html"
+    "commitSha": "eab2cb310016fc7500341ec1b073af5a1b6b9530",
+    "productionSha": "eab2cb310016fc7500341ec1b073af5a1b6b9530",
+    "url": "https://moony01.com/ai/2026/04/24/gpt55-codex-api-delay.html",
+    "actionsRunUrl": "https://github.com/moony01/moony01.github.io/actions/runs/24870438396",
+    "actionsStatus": "Success",
+    "verification": {
+      "canonicalPageStatus": 200,
+      "canonicalHeroAssetStatus": 200,
+      "bodyAssetStatus": 200,
+      "cacheBustedRenderUrl": "https://moony01.com/ai/2026/04/24/gpt55-codex-api-delay.html?verify=eab2cb3&fresh=1",
+      "screenshots": [
+        "runtime/blog-post-autopilot-gpt55-codex-api-delay-deployed-top.png",
+        "runtime/blog-post-autopilot-gpt55-codex-api-delay-deployed-body.png"
+      ]
+    }
   },
   "gsc": {
-    "requestedUrls": []
+    "property": "sc-domain:moony01.com",
+    "requestedUrls": [
+      "https://moony01.com/ai/2026/04/24/gpt55-codex-api-delay.html"
+    ],
+    "requestStatus": "색인 생성 요청됨",
+    "requestedAt": "2026-04-24T12:27:00+09:00"
   }
 }

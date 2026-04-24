@@ -1,8 +1,8 @@
 {
   "workflow": "blog-post-autopilot",
   "slug": "gpt55-codex-api-delay",
-  "lastPassedStep": "localRender",
-  "currentStep": "deploy",
-  "updatedAt": "2026-04-24T12:12:30+09:00",
+  "lastPassedStep": "gsc",
+  "currentStep": "completed",
+  "updatedAt": "2026-04-24T12:27:10+09:00",
   "postPath": "_posts/2026-04-24-gpt55-codex-api-delay.md"
 }

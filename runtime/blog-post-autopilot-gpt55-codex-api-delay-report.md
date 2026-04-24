@@ -41,5 +41,44 @@
 - Content Gate: PASS
 - Image Gate: PASS
 - Local Render Gate: PASS
-- Deploy Gate: PENDING
-- GSC Gate: PENDING
+- Deploy Gate: PASS
+- GSC Gate: PASS
+
+## 최종 상태
+
+- 최종 상태: SUCCESS
+- PASS 단계: Research, Content, Image, Local Render, Deploy, GSC
+- FAIL 단계: 없음
+
+## 단계별 시도 횟수
+
+- Research: 1회
+- Content: 1회
+- Image: 1회
+- Local Render: 1회
+- Deploy: 3회
+- GSC: 1회
+
+## 배포 및 색인 결과
+
+- 최종 커밋 SHA: `eab2cb310016fc7500341ec1b073af5a1b6b9530`
+- GitHub Actions: `Build & Deploy Blog #174` 성공
+- 포스트 URL: https://moony01.com/ai/2026/04/24/gpt55-codex-api-delay.html
+- Search Console 속성: `sc-domain:moony01.com`
+- Search Console 상태: `색인 생성 요청됨`
+
+## 최종 산출물
+
+- 포스트: `_posts/2026-04-24-gpt55-codex-api-delay.md`
+- 이미지: `static/img/posts/gpt55-codex-api-delay/`
+- 증빙: `runtime/blog-post-autopilot-gpt55-codex-api-delay-evidence.json`
+- 체크포인트: `runtime/blog-post-autopilot-gpt55-codex-api-delay.state.json`
+- 스크린샷:
+  - `runtime/blog-post-autopilot-gpt55-codex-api-delay-deployed-top.png`
+  - `runtime/blog-post-autopilot-gpt55-codex-api-delay-deployed-body.png`
+
+## 메모
+
+- 초기 대표 이미지 검증에서 Playwright 캐시 때문에 이전 잘못된 `.webp.webp` 요청이 남아 한 번 더 확인했다.
+- 최종 확인은 라이브 HTML 원문, 자산 200 응답, 캐시 우회 라이브 렌더, Search Console 실제 URL 테스트 기준으로 통과 처리했다.
+- 남은 수동 조치: 없음
