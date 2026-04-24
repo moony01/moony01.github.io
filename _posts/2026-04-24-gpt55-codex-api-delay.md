@@ -5,7 +5,7 @@ description: "GPT 5 5가 2026년 4월 23일 ChatGPT와 Codex에 먼저 풀렸다
 date: 2026-04-24 12:04:04 +0900
 categories: [ai]
 tags: [OpenAI, GPT55, Codex, API, Agents]
-image: gpt55-codex-api-delay/gpt55-codex-api-delay-1.png
+image: gpt55-codex-api-delay/gpt55-codex-api-delay-1.webp
 published: true
 ---
 
@@ -15,7 +15,20 @@ GPT 5 5 발표를 보고 처음 든 생각은 성능보다 배포 방식이 더 
 
 {% include pre-version.html %}
 
-![GPT 5 5와 Codex 롤아웃 장면](/static/img/posts/gpt55-codex-api-delay/gpt55-codex-api-delay-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/gpt55-codex-api-delay/gpt55-codex-api-delay-1-400.webp 400w,
+            /static/img/posts/gpt55-codex-api-delay/gpt55-codex-api-delay-1-800.webp 800w,
+            /static/img/posts/gpt55-codex-api-delay/gpt55-codex-api-delay-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/gpt55-codex-api-delay/gpt55-codex-api-delay-1.webp"
+    alt="GPT 5 5와 Codex 롤아웃 장면"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 왜 다들 GPT 5 5 얘기부터 꺼냈나
 
@@ -74,7 +87,20 @@ codex --model gpt-5.5
 
 다만 첫날처럼 롤아웃 지연이 걸려 있으면 바로 안 뜰 수 있다. 그래서 지금은 "명령어가 되느냐"보다 "우리 플랜과 워크스페이스에서 실제로 열렸느냐"를 먼저 보는 게 맞다.
 
-![GPT 5 5 API 지연과 가격 비교](/static/img/posts/gpt55-codex-api-delay/gpt55-codex-api-delay-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/gpt55-codex-api-delay/gpt55-codex-api-delay-2-400.webp 400w,
+            /static/img/posts/gpt55-codex-api-delay/gpt55-codex-api-delay-2-800.webp 800w,
+            /static/img/posts/gpt55-codex-api-delay/gpt55-codex-api-delay-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/gpt55-codex-api-delay/gpt55-codex-api-delay-2.webp"
+    alt="GPT 5 5 API 지연과 가격 비교"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 지금 바로 갈아탈 팀과 아닌 팀
 
