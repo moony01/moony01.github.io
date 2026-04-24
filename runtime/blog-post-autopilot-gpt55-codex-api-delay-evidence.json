@@ -1,0 +1,137 @@
+{
+  "workflow": "blog-post-autopilot",
+  "slug": "gpt55-codex-api-delay",
+  "runStartedAt": "2026-04-24T12:04:04+09:00",
+  "runEndedAt": null,
+  "selectedTopic": {
+    "topic": "GPT 5 5 출시와 API 지연",
+    "category": "ai",
+    "reason": "공식 출시 직후 커뮤니티 반응, 공식 문서 업데이트, 상태 페이지 이슈, 주요 매체 기사까지 동시에 확인됨"
+  },
+  "titleCandidates": [
+    "GPT 5 5가 API 없이 먼저 풀린 날",
+    "GPT 5 5 출시 직후 개발자들이 당황한 이유",
+    "GPT 5 5가 코덱스 판을 다시 흔드는 중"
+  ],
+  "selectedTitle": "GPT 5 5 출시 직후 개발자들이 당황한 이유",
+  "researchQueries": [
+    "site:news.hada.io",
+    "hottest developer news this week 2026",
+    "most discussed tech topic today",
+    "viral programming trend April 2026",
+    "site:news.ycombinator.com top stories today",
+    "site:reddit.com/r/programming hot",
+    "GitHub trending repositories this week",
+    "AI breakthrough April 2026",
+    "new developer tool launch 2026"
+  ],
+  "researchUrls": [
+    "https://news.hada.io/",
+    "https://news.hada.io/topic?id=28822",
+    "https://openai.com/index/introducing-gpt-5-5/",
+    "https://help.openai.com/en/articles/11909943-gpt-53-and-gpt-54-in-chatgpt",
+    "https://help.openai.com/en/articles/20001106-codex-rate-card",
+    "https://status.openai.com/incidents/7385wqds",
+    "https://fortune.com/2026/04/23/openai-releases-gpt-5-5/"
+  ],
+  "stepResults": {
+    "research": {
+      "status": "PASS",
+      "attempts": 1,
+      "lastError": null
+    },
+    "content": {
+      "status": "PASS",
+      "attempts": 1,
+      "lastError": null
+    },
+    "image": {
+      "status": "PASS",
+      "attempts": 1,
+      "lastError": null
+    },
+    "localRender": {
+      "status": "PASS",
+      "attempts": 1,
+      "lastError": null
+    },
+    "deploy": {
+      "status": "PENDING",
+      "attempts": 0,
+      "lastError": null
+    },
+    "gsc": {
+      "status": "PENDING",
+      "attempts": 0,
+      "lastError": null
+    }
+  },
+  "content": {
+    "postPath": "_posts/2026-04-24-gpt55-codex-api-delay.md",
+    "bodyCharacterCountTarget": 1500,
+    "internalLinks": [
+      "/ai/2026/04/23/android-cli-agent-workflow.html"
+    ]
+  },
+  "chatgpt": {
+    "prompts": [
+      "Generate a modern tech blog hero image in 16:9 ratio, 1200x675. Scene: a bright software team workspace reacting to a new AI model launch, with a clean laptop code editor, floating browser style panels, an autonomous coding agent visual, subtle rollout map lights, and a sense of fast product release momentum. Colors: bright and vibrant palette with white or very light gray background, electric blue, vivid green, coral accents. Style: modern tech illustration, clean, professional, high contrast, visually energetic, premium blog header. No text, no letters, no watermarks, no logos, no dark background. Output only the image.",
+      "Generate a technical illustration in 16:9 ratio, 1200x675. Scene: a bright workflow diagram style composition showing one AI model rollout splitting into ChatGPT and Codex access while an API gateway remains delayed, with token pricing cards, tool icons, code windows, and developers evaluating cost versus performance. Use a light or white background with vivid electric blue, green, coral, and violet accents. Style: clean flat design, modern tech editorial illustration, bright, sharp, professional. No text labels, no letters, no watermarks, no logos, no dark background."
+    ],
+    "rawDownloads": [
+      {
+        "playwrightPath": ".playwright-mcp/ChatGPT-Image-2026년-4월-24일-오후-12-08-15.png",
+        "downloadsPath": "/home/mhhan/Downloads/ChatGPT_Generated_Image_20260424_120815.png",
+        "size": 1907768,
+        "sha256": "c40adb50a04eeeadca3e2b0bb2e3b0d1ac9b7ea852133f371c676caf414e5d45",
+        "mtime": "2026-04-24T12:09:56.705214339+09:00"
+      },
+      {
+        "playwrightPath": ".playwright-mcp/ChatGPT-Image-2026년-4월-24일-오후-12-09-37.png",
+        "downloadsPath": "/home/mhhan/Downloads/ChatGPT_Generated_Image_20260424_120937.png",
+        "size": 698345,
+        "sha256": "834b5520f5d453f2052f91e0a947292b55eff2b2044cb891875eb1cee30a9e9b",
+        "mtime": "2026-04-24T12:09:56.706214345+09:00"
+      }
+    ],
+    "finalImages": [
+      {
+        "resourcePath": "/home/mhhan/workspace/.resource/gpt55-codex-api-delay-1.png",
+        "projectPath": "static/img/posts/gpt55-codex-api-delay/gpt55-codex-api-delay-1.png",
+        "sha256": "c40adb50a04eeeadca3e2b0bb2e3b0d1ac9b7ea852133f371c676caf414e5d45"
+      },
+      {
+        "resourcePath": "/home/mhhan/workspace/.resource/gpt55-codex-api-delay-2.png",
+        "projectPath": "static/img/posts/gpt55-codex-api-delay/gpt55-codex-api-delay-2.png",
+        "sha256": "834b5520f5d453f2052f91e0a947292b55eff2b2044cb891875eb1cee30a9e9b"
+      }
+    ]
+  },
+  "localRender": {
+    "pageUrl": "http://127.0.0.1:4000/ai/2026/04/24/gpt55-codex-api-delay.html",
+    "pageStatus": 200,
+    "imageStatuses": [
+      {
+        "url": "http://127.0.0.1:4000/static/img/posts/gpt55-codex-api-delay/gpt55-codex-api-delay-1.png",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4000/static/img/posts/gpt55-codex-api-delay/gpt55-codex-api-delay-2.png",
+        "status": 200
+      }
+    ],
+    "screenshots": [
+      "runtime/blog-post-autopilot-gpt55-codex-api-delay-local-render-top.png",
+      "runtime/blog-post-autopilot-gpt55-codex-api-delay-local-render-hero.png",
+      "runtime/blog-post-autopilot-gpt55-codex-api-delay-local-render-body.png"
+    ]
+  },
+  "deploy": {
+    "commitSha": null,
+    "productionSha": null,
+    "url": "https://moony01.com/ai/2026/04/24/gpt55-codex-api-delay.html"
+  },
+  "gsc": {
+    "requestedUrls": []
+  }
+}
