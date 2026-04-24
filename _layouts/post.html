@@ -21,7 +21,7 @@ layout: default
   <!-- Featured Image -->
   {% if page.image %}
   {% assign img_ext = page.image | split: '.' | last %}
-  {% assign img_base = page.image | replace: '.png', '' | replace: '.jpg', '' | replace: '.jpeg', '' | replace: '.gif', '' %}
+  {% assign img_base = page.image | replace: '.png', '' | replace: '.jpg', '' | replace: '.jpeg', '' | replace: '.gif', '' | replace: '.webp', '' %}
   {% assign img_mime = img_ext %}
   {% if img_ext == 'jpg' %}{% assign img_mime = 'jpeg' %}{% endif %}
   <div class="post-article__featured-image">
