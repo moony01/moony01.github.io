@@ -5,7 +5,7 @@ description: "TypeScript 7 베타와 tsgo가 정말 실무에 바로 들어갈 �
 date: 2026-04-25 19:02:39 +0900
 categories: [javascript]
 tags: [TypeScript, TypeScript7, tsgo, Go, VSCode]
-image: typescript-7-beta-reality/typescript-7-beta-reality-1.png
+image: typescript-7-beta-reality/typescript-7-beta-reality-1.webp
 published: true
 ---
 
@@ -17,7 +17,20 @@ TypeScript 7 베타 공지를 보고 제일 먼저 든 생각은 이거였다. �
 
 {% include pre-version.html %}
 
-![TypeScript 7 베타 속도 전환 장면](/static/img/posts/typescript-7-beta-reality/typescript-7-beta-reality-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/typescript-7-beta-reality/typescript-7-beta-reality-1-400.webp 400w,
+            /static/img/posts/typescript-7-beta-reality/typescript-7-beta-reality-1-800.webp 800w,
+            /static/img/posts/typescript-7-beta-reality/typescript-7-beta-reality-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/typescript-7-beta-reality/typescript-7-beta-reality-1.webp"
+    alt="TypeScript 7 베타 속도 전환 장면"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 왜 이번 베타는 분위기가 다르냐
 
@@ -99,6 +112,19 @@ npx tsc6 --noEmit
 
 이번 건은 꽤 오랜만에 보는 제대로 된 베타 같다. 과장 광고 냄새가 아예 없는 건 아닌데, 적어도 눌러보면 바로 확인할 수 있는 종류의 과장이다. 이런 건 오히려 좋다. 숫자가 진짜인지 팀 저장소에서 바로 걸러지니까.
 
-![tsgo 도입 판단 회의 장면](/static/img/posts/typescript-7-beta-reality/typescript-7-beta-reality-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/typescript-7-beta-reality/typescript-7-beta-reality-2-400.webp 400w,
+            /static/img/posts/typescript-7-beta-reality/typescript-7-beta-reality-2-800.webp 800w,
+            /static/img/posts/typescript-7-beta-reality/typescript-7-beta-reality-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/typescript-7-beta-reality/typescript-7-beta-reality-2.webp"
+    alt="tsgo 도입 판단 회의 장면"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 그래서 나는 지금 TypeScript 7 베타를 "당장 전환"보다 "당장 측정"의 신호로 본다. 괜히 다 같이 들뜨기보다, 오늘 로컬 한 번 돌려보고 내일 팀 채널에 숫자 던지는 쪽이 더 맞다. 이런 베타는 말보다 로그가 빨리 답해준다.
