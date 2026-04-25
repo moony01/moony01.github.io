@@ -5,7 +5,7 @@ description: "MCP 취약점 경고가 왜 갑자기 커졌는지, stdio 설정 �
 date: 2026-04-25 12:03:43 +0900
 categories: [security]
 tags: [MCP, Security, Anthropic, AIAgents, PromptInjection]
-image: mcp-rce-security-panic/mcp-rce-security-panic-1.png
+image: mcp-rce-security-panic/mcp-rce-security-panic-1.webp
 published: true
 ---
 
@@ -17,7 +17,20 @@ MCP 취약점 얘기가 또 도는구나 정도로 넘기려다가, 이번 건�
 
 아래 같은 장면이 지금 분위기랑 제일 비슷하다. 겉으로는 연결이 더 많아지고 더 똑똑해졌는데, 뒤쪽에서는 권한 경계가 어디까지인지 다들 다시 세고 있다.
 
-![MCP 취약점 파장을 보여주는 개발팀](/static/img/posts/mcp-rce-security-panic/mcp-rce-security-panic-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/mcp-rce-security-panic/mcp-rce-security-panic-1-400.webp 400w,
+            /static/img/posts/mcp-rce-security-panic/mcp-rce-security-panic-1-800.webp 800w,
+            /static/img/posts/mcp-rce-security-panic/mcp-rce-security-panic-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/mcp-rce-security-panic/mcp-rce-security-panic-1.webp"
+    alt="MCP 취약점 파장을 보여주는 개발팀"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 왜 이번 MCP 취약점 얘기가 더 세게 먹히나
 
@@ -77,7 +90,20 @@ MCP 자체를 버리자는 얘기는 아니다. 지금도 OpenAI, Google, Anthro
 
 그래서 난 지금 팀 회의에서 "MCP 도입했어요"라는 말보다 "로컬 서버는 어디서 돌고 누가 수정 가능해요"라는 답이 먼저 나와야 맞다고 본다. 그 답이 바로 안 나오면, 이미 연결은 만들어졌는데 통제는 안 붙은 상태일 가능성이 높다.
 
-![MCP stdio 설정과 보안 점검 흐름](/static/img/posts/mcp-rce-security-panic/mcp-rce-security-panic-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/mcp-rce-security-panic/mcp-rce-security-panic-2-400.webp 400w,
+            /static/img/posts/mcp-rce-security-panic/mcp-rce-security-panic-2-800.webp 800w,
+            /static/img/posts/mcp-rce-security-panic/mcp-rce-security-panic-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/mcp-rce-security-panic/mcp-rce-security-panic-2.webp"
+    alt="MCP stdio 설정과 보안 점검 흐름"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## MCP를 계속 쓸 거라면 환상부터 버려야 한다
 
