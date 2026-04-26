@@ -5,7 +5,7 @@ description: "DESIGN md가 왜 갑자기 개발자 커뮤니티를 뒤흔드는�
 date: 2026-04-26 19:03:24 +0900
 categories: [others]
 tags: [Google, Stitch, DESIGNmd, Vibecoding, UIDesign]
-image: google-design-md-shift/google-design-md-shift-1.png
+image: google-design-md-shift/google-design-md-shift-1.webp
 published: true
 ---
 
@@ -15,7 +15,20 @@ published: true
 
 {% include pre-version.html %}
 
-![DESIGN md로 연결된 UI 설계 흐름](/static/img/posts/google-design-md-shift/google-design-md-shift-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/google-design-md-shift/google-design-md-shift-1-400.webp 400w,
+            /static/img/posts/google-design-md-shift/google-design-md-shift-1-800.webp 800w,
+            /static/img/posts/google-design-md-shift/google-design-md-shift-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/google-design-md-shift/google-design-md-shift-1.webp"
+    alt="DESIGN md로 연결된 UI 설계 흐름"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 왜 이렇게 빨리 퍼졌냐
 
@@ -68,7 +81,20 @@ accent는 클릭 가능한 요소에만 쓴다
 
 이게 제일 중요하다. 파일 포맷이 좋아도 적을 내용이 없으면 아무 일도 안 일어난다. 브랜드 색이 뭔지, 라운드는 얼마나 줄지, 카피 톤은 딱딱한지 친근한지 팀 안에서 아직 안 정해졌다면 `DESIGN.md`도 결국 빈 껍데기다. 그러니까 이 포맷의 진짜 가치는 "UI를 자동 생성한다"보다 "그동안 말로만 전하던 디자인 감각을 텍스트 자산으로 고정한다"에 있다.
 
-![구글 DESIGN md 토큰 구조 장면](/static/img/posts/google-design-md-shift/google-design-md-shift-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/google-design-md-shift/google-design-md-shift-2-400.webp 400w,
+            /static/img/posts/google-design-md-shift/google-design-md-shift-2-800.webp 800w,
+            /static/img/posts/google-design-md-shift/google-design-md-shift-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/google-design-md-shift/google-design-md-shift-2.webp"
+    alt="구글 DESIGN md 토큰 구조 장면"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 지금 써보려면 어디부터 보면 되냐
 
