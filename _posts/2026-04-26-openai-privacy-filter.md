@@ -5,7 +5,7 @@ description: "OpenAI Privacy Filter가 진짜 실무용인지, 로컬 PII 마스
 date: 2026-04-26 12:03:58 +0900
 categories: [security]
 tags: [OpenAI, PrivacyFilter, PII, Security, AIAgents]
-image: openai-privacy-filter/openai-privacy-filter-1.png
+image: openai-privacy-filter/openai-privacy-filter-1.webp
 published: true
 ---
 
@@ -15,7 +15,20 @@ OpenAI가 2026년 4월 22일에 Privacy Filter를 공개한 뒤 분위기가 묘
 
 {% include pre-version.html %}
 
-![OpenAI Privacy Filter 로컬 마스킹 흐름](/static/img/posts/openai-privacy-filter/openai-privacy-filter-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/openai-privacy-filter/openai-privacy-filter-1-400.webp 400w,
+            /static/img/posts/openai-privacy-filter/openai-privacy-filter-1-800.webp 800w,
+            /static/img/posts/openai-privacy-filter/openai-privacy-filter-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/openai-privacy-filter/openai-privacy-filter-1.webp"
+    alt="OpenAI Privacy Filter 로컬 마스킹 흐름"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 갑자기 이게 왜 뜨냐
 
@@ -68,6 +81,19 @@ opf -f ./sample-log.txt
 
 secret 탐지가 된다고 해서 곧바로 GitHub Secret Scanning 대체재가 되는 건 아니다. 그래도 에이전트 실행 기록이나 CLI transcript처럼 기존 보안 툴이 잘 안 보는 텍스트 층에는 꽤 유용해 보인다. 나는 여기에 먼저 붙여보고, 그 다음에 프롬프트 저장소나 내부 검색 인덱스로 넓히는 순서가 현실적이라고 본다.
 
-![OpenAI Privacy Filter 비밀값 탐지 장면](/static/img/posts/openai-privacy-filter/openai-privacy-filter-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/openai-privacy-filter/openai-privacy-filter-2-400.webp 400w,
+            /static/img/posts/openai-privacy-filter/openai-privacy-filter-2-800.webp 800w,
+            /static/img/posts/openai-privacy-filter/openai-privacy-filter-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/openai-privacy-filter/openai-privacy-filter-2.webp"
+    alt="OpenAI Privacy Filter 비밀값 탐지 장면"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 지금 이 주제가 뜨는 이유는 단순히 OpenAI가 또 하나 공개해서가 아니다. 다들 에이전트를 더 길게 돌리기 시작했고, 그 과정에서 민감정보가 어디에 남는지가 진짜 운영 문제가 됐기 때문이다. Privacy Filter는 만능 해결책은 아니지만, 적어도 "모델 쓰기 전에 먼저 지워라"라는 흐름을 한 단계 앞당긴 신호로는 꽤 크게 보인다. 나 같으면 바로 전사 배포부터 안 하고, 사내 로그 한 묶음으로 먼저 사람 기준 정답셋 만든 다음에 오탐과 누락부터 본다. 이건 그 순서만 안 틀리면 꽤 쓸 만해질 가능성이 있다.
