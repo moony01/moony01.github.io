@@ -5,7 +5,7 @@ description: "GitHub Copilot 사용량 기반 과금이 2026년 6월 1일부터 
 date: 2026-04-28 12:03:40 +0900
 categories: [github]
 tags: [GitHub, Copilot, AICredits, Billing, Actions]
-image: copilot-ai-credits-trap/copilot-ai-credits-trap-1.png
+image: copilot-ai-credits-trap/copilot-ai-credits-trap-1.webp
 published: true
 ---
 
@@ -17,7 +17,20 @@ published: true
 
 {% include pre-version.html %}
 
-![Copilot AI 크레딧 대시보드](/static/img/posts/copilot-ai-credits-trap/copilot-ai-credits-trap-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/copilot-ai-credits-trap/copilot-ai-credits-trap-1-400.webp 400w,
+            /static/img/posts/copilot-ai-credits-trap/copilot-ai-credits-trap-1-800.webp 800w,
+            /static/img/posts/copilot-ai-credits-trap/copilot-ai-credits-trap-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/copilot-ai-credits-trap/copilot-ai-credits-trap-1.webp"
+    alt="Copilot AI 크레딧 대시보드"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 왜 다들 정액제가 끝났다고 받아들이나
 
@@ -78,7 +91,20 @@ GitHub 문서에서 연간 구독자용 multiplier 표를 보면 왜 분위기�
 
 근데 실무팀은 평균 사용자보다 훨씬 무겁게 쓴다. 저장소 전체 검색하고, PR 리뷰 돌리고, Copilot CLI나 cloud agent까지 붙이는 순간 토큰 사용량이 튀기 쉽다. 그래서 이번 발표는 "얼마나 오르냐"보다 "예측 없이 운영하기 어려워진다" 쪽에서 더 크게 다가온다.
 
-![Copilot 코드리뷰 과금 흐름](/static/img/posts/copilot-ai-credits-trap/copilot-ai-credits-trap-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/copilot-ai-credits-trap/copilot-ai-credits-trap-2-400.webp 400w,
+            /static/img/posts/copilot-ai-credits-trap/copilot-ai-credits-trap-2-800.webp 800w,
+            /static/img/posts/copilot-ai-credits-trap/copilot-ai-credits-trap-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/copilot-ai-credits-trap/copilot-ai-credits-trap-2.webp"
+    alt="Copilot 코드리뷰 과금 흐름"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 지금 바로 손봐야 할 건 생각보다 단순하다
 
