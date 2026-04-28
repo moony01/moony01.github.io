@@ -5,7 +5,7 @@ description: "Tailscale 무료 플랜이 6명과 무제한 디바이스를 지�
 date: 2026-04-28 19:03:14 +0900
 categories: [infra]
 tags: [Tailscale, Pricing, WireGuard, Homelab, ZeroTrust]
-image: tailscale-free-plan-shift/tailscale-free-plan-shift-1.png
+image: tailscale-free-plan-shift/tailscale-free-plan-shift-1.webp
 published: true
 ---
 
@@ -17,7 +17,20 @@ CI 러너나 쿠버네티스 파드까지 tailnet에 엮는 팀이면 예전에 
 
 {% include pre-version.html %}
 
-![Tailscale 무료 플랜 구조도](/static/img/posts/tailscale-free-plan-shift/tailscale-free-plan-shift-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/tailscale-free-plan-shift/tailscale-free-plan-shift-1-400.webp 400w,
+            /static/img/posts/tailscale-free-plan-shift/tailscale-free-plan-shift-1-800.webp 800w,
+            /static/img/posts/tailscale-free-plan-shift/tailscale-free-plan-shift-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/tailscale-free-plan-shift/tailscale-free-plan-shift-1.webp"
+    alt="Tailscale 무료 플랜 구조도"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 왜 갑자기 다들 이 얘기를 하나
 
@@ -69,7 +82,20 @@ GeekNews에 올라온 제목도 아주 직설적이었다. 개인 사용자 무�
 
 즉 무료 사용자에겐 거의 선물인데, 애매하게 회사 인프라를 무료 플랜으로 끌고 가던 사람한텐 "이제 어디까지가 개인이고 어디부터가 팀인지 정하라"는 공지처럼 읽힌다. 나는 이게 더 중요한 포인트라고 본다. 공짜가 세진 게 아니라, 경계선이 선명해진 거다.
 
-![Tailscale 요금제 비교 장면](/static/img/posts/tailscale-free-plan-shift/tailscale-free-plan-shift-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/tailscale-free-plan-shift/tailscale-free-plan-shift-2-400.webp 400w,
+            /static/img/posts/tailscale-free-plan-shift/tailscale-free-plan-shift-2-800.webp 800w,
+            /static/img/posts/tailscale-free-plan-shift/tailscale-free-plan-shift-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/tailscale-free-plan-shift/tailscale-free-plan-shift-2.webp"
+    alt="Tailscale 요금제 비교 장면"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 지금 바로 확인할 것
 
