@@ -6,7 +6,9 @@
       <img src="{{ site.avatar_url }}" alt="{{ site.title }}" width="48" height="48" />
     </a>
     <a href="/" class="subpage-hero__title">{{ site.title }}</a>
-    <p class="subpage-hero__desc">{{ site.description }}</p>
+    {% assign hero_lang = page.lang | default: site.lang | default: 'ko' %}
+    {% assign hero_t = site.data.i18n[hero_lang] %}
+    <p class="subpage-hero__desc">{{ hero_t.site_description | default: site.description }}</p>
 
     <!-- Social Links -->
     <ul class="subpage-hero__social">

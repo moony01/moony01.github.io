@@ -40,6 +40,9 @@
     {% if page.url %}
       <meta content="{{ site.url }}{{ page.url }}" property="og:url">
       <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+      {% assign self_lang = page.lang | default: site.lang | default: 'ko' %}
+      <link rel="alternate" hreflang="{{ self_lang }}" href="{{ site.url }}{{ page.url }}">
+      <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}">
     {% else %}
       <link rel="canonical" href="{{ site.url }}/">
     {% endif %}
