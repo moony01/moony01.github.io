@@ -5,7 +5,7 @@ description: "Claude Code can ship the feature fast, but copyright still depends
 date: 2026-04-29 19:03:02 +0900
 categories: [ai]
 tags: [ClaudeCode, Copyright, Anthropic, AICoding, SoftwareIP]
-image: claude-code-ownership/claude-code-ownership-1.png
+image: claude-code-ownership/claude-code-ownership-1.webp
 lang: en
 published: true
 ---
@@ -18,7 +18,20 @@ That is why this topic blew up. Developers are shipping more code through agents
 
 {% include pre-version.html %}
 
-![Bright Claude Code ownership illustration showing a developer, AI agent, and copyright papers in a modern workspace](/static/img/posts/claude-code-ownership/claude-code-ownership-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/claude-code-ownership/claude-code-ownership-1-400.webp 400w,
+            /static/img/posts/claude-code-ownership/claude-code-ownership-1-800.webp 800w,
+            /static/img/posts/claude-code-ownership/claude-code-ownership-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/claude-code-ownership/claude-code-ownership-1.webp"
+    alt="Bright Claude Code ownership illustration showing a developer, AI agent, and copyright papers in a modern workspace"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## Why This Is Trending Right Now
 
@@ -70,7 +83,20 @@ The same thing shows up in due diligence. Founders love saying "our engineers re
 
 Even if you put the authorship question aside, there is still the much uglier compliance layer. If AI-generated code reproduces licensed patterns too closely, your real headache may be provenance and license obligations rather than ownership in the abstract. This is one reason I still think teams using agent-heavy workflows need better traceability around prompts, accepted diffs, and manual edits. Not because process theater is fun, but because the alternative is trying to reconstruct decision history after the scary email arrives.
 
-![Bright AI code ownership diagram comparing Anthropic output rights, human authorship rules, and software shipping risk](/static/img/posts/claude-code-ownership/claude-code-ownership-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/claude-code-ownership/claude-code-ownership-2-400.webp 400w,
+            /static/img/posts/claude-code-ownership/claude-code-ownership-2-800.webp 800w,
+            /static/img/posts/claude-code-ownership/claude-code-ownership-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/claude-code-ownership/claude-code-ownership-2.webp"
+    alt="Bright AI code ownership diagram comparing Anthropic output rights, human authorship rules, and software shipping risk"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## What I Would Change This Week
 
