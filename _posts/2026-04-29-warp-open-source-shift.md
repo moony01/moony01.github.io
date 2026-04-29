@@ -5,7 +5,7 @@ description: "Warp 오픈소스 전환이 2026년 4월 28일 공개됐다. AGPL 
 date: 2026-04-29 12:02:48 +0900
 categories: [others]
 tags: [Warp, OpenSource, Terminal, ADE, OpenAI]
-image: warp-open-source-shift/warp-open-source-shift-1.png
+image: warp-open-source-shift/warp-open-source-shift-1.webp
 published: true
 ---
 
@@ -29,7 +29,20 @@ Warp 공식 블로그를 읽다가 제일 먼저 멈춘 문장은 이거였다. 
 
 GeekNews와 Reddit 반응을 같이 보면 포인트가 선명하다. 예전부터 Warp를 써 보고 싶었는데 폐쇄형이라 보안팀이나 개인 원칙 때문에 못 썼던 사람들이 꽤 많았다. 반대로 이미 쓰던 사람들은 "이제 문제 생기면 직접 고칠 수 있겠네" 쪽으로 들떠 있었다. 특히 Rust 커뮤니티 쪽에서는 오픈소스 전환 자체보다 AGPL 선택과 자체 UI 프레임워크 공개 범위를 더 집요하게 보더라. 이건 그냥 팬심 반응이 아니라, 실제 도입 여부를 가르는 체크포인트다.
 
-![Warp 오픈소스 대시보드](/static/img/posts/warp-open-source-shift/warp-open-source-shift-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/warp-open-source-shift/warp-open-source-shift-1-400.webp 400w,
+            /static/img/posts/warp-open-source-shift/warp-open-source-shift-1-800.webp 800w,
+            /static/img/posts/warp-open-source-shift/warp-open-source-shift-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/warp-open-source-shift/warp-open-source-shift-1.webp"
+    alt="Warp 오픈소스 대시보드"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 이게 그냥 코드 공개가 아닌 이유
 
@@ -67,7 +80,20 @@ rg "AGPL|MIT|ACP|Oz|OpenAI" -n README.md FAQ.md .agents
 
 이거 한 번 훑어보면 분위기가 바로 잡힌다. 코드보다도 `FAQ.md`, `.agents`, 공개 이슈 쪽에서 제품 철학이 훨씬 잘 드러난다. 터미널을 쓸 건지, ADE를 쓸 건지, 에이전트 운영 철학까지 받아들일 건지 기준이 분명해진다.
 
-![Warp 에이전트 기여 구조](/static/img/posts/warp-open-source-shift/warp-open-source-shift-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/warp-open-source-shift/warp-open-source-shift-2-400.webp 400w,
+            /static/img/posts/warp-open-source-shift/warp-open-source-shift-2-800.webp 800w,
+            /static/img/posts/warp-open-source-shift/warp-open-source-shift-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/warp-open-source-shift/warp-open-source-shift-2.webp"
+    alt="Warp 에이전트 기여 구조"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 그래서 지금 갈아타도 되나
 
