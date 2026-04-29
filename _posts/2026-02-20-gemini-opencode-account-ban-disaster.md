@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Gemini 계정이 통째로 날아갔다 — OpenCode에서 쓰다 영구 차단당한 실화"
+title: "Gemini 계정 영구 차단 실화: OpenCode 사용 중 Google AI 전체가 막힌 원인과 대처법"
+description: "OpenCode에서 Gemini API를 에이전트에 연결해 사용하다 Google 계정이 ToS 위반으로 영구 차단된 실제 사례다. 2월 11일 대규모 차단의 원인, 403 에러 메시지 해석, 계정 복구 가능성과 재발 방지 방법을 설명한다. 유료 AI Pro 구독자도 예외 없었다."
 date: 2026-02-20 14:00:00 +0900
 categories: [ai]
 tags: [gemini, opencode, openclaw, 차단, google, ai]

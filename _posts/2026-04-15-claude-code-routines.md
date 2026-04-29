@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "클로드 코드 루틴이 크론잡을 밀어내는 순간"
-description: "Claude Code Routines가 2026년 4월 14일 공개됐다. 스케줄과 GitHub 이벤트 자동화가 개발팀 운영을 어떻게 바꾸는지 핵심만 빠르게 짚는다."
+title: "Claude Code Routines 완전 정리: 크론잡 없이 GitHub 이벤트와 스케줄 자동화하는 방법"
+description: "2026년 4월 공개된 Claude Code Routines로 크론잡과 실행 머신 없이 스케줄, GitHub 이벤트, API 훅 자동화를 한 곳에서 설정하는 방법을 정리했다. PR 리뷰 자동화, 배포 후 스모크 테스트, 야간 이슈 처리까지 실전 예시와 API 호출 코드를 함께 설명한다."
 date: 2026-04-15 12:25:00 +0900
 categories: [ai]
 tags: [Anthropic, ClaudeCode, Routines, Automation, GitHub]

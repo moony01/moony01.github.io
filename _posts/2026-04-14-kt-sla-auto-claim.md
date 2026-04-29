@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "KT가 속도를 못 지키면 자동 환급받는 방법"
-description: "KT 인터넷 SLA와 damn my slow kt 도구가 왜 오늘 화제가 됐는지, 느린 회선을 자동 측정해 감면 신청까지 이어지는 구조를 실무 관점에서 정리했다."
+title: "KT 인터넷 속도 미달 SLA 위약금 자동 청구 완전 가이드: damn-my-slow-kt 설치부터 감면까지"
+description: "KT 인터넷이 약속한 속도를 지키지 못할 때 SLA 위약금을 자동으로 청구하는 damn-my-slow-kt 도구 사용법을 정리했다. 설치 3줄, 스케줄 등록, 감면 신청까지 자동화되며 월 5일 이상 미달이면 위약금 없이 해지도 가능하다. KT 고객이라면 바로 확인하자."
 date: 2026-04-14 19:05:45 +0900
 categories: [others]
 tags: [KT, SLA, InternetSpeed, Automation, Network]

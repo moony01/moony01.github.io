@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Sora Unable to Generate 오류 원인과 해결 방법"
-description: "Sora 영상 생성 시 'Hmmm something didn't look right' 오류가 반복되는 7가지 원인과 각각의 실용적인 해결 방법을 정리했습니다."
+title: "Sora Unable to Generate 오류 완전 해결: 7가지 원인별 실전 해결 방법 총정리"
+description: "Sora 영상 생성 시 'Unable to Generate' 오류가 반복될 때 원인별 해결 방법을 정리했다. 콘텐츠 필터 차단, 크레딧 소진, 서버 상태, 프롬프트 길이 문제 등 7가지 시나리오를 구체적인 예시와 함께 설명한다. Plus와 Pro 구독자 모두 적용 가능하다."
 date: 2026-03-05 12:00:00 +0900
 categories: [ai]
 tags: [Sora, OpenAI, 영상생성오류, AITools]
