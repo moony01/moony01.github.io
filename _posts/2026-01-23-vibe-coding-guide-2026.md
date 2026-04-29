@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "2026 바이브 코딩 완벽 가이드: OpenCode vs Claude Code vs Cursor"
+title: "2026 바이브 코딩 완전 가이드: OpenCode vs Claude Code vs Cursor 실전 비교"
+description: "Andrej Karpathy가 정의한 바이브 코딩 개념부터 2026년 현재 주요 도구 비교까지 한국어로 정리했다. OpenCode, Claude Code, Cursor 세 도구의 특징과 가격, 실전 적용 시 장단점을 비교하고 프로젝트 유형별로 어떤 도구를 선택해야 할지 기준을 제시한다."
 date: 2026-01-23 14:30:00 +0900
 categories: [ai]
 tags: [vibe-coding, ai-coding, opencode, claude-code, cursor, oh-my-opencode]
