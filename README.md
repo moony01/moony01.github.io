@@ -1,86 +1,115 @@
-## My Stack Problems
+# moony01.com
 
-> This project forked and has been modified from [A simple grey theme for Jekyll](https://github.com/liamsymonds/simplygrey-jekyll),
-> and the search posts using [Super Search](https://github.com/chinchang/super-search)
+> Personal blog by **moony01** — AI, Claude Code, automation, and developer tools. Custom-built Jekyll site.
 
-### Demo
-* [https://agusmakmun.github.io](https://agusmakmun.github.io)
+[![Live](https://img.shields.io/badge/Live-moony01.com-blue)](https://moony01.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-181717.svg?logo=github)](https://moony01.com/)
 
-#### Features
+🌐 **Live**: https://moony01.com/
 
-* Sitemap and XML Feed
-* Pagination in homepage
-* Posts under category
-* Realtime Search Posts _(title & description)_ by query.
-* Related Posts
-* Highlight pre
-* Next & Previous Post
-* Disqus comment
-* Projects page & Detail Project page
-* Share on social media
-* Google analytics
-* HTML Minify _(Compress HTML)_ using [Jekyll Compress HTML](https://github.com/penibelst/jekyll-compress-html)
-
-#### Screenshot
-
-![Screenshot Post Page](https://raw.githubusercontent.com/agusmakmun/agusmakmun.github.io/master/static/img/screenshot-post-page.png  "Screenshot Post Page")
-
-### Install & Configuration
-
-1. Fork this repository
-2. Edit site settings inside file of `_config.yml`
-3. Edit your projects at file of `projects.md`, `_data/projects.json` and inside path of `_project/` _(for detail project)_.
-4. Edit about yourself inside file of `about.md`
-
-### How to Use?
-
-**a. Add new Category**
-
-All categories saved inside path of `category/`, you can see the existed categories.
-
-**b. Add new Posts**
-
-* All posts bassed on markdown syntax _(please googling)_. allowed extensions is `*.markdown` or `*.md`.
-* This files can found at the path of `_posts/`.
-* and the name of files are following `<date:%Y-%m-%d>-<slug>.<extension>`, for example:
-
-```
-2013-09-23-welcome-to-jekyll.md
-
-# or
-
-2013-09-23-welcome-to-jekyll.markdown
-```
-
-Inside the file of it,
-
-```
----
-layout: post                          # (require) default post layout
-title: "Your Title"                   # (require) a string title
-date: 2016-04-20 19:51:02 +0700       # (require) a post date
-categories: [python, django]          # (custom) some categories, but makesure these categories already exists inside path of `category/`
-tags: [foo, bar]                      # (custom) tags only for meta `property="article:tag"`
-image: Broadcast_Mail.png             # (custom) image only for meta `property="og:image"`, save your image inside path of `static/img/_posts`
 ---
 
-# your content post with markdown syntax goes here...
-```
+## About
 
+This is a personal blog built **from the ground up** as a custom Jekyll site — no third-party theme, no boilerplate. The site is published via GitHub Pages and runs on a custom domain.
 
-#### Installing in your local
+I write about topics I work with day-to-day:
+- **AI & LLM tooling** — Claude Code, Codex, Cursor, OpenCode, Gemini, Sora
+- **Automation & DevOps** — n8n workflows, agent orchestration, MCP servers
+- **GitHub workflows** — Stacked PRs, GitHub Actions, deployment patterns
+- **Database** — Postgres, SQLite, pglite, migrations
 
-```
+## Categories
+
+| Category | Path |
+|----------|------|
+| AI | `/ai/` |
+| Security | `/security/` |
+| Database | `/database/` |
+| GitHub | `/github/` |
+| Others | `/others/` |
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| **Generator** | Jekyll (custom theme, built from scratch) |
+| **Styling** | SCSS, semantic HTML |
+| **Frontend** | Vanilla JavaScript (no framework, no build step) |
+| **Hosting** | GitHub Pages |
+| **Analytics** | Google Analytics 4, Google Search Console |
+| **Monetization** | Google AdSense |
+
+## Why a Custom Jekyll Theme?
+
+The site originally started as a fork of an open-source Jekyll theme but has been **completely rewritten** — layouts, styles, scripts, and structure are all original. The motivation:
+
+- Full control over Core Web Vitals and SEO structure
+- No bloat from unused theme features
+- Custom JSON-LD structured data per content type
+- Faster page loads (no theme JS overhead)
+
+## Local Development
+
+### Prerequisites
+- Ruby 3.0+
+- Bundler
+
+### Setup
+
+```bash
+git clone https://github.com/moony01/moony01.github.io.git
+cd moony01.github.io
+
 bundle install
-jekyll serve
+bundle exec jekyll serve
 ```
 
-**Updating the `Gemfile.lock`**
+Open [http://localhost:4000/](http://localhost:4000/)
+
+## Project Structure
 
 ```
-bundle update
+moony01.github.io/
+├── _config.yml         # Jekyll config
+├── _layouts/           # Custom layouts (default, post, page)
+├── _includes/          # Reusable HTML partials
+├── _posts/             # Blog posts (Markdown)
+├── ai/, database/...   # Category landing pages
+├── kpopface/           # Embedded sub-app (https://moony01.com/kpopface/)
+├── assets/
+│   ├── css/            # SCSS source
+│   ├── js/             # Vanilla JS
+│   └── img/            # Static images
+├── sitemap.xml         # SEO
+└── robots.txt          # SEO
 ```
 
-### Contributing
+## Embedded Sub-Apps
 
-Feel free to [open a bug](https://github.com/agusmakmun/agusmakmun.github.io/issues) or [contribute to code](https://github.com/agusmakmun/agusmakmun.github.io/pulls)!
+This repository also hosts standalone sub-apps under `moony01.com/<path>/`:
+
+- [`/kpopface/`](https://moony01.com/kpopface/) — K-Pop idol face match (AI, 15 languages) — [source](https://github.com/moony01/kpopface)
+- `/sanggyeonrye-test/` — Korean in-law match face test
+- `/mentalage/` — Mental age estimation
+
+## SEO & Performance
+
+- **Lighthouse Mobile**: 90+ scores
+- **Structured Data**: Article, FAQPage, BreadcrumbList JSON-LD
+- **Sitemap**: Auto-generated for all posts and pages
+- **robots.txt**: Crawl-friendly, no blocked AI bots (content welcomes LLM training)
+
+## License
+
+[MIT License](LICENSE) © 2024–2026 [moony01](https://github.com/moony01)
+
+You are free to use, modify, and distribute this code. Attribution appreciated.
+
+## Contact
+
+- 👤 **Author**: [@moony01](https://github.com/moony01)
+- 📧 **Email**: mun01180@gmail.com
+- 🌐 **Website**: [moony01.com](https://moony01.com/)
+- 💖 **Sponsor**: [github.com/sponsors/moony01](https://github.com/sponsors/moony01)
