@@ -8,7 +8,9 @@
           <img src="/static/img/blog-logo.svg" alt="{{ site.title }}" width="36" height="36" class="footer-enhanced__logo" />
           <span class="footer-enhanced__brand-name">{{ site.title }}</span>
         </div>
-        <p class="footer-enhanced__desc">{{ site.description }}</p>
+        {% assign footer_lang = page.lang | default: site.lang | default: 'ko' %}
+        {% assign footer_t = site.data.i18n[footer_lang] %}
+        <p class="footer-enhanced__desc">{{ footer_t.site_description | default: site.description }}</p>
       </div>
       <!-- Quick Links Column -->
       <div class="footer-enhanced__col">

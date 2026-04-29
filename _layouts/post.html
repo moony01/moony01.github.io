@@ -10,7 +10,10 @@ layout: default
           <a href="/category/{{ category }}" class="post-article__category post-article__category--{{ category }}">{{ category }}</a>
         {% endfor %}
       {% endif %}
-      <time class="post-article__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y년 %m월 %d일" }}</time>
+      {% assign post_lang = page.lang | default: site.lang | default: 'ko' %}
+      {% assign post_t = site.data.i18n[post_lang] %}
+      {% assign date_format = post_t.date_format | default: "%Y년 %m월 %d일" %}
+      <time class="post-article__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: date_format }}</time>
     </div>
     <h1 class="post-article__title">{{ page.title }}</h1>
     {% if page.description %}
@@ -174,9 +177,11 @@ layout: default
 <!-- Post Navigation -->
 <nav class="post-navigation">
   <div class="post-navigation__inner">
+    {% assign nav_lang = page.lang | default: site.lang | default: 'ko' %}
+    {% assign nav_t = site.data.i18n[nav_lang] %}
     {% if page.previous.url %}
       <a href="{{ page.previous.url }}" class="post-navigation__link post-navigation__link--prev">
-        <span class="post-navigation__label">&larr; 이전 글</span>
+        <span class="post-navigation__label">{{ nav_t.prev_post | default: "← 이전 글" }}</span>
         <span class="post-navigation__title">{{ page.previous.title }}</span>
       </a>
     {% else %}
@@ -184,7 +189,7 @@ layout: default
     {% endif %}
     {% if page.next.url %}
       <a href="{{ page.next.url }}" class="post-navigation__link post-navigation__link--next">
-        <span class="post-navigation__label">다음 글 &rarr;</span>
+        <span class="post-navigation__label">{{ nav_t.next_post | default: "다음 글 →" }}</span>
         <span class="post-navigation__title">{{ page.next.title }}</span>
       </a>
     {% else %}

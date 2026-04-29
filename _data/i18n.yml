@@ -1,0 +1,11 @@
+ko:
+  site_description: "Moony01 Studio에서는 소프트웨어 개발과 IT 혁신을 위한 기술 지식을 공유합니다."
+  date_format: "%Y년 %m월 %d일"
+  prev_post: "← 이전 글"
+  next_post: "다음 글 →"
+
+en:
+  site_description: "Moony01 Studio shares engineering, AI, and product knowledge for builders shipping in the AI era."
+  date_format: "%B %-d, %Y"
+  prev_post: "← Previous"
+  next_post: "Next →"
