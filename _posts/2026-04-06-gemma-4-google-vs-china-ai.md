@@ -1,13 +1,15 @@
 ---
 layout: post
 title: "Gemma 4 출시 — 구글 오픈소스 모델이 중국 AI에 밀린 이유"
-description: "Google이 Apache 2.0 오픈소스 모델 Gemma 4를 출시했다. 스펙은 인상적이지만 Arena AI 랭킹 3위, 1위는 중국 Qwen 3.5다. 왜 구글은 자신만의 게임에서 뒤처졌나."
+description: "Google이 Apache 2.0 오픈소스 모델 Gemma 4를 출시했지만 Arena AI 랭킹 3위에 그쳤다. 1위는 중국 Alibaba의 Qwen 3.5다. Gemma 4 스펙, 벤치마크 결과, 중국 모델이 앞선 구조적 이유, 개발자 관점에서 어떤 모델을 선택해야 하는지 정리했다."
 date: 2026-04-06 11:00:00 +0900
 categories: [ai]
 tags: [Gemma4, Google, 오픈소스AI, Qwen, 중국AI, LLM벤치마크]
 image: gemma-4-google-vs-china-ai/gemma-4-google-vs-china-ai-1.webp
 published: true
 ---
+
+## Gemma 4 출시 — 구글 오픈소스 AI 모델이 중국 Qwen에 밀린 이유
 
 글로벌 오픈소스 AI 리더보드에서 구글은 3위다.
 
@@ -151,3 +153,5 @@ Gemma 4 출시 이후 개발자 커뮤니티에서 나오는 질문은 두 가�
 더 흥미로운 건 이 경쟁이 앞으로 어떻게 전개되느냐다. 구글은 이미 Gemma 5 개발에 착수했을 것이고, Alibaba와 Zhipu AI도 멈추지 않는다. 오픈소스 AI의 세력도는 반년 주기로 바뀌고 있다.
 
 "구글이 최고의 오픈소스 AI를 만든다"는 전제는 이번에 흔들렸다. 다음 Gemma 발표 때 그 전제가 복원될지, 아니면 중국 모델의 우위가 굳어질지 — 개발자 입장에서는 좋은 선택지가 늘어나는 셈이다.
+
+오픈소스 AI 모델을 실제 개발 도구에 통합하는 방법은 [2026 바이브 코딩 완전 가이드](/ai/2026/01/23/vibe-coding-guide-2026.html)에서 확인할 수 있다. Gemini API 관련 차단 이슈가 발생했다면 [Gemini 계정 차단 사례와 대처법](/ai/2026/02/20/gemini-opencode-account-ban-disaster.html)도 참고할 것을 권한다.

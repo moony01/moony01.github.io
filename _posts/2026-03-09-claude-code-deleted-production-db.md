@@ -1,12 +1,15 @@
 ---
 layout: post
-title: "Claude Code가 DB를 날렸다 - AI 에이전트를 믿었다가 2.5년이 증발한 충격 실화"
+title: "Claude Code 프로덕션 DB 삭제 사고: AI 에이전트가 2.5년 데이터를 날린 실화와 예방법"
+description: "Claude Code가 Terraform을 잘못 실행해 프로덕션 RDS 데이터베이스와 스냅샷 전체를 삭제한 실제 사고다. 사고 경위, AI 에이전트의 치명적 특성, 즉시 적용 가능한 삭제 보호·상태 파일 원격 관리·권한 제한 안전 수칙을 정리했다."
 date: 2026-03-09 10:00:00 +0900
 categories: [ai]
 tags: [Claude Code, AI 에이전트, Terraform, AWS, 프로덕션 장애, AI 사고]
 image: claude-code-deleted-production-db/claude-code-deleted-production-db-1.webp
 published: true
 ---
+
+## Claude Code가 프로덕션 DB를 삭제했다
 
 3월 첫째 주, 개발자 커뮤니티가 발칵 뒤집혔다. Hacker News 상단에는 충격적인 제목의 글이 올라왔고, Tom's Hardware를 비롯한 테크 미디어들이 일제히 이 사건을 보도하기 시작했다.
 
@@ -200,9 +203,42 @@ Claude Code가 2.5년치 데이터를 날린 이 사건은 해피엔딩으로 �
 
 AI 에이전트는 강력하다. 그래서 더욱 조심해야 한다.
 
+AI 에이전트에 권한을 줄 때 어떤 기준으로 경계를 설정해야 하는지 더 구체적인 운영 사례가 궁금하다면 [Claude Code Routines 자동화 가이드](/ai/2026/04/15/claude-code-routines.html)에서 확인할 수 있다. 또한 AI 코딩 도구들의 전반적인 위험 비교는 [2026 바이브 코딩 완전 가이드](/ai/2026/01/23/vibe-coding-guide-2026.html)에 정리돼 있다.
+
 ---
 
 **원본 사건 출처**:
 - [How I Dropped Our Production Database](https://alexeyondata.substack.com/p/how-i-dropped-our-production-database) — Alexey Grigorev
 - [Tom's Hardware 보도](https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-code-deletes-developers-production-setup-including-its-database-and-snapshots-2-5-years-of-records-were-nuked-in-an-instant)
 - [Hacker News 스레드](https://news.ycombinator.com/item?id=47278720)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Claude Code AI 에이전트 프로덕션 DB 삭제 사고 예방 안전 수칙",
+  "description": "AI 에이전트가 Terraform을 통해 프로덕션 데이터베이스를 삭제하는 사고를 예방하기 위한 즉시 적용 가능한 안전 수칙 4단계",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Terraform 삭제 보호 활성화",
+      "text": "RDS 인스턴스 리소스에 deletion_protection = true 설정을 추가하고, skip_final_snapshot = false로 설정해 최종 스냅샷을 강제 생성한다. 이 설정이 있으면 terraform destroy로도 삭제가 차단된다."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Terraform 상태 파일 원격 관리",
+      "text": "backend.tf에 S3 백엔드를 설정해 상태 파일을 원격으로 관리한다. DynamoDB 테이블로 상태 잠금을 활성화해 동시 수정을 방지하고, encrypt = true로 암호화한다."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "AI 에이전트 권한 제한",
+      "text": "Claude Code 등 AI 에이전트에서 --dangerously-skip-permissions 옵션 사용을 금지한다. 파괴적 명령(terraform destroy, terraform apply)은 반드시 terraform plan -out=tfplan으로 계획을 먼저 확인한 뒤 사람이 직접 실행한다."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "외부 백업 및 복원 테스트 자동화",
+      "text": "Lambda 기반 일일 백업 복원 테스트를 구성한다. 최신 스냅샷으로 임시 인스턴스를 생성해 복원 성공 여부를 확인한 뒤 즉시 삭제하는 방식으로 백업의 실제 복구 가능성을 정기적으로 검증한다."
+    }
+  ]
+}
+</script>

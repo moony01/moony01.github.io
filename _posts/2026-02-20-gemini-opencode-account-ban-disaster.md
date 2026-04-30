@@ -9,6 +9,8 @@ published: true
 image: gemini-opencode-account-ban-disaster/gemini-opencode-account-ban-disaster-1.webp
 ---
 
+## Gemini 계정 영구 차단 실화 — OpenCode 사용 중 Google AI가 전부 막혔다
+
 어제까지만 해도 잘 쓰고 있었다. OpenCode에서 Gemini 3.1 Pro Preview 모델을 에이전트에 연결해서 코드 리뷰도 돌리고, 문서도 정리하고. 근데 오늘 아침, 갑자기 이런 에러가 떴다.
 
 ```json
@@ -191,3 +193,36 @@ Google은 Gemini Code Assist를 IDE 내에서의 개인 사용 목적으로 제�
 씁쓸하지만 교훈은 명확하다. **공짜 점심은 없다.** 특히 빅테크의 무료 서비스를 제3자 도구로 우회해서 쓸 때는, 언제든 이런 일이 벌어질 수 있다는 걸 각오해야 한다.
 
 지금 OpenCode나 OpenClaw에서 Gemini를 쓰고 있다면, 이 글을 읽는 즉시 모델을 교체하길 강력 추천한다. 계정이 날아가고 나서 후회하면 늦는다.
+
+비슷한 AI 도구 오류 대응 사례가 궁금하다면 [Sora Unable to Generate 오류 해결 방법](/ai/2026/03/05/sora-unable-to-generate-fix.html)도 함께 읽어볼 것을 권한다. AI 에이전트 권한 설계와 안전 수칙은 [Claude Code 프로덕션 DB 삭제 사고 예방법](/ai/2026/03/09/claude-code-deleted-production-db.html)에 더 자세히 정리돼 있다.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Gemini 계정 차단 대처법 — OpenCode·OpenClaw 사용 후 Google AI 403 오류 해결",
+  "description": "OpenCode 또는 OpenClaw에서 Gemini API를 사용하다 Google 계정이 ToS 위반으로 차단됐을 때 설정 오류와 계정 레벨 차단을 구분하고 대처하는 방법",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "설정 오류와 계정 차단 구분",
+      "text": "브라우저에서 gemini.google.com에 직접 접속한다. 웹에서 정상 동작하면 설정 오류(복구 가능)이고, 웹에서도 차단되면 계정 레벨 차단(심각)이다. 에러 메시지에 VALIDATION_REQUIRED가 포함되면 인증 URL 클릭으로 해결 가능하다."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "에이전트 모델을 Gemini에서 교체",
+      "text": "OpenCode의 oh-my-opencode.json에서 Gemini 모델을 전부 제거한다. librarian과 document-writer 같은 가벼운 에이전트에는 openai/gpt-5.3-codex-spark로, 코드 작성 에이전트에는 openai/gpt-5.3-codex로 교체한다."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "이의 신청 이메일 발송",
+      "text": "계정 레벨 차단이라면 gemini-code-assist-user-feedback@google.com으로 즉시 메일을 보낸다. Google 계정 이메일, 개인 개발 용도임을 설명하고, 제3자 도구를 통한 비의도적 위반이었다는 내용과 향후 공식 채널만 사용하겠다는 약속을 포함한다."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "정식 Gemini API 키로 전환",
+      "text": "Antigravity OAuth 무료 경로 대신 ai.google.dev에서 정식 API 키를 발급받아 사용한다. 이 경로는 다른 entitlement로 동일한 차단 패턴에 해당하지 않는다. 무료 할당량이 제한적이므로 유료 전환 비용을 사전에 검토한다."
+    }
+  ]
+}
+</script>

@@ -9,6 +9,8 @@ image: sora-unable-to-generate-fix/sora-unable-to-generate-fix-1.webp
 published: true
 ---
 
+## Sora Unable to Generate 오류 — 원인 7가지와 해결법
+
 Sora로 영상을 만들려는데 갑자기 이런 메시지가 뜬다.
 
 > _"Unable to generate — Hmmm something didn't look right with your request."_
@@ -127,4 +129,40 @@ curl https://ipapi.co/json/ | grep country_name
 
 AI 영상 생성 도구의 에러는 대부분 서버 문제가 아니라 정책적 제한이다. OpenAI가 Sora에 걸어둔 여러 겹의 필터와 제한을 이해하면 같은 자원으로 더 많은 생성이 가능하다. 이 중 원인 1(프롬프트 수정)로 해결되는 케이스가 압도적으로 많다는 점도 기억해두자.
 
-이전에 다뤘던 [Sora를 포함한 AI 도구들의 가격 경쟁 구도](/ai/2026/03/04/minimax-m25-claude-price-war.html)도 함께 읽어보면 왜 OpenAI가 이런 제한을 두는지 맥락을 이해하는 데 도움이 된다.
+이전에 다뤘던 [Sora를 포함한 AI 도구들의 가격 경쟁 구도](/ai/2026/03/04/minimax-m25-claude-price-war.html)도 함께 읽어보면 왜 OpenAI가 이런 제한을 두는지 맥락을 이해하는 데 도움이 된다. AI 코딩 도구 사용 시 비슷한 제한과 오류에 대한 내용은 [Claude Code 프로덕션 DB 삭제 사고](/ai/2026/03/09/claude-code-deleted-production-db.html)에서도 확인할 수 있다.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Sora Unable to Generate 오류 진단 및 해결 방법",
+  "description": "Sora에서 'Unable to Generate — Hmmm something didn't look right' 오류가 반복될 때 원인별로 빠르게 진단하고 해결하는 단계별 방법",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "서버 상태 확인",
+      "text": "status.openai.com에 접속해 Sora 서비스 장애 여부를 먼저 확인한다. 실제 서버 과부하라면 미국 동부 피크 타임(한국 기준 자정~새벽 6시)을 피해서 재시도한다."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "크레딧 잔량 확인",
+      "text": "설정 > Usage에서 월간 크레딧 잔량을 확인한다. Plus 플랜은 월 1,000 크레딧, Pro 플랜은 월 10,000 크레딧이며 이월되지 않는다. 잔량이 0이면 다음 달 리셋까지 대기하거나 Pro로 업그레이드한다."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "프롬프트 키워드 수정",
+      "text": "프롬프트에 공인 이름, 폭력·갈등 연상 키워드가 포함돼 있으면 Sentinel 필터에 차단된다. 직접적인 표현을 예술적·묘사적 표현으로 바꾸면 대부분 해결된다. 예: 'A person fighting' → 'Two characters performing martial arts choreography'."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "네트워크 전환",
+      "text": "VPN 공유 노드나 데이터센터 IP는 IP 플래그로 차단될 수 있다. 모바일 데이터나 다른 Wi-Fi로 전환해서 재시도한다. VPN 사용 중이라면 끄고 시도해본다."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "일일 롤링 제한 대기",
+      "text": "하루 약 30 크레딧의 롤링 제한이 있다. 오전에 잘 되다가 오후에 막히는 패턴이라면 몇 시간 후 자동으로 해제된다. 생성 작업을 하루 전체에 분산시키면 예방할 수 있다."
+    }
+  ]
+}
+</script>
