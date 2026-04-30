@@ -5,7 +5,7 @@ description: "Zed 1.0 is out with Rust speed, native Git, and AI agent support. 
 date: 2026-04-30 12:04:27 +0900
 categories: [others]
 tags: [Zed, Rust, VSCode, CodeEditor, AIAgents]
-image: zed-1-vscode-exit/zed-1-vscode-exit-1.png
+image: zed-1-vscode-exit/zed-1-vscode-exit-1.webp
 lang: en
 published: true
 ---
@@ -20,7 +20,20 @@ I also think the 1.0 label hits differently than people admit. Plenty of us trie
 
 One more reason this feels bigger than a normal release note dump: the editor conversation is weird again. AI features are everywhere, but a lot of developers are not actually asking for more floating side panels and more chat chrome. They want flow. They want fast file movement. They want Git operations that do not feel bolted onto a browser app. That is the lane Zed is trying to own.
 
-![Zed 1.0 workspace replacing VS Code with bright Rust powered editor panels and agent sidebars](/static/img/posts/zed-1-vscode-exit/zed-1-vscode-exit-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/zed-1-vscode-exit/zed-1-vscode-exit-1-400.webp 400w,
+            /static/img/posts/zed-1-vscode-exit/zed-1-vscode-exit-1-800.webp 800w,
+            /static/img/posts/zed-1-vscode-exit/zed-1-vscode-exit-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/zed-1-vscode-exit/zed-1-vscode-exit-1.webp"
+    alt="Zed 1.0 workspace replacing VS Code with bright Rust powered editor panels and agent sidebars"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## Why Zed 1.0 Feels Different This Time
 
@@ -64,7 +77,20 @@ What I like is that Zed is trying to frame AI as something that belongs inside a
 
 That balance is exactly why this launch is interesting to me.
 
-![Zed 1.0 Git workflow with commit view bookmarks and AI agent tasks on a bright desktop](/static/img/posts/zed-1-vscode-exit/zed-1-vscode-exit-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/zed-1-vscode-exit/zed-1-vscode-exit-2-400.webp 400w,
+            /static/img/posts/zed-1-vscode-exit/zed-1-vscode-exit-2-800.webp 800w,
+            /static/img/posts/zed-1-vscode-exit/zed-1-vscode-exit-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/zed-1-vscode-exit/zed-1-vscode-exit-2.webp"
+    alt="Zed 1.0 Git workflow with commit view bookmarks and AI agent tasks on a bright desktop"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ### The backlash is real, and Zed is not escaping it
 
