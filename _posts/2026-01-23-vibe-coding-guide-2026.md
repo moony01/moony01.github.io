@@ -8,9 +8,11 @@ tags: [vibe-coding, ai-coding, opencode, claude-code, cursor, oh-my-opencode]
 image: vibe-coding-guide-2026/vibe-coding-guide-2026-1.webp
 ---
 
+## 2026 바이브 코딩 완전 가이드: OpenCode vs Claude Code vs Cursor 실전 비교
+
 "코드를 잊어버려라. 그냥 바이브를 따라가라."
 
-2025년 2월, 테슬라 AI 디렉터 출신이자 OpenAI 공동창업자 **Andrej Karpathy**가 트위터에 올린 한마디가 개발자 커뮤니티를 뒤흔들었습니다. 그가 명명한 **"Vibe Coding(바이브 코딩)"**은 이제 단순한 유행어를 넘어, 소프트웨어 개발의 새로운 패러다임으로 자리잡았습니다.
+2025년 2월, 테슬라 AI 디렉터 출신이자 OpenAI 공동창업자 **Andrej Karpathy**가 트위터에 올린 한마디가 개발자 커뮤니티를 뒤흔들었습니다. 그가 명명한 **"Vibe Coding(바이브 코딩)"**은 자연어로 의도를 전달하고 AI가 코드를 생성하는 새로운 AI 코딩 방식으로, 이제 단순한 유행어를 넘어 소프트웨어 개발의 새로운 패러다임으로 자리잡았습니다.
 
 <picture>
   <source 
@@ -305,6 +307,8 @@ Karpathy의 트윗 이후 1년, 바이브 코딩은 이제 개발자의 일상�
 "코드를 잊어버려라"는 말은 역설적으로, **코드를 더 깊이 이해해야** 가능한 것입니다.
 
 2026년, 여러분의 바이브 코딩 여정이 즐겁기를 바랍니다. 🎸
+
+바이브 코딩 도구를 사용할 때 주의해야 할 실제 사고 사례는 [Claude Code가 프로덕션 DB를 삭제한 사건](/ai/2026/03/09/claude-code-deleted-production-db.html)에서 확인할 수 있다. Claude Code의 자동화 기능을 더 깊이 이해하려면 [Claude Code Routines 가이드](/ai/2026/04/15/claude-code-routines.html)도 함께 읽어보길 권한다.
 
 ---
 
