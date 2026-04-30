@@ -5,7 +5,7 @@ description: "VS Code 1.118 now adds Copilot as a Git co-author by default. Here
 date: 2026-04-30 19:02:16 +0900
 categories: [github]
 tags: [VSCode, GitHubCopilot, Git, CommitHistory, AICoding]
-image: vscode-copilot-coauthor/vscode-copilot-coauthor-1.png
+image: vscode-copilot-coauthor/vscode-copilot-coauthor-1.webp
 lang: en
 published: true
 ---
@@ -20,7 +20,20 @@ I also think this lands differently because Git history is not cosmetic. Commit 
 
 {% include pre-version.html %}
 
-![VS Code commit panel showing Copilot added as a Git co-author on a bright repository history view](/static/img/posts/vscode-copilot-coauthor/vscode-copilot-coauthor-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/vscode-copilot-coauthor/vscode-copilot-coauthor-1-400.webp 400w,
+            /static/img/posts/vscode-copilot-coauthor/vscode-copilot-coauthor-1-800.webp 800w,
+            /static/img/posts/vscode-copilot-coauthor/vscode-copilot-coauthor-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/vscode-copilot-coauthor/vscode-copilot-coauthor-1.webp"
+    alt="VS Code commit panel showing Copilot added as a Git co-author on a bright repository history view"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## What Actually Changed
 
@@ -70,7 +83,20 @@ To be fair, not every team will hate this. Some security and platform teams will
 
 My problem is not that the feature exists. The problem is the power order. A team-level or org-level policy that says "we require AI attribution" is one thing. A product default that silently decides the convention for everyone is another. The first is governance. The second is product steering.
 
-![Developer reviewing VS Code settings where git addAICoAuthor is set to chatAndAgent beside a commit preview](/static/img/posts/vscode-copilot-coauthor/vscode-copilot-coauthor-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/vscode-copilot-coauthor/vscode-copilot-coauthor-2-400.webp 400w,
+            /static/img/posts/vscode-copilot-coauthor/vscode-copilot-coauthor-2-800.webp 800w,
+            /static/img/posts/vscode-copilot-coauthor/vscode-copilot-coauthor-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/vscode-copilot-coauthor/vscode-copilot-coauthor-2.webp"
+    alt="Developer reviewing VS Code settings where git addAICoAuthor is set to chatAndAgent beside a commit preview"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## What I Would Do Right Now
 
