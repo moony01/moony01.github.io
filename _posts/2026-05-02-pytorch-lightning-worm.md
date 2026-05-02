@@ -5,7 +5,7 @@ description: "PyTorch Lightning supply chain attack hit versions 2.6.2 and 2.6.3
 date: 2026-05-02 12:10:00 +0900
 categories: [security]
 tags: [PyTorchLightning, SupplyChainSecurity, PyPI, ClaudeCode, GitHubActions]
-image: pytorch-lightning-worm/pytorch-lightning-worm-1.png
+image: pytorch-lightning-worm/pytorch-lightning-worm-1.webp
 lang: en
 published: true
 ---
@@ -18,7 +18,20 @@ The official Lightning advisory says versions `2.6.2` and `2.6.3` should be trea
 
 If you work anywhere near AI training, MLOps, or internal tooling, this one lands differently. `lightning` is not some weird toy dependency that five people installed at 2 a.m. It sits right where a lot of teams keep GPU credentials, CI secrets, and repository write access. When something at that layer goes bad, the conversation stops being "did we patch it" and becomes "what already escaped."
 
-![PyTorch Lightning supply chain attack visual showing an AI training pipeline, poisoned package release, and developer credential theft alarms](/static/img/posts/pytorch-lightning-worm/pytorch-lightning-worm-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/pytorch-lightning-worm/pytorch-lightning-worm-1-400.webp 400w,
+            /static/img/posts/pytorch-lightning-worm/pytorch-lightning-worm-1-800.webp 800w,
+            /static/img/posts/pytorch-lightning-worm/pytorch-lightning-worm-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/pytorch-lightning-worm/pytorch-lightning-worm-1.webp"
+    alt="PyTorch Lightning supply chain attack visual showing an AI training pipeline, poisoned package release, and developer credential theft alarms"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -94,4 +107,17 @@ Cool-down periods before adopting fresh package releases. Narrower token scopes.
 
 I do not think this incident means teams should panic and freeze every AI dependency forever. But I do think it kills the last excuse for pretending that ML tooling sits outside normal security discipline. It does not. It is the supply chain now.
 
-![PyTorch Lightning malware chain from import to Claude Code hook, GitHub Actions secret dump, and cloud credential exfiltration](/static/img/posts/pytorch-lightning-worm/pytorch-lightning-worm-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/pytorch-lightning-worm/pytorch-lightning-worm-2-400.webp 400w,
+            /static/img/posts/pytorch-lightning-worm/pytorch-lightning-worm-2-800.webp 800w,
+            /static/img/posts/pytorch-lightning-worm/pytorch-lightning-worm-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/pytorch-lightning-worm/pytorch-lightning-worm-2.webp"
+    alt="PyTorch Lightning malware chain from import to Claude Code hook, GitHub Actions secret dump, and cloud credential exfiltration"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
