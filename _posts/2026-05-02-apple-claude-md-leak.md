@@ -5,7 +5,7 @@ description: "Apple shipped Claude MD files in Apple Support v5.13, giving devel
 date: 2026-05-02 19:00:32 +0900
 categories: [ai]
 tags: [Apple, ClaudeCode, Anthropic, Xcode, AIAgents]
-image: apple-claude-md-leak/apple-claude-md-leak-1.png
+image: apple-claude-md-leak/apple-claude-md-leak-1.webp
 lang: en
 published: true
 ---
@@ -16,7 +16,20 @@ The answer is not "Apple secretly let AI write the whole company." That is the l
 
 That combination is why this story moved fast. It was fresh, it was funny, and it landed right in the middle of the 2026 developer anxiety stack: agentic coding, release hygiene, prompt context leaking into artifacts, and the uncomfortable realization that even the most locked-down shops are now normalizing AI instructions as part of daily engineering work.
 
-![Apple Claude MD leak showing a bright iPhone app release pipeline with Anthropic project instructions exposed in a production bundle](/static/img/posts/apple-claude-md-leak/apple-claude-md-leak-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/apple-claude-md-leak/apple-claude-md-leak-1-400.webp 400w,
+            /static/img/posts/apple-claude-md-leak/apple-claude-md-leak-1-800.webp 800w,
+            /static/img/posts/apple-claude-md-leak/apple-claude-md-leak-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/apple-claude-md-leak/apple-claude-md-leak-1.webp"
+    alt="Apple Claude MD leak showing a bright iPhone app release pipeline with Anthropic project instructions exposed in a production bundle"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -92,7 +105,20 @@ That is not a fancy security program. That is the minimum viable embarrassment f
 
 And yes, it should sit right next to checks for keys, tokens, debug assets, and internal-only metadata. If agents are part of production engineering, agent context deserves production-grade release controls.
 
-![Technical illustration of an AI release checklist catching Claude MD files before an iPhone app production build ships](/static/img/posts/apple-claude-md-leak/apple-claude-md-leak-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/apple-claude-md-leak/apple-claude-md-leak-2-400.webp 400w,
+            /static/img/posts/apple-claude-md-leak/apple-claude-md-leak-2-800.webp 800w,
+            /static/img/posts/apple-claude-md-leak/apple-claude-md-leak-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/apple-claude-md-leak/apple-claude-md-leak-2.webp"
+    alt="Technical illustration of an AI release checklist catching Claude MD files before an iPhone app production build ships"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## The Part I Keep Coming Back To
 
