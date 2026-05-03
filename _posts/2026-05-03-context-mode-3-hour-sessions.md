@@ -5,7 +5,7 @@ description: "Context Mode is the MCP server behind the latest agent tooling buz
 date: 2026-05-03 15:12:00 +0900
 categories: [ai]
 tags: [ContextMode, MCPServer, ClaudeCode, AICoding, AgentHarness]
-image: context-mode-3-hour-sessions/context-mode-3-hour-sessions-1.png
+image: context-mode-3-hour-sessions/context-mode-3-hour-sessions-1.webp
 lang: en
 published: true
 ---
@@ -18,7 +18,20 @@ What makes the story more interesting is that the pitch is not some vague "bette
 
 Honestly, that part tracks. If you use any serious agent workflow with shell commands, logs, test failures, browser snapshots, and web fetches, you already know the model is not really failing because it cannot code. A lot of the time it is failing because the working memory got polluted by garbage.
 
-![Context Mode MCP server compressing noisy AI coding tool output into a bright structured memory pipeline](/static/img/posts/context-mode-3-hour-sessions/context-mode-3-hour-sessions-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/context-mode-3-hour-sessions/context-mode-3-hour-sessions-1-400.webp 400w,
+            /static/img/posts/context-mode-3-hour-sessions/context-mode-3-hour-sessions-1-800.webp 800w,
+            /static/img/posts/context-mode-3-hour-sessions/context-mode-3-hour-sessions-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/context-mode-3-hour-sessions/context-mode-3-hour-sessions-1.webp"
+    alt="Context Mode MCP server compressing noisy AI coding tool output into a bright structured memory pipeline"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -136,7 +149,20 @@ This is where the maintainer's own framing is useful. In that March 16 issue ask
 
 If you are not hitting that wall, you do not need the tool yet.
 
-![Developer dashboard showing context savings metrics and longer AI coding sessions after sandboxed MCP execution](/static/img/posts/context-mode-3-hour-sessions/context-mode-3-hour-sessions-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/context-mode-3-hour-sessions/context-mode-3-hour-sessions-2-400.webp 400w,
+            /static/img/posts/context-mode-3-hour-sessions/context-mode-3-hour-sessions-2-800.webp 800w,
+            /static/img/posts/context-mode-3-hour-sessions/context-mode-3-hour-sessions-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/context-mode-3-hour-sessions/context-mode-3-hour-sessions-2.webp"
+    alt="Developer dashboard showing context savings metrics and longer AI coding sessions after sandboxed MCP execution"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## So Would I Install It
 
