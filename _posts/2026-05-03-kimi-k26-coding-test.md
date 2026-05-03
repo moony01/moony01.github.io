@@ -5,7 +5,7 @@ description: "Kimi K2.6 won a viral coding contest against GPT-5.5 and Claude. H
 date: 2026-05-03 14:07:00 +0900
 categories: [ai]
 tags: [KimiK26, MoonshotAI, OpenWeights, CodingModels, AgenticAI]
-image: kimi-k26-coding-test/kimi-k26-coding-test-1.png
+image: kimi-k26-coding-test/kimi-k26-coding-test-1.webp
 lang: en
 published: true
 ---
@@ -16,7 +16,20 @@ The headline was clean enough to spread on its own. Kimi K2.6, Moonshot AI's ope
 
 What made me stop and look harder is that this was not coming out of nowhere. Moonshot officially launched Kimi K2.6 on April 20, 2026. Artificial Analysis put it at the top of the open-weights pack on April 21. Microsoft added it to Foundry on April 22. So the viral challenge win did not create the story. It just gave the story a much sharper hook.
 
-![Kimi K2.6 open weight coding model racing against GPT 5 5 and Claude in a bright benchmark arena](/static/img/posts/kimi-k26-coding-test/kimi-k26-coding-test-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/kimi-k26-coding-test/kimi-k26-coding-test-1-400.webp 400w,
+            /static/img/posts/kimi-k26-coding-test/kimi-k26-coding-test-1-800.webp 800w,
+            /static/img/posts/kimi-k26-coding-test/kimi-k26-coding-test-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/kimi-k26-coding-test/kimi-k26-coding-test-1.webp"
+    alt="Kimi K2.6 open weight coding model racing against GPT 5 5 and Claude in a bright benchmark arena"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 What I care about here is not the dopamine hit of "new model beats old model." We have way too much of that already. The better question is whether Kimi K2.6 has actually crossed the line from "interesting open model" to "serious default candidate for real coding work."
 
@@ -106,7 +119,20 @@ Once an open model gets close enough on coding quality, cost and flexibility sta
 
 That is how adoption really happens. Not with one glorious launch event. With a bunch of skeptical developers muttering, "fine, I guess I have to test this too."
 
-![Developer dashboard comparing Kimi K2 6 agent swarm runs token costs and coding benchmark results across frontier models](/static/img/posts/kimi-k26-coding-test/kimi-k26-coding-test-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/kimi-k26-coding-test/kimi-k26-coding-test-2-400.webp 400w,
+            /static/img/posts/kimi-k26-coding-test/kimi-k26-coding-test-2-800.webp 800w,
+            /static/img/posts/kimi-k26-coding-test/kimi-k26-coding-test-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/kimi-k26-coding-test/kimi-k26-coding-test-2.webp"
+    alt="Developer dashboard comparing Kimi K2 6 agent swarm runs token costs and coding benchmark results across frontier models"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## Where I Think Kimi K2 6 Is Actually Dangerous
 
