@@ -5,7 +5,7 @@ description: "Ubuntu DDoS attack disrupted Canonical services and made security 
 date: 2026-05-04 15:02:02 +0900
 categories: [infra]
 tags: [Ubuntu, Canonical, DDoS, LinuxInfrastructure, SecurityUpdates]
-image: ubuntu-ddos-security-updates/ubuntu-ddos-security-updates-1.png
+image: ubuntu-ddos-security-updates/ubuntu-ddos-security-updates-1.webp
 lang: en
 published: true
 ---
@@ -18,7 +18,20 @@ That is the part that matters.
 
 Not because this looks like a package compromise. It does not. The useful read is more annoying: when a distribution's advisory pages, package infrastructure, status page, SSO, Launchpad, Snap Store, mirrors, or CVE APIs wobble at the same time, normal Linux maintenance starts feeling much less automatic than the dashboards make it look.
 
-![Ubuntu DDoS attack visual showing Canonical services, package mirrors, and security update pipelines under bright availability pressure](/static/img/posts/ubuntu-ddos-security-updates/ubuntu-ddos-security-updates-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/ubuntu-ddos-security-updates/ubuntu-ddos-security-updates-1-400.webp 400w,
+            /static/img/posts/ubuntu-ddos-security-updates/ubuntu-ddos-security-updates-1-800.webp 800w,
+            /static/img/posts/ubuntu-ddos-security-updates/ubuntu-ddos-security-updates-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/ubuntu-ddos-security-updates/ubuntu-ddos-security-updates-1.webp"
+    alt="Ubuntu DDoS attack visual showing Canonical services, package mirrors, and security update pipelines under bright availability pressure"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 And yeah, that is uncomfortable if you run Ubuntu anywhere important.
 
@@ -124,7 +137,20 @@ Canonical is a vendor in your stack if your systems depend on Canonical's infras
 
 This also connects to the [PyTorch Lightning supply chain attack](/security/2026/05/02/pytorch-lightning-worm.html) from last week. That incident was about poisoned packages. This one is about availability. Different failure mode, same uncomfortable direction: developer infrastructure is now security infrastructure.
 
-![Ubuntu DDoS attack resilience diagram with local mirrors, CVE cache, CI runners, and incident runbooks on a bright engineering dashboard](/static/img/posts/ubuntu-ddos-security-updates/ubuntu-ddos-security-updates-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/ubuntu-ddos-security-updates/ubuntu-ddos-security-updates-2-400.webp 400w,
+            /static/img/posts/ubuntu-ddos-security-updates/ubuntu-ddos-security-updates-2-800.webp 800w,
+            /static/img/posts/ubuntu-ddos-security-updates/ubuntu-ddos-security-updates-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/ubuntu-ddos-security-updates/ubuntu-ddos-security-updates-2.webp"
+    alt="Ubuntu DDoS attack resilience diagram with local mirrors, CVE cache, CI runners, and incident runbooks on a bright engineering dashboard"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## The Part I Keep Thinking About
 
