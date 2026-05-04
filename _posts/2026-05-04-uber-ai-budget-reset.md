@@ -5,7 +5,7 @@ description: "Uber AI coding costs forced a 2026 budget reset. What Claude Code 
 date: 2026-05-04 14:02:38 +0900
 categories: [ai]
 tags: [ClaudeCode, Uber, AICoding, TokenOps, DeveloperProductivity]
-image: uber-ai-budget-reset/uber-ai-budget-reset-1.png
+image: uber-ai-budget-reset/uber-ai-budget-reset-1.webp
 lang: en
 published: true
 ---
@@ -14,7 +14,20 @@ Uber AI coding costs are suddenly the cleanest story in developer tools because 
 
 The headline version is spicy: Uber pushed Claude Code and Cursor across engineering, usage exploded, and the company had to rethink the 2026 AI budget only a few months into the year. [GeekNews surfaced the Briefs summary on May 2](https://news.hada.io/topic?id=29094), and the story landed because every team using coding agents has felt some smaller version of the same thing. The tool works. People use it more. Finance opens the dashboard. Everyone starts pretending they always cared about token hygiene.
 
-![Uber AI coding costs shown as a bright engineering budget dashboard with Claude Code and Cursor usage rising](/static/img/posts/uber-ai-budget-reset/uber-ai-budget-reset-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/uber-ai-budget-reset/uber-ai-budget-reset-1-400.webp 400w,
+            /static/img/posts/uber-ai-budget-reset/uber-ai-budget-reset-1-800.webp 800w,
+            /static/img/posts/uber-ai-budget-reset/uber-ai-budget-reset-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/uber-ai-budget-reset/uber-ai-budget-reset-1.webp"
+    alt="Uber AI coding costs shown as a bright engineering budget dashboard with Claude Code and Cursor usage rising"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 The more interesting part is that this is not just "AI is expensive." That take is too lazy. A useless tool does not blow a budget through adoption. It dies in onboarding. What seems to have happened at Uber is more annoying and more useful: agentic coding became valuable enough that the old budget model stopped matching reality.
 
@@ -147,7 +160,20 @@ escaped_defects
 
 That kind of dataset will make some people uncomfortable because it turns vague productivity claims into actual tradeoffs. Good. The entire AI coding conversation needs fewer vibes and more receipts.
 
-![Uber AI coding governance workflow connecting token budgets, code review, tests, and production deployment controls](/static/img/posts/uber-ai-budget-reset/uber-ai-budget-reset-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/uber-ai-budget-reset/uber-ai-budget-reset-2-400.webp 400w,
+            /static/img/posts/uber-ai-budget-reset/uber-ai-budget-reset-2-800.webp 800w,
+            /static/img/posts/uber-ai-budget-reset/uber-ai-budget-reset-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/uber-ai-budget-reset/uber-ai-budget-reset-2.webp"
+    alt="Uber AI coding governance workflow connecting token budgets, code review, tests, and production deployment controls"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ### The budget reset is probably the beginning, not the end
 
