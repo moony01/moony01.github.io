@@ -5,7 +5,7 @@ description: "Bun Rust port work is suddenly public. Here is what the Zig to Rus
 date: 2026-05-05 15:07:03 +0900
 categories: [javascript]
 tags: [Bun, Rust, Zig, JavaScriptRuntime, AIRewrites]
-image: bun-rust-port-debate/bun-rust-port-debate-1.png
+image: bun-rust-port-debate/bun-rust-port-debate-1.webp
 lang: en
 published: true
 ---
@@ -18,7 +18,20 @@ Honestly? I get why it spread so fast.
 
 Bun is not a toy repository. It is a JavaScript runtime, package manager, bundler, and test runner with serious mindshare. It was written primarily in Zig. It was acquired by [Anthropic in December 2025](https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone?s=33), with Anthropic explicitly tying Bun to Claude Code infrastructure. So when a branch appears with `Cargo.toml`, a `docs/PORTING.md`, and a pile of `.rs` files beside `.zig` files, people are going to read more into it than "somebody tried a branch."
 
-![Bun Rust port debate shown as a bright JavaScript runtime migration map from Zig modules to Rust crates](/static/img/posts/bun-rust-port-debate/bun-rust-port-debate-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/bun-rust-port-debate/bun-rust-port-debate-1-400.webp 400w,
+            /static/img/posts/bun-rust-port-debate/bun-rust-port-debate-1-800.webp 800w,
+            /static/img/posts/bun-rust-port-debate/bun-rust-port-debate-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/bun-rust-port-debate/bun-rust-port-debate-1.webp"
+    alt="Bun Rust port debate shown as a bright JavaScript runtime migration map from Zig modules to Rust crates"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 The branch itself is the interesting artifact. The porting guide says Phase A is a draft translation of Zig files into Rust files beside the original Zig files, and that it does not need to compile yet. Phase B is supposed to make crates compile crate by crate. That is a very different signal from "we rewrote the whole runtime overnight and shipped it." It looks more like an aggressive experiment in translating structure first, correctness later.
 
@@ -118,7 +131,20 @@ For a company-owned project like Bun, the equation is different. Anthropic and t
 
 But for the broader ecosystem, the lesson is sharper: AI can produce more code than open source can responsibly review. Projects need policies before that flood arrives, not after.
 
-![Bun Rust port review workflow showing AI generated modules, human reviewers, tests, and runtime safety gates](/static/img/posts/bun-rust-port-debate/bun-rust-port-debate-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/bun-rust-port-debate/bun-rust-port-debate-2-400.webp 400w,
+            /static/img/posts/bun-rust-port-debate/bun-rust-port-debate-2-800.webp 800w,
+            /static/img/posts/bun-rust-port-debate/bun-rust-port-debate-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/bun-rust-port-debate/bun-rust-port-debate-2.webp"
+    alt="Bun Rust port review workflow showing AI generated modules, human reviewers, tests, and runtime safety gates"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## What I Would Watch Next
 
