@@ -5,7 +5,7 @@ description: "Anthropic engineer hiring makes the AI coding replacement story me
 date: 2026-05-06 15:03:42 +0900
 categories: [ai]
 tags: [Anthropic, ClaudeCode, AICoding, SoftwareEngineering, AgenticCoding]
-image: anthropic-engineer-hiring/anthropic-engineer-hiring-1.png
+image: anthropic-engineer-hiring/anthropic-engineer-hiring-1.webp
 lang: en
 published: true
 ---
@@ -18,7 +18,20 @@ Honestly? That is a better signal than another benchmark chart.
 
 Benchmarks tell us what a model can do in a cleaned-up task harness. Hiring pages tell us what a company still cannot automate away. And right now Anthropic, the company most associated with Claude Code and agentic coding, is still hiring engineers across research, product, infrastructure, security, compute, reliability, sandboxing, developer productivity, and applied AI.
 
-![Anthropic engineer hiring shown as a bright AI coding desk where human reviewers coordinate multiple code agents](/static/img/posts/anthropic-engineer-hiring/anthropic-engineer-hiring-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/anthropic-engineer-hiring/anthropic-engineer-hiring-1-400.webp 400w,
+            /static/img/posts/anthropic-engineer-hiring/anthropic-engineer-hiring-1-800.webp 800w,
+            /static/img/posts/anthropic-engineer-hiring/anthropic-engineer-hiring-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/anthropic-engineer-hiring/anthropic-engineer-hiring-1.webp"
+    alt="Anthropic engineer hiring shown as a bright AI coding desk where human reviewers coordinate multiple code agents"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 I do not read that as hypocrisy. I read it as the real shape of the transition finally leaking through the marketing.
 
@@ -91,7 +104,20 @@ That little sequence is not magic. It is just the habit of treating generated co
 
 The more agents generate, the more valuable that judgment becomes.
 
-![AI coding replacement debate shown as generated pull requests flowing into human review and architecture gates](/static/img/posts/anthropic-engineer-hiring/anthropic-engineer-hiring-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/anthropic-engineer-hiring/anthropic-engineer-hiring-2-400.webp 400w,
+            /static/img/posts/anthropic-engineer-hiring/anthropic-engineer-hiring-2-800.webp 800w,
+            /static/img/posts/anthropic-engineer-hiring/anthropic-engineer-hiring-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/anthropic-engineer-hiring/anthropic-engineer-hiring-2.webp"
+    alt="AI coding replacement debate shown as generated pull requests flowing into human review and architecture gates"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## Why This Hit Developers So Hard
 
