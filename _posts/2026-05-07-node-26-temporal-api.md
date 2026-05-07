@@ -5,7 +5,7 @@ description: "Node 26 ships Temporal API by default. What JavaScript teams shoul
 date: 2026-05-07 14:02:41 +0900
 categories: [javascript]
 tags: [Nodejs, Temporal, JavaScript, RuntimeUpgrade, DateAPI]
-image: node-26-temporal-api/node-26-temporal-api-1.png
+image: node-26-temporal-api/node-26-temporal-api-1.webp
 lang: en
 published: true
 ---
@@ -16,7 +16,20 @@ Not because every production service should jump today. Please do not do that ju
 
 The [official Node.js 26 release notes](https://nodejs.org/en/blog/release/v26.0.0) say the headline changes are Temporal enabled by default, V8 14.6, Undici 8, and a set of deprecations and removals. [GeekNews had Node.js 26 at the top](https://news.hada.io/) when I checked, and that feels right. It is not the loudest AI drama of the day, but it is the kind of runtime update that slowly changes real codebases.
 
-![Node 26 Temporal API upgrade shown as a bright JavaScript runtime timeline replacing fragile Date logic](/static/img/posts/node-26-temporal-api/node-26-temporal-api-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/node-26-temporal-api/node-26-temporal-api-1-400.webp 400w,
+            /static/img/posts/node-26-temporal-api/node-26-temporal-api-1-800.webp 800w,
+            /static/img/posts/node-26-temporal-api/node-26-temporal-api-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/node-26-temporal-api/node-26-temporal-api-1.webp"
+    alt="Node 26 Temporal API upgrade shown as a bright JavaScript runtime timeline replacing fragile Date logic"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 The funny part is that Temporal has been "almost here" for so long that a lot of developers trained themselves not to care. I get it. Date pain became background noise. You add a library, you normalize everything to UTC, you write a helper called `toLocalBusinessDate`, you swear at DST twice a year, and then you move on.
 
@@ -92,7 +105,20 @@ NODE_OPTIONS="--trace-warnings" npm test
 
 Try it on the boring services too. Especially the boring services. The boring ones are usually where deprecated runtime behavior survives because nobody had a reason to look.
 
-![Node 26 Temporal API migration checklist with test coverage around time zones DST and HTTP fetch behavior](/static/img/posts/node-26-temporal-api/node-26-temporal-api-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/node-26-temporal-api/node-26-temporal-api-2-400.webp 400w,
+            /static/img/posts/node-26-temporal-api/node-26-temporal-api-2-800.webp 800w,
+            /static/img/posts/node-26-temporal-api/node-26-temporal-api-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/node-26-temporal-api/node-26-temporal-api-2.webp"
+    alt="Node 26 Temporal API migration checklist with test coverage around time zones DST and HTTP fetch behavior"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 I keep thinking about the [Bun Rust port debate](/javascript/2026/05/05/bun-rust-port-debate.html) from earlier this week. That story was about a huge runtime/tooling experiment and the review debt around generated code. Node 26 is different, but the lesson rhymes: runtime changes are not just feature announcements. They are compatibility negotiations with your whole dependency graph.
 
