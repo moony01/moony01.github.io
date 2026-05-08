@@ -5,7 +5,7 @@ description: "GPT Realtime 2 brings reasoning, translation, and streaming transc
 date: 2026-05-08 14:03:15 +0900
 categories: [ai]
 tags: [OpenAI, GPTRealtime2, VoiceAgents, RealtimeAPI, SpeechAI]
-image: gpt-realtime-2-voice-agents/gpt-realtime-2-voice-agents-1.png
+image: gpt-realtime-2-voice-agents/gpt-realtime-2-voice-agents-1.webp
 lang: en
 published: true
 ---
@@ -20,7 +20,20 @@ OpenAI's [new realtime voice model announcement](https://openai.com/index/advanc
 
 I am still skeptical by default. Voice agents have burned a lot of teams. But this release is interesting enough that I would put it into a real prototype this week instead of filing it under "cool API video."
 
-![GPT Realtime 2 voice agents coordinating speech reasoning and tool calls in a bright production workflow](/static/img/posts/gpt-realtime-2-voice-agents/gpt-realtime-2-voice-agents-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/gpt-realtime-2-voice-agents/gpt-realtime-2-voice-agents-1-400.webp 400w,
+            /static/img/posts/gpt-realtime-2-voice-agents/gpt-realtime-2-voice-agents-1-800.webp 800w,
+            /static/img/posts/gpt-realtime-2-voice-agents/gpt-realtime-2-voice-agents-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/gpt-realtime-2-voice-agents/gpt-realtime-2-voice-agents-1.webp"
+    alt="GPT Realtime 2 voice agents coordinating speech reasoning and tool calls in a bright production workflow"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## GPT Realtime 2 Is Not Just Better Speech
 
@@ -79,7 +92,20 @@ When an API gets a migration guide, stable docs, pricing pages, model pages, and
 
 That is a healthier question.
 
-![GPT Realtime 2 voice agent reliability tests shown as bright audio streams connecting tools and transcripts](/static/img/posts/gpt-realtime-2-voice-agents/gpt-realtime-2-voice-agents-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/gpt-realtime-2-voice-agents/gpt-realtime-2-voice-agents-2-400.webp 400w,
+            /static/img/posts/gpt-realtime-2-voice-agents/gpt-realtime-2-voice-agents-2-800.webp 800w,
+            /static/img/posts/gpt-realtime-2-voice-agents/gpt-realtime-2-voice-agents-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/gpt-realtime-2-voice-agents/gpt-realtime-2-voice-agents-2.webp"
+    alt="GPT Realtime 2 voice agent reliability tests shown as bright audio streams connecting tools and transcripts"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 I would check WebRTC first for browser and mobile experiences, WebSocket when the server needs more orchestration, and SIP only when telephony is actually the product. Picking transport casually is how teams end up debugging latency from the wrong layer for a month.
 
