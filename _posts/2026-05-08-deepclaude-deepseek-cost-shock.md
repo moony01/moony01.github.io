@@ -5,7 +5,7 @@ description: "DeepClaude routes Claude Code through DeepSeek V4 Pro at 17x lower
 date: 2026-05-08 15:02:03 +0900
 categories: [ai]
 tags: [DeepClaude, DeepSeekV4Pro, ClaudeCode, AIAgents, TokenCosts]
-image: deepclaude-deepseek-cost-shock/deepclaude-deepseek-cost-shock-1.png
+image: deepclaude-deepseek-cost-shock/deepclaude-deepseek-cost-shock-1.webp
 lang: en
 published: true
 ---
@@ -16,7 +16,20 @@ The spicy version is easy to share. DeepClaude points Claude Code at DeepSeek V4
 
 That is catnip for developers right now. Not because everyone has suddenly become a procurement expert. Because a lot of us have spent the last three months discovering that agentic coding cost is not a theory problem. It is a daily engineering constraint. I wrote about the same pressure in the [Uber AI coding cost reset](/ai/2026/05/04/uber-ai-budget-reset.html), and DeepClaude feels like the open-source answer people were already reaching for.
 
-![DeepClaude and DeepSeek V4 Pro routing Claude Code through a bright agent cost pipeline](/static/img/posts/deepclaude-deepseek-cost-shock/deepclaude-deepseek-cost-shock-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/deepclaude-deepseek-cost-shock/deepclaude-deepseek-cost-shock-1-400.webp 400w,
+            /static/img/posts/deepclaude-deepseek-cost-shock/deepclaude-deepseek-cost-shock-1-800.webp 800w,
+            /static/img/posts/deepclaude-deepseek-cost-shock/deepclaude-deepseek-cost-shock-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/deepclaude-deepseek-cost-shock/deepclaude-deepseek-cost-shock-1.webp"
+    alt="DeepClaude and DeepSeek V4 Pro routing Claude Code through a bright agent cost pipeline"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 The repo is small enough to make the whole thing feel a little illegal, even though the trick is mostly boring. Claude Code reads backend configuration from environment variables. DeepClaude rewrites those variables for the session, launches Claude Code, and restores things when you exit. The useful weirdness is not the script. The useful weirdness is that the most valuable part of the product may be separable from the model vendor.
 
@@ -81,7 +94,20 @@ That is fine for experiments. It is less fine when the agent is editing producti
 
 The right way to use something like DeepClaude is not blind replacement. It is routing. Cheap backend for cheap tasks. Native backend for hard reasoning. Strong verification around both. If the harness can switch models by task type, then cost savings become a workflow feature instead of a stunt.
 
-![DeepClaude agent loop swapping model backends while preserving terminal tools and repository context](/static/img/posts/deepclaude-deepseek-cost-shock/deepclaude-deepseek-cost-shock-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/deepclaude-deepseek-cost-shock/deepclaude-deepseek-cost-shock-2-400.webp 400w,
+            /static/img/posts/deepclaude-deepseek-cost-shock/deepclaude-deepseek-cost-shock-2-800.webp 800w,
+            /static/img/posts/deepclaude-deepseek-cost-shock/deepclaude-deepseek-cost-shock-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/deepclaude-deepseek-cost-shock/deepclaude-deepseek-cost-shock-2.webp"
+    alt="DeepClaude agent loop swapping model backends while preserving terminal tools and repository context"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ### The subscription comparison is slippery
 
