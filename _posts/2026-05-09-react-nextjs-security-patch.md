@@ -5,7 +5,7 @@ description: "Next JS security patches cover RSC DoS, middleware bypass, SSRF, a
 date: 2026-05-09 14:01:37 +0900
 categories: [security]
 tags: [NextJS, React, RSC, WebSecurity, Middleware]
-image: react-nextjs-security-patch/react-nextjs-security-patch-1.png
+image: react-nextjs-security-patch/react-nextjs-security-patch-1.webp
 lang: en
 published: true
 ---
@@ -20,7 +20,20 @@ That is the easy part. The uncomfortable part is what the bugs say about how we 
 
 I am not saying panic. I am saying patch first, then re-read your own route boundaries with much less trust than yesterday.
 
-![Next JS security dashboard showing React Server Components patches and middleware boundary checks](/static/img/posts/react-nextjs-security-patch/react-nextjs-security-patch-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/react-nextjs-security-patch/react-nextjs-security-patch-1-400.webp 400w,
+            /static/img/posts/react-nextjs-security-patch/react-nextjs-security-patch-1-800.webp 800w,
+            /static/img/posts/react-nextjs-security-patch/react-nextjs-security-patch-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/react-nextjs-security-patch/react-nextjs-security-patch-1.webp"
+    alt="Next JS security dashboard showing React Server Components patches and middleware boundary checks"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## Next JS Security Is Now About Route Shape
 
@@ -91,7 +104,20 @@ You can still use middleware. I am not arguing for deleting it. I am arguing aga
 
 The same applies to cache keys. If auth state, tenant ID, locale, preview mode, request headers, or route variants affect the response, then caching has to be part of the security review. A cache poisoning bug is often not about a clever trick. It is about one request shape being treated as equivalent to another when it absolutely is not.
 
-![React Server Components request variants flowing through Next JS middleware and route level authorization](/static/img/posts/react-nextjs-security-patch/react-nextjs-security-patch-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/react-nextjs-security-patch/react-nextjs-security-patch-2-400.webp 400w,
+            /static/img/posts/react-nextjs-security-patch/react-nextjs-security-patch-2-800.webp 800w,
+            /static/img/posts/react-nextjs-security-patch/react-nextjs-security-patch-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/react-nextjs-security-patch/react-nextjs-security-patch-2.webp"
+    alt="React Server Components request variants flowing through Next JS middleware and route level authorization"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ### Test the paths people do not click
 
