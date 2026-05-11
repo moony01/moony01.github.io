@@ -5,7 +5,7 @@ description: "Anthropic finance agents ship as templates with skills, connectors
 date: 2026-05-11 15:02:33 +0900
 categories: [ai]
 tags: [Anthropic, ClaudeAgents, FinanceAI, AgentSkills, MCP]
-image: anthropic-finance-agents/anthropic-finance-agents-1.png
+image: anthropic-finance-agents/anthropic-finance-agents-1.webp
 lang: en
 published: true
 ---
@@ -22,7 +22,20 @@ That is a much more serious signal than another leaderboard screenshot.
 
 The target keyword here is simple: Anthropic finance agents. If you build internal AI tools, that phrase matters because it points at where enterprise agent development is probably going next. Not bigger chat windows. More opinionated workflow kits.
 
-![Anthropic finance agents coordinating analysts spreadsheets and governed data workflows in a bright office interface](/static/img/posts/anthropic-finance-agents/anthropic-finance-agents-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/anthropic-finance-agents/anthropic-finance-agents-1-400.webp 400w,
+            /static/img/posts/anthropic-finance-agents/anthropic-finance-agents-1-800.webp 800w,
+            /static/img/posts/anthropic-finance-agents/anthropic-finance-agents-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/anthropic-finance-agents/anthropic-finance-agents-1.webp"
+    alt="Anthropic finance agents coordinating analysts spreadsheets and governed data workflows in a bright office interface"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## Anthropic Finance Agents Are Templates, Not Just Prompts
 
@@ -114,7 +127,20 @@ The financial-services repo hints at that discipline by tying subagents to named
 
 Honestly, I would rather ship one boring agent with excellent connectors and audit logs than five theatrical subagents that nobody can debug.
 
-![Anthropic finance agents architecture showing skills connectors subagents audit logs and managed workflow checkpoints](/static/img/posts/anthropic-finance-agents/anthropic-finance-agents-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/anthropic-finance-agents/anthropic-finance-agents-2-400.webp 400w,
+            /static/img/posts/anthropic-finance-agents/anthropic-finance-agents-2-800.webp 800w,
+            /static/img/posts/anthropic-finance-agents/anthropic-finance-agents-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/anthropic-finance-agents/anthropic-finance-agents-2.webp"
+    alt="Anthropic finance agents architecture showing skills connectors subagents audit logs and managed workflow checkpoints"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## The Bigger Shift Is Vertical Agent Engineering
 
