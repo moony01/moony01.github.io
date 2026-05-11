@@ -5,7 +5,7 @@ description: "Cheap Claude API proxies can hide model swapping and prompt loggin
 date: 2026-05-11 14:03:11 +0900
 categories: [security]
 tags: [ClaudeAPI, AISecurity, APIProxy, DeveloperSecurity, PromptPrivacy]
-image: cheap-claude-api-risk/cheap-claude-api-risk-1.png
+image: cheap-claude-api-risk/cheap-claude-api-risk-1.webp
 lang: en
 published: true
 ---
@@ -22,7 +22,20 @@ The story caught fire after [Zilan Qian's ChinaTalk investigation](https://www.c
 
 I get why developers are tempted. AI coding tools burn tokens like crazy. But if a proxy is cheap because your prompts and outputs are part of the margin, that is not a discount. That is a data leak with a nice invoice.
 
-![Claude API proxies visualized as a bright routing map with developer prompts passing through unknown servers](/static/img/posts/cheap-claude-api-risk/cheap-claude-api-risk-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/cheap-claude-api-risk/cheap-claude-api-risk-1-400.webp 400w,
+            /static/img/posts/cheap-claude-api-risk/cheap-claude-api-risk-1-800.webp 800w,
+            /static/img/posts/cheap-claude-api-risk/cheap-claude-api-risk-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/cheap-claude-api-risk/cheap-claude-api-risk-1.webp"
+    alt="Claude API proxies visualized as a bright routing map with developer prompts passing through unknown servers"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## Claude API Proxies Are Not Just Cheaper Endpoints
 
@@ -114,7 +127,20 @@ What I would not do is let that endpoint anywhere near customer data, private re
 
 I would also stop using proxy-backed sessions as serious model evaluations. If the endpoint cannot prove model identity and logging policy, its output is not evaluation data. It is a vibes sample.
 
-![Cheap Claude API risk diagram showing model swapping prompt logs and compromised developer workflows](/static/img/posts/cheap-claude-api-risk/cheap-claude-api-risk-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/cheap-claude-api-risk/cheap-claude-api-risk-2-400.webp 400w,
+            /static/img/posts/cheap-claude-api-risk/cheap-claude-api-risk-2-800.webp 800w,
+            /static/img/posts/cheap-claude-api-risk/cheap-claude-api-risk-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/cheap-claude-api-risk/cheap-claude-api-risk-2.webp"
+    alt="Cheap Claude API risk diagram showing model swapping prompt logs and compromised developer workflows"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## The Discount Is The Signal
 
