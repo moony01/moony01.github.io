@@ -5,7 +5,7 @@ description: "Rapid MLX makes local AI on Mac feel serious again with MLX speed,
 date: 2026-05-12 14:05:00 +0900
 categories: [ai]
 tags: [RapidMLX, LocalAI, AppleSilicon, MLX, CodingAgents]
-image: rapid-mlx-local-ai/rapid-mlx-local-ai-1.png
+image: rapid-mlx-local-ai/rapid-mlx-local-ai-1.webp
 lang: en
 published: true
 ---
@@ -22,7 +22,20 @@ I am not going to pretend I verified those numbers on my desk today. I have not.
 
 {% include pre-version.html %}
 
-![Rapid MLX local AI on Mac shown as bright Apple Silicon inference nodes powering coding agents](/static/img/posts/rapid-mlx-local-ai/rapid-mlx-local-ai-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/rapid-mlx-local-ai/rapid-mlx-local-ai-1-400.webp 400w,
+            /static/img/posts/rapid-mlx-local-ai/rapid-mlx-local-ai-1-800.webp 800w,
+            /static/img/posts/rapid-mlx-local-ai/rapid-mlx-local-ai-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/rapid-mlx-local-ai/rapid-mlx-local-ai-1.webp"
+    alt="Rapid MLX local AI on Mac shown as bright Apple Silicon inference nodes powering coding agents"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## Rapid MLX Is Riding A Real MLX Wave
 
@@ -101,7 +114,20 @@ The fun part is that the boundary keeps moving.
 
 {% include pre-version.html %}
 
-![Rapid MLX coding agent workflow with local Mac inference cache tool calls and cloud fallback options](/static/img/posts/rapid-mlx-local-ai/rapid-mlx-local-ai-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/rapid-mlx-local-ai/rapid-mlx-local-ai-2-400.webp 400w,
+            /static/img/posts/rapid-mlx-local-ai/rapid-mlx-local-ai-2-800.webp 800w,
+            /static/img/posts/rapid-mlx-local-ai/rapid-mlx-local-ai-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/rapid-mlx-local-ai/rapid-mlx-local-ai-2.webp"
+    alt="Rapid MLX coding agent workflow with local Mac inference cache tool calls and cloud fallback options"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## Why This One Feels Different
 
