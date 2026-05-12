@@ -5,7 +5,7 @@ description: "Zero-native brings Zig, WebView choices, and bridge security to we
 date: 2026-05-12 15:02:33 +0900
 categories: [javascript]
 tags: [ZeroNative, Zig, WebView, Electron, DesktopApps]
-image: zero-native-web-shells/zero-native-web-shells-1.png
+image: zero-native-web-shells/zero-native-web-shells-1.webp
 lang: en
 published: true
 ---
@@ -20,7 +20,20 @@ That is worth a closer look.
 
 {% include pre-version.html %}
 
-![Zero-native web app shell combining Zig runtime and browser WebView layers](/static/img/posts/zero-native-web-shells/zero-native-web-shells-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/zero-native-web-shells/zero-native-web-shells-1-400.webp 400w,
+            /static/img/posts/zero-native-web-shells/zero-native-web-shells-1-800.webp 800w,
+            /static/img/posts/zero-native-web-shells/zero-native-web-shells-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/zero-native-web-shells/zero-native-web-shells-1.webp"
+    alt="Zero-native web app shell combining Zig runtime and browser WebView layers"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## Why Zero-Native Got My Attention
 
@@ -80,7 +93,20 @@ If a team can review the manifest and quickly answer "what native powers does th
 
 This is also where I would be strict during adoption. Do not start by turning on broad permissions because the demo broke. Do not allow wildcard origins because local development was annoying. Do not let every command become a generic filesystem escape hatch. A small shell with a loose bridge is still a loose bridge.
 
-![Zero-native bridge policy flow from JavaScript invoke calls to Zig handlers](/static/img/posts/zero-native-web-shells/zero-native-web-shells-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/zero-native-web-shells/zero-native-web-shells-2-400.webp 400w,
+            /static/img/posts/zero-native-web-shells/zero-native-web-shells-2-800.webp 800w,
+            /static/img/posts/zero-native-web-shells/zero-native-web-shells-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/zero-native-web-shells/zero-native-web-shells-2.webp"
+    alt="Zero-native bridge policy flow from JavaScript invoke calls to Zig handlers"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
