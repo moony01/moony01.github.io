@@ -5,7 +5,7 @@ description: "Googlebook puts Gemini into the cursor, widgets, and Android phone
 date: 2026-05-13 15:02:00 +0900
 categories: [ai]
 tags: [Googlebook, Gemini, Android, ChromeOS, AILaptops]
-image: googlebook-gemini-laptop/googlebook-gemini-laptop-1.png
+image: googlebook-gemini-laptop/googlebook-gemini-laptop-1.webp
 lang: en
 published: true
 ---
@@ -20,7 +20,20 @@ That is either a real platform shift or the most expensive way to make a laptop 
 
 The official [Googlebook announcement](https://blog.google/products-and-platforms/platforms/android/meet-googlebook/) says Google is moving from an operating system to an intelligence system. That line is doing a lot of work. It sounds like marketing, but it also tells developers exactly where to look. The question is not "can Gemini summarize a page?" The question is whether Google can make AI part of the desktop control plane without making the machine feel haunted by product demos.
 
-![Googlebook Gemini laptop interface showing AI cursor and Android app flow](/static/img/posts/googlebook-gemini-laptop/googlebook-gemini-laptop-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/googlebook-gemini-laptop/googlebook-gemini-laptop-1-400.webp 400w,
+            /static/img/posts/googlebook-gemini-laptop/googlebook-gemini-laptop-1-800.webp 800w,
+            /static/img/posts/googlebook-gemini-laptop/googlebook-gemini-laptop-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/googlebook-gemini-laptop/googlebook-gemini-laptop-1.webp"
+    alt="Googlebook Gemini laptop interface showing AI cursor and Android app flow"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## Googlebook Is Really A Gemini Laptop Strategy
 
@@ -66,7 +79,20 @@ If Googlebook is serious, Google needs to make large-screen Android app quality 
 
 The funny thing is that this is where developers may care more than average buyers. A normal user can forgive rough edges if the top five apps work. A developer notices immediately when an OS is just good enough for demos but awkward for real work.
 
-![Googlebook developer workflow diagram with Android apps browser and Gemini automation](/static/img/posts/googlebook-gemini-laptop/googlebook-gemini-laptop-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/googlebook-gemini-laptop/googlebook-gemini-laptop-2-400.webp 400w,
+            /static/img/posts/googlebook-gemini-laptop/googlebook-gemini-laptop-2-800.webp 800w,
+            /static/img/posts/googlebook-gemini-laptop/googlebook-gemini-laptop-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/googlebook-gemini-laptop/googlebook-gemini-laptop-2.webp"
+    alt="Googlebook developer workflow diagram with Android apps browser and Gemini automation"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## Developers Should Watch The Trust Boundary
 
