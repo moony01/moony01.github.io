@@ -33,8 +33,6 @@ social:
   # fb_appid: 1749788565247320
 
 urls:
-    - text: 개발자 이력서
-      url: /about/
     - text: 토이 프로젝트 링크
       url: /projects/
     - text: XML Feed
