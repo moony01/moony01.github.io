@@ -5,7 +5,7 @@ description: "Claude Code large codebases now depend on harness setup, live navi
 date: 2026-05-17 14:02:48 +0900
 categories: [ai]
 tags: [ClaudeCode, AICoding, AgenticCoding, LargeCodebases, Harness]
-image: claude-code-harness-problem/claude-code-harness-problem-1.png
+image: claude-code-harness-problem/claude-code-harness-problem-1.webp
 lang: en
 published: true
 ---
@@ -18,7 +18,20 @@ That landed right after the April [Claude Code quality postmortem](https://www.a
 
 {% include pre-version.html %}
 
-![Claude Code large codebases shown as bright live repository maps, hooks, tests, and agent workflows](/static/img/posts/claude-code-harness-problem/claude-code-harness-problem-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/claude-code-harness-problem/claude-code-harness-problem-1-400.webp 400w,
+            /static/img/posts/claude-code-harness-problem/claude-code-harness-problem-1-800.webp 800w,
+            /static/img/posts/claude-code-harness-problem/claude-code-harness-problem-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/claude-code-harness-problem/claude-code-harness-problem-1.webp"
+    alt="Claude Code large codebases shown as bright live repository maps, hooks, tests, and agent workflows"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## Claude Code Large Codebases Are Not A Prompting Problem
 
@@ -104,7 +117,20 @@ This is where I get impatient with AI coding demos. The demo ends when the app r
 
 If your verification is weak, the agent becomes a very fast generator of review burden. If your verification is strong, the same agent starts to feel like a real contributor.
 
-![Claude Code harness workflow connecting LSP, MCP servers, hooks, tests, and repository context](/static/img/posts/claude-code-harness-problem/claude-code-harness-problem-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/claude-code-harness-problem/claude-code-harness-problem-2-400.webp 400w,
+            /static/img/posts/claude-code-harness-problem/claude-code-harness-problem-2-800.webp 800w,
+            /static/img/posts/claude-code-harness-problem/claude-code-harness-problem-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/claude-code-harness-problem/claude-code-harness-problem-2.webp"
+    alt="Claude Code harness workflow connecting LSP, MCP servers, hooks, tests, and repository context"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
