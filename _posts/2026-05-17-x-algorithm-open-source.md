@@ -5,7 +5,7 @@ description: "X algorithm open source landed on GitHub with a Grok based ranking
 date: 2026-05-17 15:03:14 +0900
 categories: [others]
 tags: [XAlgorithm, OpenSource, RecommendationSystems, Rust, SocialFeeds]
-image: x-algorithm-open-source/x-algorithm-open-source-1.png
+image: x-algorithm-open-source/x-algorithm-open-source-1.webp
 lang: en
 published: true
 ---
@@ -20,7 +20,20 @@ And still, after reading it, my first reaction was not "wow, now we know how X w
 
 That difference matters. Especially when half the internet wants to turn any public ranking code into a cheat sheet for reach.
 
-![X algorithm open source repo shown as a bright recommendation pipeline from posts to ranking signals](/static/img/posts/x-algorithm-open-source/x-algorithm-open-source-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/x-algorithm-open-source/x-algorithm-open-source-1-400.webp 400w,
+            /static/img/posts/x-algorithm-open-source/x-algorithm-open-source-1-800.webp 800w,
+            /static/img/posts/x-algorithm-open-source/x-algorithm-open-source-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/x-algorithm-open-source/x-algorithm-open-source-1.webp"
+    alt="X algorithm open source repo shown as a bright recommendation pipeline from posts to ranking signals"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## X Algorithm Open Source Is A Real Drop
 
@@ -144,7 +157,20 @@ I would not copy the architecture blindly. X has X-shaped problems. Most product
 
 But I would absolutely steal the habit of making the pipeline legible.
 
-![X For You feed ranking pipeline visualized as bright candidate sources filters model scoring and audit gaps](/static/img/posts/x-algorithm-open-source/x-algorithm-open-source-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/x-algorithm-open-source/x-algorithm-open-source-2-400.webp 400w,
+            /static/img/posts/x-algorithm-open-source/x-algorithm-open-source-2-800.webp 800w,
+            /static/img/posts/x-algorithm-open-source/x-algorithm-open-source-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/x-algorithm-open-source/x-algorithm-open-source-2.webp"
+    alt="X For You feed ranking pipeline visualized as bright candidate sources filters model scoring and audit gaps"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## What I Would Watch Next
 
