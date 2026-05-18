@@ -5,6 +5,9 @@ date: 2026-01-25 10:00:00 +0900
 categories: [ai]
 tags: [mcp, model-context-protocol, anthropic, claude, ai-agent, agentic-ai, fastmcp, python]
 image: mcp-model-context-protocol-guide/mcp-model-context-protocol-guide-1.webp
+redirect_from:
+  - /2026/01/25/mcp-model-context-protocol-guide/
+  - /2026/01/25/mcp-model-context-protocol-guide.html
 ---
 
 "왜 AI 도구마다 매번 새로운 연동 코드를 작성해야 할까?"
