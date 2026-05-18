@@ -6,6 +6,8 @@ categories: [ai]
 tags: [Claude Code, AI 에이전트, 서브에이전트, Skills, Anthropic, 멀티에이전트]
 image: claude-code-hidden-multi-agent-system/claude-code-hidden-multi-agent-system-1.webp
 published: true
+redirect_from:
+  - /ai/2026/02/28/claude-code-auto-memory.html
 ---
 
 Claude Code를 그냥 "AI 코딩 도우미"라고 생각하고 있었다면, 지금 이 글을 끝까지 읽어야 합니다. 누군가 Claude Code의 바이너리를 직접 뜯어봤더니, Anthropic이 공식 문서에도 제대로 소개하지 않은 멀티 에이전트 인프라가 통째로 숨겨져 있었습니다. 이름도 `TeammateTool`. 그리고 2026년 2월 5일, Anthropic은 조용히 스위치를 눌렀습니다.
