@@ -2,6 +2,11 @@ User-agent: *
 Allow: /
 Disallow: /kpopface/doc/
 
+# Known obsolete generated/dev URLs reported by Search Console.
+# Keep app homepages crawlable; only block broken implementation artifacts.
+Disallow: /kpopface/CLAUDE.html
+Disallow: /mentalage/mentalage/
+
 Sitemap: https://moony01.com/sitemap.xml
 Sitemap: https://moony01.com/braintype/sitemap.xml
 Sitemap: https://moony01.com/mentalage/sitemap.xml

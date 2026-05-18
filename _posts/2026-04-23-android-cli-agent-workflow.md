@@ -6,6 +6,8 @@ date: 2026-04-23 21:44:21 +0900
 categories: [ai]
 tags: [AndroidCLI, AIAgents, Google, Android, DeveloperTools]
 image: android-cli-agent-workflow/android-cli-agent-workflow-1.webp
+redirect_from:
+  - /others/2026/04/23/android-cli-agent-workflow.html
 published: true
 ---
 

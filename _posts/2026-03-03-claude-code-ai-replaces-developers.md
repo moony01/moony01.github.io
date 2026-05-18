@@ -6,6 +6,8 @@ date: 2026-03-03 10:00:00 +0900
 categories: [ai]
 tags: [claude-code, AI개발, 개발자대체, Anthropic, 소프트웨어엔지니어링]
 image: claude-code-ai-replaces-developers/claude-code-ai-replaces-developers-1.webp
+redirect_from:
+  - /ai/2026/03/01/ai-coding-tools-make-developers-19-percent-slower.html
 published: true
 ---
 
@@ -51,7 +53,7 @@ claude "사용자 인증 미들웨어를 JWT 기반으로 구현해줘.
 
 ### 속도와 품질 사이의 긴장
 
-빠른 코드 생성이 항상 좋은 코드를 의미하지 않는다. 흥미롭게도 [AI 코딩 도구가 오히려 개발자를 19퍼센트 느리게 만든다](/ai/2026/03/01/ai-coding-tools-make-developers-19-percent-slower.html)는 연구 결과도 있다. AI가 생성한 코드를 검토하고 디버깅하는 데 오히려 더 많은 시간이 걸리는 경우다.
+빠른 코드 생성이 항상 좋은 코드를 의미하지 않는다. 흥미롭게도 [AI 코딩 도구가 오히려 개발자를 19퍼센트 느리게 만든다](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)는 연구 결과도 있다. AI가 생성한 코드를 검토하고 디버깅하는 데 오히려 더 많은 시간이 걸리는 경우다.
 
 이는 AI 코딩 도구의 역설을 보여준다.
 

@@ -7,6 +7,8 @@ categories: [infra]
 tags: [Ubuntu, Canonical, DDoS, LinuxInfrastructure, SecurityUpdates]
 image: ubuntu-ddos-security-updates/ubuntu-ddos-security-updates-1.webp
 lang: en
+redirect_from:
+  - /security/2026/05/04/ubuntu-ddos-security-updates.html
 published: true
 ---
 

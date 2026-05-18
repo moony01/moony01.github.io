@@ -47,7 +47,7 @@ Zed seems to understand that now. The 1.0 release notes are not trying to sell o
 
 This part is almost unfair for the competition. VS Code is still the default for a reason. The extension ecosystem is massive, the workflows are familiar, and entire teams are built around it. But the goodwill reservoir is not infinite. The more every editor pitch turns into an AI pitch, the more some developers start looking around for the tool that still feels like a tool first.
 
-That is where Zed has a real opening. It can present itself as both modern and suspicious of bloat. That sounds contradictory, but right now it is exactly what a lot of people want. If you already work in terminal-heavy loops like the [Android CLI agent workflow](/others/2026/04/23/android-cli-agent-workflow.html), the editor does not need to become your second operating system. It needs to stay fast, predictable, and out of the way until you need depth.
+That is where Zed has a real opening. It can present itself as both modern and suspicious of bloat. That sounds contradictory, but right now it is exactly what a lot of people want. If you already work in terminal-heavy loops like the [Android CLI agent workflow](/ai/2026/04/23/android-cli-agent-workflow.html), the editor does not need to become your second operating system. It needs to stay fast, predictable, and out of the way until you need depth.
 
 ## The Real Pitch Is Not Just Speed
 

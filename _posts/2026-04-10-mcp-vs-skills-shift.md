@@ -6,6 +6,9 @@ date: 2026-04-10 18:20:00 +0900
 categories: [others]
 tags: [MCP, Skills, ClaudeCode, AI에이전트, 개발자도구]
 image: mcp-vs-skills-shift/mcp-vs-skills-shift-1.webp
+redirect_from:
+  - /security/2026/04/12/agent-skills-security-gap.html
+  - /ai/2026/04/10/claude-advisor-strategy.html
 published: true
 ---
 

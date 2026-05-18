@@ -6,6 +6,8 @@ date: 2026-02-25 11:00:00 +0900
 categories: [economy]
 tags: [anthropic, claude-code-security, software-stocks, ai-capex, developer-analysis]
 image: anthropic-software-selloff/anthropic-software-selloff-1.webp
+redirect_from:
+  - /economy/2026/03/01/ai-capex-750b-hyperscaler-truth.html
 published: true
 ---
 
