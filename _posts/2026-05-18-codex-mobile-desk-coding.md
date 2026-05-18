@@ -5,7 +5,7 @@ description: "Codex mobile is now in ChatGPT, letting developers steer coding ag
 date: 2026-05-18 14:05:00 +0900
 categories: [ai]
 tags: [CodexMobile, OpenAICodex, AICoding, DeveloperWorkflow, RemoteAgents]
-image: codex-mobile-desk-coding/codex-mobile-desk-coding-1.png
+image: codex-mobile-desk-coding/codex-mobile-desk-coding-1.webp
 lang: en
 published: true
 ---
@@ -18,7 +18,20 @@ And honestly? That is more interesting than another benchmark post.
 
 {% include pre-version.html %}
 
-![Codex mobile showing a bright phone controlling coding agents across laptops devboxes and remote environments](/static/img/posts/codex-mobile-desk-coding/codex-mobile-desk-coding-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/codex-mobile-desk-coding/codex-mobile-desk-coding-1-400.webp 400w,
+            /static/img/posts/codex-mobile-desk-coding/codex-mobile-desk-coding-1-800.webp 800w,
+            /static/img/posts/codex-mobile-desk-coding/codex-mobile-desk-coding-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/codex-mobile-desk-coding/codex-mobile-desk-coding-1.webp"
+    alt="Codex mobile showing a bright phone controlling coding agents across laptops devboxes and remote environments"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## Codex Mobile Is Not About Coding On A Tiny Keyboard
 
@@ -85,7 +98,20 @@ Gadgets360 noted that the mobile app works as an extension of the desktop app ra
 
 {% include pre-version.html %}
 
-![Codex mobile approval flow with diffs tests permissions and secure relay in a bright workspace](/static/img/posts/codex-mobile-desk-coding/codex-mobile-desk-coding-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/codex-mobile-desk-coding/codex-mobile-desk-coding-2-400.webp 400w,
+            /static/img/posts/codex-mobile-desk-coding/codex-mobile-desk-coding-2-800.webp 800w,
+            /static/img/posts/codex-mobile-desk-coding/codex-mobile-desk-coding-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/codex-mobile-desk-coding/codex-mobile-desk-coding-2.webp"
+    alt="Codex mobile approval flow with diffs tests permissions and secure relay in a bright workspace"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## This Fits The Larger Agent Remote Control Race
 
