@@ -5,7 +5,7 @@ description: "Google AI Search Guide says AI Overviews and AI Mode still reward 
 date: 2026-05-18 15:02:23 +0900
 categories: [others]
 tags: [GoogleSearch, AISEO, SearchConsole, GEO, WebPublishing]
-image: google-ai-search-guide/google-ai-search-guide-1.png
+image: google-ai-search-guide/google-ai-search-guide-1.webp
 lang: en
 published: true
 ---
@@ -20,7 +20,20 @@ That is not a tiny update. It hits developers too, especially anyone shipping do
 
 The timing is also spicy. Google pushed more AI Search link updates on May 6, the Search Central guide was updated on May 15, and developer communities started arguing about whether this means "GEO is dead" or "SEO never changed." My read is simpler: the shortcut market just got weaker.
 
-![Google AI Search Guide turning messy GEO shortcuts into a clear technical website checklist](/static/img/posts/google-ai-search-guide/google-ai-search-guide-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/google-ai-search-guide/google-ai-search-guide-1-400.webp 400w,
+            /static/img/posts/google-ai-search-guide/google-ai-search-guide-1-800.webp 800w,
+            /static/img/posts/google-ai-search-guide/google-ai-search-guide-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/google-ai-search-guide/google-ai-search-guide-1.webp"
+    alt="Google AI Search Guide turning messy GEO shortcuts into a clear technical website checklist"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## Google AI Search Guide Changes The Argument
 
@@ -141,7 +154,20 @@ That is the stuff AI slop cannot fake forever. Or at least, it cannot fake it ch
 
 {% include pre-version.html %}
 
-![Google AI Search Guide checklist showing crawlability content quality internal links and agent friendly pages](/static/img/posts/google-ai-search-guide/google-ai-search-guide-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/google-ai-search-guide/google-ai-search-guide-2-400.webp 400w,
+            /static/img/posts/google-ai-search-guide/google-ai-search-guide-2-800.webp 800w,
+            /static/img/posts/google-ai-search-guide/google-ai-search-guide-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/google-ai-search-guide/google-ai-search-guide-2.webp"
+    alt="Google AI Search Guide checklist showing crawlability content quality internal links and agent friendly pages"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ### Agent-friendly does not mean agent-obsessed
 
