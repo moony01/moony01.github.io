@@ -55,7 +55,7 @@ But middleware gets dangerous when the rest of the app stops enforcing the same 
 
 That is the part nobody wants to put in the architecture diagram.
 
-I keep thinking about the [Ubuntu DDoS and security update outage](/security/2026/05/04/ubuntu-ddos-security-updates.html) from earlier this week. Different stack, same lesson: developer infrastructure is security infrastructure once teams depend on it in production. Next.js route machinery is not just framework plumbing anymore. It is where auth, caching, rendering, and data access collide.
+I keep thinking about the [Ubuntu DDoS and security update outage](/infra/2026/05/04/ubuntu-ddos-security-updates.html) from earlier this week. Different stack, same lesson: developer infrastructure is security infrastructure once teams depend on it in production. Next.js route machinery is not just framework plumbing anymore. It is where auth, caching, rendering, and data access collide.
 
 ## The Patch List Is Shorter Than The Audit List
 

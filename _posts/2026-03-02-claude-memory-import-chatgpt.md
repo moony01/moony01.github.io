@@ -111,7 +111,7 @@ Tech Stack Context:
 - Response within 150ms target
 ```
 
-이런 블록이 Claude 메모리에 들어가면, Claude Code를 사용할 때도 동일한 컨텍스트에서 시작된다. 이전에 다룬 [Claude Code의 자동 메모리 기능](/ai/2026/02/28/claude-code-auto-memory.html)과 조합하면 전역 선호와 프로젝트별 컨텍스트가 모두 정렬된 개발 환경이 완성된다.
+이런 블록이 Claude 메모리에 들어가면, Claude Code를 사용할 때도 동일한 컨텍스트에서 시작된다. 이전에 다룬 [Claude Code의 자동 메모리 기능](/ai/2026/03/22/claude-code-hidden-multi-agent-system.html)과 조합하면 전역 선호와 프로젝트별 컨텍스트가 모두 정렬된 개발 환경이 완성된다.
 
 팀 단위 활용도 있다. 코드 리뷰 기준, 커밋 메시지 규칙, 아키텍처 원칙을 팀원이 공유하는 메모리 블록 형태로 만들어 두면, 팀 내 AI 어시스턴트 일관성을 높이는 데 쓸 수 있다.
 

@@ -6,6 +6,8 @@ date: 2026-03-04 11:00:00 +0900
 categories: [economy]
 tags: [MiniMax, Claude, AI비용, 오픈소스AI, API가격]
 image: minimax-m25-claude-price-war/minimax-m25-claude-price-war-1.webp
+redirect_from:
+  - /ai/2026/03/04/minimax-m25-claude-price-war.html
 published: true
 ---
 
@@ -141,7 +143,7 @@ MiniMax M2.5는 Hugging Face에 모델 가중치가 공개돼 있다. 온프렘 
 
 ## 63배 격차가 던지는 진짜 질문
 
-이전에 다뤘던 [750조원 AI 군비경쟁 분석](/economy/2026/03/01/ai-capex-750b-hyperscaler-truth.html)에서 빅테크들이 AI 인프라에 막대한 자본을 투입하고 있다는 걸 봤다. 역설적이게도 그 투자의 결과물 중 하나가 AI 추론 비용의 급격한 하락이다.
+이전에 다뤘던 [AI CAPEX 부담과 소프트웨어주 재평가](/economy/2026/02/25/anthropic-software-selloff.html)에서 빅테크들이 AI 인프라에 막대한 자본을 투입하고 있다는 걸 봤다. 역설적이게도 그 투자의 결과물 중 하나가 AI 추론 비용의 급격한 하락이다.
 
 MiniMax M2.5 사례는 더 근본적인 질문을 던진다. "frontier 모델의 프리미엄이 앞으로도 정당화될 수 있는가?"
 

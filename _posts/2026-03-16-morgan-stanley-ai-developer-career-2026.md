@@ -5,6 +5,8 @@ date: 2026-03-16 11:00:00 +0900
 categories: [ai]
 tags: [ai, developer, career, morgan-stanley, 2026, capex]
 image: morgan-stanley-ai-developer-career-2026/morgan-stanley-ai-developer-career-2026-1.webp
+redirect_from:
+  - /others/2026/03/16/morgan-stanley-ai-developer-career-2026.html
 published: true
 ---
 
