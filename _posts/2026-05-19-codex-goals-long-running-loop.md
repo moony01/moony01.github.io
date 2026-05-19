@@ -5,7 +5,7 @@ description: "Codex Goals let coding agents keep a durable objective alive, but 
 date: 2026-05-19 14:02:38 +0900
 categories: [ai]
 tags: [CodexGoals, OpenAICodex, AICoding, AgenticCoding, DeveloperWorkflow]
-image: codex-goals-long-running-loop/codex-goals-long-running-loop-1.png
+image: codex-goals-long-running-loop/codex-goals-long-running-loop-1.webp
 lang: en
 published: true
 ---
@@ -20,7 +20,20 @@ And honestly? That is the part of agentic coding I have been waiting for. Not be
 
 {% include pre-version.html %}
 
-![Codex Goals long running coding agents shown as bright task loops across pull requests tests and review gates](/static/img/posts/codex-goals-long-running-loop/codex-goals-long-running-loop-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/codex-goals-long-running-loop/codex-goals-long-running-loop-1-400.webp 400w,
+            /static/img/posts/codex-goals-long-running-loop/codex-goals-long-running-loop-1-800.webp 800w,
+            /static/img/posts/codex-goals-long-running-loop/codex-goals-long-running-loop-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/codex-goals-long-running-loop/codex-goals-long-running-loop-1.webp"
+    alt="Codex Goals long running coding agents shown as bright task loops across pull requests tests and review gates"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## Codex Goals Changes The Shape Of The Task
 
@@ -140,7 +153,20 @@ This is where I want product teams to be more strict.
 
 If a goal touches more than five files, ask for a plan. If it wants to edit generated code, stop. If it changes tests without changing product code, flag it. If it keeps retrying the same failure, summarize and ask for a human decision. If it discovers a second bug, create a follow-up instead of smuggling it into the same branch.
 
-![Codex Goals workflow showing bright approval checkpoints budget limits and test evidence around a coding agent loop](/static/img/posts/codex-goals-long-running-loop/codex-goals-long-running-loop-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/codex-goals-long-running-loop/codex-goals-long-running-loop-2-400.webp 400w,
+            /static/img/posts/codex-goals-long-running-loop/codex-goals-long-running-loop-2-800.webp 800w,
+            /static/img/posts/codex-goals-long-running-loop/codex-goals-long-running-loop-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/codex-goals-long-running-loop/codex-goals-long-running-loop-2.webp"
+    alt="Codex Goals workflow showing bright approval checkpoints budget limits and test evidence around a coding agent loop"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ### The best goals are narrow and stubborn
 
