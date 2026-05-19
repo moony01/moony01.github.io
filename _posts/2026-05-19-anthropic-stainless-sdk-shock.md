@@ -5,7 +5,7 @@ description: "Anthropic Stainless acquisition puts SDK generation and MCP toolin
 date: 2026-05-19 15:02:24 +0900
 categories: [infra]
 tags: [Anthropic, Stainless, SDKs, MCP, AIAgents, DeveloperInfrastructure]
-image: anthropic-stainless-sdk-shock/anthropic-stainless-sdk-shock-1.png
+image: anthropic-stainless-sdk-shock/anthropic-stainless-sdk-shock-1.webp
 lang: en
 published: true
 ---
@@ -16,7 +16,20 @@ It is not a model launch. It is not another leaderboard screenshot. It is Anthro
 
 {% include pre-version.html %}
 
-![Anthropic Stainless acquisition shown as bright API pipelines feeding SDKs MCP servers and coding agents](/static/img/posts/anthropic-stainless-sdk-shock/anthropic-stainless-sdk-shock-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/anthropic-stainless-sdk-shock/anthropic-stainless-sdk-shock-1-400.webp 400w,
+            /static/img/posts/anthropic-stainless-sdk-shock/anthropic-stainless-sdk-shock-1-800.webp 800w,
+            /static/img/posts/anthropic-stainless-sdk-shock/anthropic-stainless-sdk-shock-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/anthropic-stainless-sdk-shock/anthropic-stainless-sdk-shock-1.webp"
+    alt="Anthropic Stainless acquisition shown as bright API pipelines feeding SDKs MCP servers and coding agents"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 The spicy part is not only that Anthropic gets the Stainless team. The spicy part is that Stainless says it is winding down all hosted products, including the SDK generator. TechCrunch reported the same thing, with the extra sting that Stainless was used by rival AI labs and developer platforms, including OpenAI, Google, Replicate, Runway, and Cloudflare.
 
@@ -140,4 +153,17 @@ That is the uncomfortable part of the Anthropic Stainless acquisition.
 
 It is not just about who owns one SDK generator. It is about who owns the defaults agents will trust when they start acting on our behalf.
 
-![Anthropic Stainless acquisition illustrated as developers reviewing API contracts SDK outputs and MCP connectors](/static/img/posts/anthropic-stainless-sdk-shock/anthropic-stainless-sdk-shock-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/anthropic-stainless-sdk-shock/anthropic-stainless-sdk-shock-2-400.webp 400w,
+            /static/img/posts/anthropic-stainless-sdk-shock/anthropic-stainless-sdk-shock-2-800.webp 800w,
+            /static/img/posts/anthropic-stainless-sdk-shock/anthropic-stainless-sdk-shock-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/anthropic-stainless-sdk-shock/anthropic-stainless-sdk-shock-2.webp"
+    alt="Anthropic Stainless acquisition illustrated as developers reviewing API contracts SDK outputs and MCP connectors"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
