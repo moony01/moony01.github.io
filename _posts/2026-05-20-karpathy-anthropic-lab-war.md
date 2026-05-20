@@ -5,7 +5,7 @@ description: "Karpathy Anthropic move puts Claude pretraining and AI research au
 date: 2026-05-20 15:02:06 +0900
 categories: [ai]
 tags: [AndrejKarpathy, Anthropic, Claude, AIResearch, TalentWar]
-image: karpathy-anthropic-lab-war/karpathy-anthropic-lab-war-1.png
+image: karpathy-anthropic-lab-war/karpathy-anthropic-lab-war-1.webp
 lang: en
 published: true
 ---
@@ -18,7 +18,20 @@ Not in chat UX. Not in another leaderboard screenshot. Not even in the public mo
 
 The interesting part is pretraining.
 
-![Karpathy Anthropic talent move visualized as Claude research workstreams and pretraining labs](/static/img/posts/karpathy-anthropic-lab-war/karpathy-anthropic-lab-war-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/karpathy-anthropic-lab-war/karpathy-anthropic-lab-war-1-400.webp 400w,
+            /static/img/posts/karpathy-anthropic-lab-war/karpathy-anthropic-lab-war-1-800.webp 800w,
+            /static/img/posts/karpathy-anthropic-lab-war/karpathy-anthropic-lab-war-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/karpathy-anthropic-lab-war/karpathy-anthropic-lab-war-1.webp"
+    alt="Karpathy Anthropic talent move visualized as Claude research workstreams and pretraining labs"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 That sounds boring if you only follow AI through product demos. But if you build with these systems every day, pretraining is where the expensive magic still starts. It is also where small process improvements can turn into huge capability jumps later.
 
@@ -139,7 +152,20 @@ Anthropic has to turn taste into compounding execution.
 
 Karpathy joining helps that story, but it does not prove it.
 
-![Claude pretraining research loop where AI agents assist experiments and model evaluation pipelines](/static/img/posts/karpathy-anthropic-lab-war/karpathy-anthropic-lab-war-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/karpathy-anthropic-lab-war/karpathy-anthropic-lab-war-2-400.webp 400w,
+            /static/img/posts/karpathy-anthropic-lab-war/karpathy-anthropic-lab-war-2-800.webp 800w,
+            /static/img/posts/karpathy-anthropic-lab-war/karpathy-anthropic-lab-war-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/karpathy-anthropic-lab-war/karpathy-anthropic-lab-war-2.webp"
+    alt="Claude pretraining research loop where AI agents assist experiments and model evaluation pipelines"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ### I Want To See The Boring Evidence
 
