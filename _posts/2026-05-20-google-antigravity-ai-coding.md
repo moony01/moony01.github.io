@@ -5,7 +5,7 @@ description: "Google Antigravity 2 turns Gemini 3.5 Flash into desktop agents, C
 date: 2026-05-20 14:02:25 +0900
 categories: [ai]
 tags: [GoogleAntigravity, Gemini35Flash, AICoding, AgenticAI, GoogleIO]
-image: google-antigravity-ai-coding/google-antigravity-ai-coding-1.png
+image: google-antigravity-ai-coding/google-antigravity-ai-coding-1.webp
 lang: en
 published: true
 ---
@@ -20,7 +20,20 @@ That is a much bigger claim than autocomplete.
 
 {% include pre-version.html %}
 
-![Google Antigravity 2 desktop agent workflow powered by Gemini coding models](/static/img/posts/google-antigravity-ai-coding/google-antigravity-ai-coding-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/google-antigravity-ai-coding/google-antigravity-ai-coding-1-400.webp 400w,
+            /static/img/posts/google-antigravity-ai-coding/google-antigravity-ai-coding-1-800.webp 800w,
+            /static/img/posts/google-antigravity-ai-coding/google-antigravity-ai-coding-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/google-antigravity-ai-coding/google-antigravity-ai-coding-1.webp"
+    alt="Google Antigravity 2 desktop agent workflow powered by Gemini coding models"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## Google Antigravity 2 Is Really A Surface Strategy
 
@@ -154,7 +167,20 @@ Not "Google made another coding tool."
 
 More like: Google is trying to make AI coding a full-stack operating layer for its developer ecosystem.
 
-![Google Antigravity 2 agent pipeline connecting local code CLI SDK and managed cloud sandboxes](/static/img/posts/google-antigravity-ai-coding/google-antigravity-ai-coding-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/google-antigravity-ai-coding/google-antigravity-ai-coding-2-400.webp 400w,
+            /static/img/posts/google-antigravity-ai-coding/google-antigravity-ai-coding-2-800.webp 800w,
+            /static/img/posts/google-antigravity-ai-coding/google-antigravity-ai-coding-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/google-antigravity-ai-coding/google-antigravity-ai-coding-2.webp"
+    alt="Google Antigravity 2 agent pipeline connecting local code CLI SDK and managed cloud sandboxes"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## What I Am Watching Next
 
