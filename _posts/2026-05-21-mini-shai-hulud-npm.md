@@ -5,7 +5,7 @@ description: "Mini Shai-Hulud npm 공급망 공격이 AntV와 CI/CD까지 번진
 date: 2026-05-21 14:01:07 +0900
 categories: [security]
 tags: [npm공급망공격, MiniShaiHulud, CI보안, 자격증명탈취, 오픈소스보안]
-image: mini-shai-hulud-npm/mini-shai-hulud-npm-1.png
+image: mini-shai-hulud-npm/mini-shai-hulud-npm-1.webp
 lang: ko
 published: true
 ---
@@ -14,7 +14,20 @@ Mini Shai-Hulud npm 공급망 공격은 이번 주에 그냥 지나치기 어려
 
 이번에는 `@antv` 생태계와 `echarts-for-react`, `timeago.js`, `size-sensor` 같은 평범한 의존성이 한꺼번에 걸렸다. 더 찝찝한 건 페이로드가 CI/CD 러너, GitHub 토큰, npm 토큰, Claude Code와 Codex 설정까지 건드린다는 점이다. 패키지 하나 지우면 끝나는 사건이 아니다.
 
-![Mini Shai-Hulud npm 공급망 공격이 CI 파이프라인으로 퍼지는 장면](/static/img/posts/mini-shai-hulud-npm/mini-shai-hulud-npm-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/mini-shai-hulud-npm/mini-shai-hulud-npm-1-400.webp 400w,
+            /static/img/posts/mini-shai-hulud-npm/mini-shai-hulud-npm-1-800.webp 800w,
+            /static/img/posts/mini-shai-hulud-npm/mini-shai-hulud-npm-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/mini-shai-hulud-npm/mini-shai-hulud-npm-1.webp"
+    alt="Mini Shai-Hulud npm 공급망 공격이 CI 파이프라인으로 퍼지는 장면"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 나는 공급망 공격 기사를 볼 때 보통 두 가지를 먼저 본다. 하나는 "내 프로젝트가 실제로 밟을 수 있는 경로인가"이고, 다른 하나는 "감염 후 청소가 단순한가"다. 이번 건 둘 다 불편하다.
 
@@ -87,7 +100,20 @@ CI 로그도 같이 봐야 한다. 깨끗한 runner에서 `npm install`이 돌�
 
 이 표를 적으면서도 기분이 별로다. 요즘 AI 코딩 도구 설정 파일은 개발자 로컬 권한과 너무 가까운 곳에 있다. 공격자가 거기에 SessionStart 훅을 심으면 "패키지 설치 사고"가 "다음 AI 세션 시작 때 다시 실행되는 사고"가 된다.
 
-![Mini Shai-Hulud 페이로드가 토큰과 개발 도구 설정을 훑는 구조](/static/img/posts/mini-shai-hulud-npm/mini-shai-hulud-npm-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/mini-shai-hulud-npm/mini-shai-hulud-npm-2-400.webp 400w,
+            /static/img/posts/mini-shai-hulud-npm/mini-shai-hulud-npm-2-800.webp 800w,
+            /static/img/posts/mini-shai-hulud-npm/mini-shai-hulud-npm-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/mini-shai-hulud-npm/mini-shai-hulud-npm-2.webp"
+    alt="Mini Shai-Hulud 페이로드가 토큰과 개발 도구 설정을 훑는 구조"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 방어는 스캐너 하나로 끝나지 않는다
 
