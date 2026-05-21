@@ -5,7 +5,7 @@ description: "Gemini 3.5 Flash와 Antigravity, Managed Agents, Android CLI 발�
 date: 2026-05-21 15:02:15 +0900
 categories: [ai]
 tags: [AI코딩, Gemini35Flash, Antigravity, 에이전트개발, AndroidCLI]
-image: gemini-agentic-coding-shift/gemini-agentic-coding-shift-1.png
+image: gemini-agentic-coding-shift/gemini-agentic-coding-shift-1.webp
 lang: ko
 published: true
 ---
@@ -14,7 +14,20 @@ AI 코딩 에이전트 이야기는 이제 "어느 모델이 코드를 더 잘 �
 
 나는 처음엔 또 다른 모델 발표라고 생각했다. 숫자는 늘 그렇듯 멋있다. Terminal-Bench 2.1, MCP Atlas, 속도, 비용, 이런 것들. 그런데 이번 발표에서 더 눈에 들어온 건 모델 자체보다 모델이 놓이는 자리였다. 데스크톱 앱, CLI, SDK, 원격 Linux 환경, Android Studio 지식, Google AI Studio의 테스트 트랙 배포까지 한 줄로 이어지는 구조 말이다.
 
-![Gemini 3.5 Flash 중심의 AI 코딩 에이전트 작업 흐름](/static/img/posts/gemini-agentic-coding-shift/gemini-agentic-coding-shift-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/gemini-agentic-coding-shift/gemini-agentic-coding-shift-1-400.webp 400w,
+            /static/img/posts/gemini-agentic-coding-shift/gemini-agentic-coding-shift-1-800.webp 800w,
+            /static/img/posts/gemini-agentic-coding-shift/gemini-agentic-coding-shift-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/gemini-agentic-coding-shift/gemini-agentic-coding-shift-1.webp"
+    alt="Gemini 3.5 Flash 중심의 AI 코딩 에이전트 작업 흐름"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 이전에 [Google Antigravity 2가 데스크톱 에이전트 전략으로 보인 이유](/ai/2026/05/20/google-antigravity-ai-coding.html)를 따로 썼는데, 하루 지나서 다시 보니 포인트가 조금 더 넓어졌다. Antigravity만의 문제가 아니다. Google은 "모델 하나 써보세요"가 아니라 "에이전트가 일하는 통로를 Google 생태계 안에 깔아두겠다"는 쪽으로 움직이고 있다.
 
@@ -80,7 +93,20 @@ android studio explain-failure --last-build --for-agent
 
 위 명령이 실제 사용법이라는 뜻은 아니다. 내가 기대하는 방향이 그렇다는 얘기다. 사람에게 예쁜 로그보다 에이전트가 안정적으로 읽을 수 있는 로그가 더 중요해지는 순간이 온다. CLI는 단순히 터미널 사용자용 UI가 아니라, 에이전트와 플랫폼 사이의 계약서가 된다.
 
-![Android CLI와 Managed Agents가 앱 빌드 도구를 연결하는 구조](/static/img/posts/gemini-agentic-coding-shift/gemini-agentic-coding-shift-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/gemini-agentic-coding-shift/gemini-agentic-coding-shift-2-400.webp 400w,
+            /static/img/posts/gemini-agentic-coding-shift/gemini-agentic-coding-shift-2-800.webp 800w,
+            /static/img/posts/gemini-agentic-coding-shift/gemini-agentic-coding-shift-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/gemini-agentic-coding-shift/gemini-agentic-coding-shift-2.webp"
+    alt="Android CLI와 Managed Agents가 앱 빌드 도구를 연결하는 구조"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
