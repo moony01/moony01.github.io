@@ -5,7 +5,7 @@ description: "Microsoft의 Claude Code 라이선스 회수와 Copilot CLI 전환
 date: 2026-05-22 15:02:42 +0900
 categories: [ai]
 tags: [ClaudeCode, CopilotCLI, AI코딩도구, 개발자도구, 도구선택권]
-image: microsoft-claude-code-switch/microsoft-claude-code-switch-1.png
+image: microsoft-claude-code-switch/microsoft-claude-code-switch-1.webp
 lang: ko
 published: true
 ---
@@ -14,7 +14,20 @@ Claude Code 라이선스 회수 이야기는 그냥 사내 도구 정리 뉴스�
 
 처음엔 "Microsoft니까 자기 제품을 밀겠지" 정도로 봤다. 그런데 [The Verge 보도](https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad)와 [TechRadar 정리](https://www.techradar.com/pro/microsoft-may-discontinue-claude-code-internally-as-it-looks-to-push-users-towards-github-copilot)를 같이 읽어보면, 이건 단순한 제품 편애보다 조금 더 현실적인 문제에 가깝다. AI 코딩 도구가 개인 생산성 앱에서 팀 운영비, 보안 정책, 플랫폼 전략의 한가운데로 들어왔다는 얘기다.
 
-![Claude Code 회수와 Copilot CLI 전환을 비교한 AI 코딩 도구 흐름](/static/img/posts/microsoft-claude-code-switch/microsoft-claude-code-switch-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/microsoft-claude-code-switch/microsoft-claude-code-switch-1-400.webp 400w,
+            /static/img/posts/microsoft-claude-code-switch/microsoft-claude-code-switch-1-800.webp 800w,
+            /static/img/posts/microsoft-claude-code-switch/microsoft-claude-code-switch-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/microsoft-claude-code-switch/microsoft-claude-code-switch-1.webp"
+    alt="Claude Code 회수와 Copilot CLI 전환을 비교한 AI 코딩 도구 흐름"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 개발자 입장에서는 이 지점이 신경 쓰인다. 팀에서 가장 잘 먹히는 도구와 회사가 통제하기 쉬운 도구가 다를 때, 누구의 기준이 이기느냐. 이제 그 질문이 꽤 비싸졌다.
 
@@ -60,7 +73,20 @@ Claude Code와 Copilot CLI는 둘 다 터미널에서 일하는 AI 코딩 도구
 
 Microsoft 사례를 보고 나면, 팀에서 AI 코딩 도구를 고르는 기준도 조금 차갑게 바꿔야 한다.
 
-![AI 코딩 도구 선택권이 비용과 보안 통제로 나뉘는 구조](/static/img/posts/microsoft-claude-code-switch/microsoft-claude-code-switch-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/microsoft-claude-code-switch/microsoft-claude-code-switch-2-400.webp 400w,
+            /static/img/posts/microsoft-claude-code-switch/microsoft-claude-code-switch-2-800.webp 800w,
+            /static/img/posts/microsoft-claude-code-switch/microsoft-claude-code-switch-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/microsoft-claude-code-switch/microsoft-claude-code-switch-2.webp"
+    alt="AI 코딩 도구 선택권이 비용과 보안 통제로 나뉘는 구조"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 팀이 봐야 할 AI 코딩 도구 선택 기준
 
