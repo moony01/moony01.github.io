@@ -5,7 +5,7 @@ description: "GitHub 침해와 Nx Console 악성 VS Code 확장이 왜 위험했
 date: 2026-05-22 14:02:52 +0900
 categories: [security]
 tags: [GitHub침해, VSCode확장, 공급망보안, NxConsole, 개발자보안]
-image: github-vscode-extension-breach/github-vscode-extension-breach-1.png
+image: github-vscode-extension-breach/github-vscode-extension-breach-1.webp
 lang: ko
 published: true
 ---
@@ -14,7 +14,20 @@ GitHub 침해 소식에서 제일 거슬렸던 건 숫자보다 경로였다. �
 
 처음엔 "또 VS Code Marketplace에 이상한 확장이 올라왔나" 정도로 봤다. 그런데 GitHub 공식 설명, Nx의 사후분석, 보안 업체 분석을 이어서 읽어보니 그림이 더 불편했다. npm 공급망 공격이 개발자 머신을 건드리고, 그 머신에서 다시 VS Code 확장 배포 권한으로 이어지고, 그 확장이 GitHub 내부 저장소 접근까지 닿았다.
 
-![GitHub 침해와 악성 VS Code 확장 공급망 흐름](/static/img/posts/github-vscode-extension-breach/github-vscode-extension-breach-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/github-vscode-extension-breach/github-vscode-extension-breach-1-400.webp 400w,
+            /static/img/posts/github-vscode-extension-breach/github-vscode-extension-breach-1-800.webp 800w,
+            /static/img/posts/github-vscode-extension-breach/github-vscode-extension-breach-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/github-vscode-extension-breach/github-vscode-extension-breach-1.webp"
+    alt="GitHub 침해와 악성 VS Code 확장 공급망 흐름"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 이건 "확장 하나 잘못 깔았다"로 끝낼 사건이 아니다. 개발자가 매일 쓰는 에디터, 자동 업데이트, GitHub CLI 토큰, CI 캐시, OIDC publish가 한 줄로 연결될 때 어떤 일이 생기는지 보여준 사례에 가깝다.
 
@@ -89,7 +102,20 @@ rg 'ghp_|gho_|ghs_|github_pat_' ~/.config/gh ~/.git-credentials ~/.npmrc .env .g
 
 명령 자체보다 중요한 건 권한 목록이다. 토큰이 어떤 org에 닿는지, repo scope가 과한지, Actions workflow나 package publish 권한이 같이 붙어 있는지 봐야 한다. 평소에는 편한 토큰 하나가 사고 때는 blast radius가 된다.
 
-![Nx Console 악성 확장이 개발자 토큰을 훑는 구조](/static/img/posts/github-vscode-extension-breach/github-vscode-extension-breach-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/github-vscode-extension-breach/github-vscode-extension-breach-2-400.webp 400w,
+            /static/img/posts/github-vscode-extension-breach/github-vscode-extension-breach-2-800.webp 800w,
+            /static/img/posts/github-vscode-extension-breach/github-vscode-extension-breach-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/github-vscode-extension-breach/github-vscode-extension-breach-2.webp"
+    alt="Nx Console 악성 확장이 개발자 토큰을 훑는 구조"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 그리고 이건 개인 머신만의 문제가 아니다. 원격 개발 환경, Codespaces류 환경, 사내 devbox, CI runner도 같은 방식으로 봐야 한다. 사람이 쓰는 머신과 자동화가 쓰는 머신의 경계가 흐려졌기 때문이다.
 
