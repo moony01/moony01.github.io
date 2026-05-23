@@ -5,7 +5,7 @@ description: "Gemini CLI가 Antigravity CLI로 옮겨가는 이유와 6월 18일
 date: 2026-05-23 14:02:12 +0900
 categories: [ai]
 tags: [GeminiCLI, Antigravity, AI코딩, 개발자도구, CLI전환]
-image: gemini-cli-antigravity-migration/gemini-cli-antigravity-migration-1.png
+image: gemini-cli-antigravity-migration/gemini-cli-antigravity-migration-1.webp
 lang: ko
 published: true
 ---
@@ -14,7 +14,20 @@ Gemini CLI 전환은 그냥 명령어 이름이 바뀌는 일이 아니다. Goog
 
 처음 이 소식을 봤을 때는 "또 Google 제품 정리인가" 싶었다. 그런데 [공식 전환 공지](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/)와 [I/O 2026 개발자 발표](https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-developer-highlights/)를 같이 읽어보니 결이 조금 달랐다. Gemini CLI는 사라지는 장난감이 아니라, Antigravity라는 더 큰 실행면에 흡수되는 중이다. 좋게 보면 통합이고, 불편하게 보면 선택지가 줄어드는 방향이다.
 
-![Gemini CLI 전환과 Antigravity CLI 작업 흐름](/static/img/posts/gemini-cli-antigravity-migration/gemini-cli-antigravity-migration-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/gemini-cli-antigravity-migration/gemini-cli-antigravity-migration-1-400.webp 400w,
+            /static/img/posts/gemini-cli-antigravity-migration/gemini-cli-antigravity-migration-1-800.webp 800w,
+            /static/img/posts/gemini-cli-antigravity-migration/gemini-cli-antigravity-migration-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/gemini-cli-antigravity-migration/gemini-cli-antigravity-migration-1.webp"
+    alt="Gemini CLI 전환과 Antigravity CLI 작업 흐름"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 이전에 [Gemini 3.5 Flash와 AI 코딩 에이전트 전략](/ai/2026/05/21/gemini-agentic-coding-shift.html)을 보면서 모델보다 실행 환경이 중요해졌다고 썼는데, 이번 Gemini CLI 전환은 그 얘기의 꽤 현실적인 후속편처럼 보인다. 이제 질문은 "어느 모델이 더 똑똑한가"보다 "내 터미널에서 돌던 자동화가 내일도 같은 방식으로 돌 수 있는가"에 가깝다.
 
@@ -74,7 +87,20 @@ CLI 전환에서 사람들이 제일 싫어하는 건 대개 대단한 기능 �
 
 특히 AI 코딩 도구는 일반 CLI보다 더 복잡하다. 프롬프트 템플릿, 권한 승인 방식, 컨텍스트 파일, 프로젝트별 지침, 모델 선택, 토큰 제한, 도구 호출 로그가 다 엮인다. 회사에서 이미 Gemini CLI를 실험 자동화나 코드 리뷰 보조로 붙여놨다면, 전환 작업은 단순 설치 변경이 아니다.
 
-![Antigravity CLI 다중 에이전트 실행 구조](/static/img/posts/gemini-cli-antigravity-migration/gemini-cli-antigravity-migration-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/gemini-cli-antigravity-migration/gemini-cli-antigravity-migration-2-400.webp 400w,
+            /static/img/posts/gemini-cli-antigravity-migration/gemini-cli-antigravity-migration-2-800.webp 800w,
+            /static/img/posts/gemini-cli-antigravity-migration/gemini-cli-antigravity-migration-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/gemini-cli-antigravity-migration/gemini-cli-antigravity-migration-2.webp"
+    alt="Antigravity CLI 다중 에이전트 실행 구조"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 나는 이런 전환을 볼 때 항상 작은 파일부터 본다. `README`보다 `package.json`, `.github/workflows`, `Makefile`, 사내 bootstrap script가 먼저다. 사람이 직접 치는 명령은 금방 고치지만, 자동화 속에 숨어 있는 명령은 배포 직전에 터진다.
 
