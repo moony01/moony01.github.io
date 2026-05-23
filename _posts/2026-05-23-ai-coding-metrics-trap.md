@@ -5,7 +5,7 @@ description: "AI 코딩 성과 지표가 왜 개발팀을 속일 수 있는지 H
 date: 2026-05-23 15:02:33 +0900
 categories: [ai]
 tags: [AI코딩, 개발생산성, 성과지표, 코드리뷰, 개발팀운영]
-image: ai-coding-metrics-trap/ai-coding-metrics-trap-1.png
+image: ai-coding-metrics-trap/ai-coding-metrics-trap-1.webp
 lang: ko
 published: true
 ---
@@ -20,7 +20,20 @@ AI 코딩 성과 지표를 볼 때 요즘 제일 찝찝한 건 숫자가 좋아 
 
 그래서 이번 글은 도구 추천이 아니다. AI 코딩 성과 지표를 팀에서 어떻게 덜 위험하게 볼지에 대한 정리다. 특히 [Gemini CLI 전환과 Antigravity CLI](/ai/2026/05/23/gemini-cli-antigravity-migration.html)처럼 에이전트형 도구가 터미널과 CI에 더 깊게 들어오는 흐름에서는, "빨라졌다"는 말만으로는 부족하다.
 
-![AI 코딩 성과 지표가 코드 리뷰와 검증 시간을 가리는 장면](/static/img/posts/ai-coding-metrics-trap/ai-coding-metrics-trap-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/ai-coding-metrics-trap/ai-coding-metrics-trap-1-400.webp 400w,
+            /static/img/posts/ai-coding-metrics-trap/ai-coding-metrics-trap-1-800.webp 800w,
+            /static/img/posts/ai-coding-metrics-trap/ai-coding-metrics-trap-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/ai-coding-metrics-trap/ai-coding-metrics-trap-1.webp"
+    alt="AI 코딩 성과 지표가 코드 리뷰와 검증 시간을 가리는 장면"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## AI 코딩 성과 지표가 흔들리는 이유
 
@@ -68,7 +81,20 @@ AI 도구를 쓰면 일이 덜 힘들게 느껴질 때가 많다. 빈 파일 앞
 
 [AI 코딩 생산성에 대한 arXiv 메타분석](https://arxiv.org/abs/2605.04779)은 전체적으로는 적당한 생산성 개선을 보지만, 효과가 맥락에 크게 의존한다고 정리한다. 또 [개발자 관점의 생산성 측정 연구](https://arxiv.org/abs/2602.03593)는 단기 속도뿐 아니라 기술 숙련, 업무 소유감, 장기 유지보수 같은 요소를 같이 봐야 한다고 말한다.
 
-![AI 코딩 생산성 측정에서 숨은 검증 비용을 분리한 흐름](/static/img/posts/ai-coding-metrics-trap/ai-coding-metrics-trap-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/ai-coding-metrics-trap/ai-coding-metrics-trap-2-400.webp 400w,
+            /static/img/posts/ai-coding-metrics-trap/ai-coding-metrics-trap-2-800.webp 800w,
+            /static/img/posts/ai-coding-metrics-trap/ai-coding-metrics-trap-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/ai-coding-metrics-trap/ai-coding-metrics-trap-2.webp"
+    alt="AI 코딩 생산성 측정에서 숨은 검증 비용을 분리한 흐름"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 팀에서 바로 바꿔야 할 측정 방식
 
