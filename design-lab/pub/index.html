@@ -1,0 +1,1149 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="../../static/img/favicon.ico">
+  <title>Moony01 Studio Products + Portfolio Design Gate</title>
+  <style>
+    :root {
+      --paper: #f6f3ec;
+      --paper-light: #fffdf8;
+      --paper-soft: #f0ece2;
+      --ink: #171b22;
+      --graphite: #3f4753;
+      --muted: #747d89;
+      --line: #d9d4ca;
+      --line-strong: #bdb6aa;
+      --blue: #1f5eff;
+      --blue-deep: #163f9f;
+      --blue-wash: #e8efff;
+      --success: #1c7c54;
+      --warning: #b26b00;
+      --danger: #b42318;
+      --white: #fff;
+      --shadow-sm: 0 8px 24px rgba(23, 27, 34, 0.06);
+      --shadow-md: 0 18px 48px rgba(23, 27, 34, 0.1);
+      --radius-sm: 6px;
+      --radius-md: 8px;
+      --radius-lg: 12px;
+      --content: 1180px;
+      --ease: cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background:
+        linear-gradient(90deg, rgba(31, 94, 255, 0.035) 1px, transparent 1px),
+        linear-gradient(180deg, rgba(31, 94, 255, 0.03) 1px, transparent 1px),
+        var(--paper);
+      background-size: 40px 40px;
+      color: var(--ink);
+      font-family: "Pretendard Variable", Pretendard, "Apple SD Gothic Neo", system-ui, sans-serif;
+      font-size: 17px;
+      line-height: 1.72;
+      word-break: keep-all;
+      letter-spacing: 0;
+      overflow-x: hidden;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img,
+    svg {
+      display: block;
+      max-width: 100%;
+    }
+
+    button,
+    a {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    a:focus-visible,
+    button:focus-visible {
+      outline: 3px solid var(--blue);
+      outline-offset: 3px;
+    }
+
+    .site-shell {
+      min-height: 100vh;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid rgba(217, 212, 202, 0.88);
+      background: rgba(246, 243, 236, 0.92);
+      backdrop-filter: blur(14px);
+    }
+
+    .topbar__inner {
+      width: min(100%, var(--content));
+      margin: 0 auto;
+      padding: 14px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 44px;
+      font-weight: 800;
+      color: var(--ink);
+    }
+
+    .brand img {
+      width: 34px;
+      height: 34px;
+      border-radius: 8px;
+    }
+
+    .nav-pills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+
+    .nav-pills a {
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      padding: 9px 14px;
+      border: 1px solid transparent;
+      border-radius: var(--radius-md);
+      color: var(--graphite);
+      font-size: 14px;
+      font-weight: 750;
+      transition: border-color 220ms var(--ease), background-color 220ms var(--ease), color 220ms var(--ease);
+    }
+
+    .nav-pills a:hover {
+      color: var(--blue-deep);
+      border-color: var(--line);
+      background: var(--paper-light);
+    }
+
+    .page-band {
+      padding: 80px 28px;
+    }
+
+    .page-band--portfolio {
+      padding-top: 88px;
+      border-top: 1px solid var(--line);
+      background:
+        linear-gradient(180deg, rgba(255, 253, 248, 0.86), rgba(246, 243, 236, 0.96)),
+        var(--paper);
+    }
+
+    .container {
+      width: min(100%, var(--content));
+      margin: 0 auto;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.02fr) minmax(320px, 0.78fr);
+      gap: 48px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 32px;
+      margin-bottom: 18px;
+      color: var(--blue-deep);
+      font-size: 13px;
+      font-weight: 850;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      border: 2px solid var(--blue);
+      border-radius: 50%;
+      background: var(--paper-light);
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin-top: 0;
+    }
+
+    .hero-title {
+      margin-bottom: 22px;
+      font-size: 52px;
+      line-height: 1.08;
+      font-weight: 850;
+      color: var(--ink);
+    }
+
+    .hero-copy {
+      max-width: 660px;
+      margin-bottom: 30px;
+      color: var(--graphite);
+      font-size: 19px;
+      line-height: 1.74;
+    }
+
+    .action-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .button {
+      min-height: 48px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      padding: 12px 18px;
+      border-radius: var(--radius-md);
+      font-size: 15px;
+      font-weight: 800;
+      transition: transform 220ms var(--ease), background-color 220ms var(--ease), border-color 220ms var(--ease), color 220ms var(--ease);
+    }
+
+    .button:hover {
+      transform: translateY(-1px);
+    }
+
+    .button--primary {
+      background: var(--blue);
+      color: var(--white);
+      box-shadow: 0 14px 30px rgba(31, 94, 255, 0.22);
+    }
+
+    .button--primary:hover {
+      background: var(--blue-deep);
+    }
+
+    .button--secondary {
+      border: 1px solid var(--line-strong);
+      background: var(--paper-light);
+      color: var(--ink);
+    }
+
+    .button--secondary:hover {
+      border-color: var(--blue);
+      color: var(--blue-deep);
+    }
+
+    .button svg {
+      width: 18px;
+      height: 18px;
+      stroke-width: 1.8;
+    }
+
+    .product-feature {
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      background: var(--paper-light);
+      box-shadow: var(--shadow-md);
+      overflow: hidden;
+    }
+
+    .feature-media {
+      min-height: 240px;
+      position: relative;
+      display: grid;
+      place-items: center;
+      padding: 34px;
+      background:
+        linear-gradient(135deg, rgba(31, 94, 255, 0.14), rgba(255, 253, 248, 0.64)),
+        url("../../static/img/banner-kpopface.jpg") center / cover;
+      isolation: isolate;
+    }
+
+    .feature-media::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(255, 253, 248, 0.7);
+      z-index: -1;
+    }
+
+    .feature-logo {
+      width: 104px;
+      height: 104px;
+      display: grid;
+      place-items: center;
+      border: 1px solid rgba(31, 94, 255, 0.24);
+      border-radius: 22px;
+      background: rgba(255, 253, 248, 0.9);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .feature-logo img {
+      width: 72px;
+      height: 72px;
+    }
+
+    .feature-body {
+      padding: 26px;
+    }
+
+    .feature-body h2 {
+      margin-bottom: 10px;
+      font-size: 28px;
+      line-height: 1.18;
+    }
+
+    .feature-body p {
+      margin-bottom: 18px;
+      color: var(--graphite);
+    }
+
+    .metric-strip {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      border-top: 1px solid var(--line);
+      background: var(--paper-soft);
+    }
+
+    .metric {
+      padding: 16px;
+      border-right: 1px solid var(--line);
+    }
+
+    .metric:last-child {
+      border-right: 0;
+    }
+
+    .metric strong {
+      display: block;
+      color: var(--ink);
+      font-size: 16px;
+      line-height: 1.2;
+    }
+
+    .metric span {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(280px, 0.52fr);
+      gap: 32px;
+      align-items: end;
+      margin-bottom: 30px;
+    }
+
+    .section-head h2 {
+      margin-bottom: 0;
+      font-size: 34px;
+      line-height: 1.18;
+      font-weight: 850;
+    }
+
+    .section-head p {
+      margin-bottom: 0;
+      color: var(--graphite);
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .product-card {
+      min-height: 188px;
+      display: grid;
+      grid-template-columns: 82px minmax(0, 1fr);
+      gap: 18px;
+      align-items: start;
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      background: rgba(255, 253, 248, 0.88);
+      box-shadow: var(--shadow-sm);
+      transition: transform 220ms var(--ease), border-color 220ms var(--ease), box-shadow 220ms var(--ease);
+    }
+
+    .product-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(31, 94, 255, 0.38);
+      box-shadow: var(--shadow-md);
+    }
+
+    .product-card--wide {
+      grid-column: 1 / -1;
+    }
+
+    .product-thumb {
+      width: 82px;
+      height: 82px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      background:
+        linear-gradient(135deg, var(--paper-light), var(--blue-wash));
+      color: var(--blue-deep);
+      font-weight: 900;
+      font-size: 25px;
+    }
+
+    .product-thumb img {
+      width: 56px;
+      height: 56px;
+      object-fit: contain;
+    }
+
+    .product-card h3 {
+      margin-bottom: 6px;
+      font-size: 21px;
+      line-height: 1.28;
+      font-weight: 800;
+    }
+
+    .product-card p {
+      margin-bottom: 16px;
+      color: var(--graphite);
+      font-size: 15px;
+      line-height: 1.62;
+    }
+
+    .card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .chip {
+      min-height: 32px;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 6px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--paper-light);
+      color: var(--graphite);
+      font-size: 13px;
+      font-weight: 750;
+    }
+
+    .chip::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--blue);
+    }
+
+    .chip--success::before {
+      background: var(--success);
+    }
+
+    .chip--warning::before {
+      background: var(--warning);
+    }
+
+    .studio-note {
+      margin-top: 28px;
+      padding: 22px 24px;
+      border-left: 4px solid var(--blue);
+      background: rgba(232, 239, 255, 0.62);
+      color: var(--graphite);
+    }
+
+    .portfolio-hero {
+      display: grid;
+      grid-template-columns: minmax(0, 0.88fr) minmax(340px, 0.72fr);
+      gap: 44px;
+      align-items: stretch;
+      margin-bottom: 52px;
+    }
+
+    .proof-panel {
+      border: 1px solid rgba(31, 94, 255, 0.28);
+      border-radius: var(--radius-lg);
+      background: var(--paper-light);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+    }
+
+    .proof-panel__top {
+      padding: 20px 22px;
+      border-bottom: 1px solid var(--line);
+      background: var(--blue-wash);
+      font-weight: 850;
+    }
+
+    .proof-list {
+      margin: 0;
+      padding: 8px 22px 22px;
+      list-style: none;
+    }
+
+    .proof-list li {
+      display: grid;
+      grid-template-columns: 18px minmax(0, 1fr);
+      gap: 10px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--line);
+      color: var(--graphite);
+      font-size: 15px;
+    }
+
+    .proof-list li:last-child {
+      border-bottom: 0;
+    }
+
+    .proof-list svg {
+      width: 18px;
+      height: 18px;
+      margin-top: 4px;
+      color: var(--blue);
+      stroke-width: 1.9;
+    }
+
+    .case-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .case-card {
+      display: grid;
+      gap: 18px;
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      background: var(--paper-light);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .case-card h3 {
+      margin-bottom: 8px;
+      font-size: 22px;
+      line-height: 1.28;
+      font-weight: 850;
+    }
+
+    .case-card p {
+      margin-bottom: 0;
+      color: var(--graphite);
+      font-size: 15px;
+      line-height: 1.64;
+    }
+
+    .case-kicker {
+      color: var(--blue-deep);
+      font-size: 13px;
+      font-weight: 850;
+    }
+
+    .case-body {
+      display: grid;
+      gap: 14px;
+    }
+
+    .scope-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .architecture {
+      min-height: 128px;
+      padding: 14px;
+      border: 1px solid rgba(31, 94, 255, 0.24);
+      border-radius: var(--radius-md);
+      background:
+        linear-gradient(90deg, rgba(31, 94, 255, 0.08) 1px, transparent 1px),
+        linear-gradient(180deg, rgba(31, 94, 255, 0.08) 1px, transparent 1px),
+        #f8fbff;
+      background-size: 18px 18px;
+    }
+
+    .flow {
+      height: 100%;
+      display: grid;
+      grid-template-columns: 1fr 24px 1fr 24px 1fr;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .flow-box {
+      min-height: 60px;
+      display: grid;
+      place-items: center;
+      padding: 10px;
+      border: 1px solid rgba(31, 94, 255, 0.32);
+      border-radius: var(--radius-sm);
+      background: rgba(255, 253, 248, 0.92);
+      color: var(--blue-deep);
+      text-align: center;
+      font-size: 12px;
+      font-weight: 850;
+      line-height: 1.35;
+    }
+
+    .flow-arrow {
+      color: var(--blue);
+      text-align: center;
+      font-weight: 900;
+    }
+
+    .evidence-row {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .evidence {
+      min-height: 56px;
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      background: var(--paper);
+    }
+
+    .evidence span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 750;
+    }
+
+    .evidence strong {
+      display: block;
+      color: var(--ink);
+      font-size: 14px;
+      line-height: 1.35;
+    }
+
+    .detail-template {
+      margin-top: 42px;
+      border-top: 1px solid var(--line);
+      padding-top: 34px;
+    }
+
+    .template-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .template-step {
+      min-height: 118px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      background: rgba(255, 253, 248, 0.82);
+    }
+
+    .template-step span {
+      display: block;
+      margin-bottom: 10px;
+      color: var(--blue-deep);
+      font-size: 13px;
+      font-weight: 850;
+    }
+
+    .template-step strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 16px;
+      line-height: 1.3;
+    }
+
+    .template-step p {
+      margin: 0;
+      color: var(--graphite);
+      font-size: 13px;
+      line-height: 1.52;
+    }
+
+    .footer-note {
+      padding: 40px 28px 56px;
+      border-top: 1px solid var(--line);
+      background: var(--ink);
+      color: rgba(255, 255, 255, 0.82);
+    }
+
+    .footer-note .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 18px;
+      align-items: center;
+    }
+
+    .footer-note strong {
+      color: var(--white);
+    }
+
+    .footer-note p {
+      margin: 0;
+    }
+
+    .footer-note a {
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      color: var(--white);
+      font-weight: 800;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.42);
+    }
+
+    @media (max-width: 980px) {
+      .hero-grid,
+      .portfolio-hero,
+      .section-head {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-title {
+        font-size: 42px;
+      }
+
+      .case-grid,
+      .product-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .template-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 640px) {
+      body {
+        font-size: 16px;
+      }
+
+      .topbar__inner {
+        padding: 12px 20px;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .nav-pills {
+        width: 100%;
+        justify-content: flex-start;
+      }
+
+      .nav-pills a {
+        flex: 1 1 auto;
+        justify-content: center;
+        padding-inline: 10px;
+      }
+
+      .page-band {
+        padding: 58px 20px;
+      }
+
+      .page-band--portfolio {
+        padding-top: 64px;
+      }
+
+      .hero-title {
+        font-size: 36px;
+        line-height: 1.12;
+      }
+
+      .hero-copy {
+        font-size: 16px;
+      }
+
+      .feature-media {
+        min-height: 190px;
+      }
+
+      .feature-body {
+        padding: 22px;
+      }
+
+      .feature-body h2,
+      .section-head h2 {
+        font-size: 27px;
+      }
+
+      .metric-strip {
+        grid-template-columns: 1fr;
+      }
+
+      .metric {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .metric:last-child {
+        border-bottom: 0;
+      }
+
+      .product-card {
+        grid-template-columns: 64px minmax(0, 1fr);
+        gap: 14px;
+        padding: 18px;
+      }
+
+      .product-thumb {
+        width: 64px;
+        height: 64px;
+        font-size: 20px;
+      }
+
+      .product-thumb img {
+        width: 44px;
+        height: 44px;
+      }
+
+      .product-card h3,
+      .case-card h3 {
+        font-size: 19px;
+      }
+
+      .case-card {
+        padding: 20px;
+      }
+
+      .flow {
+        grid-template-columns: 1fr;
+      }
+
+      .flow-arrow {
+        transform: rotate(90deg);
+      }
+
+      .evidence-row,
+      .template-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .template-step {
+        min-height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar" aria-label="Design gate navigation">
+      <div class="topbar__inner">
+        <a class="brand" href="#products-page">
+          <img src="../../static/img/blog-logo.svg" alt="Moony01 Studio">
+          <span>Moony01 Studio</span>
+        </a>
+        <nav class="nav-pills" aria-label="Mock sections">
+          <a href="#products-page">Products</a>
+          <a href="#portfolio-page">Portfolio</a>
+          <a href="#case-template">Case Template</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-band" id="products-page" aria-labelledby="products-title">
+        <div class="container">
+          <div class="hero-grid">
+            <div>
+              <span class="eyebrow">Products page proposal</span>
+              <h1 class="hero-title" id="products-title">바로 눌러보는 테스트 제품을 한곳에 모았습니다.</h1>
+              <p class="hero-copy">K-POP 얼굴상부터 두뇌 유형까지, Moony01 Studio의 실험형 제품을 목적별로 빠르게 탐색합니다. 홈의 Products 섹션보다 더 큰 썸네일, 더 명확한 설명, 더 안전한 이동 동선을 제공합니다.</p>
+              <div class="action-row" aria-label="Products actions">
+                <a class="button button--primary" href="/kpopface/" target="_blank" rel="noopener noreferrer">
+                  <span>K-Pop Face Test 시작</span>
+                  <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+                </a>
+                <a class="button button--secondary" href="#portfolio-page">
+                  <span>구축 사례 보기</span>
+                </a>
+              </div>
+            </div>
+
+            <aside class="product-feature" aria-label="Featured product">
+              <div class="feature-media">
+                <div class="feature-logo">
+                  <img src="../../static/img/kft-logo.svg" alt="K-Pop Face Test logo">
+                </div>
+              </div>
+              <div class="feature-body">
+                <h2>K-Pop Face Test</h2>
+                <p>사진 한 장으로 닮은 K-POP 얼굴상과 분위기 키워드를 확인하는 대표 테스트입니다.</p>
+                <div class="action-row">
+                  <span class="chip chip--success">대표 제품</span>
+                  <span class="chip">AI 분석형 테스트</span>
+                </div>
+              </div>
+              <div class="metric-strip" aria-label="Product strengths">
+                <div class="metric"><strong>1분 이내</strong><span>짧은 참여 흐름</span></div>
+                <div class="metric"><strong>공유형 결과</strong><span>SNS 확산 구조</span></div>
+                <div class="metric"><strong>모바일 우선</strong><span>터치 기반 UX</span></div>
+              </div>
+            </aside>
+          </div>
+
+          <div class="section-head" style="margin-top:72px">
+            <h2>제품별로 다른 궁금증을 분리해서 보여줍니다.</h2>
+            <p>리스트는 큰 배너 반복이 아니라 스캔 가능한 카드 구조로 둡니다. 각 제품은 썸네일, 한 줄 약속, 상태 칩, 이동 목적을 갖습니다.</p>
+          </div>
+
+          <div class="product-grid" aria-label="Products catalog">
+            <a class="product-card" href="/kpopface/" target="_blank" rel="noopener noreferrer">
+              <div class="product-thumb"><img src="../../static/img/kft-logo.svg" alt=""></div>
+              <div>
+                <h3>K-Pop Face Test</h3>
+                <p>나의 얼굴 분위기를 K-POP 스타일 키워드로 풀어주는 대표 얼굴상 테스트입니다.</p>
+                <div class="card-meta">
+                  <span class="chip chip--success">Live</span>
+                  <span class="chip">얼굴상</span>
+                </div>
+              </div>
+            </a>
+
+            <a class="product-card" href="https://kclhq.com/" target="_blank" rel="noopener noreferrer">
+              <div class="product-thumb"><img src="../../static/img/kcl-logo.svg" alt=""></div>
+              <div>
+                <h3>K-Pop Company League</h3>
+                <p>케이팝 기획사와 팬덤 흐름을 리그처럼 비교하며 보는 랭킹형 제품입니다.</p>
+                <div class="card-meta">
+                  <span class="chip chip--success">External</span>
+                  <span class="chip">랭킹</span>
+                </div>
+              </div>
+            </a>
+
+            <a class="product-card" href="/mentalage/" target="_blank" rel="noopener noreferrer">
+              <div class="product-thumb" aria-hidden="true">MA</div>
+              <div>
+                <h3>Mental Age Test</h3>
+                <p>짧은 선택 문항으로 내 사고방식이 어느 나이대에 가까운지 확인합니다.</p>
+                <div class="card-meta">
+                  <span class="chip chip--success">Live</span>
+                  <span class="chip">심리 테스트</span>
+                </div>
+              </div>
+            </a>
+
+            <a class="product-card" href="/sanggyeonrye-test/" target="_blank" rel="noopener noreferrer">
+              <div class="product-thumb"><img src="../../static/img/sgt-logo.svg" alt=""></div>
+              <div>
+                <h3>상견례 얼굴상 테스트</h3>
+                <p>첫인상과 신뢰감을 상견례 상황에 맞춰 재미있게 해석하는 얼굴상 테스트입니다.</p>
+                <div class="card-meta">
+                  <span class="chip chip--success">Live</span>
+                  <span class="chip">첫인상</span>
+                </div>
+              </div>
+            </a>
+
+            <a class="product-card product-card--wide" href="/braintype/" target="_blank" rel="noopener noreferrer">
+              <div class="product-thumb" aria-hidden="true">BT</div>
+              <div>
+                <h3>Brain Type Test</h3>
+                <p>문제 해결 방식과 선호 패턴을 바탕으로 두뇌 성향을 가볍게 분류합니다.</p>
+                <div class="card-meta">
+                  <span class="chip chip--success">Live</span>
+                  <span class="chip">성향 분석</span>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <p class="studio-note">Production 구현 시 홈 Products 섹션은 요약 상태로 유지하고, 더 자세한 비교와 탐색은 `/products/`에서 담당합니다.</p>
+        </div>
+      </section>
+
+      <section class="page-band page-band--portfolio" id="portfolio-page" aria-labelledby="portfolio-title">
+        <div class="container">
+          <div class="portfolio-hero">
+            <div>
+              <span class="eyebrow">Portfolio hub proposal</span>
+              <h1 class="hero-title" id="portfolio-title">구축 사례는 과장보다 범위와 증거가 먼저 보이게 합니다.</h1>
+              <p class="hero-copy">`/portfolio/`는 얇은 허브입니다. 전체 상세 페이지를 흉내 내지 않고 대표 사례 4개를 problem, scope, architecture, evidence 단위로 압축해서 보여줍니다.</p>
+              <div class="action-row">
+                <a class="button button--primary" href="#case-template">
+                  <span>상세 템플릿 구조 확인</span>
+                  <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h10"/></svg>
+                </a>
+                <a class="button button--secondary" href="#products-page">제품 페이지로 돌아가기</a>
+              </div>
+            </div>
+
+            <aside class="proof-panel" aria-label="Portfolio trust model">
+              <div class="proof-panel__top">Portfolio trust model</div>
+              <ul class="proof-list">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+                  <span>실제 구현 범위를 먼저 쓰고, 역할과 산출물을 분리합니다.</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+                  <span>운영 화면, 워크플로우, 앱 화면은 민감 정보 마스킹 상태를 함께 표시합니다.</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
+                  <span>아키텍처는 장식이 아니라 입력, 처리, 출력 관계를 보여주는 슬롯으로 둡니다.</span>
+                </li>
+              </ul>
+            </aside>
+          </div>
+
+          <div class="case-grid" aria-label="Representative portfolio cases">
+            <article class="case-card">
+              <div class="case-body">
+                <span class="case-kicker">Ops System</span>
+                <h3>PLOZEN Multi-Agent 운영환경</h3>
+                <p>에이전트별 역할, 권한 흐름, Discord 보고, 작업 상태 기록을 묶은 내부 운영 환경입니다.</p>
+                <div class="scope-row">
+                  <span class="chip">Agent routing</span>
+                  <span class="chip">Discord relay</span>
+                  <span class="chip">Vault 기록</span>
+                </div>
+              </div>
+              <div class="architecture" aria-label="Architecture diagram">
+                <div class="flow">
+                  <div class="flow-box">Task Intake</div><div class="flow-arrow">→</div><div class="flow-box">Agent Roles</div><div class="flow-arrow">→</div><div class="flow-box">Report Log</div>
+                </div>
+              </div>
+              <div class="evidence-row">
+                <div class="evidence"><span>Evidence</span><strong>운영 로그와 세션 기록 기반</strong></div>
+                <div class="evidence"><span>Mask check</span><strong>Bot ID와 채널 공개 범위 점검</strong></div>
+              </div>
+            </article>
+
+            <article class="case-card">
+              <div class="case-body">
+                <span class="case-kicker">Mobile + Admin MVP</span>
+                <h3>전북청년마을 앱·관리자웹 MVP</h3>
+                <p>참여자 앱 화면과 운영자 관리 웹을 MVP 범위로 정리한 지역 커뮤니티 서비스 구축 사례입니다.</p>
+                <div class="scope-row">
+                  <span class="chip">앱 화면</span>
+                  <span class="chip">관리자웹</span>
+                  <span class="chip">MVP 설계</span>
+                </div>
+              </div>
+              <div class="architecture" aria-label="Architecture diagram">
+                <div class="flow">
+                  <div class="flow-box">User App</div><div class="flow-arrow">→</div><div class="flow-box">Program Data</div><div class="flow-arrow">→</div><div class="flow-box">Admin Web</div>
+                </div>
+              </div>
+              <div class="evidence-row">
+                <div class="evidence"><span>Evidence</span><strong>화면 구조와 관리자 흐름 정리</strong></div>
+                <div class="evidence"><span>Mask check</span><strong>개인정보와 지역 운영정보 제외</strong></div>
+              </div>
+            </article>
+
+            <article class="case-card">
+              <div class="case-body">
+                <span class="case-kicker">Consumer AI Product</span>
+                <h3>K-POP AI 얼굴상 테스트</h3>
+                <p>사진 기반 분석 흐름, 결과 공유, 모바일 진입 장벽을 함께 설계한 소비자 테스트 제품입니다.</p>
+                <div class="scope-row">
+                  <span class="chip">AI UX</span>
+                  <span class="chip">결과 공유</span>
+                  <span class="chip">모바일 퍼널</span>
+                </div>
+              </div>
+              <div class="architecture" aria-label="Architecture diagram">
+                <div class="flow">
+                  <div class="flow-box">Photo Input</div><div class="flow-arrow">→</div><div class="flow-box">Face Match</div><div class="flow-arrow">→</div><div class="flow-box">Share Result</div>
+                </div>
+              </div>
+              <div class="evidence-row">
+                <div class="evidence"><span>Evidence</span><strong>공개 제품 링크와 결과 화면</strong></div>
+                <div class="evidence"><span>Mask check</span><strong>업로드 사진 비노출 원칙</strong></div>
+              </div>
+            </article>
+
+            <article class="case-card">
+              <div class="case-body">
+                <span class="case-kicker">Automation Pack</span>
+                <h3>PLOZEN n8n Workflow Pack</h3>
+                <p>반복 업무를 트리거, 검증, 보고 흐름으로 나눠 재사용 가능한 자동화 팩으로 정리한 사례입니다.</p>
+                <div class="scope-row">
+                  <span class="chip">n8n</span>
+                  <span class="chip">Webhook</span>
+                  <span class="chip">운영 보고</span>
+                </div>
+              </div>
+              <div class="architecture" aria-label="Architecture diagram">
+                <div class="flow">
+                  <div class="flow-box">Trigger</div><div class="flow-arrow">→</div><div class="flow-box">Workflow</div><div class="flow-arrow">→</div><div class="flow-box">Status Report</div>
+                </div>
+              </div>
+              <div class="evidence-row">
+                <div class="evidence"><span>Evidence</span><strong>워크플로우 캡처와 실행 로그</strong></div>
+                <div class="evidence"><span>Mask check</span><strong>Webhook URL과 토큰 제거</strong></div>
+              </div>
+            </article>
+          </div>
+
+          <div class="detail-template" id="case-template">
+            <div class="section-head">
+              <h2>상세 페이지는 같은 템플릿으로만 확장합니다.</h2>
+              <p>지금 단계의 `/portfolio/`는 허브입니다. 상세 페이지를 만들 때는 아래 순서를 고정해 신뢰와 보안 검토를 같이 통과시킵니다.</p>
+            </div>
+            <div class="template-grid" aria-label="Case detail template">
+              <div class="template-step">
+                <span>01</span>
+                <strong>Intro</strong>
+                <p>프로젝트 한 줄 정의, 역할, 기간 범위를 먼저 제시합니다.</p>
+              </div>
+              <div class="template-step">
+                <span>02</span>
+                <strong>Problem</strong>
+                <p>왜 만들었는지, 어떤 병목이나 불신을 줄였는지 설명합니다.</p>
+              </div>
+              <div class="template-step">
+                <span>03</span>
+                <strong>Scope & Build</strong>
+                <p>구현한 것과 구현하지 않은 것을 분리해서 적습니다.</p>
+              </div>
+              <div class="template-step">
+                <span>04</span>
+                <strong>Architecture</strong>
+                <p>입력, 처리, 출력, 운영 경계를 blueprint 슬롯으로 보여줍니다.</p>
+              </div>
+              <div class="template-step">
+                <span>05</span>
+                <strong>Evidence + Mask</strong>
+                <p>캡처, 로그, 링크를 민감 정보 제거 상태와 함께 제시합니다.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-note">
+      <div class="container">
+        <p><strong>Design gate note:</strong> 실제 production 구현 전 산출물입니다. Jekyll 파일, CSS, footer include는 아직 수정하지 않았습니다.</p>
+        <a href="#products-page">맨 위로 이동</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
