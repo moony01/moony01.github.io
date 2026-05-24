@@ -5,7 +5,7 @@ description: "Zero 언어가 AI 에이전트용 컴파일러에서 JSON 진단, 
 date: 2026-05-24 15:02:10 +0900
 categories: [ai]
 tags: [Zero언어, AI에이전트, 컴파일러, 개발자도구, VercelLabs]
-image: zero-agent-language-compiler/zero-agent-language-compiler-1.png
+image: zero-agent-language-compiler/zero-agent-language-compiler-1.webp
 lang: ko
 published: true
 ---
@@ -18,7 +18,20 @@ Zero 언어를 처음 봤을 때 든 생각은 "또 하나의 새 언어인가?"
 
 최근에 [Gemini CLI 전환과 Antigravity 2.0](/ai/2026/05/23/gemini-cli-antigravity-migration.html)을 보면서도 비슷한 생각을 했다. 개발 도구의 주 사용자가 사람 한 명에서 사람과 에이전트의 묶음으로 바뀌면, 터미널과 IDE만 바꾸는 걸로는 부족하다. 컴파일러, 문서, 에러 메시지, 권한 모델까지 같이 바뀌어야 한다.
 
-![Zero 언어가 AI 에이전트에게 구조화된 컴파일러 피드백을 주는 장면](/static/img/posts/zero-agent-language-compiler/zero-agent-language-compiler-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/zero-agent-language-compiler/zero-agent-language-compiler-1-400.webp 400w,
+            /static/img/posts/zero-agent-language-compiler/zero-agent-language-compiler-1-800.webp 800w,
+            /static/img/posts/zero-agent-language-compiler/zero-agent-language-compiler-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/zero-agent-language-compiler/zero-agent-language-compiler-1.webp"
+    alt="Zero 언어가 AI 에이전트에게 구조화된 컴파일러 피드백을 주는 장면"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## Zero 언어가 건드린 지점
 
@@ -85,7 +98,20 @@ Zero에서 의외로 마음에 들었던 건 `zero skills` 쪽이다. 컴파일�
 
 그래서 앞으로 좋은 개발 도구는 "공식 문서가 웹에 있다"에서 멈추지 않을 것 같다. 로컬에 설치된 버전이 자기 사용법을 기계가 읽기 좋은 형태로 내보내고, 에이전트가 그걸 먼저 읽는 구조가 필요하다. 이건 Zero 자체보다 더 오래 남을 아이디어일 수 있다.
 
-![AI 에이전트 컴파일러가 JSON 진단과 수정 계획을 읽는 흐름](/static/img/posts/zero-agent-language-compiler/zero-agent-language-compiler-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/zero-agent-language-compiler/zero-agent-language-compiler-2-400.webp 400w,
+            /static/img/posts/zero-agent-language-compiler/zero-agent-language-compiler-2-800.webp 800w,
+            /static/img/posts/zero-agent-language-compiler/zero-agent-language-compiler-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/zero-agent-language-compiler/zero-agent-language-compiler-2.webp"
+    alt="AI 에이전트 컴파일러가 JSON 진단과 수정 계획을 읽는 흐름"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 회의적으로 봐야 하는 부분
 
