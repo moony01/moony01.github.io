@@ -5,7 +5,7 @@ description: "mimalloc 메모리 할당자가 다시 주목받는 이유와 서�
 date: 2026-05-24 14:02:04 +0900
 categories: [infra]
 tags: [mimalloc, 메모리할당자, 서버성능, 인프라최적화, C런타임]
-image: mimalloc-server-memory-bottleneck/mimalloc-server-memory-bottleneck-1.png
+image: mimalloc-server-memory-bottleneck/mimalloc-server-memory-bottleneck-1.webp
 lang: ko
 published: true
 ---
@@ -18,7 +18,20 @@ mimalloc 메모리 할당자가 다시 눈에 들어왔다. 처음엔 "malloc을
 
 이전에 [Docker 컨테이너 최적화](/infra/2026/01/21/docker-container-optimization.html)를 다룰 때는 이미지 크기와 런타임 보안 쪽을 봤다. 이번엔 조금 더 아래 층이다. 컨테이너 안에서 프로세스가 메모리를 어떻게 잡고, 비우고, 다시 쓰는지의 문제다.
 
-![mimalloc 서버 메모리 병목을 줄이는 할당 흐름](/static/img/posts/mimalloc-server-memory-bottleneck/mimalloc-server-memory-bottleneck-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/mimalloc-server-memory-bottleneck/mimalloc-server-memory-bottleneck-1-400.webp 400w,
+            /static/img/posts/mimalloc-server-memory-bottleneck/mimalloc-server-memory-bottleneck-1-800.webp 800w,
+            /static/img/posts/mimalloc-server-memory-bottleneck/mimalloc-server-memory-bottleneck-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/mimalloc-server-memory-bottleneck/mimalloc-server-memory-bottleneck-1.webp"
+    alt="mimalloc 서버 메모리 병목을 줄이는 할당 흐름"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## mimalloc이 다시 주목받는 이유
 
@@ -86,7 +99,20 @@ allocator 실험에서 제일 싫은 결과는 "느낌상 빨라진 것 같다"�
 
 이 표를 너무 거창하게 만들 필요는 없다. 중요한 건 같은 트래픽, 같은 배포, 같은 warm-up 조건에서 비교하는 것이다. allocator는 초기 구동 직후와 몇 시간 지난 뒤의 모습이 다를 수 있다. 짧은 벤치마크만 보고 결론을 내리면 장기 서비스에서 틀릴 때가 많다.
 
-![mimalloc 도입 전후 메모리 계측 체크포인트](/static/img/posts/mimalloc-server-memory-bottleneck/mimalloc-server-memory-bottleneck-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/mimalloc-server-memory-bottleneck/mimalloc-server-memory-bottleneck-2-400.webp 400w,
+            /static/img/posts/mimalloc-server-memory-bottleneck/mimalloc-server-memory-bottleneck-2-800.webp 800w,
+            /static/img/posts/mimalloc-server-memory-bottleneck/mimalloc-server-memory-bottleneck-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/mimalloc-server-memory-bottleneck/mimalloc-server-memory-bottleneck-2.webp"
+    alt="mimalloc 도입 전후 메모리 계측 체크포인트"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 보안 모드는 보너스지만 만능은 아니다
 
