@@ -5,7 +5,7 @@ description: "Codex 활용 사례 확장이 AI 코딩 에이전트의 업무 범
 date: 2026-05-25 14:02:41 +0900
 categories: [ai]
 tags: [Codex, AI코딩, 코딩에이전트, 개발워크플로우]
-image: codex-use-cases-shift/codex-use-cases-shift-1.png
+image: codex-use-cases-shift/codex-use-cases-shift-1.webp
 lang: ko
 published: true
 ---
@@ -18,7 +18,20 @@ Codex 활용 사례 페이지가 조용히 재미있어졌다. 모델 이름이�
 
 이전에 [Codex Goals와 장기 실행 루프](/ai/2026/05/19/codex-goals-long-running-loop.html)를 보면서도 비슷한 생각을 했다. 오래 가는 목표가 생기면 prompt가 아니라 운영 단위가 중요해진다. 이번 활용 사례 확장은 그 방향을 더 노골적으로 보여준다. Codex에게 맡기는 일이 함수 하나 고치는 수준에서 팀 workflow로 올라오고 있다.
 
-![Codex 활용 사례가 코딩 에이전트 업무 범위를 넓히는 구조](/static/img/posts/codex-use-cases-shift/codex-use-cases-shift-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/codex-use-cases-shift/codex-use-cases-shift-1-400.webp 400w,
+            /static/img/posts/codex-use-cases-shift/codex-use-cases-shift-1-800.webp 800w,
+            /static/img/posts/codex-use-cases-shift/codex-use-cases-shift-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/codex-use-cases-shift/codex-use-cases-shift-1.webp"
+    alt="Codex 활용 사례가 코딩 에이전트 업무 범위를 넓히는 구조"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 활용 사례 확장이 왜 눈에 걸렸나
 
@@ -67,7 +80,20 @@ OpenAI 문서가 Featured로 올린 "Follow a goal"은 이 변화를 잘 보여�
 
 {% include pre-version.html %}
 
-![Codex 코딩 에이전트가 PR 리뷰와 QA 증빙을 묶는 흐름](/static/img/posts/codex-use-cases-shift/codex-use-cases-shift-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/codex-use-cases-shift/codex-use-cases-shift-2-400.webp 400w,
+            /static/img/posts/codex-use-cases-shift/codex-use-cases-shift-2-800.webp 800w,
+            /static/img/posts/codex-use-cases-shift/codex-use-cases-shift-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/codex-use-cases-shift/codex-use-cases-shift-2.webp"
+    alt="Codex 코딩 에이전트가 PR 리뷰와 QA 증빙을 묶는 흐름"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 너무 넓어졌을 때 생기는 문제
 
