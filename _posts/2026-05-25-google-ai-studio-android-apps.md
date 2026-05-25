@@ -5,7 +5,7 @@ description: "Google AI Studio 안드로이드 앱 생성 기능이 Kotlin, Jetp
 date: 2026-05-25 15:02:01 +0900
 categories: [ai]
 tags: [GoogleAIStudio, 안드로이드앱, AI코딩, JetpackCompose, 앱프로토타입]
-image: google-ai-studio-android-apps/google-ai-studio-android-apps-1.png
+image: google-ai-studio-android-apps/google-ai-studio-android-apps-1.webp
 lang: ko
 published: true
 ---
@@ -20,7 +20,20 @@ Google AI Studio 안드로이드 앱 생성 기능은 처음 봤을 때 꽤 애�
 
 이전에 [Gemini 3.5 Flash와 AI 코딩 에이전트 전략](/ai/2026/05/21/gemini-agentic-coding-shift.html)을 보면서 모델보다 실행면이 중요해졌다고 썼다. 이번 Google AI Studio 안드로이드 앱 생성 기능은 그 얘기를 모바일 개발 쪽으로 끌고 온 사례처럼 보인다. 채팅창에서 코드 조각을 받는 게 아니라, 앱이 돌아가는 환경까지 한 화면에 붙인 것이다.
 
-![Google AI Studio 안드로이드 앱 생성 흐름을 보여주는 밝은 작업 화면](/static/img/posts/google-ai-studio-android-apps/google-ai-studio-android-apps-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/google-ai-studio-android-apps/google-ai-studio-android-apps-1-400.webp 400w,
+            /static/img/posts/google-ai-studio-android-apps/google-ai-studio-android-apps-1-800.webp 800w,
+            /static/img/posts/google-ai-studio-android-apps/google-ai-studio-android-apps-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/google-ai-studio-android-apps/google-ai-studio-android-apps-1.webp"
+    alt="Google AI Studio 안드로이드 앱 생성 흐름을 보여주는 밝은 작업 화면"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 프롬프트 앱 생성이 이번엔 조금 다르게 보인다
 
@@ -58,7 +71,20 @@ AI Studio가 브라우저 안에 에뮬레이터를 붙이면 이 마찰이 줄�
 
 다만 여기서부터는 책임도 커진다. 테스트 트랙이라고 해도 앱은 실제 사용자 기기에 설치된다. 권한, 개인정보, 네트워크 호출, third-party SDK, 로그 수집을 대충 넘기면 안 된다. AI가 만들어준 앱이라도 Android 앱은 Android 앱이다. 같은 심사 기준과 같은 보안 기준을 통과해야 한다.
 
-![프롬프트에서 Jetpack Compose 앱과 테스트 트랙으로 이어지는 구조](/static/img/posts/google-ai-studio-android-apps/google-ai-studio-android-apps-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/google-ai-studio-android-apps/google-ai-studio-android-apps-2-400.webp 400w,
+            /static/img/posts/google-ai-studio-android-apps/google-ai-studio-android-apps-2-800.webp 800w,
+            /static/img/posts/google-ai-studio-android-apps/google-ai-studio-android-apps-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/google-ai-studio-android-apps/google-ai-studio-android-apps-2.webp"
+    alt="프롬프트에서 Jetpack Compose 앱과 테스트 트랙으로 이어지는 구조"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
