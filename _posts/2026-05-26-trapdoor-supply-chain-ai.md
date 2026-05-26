@@ -5,7 +5,7 @@ description: "TrapDoor 공급망 공격이 npm, PyPI, Crates.io와 AI 코딩 설
 date: 2026-05-26 14:08:00 +0900
 categories: [security]
 tags: [TrapDoor, 공급망공격, 개발자보안, 악성패키지, AI코딩보안]
-image: trapdoor-supply-chain-ai/trapdoor-supply-chain-ai-1.png
+image: trapdoor-supply-chain-ai/trapdoor-supply-chain-ai-1.webp
 lang: ko
 published: true
 ---
@@ -20,7 +20,20 @@ TrapDoor 공급망 공격은 처음 제목만 봤을 때 또 하나의 악성 �
 
 이전에 다뤘던 [Mini Shai-Hulud npm 공급망 공격](/security/2026/05/21/mini-shai-hulud-npm.html)도 CI와 토큰을 노렸다는 점에서 불편했다. TrapDoor는 거기에 한 가지를 더 붙인다. 개발자 PC에 들어온 악성 패키지가 AI 에이전트의 읽기 습관까지 이용하려 한다.
 
-![TrapDoor 공급망 공격이 개발자 PC와 AI 코딩 설정을 노리는 흐름](/static/img/posts/trapdoor-supply-chain-ai/trapdoor-supply-chain-ai-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/trapdoor-supply-chain-ai/trapdoor-supply-chain-ai-1-400.webp 400w,
+            /static/img/posts/trapdoor-supply-chain-ai/trapdoor-supply-chain-ai-1-800.webp 800w,
+            /static/img/posts/trapdoor-supply-chain-ai/trapdoor-supply-chain-ai-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/trapdoor-supply-chain-ai/trapdoor-supply-chain-ai-1.webp"
+    alt="TrapDoor 공급망 공격이 개발자 PC와 AI 코딩 설정을 노리는 흐름"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 이번 공격에서 제일 이상한 지점
 
@@ -78,7 +91,20 @@ Socket 분석에 따르면 같은 계정이 LangChain, Langflow, LlamaIndex, Ope
 
 앞으로 코드 리뷰에서 봐야 할 파일 종류가 늘어난다. `package.json` script, GitHub Actions workflow, Dockerfile만 보는 시대가 아니다. `.cursorrules`, `CLAUDE.md`, `AGENTS.md`, MCP 설정, editor 설정도 리뷰 대상이다. 귀찮지만 피하기 어렵다.
 
-![AI 코딩 도구 설정 파일이 악성 패키지와 연결되는 개발 환경 구조](/static/img/posts/trapdoor-supply-chain-ai/trapdoor-supply-chain-ai-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/trapdoor-supply-chain-ai/trapdoor-supply-chain-ai-2-400.webp 400w,
+            /static/img/posts/trapdoor-supply-chain-ai/trapdoor-supply-chain-ai-2-800.webp 800w,
+            /static/img/posts/trapdoor-supply-chain-ai/trapdoor-supply-chain-ai-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/trapdoor-supply-chain-ai/trapdoor-supply-chain-ai-2.webp"
+    alt="AI 코딩 도구 설정 파일이 악성 패키지와 연결되는 개발 환경 구조"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 지금 팀에서 먼저 볼 것
 
