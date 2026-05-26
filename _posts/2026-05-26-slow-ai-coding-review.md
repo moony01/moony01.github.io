@@ -5,7 +5,7 @@ description: "AI 코딩을 천천히 쓰는 법과 PR 리뷰 품질을 높이는
 date: 2026-05-26 15:03:00 +0900
 categories: [ai]
 tags: [AI코딩, 코드리뷰, PR리뷰, 코딩에이전트, 개발생산성]
-image: slow-ai-coding-review/slow-ai-coding-review-1.png
+image: slow-ai-coding-review/slow-ai-coding-review-1.webp
 lang: ko
 published: true
 ---
@@ -16,7 +16,20 @@ AI 코딩을 천천히 쓰는 법이 갑자기 더 현실적으로 보이기 시
 
 {% include pre-version.html %}
 
-![AI 코딩 PR 리뷰가 결함을 천천히 검증하는 작업 흐름](/static/img/posts/slow-ai-coding-review/slow-ai-coding-review-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/slow-ai-coding-review/slow-ai-coding-review-1-400.webp 400w,
+            /static/img/posts/slow-ai-coding-review/slow-ai-coding-review-1-800.webp 800w,
+            /static/img/posts/slow-ai-coding-review/slow-ai-coding-review-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/slow-ai-coding-review/slow-ai-coding-review-1.webp"
+    alt="AI 코딩 PR 리뷰가 결함을 천천히 검증하는 작업 흐름"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 이전에 [AI 코딩 성과 지표](/ai/2026/05/23/ai-coding-metrics-trap.html)를 다루면서도 비슷한 얘기를 했다. 생성량이 늘었다고 팀이 빨라졌다고 말하기 어렵다. 누군가는 그 코드를 읽고, 테스트하고, 되돌리고, 운영 장애 가능성을 상상해야 한다. 그래서 이번 글은 "AI 코딩을 쓰지 말자"가 아니다. 오히려 더 깊게 쓰자는 쪽이다. 다만 빠른 타이핑 기계가 아니라 느린 리뷰 파트너로.
 
@@ -58,7 +71,20 @@ Nolan의 글에서 제일 실용적으로 느낀 부분은 여러 도구를 따�
 
 나는 이 지점에서 AI 코딩 도구의 역할을 조금 더 좁게 잡는 게 좋다고 본다. "코드 작성자"보다 "의심을 잘 던지는 리뷰어"로 쓰는 것이다. 그러면 기대치가 바뀐다. AI가 완벽한 patch를 내야 하는 게 아니라, 사람이 놓칠 수 있는 질문을 많이 던지면 된다. 그 질문 중 진짜를 골라내는 일은 여전히 개발팀의 몫이다.
 
-![여러 AI 코딩 에이전트가 PR 위험을 나눠 점검하는 구조](/static/img/posts/slow-ai-coding-review/slow-ai-coding-review-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/slow-ai-coding-review/slow-ai-coding-review-2-400.webp 400w,
+            /static/img/posts/slow-ai-coding-review/slow-ai-coding-review-2-800.webp 800w,
+            /static/img/posts/slow-ai-coding-review/slow-ai-coding-review-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/slow-ai-coding-review/slow-ai-coding-review-2.webp"
+    alt="여러 AI 코딩 에이전트가 PR 위험을 나눠 점검하는 구조"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 팀에서 바로 써볼 수 있는 느린 AI 리뷰 루틴
 
