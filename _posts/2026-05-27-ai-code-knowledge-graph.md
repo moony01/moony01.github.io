@@ -5,7 +5,7 @@ description: "AI 코딩 에이전트가 코드 지식 그래프를 찾는 이유
 date: 2026-05-27 15:10:00 +0900
 categories: [ai]
 tags: [AI코딩, 코드지식그래프, 코딩에이전트, 개발도구, 로컬인덱스]
-image: ai-code-knowledge-graph/ai-code-knowledge-graph-1.png
+image: ai-code-knowledge-graph/ai-code-knowledge-graph-1.webp
 lang: ko
 published: true
 ---
@@ -18,7 +18,20 @@ published: true
 
 {% include pre-version.html %}
 
-![AI 코딩 에이전트가 코드 지식 그래프에서 저장소 구조를 탐색하는 화면](/static/img/posts/ai-code-knowledge-graph/ai-code-knowledge-graph-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/ai-code-knowledge-graph/ai-code-knowledge-graph-1-400.webp 400w,
+            /static/img/posts/ai-code-knowledge-graph/ai-code-knowledge-graph-1-800.webp 800w,
+            /static/img/posts/ai-code-knowledge-graph/ai-code-knowledge-graph-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/ai-code-knowledge-graph/ai-code-knowledge-graph-1.webp"
+    alt="AI 코딩 에이전트가 코드 지식 그래프에서 저장소 구조를 탐색하는 화면"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 왜 코드 지식 그래프가 지금 뜨는가
 
@@ -82,7 +95,20 @@ README의 핵심 주장은 더 직접적이다. 프로젝트 측 벤치마크 �
 
 나는 이 부분이 AI 코드 리뷰와도 연결된다고 본다. 리뷰어 에이전트가 diff만 보고 판단하면 맥락을 놓치기 쉽다. 반대로 diff 주변의 호출자, 테스트, route, config까지 그래프에서 가져오면 질문의 질이 달라진다. "이 코드 괜찮아?"가 아니라 "이 변경이 이 세 경로와 이 테스트에 미치는 영향이 맞아?"가 된다.
 
-![코드 지식 그래프가 PR 영향 범위와 관련 테스트를 연결하는 구조](/static/img/posts/ai-code-knowledge-graph/ai-code-knowledge-graph-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/ai-code-knowledge-graph/ai-code-knowledge-graph-2-400.webp 400w,
+            /static/img/posts/ai-code-knowledge-graph/ai-code-knowledge-graph-2-800.webp 800w,
+            /static/img/posts/ai-code-knowledge-graph/ai-code-knowledge-graph-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/ai-code-knowledge-graph/ai-code-knowledge-graph-2.webp"
+    alt="코드 지식 그래프가 PR 영향 범위와 관련 테스트를 연결하는 구조"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ### 세 번째는 온보딩과 운영 문서의 빈틈이다
 
