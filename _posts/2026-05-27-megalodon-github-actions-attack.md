@@ -5,7 +5,7 @@ description: "Megalodon GitHub Actions 공격이 5,561개 저장소와 CI/CD 비
 date: 2026-05-27 14:02:04 +0900
 categories: [security]
 tags: [Megalodon, GitHubActions공격, CI보안, 공급망공격, 워크플로우보안]
-image: megalodon-github-actions-attack/megalodon-github-actions-attack-1.png
+image: megalodon-github-actions-attack/megalodon-github-actions-attack-1.webp
 lang: ko
 published: true
 ---
@@ -20,7 +20,20 @@ Megalodon GitHub Actions 공격은 숫자부터 눈에 들어온다. 2026년 5�
 
 이전에 다뤘던 [GitHub 3800개 저장소 침해와 VS Code 확장 경고](/security/2026/05/22/github-vscode-extension-breach.html)도 개발자 도구가 공격 경로가 될 수 있다는 얘기였다. Megalodon은 거기서 한 단계 더 들어간다. 에디터가 아니라, 저장소의 자동화 파일 자체를 감염시켰다.
 
-![Megalodon GitHub Actions 공격으로 CI 비밀이 노출되는 구조](/static/img/posts/megalodon-github-actions-attack/megalodon-github-actions-attack-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/megalodon-github-actions-attack/megalodon-github-actions-attack-1-400.webp 400w,
+            /static/img/posts/megalodon-github-actions-attack/megalodon-github-actions-attack-1-800.webp 800w,
+            /static/img/posts/megalodon-github-actions-attack/megalodon-github-actions-attack-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/megalodon-github-actions-attack/megalodon-github-actions-attack-1.webp"
+    alt="Megalodon GitHub Actions 공격으로 CI 비밀이 노출되는 구조"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 이번 사건에서 제일 불편한 부분
 
@@ -136,7 +149,20 @@ GitHub Actions 보안 문서가 계속 강조하는 것 중 하나가 action pin
 
 여기부터 고정하면 된다. 나머지는 그다음이다.
 
-![GitHub Actions 워크플로우 백도어가 배포 경로로 번지는 흐름](/static/img/posts/megalodon-github-actions-attack/megalodon-github-actions-attack-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/megalodon-github-actions-attack/megalodon-github-actions-attack-2-400.webp 400w,
+            /static/img/posts/megalodon-github-actions-attack/megalodon-github-actions-attack-2-800.webp 800w,
+            /static/img/posts/megalodon-github-actions-attack/megalodon-github-actions-attack-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/megalodon-github-actions-attack/megalodon-github-actions-attack-2.webp"
+    alt="GitHub Actions 워크플로우 백도어가 배포 경로로 번지는 흐름"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 개발팀 문화도 같이 바뀌어야 한다
 
