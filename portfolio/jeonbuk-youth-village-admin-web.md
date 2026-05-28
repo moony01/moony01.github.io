@@ -4,19 +4,14 @@ title: "전북청년마을 관리자웹 MVP"
 description: "전북청년마을 관리자웹 MVP 포트폴리오 상세 페이지입니다."
 permalink: /portfolio/jeonbuk-youth-village-admin-web/
 noindex: true
+disable_ads: true
 ---
 
 <section class="portfolio-case-page">
   <a class="portfolio-case-page__back" href="/portfolio/jeonbuk-youth-village-mvp/">&larr; 전북청년마을</a>
-  <span class="portfolio-page__eyebrow">Case 02-W</span>
+  <span class="portfolio-page__eyebrow">Case 03-W</span>
   <h1>전북청년마을 관리자웹 MVP</h1>
   <p>청년마을 운영자가 참여자, 콘텐츠, QR 미션, 공지 발송을 한 화면 흐름에서 관리할 수 있도록 구성한 관리자웹 포트폴리오입니다.</p>
-
-  <div class="portfolio-case-summary">
-    <div><strong>Type</strong><span>Admin Web</span></div>
-    <div><strong>Scope</strong><span>Dashboard · Members · QR Content</span></div>
-    <div><strong>Screen</strong><span>Operation Management Flow</span></div>
-  </div>
 
   <figure class="portfolio-kmong-hero">
     <img src="/static/img/portfolio/jeonbuk-youth-village-admin-web/kmong-web-main-thumbnail.png" alt="전북청년마을 관리자웹 크몽 메인 썸네일" width="1200" height="1200">
