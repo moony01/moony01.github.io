@@ -383,8 +383,6 @@ body.subpage {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 188px;
-  padding: 28px;
   background: #050505;
   color: #fff;
   text-align: center;
