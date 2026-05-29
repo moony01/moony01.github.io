@@ -11,7 +11,7 @@ disable_ads: true
   <a class="portfolio-case-page__back" href="/portfolio/">&larr; Portfolio</a>
   <span class="portfolio-page__eyebrow">Case 03</span>
   <h1>전북청년마을 앱·관리자웹 MVP</h1>
-  <p>전북청년마을 작업은 사용자 앱과 관리자웹의 역할이 달라 상세 페이지를 분리합니다. 각 페이지는 이후 Problem, Scope &amp; Build, Architecture, Evidence 기준으로 정리합니다.</p>
+  <p>체류형 청년마을 사업 운영을 위해 <strong>QR 미션, 위치/GPS 로그, 콘텐츠·공지 관리</strong>가 가능한 <strong>모바일 앱과 관리자웹 MVP</strong>를 3개월 동안 기획·설계해 납품한 프로젝트입니다. <strong>React Native/Expo 앱, Next.js 관리자웹, Supabase PostgreSQL/Auth/RLS/Storage, GitHub Actions/Cloudflare Pages, EAS Build</strong>를 실제 구현 기반으로 사용했습니다.</p>
 
   <section class="portfolio-evidence-section" aria-label="전북청년마을 앱과 관리자웹 증빙">
     <div class="portfolio-section-divider"><span>Evidence</span></div>

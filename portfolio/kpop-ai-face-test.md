@@ -11,7 +11,7 @@ disable_ads: true
   <a class="portfolio-case-page__back" href="/portfolio/">&larr; Portfolio</a>
   <span class="portfolio-page__eyebrow">Case 04</span>
   <h1>K-POP AI 얼굴상 테스트</h1>
-  <p>Teachable Machine/TensorFlow.js 모델로 업로드 이미지를 분석해 K-POP 얼굴상 매칭 결과로 전환하고, 결과 페이지·공유용 캡처·다국어 UI까지 구성한 소비자형 토이 프로젝트입니다. Jekyll 기반 정적 웹앱 안에 반응형 SPA/PWA 구조를 얹고, Supabase로 댓글·투표·랭킹 데이터를 연동했으며, React Native WebView로 감싸 Google Play 앱 형태까지 확장했습니다.</p>
+  <p><strong>K-POP 얼굴상 테스트</strong>를 웹/PWA/Android 앱으로 운영하면서 <strong>얼굴상 분석, 결과 공유 이미지, 댓글·투표·랭킹, 다국어 SEO, 광고 수익화 흐름</strong>을 연결한 실서비스입니다. <strong>Teachable Machine/TensorFlow.js, Jekyll/GitHub Pages, Supabase, React Native WebView, GA4/GSC/AdSense</strong>를 실제 구현 기반으로 사용했습니다.</p>
 
   <nav class="portfolio-proof-links" aria-label="K-POP AI 얼굴상 테스트 service and proof links">
     <span>SERVICE &amp; PROOF LINKS</span>

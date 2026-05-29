@@ -11,34 +11,35 @@ disable_ads: true
   <a class="portfolio-case-page__back" href="/portfolio/">&larr; Portfolio</a>
   <span class="portfolio-page__eyebrow">Case 01 · 진행중</span>
   <h1>PLOZEN RAG Knowledge System</h1>
-  <p>PLOZEN이라는 가상 회사의 내부 문서, 프로젝트 기록, 세션 로그를 PostgreSQL pgvector 기반 RAG 저장소로 색인하고 MCP Server로 에이전트에게 제공하는 업무 문서 기반 RAG 지식 검색 시스템입니다.</p>
+  <p>PLOZEN 내부 문서, 프로젝트 기록, 세션 로그, 완료 Todo를 <strong>PostgreSQL pgvector 기반 RAG 저장소</strong>로 색인하고, <strong>MCP Server search_knowledge 도구</strong>와 API로 에이전트가 근거 문서를 다시 찾게 만드는 <strong>조직 지식 검색 시스템</strong>입니다. 후속 레이어는 <strong>LangChain·LangGraph retriever/agent workflow</strong>로 확장합니다.</p>
 
   <section class="portfolio-ops-diagram" aria-label="PLOZEN RAG Knowledge System 흐름">
     <div class="portfolio-ops-map">
       <article class="portfolio-ops-node portfolio-ops-node--input">
         <strong>Obsidian / Markdown</strong>
-        <p>세션 기록, 프로젝트 문서, 완료 Todo archive를 ingest 대상으로 둡니다.</p>
+        <p><strong>세션 기록, 프로젝트 문서, 완료 Todo archive</strong>를 ingest 대상으로 둡니다.</p>
       </article>
 
       <span class="portfolio-ops-arrow" aria-hidden="true"></span>
 
       <article class="portfolio-ops-node portfolio-ops-node--primary">
         <strong>pgvector RAG</strong>
-        <p>chunking, embedding, similarity search, source metadata를 PostgreSQL에서 관리합니다.</p>
+        <span class="portfolio-ops-node__status">진행중</span>
+        <p><strong>chunking, embedding, similarity search, source metadata</strong>를 PostgreSQL에서 관리합니다.</p>
       </article>
 
       <span class="portfolio-ops-arrow" aria-hidden="true"></span>
 
       <article class="portfolio-ops-node portfolio-ops-node--workers">
         <strong>API · MCP Server</strong>
-        <p>FastAPI와 MCP Server가 search_knowledge, get_source 검색 도구를 제공합니다.</p>
+        <p><strong>FastAPI</strong>와 <strong>MCP Server</strong>가 <strong>search_knowledge, get_source</strong> 검색 도구를 제공합니다.</p>
       </article>
 
       <span class="portfolio-ops-arrow" aria-hidden="true"></span>
 
       <article class="portfolio-ops-node portfolio-ops-node--output">
         <strong>LangChain · LangGraph</strong>
-        <p>후속 단계에서 retriever, tool calling, agent workflow로 확장합니다.</p>
+        <p>후속 단계에서 <strong>retriever, tool calling, agent workflow</strong>로 확장합니다.</p>
       </article>
     </div>
   </section>
@@ -62,7 +63,7 @@ disable_ads: true
         </a>
         <figcaption>
           <strong>Obsidian Vault 기반 문서형 RAG Source</strong>
-          <span>Obsidian Vault의 Markdown 원문을 GitHub 저장소로 동기화하고, 세션 기록·프로젝트 문서·Todo archive·운영 로그를 pgvector chunking/embedding 파이프라인의 source document로 사용합니다.</span>
+          <span>Obsidian Vault Markdown 원문을 GitHub 저장소로 동기화하고, 세션 기록·프로젝트 문서·Todo archive·운영 로그를 pgvector chunking/embedding 파이프라인의 source document로 사용합니다.</span>
         </figcaption>
       </figure>
     </div>

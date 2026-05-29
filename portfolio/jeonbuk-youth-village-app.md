@@ -11,7 +11,7 @@ disable_ads: true
   <a class="portfolio-case-page__back" href="/portfolio/jeonbuk-youth-village-mvp/">&larr; 전북청년마을</a>
   <span class="portfolio-page__eyebrow">Case 03-A</span>
   <h1>전북청년마을 앱 MVP</h1>
-  <p>QR 미션, 현장 지도, 공지 운영 흐름을 모바일 앱으로 연결한 전북청년마을 현장 탐험 앱 포트폴리오입니다.</p>
+  <p><strong>QR 미션, 현장 지도, 공지 운영 흐름</strong>을 모바일 앱으로 연결한 <strong>전북청년마을 현장 탐험 앱</strong> 포트폴리오입니다.</p>
 
   <figure class="portfolio-kmong-hero">
     <img src="/static/img/portfolio/jeonbuk-youth-village-app/kmong-main-thumbnail.png" alt="전북청년마을 현장 탐험 앱 크몽 메인 썸네일" width="1200" height="1200">

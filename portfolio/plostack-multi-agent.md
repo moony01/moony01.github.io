@@ -11,34 +11,34 @@ disable_ads: true
   <a class="portfolio-case-page__back" href="/portfolio/">&larr; Portfolio</a>
   <span class="portfolio-page__eyebrow">Case 02</span>
   <h1>PLOZEN Multi-Agent Orchestration System</h1>
-  <p>개발, 문서화, 조사, 검증, 기록 업무를 Discord 기반 작업 지시와 Obsidian/Kanban 지식관리 흐름으로 연결한 AX 운영환경입니다. 11, 12, 13은 분리된 PC/서버 에이전트 노드이며, 13은 서버 운영 에이전트와 OpenClaw 기반 실행 지원 에이전트를 함께 운용합니다.</p>
+  <p>작업실의 노트북 2대를 <strong>11번·12번 개발/직원 서버</strong>로 고정 IP 할당하고, 데스크톱에는 Ubuntu OS를 설치해 <strong>13번 NAS/Linux 서버</strong>로 운영했습니다. 13번 서버는 모든 프로젝트와 데이터를 HDD에 저장·관리하는 <strong>중앙 스토리지</strong>이자, <strong>OpenClaw와 Hermes</strong>가 24시간 시스템 상태와 작업 흐름을 관제하는 운영 노드입니다. 이 장비들을 <strong>Tailscale VPN, 내부 SSH, Discord, Obsidian, n8n</strong>으로 연결해 개인 장비 묶음이 아니라 <strong>역할이 분리된 조직형 AI 운영환경</strong>으로 구성했습니다.</p>
 
   <section class="portfolio-ops-diagram" aria-label="PLOZEN Multi-Agent Orchestration System 흐름">
     <div class="portfolio-ops-map">
       <article class="portfolio-ops-node portfolio-ops-node--input">
         <strong>작업 요청</strong>
-        <p>작업 요청자가 Discord 또는 CLI에서 작업 목표와 우선순위를 전달합니다.</p>
+        <p>작업 요청자가 <strong>Discord 또는 CLI</strong>에서 작업 목표와 우선순위를 전달합니다.</p>
       </article>
 
       <span class="portfolio-ops-arrow" aria-hidden="true"></span>
 
       <article class="portfolio-ops-node portfolio-ops-node--primary">
         <strong>Discord Command Layer</strong>
-        <p>멘션, 진행 보고, 완료 기준을 한곳에서 정리해 다음 작업자로 보냅니다.</p>
+        <p><strong>멘션, 진행 보고, 완료 기준</strong>을 한곳에서 정리해 다음 작업자로 보냅니다.</p>
       </article>
 
       <span class="portfolio-ops-arrow" aria-hidden="true"></span>
 
       <article class="portfolio-ops-node portfolio-ops-node--workers">
         <strong>Agent Workers</strong>
-        <p>11-agent, 12-agent, 13-agent, 13-agent(OpenClaw)가 개발, 리뷰, 서버 운영, 실행 지원을 분담합니다.</p>
+        <p><strong>11-agent, 12-agent, 13-agent, 13-agent(OpenClaw)</strong>가 개발, 리뷰, 서버 운영, 실행 지원을 분담합니다.</p>
       </article>
 
       <span class="portfolio-ops-arrow" aria-hidden="true"></span>
 
       <article class="portfolio-ops-node portfolio-ops-node--output">
         <strong>Recorded Output</strong>
-        <p>Kanban, Obsidian 세션, 공개 마켓플레이스 링크로 판단과 결과를 남깁니다.</p>
+        <p><strong>Kanban, Obsidian 세션, 공개 마켓플레이스 링크</strong>로 판단과 결과를 남깁니다.</p>
       </article>
     </div>
   </section>
