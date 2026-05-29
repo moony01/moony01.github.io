@@ -17,28 +17,28 @@ disable_ads: true
     <div class="portfolio-ops-map">
       <article class="portfolio-ops-node portfolio-ops-node--input">
         <strong>Schedule · Form</strong>
-        <p><strong>예약 실행 또는 수동 입력</strong>으로 콘텐츠 발행과 서버 점검 작업을 시작합니다.</p>
+        <p>예약 실행 또는 수동 입력으로 콘텐츠 발행과 서버 점검 작업을 시작합니다.</p>
       </article>
 
       <span class="portfolio-ops-arrow" aria-hidden="true"></span>
 
       <article class="portfolio-ops-node portfolio-ops-node--primary">
         <strong>Fetch &amp; Merge</strong>
-        <p><strong>뉴스, RSS, API, 내부 서버 상태 데이터</strong>를 가져와 중복과 대상 조건을 정리합니다.</p>
+        <p>뉴스, RSS, API, 내부 서버 상태 데이터를 가져와 중복과 대상 조건을 정리합니다.</p>
       </article>
 
       <span class="portfolio-ops-arrow" aria-hidden="true"></span>
 
       <article class="portfolio-ops-node portfolio-ops-node--workers">
         <strong>AI · Script</strong>
-        <p><strong>Gemini, OpenAI TTS API, FFmpeg, 서버 점검 스크립트</strong>로 콘텐츠 생성과 운영 데이터를 처리합니다.</p>
+        <p>Gemini, OpenAI TTS API, FFmpeg, 서버 점검 스크립트로 콘텐츠 생성과 운영 데이터를 처리합니다.</p>
       </article>
 
       <span class="portfolio-ops-arrow" aria-hidden="true"></span>
 
       <article class="portfolio-ops-node portfolio-ops-node--output">
         <strong>Publish &amp; Record</strong>
-        <p><strong>TikTok 업로드, 블로그 발행, 리포트 전송, 보안/헬스체크 결과 저장</strong>으로 마무리합니다.</p>
+        <p>TikTok 업로드, 블로그 발행, 리포트 전송, 보안/헬스체크 결과 저장으로 마무리합니다.</p>
       </article>
     </div>
   </section>

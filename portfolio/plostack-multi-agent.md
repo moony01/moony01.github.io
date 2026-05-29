@@ -17,28 +17,28 @@ disable_ads: true
     <div class="portfolio-ops-map">
       <article class="portfolio-ops-node portfolio-ops-node--input">
         <strong>작업 요청</strong>
-        <p>작업 요청자가 <strong>Discord 또는 CLI</strong>에서 작업 목표와 우선순위를 전달합니다.</p>
+        <p>작업 요청자가 Discord 또는 CLI에서 작업 목표와 우선순위를 전달합니다.</p>
       </article>
 
       <span class="portfolio-ops-arrow" aria-hidden="true"></span>
 
       <article class="portfolio-ops-node portfolio-ops-node--primary">
         <strong>Discord Command Layer</strong>
-        <p><strong>멘션, 진행 보고, 완료 기준</strong>을 한곳에서 정리해 다음 작업자로 보냅니다.</p>
+        <p>멘션, 진행 보고, 완료 기준을 한곳에서 정리해 다음 작업자로 보냅니다.</p>
       </article>
 
       <span class="portfolio-ops-arrow" aria-hidden="true"></span>
 
       <article class="portfolio-ops-node portfolio-ops-node--workers">
         <strong>Agent Workers</strong>
-        <p><strong>11-agent, 12-agent, 13-agent, 13-agent(OpenClaw)</strong>가 개발, 리뷰, 서버 운영, 실행 지원을 분담합니다.</p>
+        <p>11-agent, 12-agent, 13-agent, 13-agent(OpenClaw)가 개발, 리뷰, 서버 운영, 실행 지원을 분담합니다.</p>
       </article>
 
       <span class="portfolio-ops-arrow" aria-hidden="true"></span>
 
       <article class="portfolio-ops-node portfolio-ops-node--output">
         <strong>Recorded Output</strong>
-        <p><strong>Kanban, Obsidian 세션, 공개 마켓플레이스 링크</strong>로 판단과 결과를 남깁니다.</p>
+        <p>Kanban, Obsidian 세션, 공개 마켓플레이스 링크로 판단과 결과를 남깁니다.</p>
       </article>
     </div>
   </section>

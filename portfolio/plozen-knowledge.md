@@ -17,7 +17,7 @@ disable_ads: true
     <div class="portfolio-ops-map">
       <article class="portfolio-ops-node portfolio-ops-node--input">
         <strong>Obsidian / Markdown</strong>
-        <p><strong>세션 기록, 프로젝트 문서, 완료 Todo archive</strong>를 ingest 대상으로 둡니다.</p>
+        <p>세션 기록, 프로젝트 문서, 완료 Todo archive를 ingest 대상으로 둡니다.</p>
       </article>
 
       <span class="portfolio-ops-arrow" aria-hidden="true"></span>
@@ -25,21 +25,21 @@ disable_ads: true
       <article class="portfolio-ops-node portfolio-ops-node--primary">
         <strong>pgvector RAG</strong>
         <span class="portfolio-ops-node__status">진행중</span>
-        <p><strong>chunking, embedding, similarity search, source metadata</strong>를 PostgreSQL에서 관리합니다.</p>
+        <p>chunking, embedding, similarity search, source metadata를 PostgreSQL에서 관리합니다.</p>
       </article>
 
       <span class="portfolio-ops-arrow" aria-hidden="true"></span>
 
       <article class="portfolio-ops-node portfolio-ops-node--workers">
         <strong>API · MCP Server</strong>
-        <p><strong>FastAPI</strong>와 <strong>MCP Server</strong>가 <strong>search_knowledge, get_source</strong> 검색 도구를 제공합니다.</p>
+        <p>FastAPI와 MCP Server가 search_knowledge, get_source 검색 도구를 제공합니다.</p>
       </article>
 
       <span class="portfolio-ops-arrow" aria-hidden="true"></span>
 
       <article class="portfolio-ops-node portfolio-ops-node--output">
         <strong>LangChain · LangGraph</strong>
-        <p>후속 단계에서 <strong>retriever, tool calling, agent workflow</strong>로 확장합니다.</p>
+        <p>후속 단계에서 retriever, tool calling, agent workflow로 확장합니다.</p>
       </article>
     </div>
   </section>
