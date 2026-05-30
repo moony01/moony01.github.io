@@ -13,59 +13,39 @@ disable_ads: true
   <h1>PLOZEN RAG Knowledge System</h1>
   <p>PLOZEN 내부 문서, 프로젝트 기록, 세션 로그, 완료 Todo를 <strong>PostgreSQL pgvector 기반 RAG 저장소</strong>로 색인하고, <strong>MCP Server search_knowledge 도구</strong>와 API로 에이전트가 근거 문서를 다시 찾게 만드는 <strong>조직 지식 검색 시스템</strong>입니다. 후속 레이어는 <strong>LangChain·LangGraph retriever/agent workflow</strong>로 확장합니다.</p>
 
-  <section class="portfolio-ops-diagram" aria-label="PLOZEN RAG Knowledge System 흐름">
-    <div class="portfolio-ops-map">
-      <article class="portfolio-ops-node portfolio-ops-node--input">
-        <strong>Obsidian / Markdown</strong>
-        <p>세션 기록, 프로젝트 문서, 완료 Todo archive를 ingest 대상으로 둡니다.</p>
-      </article>
+  <div class="portfolio-detail-stack">
+    <figure class="portfolio-detail-block">
+      <div class="portfolio-detail-block__image">
+        <img src="/static/img/portfolio/plozen-knowledge/rag-similarity-search-smoke.png" alt="PLOZEN RAG Knowledge System document_chunks, document_sources, search_audit_logs 테이블 캡처" width="1452" height="484" loading="eager" decoding="async">
+      </div>
+      <figcaption>
+        <span class="portfolio-detail-block__label">RAG Database Evidence</span>
+        <strong>document_chunks, document_sources, search_audit_logs로 검증한 pgvector RAG 저장소</strong>
+        <p>문서 source, chunk, embedding vector, content hash, metadata, 검색 audit log를 PostgreSQL schema로 분리하고, demo seed와 similarity search smoke test로 RAG 저장소가 실제 검색 가능한 상태인지 확인했습니다. 후속 단계에서는 Obsidian/Markdown ingest와 real embedding provider를 연결합니다.</p>
+      </figcaption>
+    </figure>
 
-      <span class="portfolio-ops-arrow" aria-hidden="true"></span>
+    <figure class="portfolio-detail-block">
+      <a class="portfolio-detail-block__image portfolio-detail-block__image--og" href="https://github.com/plozen/plozen-knowledge" target="_blank" rel="noopener" aria-label="PLOZEN RAG Knowledge System GitHub 저장소 열기">
+        <img src="https://opengraph.githubassets.com/plozen-knowledge/plozen/plozen-knowledge" alt="PLOZEN RAG Knowledge System GitHub 저장소 Open Graph 이미지" width="1200" height="600" loading="lazy" decoding="async">
+      </a>
+      <figcaption>
+        <span class="portfolio-detail-block__label">Repository</span>
+        <strong>pgvector RAG schema와 MCP/API 확장 저장소</strong>
+        <p>RAG DB schema, seed, similarity smoke SQL, README evidence를 저장소로 관리합니다. 검색 도구는 MCP Server search_knowledge와 API 레이어로 확장하고, 후속 agent workflow는 LangChain/LangGraph 기반으로 연결합니다.</p>
+        <a class="portfolio-detail-block__link" href="https://github.com/plozen/plozen-knowledge" target="_blank" rel="noopener">GitHub 저장소 보기</a>
+      </figcaption>
+    </figure>
 
-      <article class="portfolio-ops-node portfolio-ops-node--primary">
-        <strong>pgvector RAG</strong>
-        <span class="portfolio-ops-node__status">진행중</span>
-        <p>chunking, embedding, similarity search, source metadata를 PostgreSQL에서 관리합니다.</p>
-      </article>
-
-      <span class="portfolio-ops-arrow" aria-hidden="true"></span>
-
-      <article class="portfolio-ops-node portfolio-ops-node--workers">
-        <strong>API · MCP Server</strong>
-        <p>FastAPI와 MCP Server가 search_knowledge, get_source 검색 도구를 제공합니다.</p>
-      </article>
-
-      <span class="portfolio-ops-arrow" aria-hidden="true"></span>
-
-      <article class="portfolio-ops-node portfolio-ops-node--output">
-        <strong>LangChain · LangGraph</strong>
-        <p>후속 단계에서 retriever, tool calling, agent workflow로 확장합니다.</p>
-      </article>
-    </div>
-  </section>
-
-  <section class="portfolio-evidence-section" aria-label="PLOZEN RAG Knowledge System 증빙">
-    <div class="portfolio-section-divider"><span>Evidence</span></div>
-    <div class="portfolio-evidence-grid portfolio-evidence-grid--two">
-      <figure class="portfolio-evidence-card portfolio-evidence-card--wide">
-        <a class="portfolio-evidence-card__media portfolio-evidence-card__media--repo-og" href="https://github.com/plozen/plozen-knowledge" target="_blank" rel="noopener" aria-label="PLOZEN RAG Knowledge System GitHub 저장소 열기">
-          <img src="https://opengraph.githubassets.com/plozen-knowledge/plozen/plozen-knowledge" alt="PLOZEN RAG Knowledge System GitHub 저장소 Open Graph 이미지" loading="lazy" decoding="async">
-        </a>
-        <figcaption>
-          <strong>PG Vector/MCP Server·API/LangChain·LangGraph 시스템 (진행중)</strong>
-          <span>PLOZEN 내부 문서와 세션 기록을 pgvector로 색인하고, MCP/API 검색 도구와 LangChain·LangGraph 에이전트 레이어로 확장하는 RAG 시스템 저장소</span>
-        </figcaption>
-      </figure>
-
-      <figure class="portfolio-evidence-card portfolio-evidence-card--wide">
-        <a class="portfolio-evidence-card__image portfolio-evidence-card__image--repository-shot" href="/static/img/portfolio/plozen-knowledge/obsidian-vault-repository.png" aria-label="PLOZEN Obsidian Vault 저장소 스크린샷 원본 이미지 열기">
-          <img src="/static/img/portfolio/plozen-knowledge/obsidian-vault-repository.png" alt="PLOZEN Obsidian Vault GitHub 저장소 스크린샷" width="1678" height="1198" loading="lazy" decoding="async">
-        </a>
-        <figcaption>
-          <strong>Obsidian Vault 기반 문서형 RAG Source</strong>
-          <span>Obsidian Vault Markdown 원문을 GitHub 저장소로 동기화하고, 세션 기록·프로젝트 문서·Todo archive·운영 로그를 pgvector chunking/embedding 파이프라인의 source document로 사용합니다.</span>
-        </figcaption>
-      </figure>
-    </div>
-  </section>
+    <figure class="portfolio-detail-block">
+      <div class="portfolio-detail-block__image">
+        <img src="/static/img/portfolio/plozen-knowledge/obsidian-vault-repository.png" alt="PLOZEN Obsidian Vault GitHub 저장소 스크린샷" width="1678" height="1198" loading="lazy" decoding="async">
+      </div>
+      <figcaption>
+        <span class="portfolio-detail-block__label">Source Documents</span>
+        <strong>Obsidian Vault 기반 문서형 RAG source</strong>
+        <p>세션 기록, 프로젝트 문서, Todo archive, 운영 로그를 Markdown 원문으로 관리하고, 이후 chunking/embedding 파이프라인의 source document로 사용합니다. 매번 긴 컨텍스트를 프롬프트에 붙이는 대신, 필요한 근거 문서를 검색해서 가져오는 구조를 목표로 했습니다.</p>
+      </figcaption>
+    </figure>
+  </div>
 </section>

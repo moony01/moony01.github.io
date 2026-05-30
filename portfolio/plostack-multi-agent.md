@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "PLOZEN Multi-Agent Orchestration System"
-description: "PLOZEN Multi-Agent Orchestration System 포트폴리오 상세 페이지입니다."
+title: "Plostack 멀티에이전트 오케스트레이션 하네스"
+description: "PLOZEN 전용 Plostack 멀티에이전트 오케스트레이션 하네스 포트폴리오 상세 페이지입니다."
 permalink: /portfolio/plostack-multi-agent/
 noindex: true
 disable_ads: true
@@ -10,77 +10,76 @@ disable_ads: true
 <section class="portfolio-case-page portfolio-case-page--wide">
   <a class="portfolio-case-page__back" href="/portfolio/">&larr; Portfolio</a>
   <span class="portfolio-page__eyebrow">Case 02</span>
-  <h1>PLOZEN Multi-Agent Orchestration System</h1>
-  <p>작업실의 노트북 2대를 <strong>11번·12번 개발/직원 서버</strong>로 고정 IP 할당하고, 데스크톱에는 Ubuntu OS를 설치해 <strong>13번 NAS/Linux 서버</strong>로 운영했습니다. 13번 서버는 모든 프로젝트와 데이터를 HDD에 저장·관리하는 <strong>중앙 스토리지</strong>이자, <strong>OpenClaw와 Hermes</strong>가 24시간 시스템 상태와 작업 흐름을 관제하는 운영 노드입니다. 이 장비들을 <strong>Tailscale VPN, 내부 SSH, Discord, Obsidian, n8n</strong>으로 연결해 개인 장비 묶음이 아니라 <strong>역할이 분리된 조직형 AI 운영환경</strong>으로 구성했습니다.</p>
+  <h1>Plostack 멀티에이전트 오케스트레이션 하네스</h1>
+  <p><strong>Plostack 멀티에이전트 오케스트레이션 하네스</strong>는 PLOZEN 업무 방식에 맞춰 직접 만든 하네스/플러그인 시스템입니다. 업무 지시를 받으면 에이전트가 작업 성격을 분류하고, 필요한 <strong>스킬(skill)</strong>과 <strong>서브에이전트(subagent)</strong>를 자동 선택해 실행·검증·기록까지 이어갑니다. 공개 가능한 <strong>Plostack public harness</strong>와 내 전용 <strong>private harness</strong>를 분리해, 반복 가능한 실행 규칙과 내부 운영 맥락을 동시에 관리합니다.</p>
 
-  <section class="portfolio-ops-diagram" aria-label="PLOZEN Multi-Agent Orchestration System 흐름">
-    <div class="portfolio-ops-map">
-      <article class="portfolio-ops-node portfolio-ops-node--input">
-        <strong>작업 요청</strong>
-        <p>작업 요청자가 Discord 또는 CLI에서 작업 목표와 우선순위를 전달합니다.</p>
-      </article>
-
-      <span class="portfolio-ops-arrow" aria-hidden="true"></span>
-
-      <article class="portfolio-ops-node portfolio-ops-node--primary">
-        <strong>Discord Command Layer</strong>
-        <p>멘션, 진행 보고, 완료 기준을 한곳에서 정리해 다음 작업자로 보냅니다.</p>
-      </article>
-
-      <span class="portfolio-ops-arrow" aria-hidden="true"></span>
-
-      <article class="portfolio-ops-node portfolio-ops-node--workers">
-        <strong>Agent Workers</strong>
-        <p>11-agent, 12-agent, 13-agent, 13-agent(OpenClaw)가 개발, 리뷰, 서버 운영, 실행 지원을 분담합니다.</p>
-      </article>
-
-      <span class="portfolio-ops-arrow" aria-hidden="true"></span>
-
-      <article class="portfolio-ops-node portfolio-ops-node--output">
-        <strong>Recorded Output</strong>
-        <p>Kanban, Obsidian 세션, 공개 마켓플레이스 링크로 판단과 결과를 남깁니다.</p>
-      </article>
-    </div>
+  <section class="portfolio-practice-brief" aria-label="Multi-Agent 실무 정의">
+    <span>Practical Definition</span>
+    <strong>Multi-agent는 여러 봇의 수가 아니라, 업무를 역할별 에이전트에게 위임하고 하네스가 실행 순서와 검증 기준을 통제하는 구조입니다.</strong>
+    <ul>
+      <li><b>하네스(Harness)</b>: 작업을 경량/표준/보호로 분류하고 brainstorming, planning, debugging, verification, finish-flow 같은 실행 절차를 고릅니다.</li>
+      <li><b>스킬(Skills)</b>: 작업 성격에 맞는 지식과 운영 규칙을 필요한 순간에 로드합니다.</li>
+      <li><b>서브에이전트(Subagents)</b>: developer, reviewer, QA, security, documenter, researcher처럼 역할별 프롬프트와 권한을 가진 실행 단위입니다.</li>
+      <li><b>Control Plane</b>: Discord 공개 채널에서 직원별 1인 1에이전트가 서로 작업 맥락을 공유하고, 에이전트끼리도 멘션 기반으로 협업합니다.</li>
+      <li><b>Shared Memory</b>: Obsidian 세션, Kanban, Todo card가 다음 에이전트가 이어받을 수 있는 작업 기억과 trace가 됩니다.</li>
+    </ul>
   </section>
 
-  <section class="portfolio-evidence-section" aria-label="PLOZEN Multi-Agent Orchestration System 증빙">
-    <div class="portfolio-section-divider"><span>Evidence</span></div>
-    <div class="portfolio-evidence-grid portfolio-evidence-grid--two">
-      <figure class="portfolio-evidence-card portfolio-evidence-card--wide">
-        <a class="portfolio-evidence-card__media portfolio-evidence-card__media--discord" href="/static/img/portfolio/plostack-multi-agent/discord-group-agent-intro.png" aria-label="PLOZEN Discord 그룹 채널에서 에이전트 통신을 확인한 캡처 원본 이미지 열기"></a>
-        <figcaption>
-          <strong>Discord Group Channel</strong>
-          <span>작업 요청, 에이전트 응답, 통신 확인이 같은 채널에 남는 지휘 레이어</span>
-        </figcaption>
-      </figure>
+  <div class="portfolio-detail-stack">
+    <figure class="portfolio-detail-block">
+      <a class="portfolio-detail-block__image portfolio-detail-block__image--og" href="https://github.com/plozen/plozen-public-plugins" target="_blank" rel="noopener" aria-label="Plostack 공개 마켓플레이스 저장소 열기">
+        <img src="https://opengraph.githubassets.com/plozen-public-plugins/plozen/plozen-public-plugins" alt="Plostack Public Marketplace GitHub 저장소 Open Graph 이미지" width="1200" height="600" loading="eager" decoding="async">
+      </a>
+      <figcaption>
+        <span class="portfolio-detail-block__label">Harness Layer</span>
+        <strong>Plostack public/private harness로 업무 라우팅과 실행 절차를 고정</strong>
+        <p>공개용 Plostack은 brainstorming, planning, design gate, debugging, verification, finish-flow 같은 반복 가능한 업무 절차를 plugin/skill로 패키징합니다. private harness는 Vault, Discord, Kanban, 내부 세션, 팀 역할처럼 내 운영환경에 특화된 맥락과 권한 경계를 담당합니다.</p>
+        <a class="portfolio-detail-block__link" href="https://github.com/plozen/plozen-public-plugins" target="_blank" rel="noopener">GitHub 저장소 보기</a>
+      </figcaption>
+    </figure>
 
-      <figure class="portfolio-evidence-card portfolio-evidence-card--wide">
-        <a class="portfolio-evidence-card__media portfolio-evidence-card__media--repo-og" href="https://github.com/plozen/plozen-public-plugins" target="_blank" rel="noopener" aria-label="Plostack 공개 마켓플레이스 저장소 열기">
-          <img src="https://opengraph.githubassets.com/plozen-public-plugins/plozen/plozen-public-plugins" alt="Plostack Public Marketplace GitHub 저장소 Open Graph 이미지" loading="lazy" decoding="async">
-        </a>
-        <figcaption>
-          <strong>Plostack Public Marketplace</strong>
-          <span>Codex와 Claude Code에 적용할 수 있는 공개용 Plostack 하네스·스킬 마켓플레이스입니다. 비공개 내부용 Plostack 하네스는 별도 private overlay로 분리 운영합니다.</span>
-        </figcaption>
-      </figure>
+    <figure class="portfolio-detail-block">
+      <div class="portfolio-detail-block__image">
+        <img src="/static/img/portfolio/plostack-multi-agent/subagent-registry-repository.png" alt="PLOZEN private plugin repository의 역할별 subagent registry 스크린샷" width="2298" height="1329" loading="eager" decoding="async">
+      </div>
+      <figcaption>
+        <span class="portfolio-detail-block__label">Subagent Registry</span>
+        <strong>역할별 subagent 프롬프트와 설정을 repo 단위로 관리</strong>
+        <p>breaker, design-reviewer, developer-junior/mid/senior, documenter, QA, researcher, reviewer, security처럼 업무 역할별 subagent를 파일로 정의했습니다. 단순히 AI를 여러 개 띄우는 것이 아니라, 각 역할의 책임·도구·추론 강도·쓰기 권한을 분리해 하네스가 작업 성격에 맞는 실행자를 고를 수 있게 만든 구조입니다.</p>
+      </figcaption>
+    </figure>
 
-      <figure class="portfolio-evidence-card portfolio-evidence-card--wide">
-        <a class="portfolio-evidence-card__image portfolio-evidence-card__image--repository-shot" href="/static/img/portfolio/plostack-multi-agent/plozen-private-plugins-repository.png" aria-label="Plostack private marketplace 저장소 스크린샷 원본 이미지 열기">
-          <img src="/static/img/portfolio/plostack-multi-agent/plozen-private-plugins-repository.png" alt="PLOZEN private plugin marketplace GitHub 저장소 스크린샷" width="1707" height="1181" loading="lazy" decoding="async">
-        </a>
-        <figcaption>
-          <strong>Plostack Private Marketplace</strong>
-          <span>PLOZEN 내부용 하네스, 팀 스킬, 에이전트 운영 overlay를 Claude Code와 Codex 공용 플러그인 마켓플레이스로 분리 관리하는 private 저장소</span>
-        </figcaption>
-      </figure>
+    <figure class="portfolio-detail-block">
+      <div class="portfolio-detail-block__image">
+        <img src="/static/img/portfolio/plostack-multi-agent/plozen-private-plugins-repository.png" alt="PLOZEN private plugin marketplace GitHub 저장소 스크린샷" width="1707" height="1181" loading="eager" decoding="async">
+      </div>
+      <figcaption>
+        <span class="portfolio-detail-block__label">Skill + Subagent Automation</span>
+        <strong>업무 지시를 skill 선택과 subagent 실행 계획으로 변환</strong>
+        <p>사용자가 작업만 지시해도 하네스가 먼저 범위를 분류하고, 필요한 skill을 로드한 뒤 subagent 위임 여부를 판단합니다. 예를 들어 새 기능은 brainstorming/planning을 거쳐 developer와 reviewer로 나누고, 실패 분석은 debugging과 QA를, 문서 작업은 documenter와 vault 규칙을 우선 적용합니다.</p>
+      </figcaption>
+    </figure>
 
-      <figure class="portfolio-evidence-card portfolio-evidence-card--wide">
-        <a class="portfolio-evidence-card__media portfolio-evidence-card__media--kanban" href="/static/img/portfolio/plostack-multi-agent/obsidian-kanban.png" aria-label="PLOZEN 운영 작업을 준비, 진행중, 완료로 관리하는 Obsidian Kanban 원본 이미지 열기"></a>
-        <figcaption>
-          <strong>Kanban Work State</strong>
-          <span>에이전트 담당자, 작업 단계, 완료 기록을 한 화면에서 관리하는 실행 보드</span>
-        </figcaption>
-      </figure>
-    </div>
-  </section>
+    <figure class="portfolio-detail-block">
+      <div class="portfolio-detail-block__image portfolio-detail-block__image--portrait">
+        <img src="/static/img/portfolio/plostack-multi-agent/discord-group-agent-intro.png" alt="PLOZEN Discord 그룹 채널에서 에이전트 통신을 확인한 캡처" width="804" height="892" loading="eager" decoding="async">
+      </div>
+      <figcaption>
+        <span class="portfolio-detail-block__label">Discord Control Plane</span>
+        <strong>직원별 1인 1에이전트가 공개 채널에서 서로 작업 맥락을 공유</strong>
+        <p>Discord는 단순 알림 채널이 아니라 에이전트 조직의 control plane입니다. 직원에 특화된 에이전트들이 공개 채널에서 작업 요청, 진행 보고, handoff 메모를 공유하고, 서로 멘션해 추론 결과를 전달하면서 업무를 분배·처리할 수 있게 구성했습니다.</p>
+      </figcaption>
+    </figure>
+
+    <figure class="portfolio-detail-block">
+      <div class="portfolio-detail-block__image">
+        <img src="/static/img/portfolio/plostack-multi-agent/obsidian-kanban.png" alt="PLOZEN 운영 작업을 준비, 진행중, 완료로 관리하는 Obsidian Kanban" width="1918" height="1026" loading="eager" decoding="async">
+      </div>
+      <figcaption>
+        <span class="portfolio-detail-block__label">Shared Memory &amp; Retrieval</span>
+        <strong>Kanban, 세션 요약, 일기, 벡터 DB로 이어받을 수 있는 작업 기억을 유지</strong>
+        <p>Kanban은 현재 작업 상태와 완료 기준을 보여주고, 세션 요약은 하루 작업의 의사결정과 다음 할 일을 남깁니다. 일기와 운영 기록은 공개 문서에 남기기 어려운 맥락을 보존하고, 벡터 DB는 이 기록들을 검색 가능한 지식으로 바꿔 다음 에이전트가 필요한 근거를 다시 찾게 만드는 검색 메모리 역할을 맡습니다.</p>
+      </figcaption>
+    </figure>
+  </div>
 </section>

@@ -8,10 +8,10 @@ disable_ads: true
 ---
 
 <section class="portfolio-case-page">
-  <a class="portfolio-case-page__back" href="/portfolio/jeonbuk-youth-village-mvp/">&larr; 전북청년마을</a>
-  <span class="portfolio-page__eyebrow">Case 03-W</span>
+  <a class="portfolio-case-page__back" href="/portfolio/">&larr; Portfolio</a>
+  <span class="portfolio-page__eyebrow">Case 04</span>
   <h1>전북청년마을 관리자웹 MVP</h1>
-  <p>청년마을 운영자가 <strong>참여자, 콘텐츠, QR 미션, 공지 발송</strong>을 한 화면 흐름에서 관리할 수 있도록 구성한 <strong>관리자웹 MVP</strong> 포트폴리오입니다.</p>
+  <p>청년마을 운영자가 <strong>참여자, 콘텐츠, QR 미션, 공지 발송</strong>을 한 화면 흐름에서 관리할 수 있도록 구성한 <strong>관리자웹 MVP</strong> 포트폴리오입니다. Next.js 관리자 화면과 Supabase 데이터를 기준으로 현장 운영자가 모바일 앱 흐름을 관리할 수 있게 설계했습니다.</p>
 
   <figure class="portfolio-kmong-hero">
     <img src="/static/img/portfolio/jeonbuk-youth-village-admin-web/kmong-web-main-thumbnail.png" alt="전북청년마을 관리자웹 크몽 메인 썸네일" width="1200" height="1200">
