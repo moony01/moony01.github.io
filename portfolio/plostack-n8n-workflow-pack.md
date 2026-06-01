@@ -11,7 +11,48 @@ disable_ads: true
   <a class="portfolio-case-page__back" href="/portfolio/">&larr; Portfolio</a>
   <span class="portfolio-page__eyebrow">Case 06</span>
   <h1>PLOZEN Workflow Automation System</h1>
-  <p><strong>블로그·뉴스·K-POP 숏폼·오디션 SNS 발행</strong>과 <strong>K-POP 얼굴상 테스트 마케팅</strong>을 자동화하고, <strong>서버 상태 점검, 파일 정리·보관, SSD→HDD 콜드 아카이브, 보안 점검, 운영 리포트 발송</strong>까지 n8n 워크플로우로 관리한 시스템입니다. <strong>Docker/Docker Compose 기반 self-hosted n8n</strong>, <strong>n8n Schedule Trigger</strong>, <strong>Claude Code Gateway</strong>, <strong>PloStack 자동화 스킬</strong>, <strong>RSS/API 수집</strong>, <strong>Gemini/OpenAI TTS API/FFmpeg</strong>, <strong>서버 점검 스크립트</strong>를 연결했습니다.</p>
+
+  <div class="portfolio-case-intro">
+    <section class="portfolio-case-intro__section">
+      <h2>문제와 목표</h2>
+      <div>
+        <p>블로그 포스팅, K-POP 뉴스 숏폼, 오디션 정보 SNS 발행, 내부 NAS/서버 운영 점검, 컴퓨팅 자원 상태 관리가 각각 수동 반복 작업으로 흩어져 있었다.</p>
+        <p>블로그 포스팅, K-POP 뉴스 숏폼, 오디션 SNS 발행은 K-POP 얼굴상 테스트와 개인 블로그의 검색 유입·SNS 노출을 키우기 위한 마케팅 운영 자산으로 필요했다.</p>
+        <p>목표는 마케팅 콘텐츠 발행과 내부 서버 운영 점검을 스케줄 기반 워크플로우로 재실행 가능하게 구성하는 것이었다.</p>
+      </div>
+    </section>
+
+    <section class="portfolio-case-intro__section">
+      <h2>내가 맡은 범위와 구현</h2>
+      <div>
+        <p>n8n 워크플로우 인벤토리를 점검하고, 마케팅 콘텐츠·블로그 발행·서버 운영·컴퓨팅 자원 관리 자동화 범주를 분리했다.</p>
+        <p>블로그 자동 발행, K-POP 뉴스 숏폼, 오디션 SNS 카드, 서버 상태 점검, 파일 정리·보관, SSD→HDD 콜드 아카이브, 보안 점검, 운영 리포트 발송을 반복 운영 가능한 워크플로우로 정리했다.</p>
+        <p>Docker/Docker Compose 기반 self-hosted n8n과 Claude Code Gateway, PloStack 자동화 스킬, 외부 RSS/API 수집 흐름을 연결했다.</p>
+      </div>
+    </section>
+
+    <section class="portfolio-case-intro__section">
+      <h2>기술 구조</h2>
+      <dl class="portfolio-case-intro__spec">
+        <div>
+          <dt>실행 환경</dt>
+          <dd>Docker/Docker Compose 기반 self-hosted n8n, n8n Workflow JSON, Schedule Trigger.</dd>
+        </div>
+        <div>
+          <dt>자동화 연결</dt>
+          <dd>Claude Code Gateway, PloStack 자동화 스킬, REST/RSS, Google Search Console, 서버 상태 점검 스크립트.</dd>
+        </div>
+        <div>
+          <dt>콘텐츠 파이프라인</dt>
+          <dd>RSS/API 수집, Gemini/OpenAI TTS API, FFmpeg 조립으로 뉴스·숏폼·SNS 콘텐츠 발행 흐름 구성.</dd>
+        </div>
+        <div>
+          <dt>운영 루틴</dt>
+          <dd>서버 상태 점검, 파일 정리·보관, SSD→HDD 콜드 아카이브, 보안 점검, 운영 리포트 발송.</dd>
+        </div>
+      </dl>
+    </section>
+  </div>
 
   <div class="portfolio-detail-stack">
     <figure class="portfolio-detail-block">

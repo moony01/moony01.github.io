@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Plostack 멀티에이전트 오케스트레이션 하네스"
-description: "PLOZEN 전용 Plostack 멀티에이전트 오케스트레이션 하네스 포트폴리오 상세 페이지입니다."
+title: "PLOZEN Multi-Agent Orchestration System"
+description: "PLOZEN Multi-Agent Orchestration System 개인 AX 운영환경과 Plostack 하네스 포트폴리오 상세 페이지입니다."
 permalink: /portfolio/plostack-multi-agent/
 noindex: true
 disable_ads: true
@@ -10,20 +10,49 @@ disable_ads: true
 <section class="portfolio-case-page portfolio-case-page--wide">
   <a class="portfolio-case-page__back" href="/portfolio/">&larr; Portfolio</a>
   <span class="portfolio-page__eyebrow">Case 02</span>
-  <h1>Plostack 멀티에이전트 오케스트레이션 하네스</h1>
-  <p><strong>Plostack 멀티에이전트 오케스트레이션 하네스</strong>는 PLOZEN 업무 방식에 맞춰 직접 만든 하네스/플러그인 시스템입니다. 업무 지시를 받으면 에이전트가 작업 성격을 분류하고, 필요한 <strong>스킬(skill)</strong>과 <strong>서브에이전트(subagent)</strong>를 자동 선택해 실행·검증·기록까지 이어갑니다. 공개 가능한 <strong>Plostack public harness</strong>와 내 전용 <strong>private harness</strong>를 분리해, 반복 가능한 실행 규칙과 내부 운영 맥락을 동시에 관리합니다.</p>
+  <h1>PLOZEN Multi-Agent Orchestration System</h1>
 
-  <section class="portfolio-practice-brief" aria-label="Multi-Agent 실무 정의">
-    <span>Practical Definition</span>
-    <strong>Multi-agent는 여러 봇의 수가 아니라, 업무를 역할별 에이전트에게 위임하고 하네스가 실행 순서와 검증 기준을 통제하는 구조입니다.</strong>
-    <ul>
-      <li><b>하네스(Harness)</b>: 작업을 경량/표준/보호로 분류하고 brainstorming, planning, debugging, verification, finish-flow 같은 실행 절차를 고릅니다.</li>
-      <li><b>스킬(Skills)</b>: 작업 성격에 맞는 지식과 운영 규칙을 필요한 순간에 로드합니다.</li>
-      <li><b>서브에이전트(Subagents)</b>: developer, reviewer, QA, security, documenter, researcher처럼 역할별 프롬프트와 권한을 가진 실행 단위입니다.</li>
-      <li><b>Control Plane</b>: Discord 공개 채널에서 직원별 1인 1에이전트가 서로 작업 맥락을 공유하고, 에이전트끼리도 멘션 기반으로 협업합니다.</li>
-      <li><b>Shared Memory</b>: Obsidian 세션, Kanban, Todo card가 다음 에이전트가 이어받을 수 있는 작업 기억과 trace가 됩니다.</li>
-    </ul>
-  </section>
+  <div class="portfolio-case-intro">
+    <section class="portfolio-case-intro__section">
+      <h2>문제와 목표</h2>
+      <div>
+        <p>개발, 문서화, 조사, 일정관리, 시스템 점검, 파일 관리가 여러 장비와 도구에 흩어져 반복 관리 비용이 컸다.</p>
+        <p>개인 장비 묶음이 아니라 역할이 분리된 조직형 AI 운영환경으로 구성해 실제 회사처럼 작업을 나누고 기록할 필요가 있었다.</p>
+        <p>목표는 여러 서버의 에이전트와 도구를 연결해 작업 지시·분배·검증·기록·24시간 관제를 상시 처리하는 운영 기반을 만드는 것이었다.</p>
+      </div>
+    </section>
+
+    <section class="portfolio-case-intro__section">
+      <h2>내가 맡은 범위와 구현</h2>
+      <div>
+        <p>작업실의 노트북 2대를 11번·12번 개발/직원 서버로 고정 IP 할당하고, 장비별 역할과 업무 분장 흐름을 설계했다.</p>
+        <p>데스크톱에는 Ubuntu OS를 설치해 13번 NAS/Linux 서버로 운영하고, 모든 프로젝트와 데이터를 HDD에 저장·관리하는 중앙 스토리지로 구성했다.</p>
+        <p>OpenClaw와 Hermes가 13번 서버에서 24시간 시스템 상태와 작업 흐름을 관제하도록 두고, Discord·Obsidian·n8n으로 작업 지시와 기록 흐름을 연결했다.</p>
+      </div>
+    </section>
+
+    <section class="portfolio-case-intro__section">
+      <h2>기술 구조</h2>
+      <dl class="portfolio-case-intro__spec">
+        <div>
+          <dt>서버 구성</dt>
+          <dd>작업실 노트북 2대는 11번·12번 개발/직원 서버, Ubuntu 데스크톱은 13번 NAS/Linux 서버로 운영.</dd>
+        </div>
+        <div>
+          <dt>연결 구조</dt>
+          <dd>Tailscale VPN으로 외부 접속을 열고, 내부 SSH로 서버 간 자원과 실행 환경을 연결.</dd>
+        </div>
+        <div>
+          <dt>운영 레이어</dt>
+          <dd>Discord Gateway, Obsidian Vault/Kanban/RAG, n8n, cron, Google Workspace, NAS/HDD 데이터 관리.</dd>
+        </div>
+        <div>
+          <dt>에이전트/도구</dt>
+          <dd>OpenClaw, Hermes, Claude Code/Agent Team, Codex, MCP, PloStack 개인 하네스 플러그인.</dd>
+        </div>
+      </dl>
+    </section>
+  </div>
 
   <div class="portfolio-detail-stack">
     <figure class="portfolio-detail-block">
@@ -33,7 +62,7 @@ disable_ads: true
       <figcaption>
         <span class="portfolio-detail-block__label">Harness Layer</span>
         <strong>Plostack public/private harness로 업무 라우팅과 실행 절차를 고정</strong>
-        <p>공개용 Plostack은 brainstorming, planning, design gate, debugging, verification, finish-flow 같은 반복 가능한 업무 절차를 plugin/skill로 패키징합니다. private harness는 Vault, Discord, Kanban, 내부 세션, 팀 역할처럼 내 운영환경에 특화된 맥락과 권한 경계를 담당합니다.</p>
+        <p>여기서 multi-agent는 여러 봇의 개수가 아니라, 업무를 역할별 에이전트에게 위임하고 하네스가 실행 순서와 검증 기준을 통제하는 구조입니다. 공개용 Plostack은 brainstorming, planning, design gate, debugging, verification, finish-flow 같은 반복 가능한 업무 절차를 plugin/skill로 패키징하고, private harness는 Vault, Discord, Kanban, 내부 세션, 팀 역할처럼 내 운영환경에 특화된 맥락과 권한 경계를 담당합니다.</p>
         <a class="portfolio-detail-block__link" href="https://github.com/plozen/plozen-public-plugins" target="_blank" rel="noopener">GitHub 저장소 보기</a>
       </figcaption>
     </figure>
@@ -45,7 +74,7 @@ disable_ads: true
       <figcaption>
         <span class="portfolio-detail-block__label">Subagent Registry</span>
         <strong>역할별 subagent 프롬프트와 설정을 repo 단위로 관리</strong>
-        <p>breaker, design-reviewer, developer-junior/mid/senior, documenter, QA, researcher, reviewer, security처럼 업무 역할별 subagent를 파일로 정의했습니다. 단순히 AI를 여러 개 띄우는 것이 아니라, 각 역할의 책임·도구·추론 강도·쓰기 권한을 분리해 하네스가 작업 성격에 맞는 실행자를 고를 수 있게 만든 구조입니다.</p>
+        <p>breaker, design-reviewer, developer-junior/mid/senior, documenter, QA, researcher, reviewer, security처럼 업무 역할별 subagent를 파일로 정의했습니다. 스킬은 작업 성격에 맞는 지식과 운영 규칙을 필요한 순간에 로드하고, 서브에이전트는 각 역할의 책임·도구·추론 강도·쓰기 권한을 분리해 하네스가 작업 성격에 맞는 실행자를 고를 수 있게 합니다.</p>
       </figcaption>
     </figure>
 

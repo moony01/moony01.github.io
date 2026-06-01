@@ -44,7 +44,8 @@ Visual direction: paper / ink / graphite / blueprint blue. Clean structural, cal
 
 ## Layout Principles
 - `/products/`: dedicated product catalog with a strong K-Pop Face Test feature row, then compact product cards grouped by intent.
-- `/portfolio/`: thin hub, not full case pages. Show four representative cases with concise proof, architecture slot, and masked-evidence status.
+- `/portfolio/`: dedicated portfolio hub, not a generic blog subpage. It reuses the standalone portfolio book's cover plate and representative case index direction, hides the normal subpage hero, and links each case row to the existing blog detail page.
+- Portfolio case order is fixed: `PLOZEN RAG Knowledge System`, `PLOZEN Multi-Agent Orchestration System`, `전북청년마을 앱 MVP`, `전북청년마을 관리자웹 MVP`, `K-POP AI 얼굴상 테스트`, `PLOZEN Workflow Automation System`.
 - Architecture visuals are functional blueprint panels: data flow boxes, proof rails, and status chips. They must not imply unavailable screenshots or production secrets.
 - Page sections are full-width bands or unframed constrained layouts. Cards are only for repeated products, cases, proof summaries, or structured detail previews.
 
@@ -52,7 +53,9 @@ Visual direction: paper / ink / graphite / blueprint blue. Clean structural, cal
 - Primary button: blueprint fill, 48px min height, 8px radius, white text, hover Blueprint Deep, focus outline 3px Blueprint Wash.
 - Secondary button: paper surface, Ink text, Line border, 48px min height.
 - Product card: thumbnail/logo area, title, concrete promise, route/status, compact CTA.
-- Case card: case label, problem, scope chips, evidence row, architecture mini-map.
+- Portfolio hub cover: standalone casebook lead with a direct positioning sentence, a short PLOZEN brief, identity/proof links, and focus keywords.
+- Portfolio case index: numbered `01`~`06` editorial rows matching the standalone `index.html` structure. Rows link to blog case details; detail pages keep their existing blog article layout.
+- Portfolio case intro: detail pages use `portfolio-case-intro` as an editorial text block, not a card. It may contain opening paragraphs, structured 문제/범위/기술구조 rows, or PDF-derived practice summaries. If a separate summary label weakens the story, absorb operating context into the lead paragraphs and distribute definitions into the evidence captions below.
 - Status chip: 32px min height, 13px text, semantic icon or dot, no color-only meaning.
 - Anchor nav: 44px min touch height, visible focus, wraps on mobile without horizontal overflow.
 
@@ -66,4 +69,5 @@ Visual direction: paper / ink / graphite / blueprint blue. Clean structural, cal
 ## Production Handoff Notes
 - Blog hero CTA should be changed from in-page products-only discovery to include `/portfolio/`.
 - Footer Quick Links should include Portfolio.
-- Do not ship detailed case pages until evidence and mask checks are prepared per case.
+- `/portfolio/` may suppress the normal subpage hero with `hide_subpage_hero: true`; this must remain page-specific and not remove the global blog navigation.
+- Detail pages can stay article-style until a separate detail-page redesign is scheduled. The immediate sync target is the portfolio hub and the six-case content order.

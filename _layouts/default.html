@@ -185,11 +185,13 @@
       </script>
     {% endif %}
   </head>
-  <body class="subpage">
+  <body class="subpage{% if page.body_class %} {{ page.body_class }}{% endif %}">
     {% include cross-site-nav.html %}
 
     <main class="subpage-main">
+      {% unless page.hide_subpage_hero %}
       {% include subpage-hero.html %}
+      {% endunless %}
       {{ content }}
     </main>
 
