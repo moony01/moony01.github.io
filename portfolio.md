@@ -21,7 +21,7 @@ hide_subpage_hero: true
         <h1 id="cover-title">서비스/운영 문제를 웹·앱·자동화·AI Agent로 구조화해서 해결하는 개발자.</h1>
 
         <div class="portfolio-brief-panel">
-          <p><strong>PLOZEN</strong>은 제가 직접 운영하는 가상 회사 컨셉입니다. 내부 업무를 기록하고 다시 찾는 <strong>지식 시스템</strong>, 여러 에이전트가 역할을 나눠 일하는 <strong>운영환경</strong>, 반복 업무를 안정적으로 재실행하는 <strong>자동화 흐름</strong>을 먼저 구축했습니다. 그리고 이 <strong>AI 개발 환경</strong> 위에서 지역 청년 사업용 <strong>앱과 백오피스 MVP</strong>를 기획·개발해 외부 클라이언트에 공식 납품했습니다. 토이 프로젝트로 시작한 웹·앱 서비스는 <strong>실제 광고 수익</strong>이 발생하는 운영 서비스로 확장했습니다. 이 포트폴리오는 “회사를 운영한다면 어떤 문제를 어떻게 시스템으로 풀 것인가”라는 기준으로 쌓아온 실행 기록입니다.</p>
+          <p><strong>PLOZEN</strong>은 사업자 등록을 준비 중인 AI 서비스 개발 브랜드입니다. 내부 업무를 기록하고 다시 찾는 <strong>지식 시스템</strong>, 여러 에이전트가 역할을 나눠 일하는 <strong>운영환경</strong>, 반복 업무를 안정적으로 재실행하는 <strong>자동화 흐름</strong>을 먼저 구축했습니다. 그리고 이 <strong>AI 개발 환경</strong> 위에서 지역 청년 사업용 <strong>앱과 백오피스 MVP</strong>를 기획·개발해 외부 클라이언트에 공식 납품했습니다. 토이 프로젝트로 시작한 웹·앱 서비스는 <strong>실제 광고 수익</strong>이 발생하는 운영 서비스로 확장했습니다. 이 포트폴리오는 “회사를 운영한다면 어떤 문제를 어떻게 시스템으로 풀 것인가”라는 기준으로 쌓아온 실행 기록입니다.</p>
         </div>
 
         <div class="portfolio-profile-block">
