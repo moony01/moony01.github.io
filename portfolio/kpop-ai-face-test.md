@@ -66,7 +66,6 @@ disable_ads: true
         <img src="/static/img/portfolio/kpop-ai-face-test/kpopface-mobile-result-flow.png" alt="K-POP AI 얼굴상 테스트 모바일 결과 흐름 전체 화면" width="503" height="4775" loading="lazy" decoding="async">
       </div>
       <figcaption>
-        <span class="portfolio-detail-block__label">Mobile Result Flow</span>
         <strong>얼굴상 분석부터 결과 공유까지 이어지는 사용자 흐름</strong>
         <p>사진 업로드, AI 분석, 결과 키워드, 공유 이미지, 댓글·투표·랭킹으로 이어지는 모바일 결과 페이지입니다. 웹/PWA와 Android WebView를 함께 운영하면서 GA4/GSC/AdSense 기반의 서비스 운영 흐름까지 연결했습니다.</p>
         <a class="portfolio-detail-block__link" href="https://moony01.com/kpopface/" target="_blank" rel="noopener noreferrer">서비스 열기</a>

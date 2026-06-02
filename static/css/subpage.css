@@ -1287,23 +1287,12 @@ body.portfolio-hub .footer-enhanced {
   margin: 0 auto;
 }
 
-.portfolio-detail-block__label,
 .portfolio-detail-block figcaption strong,
 .portfolio-detail-block figcaption p {
   display: block;
 }
 
-.portfolio-detail-block__label {
-  color: #1d4ed8;
-  font-size: 12px;
-  font-weight: 900;
-  letter-spacing: 0.08em;
-  line-height: 1.3;
-  text-transform: uppercase;
-}
-
 .portfolio-detail-block figcaption strong {
-  margin-top: 8px;
   color: #111827;
   font-size: clamp(22px, 2.3vw, 30px);
   line-height: 1.24;

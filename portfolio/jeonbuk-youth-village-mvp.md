@@ -19,7 +19,6 @@ disable_ads: true
         <img src="/static/img/portfolio/jeonbuk-youth-village-app/kmong-main-thumbnail.png" alt="전북청년마을 앱 MVP 썸네일" width="1200" height="1200" loading="lazy" decoding="async">
       </a>
       <figcaption>
-        <span class="portfolio-detail-block__label">Mobile App</span>
         <strong>전북청년마을 앱 MVP</strong>
         <p>QR 미션, 현장 지도, 공지 운영 흐름을 모바일 앱으로 연결한 사용자 앱 상세 케이스입니다.</p>
         <a class="portfolio-detail-block__link" href="/portfolio/jeonbuk-youth-village-app/">앱 상세 보기</a>
@@ -31,7 +30,6 @@ disable_ads: true
         <img src="/static/img/portfolio/jeonbuk-youth-village-admin-web/kmong-web-main-thumbnail.png" alt="전북청년마을 관리자웹 MVP 썸네일" width="1200" height="1200" loading="lazy" decoding="async">
       </a>
       <figcaption>
-        <span class="portfolio-detail-block__label">Admin Web</span>
         <strong>전북청년마을 관리자웹 MVP</strong>
         <p>프로그램, 참여자, 콘텐츠, QR 미션, 공지 발송을 관리하는 운영자 웹 상세 케이스입니다.</p>
         <a class="portfolio-detail-block__link" href="/portfolio/jeonbuk-youth-village-admin-web/">관리자웹 상세 보기</a>
