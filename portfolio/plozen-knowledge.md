@@ -16,7 +16,7 @@ disable_ads: true
     <section class="portfolio-case-intro__section">
       <h2>문제와 목표</h2>
       <div>
-        <p>Obsidian 세션 기록, 프로젝트 문서, 완료 Todo가 쌓이면서 에이전트가 필요한 맥락을 문서 단위로 매번 프롬프트에 붙이는 방식은 토큰 낭비가 컸다.</p>
+        <p>Obsidian 세션 기록, 프로젝트 문서, 완료 Todo가 쌓이면서 문서 그래프가 방대해졌고, 에이전트가 필요한 맥락을 문서 단위로 매번 프롬프트에 붙이는 방식은 토큰 낭비가 컸다.</p>
         <p>목표는 내부 문서와 운영 기록을 PostgreSQL pgvector 기반 RAG 저장소로 색인하고, 에이전트가 필요한 지식만 검색해 가져올 수 있는 FastAPI/MCP 검색 기반을 만드는 것이었다.</p>
       </div>
     </section>
@@ -40,7 +40,17 @@ disable_ads: true
   <div class="portfolio-detail-stack">
     <figure class="portfolio-detail-block">
       <div class="portfolio-detail-block__image">
-        <img src="/static/img/portfolio/plozen-knowledge/vector-db-console.png" alt="PLOZEN VectorDB 관리 콘솔 문서 목록, 글자량, 조각 수, 벡터 상태 화면 캡처" width="2328" height="1795" loading="eager" decoding="async">
+        <img src="/static/img/portfolio/plozen-knowledge/obsidian-knowledge-graph-density.png" alt="PLOZEN Obsidian Vault 그래프 화면에 프로젝트 문서와 세션 기록이 방대하게 연결된 캡처" width="2559" height="1460" loading="eager" decoding="async">
+      </div>
+      <figcaption>
+        <strong>문서량이 커진 Obsidian 원문 저장소</strong>
+        <p>세션 기록, 프로젝트 문서, Todo, 운영 로그가 누적되면서 Vault 그래프가 방대해졌습니다. 에이전트가 전체 문서를 매번 프롬프트에 붙이는 방식은 토큰 비용과 검색 정확도 측면에서 한계가 있었고, 이 원문 저장소를 검색 가능한 RAG index로 분리할 필요가 있었습니다.</p>
+      </figcaption>
+    </figure>
+
+    <figure class="portfolio-detail-block">
+      <div class="portfolio-detail-block__image">
+        <img src="/static/img/portfolio/plozen-knowledge/vector-db-console.png" alt="PLOZEN VectorDB 관리 콘솔 문서 목록, 글자량, 조각 수, 벡터 상태 화면 캡처" width="2328" height="1795" loading="lazy" decoding="async">
       </div>
       <figcaption>
         <strong>VectorDB 관리 콘솔과 문서 벡터화 흐름</strong>
