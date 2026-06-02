@@ -59,6 +59,7 @@ hide_subpage_hero: true
             <strong>PLOZEN RAG Knowledge System</strong>
             <small>2026.05 ~ 진행중 / pgvector RAG·MCP Server 포트폴리오</small>
             <p>내부 문서와 운영 기록을 pgvector RAG 저장소로 색인하고, MCP/API로 에이전트가 근거 문서를 다시 찾게 만든 조직 지식 검색 시스템입니다.</p>
+            <span class="portfolio-index-row__cta">상세보기 &gt;</span>
           </div>
         </a>
         <a class="portfolio-index-row" href="/portfolio/plostack-multi-agent/">
@@ -67,6 +68,7 @@ hide_subpage_hero: true
             <strong>PLOZEN Multi-Agent Orchestration System</strong>
             <small>2026.01 ~ 진행중 / 개인 AX 운영환경·멀티서버 AI 에이전트 시스템</small>
             <p>11·12번 개발 서버와 13번 NAS/Linux 운영 노드를 연결해 작업 지시·분배·검증·기록·24시간 관제가 가능한 조직형 AI 운영환경으로 구성했습니다.</p>
+            <span class="portfolio-index-row__cta">상세보기 &gt;</span>
           </div>
         </a>
         <a class="portfolio-index-row" href="/portfolio/jeonbuk-youth-village-app/">
@@ -75,6 +77,7 @@ hide_subpage_hero: true
             <strong>전북청년마을 앱 MVP</strong>
             <small>2026.02 ~ 2026.04 / 외부 실무 모바일 앱 MVP</small>
             <p>체류형 청년마을 참여자가 QR 미션, 현장 지도, 공지 흐름을 모바일에서 따라갈 수 있도록 설계·구현한 React Native/Expo 앱 MVP입니다.</p>
+            <span class="portfolio-index-row__cta">상세보기 &gt;</span>
           </div>
         </a>
         <a class="portfolio-index-row" href="/portfolio/jeonbuk-youth-village-admin-web/">
@@ -83,6 +86,7 @@ hide_subpage_hero: true
             <strong>전북청년마을 관리자웹 MVP</strong>
             <small>2026.02 ~ 2026.04 / 외부 실무 백오피스 MVP</small>
             <p>프로그램, 참여자, 콘텐츠, QR 미션, 공지·푸시 발송을 관리하고 모바일 앱 데이터를 확인하는 Next.js 백오피스 MVP입니다.</p>
+            <span class="portfolio-index-row__cta">상세보기 &gt;</span>
           </div>
         </a>
         <a class="portfolio-index-row" href="/portfolio/kpop-ai-face-test/">
@@ -91,6 +95,7 @@ hide_subpage_hero: true
             <strong>K-POP AI 얼굴상 테스트</strong>
             <small>2023.07 ~ 2023.08 / 완료 후 운영 / 개인 AI 웹·PWA·Android 서비스</small>
             <p>K-POP 얼굴상 테스트를 웹/PWA/Android 앱으로 운영하면서 얼굴상 분석, 결과 공유 이미지, 댓글·투표·랭킹, 다국어 SEO, 광고 수익화 흐름을 연결한 실서비스입니다.</p>
+            <span class="portfolio-index-row__cta">상세보기 &gt;</span>
           </div>
         </a>
         <a class="portfolio-index-row" href="/portfolio/plostack-n8n-workflow-pack/">
@@ -99,6 +104,7 @@ hide_subpage_hero: true
             <strong>PLOZEN Workflow Automation System</strong>
             <small>2026.01 ~ 진행중 / 개인 자동화 프로젝트</small>
             <p>콘텐츠 발행, K-POP 얼굴상 테스트 마케팅, 서버 점검, 파일 보관, 보안 점검, 운영 리포트를 n8n 워크플로우로 자동화했습니다.</p>
+            <span class="portfolio-index-row__cta">상세보기 &gt;</span>
           </div>
         </a>
       </div>

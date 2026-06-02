@@ -460,6 +460,23 @@ body.portfolio-hub .footer-enhanced {
   line-clamp: 2;
 }
 
+.portfolio-index-row__cta {
+  display: block;
+  margin-top: 10px;
+  color: #244fd6;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1;
+  text-align: right;
+}
+
+.portfolio-index-row:hover .portfolio-index-row__cta,
+.portfolio-index-row:focus .portfolio-index-row__cta {
+  color: #101010;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .products-page__hero {
   padding: clamp(28px, 5vw, 56px);
   border: 1px solid #ded8cc;
@@ -579,7 +596,6 @@ body.portfolio-hub .footer-enhanced {
 .portfolio-case-list {
   margin-top: 18px;
 }
-
 .portfolio-case-row {
   display: grid;
   grid-template-columns: 56px minmax(0, 1fr) auto;
