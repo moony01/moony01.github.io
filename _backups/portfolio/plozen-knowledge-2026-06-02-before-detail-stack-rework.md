@@ -40,21 +40,24 @@ disable_ads: true
   <div class="portfolio-detail-stack">
     <figure class="portfolio-detail-block">
       <div class="portfolio-detail-block__image">
-        <img src="/static/img/portfolio/plozen-knowledge/vector-db-console.png" alt="PLOZEN VectorDB 관리 콘솔 문서 목록, 글자량, 조각 수, 벡터 상태 화면 캡처" width="2328" height="1795" loading="eager" decoding="async">
+        <img src="/static/img/portfolio/plozen-knowledge/rag-similarity-search-smoke.png" alt="PLOZEN RAG Knowledge System document_chunks, document_sources, search_audit_logs 테이블 캡처" width="1452" height="484" loading="eager" decoding="async">
       </div>
       <figcaption>
-        <strong>VectorDB 관리 콘솔과 문서 벡터화 흐름</strong>
-        <p>문서가 단순 업로드 상태인지, chunking/embedding을 거쳐 VectorDB에 저장된 상태인지 확인하는 관리 콘솔입니다. 문서 목록, 글자량, 조각 수, 적재/벡터 상태를 한 화면에서 확인하고, 업로드와 벡터 생성을 분리해 검색 index 전환 상태를 운영자가 확인할 수 있게 구성했습니다.</p>
+        <span class="portfolio-detail-block__label">RAG Database Evidence</span>
+        <strong>document_chunks, document_sources, search_audit_logs로 검증한 pgvector RAG 저장소</strong>
+        <p>문서 source, chunk, embedding vector, content hash, metadata, 검색 audit log를 PostgreSQL schema로 분리하고, demo seed와 similarity search smoke test로 RAG 저장소가 실제 검색 가능한 상태인지 확인했습니다. 후속 단계에서는 Obsidian/Markdown ingest와 real embedding provider를 연결합니다.</p>
       </figcaption>
     </figure>
 
     <figure class="portfolio-detail-block">
-      <div class="portfolio-detail-block__image">
-        <img src="/static/img/portfolio/plozen-knowledge/rag-similarity-search-smoke.png" alt="PLOZEN RAG Knowledge System document_sources, document_chunks, search_audit_logs 데이터베이스 검증 캡처" width="1452" height="484" loading="lazy" decoding="async">
-      </div>
+      <a class="portfolio-detail-block__image portfolio-detail-block__image--og" href="https://github.com/plozen/plozen-knowledge" target="_blank" rel="noopener" aria-label="PLOZEN RAG Knowledge System GitHub 저장소 열기">
+        <img src="https://opengraph.githubassets.com/plozen-knowledge/plozen/plozen-knowledge" alt="PLOZEN RAG Knowledge System GitHub 저장소 Open Graph 이미지" width="1200" height="600" loading="lazy" decoding="async">
+      </a>
       <figcaption>
-        <strong>pgvector 저장소와 similarity search 검증</strong>
-        <p>문서 source, chunk, embedding vector, content hash, metadata, search audit log를 분리한 schema로 저장하고, similarity search smoke test로 RAG 저장소가 실제 검색 가능한 상태인지 검증했습니다.</p>
+        <span class="portfolio-detail-block__label">Repository</span>
+        <strong>pgvector RAG schema와 MCP/API 확장 저장소</strong>
+        <p>RAG DB schema, seed, similarity smoke SQL, README evidence를 저장소로 관리합니다. 검색 도구는 MCP Server search_knowledge와 API 레이어로 확장하고, 후속 agent workflow는 LangChain/LangGraph 기반으로 연결합니다.</p>
+        <a class="portfolio-detail-block__link" href="https://github.com/plozen/plozen-knowledge" target="_blank" rel="noopener">GitHub 저장소 보기</a>
       </figcaption>
     </figure>
 
@@ -63,18 +66,9 @@ disable_ads: true
         <img src="/static/img/portfolio/plozen-knowledge/obsidian-vault-repository.png" alt="PLOZEN Obsidian Vault GitHub 저장소 스크린샷" width="1678" height="1198" loading="lazy" decoding="async">
       </div>
       <figcaption>
-        <strong>Obsidian 원문과 RAG 검색 index의 경계</strong>
-        <p>Obsidian Vault는 세션 기록, 프로젝트 문서, Todo archive, 운영 로그의 source of truth로 유지하고, RAG DB는 검색을 위한 파생 index로 분리했습니다. 에이전트는 전체 문서를 프롬프트에 붙이는 대신 필요한 chunk만 검색해 컨텍스트로 사용할 수 있게 했습니다.</p>
-      </figcaption>
-    </figure>
-
-    <figure class="portfolio-detail-block">
-      <div class="portfolio-detail-block__image">
-        <img src="/static/img/portfolio/plozen-knowledge/fastapi-openapi-docs.png" alt="PLOZEN Knowledge API FastAPI OpenAPI 문서 endpoint 목록 캡처" width="2328" height="920" loading="lazy" decoding="async">
-      </div>
-      <figcaption>
-        <strong>FastAPI API 계층과 MCP 확장 경계</strong>
-        <p>문서 조회, 업로드, 벡터 생성, chunk 조회, 검색, audit log endpoint를 FastAPI로 분리했습니다. Console과 Agent가 같은 API 계층을 사용할 수 있고, MCP tool은 이 API를 감싸는 방식으로 확장할 수 있게 설계했습니다.</p>
+        <span class="portfolio-detail-block__label">Source Documents</span>
+        <strong>Obsidian Vault 기반 문서형 RAG source</strong>
+        <p>세션 기록, 프로젝트 문서, Todo archive, 운영 로그를 Markdown 원문으로 관리하고, 이후 chunking/embedding 파이프라인의 source document로 사용합니다. 매번 긴 컨텍스트를 프롬프트에 붙이는 대신, 필요한 근거 문서를 검색해서 가져오는 구조를 목표로 했습니다.</p>
       </figcaption>
     </figure>
   </div>
