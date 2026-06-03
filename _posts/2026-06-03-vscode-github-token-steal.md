@@ -5,7 +5,7 @@ description: "VS Code 웹뷰 버그가 github.dev에서 GitHub 토큰 탈취로 
 date: 2026-06-03 21:22:00 +0900
 categories: [security]
 tags: [VSCode웹뷰, GitHub토큰탈취, githubdev, 개발자보안, 확장보안]
-image: vscode-github-token-steal/vscode-github-token-steal-1.png
+image: vscode-github-token-steal/vscode-github-token-steal-1.webp
 lang: ko
 published: true
 ---
@@ -18,7 +18,20 @@ Hacker News에서도 바로 크게 올라왔다. Algolia 기준으로 2026년 6�
 
 {% include pre-version.html %}
 
-![VS Code 웹뷰 버그와 GitHub 토큰 탈취 흐름을 보여주는 밝은 보안 다이어그램](/static/img/posts/vscode-github-token-steal/vscode-github-token-steal-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/vscode-github-token-steal/vscode-github-token-steal-1-400.webp 400w,
+            /static/img/posts/vscode-github-token-steal/vscode-github-token-steal-1-800.webp 800w,
+            /static/img/posts/vscode-github-token-steal/vscode-github-token-steal-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/vscode-github-token-steal/vscode-github-token-steal-1.webp"
+    alt="VS Code 웹뷰 버그와 GitHub 토큰 탈취 흐름을 보여주는 밝은 보안 다이어그램"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 핵심은 웹뷰가 키보드 단축키를 대신 눌렀다는 점이다
 
@@ -85,7 +98,20 @@ package.json
 
 VS Code의 publisher trust 시스템은 도움이 된다. 하지만 마지막 클릭은 결국 사용자에게 온다. 보안 기능은 사용자가 속도를 줄일 때 제 역할을 한다. 바쁠 때 무심코 누르는 버튼이 제일 비싸다.
 
-![github.dev와 VS Code 확장 보안을 점검하는 개발자 워크플로우 일러스트](/static/img/posts/vscode-github-token-steal/vscode-github-token-steal-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/vscode-github-token-steal/vscode-github-token-steal-2-400.webp 400w,
+            /static/img/posts/vscode-github-token-steal/vscode-github-token-steal-2-800.webp 800w,
+            /static/img/posts/vscode-github-token-steal/vscode-github-token-steal-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/vscode-github-token-steal/vscode-github-token-steal-2.webp"
+    alt="github.dev와 VS Code 확장 보안을 점검하는 개발자 워크플로우 일러스트"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 이번 사건이 남긴 더 큰 질문
 
