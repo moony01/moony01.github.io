@@ -16,37 +16,22 @@ disable_ads: true
     <section class="portfolio-case-intro__section">
       <h2>문제와 목표</h2>
       <div>
-        <p>청년마을 운영에는 참여자 관리, 위치/GPS 로그, QR 탐험, 사진 인증, 콘텐츠 검수, 공지/통계 등 여러 운영 흐름을 한곳에서 관리할 MVP가 필요했다.</p>
-        <p>관리자웹은 운영자가 확인할 화면과 DB/공통 구조를 먼저 잡고, 콘텐츠 검수·통계 등 세부 운영 기능은 후속 연동 범위로 분리해 사업 운영 가능성과 후속 개발 범위를 검증하는 것이 목표였다.</p>
-        <p>청년마을 운영자가 참여자, 콘텐츠, QR 미션, 공지 발송을 한 화면 흐름에서 관리할 수 있도록 관리자웹 MVP를 구성했다.</p>
+        <p>청년마을 운영자가 참여자, 위치 로그, QR 미션, 콘텐츠 검수, 공지·통계를 한 화면 흐름에서 관리하고 앱 데이터와 운영 DB 구조를 검증할 관리자웹 MVP가 필요했다.</p>
       </div>
     </section>
 
     <section class="portfolio-case-intro__section">
       <h2>내가 맡은 범위와 구현</h2>
       <div>
-        <p>Next.js 기반 운영자 화면으로 회원/그룹, QR 탐험, 위치 로그, 콘텐츠 검수, 게시판/장소, 공지/통계, 권한관리 화면 구조를 설계했다.</p>
-        <p>Supabase PostgreSQL/Auth/RLS/Storage/Edge Functions 기반 인증·저장소·테이블 구조를 앱 데이터와 연결했다.</p>
-        <p>GitHub Actions에서 Next.js를 Cloudflare Pages용으로 빌드하고, Cloudflare Pages에 자동 배포하는 CI/CD 흐름을 구성했다.</p>
+        <p>Next.js 운영자 화면의 정보구조와 회원/그룹, QR 탐험, 위치 로그, 콘텐츠 검수, 공지·통계, 권한관리 화면을 설계하고 Supabase PostgreSQL/Auth/RLS/Storage/Edge Functions와 Cloudflare Pages CI/CD를 연결했다.</p>
       </div>
     </section>
 
     <section class="portfolio-case-intro__section">
       <h2>기술 구조</h2>
-      <dl class="portfolio-case-intro__spec">
-        <div>
-          <dt>프런트엔드</dt>
-          <dd>Next.js 기반 운영자 화면, 대시보드, 회원/그룹, QR 탐험, 위치 로그, 콘텐츠 검수, 공지/통계, 권한관리.</dd>
-        </div>
-        <div>
-          <dt>데이터 구조</dt>
-          <dd>Supabase PostgreSQL, Auth, RLS, Storage, Edge Functions 기반으로 앱 데이터와 운영자 화면을 연결.</dd>
-        </div>
-        <div>
-          <dt>배포 구조</dt>
-          <dd>GitHub Actions 빌드와 Cloudflare Pages 자동 배포로 MVP 운영 흐름을 구성.</dd>
-        </div>
-      </dl>
+      <div>
+        <p>Next.js, Supabase PostgreSQL/Auth/RLS/Storage/Edge Functions, GitHub Actions, Cloudflare Pages.</p>
+      </div>
     </section>
   </div>
 

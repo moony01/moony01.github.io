@@ -16,41 +16,22 @@ disable_ads: true
     <section class="portfolio-case-intro__section">
       <h2>문제와 목표</h2>
       <div>
-        <p>단순 토이앱이 아니라 사용자 업로드 이미지, AI 예측, 결과 공유, SEO/광고, 앱 출시까지 이어지는 소비자용 AI 서비스를 1인 구축하는 것이 목표였다.</p>
-        <p>해외 검색 유입과 모바일 사용성을 고려해 다국어 페이지, PWA, Google Play 앱, GA4/GSC/AdSense 운영 구조를 함께 구축해야 했다.</p>
-        <p>K-POP 얼굴상 테스트를 웹/PWA/Android 앱으로 운영하면서 얼굴상 분석, 결과 공유 이미지, 댓글·투표·랭킹, 광고 수익화 흐름을 연결했다.</p>
+        <p>K-POP 얼굴상 테스트를 단순 AI 데모가 아니라 이미지 업로드, AI 예측, 결과 공유, 다국어 SEO, 광고 수익화, PWA/Android 앱 출시까지 이어지는 소비자용 서비스로 구축하는 것이 목표였다.</p>
       </div>
     </section>
 
     <section class="portfolio-case-intro__section">
       <h2>내가 맡은 범위와 구현</h2>
       <div>
-        <p>Python/Selenium으로 학습 이미지 데이터를 수집하고, Teachable Machine 기반 남/녀 얼굴상 모델을 학습·검증했다.</p>
-        <p>사용자 업로드 이미지 분석, 클래스별 확률 계산, 얼굴상 결과 문구 매핑, 결과 이미지 생성, SNS 공유 UX를 구현했다.</p>
-        <p>Jekyll/GitHub Pages 기반 다국어 웹, PWA, React Native WebView Android 앱, GA4/GSC/AdSense 운영 흐름을 연결했다.</p>
+        <p>Python/Selenium 데이터 수집과 Teachable Machine 모델 학습을 진행하고 TensorFlow.js 분석, 결과 이미지 생성, SNS 공유 UX, Jekyll/GitHub Pages 다국어 웹, PWA, React Native WebView Android 앱, GA4/GSC/AdSense 운영 흐름을 연결했다.</p>
       </div>
     </section>
 
     <section class="portfolio-case-intro__section">
       <h2>기술 구조</h2>
-      <dl class="portfolio-case-intro__spec">
-        <div>
-          <dt>AI 모델</dt>
-          <dd>Python/Selenium 데이터 수집, Teachable Machine, TensorFlow.js 기반 남/녀 얼굴상 예측 모델.</dd>
-        </div>
-        <div>
-          <dt>서비스 흐름</dt>
-          <dd>이미지 업로드, AI 분석, 클래스별 확률 계산, 결과 문구 매핑, Canvas 결과 이미지 생성, SNS 공유 UX.</dd>
-        </div>
-        <div>
-          <dt>웹/앱 운영</dt>
-          <dd>Jekyll/GitHub Pages 15개 언어 페이지, PWA/Service Worker, React Native WebView Android 앱.</dd>
-        </div>
-        <div>
-          <dt>성장/수익화</dt>
-          <dd>GA4, Google Search Console, AdSense, JSON-LD, hreflang, OG/Twitter 메타로 검색·광고 운영 구조 구성.</dd>
-        </div>
-      </dl>
+      <div>
+        <p>Python, Selenium, Teachable Machine, TensorFlow.js, Jekyll/GitHub Pages, PWA, React Native WebView, GA4/GSC/AdSense.</p>
+      </div>
     </section>
   </div>
 

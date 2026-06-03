@@ -16,8 +16,7 @@ disable_ads: true
     <section class="portfolio-case-intro__section">
       <h2>문제와 목표</h2>
       <div>
-        <p>블로그 포스팅, K-POP 뉴스 숏폼, 오디션 정보 SNS 발행, 내부 NAS/서버 운영 점검, 컴퓨팅 자원 상태 관리가 각각 수동 반복 작업으로 흩어져 있었다.</p>
-        <p>블로그 포스팅, K-POP 뉴스 숏폼, 오디션 SNS 발행은 K-POP 얼굴상 테스트와 개인 블로그의 검색 유입·SNS 노출을 키우기 위한 마케팅 운영 자산으로 필요했다.</p>
+        <p>블로그 포스팅, K-POP 뉴스 숏폼, 오디션 정보 SNS 발행, 내부 NAS/서버 운영 점검, 컴퓨팅 자원 상태 관리가 각각 수동 반복 작업으로 흩어져 있었고, 이 중 콘텐츠 발행 흐름은 K-POP 얼굴상 테스트와 개인 블로그의 검색 유입·SNS 노출을 키우기 위한 마케팅 운영 자산으로 필요했다.</p>
         <p>목표는 마케팅 콘텐츠 발행과 내부 서버 운영 점검을 스케줄 기반 워크플로우로 재실행 가능하게 구성하는 것이었다.</p>
       </div>
     </section>
@@ -25,32 +24,15 @@ disable_ads: true
     <section class="portfolio-case-intro__section">
       <h2>내가 맡은 범위와 구현</h2>
       <div>
-        <p>n8n 워크플로우 인벤토리를 점검하고, 마케팅 콘텐츠·블로그 발행·서버 운영·컴퓨팅 자원 관리 자동화 범주를 분리했다.</p>
-        <p>블로그 자동 발행, K-POP 뉴스 숏폼, 오디션 SNS 카드, 서버 상태 점검, 파일 정리·보관, SSD→HDD 콜드 아카이브, 보안 점검, 운영 리포트 발송을 반복 운영 가능한 워크플로우로 정리했다.</p>
-        <p>Docker/Docker Compose 기반 self-hosted n8n과 Claude Code Gateway, PloStack 자동화 스킬, 외부 RSS/API 수집 흐름을 연결했다.</p>
+        <p>작업 성격에 따라 K-POP 뉴스 숏폼은 외부 RSS/API, TTS, FFmpeg, 업로드가 이어지는 n8n 파이프라인으로 유지했고, 블로그·KCL·서버 점검·파일 보관·운영 리포트처럼 판단과 검증이 필요한 작업은 PloStack skill 기반 agentic 자동화로 옮기되 실행 현황은 n8n에서 시각화했다.</p>
       </div>
     </section>
 
     <section class="portfolio-case-intro__section">
       <h2>기술 구조</h2>
-      <dl class="portfolio-case-intro__spec">
-        <div>
-          <dt>실행 환경</dt>
-          <dd>Docker/Docker Compose 기반 self-hosted n8n, n8n Workflow JSON, Schedule Trigger.</dd>
-        </div>
-        <div>
-          <dt>자동화 연결</dt>
-          <dd>Claude Code Gateway, PloStack 자동화 스킬, REST/RSS, Google Search Console, 서버 상태 점검 스크립트.</dd>
-        </div>
-        <div>
-          <dt>콘텐츠 파이프라인</dt>
-          <dd>RSS/API 수집, Gemini/OpenAI TTS API, FFmpeg 조립으로 뉴스·숏폼·SNS 콘텐츠 발행 흐름 구성.</dd>
-        </div>
-        <div>
-          <dt>운영 루틴</dt>
-          <dd>서버 상태 점검, 파일 정리·보관, SSD→HDD 콜드 아카이브, 보안 점검, 운영 리포트 발송.</dd>
-        </div>
-      </dl>
+      <div>
+        <p>n8n, PloStack Skills, Claude Code/Codex CLI, Schedule/Cron, RSS/API, TTS, FFmpeg, Google Search Console, Discord/Obsidian.</p>
+      </div>
     </section>
   </div>
 
@@ -60,8 +42,8 @@ disable_ads: true
         <img src="/static/img/portfolio/plostack-n8n-workflow-pack/n8n-workflow-overview.png" alt="n8n 워크플로우 목록과 실행 지표가 보이는 Overview 화면" width="806" height="880" loading="lazy" decoding="async">
       </div>
       <figcaption>
-        <strong>콘텐츠 발행과 서버 운영 자동화를 한 보드에서 추적</strong>
-        <p>Published workflow 11개를 기준으로 블로그·뉴스·K-POP 숏폼 발행, 서버 상태 점검, 파일 정리·보관, SSD에서 HDD로 넘기는 콜드 아카이브, 보안 점검, 운영 리포트 발송을 관리했습니다. 캡처 기준 prod executions 65, failure rate 1.5%, avg run time 1.23s입니다.</p>
+        <strong>n8n 자동화 인벤토리와 실행 현황</strong>
+        <p>Published workflow 11개를 기준으로 n8n 파이프라인과 skill 기반 자동화의 실행 상태를 한 보드에서 추적했습니다. 캡처 기준 prod executions 65, failure rate 1.5%, avg run time 1.23s이며, n8n은 전체 자동화 로직을 모두 담는 도구가 아니라 실행 현황을 확인하는 운영 화면으로도 사용했습니다.</p>
       </figcaption>
     </figure>
 
@@ -77,11 +59,11 @@ disable_ads: true
 
     <figure class="portfolio-detail-block">
       <div class="portfolio-detail-block__image">
-        <img src="/static/img/portfolio/plostack-n8n-workflow-pack/n8n-report-image-workflow.png" alt="리포트와 이미지를 생성해 업로드하는 n8n 워크플로우" width="1030" height="193" loading="lazy" decoding="async">
+        <img src="/static/img/portfolio/plostack-n8n-workflow-pack/n8n-report-image-workflow.png" alt="오디션 정보를 수집해 SNS 카드로 자동 발행하는 n8n 워크플로우" width="1030" height="193" loading="lazy" decoding="async">
       </div>
       <figcaption>
-        <strong>운영 리포트 이미지 생성과 발송 기록</strong>
-        <p>예약 실행, 데이터 수집, 리포트 이미지 생성, 업로드, 발송 기록 저장을 자동화한 흐름입니다. 콘텐츠 자동화뿐 아니라 운영 상태를 기록하고 다시 확인할 수 있는 관리 루틴까지 n8n에 연결했습니다.</p>
+        <strong>오디션 정보 SNS 카드 자동 발행 흐름</strong>
+        <p>예약 실행, 오디션 정보 수집, 상세 페이지 확인, 이미지 생성, 업로드, 발행 기록 저장을 자동화한 흐름입니다. 외부 페이지와 이미지 생성 API를 단계별로 통과해야 하는 콘텐츠 발행 작업이라 n8n 파이프라인으로 유지했습니다.</p>
       </figcaption>
     </figure>
   </div>
