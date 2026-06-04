@@ -5,7 +5,7 @@ description: "Gemma 4 12B가 16GB 노트북에서 멀티모달 입력을 처리�
 date: 2026-06-04 14:05:51 +0900
 categories: [ai]
 tags: [Gemma4, 로컬AI, 멀티모달AI, 오픈모델, 개발도구]
-image: gemma-4-local-ai/gemma-4-local-ai-1.png
+image: gemma-4-local-ai/gemma-4-local-ai-1.webp
 lang: ko
 published: true
 ---
@@ -18,7 +18,20 @@ Hacker News에서도 바로 크게 올라왔다. 내가 확인한 시점에는 `
 
 {% include pre-version.html %}
 
-![Gemma 4 12B 로컬 AI가 노트북에서 멀티모달 입력을 처리하는 장면](/static/img/posts/gemma-4-local-ai/gemma-4-local-ai-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/gemma-4-local-ai/gemma-4-local-ai-1-400.webp 400w,
+            /static/img/posts/gemma-4-local-ai/gemma-4-local-ai-1-800.webp 800w,
+            /static/img/posts/gemma-4-local-ai/gemma-4-local-ai-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/gemma-4-local-ai/gemma-4-local-ai-1.webp"
+    alt="Gemma 4 12B 로컬 AI가 노트북에서 멀티모달 입력을 처리하는 장면"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 로컬 AI의 기준선이 다시 내려왔다
 
@@ -62,7 +75,20 @@ Gemma 4 12B 같은 모델이 로컬에서 오디오와 비디오 이해를 어�
 
 새 모델 발표에서 실제로 중요한 건 "그래서 어떻게 돌리는데?"다. Gemma 4 12B는 이 부분에서 꽤 넓게 열어뒀다. 공식 발표에는 Hugging Face, Kaggle, LM Studio, Ollama, llama.cpp, MLX, SGLang, vLLM, Unsloth 같은 경로가 같이 언급된다. Google AI 문서도 Gemma 4 모델 개요와 quick start를 따로 제공한다.
 
-![Gemma 4 12B의 encoder-free 멀티모달 처리 흐름을 밝게 표현한 구조도](/static/img/posts/gemma-4-local-ai/gemma-4-local-ai-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/gemma-4-local-ai/gemma-4-local-ai-2-400.webp 400w,
+            /static/img/posts/gemma-4-local-ai/gemma-4-local-ai-2-800.webp 800w,
+            /static/img/posts/gemma-4-local-ai/gemma-4-local-ai-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/gemma-4-local-ai/gemma-4-local-ai-2.webp"
+    alt="Gemma 4 12B의 encoder-free 멀티모달 처리 흐름을 밝게 표현한 구조도"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 이건 채택 속도에 직접 영향을 준다. 연구용 모델은 멋있어도 설치가 귀찮으면 커뮤니티에서 금방 식는다. 반대로 Ollama나 LM Studio처럼 익숙한 도구에 들어오면 테스트 장벽이 낮아진다. 팀에서 누군가 하루 만에 로컬 API 서버를 띄워보고, 다른 사람이 작은 agent harness에 붙여보는 식의 실험이 가능해진다.
 
