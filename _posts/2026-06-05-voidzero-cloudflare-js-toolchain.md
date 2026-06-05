@@ -5,7 +5,7 @@ description: "VoidZero가 Cloudflare에 합류하며 Vite와 Vitest, Rolldown, O
 date: 2026-06-05 14:12:00 +0900
 categories: [javascript]
 tags: [VoidZero, Cloudflare, Vite, 자바스크립트툴체인, 오픈소스]
-image: voidzero-cloudflare-js-toolchain/voidzero-cloudflare-js-toolchain-1.png
+image: voidzero-cloudflare-js-toolchain/voidzero-cloudflare-js-toolchain-1.webp
 lang: ko
 published: true
 ---
@@ -16,7 +16,20 @@ Hacker News에서도 바로 반응이 컸다. 내가 확인한 시점에 `VoidZe
 
 {% include pre-version.html %}
 
-![VoidZero Cloudflare 합류로 이어진 JavaScript 툴체인 흐름](/static/img/posts/voidzero-cloudflare-js-toolchain/voidzero-cloudflare-js-toolchain-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/voidzero-cloudflare-js-toolchain/voidzero-cloudflare-js-toolchain-1-400.webp 400w,
+            /static/img/posts/voidzero-cloudflare-js-toolchain/voidzero-cloudflare-js-toolchain-1-800.webp 800w,
+            /static/img/posts/voidzero-cloudflare-js-toolchain/voidzero-cloudflare-js-toolchain-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/voidzero-cloudflare-js-toolchain/voidzero-cloudflare-js-toolchain-1.webp"
+    alt="VoidZero Cloudflare 합류로 이어진 JavaScript 툴체인 흐름"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 왜 이 뉴스가 그냥 회사 이동이 아닌가
 
@@ -80,7 +93,20 @@ VoidZero 스택은 이 지점에 잘 맞는다. Oxc는 Rust 기반 JavaScript la
 
 이 체크는 불신하자는 얘기가 아니다. 좋은 도구일수록 더 넓게 쓰이기 때문에, 중립성은 나중에 따지는 윤리 문제가 아니라 운영 리스크가 된다. 특히 사내 공통 템플릿, 디자인 시스템, monorepo build pipeline에 Vite가 들어가 있다면 더 그렇다. 빌드 도구는 바꾸기 쉽지 않다.
 
-![Vite와 Rolldown이 Cloudflare 인프라와 만나는 구조](/static/img/posts/voidzero-cloudflare-js-toolchain/voidzero-cloudflare-js-toolchain-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/voidzero-cloudflare-js-toolchain/voidzero-cloudflare-js-toolchain-2-400.webp 400w,
+            /static/img/posts/voidzero-cloudflare-js-toolchain/voidzero-cloudflare-js-toolchain-2-800.webp 800w,
+            /static/img/posts/voidzero-cloudflare-js-toolchain/voidzero-cloudflare-js-toolchain-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/voidzero-cloudflare-js-toolchain/voidzero-cloudflare-js-toolchain-2.webp"
+    alt="Vite와 Rolldown이 Cloudflare 인프라와 만나는 구조"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 나는 이걸 긍정적으로 보되 경계도 남겨둔다
 
