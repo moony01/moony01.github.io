@@ -35,6 +35,7 @@ disable_ads: true
         <p>Docker, PostgreSQL, pgvector, FastAPI, MCP, Markdown/Obsidian.</p>
       </div>
     </section>
+
   </div>
 
   <div class="portfolio-detail-stack">
@@ -85,6 +86,22 @@ disable_ads: true
       <figcaption>
         <strong>FastAPI API 계층과 MCP 확장 경계</strong>
         <p>문서 조회, 업로드, 벡터 생성, chunk 조회, 검색, audit log endpoint를 FastAPI로 분리했습니다. Console과 Agent가 같은 API 계층을 사용할 수 있고, MCP tool은 이 API를 감싸는 방식으로 확장할 수 있게 설계했습니다.</p>
+      </figcaption>
+    </figure>
+
+    <figure class="portfolio-detail-block">
+      <div class="portfolio-terminal-proof-grid" aria-label="MCP stdio evidence screenshot">
+        <a class="portfolio-detail-block__image portfolio-detail-block__image--terminal-proof" href="/static/img/portfolio/plozen-knowledge/mcp-tool-smoke-test.png" target="_blank" rel="noopener" aria-label="MCP tool smoke test 증적 이미지 크게 보기">
+          <picture>
+            <source media="(max-width: 700px)" srcset="/static/img/portfolio/plozen-knowledge/mcp-tool-smoke-test-mobile.png">
+            <img src="/static/img/portfolio/plozen-knowledge/mcp-tool-smoke-test.png" alt="MCP tool smoke test 터미널 캡처. tools/list, list_sources, get_source, search_knowledge 호출이 모두 OK로 표시됩니다." width="1188" height="259" loading="lazy" decoding="async">
+          </picture>
+        </a>
+      </div>
+      <figcaption>
+        <strong>MCP stdio 연결</strong>
+        <p>FastAPI Knowledge API 위에 <b>search_knowledge, list_sources, get_source</b> 도구를 제공하는 stdio MCP Server를 붙였습니다. Codex는 로컬 설정에서 SSH runner를 호출하고, 서버 측 runner가 Knowledge API를 감싸는 방식으로 에이전트 세션에서 내부 지식 검색 도구를 사용할 수 있게 했습니다.</p>
+        <p>현재 단계는 포트를 외부로 열지 않는 <b>stdio MCP 연결 완료</b> 상태입니다. JSON-RPC <b>tools/list</b>와 <b>tools/call</b> smoke test로 도구 노출과 list_sources 호출 흐름을 확인했고, HTTP/streamable-http MCP는 인증, 방화벽, rate limit, 로그 기준을 먼저 설계한 뒤 별도 단계로 분리합니다.</p>
       </figcaption>
     </figure>
   </div>
