@@ -5,7 +5,7 @@ description: "AI 컴퓨트 수요가 클라우드 조달 방식을 어떻게 바
 date: 2026-06-07 14:08:00 +0900
 categories: [infra]
 tags: [AI컴퓨트, 데이터센터, 클라우드인프라]
-image: google-spacex-ai-compute/google-spacex-ai-compute-1.png
+image: google-spacex-ai-compute/google-spacex-ai-compute-1.webp
 lang: ko
 published: true
 ---
@@ -14,7 +14,20 @@ AI 컴퓨트 얘기는 이제 모델 성능 기사보다 더 자주 보게 된�
 
 처음 이 뉴스를 봤을 때 느낌은 “또 거대한 GPU 계약이네” 정도였다. 근데 조금 더 보면 이건 단순한 임대 계약보다 운영 쪽 신호가 더 강하다. AI 제품 경쟁이 모델 발표에서 끝나는 게 아니라, 누가 먼저 안정적인 컴퓨트 공급선을 잡느냐로 내려오고 있다는 얘기다.
 
-![AI 컴퓨트 계약 구조를 밝은 데이터센터 맵으로 표현한 그림](/static/img/posts/google-spacex-ai-compute/google-spacex-ai-compute-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/google-spacex-ai-compute/google-spacex-ai-compute-1-400.webp 400w,
+            /static/img/posts/google-spacex-ai-compute/google-spacex-ai-compute-1-800.webp 800w,
+            /static/img/posts/google-spacex-ai-compute/google-spacex-ai-compute-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/google-spacex-ai-compute/google-spacex-ai-compute-1.webp"
+    alt="AI 컴퓨트 계약 구조를 밝은 데이터센터 맵으로 표현한 그림"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 이전에도 서버 메모리 병목을 다루면서 [mimalloc이 다시 뜬 이유](/infra/2026/05/24/mimalloc-server-memory-bottleneck.html)를 썼는데, 이번 건은 훨씬 위쪽 레이어다. 한 서버의 병목이 아니라, 제품 전체의 성장 속도를 좌우하는 컴퓨트 조달 병목이다.
 
@@ -44,7 +57,20 @@ Hacker News에서도 이 기사는 빠르게 올라왔다. 포인트 수 자체�
 
 Google Cloud의 AI Hypercomputer 문서를 보면 Google도 AI 인프라를 단일 부품이 아니라 TPU, GPU, 네트워크, 스토리지, 소프트웨어를 묶은 시스템으로 설명한다. 그러니까 이번 보도는 “GPU가 부족해서 빌렸다” 정도로만 보면 조금 얕다. 실제 메시지는 AI 컴퓨트가 하나의 공급망이 됐다는 쪽에 가깝다.
 
-![AI 컴퓨트 수요와 GPU 공급 병목을 비교한 인프라 다이어그램](/static/img/posts/google-spacex-ai-compute/google-spacex-ai-compute-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/google-spacex-ai-compute/google-spacex-ai-compute-2-400.webp 400w,
+            /static/img/posts/google-spacex-ai-compute/google-spacex-ai-compute-2-800.webp 800w,
+            /static/img/posts/google-spacex-ai-compute/google-spacex-ai-compute-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/google-spacex-ai-compute/google-spacex-ai-compute-2.webp"
+    alt="AI 컴퓨트 수요와 GPU 공급 병목을 비교한 인프라 다이어그램"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## 개발팀 입장에서 달라지는 것
 
