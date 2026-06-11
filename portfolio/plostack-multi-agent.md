@@ -41,7 +41,7 @@ disable_ads: true
   <div class="portfolio-detail-stack">
     <figure class="portfolio-detail-block">
       <a class="portfolio-detail-block__image portfolio-detail-block__image--og" href="https://github.com/plozen/plozen-public-plugins" target="_blank" rel="noopener" aria-label="Plostack 공개 마켓플레이스 저장소 열기">
-        <img src="https://opengraph.githubassets.com/plozen-public-plugins/plozen/plozen-public-plugins" alt="Plostack Public Marketplace GitHub 저장소 Open Graph 이미지" width="1200" height="600" loading="eager" decoding="async">
+        <img src="/static/img/portfolio/plostack-multi-agent/plozen-public-plugins-repository.png" alt="Plostack Public Marketplace GitHub 저장소 스크린샷" width="1600" height="1000" loading="eager" decoding="async">
       </a>
       <figcaption>
         <strong>Plostack harness로 작업 분류와 검증 절차를 표준화</strong>

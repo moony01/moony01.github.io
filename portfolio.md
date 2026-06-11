@@ -25,7 +25,7 @@ hide_subpage_hero: true
         </div>
 
         <div class="portfolio-profile-block">
-          <p class="portfolio-profile-line">한문희 / Software Engineer · AI Automation Engineer · Multi-Agent Systems &amp; On-Prem LLM</p>
+          <p class="portfolio-profile-line">한문희 / Software Engineer · AI/AX Automation Engineer · Enterprise Workflow Automation</p>
           <nav class="portfolio-profile-links" aria-label="Service and proof links">
             <span>SERVICE &amp; PROOF LINKS</span>
             <a href="https://github.com/moony01">GitHub</a>
