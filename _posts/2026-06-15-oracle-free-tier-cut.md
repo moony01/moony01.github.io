@@ -5,7 +5,7 @@ description: "오라클 Ampere A1 무료 한도 축소가 개인 서버와 작�
 date: 2026-06-15 14:20:00 +0900
 categories: [infra]
 tags: [OracleCloud, 무료서버, 클라우드비용, 인프라운영]
-image: oracle-free-tier-cut/oracle-free-tier-cut-1.png
+image: oracle-free-tier-cut/oracle-free-tier-cut-1.webp
 lang: ko
 published: true
 ---
@@ -14,7 +14,20 @@ published: true
 
 [GeekNews에 올라온 요약](https://news.hada.io/topic?id=30458)은 핵심을 짧게 정리했다. Ampere A1 무료 사용 한도가 기존 최대 4 OCPU와 24GB 메모리에서 2 OCPU와 12GB 메모리로 줄어들고, 기준을 넘는 사용량은 표준 요금 부과나 사용 중지 대상이 될 수 있다는 내용이다. 적용 시점도 6월 15일로 언급됐다. 공식 문서 쪽을 보면 [Oracle Always Free Resources](https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm)는 현재 Ampere A1에 대해 월 1,500 OCPU hours와 9,000 GB hours를 무료로 제공하며, Always Free 테넌시 기준으로 2 OCPU와 12GB 메모리에 해당한다고 설명한다.
 
-![오라클 무료 Arm 인스턴스 한도 축소와 클라우드 쿼터 대시보드](/static/img/posts/oracle-free-tier-cut/oracle-free-tier-cut-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/oracle-free-tier-cut/oracle-free-tier-cut-1-400.webp 400w,
+            /static/img/posts/oracle-free-tier-cut/oracle-free-tier-cut-1-800.webp 800w,
+            /static/img/posts/oracle-free-tier-cut/oracle-free-tier-cut-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/oracle-free-tier-cut/oracle-free-tier-cut-1.webp"
+    alt="오라클 무료 Arm 인스턴스 한도 축소와 클라우드 쿼터 대시보드"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -60,7 +73,20 @@ published: true
 
 나는 여기에 하나를 더 넣고 싶다. "삭제해도 되는 서버"와 "절대 날리면 안 되는 데이터"를 같은 인스턴스에 두지 않는 것이다. 무료 서버는 실험장이 되기 쉽다. 실험장이면 언제든 지우고 다시 만들 수 있어야 한다. 그런데 그 안에 DB 덤프, 인증서, 봇 설정, 오래된 로그까지 같이 쌓이면 갑자기 실험장이 아니라 복구 어려운 운영 서버가 된다. 한도가 줄어든 지금은 이 경계를 더 빨리 그어야 한다.
 
-![클라우드 무료 서버를 작은 노드로 나눠 운영하는 대시보드](/static/img/posts/oracle-free-tier-cut/oracle-free-tier-cut-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/oracle-free-tier-cut/oracle-free-tier-cut-2-400.webp 400w,
+            /static/img/posts/oracle-free-tier-cut/oracle-free-tier-cut-2-800.webp 800w,
+            /static/img/posts/oracle-free-tier-cut/oracle-free-tier-cut-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/oracle-free-tier-cut/oracle-free-tier-cut-2.webp"
+    alt="클라우드 무료 서버를 작은 노드로 나눠 운영하는 대시보드"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
