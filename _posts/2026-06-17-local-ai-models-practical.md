@@ -5,7 +5,7 @@ description: "로컬 AI 모델이 다시 주목받는 이유를 HN 논의와 Oll
 date: 2026-06-17 14:00:00 +0900
 categories: [ai]
 tags: [로컬AI, LLM, Ollama, llama.cpp, AI운영]
-image: local-ai-models-practical/local-ai-models-practical-1.png
+image: local-ai-models-practical/local-ai-models-practical-1.webp
 lang: ko
 published: true
 ---
@@ -14,7 +14,20 @@ published: true
 
 [Vicki Boykis의 글](https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/)이 Hacker News에서 크게 올라간 것도 그 지점 때문이라고 본다. [HN 토론](https://news.ycombinator.com/item?id=48555993)은 1,000점 넘는 반응과 수백 개 댓글이 붙었고, 댓글 분위기도 단순한 환호가 아니었다. “좋아졌다”와 “아직 귀찮다”가 같이 있었다. 개인적으로는 그게 더 현실적인 신호라고 느꼈다.
 
-![로컬 AI 모델이 개발자 노트북과 서버 작업대에서 함께 실행되는 밝은 운영 장면](/static/img/posts/local-ai-models-practical/local-ai-models-practical-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/local-ai-models-practical/local-ai-models-practical-1-400.webp 400w,
+            /static/img/posts/local-ai-models-practical/local-ai-models-practical-1-800.webp 800w,
+            /static/img/posts/local-ai-models-practical/local-ai-models-practical-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/local-ai-models-practical/local-ai-models-practical-1.webp"
+    alt="로컬 AI 모델이 개발자 노트북과 서버 작업대에서 함께 실행되는 밝은 운영 장면"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -52,7 +65,20 @@ published: true
 
 여기서 중요한 건 “전부 로컬로 가자”가 아니다. 오히려 반대다. 전부 로컬로 가면 품질과 운영 부담에서 막힌다. 대신 작업을 나누는 것이다. 민감한 초벌 요약은 로컬, 외부 공개 가능한 문서 다듬기는 클라우드, 깊은 설계 검토는 강한 원격 모델. 이런 식으로 모델 라우팅을 생각하게 된다.
 
-![로컬 AI 모델과 클라우드 모델을 작업 종류별로 나누는 밝은 기술 운영 다이어그램](/static/img/posts/local-ai-models-practical/local-ai-models-practical-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/local-ai-models-practical/local-ai-models-practical-2-400.webp 400w,
+            /static/img/posts/local-ai-models-practical/local-ai-models-practical-2-800.webp 800w,
+            /static/img/posts/local-ai-models-practical/local-ai-models-practical-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/local-ai-models-practical/local-ai-models-practical-2.webp"
+    alt="로컬 AI 모델과 클라우드 모델을 작업 종류별로 나누는 밝은 기술 운영 다이어그램"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
