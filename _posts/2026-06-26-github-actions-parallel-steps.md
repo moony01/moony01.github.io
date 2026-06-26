@@ -5,7 +5,7 @@ description: "GitHub Actions 병렬 스텝이 background·wait·parallel 키워�
 date: 2026-06-26 12:00:00 +0900
 categories: [infra]
 tags: [GitHubActions, CI/CD, 병렬빌드, DevOps, 자동화]
-image: github-actions-parallel-steps/github-actions-parallel-steps-1.png
+image: github-actions-parallel-steps/github-actions-parallel-steps-1.webp
 lang: ko
 published: true
 ---
@@ -20,7 +20,20 @@ GitHub Actions 병렬 스텝 소식을 보고 제일 먼저 든 생각은 이거
 
 나는 이 기능을 “빌드가 빨라졌다”보다 “CI 흐름을 더 솔직하게 적을 수 있게 됐다”로 보고 있다. 지금까지 많은 워크플로우가 순차 실행처럼 보였지만 실제 의도는 병렬이었다. 서버 띄워놓고 테스트 돌리기, 프론트와 백엔드 빌드 동시에 걸기, 패키징 중에 텔레메트리 업로드하기 같은 작업 말이다.
 
-![GitHub Actions 병렬 스텝이 CI 파이프라인을 나누는 밝은 다이어그램](/static/img/posts/github-actions-parallel-steps/github-actions-parallel-steps-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/github-actions-parallel-steps/github-actions-parallel-steps-1-400.webp 400w,
+            /static/img/posts/github-actions-parallel-steps/github-actions-parallel-steps-1-800.webp 800w,
+            /static/img/posts/github-actions-parallel-steps/github-actions-parallel-steps-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/github-actions-parallel-steps/github-actions-parallel-steps-1.webp"
+    alt="GitHub Actions 병렬 스텝이 CI 파이프라인을 나누는 밝은 다이어그램"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## GitHub Actions 병렬 스텝은 무엇이 달라졌나
 
@@ -111,7 +124,20 @@ steps:
 
 다만 너무 많은 step을 한 job 안에 몰아넣으면 또 다른 문제가 생긴다. Docs 기준으로 한 job 안에서 동시에 실행되는 background step은 최대 10개다. 이 제한 자체보다 중요한 건, 한 job 안의 병렬성이 커질수록 job 경계가 흐려진다는 점이다.
 
-![background와 wait로 병렬 작업을 조율하는 GitHub Actions 흐름](/static/img/posts/github-actions-parallel-steps/github-actions-parallel-steps-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/github-actions-parallel-steps/github-actions-parallel-steps-2-400.webp 400w,
+            /static/img/posts/github-actions-parallel-steps/github-actions-parallel-steps-2-800.webp 800w,
+            /static/img/posts/github-actions-parallel-steps/github-actions-parallel-steps-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/github-actions-parallel-steps/github-actions-parallel-steps-2.webp"
+    alt="background와 wait로 병렬 작업을 조율하는 GitHub Actions 흐름"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 ## job 병렬과 step 병렬을 섞는 기준
 
