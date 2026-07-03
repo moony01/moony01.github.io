@@ -5,7 +5,7 @@ description: "Atlassian이 DESIGN.md를 MCP·AI 스킬과 실험한 사례를 �
 date: 2026-07-03 12:09:06 +0900
 categories: [ai]
 tags: [DESIGNmd, Atlassian, AIUI, 디자인시스템, MCP]
-image: atlassian-design-md-ai-ui/atlassian-design-md-ai-ui-1.png
+image: atlassian-design-md-ai-ui/atlassian-design-md-ai-ui-1.webp
 lang: ko
 published: true
 ---
@@ -14,7 +14,20 @@ Atlassian DESIGN.md 글을 보고 제일 먼저 든 생각은 이거였다. 이�
 
 Atlassian은 자기들 디자인 시스템, MCP 서버, AI 스킬을 같이 놓고 `DESIGN.md`가 어디에 맞고 어디서 부족한지 테스트했다. 이게 중요한 이유는 단순하다. AI UI 작업에서 진짜 문제는 "모델이 UI를 못 그린다"가 아니라, 팀이 가진 시각적 판단 기준이 모델에게 안정적으로 전달되지 않는다는 데 있었기 때문이다.
 
-![Atlassian DESIGN.md와 AI UI 작업 흐름을 밝은 작업 보드로 표현한 이미지](/static/img/posts/atlassian-design-md-ai-ui/atlassian-design-md-ai-ui-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/atlassian-design-md-ai-ui/atlassian-design-md-ai-ui-1-400.webp 400w,
+            /static/img/posts/atlassian-design-md-ai-ui/atlassian-design-md-ai-ui-1-800.webp 800w,
+            /static/img/posts/atlassian-design-md-ai-ui/atlassian-design-md-ai-ui-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/atlassian-design-md-ai-ui/atlassian-design-md-ai-ui-1.webp"
+    alt="Atlassian DESIGN.md와 AI UI 작업 흐름을 밝은 작업 보드로 표현한 이미지"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -50,7 +63,20 @@ Atlassian 사례에서 재밌는 지점은 `DESIGN.md`를 고립된 문서로만
 
 `DESIGN.md`는 이 지점에서 의미가 있다. "이번 프롬프트가 좋았다"를 넘어서 "우리 팀 UI는 이런 밀도와 이런 대비를 기본값으로 둔다"를 남길 수 있다. 그러면 새 페이지를 만들 때마다 미감이 리셋되는 문제가 줄어든다. AI가 디자이너를 대체한다는 얘기보다, AI에게 줄 기본 업무 환경을 만든다는 얘기에 더 가깝다.
 
-![DESIGN.md가 토큰, MCP, AI 스킬, UI 초안을 연결하는 밝은 다이어그램](/static/img/posts/atlassian-design-md-ai-ui/atlassian-design-md-ai-ui-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/atlassian-design-md-ai-ui/atlassian-design-md-ai-ui-2-400.webp 400w,
+            /static/img/posts/atlassian-design-md-ai-ui/atlassian-design-md-ai-ui-2-800.webp 800w,
+            /static/img/posts/atlassian-design-md-ai-ui/atlassian-design-md-ai-ui-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/atlassian-design-md-ai-ui/atlassian-design-md-ai-ui-2.webp"
+    alt="DESIGN.md가 토큰, MCP, AI 스킬, UI 초안을 연결하는 밝은 다이어그램"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
