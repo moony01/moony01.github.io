@@ -5,7 +5,7 @@ description: "GPT-5.6 Sol 프리뷰와 Codex 화제에서 봐야 할 건 모델 
 date: 2026-07-06 12:04:50 +0900
 categories: [ai]
 tags: [GPT56Sol, Codex, AI에이전트, 운영기준, Copilot]
-image: gpt56-sol-codex-ops/gpt56-sol-codex-ops-1.png
+image: gpt56-sol-codex-ops/gpt56-sol-codex-ops-1.webp
 lang: ko
 published: true
 ---
@@ -14,7 +14,20 @@ GPT-5.6 Sol 프리뷰를 보면서 제일 먼저 든 생각은 이거였다. 모
 
 OpenAI는 GPT-5.6 Sol을 코딩, 과학, 사이버보안 능력이 강화된 차세대 모델로 소개했다. 동시에 Hacker News에는 “GPT-5.6 Sol Ultra가 Codex에 들어간다”는 이야기가 프론트페이지에 올라왔다. 이 조합이 묘하다. 공식 발표가 말하는 건 모델 성능인데, 개발자들이 바로 상상하는 건 “그럼 내 에이전트가 얼마나 오래, 얼마나 많이, 얼마나 위험한 일을 대신할 수 있나” 쪽이다.
 
-![GPT-5.6 Sol과 Codex 에이전트 운영 흐름을 밝은 제어판으로 표현한 이미지](/static/img/posts/gpt56-sol-codex-ops/gpt56-sol-codex-ops-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/gpt56-sol-codex-ops/gpt56-sol-codex-ops-1-400.webp 400w,
+            /static/img/posts/gpt56-sol-codex-ops/gpt56-sol-codex-ops-1-800.webp 800w,
+            /static/img/posts/gpt56-sol-codex-ops/gpt56-sol-codex-ops-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/gpt56-sol-codex-ops/gpt56-sol-codex-ops-1.webp"
+    alt="GPT-5.6 Sol과 Codex 에이전트 운영 흐름을 밝은 제어판으로 표현한 이미지"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -54,7 +67,20 @@ GitHub Changelog도 비슷한 신호를 여러 개 냈다. Copilot agent session
 
 특히 개인 access token을 덜 쓰는 흐름은 좋다. 에이전트가 CI에서 움직이기 시작하면 토큰 관리는 바로 사고 지점이 된다. 개인 토큰으로 자동화를 붙이면 퇴사, 권한 변경, 유출, 감사 로그가 전부 지저분해진다. AI 에이전트가 팀 인프라 안에 들어올수록 이런 작은 인증 개선이 성능 발표만큼 중요해진다.
 
-![Codex, Copilot, CI, 리뷰 로그가 하나의 에이전트 운영 루프로 연결된 밝은 다이어그램](/static/img/posts/gpt56-sol-codex-ops/gpt56-sol-codex-ops-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/gpt56-sol-codex-ops/gpt56-sol-codex-ops-2-400.webp 400w,
+            /static/img/posts/gpt56-sol-codex-ops/gpt56-sol-codex-ops-2-800.webp 800w,
+            /static/img/posts/gpt56-sol-codex-ops/gpt56-sol-codex-ops-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/gpt56-sol-codex-ops/gpt56-sol-codex-ops-2.webp"
+    alt="Codex, Copilot, CI, 리뷰 로그가 하나의 에이전트 운영 루프로 연결된 밝은 다이어그램"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
