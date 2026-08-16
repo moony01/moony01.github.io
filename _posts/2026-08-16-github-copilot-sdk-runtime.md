@@ -5,14 +5,27 @@ description: "GitHub Copilot SDK가 GA로 전환됐다. JSON-RPC 런타임, BYOK
 date: 2026-08-16 17:40:00 +0900
 categories: [github]
 tags: [GitHubCopilot, CopilotSDK, AI에이전트, JSONRPC, BYOK]
-image: github-copilot-sdk-runtime/github-copilot-sdk-runtime-1.png
+image: github-copilot-sdk-runtime/github-copilot-sdk-runtime-1.webp
 lang: ko
 published: true
 ---
 
 GitHub Copilot SDK가 정식 출시됐다는 소식을 보고 처음 든 생각은 “이제 Copilot을 API로 부를 수 있나?”가 아니었다. 더 정확히는, Copilot CLI가 하던 일을 애플리케이션 안에 얼마나 안전하게 끼워 넣을 수 있느냐가 궁금했다. GitHub는 SDK를 Copilot CLI와 같은 에이전트 런타임을 프로그램에서 호출하는 방법으로 설명한다. 자동완성 라이브러리 하나가 추가된 게 아니라, 계획·도구 호출·파일 수정까지 포함한 실행 루프를 서비스에 붙이는 선택지가 생긴 셈이다.
 
-![GitHub Copilot SDK 에이전트 런타임과 애플리케이션 연결 구조를 표현한 밝은 기술 일러스트](/static/img/posts/github-copilot-sdk-runtime/github-copilot-sdk-runtime-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/github-copilot-sdk-runtime/github-copilot-sdk-runtime-1-400.webp 400w,
+            /static/img/posts/github-copilot-sdk-runtime/github-copilot-sdk-runtime-1-800.webp 800w,
+            /static/img/posts/github-copilot-sdk-runtime/github-copilot-sdk-runtime-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/github-copilot-sdk-runtime/github-copilot-sdk-runtime-1.webp"
+    alt="GitHub Copilot SDK 에이전트 런타임과 애플리케이션 연결 구조를 표현한 밝은 기술 일러스트"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -44,7 +57,20 @@ Copilot SDK 문서에는 기본적으로 Copilot CLI의 퍼스트파티 도구�
 
 이전 글에서 [Codex 운영 기준과 긴 에이전트 작업](/ai/2026/07/06/gpt56-sol-codex-ops.html)을 정리하면서도 비슷한 결론에 도달했다. 모델이 좋아질수록 맡기는 작업이 길어진다. 작업이 길어질수록 실행 권한과 중단 기준은 모델 성능보다 중요해진다. Copilot SDK도 이 흐름의 예외가 아니다.
 
-![Copilot SDK의 도구 승인과 세션 격리를 밝은 보안 제어 흐름으로 표현한 기술 일러스트](/static/img/posts/github-copilot-sdk-runtime/github-copilot-sdk-runtime-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/github-copilot-sdk-runtime/github-copilot-sdk-runtime-2-400.webp 400w,
+            /static/img/posts/github-copilot-sdk-runtime/github-copilot-sdk-runtime-2-800.webp 800w,
+            /static/img/posts/github-copilot-sdk-runtime/github-copilot-sdk-runtime-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/github-copilot-sdk-runtime/github-copilot-sdk-runtime-2.webp"
+    alt="Copilot SDK의 도구 승인과 세션 격리를 밝은 보안 제어 흐름으로 표현한 기술 일러스트"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
