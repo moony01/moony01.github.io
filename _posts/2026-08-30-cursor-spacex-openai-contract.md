@@ -5,7 +5,7 @@ description: "스페이스X의 커서 인수와 OpenAI 모델 공급 종료 예�
 date: 2026-08-30 15:00:00 +0900
 categories: [ai]
 tags: [Cursor, SpaceX, OpenAI, AI코딩, 모델의존성]
-image: cursor-spacex-openai-contract/cursor-spacex-openai-contract-1.png
+image: cursor-spacex-openai-contract/cursor-spacex-openai-contract-1.webp
 lang: ko
 published: true
 ---
@@ -16,7 +16,20 @@ published: true
 
 이번 글에서는 확인된 사실과 그 사실에서 도출한 해석을 나눠 본다. 인수 자체의 승패를 예측하기보다, 특정 모델을 에디터에서 호출해 쓰는 개발자가 무엇을 점검해야 하는지에 초점을 맞춘다. AI 코딩 도구의 경쟁력이 모델 점수 하나가 아니라 공급자 변경에 견디는 운영 경계에서 드러나는 시점이기 때문이다.
 
-![SpaceX 인수 뒤 AI 코딩 도구의 모델 공급 경계를 보여주는 기술 일러스트](/static/img/posts/cursor-spacex-openai-contract/cursor-spacex-openai-contract-1.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/cursor-spacex-openai-contract/cursor-spacex-openai-contract-1-400.webp 400w,
+            /static/img/posts/cursor-spacex-openai-contract/cursor-spacex-openai-contract-1-800.webp 800w,
+            /static/img/posts/cursor-spacex-openai-contract/cursor-spacex-openai-contract-1.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/cursor-spacex-openai-contract/cursor-spacex-openai-contract-1.webp"
+    alt="SpaceX 인수 뒤 AI 코딩 도구의 모델 공급 경계를 보여주는 기술 일러스트"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
@@ -82,7 +95,20 @@ SpaceX의 투자설명서는 Cursor와의 컴퓨트 협력에서 데이터셋과
 
 이 목록은 특정 기업을 의심하기 위한 것이 아니다. AI 코딩 도구가 여러 모델과 서비스를 묶는 순간, 데이터 책임이 한 회사의 이름으로 설명되지 않기 때문에 필요한 기본 확인이다. 공급자가 바뀌어도 내 코드의 이동 경로를 설명할 수 있어야 한다.
 
-![AI 코딩 모델을 바꿀 때 필요한 라우팅과 권한 및 롤백 흐름](/static/img/posts/cursor-spacex-openai-contract/cursor-spacex-openai-contract-2.png){: .wd100}
+<picture>
+  <source
+    type="image/webp"
+    srcset="/static/img/posts/cursor-spacex-openai-contract/cursor-spacex-openai-contract-2-400.webp 400w,
+            /static/img/posts/cursor-spacex-openai-contract/cursor-spacex-openai-contract-2-800.webp 800w,
+            /static/img/posts/cursor-spacex-openai-contract/cursor-spacex-openai-contract-2.webp 1200w"
+    sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px">
+  <img
+    src="/static/img/posts/cursor-spacex-openai-contract/cursor-spacex-openai-contract-2.webp"
+    alt="AI 코딩 모델을 바꿀 때 필요한 라우팅과 권한 및 롤백 흐름"
+    class="wd100"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 {% include pre-version.html %}
 
