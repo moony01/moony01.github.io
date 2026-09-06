@@ -9,24 +9,41 @@ layout: null
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+
   {% for post in site.posts %}
+  {% unless post.noindex %}
   <url>
-    <loc>{{ post.url | prepend: site.baseurl | prepend: site.url }}</loc>
-    <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+    <loc>{{ post.url | prepend: site.baseurl | prepend: site.url | xml_escape }}</loc>
+    <lastmod>{{ post.last_modified_at | default: post.date | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  {% endunless %}
   {% endfor %}
+
   {% for page in site.pages %}
-  {% if page.layout == 'posts_by_category' %}
+  {% assign page_path = page.url | default: '' %}
+  {% unless page_path == '/' or page_path == '/feed.xml' or page_path == '/sitemap.xml' or page_path == '/404.html' or page.noindex or page_path == '' %}
   <url>
-    <loc>{{ page.url | prepend: site.baseurl | prepend: site.url }}</loc>
-    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>{{ page_path | prepend: site.baseurl | prepend: site.url | xml_escape }}</loc>
+    <lastmod>{{ page.last_modified_at | default: page.date | default: site.time | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>{% if page.layout == 'posts_by_category' %}weekly{% else %}monthly{% endif %}</changefreq>
+    <priority>{% if page.layout == 'posts_by_category' %}0.6{% else %}0.7{% endif %}</priority>
+  </url>
+  {% endunless %}
+  {% endfor %}
+
+  {% for project in site.project %}
+  {% unless project.noindex %}
+  <url>
+    <loc>{{ project.url | prepend: site.baseurl | prepend: site.url | xml_escape }}</loc>
+    <lastmod>{{ project.last_modified_at | default: project.date | default: site.time | date: "%Y-%m-%d" }}</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-  {% endif %}
+  {% endunless %}
   {% endfor %}
+
   <url>
     <loc>https://moony01.com/kpopface/</loc>
     <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
