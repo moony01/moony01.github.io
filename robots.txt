@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /404.html
 Disallow: /kpopface/doc/
 
 # Known obsolete generated/dev URLs reported by Search Console.

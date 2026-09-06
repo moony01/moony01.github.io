@@ -52,9 +52,17 @@ plugins:
   - jekyll-redirect-from
 
 # 빌드에서 제외할 파일/디렉토리
+include:
+  - .well-known
+
 exclude:
   - nul
   - CLAUDE.md
+  - DESIGN.md
+  - SECURITY.md
+  - doc
+  - docs
+  - design-lab
   - node_modules
   - package.json
   - package-lock.json

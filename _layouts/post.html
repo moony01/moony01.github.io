@@ -45,8 +45,7 @@ layout: default
         src="/static/img/posts/{{ page.image }}"
         alt="{{ page.title }}"
         loading="lazy"
-        decoding="async"
-        onerror="this.parentElement.parentElement.style.display='none'">
+        decoding="async">
     </picture>
   </div>
   {% endif %}
@@ -56,54 +55,7 @@ layout: default
     {{ content }}
   </div>
 
-  <script>
-    (function () {
-      function getFilename(url) {
-        if (!url) return "";
-
-        try {
-          var parsed = new URL(url, window.location.origin);
-          return parsed.pathname.split("/").pop().toLowerCase();
-        } catch (error) {
-          return url
-            .split("?")[0]
-            .split("#")[0]
-            .split("/")
-            .pop()
-            .toLowerCase();
-        }
-      }
-
-      function removeDuplicateLeadImage() {
-        var featuredImage = document.querySelector(".post-article__featured-image img");
-        var contentRoot = document.querySelector(".post-article__content");
-
-        if (!featuredImage || !contentRoot) return;
-
-        var firstContentImage = contentRoot.querySelector("picture img, img");
-        if (!firstContentImage) return;
-
-        var featuredName = getFilename(featuredImage.currentSrc || featuredImage.src);
-        var contentName = getFilename(firstContentImage.currentSrc || firstContentImage.src);
-
-        if (!featuredName || featuredName !== contentName) return;
-
-        var removable = firstContentImage.closest("p, figure") || firstContentImage.closest("picture");
-
-        if (removable) {
-          removable.remove();
-        } else {
-          firstContentImage.remove();
-        }
-      }
-
-      if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", removeDuplicateLeadImage);
-      } else {
-        removeDuplicateLeadImage();
-      }
-    })();
-  </script>
+  <script src="/static/js/post.js"></script>
 
   <!-- Ad -->
   <div class="post-article__ad">
@@ -133,6 +85,7 @@ layout: default
   <div class="post-article__share">
     {% include share-page.html %}
   </div>
+  <script src="/static/js/share.js"></script>
 
   <!-- Tags -->
   {% if page.tags and page.tags.size > 0 %}

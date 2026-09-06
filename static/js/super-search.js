@@ -27,6 +27,18 @@
     return node && node.textContent ? node.textContent.trim() : "";
   }
 
+  function normalizeLink(value) {
+    if (!value) return "";
+
+    try {
+      var parsed = new URL(value, window.location.origin);
+      if (parsed.protocol !== "http:" && parsed.protocol !== "https:") return "";
+      return parsed.href;
+    } catch (error) {
+      return "";
+    }
+  }
+
   function parseFeed(xmlDoc) {
     var items = xmlDoc.getElementsByTagName("item");
     var result = [];
@@ -34,7 +46,7 @@
     for (var i = 0; i < items.length; i += 1) {
       var item = items[i];
       var title = getText(item, "title");
-      var link = getText(item, "link");
+      var link = normalizeLink(getText(item, "link"));
 
       if (!title || !link) continue;
 
@@ -55,7 +67,7 @@
 
     for (var i = 0; i < urls.length; i += 1) {
       var url = urls[i];
-      var link = getText(url, "loc");
+      var link = normalizeLink(getText(url, "loc"));
       if (!link) continue;
 
       var pathname = "";
@@ -169,11 +181,32 @@
     setActive(true);
     searchResultsEl.classList.remove("is-hidden");
     searchResultsEl.style.display = "block";
-    searchResultsEl.innerHTML = matchingPosts.map(function (post) {
+    searchResultsEl.replaceChildren();
+    matchingPosts.forEach(function (post) {
+      var safeLink = normalizeLink(post.link);
+      if (!safeLink) return;
+
+      var resultItem = document.createElement("li");
+      var resultLink = document.createElement("a");
+      resultLink.href = safeLink;
+      resultLink.textContent = post.title || "제목 없음";
+
+      if (new URL(safeLink, window.location.origin).origin !== window.location.origin) {
+        resultLink.target = "_blank";
+        resultLink.rel = "noopener noreferrer";
+      }
+
+      resultItem.appendChild(resultLink);
       var dateLabel = formatDate(post.pubDate);
-      var dateHtml = dateLabel ? '<span class="search__result-date super-search__result-date">' + dateLabel + "</span>" : "";
-      return '<li><a href="' + post.link + '">' + post.title + dateHtml + "</a></li>";
-    }).join("");
+      if (dateLabel) {
+        var dateElement = document.createElement("span");
+        dateElement.className = "search__result-date super-search__result-date";
+        dateElement.textContent = dateLabel;
+        resultLink.appendChild(dateElement);
+      }
+
+      searchResultsEl.appendChild(resultItem);
+    });
 
     lastSearchResultHash = currentResultHash;
   }
